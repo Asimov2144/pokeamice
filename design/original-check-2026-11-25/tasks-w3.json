@@ -1,0 +1,250 @@
+[
+ {
+  "stem": "2000-07-01-interview-nom-genesis-gamefreak",
+  "source_url": "https://www.nintendo.co.jp/nom/0007/gfreak/index.html",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 0,
+    "O": "プロローグ：『ポケットモンスター』を生み出した男たち"
+   },
+   {
+    "row": 7,
+    "O": "第1章：ゲーム内容が決まるまで――通信交換の発想と151匹への挑戦"
+   },
+   {
+    "row": 23,
+    "O": "第2章：キャラクターが決まるまで――属性の誕生と最初のポケモン"
+   },
+   {
+    "row": 33,
+    "O": "第3章：何度も作り直されたポケモン――破壊と構築のゲームフリーク流"
+   }
+  ],
+  "n_rows": 46
+ },
+ {
+  "stem": "2000-07-01-interview-nom-gold-silver-gamefreak",
+  "source_url": "https://web.archive.org/web/20001018042407/http://www.nintendo.co.jp/nom/0007/gfreak/page04.html",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 0,
+    "O": "第1章：『金・銀』への挑戦――关都からジョウトへ、技術と世界の跳躍"
+   },
+   {
+    "row": 18,
+    "O": "第2章：100万本の目標と社会現象――ガチャガチャに夢中になった制作者たち"
+   },
+   {
+    "row": 28,
+    "O": "第3章：ゲームフリークの開発哲学――「ポケモンを超えるもの」と「交換」の本質"
+   },
+   {
+    "row": 35,
+    "O": "第4章：クリエイター直伝！ ポケモン開発ウラ話ベスト5"
+   }
+  ],
+  "n_rows": 47
+ },
+ {
+  "stem": "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama",
+  "source_url": "https://www.4gamer.net/games/198/G019893/20131116014/",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 7,
+    "O": "フェアリータイプ追加の背景と対戦バランス"
+   },
+   {
+    "row": 10,
+    "O": "「聞いているだけで伝わる」ポケモン音楽の哲学"
+   },
+   {
+    "row": 19,
+    "O": "布拉塔诺博士设定公开与变拍子音乐暗线"
+   },
+   {
+    "row": 23,
+    "O": "现场问答环节：灵感来源、游戏音乐本质与法文片尾曲"
+   },
+   {
+    "row": 30,
+    "O": "钢琴独奏与全场纪念合影"
+   }
+  ],
+  "n_rows": 35
+ },
+ {
+  "stem": "2010-08-04-interview-cd-anime-ost-miyazaki-soundteam",
+  "source_url": "https://www.pocketmonsters.net/content/Miyazaki_Interview_Anime_OST",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 3,
+    "O": "Chapter 1: The Musical Roots of the Creators — Classical, Rock, and Synthesis"
+   },
+   {
+    "row": 12,
+    "O": "Chapter 2: Game Freak's Origins — Soundtracks, Brass Bands, and Chiptunes"
+   },
+   {
+    "row": 36,
+    "O": "Chapter 3: Transforming 8-Bit Chiptunes into Grand Orchestral Suites"
+   }
+  ],
+  "n_rows": 107
+ },
+ {
+  "stem": "2020-07-01-interview-canuch-gamefreak-office-architecture",
+  "source_url": "https://canuch.com/projects/game-freak",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 0,
+    "O": ""
+   },
+   {
+    "row": 9,
+    "O": ""
+   },
+   {
+    "row": 13,
+    "O": ""
+   },
+   {
+    "row": 18,
+    "O": ""
+   },
+   {
+    "row": 32,
+    "O": ""
+   }
+  ],
+  "n_rows": 53
+ },
+ {
+  "stem": "2019-10-24-interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd",
+  "source_url": "https://www.eurogamer.net/pokemon-sword-and-shield-junichi-masuda-shigeru-ohmori-interview",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 4,
+    "O": "Galarian Forms & Sirfetch'd: From Massive British Leeks to Chivalric Knights"
+   },
+   {
+    "row": 15,
+    "O": "Scouting the United Kingdom: Steam Trains, Scones, and Translating Culture"
+   },
+   {
+    "row": 24,
+    "O": "Confronting the National Dex Backlash: Creator Morale and Necessary Evolutionary Sacrifices"
+   },
+   {
+    "row": 30,
+    "O": "Team Yell, Marnie, and Pioneering Modern Open-World Mechanics"
+   }
+  ],
+  "n_rows": 41
+ },
+ {
+  "stem": "2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
+  "source_url": "https://www.eurogamer.net/junichi-masuda-on-pokemon-lets-gos-difficulty-meltans-reveal-and-the-future",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 3,
+    "O": "Why Kanto and Yellow? Bringing Pokémon to Kids without Smartphones"
+   },
+   {
+    "row": 10,
+    "O": "Difficulty and Modern Playstyles: Mobile Habits and Streamlined Traversal"
+   },
+   {
+    "row": 15,
+    "O": "Endgame for Hardcore Fans: Catch Combos and 151 Master Trainers"
+   },
+   {
+    "row": 20,
+    "O": "Retiring HMs: Solving the Classic 'Stranded on an Island' Dilemma"
+   },
+   {
+    "row": 25,
+    "O": "The Mystery of Meltan: A Deliberate Masterclass in Guerrilla Marketing"
+   },
+   {
+    "row": 35,
+    "O": "Open Worlds and the True Joy of Pokémon: 'More Than Just Hatching Eggs'"
+   }
+  ],
+  "n_rows": 44
+ },
+ {
+  "stem": "2014-11-01-interview-topofarmer-ideame-masuda-ohmori",
+  "source_url": "https://www.topofarmer.com/2014/11/01/cronica-ideame-kids-con-junichi-masuda-y-shigeru-ohmori/",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 2,
+    "O": "WHO’S THAT POKEMÓN?"
+   },
+   {
+    "row": 6,
+    "O": "Y un pescado se desplazó ahí para cubrirlo para Topofarmer. Tan elegante cómo se podía ser.  No os quejaréis, eh?"
+   },
+   {
+    "row": 24,
+    "O": "iDÉAME Kids 现场对话：增田顺一与大森滋面对面"
+   },
+   {
+    "row": 84,
+    "O": "活动尾声与花絮感言"
+   }
+  ],
+  "n_rows": 91
+ },
+ {
+  "stem": "2011-02-21-interview-nintendodream-bw-bridges-masuda",
+  "source_url": "http://pokemon-memo.com/2011/02/21/black-white-bridge/",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 0,
+    "O": "序言：「橋ゲー」と称されるほどの圧倒的こだわり"
+   },
+   {
+    "row": 18,
+    "O": "番外編：ハイリンクの橋（连入之桥）――皇居をモデルにした中央世界観"
+   },
+   {
+    "row": 19,
+    "O": "ハイリンクの橋については、イッシュ地方の中央部がニューヨークの「セントラルパーク」ではなく東京の「皇居」をモデルに着想されていることと密接に関連しています。外縁部から中心に向かって渡り、他プレイヤーの世界へとシームレスに侵入する構造が込められています。"
+   }
+  ],
+  "n_rows": 20
+ },
+ {
+  "stem": "2013-09-21-interview-nintendolife-2013-xy",
+  "source_url": "https://www.nintendolife.com/news/2013/09/interview_junichi_masuda_and_hironobu_yoshida_discuss_pokemon_x_and_y_mega_evolutions_and_the_2ds",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 14,
+    "O": "The theme of X and Y is 'beauty' and France matches that. 'Kalos' is actually an ancient Greek word that means 'beauty'."
+   },
+   {
+    "row": 20,
+    "O": "We had around 200 people working on the development of X and Y, as well as localisation staff. In the credits around 500 names that appear!"
+   },
+   {
+    "row": 36,
+    "O": "On page two we discuss the 2DS, Fairy type, Mega Evolutions and that rather intriguing Wii U teaser video."
+   },
+   {
+    "row": 50,
+    "O": "The most difficult thing about adding a new type of Pokémon is that it completely changes the balance of Pokémon battles."
+   }
+  ],
+  "n_rows": 67
+ }
+]

@@ -89,7 +89,7 @@ parallel_items:
   translation: 所以事不宜迟，我这就把活动的文字记录发上来。由本人整理，当时我在手机上疯狂打字，而且手机还开着自动更正。可能在某些简短的发言中我会搞混谁说了什么，记住，如果你们看到什么非常离谱的错误，那都是自动更正这只章鱼干的。
 - type: heading
   level: 2
-  original: iDÉAME Kids 现场对话：增田顺一与大森滋面对面
+  original: ""
   translation: iDÉAME Kids 现场对话：增田顺一与大森滋面对面
 - original: (Shigeru y Masuda se presentan :3)
   translation: （大森滋和增田顺一自我介绍 :3）
@@ -293,7 +293,7 @@ parallel_items:
   translation: （Lestonnac 学校的校长向他们赠送了学校和巴塞罗那的年鉴）
 - type: heading
   level: 2
-  original: 活动尾声与花絮感言
+  original: ""
   translation: 活动尾声与花絮感言
 - original: 'Fueron evacuando a los niños, y una vez hubo silencio en la sala los medios especializados y las televisiones pudieron llevar a cabo entrevistas con Ohmori y Masuda. Me refiero a TV3, TVE, y algunos medios que habían concertado previamente entrevistas con Nintendo. (DISCLAIMER: No hice entrevista personalizada. Por asuntos personales (PFC) no preparé preguntas ni envié ninguna petición de entrevista cara a cara. Je suís desolée 🙁  De todas formas el compañero de AreaJugones me comenta que a él, trabajando cómo community manager en una web con 10.000 usuarios únicos diarios, le habían dicho sus jefes que «nada de preguntas ni autógrafos, que ellos no eran Meri».)'
   translation: 孩子们被疏散，当大厅安静下来后，专业媒体和电视台得以对大森和增田进行采访。我指的是TV3、TVE，以及一些事先与任天堂预约采访的媒体。 （免责声明：我没有进行个人采访。由于个人事务（PFC），我没有准备问题，也没有发送任何面对面采访的请求。我很抱歉🙁 尽管如此，AreaJugones的同事告诉我，他在一个日活用户1万的网站担任社区经理，他的老板告诉他「不要提问也不要签名，他们不是梅里」。）

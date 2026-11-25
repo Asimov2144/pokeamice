@@ -1,0 +1,464 @@
+[
+ {
+  "stem": "2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title \"第197回\" matches.",
+  "page": "http://www.style.fm/as/05_column/shudo197.shtml"
+ },
+ {
+  "stem": "2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197",
+  "row": 1,
+  "verdict": "present",
+  "evidence": "Text appears in page body as written.",
+  "page": "http://www.style.fm/as/05_column/shudo197.shtml"
+ },
+ {
+  "stem": "2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197",
+  "row": 2,
+  "verdict": "present",
+  "evidence": "Text appears in page body as written.",
+  "page": "http://www.style.fm/as/05_column/shudo197.shtml"
+ },
+ {
+  "stem": "2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197",
+  "row": 3,
+  "verdict": "present",
+  "evidence": "Text appears in page body as written.",
+  "page": "http://www.style.fm/as/05_column/shudo197.shtml"
+ },
+ {
+  "stem": "2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197",
+  "row": 4,
+  "verdict": "present",
+  "evidence": "Text appears in page body as written.",
+  "page": "http://www.style.fm/as/05_column/shudo197.shtml"
+ },
+ {
+  "stem": "2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197",
+  "row": 5,
+  "verdict": "present",
+  "evidence": "Text appears in page body as written.",
+  "page": "http://www.style.fm/as/05_column/shudo197.shtml"
+ },
+ {
+  "stem": "2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Rows 21,37,55 (also heading-like, not in listed rows) not on page; page has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo197.shtml"
+ },
+ {
+  "stem": "2009-09-09-interview-takeshi-shudo-pokemon-memoir-ch196",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title \"第196回\" matches.",
+  "page": "http://www.style.fm/as/05_column/shudo196.shtml"
+ },
+ {
+  "stem": "2009-09-09-interview-takeshi-shudo-pokemon-memoir-ch196",
+  "row": 1,
+  "verdict": "present",
+  "evidence": "Text appears in page body as written.",
+  "page": "http://www.style.fm/as/05_column/shudo196.shtml"
+ },
+ {
+  "stem": "2009-09-09-interview-takeshi-shudo-pokemon-memoir-ch196",
+  "row": 2,
+  "verdict": "present",
+  "evidence": "Text appears in page body as written.",
+  "page": "http://www.style.fm/as/05_column/shudo196.shtml"
+ },
+ {
+  "stem": "2009-09-09-interview-takeshi-shudo-pokemon-memoir-ch196",
+  "row": 3,
+  "verdict": "present",
+  "evidence": "Text appears in page body as written.",
+  "page": "http://www.style.fm/as/05_column/shudo196.shtml"
+ },
+ {
+  "stem": "2009-09-09-interview-takeshi-shudo-pokemon-memoir-ch196",
+  "row": 4,
+  "verdict": "absent",
+  "evidence": "Page has no such heading; only prose mentions 点滴/プロは死んでも筆を離しません.",
+  "page": "http://www.style.fm/as/05_column/shudo196.shtml"
+ },
+ {
+  "stem": "2009-09-09-interview-takeshi-shudo-pokemon-memoir-ch196",
+  "row": 5,
+  "verdict": "present",
+  "evidence": "Text appears in page body as written.",
+  "page": "http://www.style.fm/as/05_column/shudo196.shtml"
+ },
+ {
+  "stem": "2009-09-09-interview-takeshi-shudo-pokemon-memoir-ch196",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Rows 17,26 (heading-like, beyond first 8) not on page; page has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo196.shtml"
+ },
+ {
+  "stem": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176",
+  "row": 1,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo176.shtml"
+ },
+ {
+  "stem": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176",
+  "row": 11,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo176.shtml"
+ },
+ {
+  "stem": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176",
+  "row": 30,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo176.shtml"
+ },
+ {
+  "stem": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176",
+  "row": 49,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo176.shtml"
+ },
+ {
+  "stem": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176",
+  "row": 67,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo176.shtml"
+ },
+ {
+  "stem": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Rows 76,78 appear out of page order vs original.",
+  "page": "http://www.style.fm/as/05_column/shudo176.shtml"
+ },
+ {
+  "stem": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 1,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo177.shtml"
+ },
+ {
+  "stem": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 28,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo177.shtml"
+ },
+ {
+  "stem": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 40,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo177.shtml"
+ },
+ {
+  "stem": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 74,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo177.shtml"
+ },
+ {
+  "stem": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": 100,
+  "verdict": "absent",
+  "evidence": "Only fragments (小田原の海) occur inside prose; heading itself not on page.",
+  "page": "http://www.style.fm/as/05_column/shudo177.shtml"
+ },
+ {
+  "stem": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Row 91 appears out of page order.",
+  "page": "http://www.style.fm/as/05_column/shudo177.shtml"
+ },
+ {
+  "stem": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+  "row": 1,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo166.shtml"
+ },
+ {
+  "stem": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+  "row": 5,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo166.shtml"
+ },
+ {
+  "stem": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+  "row": 9,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo166.shtml"
+ },
+ {
+  "stem": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+  "row": 13,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo166.shtml"
+ },
+ {
+  "stem": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+  "row": 16,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo166.shtml"
+ },
+ {
+  "stem": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+  "row": 19,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo166.shtml"
+ },
+ {
+  "stem": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+  "row": 23,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo166.shtml"
+ },
+ {
+  "stem": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+  "row": 28,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo166.shtml"
+ },
+ {
+  "stem": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 1,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo167.shtml"
+ },
+ {
+  "stem": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 5,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo167.shtml"
+ },
+ {
+  "stem": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 10,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo167.shtml"
+ },
+ {
+  "stem": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 15,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo167.shtml"
+ },
+ {
+  "stem": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 19,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo167.shtml"
+ },
+ {
+  "stem": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 26,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo167.shtml"
+ },
+ {
+  "stem": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+  "row": 31,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo167.shtml"
+ },
+ {
+  "stem": "2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180",
+  "row": 9,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo180.shtml"
+ },
+ {
+  "stem": "2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180",
+  "row": 25,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo180.shtml"
+ },
+ {
+  "stem": "2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180",
+  "row": 33,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo180.shtml"
+ },
+ {
+  "stem": "2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180",
+  "row": 63,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo180.shtml"
+ },
+ {
+  "stem": "2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180",
+  "row": 93,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo180.shtml"
+ },
+ {
+  "stem": "2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Rows 55,87 appear out of page order.",
+  "page": "http://www.style.fm/as/05_column/shudo180.shtml"
+ },
+ {
+  "stem": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+  "row": 1,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo185.shtml"
+ },
+ {
+  "stem": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+  "row": 10,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo185.shtml"
+ },
+ {
+  "stem": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+  "row": 38,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo185.shtml"
+ },
+ {
+  "stem": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+  "row": 54,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo185.shtml"
+ },
+ {
+  "stem": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+  "row": 82,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo185.shtml"
+ },
+ {
+  "stem": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+  "row": 96,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo185.shtml"
+ },
+ {
+  "stem": "2009-02-18-interview-takeshi-shudo-pokemon-memoir-ch175",
+  "row": 1,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo175.shtml"
+ },
+ {
+  "stem": "2009-02-18-interview-takeshi-shudo-pokemon-memoir-ch175",
+  "row": 23,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo175.shtml"
+ },
+ {
+  "stem": "2009-02-18-interview-takeshi-shudo-pokemon-memoir-ch175",
+  "row": 35,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo175.shtml"
+ },
+ {
+  "stem": "2009-02-18-interview-takeshi-shudo-pokemon-memoir-ch175",
+  "row": 57,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo175.shtml"
+ },
+ {
+  "stem": "2008-12-24-interview-takeshi-shudo-pokemon-memoir-ch169",
+  "row": 1,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo169.shtml"
+ },
+ {
+  "stem": "2008-12-24-interview-takeshi-shudo-pokemon-memoir-ch169",
+  "row": 5,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo169.shtml"
+ },
+ {
+  "stem": "2008-12-24-interview-takeshi-shudo-pokemon-memoir-ch169",
+  "row": 10,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo169.shtml"
+ },
+ {
+  "stem": "2008-12-24-interview-takeshi-shudo-pokemon-memoir-ch169",
+  "row": 14,
+  "verdict": "absent",
+  "evidence": "Quote 「オペラ座まんまじゃん」 occurs in prose; heading not on page.",
+  "page": "http://www.style.fm/as/05_column/shudo169.shtml"
+ },
+ {
+  "stem": "2008-12-24-interview-takeshi-shudo-pokemon-memoir-ch169",
+  "row": 17,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo169.shtml"
+ },
+ {
+  "stem": "2008-12-24-interview-takeshi-shudo-pokemon-memoir-ch169",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Rows 13,15 appear out of page order.",
+  "page": "http://www.style.fm/as/05_column/shudo169.shtml"
+ },
+ {
+  "stem": "2009-08-19-interview-takeshi-shudo-pokemon-memoir-ch195",
+  "row": 13,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo195.shtml"
+ },
+ {
+  "stem": "2009-08-19-interview-takeshi-shudo-pokemon-memoir-ch195",
+  "row": 32,
+  "verdict": "absent",
+  "evidence": "Heading text not on page; page body has no sub-headings.",
+  "page": "http://www.style.fm/as/05_column/shudo195.shtml"
+ },
+ {
+  "stem": "2009-08-19-interview-takeshi-shudo-pokemon-memoir-ch195",
+  "row": 40,
+  "verdict": "absent",
+  "evidence": "「ロケット団よ永遠に」 occurs only inside a prose sentence; heading not on page.",
+  "page": "http://www.style.fm/as/05_column/shudo195.shtml"
+ }
+]

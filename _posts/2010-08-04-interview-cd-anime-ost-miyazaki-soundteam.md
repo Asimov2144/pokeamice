@@ -36,7 +36,7 @@ parallel_items:
   alt: 动画OST精选集封面
 - type: heading
   level: 2
-  original: 'Chapter 1: The Musical Roots of the Creators — Classical, Rock, and Synthesis'
+  original: ""
   translation: 第1章：创作者的音乐原点——从武满彻、古典管弦到摇滚与合成器
 - speaker: 采访者（Media Factory）
   original: First, may I inquire about your musical roots, Shinji Miyazaki-san?
@@ -72,7 +72,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 'Chapter 2: Game Freak''s Origins — Soundtracks, Brass Bands, and Chiptunes'
+  original: ""
   translation: 第2章：GAME FREAK 的根基——电影原声、吹奏乐部与8位元点阵之魂
 - speaker: 采访者（Media Factory）
   original: Where do the musical roots of the Pokémon sound team lie?
@@ -168,7 +168,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 'Chapter 3: Transforming 8-Bit Chiptunes into Grand Orchestral Suites'
+  original: ""
   translation: 第3章：从8位元点阵音效到磅礴交响诗——动画管弦配器的创生秘辛
 - type: image
   image: /assets/img/interviews/2010-08-04-interview-cd-anime-ost-miyazaki-soundteam/cd_cover.jpg

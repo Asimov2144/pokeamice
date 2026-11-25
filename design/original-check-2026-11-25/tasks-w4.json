@@ -1,0 +1,170 @@
+[
+ {
+  "stem": "2019-10-24-interview-polygon-2019-swsh",
+  "source_url": "https://www.polygon.com/interviews/2019/10/24/20929597/game-freak-explains-the-1000-staff-missing-creatures-and-leek-size-of-pokemon-sword-and-shield/",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 50,
+    "O": "Vox Media has affiliate partnerships. These do not influence editorial content, though Vox Media may earn commissions for products purchased"
+   }
+  ],
+  "n_rows": 51
+ },
+ {
+  "stem": "2016-09-06-interview-pokemoncojp-2016-ohmori-sm",
+  "source_url": "https://www.pokemon.co.jp/ex/sun_moon/topics/160906_01.html",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 13,
+    "O": "2つの異なる"
+   },
+   {
+    "row": 14,
+    "O": "世界の秘密を徹底解剖"
+   }
+  ],
+  "n_rows": 15
+ },
+ {
+  "stem": "2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki",
+  "source_url": "https://www.famitsu.com/news/202104/30219491.html",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 7,
+    "O": "はい、石原社長にお計らいいただき、オリジナル版を手掛けられた大先輩方とお話しする機会を設けていただきました。そこでいただいた教えは、私たちの迷いを完全に消し去ってくれるものでした。\n\n先輩方がおっしゃっていたのは、「『ポケモンスナップ』の本質は、写真を撮ることそのもの以上に、“レ"
+   }
+  ],
+  "n_rows": 14
+ },
+ {
+  "stem": "2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers",
+  "source_url": "https://www.pokebeach.com/2010/09/pokemon-peer-interview-translations",
+  "all_rows_flagged": true,
+  "rows": [
+   {
+    "row": 0,
+    "O": ""
+   },
+   {
+    "row": 1,
+    "O": "Today we’re meeting with all of the graphic designers, who can be considered the parents of Pokemon.  To start, please tell us how you are i"
+   },
+   {
+    "row": 2,
+    "O": "I’m in charge as the 2D art director.  The GM of design.  I supervise the dot art (sprite graphics displayed on the game screen). I’ve been "
+   },
+   {
+    "row": 3,
+    "O": "I’m in charge of 2D graphics. I started with Pocket Monsters Diamond and Pearl, and this time I worked on the designs of the human character"
+   },
+   {
+    "row": 4,
+    "O": "Ibe and Tagami came on board at Game Freak when we were working on Pocket Monsters Platinum.  This is the first time they’ve made a game fro"
+   },
+   {
+    "row": 5,
+    "O": ""
+   }
+  ],
+  "n_rows": 49
+ },
+ {
+  "stem": "2013-09-20-interview-multiplayer-2013-xy",
+  "source_url": "https://multiplayer.it/articoli/123457-pokemon-x-quel-mostro-di-junichi-masuda.html",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 17,
+    "O": "Ci siamo tolti qualche curiosità su Pokémon X e Y intervistando Junichi Masuda"
+   },
+   {
+    "row": 32,
+    "O": "Hai notato errori?"
+   }
+  ],
+  "n_rows": 33
+ },
+ {
+  "stem": "2013-10-24-interview-onm-xy-sugimori",
+  "source_url": "http://web.archive.org/web/20131030135359/http://www.officialnintendomagazine.co.uk/55616/ken-sugimori-got-artists-block-during-pokemon-x-and-y-development/",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 4,
+    "O": "What do you think of the new Pokemon in Pokemon X and Y? Game Freak's series still has the X factor and here's Y..."
+   }
+  ],
+  "n_rows": 5
+ },
+ {
+  "stem": "2010-03-19-interview-gameinformer-masuda-morimoto-hgss",
+  "source_url": "https://www.gameinformer.com/b/features/archive/2010/03/19/game-freak-pokemon-interview.aspx",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 5,
+    "O": "Where did you get the idea for the pedometer peripheral bundled with HeartGold and SoulSilver? Ohmori: The idea came up when we thought abou"
+   },
+   {
+    "row": 6,
+    "O": "For fans who have already played Gold and Silver, what surprises can they expect to discover? Morimoto: As for the scenario, we tried to kee"
+   },
+   {
+    "row": 7,
+    "O": "There are tons of Pokémon in existence now. What’s the process internally for creating new Pokémon? How do you come up with concepts and nam"
+   },
+   {
+    "row": 8,
+    "O": "Do you think there’s still room for new players to jump into the Pokémon franchise? Do you think with the staggering number of Pok é mon in "
+   }
+  ],
+  "n_rows": 24
+ },
+ {
+  "stem": "2010-11-20-interview-nintendodream-201-sugimori-bw-characters",
+  "source_url": "https://w.atwiki.jp/bwhuman2/pages/83.html",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 27,
+    "O": "他にジムリとかポケモンのデザインについてがかなりあるから攻略本よりニンドリ買うのをお勧めする"
+   },
+   {
+    "row": 28,
+    "O": "ただしニンドリはフウロ(とちょっとアデク)までしかイラストが載ってない"
+   },
+   {
+    "row": 29,
+    "O": "アララギは開発中盤までは太ったおっさんだったとかいろいろ面白いぞ"
+   },
+   {
+    "row": 30,
+    "O": "各キャラクターのデザインについての要約"
+   }
+  ],
+  "n_rows": 105
+ },
+ {
+  "stem": "1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak",
+  "source_url": "http://content.time.com/time/magazine/article/0,9171,2040095,00.html",
+  "all_rows_flagged": false,
+  "rows": [
+   {
+    "row": 3,
+    "O": "From Bug-Catching Boy to Fanzine Pioneer: The Genesis of Game Freak"
+   },
+   {
+    "row": 24,
+    "O": "The Cable That Linked Living Beings: Dialogue Over Competition"
+   },
+   {
+    "row": 47,
+    "O": "The Myth of Mew, Mentorship with Miyamoto, and Fainting Over Dying"
+   }
+  ],
+  "n_rows": 94
+ }
+]

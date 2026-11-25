@@ -1,0 +1,527 @@
+[
+ {
+  "stem": "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title line matches",
+  "page": "http://www.style.fm/as/05_column/shudo140.shtml"
+ },
+ {
+  "stem": "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
+  "row": 1,
+  "verdict": "present",
+  "evidence": "Page opening paragraph (L3-4) matches",
+  "page": "http://www.style.fm/as/05_column/shudo140.shtml"
+ },
+ {
+  "stem": "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
+  "row": 2,
+  "verdict": "present",
+  "evidence": "Page L5-7 match",
+  "page": "http://www.style.fm/as/05_column/shudo140.shtml"
+ },
+ {
+  "stem": "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
+  "row": 3,
+  "verdict": "present",
+  "evidence": "Page L8-10 match; sentence end after 企画ありきで is reworded in post",
+  "page": "http://www.style.fm/as/05_column/shudo140.shtml"
+ },
+ {
+  "stem": "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
+  "row": 4,
+  "verdict": "absent",
+  "evidence": "No such sub-heading on page; text goes straight on from 企画書 discussion",
+  "page": "http://www.style.fm/as/05_column/shudo140.shtml"
+ },
+ {
+  "stem": "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
+  "row": 5,
+  "verdict": "present",
+  "evidence": "Page L55-56 and L64 (condensed/spliced with ……) match",
+  "page": "http://www.style.fm/as/05_column/shudo140.shtml"
+ },
+ {
+  "stem": "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Rows 8 (heading ピッピかピカチュウか？そして「愛してください」) and 9 (para 議事録の中には、ゲームの膨大な…) also not on page.",
+  "page": "http://www.style.fm/as/05_column/shudo140.shtml"
+ },
+ {
+  "stem": "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title line matches",
+  "page": "http://www.style.fm/as/05_column/shudo141.shtml"
+ },
+ {
+  "stem": "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
+  "row": 1,
+  "verdict": "present",
+  "evidence": "Page L3-7 match",
+  "page": "http://www.style.fm/as/05_column/shudo141.shtml"
+ },
+ {
+  "stem": "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
+  "row": 2,
+  "verdict": "absent",
+  "evidence": "No heading 大画面で…洗礼 on page; L41-44 are plain sentences",
+  "page": "http://www.style.fm/as/05_column/shudo141.shtml"
+ },
+ {
+  "stem": "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
+  "row": 3,
+  "verdict": "present",
+  "evidence": "Page L41-44 match",
+  "page": "http://www.style.fm/as/05_column/shudo141.shtml"
+ },
+ {
+  "stem": "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
+  "row": 4,
+  "verdict": "present",
+  "evidence": "Page L45-49 match",
+  "page": "http://www.style.fm/as/05_column/shudo141.shtml"
+ },
+ {
+  "stem": "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
+  "row": 5,
+  "verdict": "present",
+  "evidence": "Page L50-53 match",
+  "page": "http://www.style.fm/as/05_column/shudo141.shtml"
+ },
+ {
+  "stem": "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Row 6 heading (会議の「嵐のダメ出し人」と企画者の恐怖) also not on page; other rows fine.",
+  "page": "http://www.style.fm/as/05_column/shudo141.shtml"
+ },
+ {
+  "stem": "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title line matches",
+  "page": "http://www.style.fm/as/05_column/shudo142.shtml"
+ },
+ {
+  "stem": "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
+  "row": 1,
+  "verdict": "present",
+  "evidence": "Page L3-5 match (page has 構成術 where post has 構成案)",
+  "page": "http://www.style.fm/as/05_column/shudo142.shtml"
+ },
+ {
+  "stem": "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
+  "row": 2,
+  "verdict": "absent",
+  "evidence": "Chinese-language heading; page is Japanese only, no such line",
+  "page": "http://www.style.fm/as/05_column/shudo142.shtml"
+ },
+ {
+  "stem": "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
+  "row": 3,
+  "verdict": "absent",
+  "evidence": "Not on page; page has no 打怪升级/モンスター捕獲サイクル argument",
+  "page": "http://www.style.fm/as/05_column/shudo142.shtml"
+ },
+ {
+  "stem": "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
+  "row": 4,
+  "verdict": "absent",
+  "evidence": "Not on page; 感情のうねり/テンポ感 passage does not exist",
+  "page": "http://www.style.fm/as/05_column/shudo142.shtml"
+ },
+ {
+  "stem": "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
+  "row": 5,
+  "verdict": "absent",
+  "evidence": "No such heading; page never mentions キャラクターソング",
+  "page": "http://www.style.fm/as/05_column/shudo142.shtml"
+ },
+ {
+  "stem": "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Rows 2-7 invented. Page body L6-67 (cast of writers, 1-month script system, ロケット団 revival, スタンド・バイ・ミー theme) is missing from post.",
+  "page": "http://www.style.fm/as/05_column/shudo142.shtml"
+ },
+ {
+  "stem": "2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title line matches",
+  "page": "http://www.style.fm/as/05_column/shudo146.shtml"
+ },
+ {
+  "stem": "2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146",
+  "row": 1,
+  "verdict": "present",
+  "evidence": "Page L4-5 match (page continues 口走ってしまう)",
+  "page": "http://www.style.fm/as/05_column/shudo146.shtml"
+ },
+ {
+  "stem": "2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146",
+  "row": 2,
+  "verdict": "absent",
+  "evidence": "Paraphrase/blend of page L7-11; wording not the author's",
+  "page": "http://www.style.fm/as/05_column/shudo146.shtml"
+ },
+ {
+  "stem": "2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146",
+  "row": 3,
+  "verdict": "absent",
+  "evidence": "No heading; 「好きに書いてください」 appears only inside page L14 sentence",
+  "page": "http://www.style.fm/as/05_column/shudo146.shtml"
+ },
+ {
+  "stem": "2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146",
+  "row": 4,
+  "verdict": "absent",
+  "evidence": "Paraphrase of page L13-14 with added wording; not verbatim",
+  "page": "http://www.style.fm/as/05_column/shudo146.shtml"
+ },
+ {
+  "stem": "2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146",
+  "row": 5,
+  "verdict": "absent",
+  "evidence": "Not on page; invented closing (巨大な船/老兵); page ends with 型破り脚本 plans",
+  "page": "http://www.style.fm/as/05_column/shudo146.shtml"
+ },
+ {
+  "stem": "2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Post covers only paraphrased L4-14; page L15-127 (151話 speech, ようこそようこ praise, 型破り strategy) missing; ending invented.",
+  "page": "http://www.style.fm/as/05_column/shudo146.shtml"
+ },
+ {
+  "stem": "2008-05-21-interview-takeshi-shudo-pokemon-memoir-ch149",
+  "row": 2,
+  "verdict": "absent",
+  "evidence": "No such heading on page",
+  "page": "http://www.style.fm/as/05_column/shudo149.shtml"
+ },
+ {
+  "stem": "2008-05-21-interview-takeshi-shudo-pokemon-memoir-ch149",
+  "row": 3,
+  "verdict": "absent",
+  "evidence": "Paraphrase of page L7-14 (いじめ陰湿化); wording and 道徳観 sentences not original",
+  "page": "http://www.style.fm/as/05_column/shudo149.shtml"
+ },
+ {
+  "stem": "2008-05-21-interview-takeshi-shudo-pokemon-memoir-ch149",
+  "row": 4,
+  "verdict": "absent",
+  "evidence": "Not on page; page L43-46 says only that preaching about いじめ is useless; サトシ拳 passage invented",
+  "page": "http://www.style.fm/as/05_column/shudo149.shtml"
+ },
+ {
+  "stem": "2008-05-21-interview-takeshi-shudo-pokemon-memoir-ch149",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Post has only 5 rows; page L11+ onward (名門校, 動物いじめ digression, 勝てばいいのよ ending) not in post.",
+  "page": "http://www.style.fm/as/05_column/shudo149.shtml"
+ },
+ {
+  "stem": "2008-04-23-interview-takeshi-shudo-pokemon-memoir-ch145",
+  "row": 3,
+  "verdict": "absent",
+  "evidence": "No such heading; 大人の鑑賞に耐える appears only inside body sentences",
+  "page": "http://www.style.fm/as/05_column/shudo145.shtml"
+ },
+ {
+  "stem": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title line matches",
+  "page": "http://www.style.fm/as/05_column/shudo152.shtml"
+ },
+ {
+  "stem": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152",
+  "row": 1,
+  "verdict": "present",
+  "evidence": "Page L3 matches",
+  "page": "http://www.style.fm/as/05_column/shudo152.shtml"
+ },
+ {
+  "stem": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152",
+  "row": 2,
+  "verdict": "absent",
+  "evidence": "No such heading on page",
+  "page": "http://www.style.fm/as/05_column/shudo152.shtml"
+ },
+ {
+  "stem": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152",
+  "row": 3,
+  "verdict": "present",
+  "evidence": "Page L24 matches",
+  "page": "http://www.style.fm/as/05_column/shudo152.shtml"
+ },
+ {
+  "stem": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152",
+  "row": 4,
+  "verdict": "present",
+  "evidence": "Page L28 matches",
+  "page": "http://www.style.fm/as/05_column/shudo152.shtml"
+ },
+ {
+  "stem": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152",
+  "row": 5,
+  "verdict": "present",
+  "evidence": "Page L36 matches",
+  "page": "http://www.style.fm/as/05_column/shudo152.shtml"
+ },
+ {
+  "stem": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Headings at rows 6 and 9 also not on page; row 11 para is present.",
+  "page": "http://www.style.fm/as/05_column/shudo152.shtml"
+ },
+ {
+  "stem": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title line matches",
+  "page": "http://www.style.fm/as/05_column/shudo164.shtml"
+ },
+ {
+  "stem": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164",
+  "row": 1,
+  "verdict": "absent",
+  "evidence": "No such heading; page starts directly with 「出る杭は打たれる」というが",
+  "page": "http://www.style.fm/as/05_column/shudo164.shtml"
+ },
+ {
+  "stem": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164",
+  "row": 2,
+  "verdict": "present",
+  "evidence": "Page L3-4 match; page has extra clause 今の日本はめちゃくちゃに…",
+  "page": "http://www.style.fm/as/05_column/shudo164.shtml"
+ },
+ {
+  "stem": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164",
+  "row": 3,
+  "verdict": "present",
+  "evidence": "Page L20-21 match (comma after 本人の前では differs)",
+  "page": "http://www.style.fm/as/05_column/shudo164.shtml"
+ },
+ {
+  "stem": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164",
+  "row": 4,
+  "verdict": "absent",
+  "evidence": "No such heading (小学館と集英社の宿命的分野) on page",
+  "page": "http://www.style.fm/as/05_column/shudo164.shtml"
+ },
+ {
+  "stem": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164",
+  "row": 5,
+  "verdict": "present",
+  "evidence": "Page L70 matches",
+  "page": "http://www.style.fm/as/05_column/shudo164.shtml"
+ },
+ {
+  "stem": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Headings at rows 7, 10, 12 also not on page.",
+  "page": "http://www.style.fm/as/05_column/shudo164.shtml"
+ },
+ {
+  "stem": "2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title line matches",
+  "page": "http://www.style.fm/as/05_column/shudo168.shtml"
+ },
+ {
+  "stem": "2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168",
+  "row": 1,
+  "verdict": "absent",
+  "evidence": "No such heading on page; body starts with ミュウツーの声を…",
+  "page": "http://www.style.fm/as/05_column/shudo168.shtml"
+ },
+ {
+  "stem": "2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168",
+  "row": 2,
+  "verdict": "present",
+  "evidence": "Page L3-6 match",
+  "page": "http://www.style.fm/as/05_column/shudo168.shtml"
+ },
+ {
+  "stem": "2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168",
+  "row": 3,
+  "verdict": "absent",
+  "evidence": "No such heading on page; 抜き録り appears only in body (L41-48)",
+  "page": "http://www.style.fm/as/05_column/shudo168.shtml"
+ },
+ {
+  "stem": "2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168",
+  "row": 4,
+  "verdict": "present",
+  "evidence": "Page L7-9 match",
+  "page": "http://www.style.fm/as/05_column/shudo168.shtml"
+ },
+ {
+  "stem": "2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168",
+  "row": 5,
+  "verdict": "present",
+  "evidence": "Page L10-12 match",
+  "page": "http://www.style.fm/as/05_column/shudo168.shtml"
+ },
+ {
+  "stem": "2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Headings at rows 10, 14, 16 also not on page.",
+  "page": "http://www.style.fm/as/05_column/shudo168.shtml"
+ },
+ {
+  "stem": "2009-01-28-interview-takeshi-shudo-pokemon-memoir-ch173",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title line matches",
+  "page": "http://www.style.fm/as/05_column/shudo173.shtml"
+ },
+ {
+  "stem": "2009-01-28-interview-takeshi-shudo-pokemon-memoir-ch173",
+  "row": 1,
+  "verdict": "absent",
+  "evidence": "No such heading on page",
+  "page": "http://www.style.fm/as/05_column/shudo173.shtml"
+ },
+ {
+  "stem": "2009-01-28-interview-takeshi-shudo-pokemon-memoir-ch173",
+  "row": 2,
+  "verdict": "present",
+  "evidence": "Page L3 matches",
+  "page": "http://www.style.fm/as/05_column/shudo173.shtml"
+ },
+ {
+  "stem": "2009-01-28-interview-takeshi-shudo-pokemon-memoir-ch173",
+  "row": 3,
+  "verdict": "present",
+  "evidence": "Page L5 matches",
+  "page": "http://www.style.fm/as/05_column/shudo173.shtml"
+ },
+ {
+  "stem": "2009-01-28-interview-takeshi-shudo-pokemon-memoir-ch173",
+  "row": 4,
+  "verdict": "present",
+  "evidence": "Page L7 matches",
+  "page": "http://www.style.fm/as/05_column/shudo173.shtml"
+ },
+ {
+  "stem": "2009-01-28-interview-takeshi-shudo-pokemon-memoir-ch173",
+  "row": 5,
+  "verdict": "present",
+  "evidence": "Page L9 matches",
+  "page": "http://www.style.fm/as/05_column/shudo173.shtml"
+ },
+ {
+  "stem": "2009-01-28-interview-takeshi-shudo-pokemon-memoir-ch173",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Headings at rows 9, 15, 21 also not on page.",
+  "page": "http://www.style.fm/as/05_column/shudo173.shtml"
+ },
+ {
+  "stem": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title line matches",
+  "page": "http://www.style.fm/as/05_column/shudo183.shtml"
+ },
+ {
+  "stem": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183",
+  "row": 1,
+  "verdict": "present",
+  "evidence": "Page L3 matches",
+  "page": "http://www.style.fm/as/05_column/shudo183.shtml"
+ },
+ {
+  "stem": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183",
+  "row": 2,
+  "verdict": "absent",
+  "evidence": "No such heading; 「命の尊さ」 only in body L14-15",
+  "page": "http://www.style.fm/as/05_column/shudo183.shtml"
+ },
+ {
+  "stem": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183",
+  "row": 3,
+  "verdict": "present",
+  "evidence": "Page L4 matches",
+  "page": "http://www.style.fm/as/05_column/shudo183.shtml"
+ },
+ {
+  "stem": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183",
+  "row": 4,
+  "verdict": "present",
+  "evidence": "Page L5 matches",
+  "page": "http://www.style.fm/as/05_column/shudo183.shtml"
+ },
+ {
+  "stem": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183",
+  "row": 5,
+  "verdict": "present",
+  "evidence": "Page L6 matches",
+  "page": "http://www.style.fm/as/05_column/shudo183.shtml"
+ },
+ {
+  "stem": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Headings at rows 25, 39, 63, 77, 88 also not on page; body rows otherwise match.",
+  "page": "http://www.style.fm/as/05_column/shudo183.shtml"
+ },
+ {
+  "stem": "2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191",
+  "row": 0,
+  "verdict": "present",
+  "evidence": "Page title matches",
+  "page": "http://www.style.fm/as/05_column/shudo191.shtml"
+ },
+ {
+  "stem": "2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191",
+  "row": 1,
+  "verdict": "present",
+  "evidence": "Page L3 matches",
+  "page": "http://www.style.fm/as/05_column/shudo191.shtml"
+ },
+ {
+  "stem": "2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191",
+  "row": 2,
+  "verdict": "present",
+  "evidence": "Page L4 matches",
+  "page": "http://www.style.fm/as/05_column/shudo191.shtml"
+ },
+ {
+  "stem": "2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191",
+  "row": 3,
+  "verdict": "present",
+  "evidence": "Page L5 matches",
+  "page": "http://www.style.fm/as/05_column/shudo191.shtml"
+ },
+ {
+  "stem": "2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191",
+  "row": 4,
+  "verdict": "present",
+  "evidence": "Page L6 matches",
+  "page": "http://www.style.fm/as/05_column/shudo191.shtml"
+ },
+ {
+  "stem": "2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191",
+  "row": 5,
+  "verdict": "present",
+  "evidence": "Page L7 matches",
+  "page": "http://www.style.fm/as/05_column/shudo191.shtml"
+ },
+ {
+  "stem": "2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191",
+  "row": null,
+  "verdict": "post-note",
+  "evidence": "Headings at rows 18, 60, 84 also not on page; body rows otherwise match.",
+  "page": "http://www.style.fm/as/05_column/shudo191.shtml"
+ }
+]

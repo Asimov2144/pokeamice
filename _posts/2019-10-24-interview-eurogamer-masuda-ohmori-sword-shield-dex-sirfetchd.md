@@ -63,7 +63,7 @@ parallel_items:
   translation: "对 GAME FREAK 而言，这想必是一段跌宕起伏的旅程。我与资深制作人增田顺一以及格外爽朗的游戏总监大森滋聊了聊，探讨了那些新宝可梦出人意料的灵感来源、他们如何对英国进行实地采风，以及面对那些反对声浪时的感受。"
 - type: heading
   level: 3
-  original: 'Galarian Forms & Sirfetch''d: From Massive British Leeks to Chivalric Knights'
+  original: ""
   translation: 伽勒尔地区形态与葱游兵：从英国巨型大葱到骑士精神
 - speaker: Eurogamer
   original: The first thing I wanted to ask about is the new Pokémon you've already announced. The likes of Sirfetch'd and Wooloo, and Galarian Weezing, seem to have gone down especially well this time, why do you think that is?
@@ -107,7 +107,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: 'Scouting the United Kingdom: Steam Trains, Scones, and Translating Culture'
+  original: ""
   translation: 漫步英伦：蒸汽机车、司康饼与将现实文明转化为伽勒尔
 - speaker: 增田顺一
   original: Please enjoy catching lots of Sirfetch'd and trading them with people who are playing Shield!
@@ -144,7 +144,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: 'Confronting the National Dex Backlash: Creator Morale and Necessary Evolutionary Sacrifices'
+  original: ""
   translation: 直面全国图鉴风波（Dexit）：创作者的落寞与次世代进化的必然代价
 - speaker: 增田顺一
   original: What we really want to do - whether it's someone that's played Pokémon Go or the anime - is create that gateway to the core RPGs. Now that the Nintendo Switch is both a home console and a portable, you can play on a big television in the living room together with your family, or take it on the train. It allows so many different styles of play.
@@ -168,7 +168,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: Team Yell, Marnie, and Pioneering Modern Open-World Mechanics
+  original: ""
   translation: 呐喊队的狂热应援、玛俐与向现代开放世界演进的脚步
 - speaker: 增田顺一
   original: So, with regards to the Pokédex issue in particular that you've mentioned, that was something that was very tough for us to decide, but we really felt it was necessary in order to ensure the game delivered the highest possible quality for the Pokémon that are in the game.

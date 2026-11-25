@@ -1,0 +1,513 @@
+{
+ "shards": [
+  {
+   "id": 1,
+   "need_chars": 26911,
+   "posts": [
+    {
+     "chapter": "155",
+     "stem": "2008-08-06-interview-takeshi-shudo-pokemon-memoir-ch155",
+     "need": 8477,
+     "all": 9808,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-08-06-interview-takeshi-shudo-pokemon-memoir-ch155.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-08-06-interview-takeshi-shudo-pokemon-memoir-ch155.json"
+    },
+    {
+     "chapter": "162",
+     "stem": "2008-11-05-interview-takeshi-shudo-pokemon-memoir-ch162",
+     "need": 5508,
+     "all": 7146,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-11-05-interview-takeshi-shudo-pokemon-memoir-ch162.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-11-05-interview-takeshi-shudo-pokemon-memoir-ch162.json"
+    },
+    {
+     "chapter": "165",
+     "stem": "2008-11-26-interview-takeshi-shudo-pokemon-memoir-ch165",
+     "need": 5052,
+     "all": 5774,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-11-26-interview-takeshi-shudo-pokemon-memoir-ch165.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-11-26-interview-takeshi-shudo-pokemon-memoir-ch165.json"
+    },
+    {
+     "chapter": "138",
+     "stem": "2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138",
+     "need": 2333,
+     "all": 5472,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138.json"
+    },
+    {
+     "chapter": "183",
+     "stem": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183",
+     "need": 2047,
+     "all": 6781,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183.json"
+    },
+    {
+     "chapter": "186",
+     "stem": "2009-05-27-interview-takeshi-shudo-pokemon-memoir-ch186",
+     "need": 1549,
+     "all": 6773,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-05-27-interview-takeshi-shudo-pokemon-memoir-ch186.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-05-27-interview-takeshi-shudo-pokemon-memoir-ch186.json"
+    },
+    {
+     "chapter": "198",
+     "stem": "2009-09-30-interview-takeshi-shudo-pokemon-memoir-ch198",
+     "need": 1053,
+     "all": 5034,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-09-30-interview-takeshi-shudo-pokemon-memoir-ch198.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-09-30-interview-takeshi-shudo-pokemon-memoir-ch198.json"
+    },
+    {
+     "chapter": "170",
+     "stem": "2009-01-07-interview-takeshi-shudo-pokemon-memoir-ch170",
+     "need": 892,
+     "all": 2761,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-01-07-interview-takeshi-shudo-pokemon-memoir-ch170.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-01-07-interview-takeshi-shudo-pokemon-memoir-ch170.json"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "need_chars": 26885,
+   "posts": [
+    {
+     "chapter": "145",
+     "stem": "2008-04-23-interview-takeshi-shudo-pokemon-memoir-ch145",
+     "need": 8465,
+     "all": 8562,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-04-23-interview-takeshi-shudo-pokemon-memoir-ch145.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-04-23-interview-takeshi-shudo-pokemon-memoir-ch145.json"
+    },
+    {
+     "chapter": "164",
+     "stem": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164",
+     "need": 5713,
+     "all": 5975,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164.json"
+    },
+    {
+     "chapter": "139",
+     "stem": "2008-03-05-interview-takeshi-shudo-pokemon-memoir-ch139",
+     "need": 4870,
+     "all": 5730,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-03-05-interview-takeshi-shudo-pokemon-memoir-ch139.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-03-05-interview-takeshi-shudo-pokemon-memoir-ch139.json"
+    },
+    {
+     "chapter": "187",
+     "stem": "2009-06-03-interview-takeshi-shudo-pokemon-memoir-ch187",
+     "need": 2115,
+     "all": 6602,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-06-03-interview-takeshi-shudo-pokemon-memoir-ch187.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-06-03-interview-takeshi-shudo-pokemon-memoir-ch187.json"
+    },
+    {
+     "chapter": "172",
+     "stem": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172",
+     "need": 2087,
+     "all": 6515,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172.json"
+    },
+    {
+     "chapter": "181",
+     "stem": "2009-04-15-interview-takeshi-shudo-pokemon-memoir-ch181",
+     "need": 1565,
+     "all": 6378,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-04-15-interview-takeshi-shudo-pokemon-memoir-ch181.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-04-15-interview-takeshi-shudo-pokemon-memoir-ch181.json"
+    },
+    {
+     "chapter": "176",
+     "stem": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176",
+     "need": 1245,
+     "all": 7575,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176.json"
+    },
+    {
+     "chapter": "185",
+     "stem": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+     "need": 825,
+     "all": 4506,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185.json"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "need_chars": 26254,
+   "posts": [
+    {
+     "chapter": "144",
+     "stem": "2008-04-16-interview-takeshi-shudo-pokemon-memoir-ch144",
+     "need": 8223,
+     "all": 8446,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-04-16-interview-takeshi-shudo-pokemon-memoir-ch144.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-04-16-interview-takeshi-shudo-pokemon-memoir-ch144.json"
+    },
+    {
+     "chapter": "157",
+     "stem": "2008-08-20-interview-takeshi-shudo-pokemon-memoir-ch157",
+     "need": 6161,
+     "all": 6826,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-08-20-interview-takeshi-shudo-pokemon-memoir-ch157.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-08-20-interview-takeshi-shudo-pokemon-memoir-ch157.json"
+    },
+    {
+     "chapter": "148",
+     "stem": "2008-05-14-interview-takeshi-shudo-pokemon-memoir-ch148",
+     "need": 4166,
+     "all": 4470,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-05-14-interview-takeshi-shudo-pokemon-memoir-ch148.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-05-14-interview-takeshi-shudo-pokemon-memoir-ch148.json"
+    },
+    {
+     "chapter": "161",
+     "stem": "2008-10-29-interview-takeshi-shudo-pokemon-memoir-ch161",
+     "need": 3619,
+     "all": 5567,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-10-29-interview-takeshi-shudo-pokemon-memoir-ch161.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-10-29-interview-takeshi-shudo-pokemon-memoir-ch161.json"
+    },
+    {
+     "chapter": "192",
+     "stem": "2009-07-29-interview-takeshi-shudo-pokemon-memoir-ch192",
+     "need": 1636,
+     "all": 5150,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-07-29-interview-takeshi-shudo-pokemon-memoir-ch192.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-07-29-interview-takeshi-shudo-pokemon-memoir-ch192.json"
+    },
+    {
+     "chapter": "197",
+     "stem": "2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197",
+     "need": 1503,
+     "all": 5521,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197.json"
+    },
+    {
+     "chapter": "171",
+     "stem": "2009-01-14-interview-takeshi-shudo-pokemon-memoir-ch171",
+     "need": 946,
+     "all": 5862,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-01-14-interview-takeshi-shudo-pokemon-memoir-ch171.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-01-14-interview-takeshi-shudo-pokemon-memoir-ch171.json"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "need_chars": 26914,
+   "posts": [
+    {
+     "chapter": "156",
+     "stem": "2008-08-13-interview-takeshi-shudo-pokemon-memoir-ch156",
+     "need": 8112,
+     "all": 9201,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-08-13-interview-takeshi-shudo-pokemon-memoir-ch156.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-08-13-interview-takeshi-shudo-pokemon-memoir-ch156.json"
+    },
+    {
+     "chapter": "163",
+     "stem": "2008-11-12-interview-takeshi-shudo-pokemon-memoir-ch163",
+     "need": 6305,
+     "all": 7646,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-11-12-interview-takeshi-shudo-pokemon-memoir-ch163.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-11-12-interview-takeshi-shudo-pokemon-memoir-ch163.json"
+    },
+    {
+     "chapter": "150",
+     "stem": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150",
+     "need": 3671,
+     "all": 6312,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150.json"
+    },
+    {
+     "chapter": "168",
+     "stem": "2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168",
+     "need": 3646,
+     "all": 5127,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168.json"
+    },
+    {
+     "chapter": "178",
+     "stem": "2009-03-25-interview-takeshi-shudo-pokemon-memoir-ch178",
+     "need": 1909,
+     "all": 6294,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-03-25-interview-takeshi-shudo-pokemon-memoir-ch178.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-03-25-interview-takeshi-shudo-pokemon-memoir-ch178.json"
+    },
+    {
+     "chapter": "174",
+     "stem": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174",
+     "need": 1513,
+     "all": 9710,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174.json"
+    },
+    {
+     "chapter": "194",
+     "stem": "2009-08-12-interview-takeshi-shudo-pokemon-memoir-ch194",
+     "need": 950,
+     "all": 5918,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-08-12-interview-takeshi-shudo-pokemon-memoir-ch194.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-08-12-interview-takeshi-shudo-pokemon-memoir-ch194.json"
+    },
+    {
+     "chapter": "195",
+     "stem": "2009-08-19-interview-takeshi-shudo-pokemon-memoir-ch195",
+     "need": 808,
+     "all": 3328,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-08-19-interview-takeshi-shudo-pokemon-memoir-ch195.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-08-19-interview-takeshi-shudo-pokemon-memoir-ch195.json"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "need_chars": 26819,
+   "posts": [
+    {
+     "chapter": "143",
+     "stem": "2008-04-09-interview-takeshi-shudo-pokemon-memoir-ch143",
+     "need": 7887,
+     "all": 8071,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-04-09-interview-takeshi-shudo-pokemon-memoir-ch143.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-04-09-interview-takeshi-shudo-pokemon-memoir-ch143.json"
+    },
+    {
+     "chapter": "151",
+     "stem": "2008-06-04-interview-takeshi-shudo-pokemon-memoir-ch151",
+     "need": 6395,
+     "all": 7264,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-06-04-interview-takeshi-shudo-pokemon-memoir-ch151.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-06-04-interview-takeshi-shudo-pokemon-memoir-ch151.json"
+    },
+    {
+     "chapter": "169",
+     "stem": "2008-12-24-interview-takeshi-shudo-pokemon-memoir-ch169",
+     "need": 4476,
+     "all": 5880,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-12-24-interview-takeshi-shudo-pokemon-memoir-ch169.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-12-24-interview-takeshi-shudo-pokemon-memoir-ch169.json"
+    },
+    {
+     "chapter": "141",
+     "stem": "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
+     "need": 2655,
+     "all": 3920,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141.json"
+    },
+    {
+     "chapter": "180",
+     "stem": "2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180",
+     "need": 2015,
+     "all": 6367,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180.json"
+    },
+    {
+     "chapter": "177",
+     "stem": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+     "need": 1520,
+     "all": 7217,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177.json"
+    },
+    {
+     "chapter": "184",
+     "stem": "2009-05-14-interview-takeshi-shudo-pokemon-memoir-ch184",
+     "need": 1197,
+     "all": 6949,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-05-14-interview-takeshi-shudo-pokemon-memoir-ch184.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-05-14-interview-takeshi-shudo-pokemon-memoir-ch184.json"
+    },
+    {
+     "chapter": "191",
+     "stem": "2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191",
+     "need": 674,
+     "all": 4855,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191.json"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "need_chars": 26900,
+   "posts": [
+    {
+     "chapter": "160",
+     "stem": "2008-09-10-interview-takeshi-shudo-pokemon-memoir-ch160",
+     "need": 7184,
+     "all": 7190,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-09-10-interview-takeshi-shudo-pokemon-memoir-ch160.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-09-10-interview-takeshi-shudo-pokemon-memoir-ch160.json"
+    },
+    {
+     "chapter": "158",
+     "stem": "2008-08-27-interview-takeshi-shudo-pokemon-memoir-ch158",
+     "need": 6418,
+     "all": 6424,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-08-27-interview-takeshi-shudo-pokemon-memoir-ch158.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-08-27-interview-takeshi-shudo-pokemon-memoir-ch158.json"
+    },
+    {
+     "chapter": "140",
+     "stem": "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
+     "need": 5379,
+     "all": 5991,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140.json"
+    },
+    {
+     "chapter": "179",
+     "stem": "2009-04-01-interview-takeshi-shudo-pokemon-memoir-ch179",
+     "need": 2582,
+     "all": 7439,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-04-01-interview-takeshi-shudo-pokemon-memoir-ch179.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-04-01-interview-takeshi-shudo-pokemon-memoir-ch179.json"
+    },
+    {
+     "chapter": "166",
+     "stem": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+     "need": 1996,
+     "all": 6727,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166.json"
+    },
+    {
+     "chapter": "201",
+     "stem": "2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201",
+     "need": 1516,
+     "all": 5792,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201.json"
+    },
+    {
+     "chapter": "199",
+     "stem": "2009-10-07-interview-takeshi-shudo-pokemon-memoir-ch199",
+     "need": 1008,
+     "all": 5704,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-10-07-interview-takeshi-shudo-pokemon-memoir-ch199.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-10-07-interview-takeshi-shudo-pokemon-memoir-ch199.json"
+    },
+    {
+     "chapter": "189",
+     "stem": "2009-06-24-interview-takeshi-shudo-pokemon-memoir-ch189",
+     "need": 817,
+     "all": 2758,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-06-24-interview-takeshi-shudo-pokemon-memoir-ch189.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-06-24-interview-takeshi-shudo-pokemon-memoir-ch189.json"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "need_chars": 26813,
+   "posts": [
+    {
+     "chapter": "152",
+     "stem": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152",
+     "need": 6724,
+     "all": 7002,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152.json"
+    },
+    {
+     "chapter": "147",
+     "stem": "2008-05-07-interview-takeshi-shudo-pokemon-memoir-ch147",
+     "need": 6440,
+     "all": 6446,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-05-07-interview-takeshi-shudo-pokemon-memoir-ch147.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-05-07-interview-takeshi-shudo-pokemon-memoir-ch147.json"
+    },
+    {
+     "chapter": "159",
+     "stem": "2008-09-03-interview-takeshi-shudo-pokemon-memoir-ch159",
+     "need": 5401,
+     "all": 5785,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-09-03-interview-takeshi-shudo-pokemon-memoir-ch159.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-09-03-interview-takeshi-shudo-pokemon-memoir-ch159.json"
+    },
+    {
+     "chapter": "167",
+     "stem": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
+     "need": 3457,
+     "all": 7685,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167.json"
+    },
+    {
+     "chapter": "188",
+     "stem": "2009-06-10-interview-takeshi-shudo-pokemon-memoir-ch188",
+     "need": 1840,
+     "all": 3172,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-06-10-interview-takeshi-shudo-pokemon-memoir-ch188.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-06-10-interview-takeshi-shudo-pokemon-memoir-ch188.json"
+    },
+    {
+     "chapter": "182",
+     "stem": "2009-04-22-interview-takeshi-shudo-pokemon-memoir-ch182",
+     "need": 1460,
+     "all": 5901,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-04-22-interview-takeshi-shudo-pokemon-memoir-ch182.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-04-22-interview-takeshi-shudo-pokemon-memoir-ch182.json"
+    },
+    {
+     "chapter": "193",
+     "stem": "2009-08-05-interview-takeshi-shudo-pokemon-memoir-ch193",
+     "need": 915,
+     "all": 5207,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-08-05-interview-takeshi-shudo-pokemon-memoir-ch193.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-08-05-interview-takeshi-shudo-pokemon-memoir-ch193.json"
+    },
+    {
+     "chapter": "175",
+     "stem": "2009-02-18-interview-takeshi-shudo-pokemon-memoir-ch175",
+     "need": 576,
+     "all": 3547,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2009-02-18-interview-takeshi-shudo-pokemon-memoir-ch175.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2009-02-18-interview-takeshi-shudo-pokemon-memoir-ch175.json"
+    },
+    {
+     "chapter": "142",
+     "stem": "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
+     "need": 0,
+     "all": 3196,
+     "summary_only": true,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142.json"
+    },
+    {
+     "chapter": "146",
+     "stem": "2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146",
+     "need": 0,
+     "all": 9245,
+     "summary_only": true,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146.json"
+    },
+    {
+     "chapter": "149",
+     "stem": "2008-05-21-interview-takeshi-shudo-pokemon-memoir-ch149",
+     "need": 0,
+     "all": 6001,
+     "summary_only": true,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\dump\\2008-05-21-interview-takeshi-shudo-pokemon-memoir-ch149.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\original-check-2026-11-25\\rebuild\\out\\2008-05-21-interview-takeshi-shudo-pokemon-memoir-ch149.json"
+    }
+   ]
+  }
+ ]
+}

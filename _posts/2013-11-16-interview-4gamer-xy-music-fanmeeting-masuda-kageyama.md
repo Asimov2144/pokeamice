@@ -57,7 +57,7 @@ parallel_items:
   caption: 宝可梦XY音响总监景山将太氏。自心金／魂银起参与，统筹本作音乐
 - type: heading
   level: 2
-  original: フェアリータイプ追加の背景と対戦バランス
+  original: ""
   translation: "追加妖精属性的背景与对战平衡"
 - speaker: 增田顺一
   original: 続いては今作で新たに加わった 「フェアリータイプ」 が話題となった。増田氏は，これまで17種類のタイプでバランスがとれているとしてゲームを制作してきたが，近年の大会を見て，バランスが崩れ始めていると感じ，バトルディレクターの森本茂樹氏と話し合ってフェアリーを追加したという。
@@ -69,7 +69,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 「聞いているだけで伝わる」ポケモン音楽の哲学
+  original: ""
   translation: "“光听就能传达”的宝可梦音乐的哲学"
 - speaker: 增田顺一
   original: 続いてトークは，本題の「音楽」へ。増田氏は 「ポケットモンスター赤・緑」 から，シリーズ作品の音楽にも深く関わっているとのことで，そのこだわりを語った。
@@ -103,7 +103,7 @@ parallel_items:
   caption: 在会场首次公开的布拉塔诺博士秘藏设计草图
 - type: heading
   level: 2
-  original: 布拉塔诺博士设定公开与变拍子音乐暗线
+  original: ""
   translation: "布拉塔诺博士设定公开与变拍子音乐暗线"
 - speaker: 增田顺一
   original: 音楽に続いては「ポケモンX・Y」の登場人物がテーマとなった。まずは本作でプレイヤーを導いてくれる プラターヌ博士 について。プレイヤーよりもかなり年上で，学校の先生のような存在だった過去の博士より，もっと気さくで親しみやすい友達のようなキャラクター付けをしたとのこと。プレイヤーとポケモン勝負をしたり，プレイヤーを友達と信じてポケモンを託すなど，接し方もこれまでとは違うものになっているそうだ。
@@ -118,7 +118,7 @@ parallel_items:
   caption: 在会场展示的原声带CD『任天堂3DS 宝可梦 X・Y 超级音乐收藏集』
 - type: heading
   level: 2
-  original: 现场问答环节：灵感来源、游戏音乐本质与法文片尾曲
+  original: ""
   translation: "现场问答环节：灵感来源、游戏音乐本质与法文片尾曲"
   speaker: 现场问答环节
 - speaker: 4Gamer
@@ -147,7 +147,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 钢琴独奏与全场纪念合影
+  original: ""
   translation: "钢琴独奏与全场纪念合影"
 - speaker: 4Gamer
   original: イベントの最後は，景山氏によるピアノアレンジの楽曲の生演奏と，増田氏，景山氏と来場者の記念撮影が行われた。集まったポケモンファンには思い出に残る楽しいイベントになったのではないだろうか。

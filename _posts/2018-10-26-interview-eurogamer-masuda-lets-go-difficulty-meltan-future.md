@@ -65,7 +65,7 @@ parallel_items:
   role: question
 - type: heading
   level: 3
-  original: Why Kanto and Yellow? Bringing Pokémon to Kids without Smartphones
+  original: ""
   translation: 重返关都与黄版：让没有智能手机的孩子也能体验宝可梦的纯粹乐趣
 - speaker: Eurogamer
   original: So it's been 20 years since the release of Pokémon Red and Blue in the west - 19 here in Europe - so first of all congratulations. Was that anniversary one of the main reasons you chose to set Let's Go in the Kanto region, as a retelling of Pokémon Yellow?
@@ -94,7 +94,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: 'Difficulty and Modern Playstyles: Mobile Habits and Streamlined Traversal'
+  original: ""
   translation: 难度曲线与现代游玩习惯：手游时代的碎片化与流畅的旷野探索
 - speaker: Eurogamer
   original: So you mentioned not wanting Kanto to be scary, and I know you've talked about Pokémon, and Let's Go in particular, being accessible to new players - are there still puzzles and challenges, things like Strength puzzles in caves, or have you moved away from that entirely now?
@@ -114,7 +114,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: 'Endgame for Hardcore Fans: Catch Combos and 151 Master Trainers'
+  original: ""
   translation: 老玩家的硬核挑战：连续捕捉连锁与 151 位大师级训练家
 - speaker: Eurogamer
   original: What would you say to those players who are crying out for a bit more of a challenge, maybe adult players who've been playing for these 20 years or who got into it a bit later? Should they wait for next year's RPG instead?
@@ -134,7 +134,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: 'Retiring HMs: Solving the Classic ''Stranded on an Island'' Dilemma'
+  original: ""
   translation: 彻底告别秘传学习器：终结‘被困荒岛无法脱身’的经典死局
 - speaker: Eurogamer
   original: We mentioned briefly those HMs like Strength - it's been something that's changed pretty much with every game. Do you feel like you've settled on an implementation of them with Let's Go, with the fan-focused things like surfing Pikachu and flying Pikachu with the balloons?
@@ -154,7 +154,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: 'The Mystery of Meltan: A Deliberate Masterclass in Guerrilla Marketing'
+  original: ""
   translation: 美录坦的身世之谜：一场密谋已久的‘解包泄露’悬疑营销大师课
 - speaker: Eurogamer
   original: Okay, so something else I wanted to talk about, on a completely different topic, was Meltan. It had a really unusual reveal, it was really exciting for us to try and figure out what was going on, on the day. When it was discovered in the network traffic of Pokémon Go, shortly before it appeared in game, was that a leak? Or was that intentional, so a reveal disguised as a leak, to intentionally get people excited?
@@ -194,7 +194,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: 'Open Worlds and the True Joy of Pokémon: ''More Than Just Hatching Eggs'''
+  original: ""
   translation: 开放世界野望与宝可梦的真谛：“宝可梦绝不仅仅是无休止地孵蛋”
 - speaker: Eurogamer
   original: So last time we spoke, back at the Let's Go reveal in Japan, the topic of open-world Nintendo Switch games came up, like Breath of the Wild and Super Mario Odyssey, and you mentioned that there's a possibility that one day Pokémon might follow suit. I know that's purposefully vague, but is that still something that's being considered? Is that something that you see one day happening on the Switch?

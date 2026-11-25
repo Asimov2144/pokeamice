@@ -35,7 +35,7 @@ interview_id: PKMN-0109
 parallel_items:
 - type: heading
   level: 2
-  original: 第1章：『金・銀』への挑戦――关都からジョウトへ、技術と世界の跳躍
+  original: ""
   translation: 第1章：迈向《金／银》的挑战——从关都到城都，技术与世界观的飞跃
 - speaker: N.O.M采访者
   original: そろそろ『金・銀』の話に移りたいと思います。『金・銀』で工夫した点はなんですか？

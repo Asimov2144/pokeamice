@@ -23,7 +23,7 @@ interview_id: PKMN-0006
 parallel_items:
 - type: heading
   level: 2
-  original: 序言：「橋ゲー」と称されるほどの圧倒的こだわり
+  original: ""
   translation: 序言：被戏称为“大桥游戏”的极致匠心与投入
 - speaker: Nintendo Dream / Pokemon-Memo
   original: 「橋ゲー」と言われることもあるぐらい、強いこだわりや力の入れ具合が見られる「ポケットモンスター ブラック ホワイト」のイッシュ地方の「橋」（ブリッジ）の設定について、ゲームフリークの増田順一氏がニンテンドードリームでコメントしています。
@@ -95,7 +95,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 番外編：ハイリンクの橋（连入之桥）――皇居をモデルにした中央世界観
+  original: ""
   translation: 番外篇：连入之桥（Entralink Bridge）——以皇居为隐喻的核心辐射世界观
 - speaker: 增田顺一
   original: ハイリンクの橋については、イッシュ地方の中央部がニューヨークの「セントラルパーク」ではなく東京の「皇居」をモデルに着想されていることと密接に関連しています。外縁部から中心に向かって渡り、他プレイヤーの世界へとシームレスに侵入する構造が込められています。

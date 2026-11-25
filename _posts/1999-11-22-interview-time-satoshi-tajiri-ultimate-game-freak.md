@@ -61,7 +61,7 @@ parallel_items:
   translation: 田尻智刚刚完成了任天堂Game Boy平台新系列宝可梦游戏的开发，该游戏将于11月20日在日本发售。他看上去疲惫不堪：双眼布满血丝，眼袋深重，说话时手和嘴唇微微颤抖。他看起来亟需一场酣畅的长眠。
 - type: heading
   level: 3
-  original: 'From Bug-Catching Boy to Fanzine Pioneer: The Genesis of Game Freak'
+  original: ""
   translation: "从昆虫少年到同人志先锋：GAME FREAK 的黎明与执念"
 - speaker: 时代周刊
   original: Are you O.K.? You look pretty tired.
@@ -148,7 +148,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: 'The Cable That Linked Living Beings: Dialogue Over Competition'
+  original: ""
   translation: 连接生命的通信线：重在交流与尊重的日式哲学
 - speaker: 时代周刊
   original: So you were collecting Pokmon a long time ago! Did you make the insects fight against each other?
@@ -242,7 +242,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: The Myth of Mew, Mentorship with Miyamoto, and Fainting Over Dying
+  original: ""
   translation: 第151只梦幻的神话、宫本茂的师徒情谊与‘宝可梦只有昏厥没有死亡’
 - speaker: 时代周刊
   original: Why is Pokmon still so popular?
