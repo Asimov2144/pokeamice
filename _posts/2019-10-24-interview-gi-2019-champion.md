@@ -224,7 +224,7 @@ parallel_items:
   alt: Game Freak Talks Sword And Shield's Champion, Wild Area Interactions, And More
 - original: 'PokéNatomy: The Science of Pokémon (An Unofficial Guide) on Etsy'
   role: answer
-  speaker: 增田顺一
+  speaker: "Game Informer"
   translation: Etsy上的《PokéNatomy：宝可梦的科学（非官方指南）》
   note: PokéNatomy是插画师Christopher Stoll创作的非官方解剖学图册，最初在Etsy上售卖。
 - original: Have you seen those artists out there doing dives into the anatomy of Pokémon?
@@ -245,6 +245,6 @@ parallel_items:
   translation: 是的，我觉得可以这么说。[笑]
 - original: Pokémon Sword and Shield launch on Switch November 15. For more coverage on these games, check out our exclusive coverage hub by clicking on the banner below.
   role: answer
-  speaker: 增田顺一
+  speaker: "Game Informer"
   translation: 《宝可梦 剑·盾》将于11月15日在Switch上发售。想了解更多关于这些游戏的内容，请点击下方的横幅查看我们的独家报道中心。
 ---

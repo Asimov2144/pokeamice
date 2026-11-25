@@ -51,7 +51,7 @@ parallel_items:
   image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/001.jpg
   alt: Junichi Masuda
 - original: On 12th October budding Pokémon masters will be able to explore first-hand the beautiful polygonal 3D environments of the French-inspired region of Kalos, where trainers rush around on roller-skates and a giant Ryhorn snoozes outside your front door. We caught up with Pokémon X and Y's Director Junichi Masuda and Chief Designer Hironobu Yoshida to find out more about the development and features of the upcoming title.
-  translation: 10月12日，有志成为宝可梦大师的玩家将能亲身探索以法国为灵感设计的卡洛斯地区，那里有着精美的多边形3D环境，训练家们穿着轮滑鞋四处穿梭，一只巨大的铁甲暴龙在你家门前打盹。我们采访了《宝可梦 X·Y》的总监增田顺一和首席设计师吉田宏信，以了解更多关于这款即将推出的作品的开发情况和特色。
+  translation: 10月12日，有志成为宝可梦大师的玩家将能亲身探索以法国为灵感设计的卡洛斯地区，那里有着精美的多边形3D环境，训练家们穿着轮滑鞋四处穿梭，一只巨大的铁甲犀牛在你家门前打盹。我们采访了《宝可梦 X·Y》的总监增田顺一和首席设计师吉田宏信，以了解更多关于这款即将推出的作品的开发情况和特色。
 - original: It's lovely to meet you both today. Thank you very much for letting us play X & Y, we really enjoyed our time with the game. Let’s have a quick ice-breaker question, out of the three new starter Pokémon (Fennekin, Chespin and Froakie) which one would you pick?
   role: question
   speaker: Nintendo Life

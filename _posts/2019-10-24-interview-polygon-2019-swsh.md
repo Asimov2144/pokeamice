@@ -69,7 +69,7 @@ parallel_items:
   translation: "当然，在GAME FREAK，我们承认Nintendo Switch是一台主机。我们确实这样定位它，而且从我们的角度来看，这也是第一款在主机上开发的主系列宝可梦RPG。但如你所知，Switch并不是真正传统意义上的主机，你可以随身带着它，也可以选择把它当作便携设备来玩。所以你可以把它带到朋友家，像玩传统宝可梦游戏那样面对面一起玩。所以与传统主机相比，它的定位有些特殊。"
 - original: Obviously, historically you guys have resisted targeting consoles. A lot of people speculated for years wondering when it would happen, and it never did until Switch seems like it almost forced it to happen. Was this inevitable? Say hypothetically Switch never happened. Say Switch was a traditional console that didn’t have a portable component. Do you think you would have gone this direction eventually anyway?
   role: answer
-  speaker: 大森滋
+  speaker: "Polygon"
   translation: 显然，从历史上看，你们一直抗拒以主机为目标平台。很多人多年来一直在猜测这会在什么时候发生，但直到Switch出现，这件事似乎才几乎是被迫发生的。这是不可避免的吗？假设Switch从未出现。假设Switch是一台没有便携部件的传统主机。你觉得你们最终还是会朝这个方向走吗？
 - original: It’s kind of hard to speculate where we would have gone if that were the direction, but I do think it’s fair to say that the Pokémon main series RPGs that we develop have a very strong connection with Nintendo hardware. So whatever they put out, they usually take a pretty unique approach with things and we try to kind of match that uniqueness with the games. But, yeah. That’s all I can really say.
   role: answer

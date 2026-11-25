@@ -256,7 +256,7 @@ parallel_items:
   alt: 250px-383Groudon
   caption: 250px-383Groudon
 - original: A mi me gustan los Pokémon chulos e imponentes. Este ya tiene 12 años, pero en Omega Rubí y Alfa Zafiro se podrá ver su verdadera forma forma mediante la regresión primigenia (a.k.a la preevolución supongo)
-  translation: 我喜欢帅气又威武的宝可梦。这只已经有12年了，但在《欧米伽红宝石／阿尔法蓝宝石》中，通过原始回归（也就是原始进化，我猜）可以看到它的真正形态。
+  translation: 我喜欢帅气又威武的宝可梦。这只已经有12年了，但在《欧米伽红宝石／阿尔法蓝宝石》中，通过原始回归（也就是进化前的形态，我猜）可以看到它的真正形态。
   speaker: 大森滋
   role: answer
 - original: Groudon por ejemplo se llama igual en todos todas las versiones idiomas. Es universal. Podemos estar viajando en varios países , y Pikachu se llama igual en todos lados.
@@ -264,7 +264,7 @@ parallel_items:
   speaker: 增田顺一
   role: answer
 - original: (Shigeru, y más tarde cuatro estudiantes del centro suben al escenario)
-  translation: （茂，以及随后四名中心的学生上台）
+  translation: "（滋，以及随后四名学校的学生上台）"
 - type: image
   image: /assets/img/interviews/2014-11-01-interview-topofarmer-ideame-masuda-ohmori/ideame_kids_10_2014-10-31-11.46.42_lzn-700x466.jpg
   alt: 2014-10-31 11.46.42_lzn
@@ -274,7 +274,7 @@ parallel_items:
   alt: 2014-10-31 12.25.18_lzn
   caption: 2014-10-31 12.25.18_lzn
 - original: El Groudon de Shigeru, la firma de Masuda y el resto de dibujos
-  translation: 茂的固拉多、增田的签名以及其他画作
+  translation: 滋的固拉多、增田的签名以及其他画作
 - original: Qué kawaii, ¿no?
   translation: 好可爱，对吧？
   speaker: 增田顺一
@@ -290,13 +290,13 @@ parallel_items:
 - original: (apprause)
   translation: （掌声）
 - original: (El director del centro Lestonnac les hace entrega de un anuario de la escuela y Barcelona)
-  translation: （中心负责人莱斯托纳克向他们赠送了学校和巴塞罗那的年鉴）
+  translation: （Lestonnac 学校的校长向他们赠送了学校和巴塞罗那的年鉴）
 - type: heading
   level: 2
   original: 活动尾声与花絮感言
   translation: 活动尾声与花絮感言
 - original: 'Fueron evacuando a los niños, y una vez hubo silencio en la sala los medios especializados y las televisiones pudieron llevar a cabo entrevistas con Ohmori y Masuda. Me refiero a TV3, TVE, y algunos medios que habían concertado previamente entrevistas con Nintendo. (DISCLAIMER: No hice entrevista personalizada. Por asuntos personales (PFC) no preparé preguntas ni envié ninguna petición de entrevista cara a cara. Je suís desolée 🙁  De todas formas el compañero de AreaJugones me comenta que a él, trabajando cómo community manager en una web con 10.000 usuarios únicos diarios, le habían dicho sus jefes que «nada de preguntas ni autógrafos, que ellos no eran Meri».)'
-  translation: 孩子们被疏散，当大厅安静下来后，专业媒体和电视台得以对大桥和增田进行采访。我指的是TV3、TVE，以及一些事先与任天堂预约采访的媒体。 （免责声明：我没有进行个人采访。由于个人事务（PFC），我没有准备问题，也没有发送任何面对面采访的请求。我很抱歉🙁 尽管如此，AreaJugones的同事告诉我，他在一个日活用户1万的网站担任社区经理，他的老板告诉他「不要提问也不要签名，他们不是梅里」。）
+  translation: 孩子们被疏散，当大厅安静下来后，专业媒体和电视台得以对大森和增田进行采访。我指的是TV3、TVE，以及一些事先与任天堂预约采访的媒体。 （免责声明：我没有进行个人采访。由于个人事务（PFC），我没有准备问题，也没有发送任何面对面采访的请求。我很抱歉🙁 尽管如此，AreaJugones的同事告诉我，他在一个日活用户1万的网站担任社区经理，他的老板告诉他「不要提问也不要签名，他们不是梅里」。）
 - original: '>En cualquier caso, conseguí acercarme y sacar una buena foto de los dibujos 🙂 Os dejo con la galería de fotos.'
   translation: '>无论如何，我设法靠近并拍到了画作的好照片🙂 现在请欣赏照片库。'
 - original: Vuestro corresponsal más «salao»,

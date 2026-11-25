@@ -40,7 +40,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Prologue: Nintendo Power Chats with Pokémon Bigwigs (Issue 134)'
-  translation: 序章：巨头聚首——《Nintendo Power》第134期全明星圆桌访谈
+  translation: "序章：《Nintendo Power》与宝可梦大人物们的对谈（第134期）"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/134-cover-1.jpg
   caption: 《Nintendo Power》第134期封面（2000年7月号）：北美发售前夕直击GAME FREAK核心开发阵营。
@@ -79,7 +79,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 1: Evolving Beyond Red & Blue — The 3.5-Year Development of Gold & Silver'
-  translation: 第1章：从初代跃升——《金／银》三年半研发攻坚与20人核心团队
+  translation: "第1章：超越红蓝——《金／银》三年半的开发"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/RBY.jpg
   caption: 红、蓝、黄三色的初代传奇，为《金／银》的革新提供了最坚实也最具挑战的基石。
@@ -123,14 +123,14 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 2: Memory Roadblocks & Satoru Iwata’s Compression Miracle'
-  translation: 第2章：兼容的代价与岩田聪——内存绝壁上的压缩奇迹
+  translation: "第2章：内存的障碍与岩田聪的压缩奇迹"
 - speaker: Nintendo Power
   original: Nintendo Power:What was the hardest part of developing Gold and Silver?
   translation: 《Nintendo Power》：开发《金／银》过程中最困难的部分是什么？
   role: question
 - speaker: 石原恒和
   original: Ishihara:“We designed Gold and Silver to be compatible with Red, Blue and Yellow, and making sure all the elements in all the versions worked together was a challenge. The debugging process was also tough.”
-  translation: “我们在设计《金／银》时，就要求其能够与《红／绿／蓝／皮卡丘》兼容，而确保所有版本中的所有要素都能彼此协同运作，是一大挑战。除错的过程同样艰辛。”
+  translation: “我们在设计《金／银》时，就要求其能够与《红、蓝、黄》兼容，而确保所有版本中的所有要素都能彼此协同运作，是一大挑战。除错的过程同样艰辛。”
   role: answer
 - speaker: 增田顺一
   original: Masuda:“Making the game easier to understand for everyone was the most difficult part for me. We looked at everything, even how to catch Pokémon. We thought Gold and Silver would be many people’s introduction to playing Pokémon, and we wanted to be prepared for that.”
@@ -146,7 +146,7 @@ parallel_items:
   role: answer
 - speaker: 一之濑刚
   original: Ichinose:“This is the first Pokémon game I have worked on, and it was a challenge for me to learn about and stay true to the atmosphere of the original Pokémon games.”
-  translation: 一之濑：“这是我参与制作的第一款宝可梦游戏，对我来说，既要了解并忠实于原版宝可梦游戏的氛围，又要在此基础上有所创新，是一大挑战。”
+  translation: "这是我参与制作的第一款宝可梦游戏，对我来说，了解并忠实于原版宝可梦游戏的氛围是一大挑战。"
   role: answer
 - speaker: 太田健程
   original: Ota:“I was in charge of programming. I tried to make a programming  system that was easier to use. I was able to make some changes, but not all, because we were under a very tight schedule.”
@@ -169,7 +169,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 3: Hundreds of Scrapped Pokemon — Ken Sugimori on Spaceworld 1997 & Hoothoot'
-  translation: 第3章：数百只废案的沉浮——杉森建谈第二世代300只构想与咕咕的童年原型
+  translation: "第3章：数百只被废弃的宝可梦——杉森建谈1997年Space World与咕咕"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/SW-Intro.jpg
   caption: 1997年任天堂Space World展会上公开的《宝可梦 金·银》初期体验版开场画面，蕴含着海量后来被彻底重构的梦幻设定。
@@ -211,7 +211,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 4: Favorite Companions & The Secret of Mew — Two Weeks Before Gold Master'
-  translation: 第4章：全员本命宝可梦与梦幻的秘密——主程序封盘前两周的“偷渡”
+  translation: "第4章：最爱的宝可梦与梦幻的秘密——母盘完成前两周"
 - speaker: Nintendo Power
   original: Nintendo Power:What is your favorite Pokémon?
   translation: 《Nintendo Power》：各位最喜欢的宝可梦是哪一只？
@@ -222,7 +222,7 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: Masuda:“Psyduck. He looks funny.”
-  translation: “可达鸭。它看起来滑稽又可爱。”
+  translation: "可达鸭。它看起来很滑稽。"
   role: answer
 - speaker: 杉森建
   original: Sugimori:“Hoothoot. It has only one leg. When I was a kid, I had a pet bird. One day, I was surprised to see my bird standing on only one leg. I’ve learned since that that was normal for that kind of bird, but it had already made a big impression on me and I couldn’t forget it. That inspired me to create Hoothoot.”
@@ -255,7 +255,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Chapter 5: Glimpsing the Future — Early Hints of the Third Generation'
-  translation: 第5章：千禧年展望——石原恒和初露第三世代曙光
+  translation: "第5章：窥见未来——第三世代的早期线索"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Sap.png
   caption: 石原恒和在2000年夏天向海外媒体暗示的“金银之后的下一部正作”，正是两年后引爆GBA世代的《宝可梦 红宝石／蓝宝石》。

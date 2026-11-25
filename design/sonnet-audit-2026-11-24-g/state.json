@@ -1,0 +1,300 @@
+{
+ "task": "Sonnet self-audit of bilingual posts Qwen never read (seventh)",
+ "created": "2026-11-24",
+ "shards": [
+  {
+   "id": 1,
+   "status": "completed",
+   "chars": 122601,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\shard-1.json",
+   "posts": [
+    {
+     "stem": "2018-09-27-interview-polygon-2018-masuda-rb",
+     "rows": 43,
+     "chars": 21849,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2018-09-27-interview-polygon-2018-masuda-rb.txt"
+    },
+    {
+     "stem": "2014-02-14-interview-gameinformer-masuda-afterwords-xy",
+     "rows": 56,
+     "chars": 18149,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2014-02-14-interview-gameinformer-masuda-afterwords-xy.txt"
+    },
+    {
+     "stem": "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto",
+     "rows": 34,
+     "chars": 13133,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2010-03-31-interview-pokemon-com-hgss-masuda-morimoto.txt"
+    },
+    {
+     "stem": "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru",
+     "rows": 30,
+     "chars": 12601,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2009-03-24-interview-g4tv-platinum-masuda-kawachimaru.txt"
+    },
+    {
+     "stem": "2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains",
+     "rows": 45,
+     "chars": 12059,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains.txt"
+    },
+    {
+     "stem": "2012-11-23-interview-gi-2012-burning-questions",
+     "rows": 36,
+     "chars": 10634,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2012-11-23-interview-gi-2012-burning-questions.txt"
+    },
+    {
+     "stem": "2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years",
+     "rows": 16,
+     "chars": 9735,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years.txt"
+    },
+    {
+     "stem": "2011-03-04-interview-spong-bw-launch-masuda-sugimori",
+     "rows": 22,
+     "chars": 7341,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2011-03-04-interview-spong-bw-launch-masuda-sugimori.txt"
+    },
+    {
+     "stem": "2019-10-19-interview-gamefreak-rnd-2019",
+     "rows": 19,
+     "chars": 3118,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2019-10-19-interview-gamefreak-rnd-2019.txt"
+    },
+    {
+     "stem": "2021-12-27-interview-gamefreak-recruit-planner-rm",
+     "rows": 9,
+     "chars": 2752,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2021-12-27-interview-gamefreak-recruit-planner-rm.txt"
+    },
+    {
+     "stem": "2021-12-27-interview-gamefreak-recruit-designer-mi",
+     "rows": 9,
+     "chars": 2632,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2021-12-27-interview-gamefreak-recruit-designer-mi.txt"
+    },
+    {
+     "stem": "2026-08-29-continue-vol23-tuya-scan-archive",
+     "rows": 9,
+     "chars": 2438,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2026-08-29-continue-vol23-tuya-scan-archive.txt"
+    },
+    {
+     "stem": "2009-09-14-interview-gamefreak-career-message-masuda",
+     "rows": 9,
+     "chars": 2307,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2009-09-14-interview-gamefreak-career-message-masuda.txt"
+    },
+    {
+     "stem": "2016-01-10-interview-pokemon-recruit-staff-furutani",
+     "rows": 13,
+     "chars": 2301,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2016-01-10-interview-pokemon-recruit-staff-furutani.txt"
+    },
+    {
+     "stem": "2002-11-01-interview-nom-2002-ruby-sapphire-multi-battle-secret-base-report",
+     "rows": 13,
+     "chars": 1552,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2002-11-01-interview-nom-2002-ruby-sapphire-multi-battle-secret-base-report.txt"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "status": "completed",
+   "chars": 123001,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\shard-2.json",
+   "posts": [
+    {
+     "stem": "2018-11-01-interview-pokemoncom-2018-letsgo-makers",
+     "rows": 47,
+     "chars": 20370,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2018-11-01-interview-pokemoncom-2018-letsgo-makers.txt"
+    },
+    {
+     "stem": "2012-10-01-interview-pokemon-com-b2w2-masuda-unno",
+     "rows": 51,
+     "chars": 18303,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2012-10-01-interview-pokemon-com-b2w2-masuda-unno.txt"
+    },
+    {
+     "stem": "2019-10-24-interview-vg247-2019-swsh",
+     "rows": 39,
+     "chars": 18136,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2019-10-24-interview-vg247-2019-swsh.txt"
+    },
+    {
+     "stem": "2013-09-19-interview-jv-2013-xy",
+     "rows": 34,
+     "chars": 12176,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2013-09-19-interview-jv-2013-xy.txt"
+    },
+    {
+     "stem": "2019-10-24-interview-gi-2019-champion",
+     "rows": 44,
+     "chars": 11841,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2019-10-24-interview-gi-2019-champion.txt"
+    },
+    {
+     "stem": "2000-07-01-interview-nintendopower-gold-silver-roundtable",
+     "rows": 43,
+     "chars": 10010,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2000-07-01-interview-nintendopower-gold-silver-roundtable.txt"
+    },
+    {
+     "stem": "2017-08-09-interview-game-informer-game-freak-origins-pre-pokemon",
+     "rows": 23,
+     "chars": 7882,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2017-08-09-interview-game-informer-game-freak-origins-pre-pokemon.txt"
+    },
+    {
+     "stem": "2013-10-10-interview-gamasutra-xy-monster-design",
+     "rows": 21,
+     "chars": 5284,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2013-10-10-interview-gamasutra-xy-monster-design.txt"
+    },
+    {
+     "stem": "2017-08-17-interview-game-informer-creators-on-pokemon-anime",
+     "rows": 17,
+     "chars": 4405,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2017-08-17-interview-game-informer-creators-on-pokemon-anime.txt"
+    },
+    {
+     "stem": "2013-10-10-interview-iwata-asks-xy-chapter-1-global-simultaneous-release",
+     "rows": 30,
+     "chars": 2853,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2013-10-10-interview-iwata-asks-xy-chapter-1-global-simultaneous-release.txt"
+    },
+    {
+     "stem": "2021-12-27-interview-gamefreak-recruit-designer-ek",
+     "rows": 9,
+     "chars": 2692,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2021-12-27-interview-gamefreak-recruit-designer-ek.txt"
+    },
+    {
+     "stem": "2016-01-10-interview-pokemon-recruit-staff-hayakawa",
+     "rows": 13,
+     "chars": 2457,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2016-01-10-interview-pokemon-recruit-staff-hayakawa.txt"
+    },
+    {
+     "stem": "2009-09-14-interview-gamefreak-career-message-watanabe",
+     "rows": 14,
+     "chars": 2411,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2009-09-14-interview-gamefreak-career-message-watanabe.txt"
+    },
+    {
+     "stem": "2016-01-10-interview-pokemon-recruit-staff-kosugi",
+     "rows": 13,
+     "chars": 2145,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2016-01-10-interview-pokemon-recruit-staff-kosugi.txt"
+    },
+    {
+     "stem": "2016-01-10-interview-pokemon-recruit-staff-izawa",
+     "rows": 13,
+     "chars": 2036,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2016-01-10-interview-pokemon-recruit-staff-izawa.txt"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "status": "completed",
+   "chars": 122588,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\shard-3.json",
+   "posts": [
+    {
+     "stem": "2013-09-21-interview-nintendolife-2013-xy",
+     "rows": 59,
+     "chars": 20148,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2013-09-21-interview-nintendolife-2013-xy.txt"
+    },
+    {
+     "stem": "2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
+     "rows": 40,
+     "chars": 19266,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future.txt"
+    },
+    {
+     "stem": "2019-10-24-interview-polygon-2019-swsh",
+     "rows": 47,
+     "chars": 16126,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2019-10-24-interview-polygon-2019-swsh.txt"
+    },
+    {
+     "stem": "2014-11-01-interview-topofarmer-ideame-masuda-ohmori",
+     "rows": 78,
+     "chars": 12416,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2014-11-01-interview-topofarmer-ideame-masuda-ohmori.txt"
+    },
+    {
+     "stem": "2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori",
+     "rows": 16,
+     "chars": 11950,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori.txt"
+    },
+    {
+     "stem": "2018-10-26-interview-eurogamer-masuda-nabana-lets-go",
+     "rows": 23,
+     "chars": 10073,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2018-10-26-interview-eurogamer-masuda-nabana-lets-go.txt"
+    },
+    {
+     "stem": "2019-05-09-interview-vgc-gamefreak-gear-project",
+     "rows": 29,
+     "chars": 8238,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2019-05-09-interview-vgc-gamefreak-gear-project.txt"
+    },
+    {
+     "stem": "2011-03-05-interview-1up-black-white-how-pokemon-get-made",
+     "rows": 9,
+     "chars": 5934,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2011-03-05-interview-1up-black-white-how-pokemon-get-made.txt"
+    },
+    {
+     "stem": "2013-11-01-interview-gamefreak-recruit-programmer-tt-mi",
+     "rows": 23,
+     "chars": 4116,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2013-11-01-interview-gamefreak-recruit-programmer-tt-mi.txt"
+    },
+    {
+     "stem": "2021-12-27-interview-gamefreak-recruit-planner-kf",
+     "rows": 10,
+     "chars": 2952,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2021-12-27-interview-gamefreak-recruit-planner-kf.txt"
+    },
+    {
+     "stem": "2021-12-27-interview-gamefreak-recruit-programmer-ko",
+     "rows": 9,
+     "chars": 2714,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2021-12-27-interview-gamefreak-recruit-programmer-ko.txt"
+    },
+    {
+     "stem": "2021-12-27-interview-gamefreak-recruit-programmer-tk",
+     "rows": 9,
+     "chars": 2547,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2021-12-27-interview-gamefreak-recruit-programmer-tk.txt"
+    },
+    {
+     "stem": "2006-11-01-continue-vol31-aoi-yu-pikachu",
+     "rows": 8,
+     "chars": 2303,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2006-11-01-continue-vol31-aoi-yu-pikachu.txt"
+    },
+    {
+     "stem": "2016-01-10-interview-pokemon-recruit-staff-yoshihara",
+     "rows": 13,
+     "chars": 2268,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2016-01-10-interview-pokemon-recruit-staff-yoshihara.txt"
+    },
+    {
+     "stem": "2016-09-06-interview-pokemoncojp-2016-ohmori-sm",
+     "rows": 13,
+     "chars": 1537,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-g\\dump\\2016-09-06-interview-pokemoncojp-2016-ohmori-sm.txt"
+    }
+   ]
+  }
+ ]
+}

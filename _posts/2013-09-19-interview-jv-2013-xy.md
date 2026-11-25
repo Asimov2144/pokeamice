@@ -197,11 +197,11 @@ parallel_items:
   translation: 这取决于该功能加入游戏所需的工作时间，以及我们认为玩家在发现它时会感受到的乐趣。我们在开始开发每一款宝可梦时，会先列出希望加入游戏的新要素，以及哪些已有元素需要调整。之后，这一切都必须能塞进开发周期之内。
 - original: 'Mise à jour : 14h29 : Une erreur s''était glissée dans cette interview. Le prix de l''abonnement à la Pokémon Bank sera de 5 euros par an en Europe. Toutes nos excuses.'
   role: answer
-  speaker: 增田顺一
+  speaker: "jeuxvideo.com"
   translation: 更新：14时29分：这篇访谈中出现了一处错误。在欧洲，宝可梦虚拟银行的订阅价格为每年5欧元。我们深表歉意。
   note: 宝可梦虚拟银行是《宝可梦 X·Y》时期推出的云端存储服务。
 - original: 'Mise à jour : 14h59 : Nintendo nous a confirmé par téléphone que pour l''heure, le prix pour l''abonnement à la Pokémon Bank n''a pas été confirmé officiellement pour l''Europe.'
   role: answer
-  speaker: 增田顺一
+  speaker: "jeuxvideo.com"
   translation: 更新：14时59分：任天堂通过电话向我们确认，目前宝可梦虚拟银行的订阅价格尚未在欧洲正式确认。
 ---

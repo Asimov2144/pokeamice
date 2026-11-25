@@ -260,6 +260,6 @@ parallel_items:
   translation: 例如，如果你找到一位小火龙大师，你就用自己的小火龙挑战那位大师训练家。要击败那位小火龙大师，你需要深入了解宝可梦对战系统的运作方式，还需要有一只强大的宝可梦。如果你成功击败他们，就能为自己赢得小火龙大师的称号。然后你可以走遍关都地区，收集所有这些不同的大师训练家称号。
 - original: 'We would like to thank Mr. Masuda and Mr. Nabana for taking the time to chat with us about their latest games. If you want to learn even more about Pokémon: Let''s Go, Pikachu! and Pokémon: Let''s Go, Eevee!, please visit the official website!'
   role: answer
-  speaker: 菜花健作
+  speaker: "Pokemon.com"
   translation: 我们要感谢增田先生和菜花先生抽出时间与我们聊他们的最新游戏。如果你想了解更多关于《宝可梦 Let's Go！皮卡丘》和《宝可梦 Let's Go！伊布》的信息，请访问官方网站！
 ---

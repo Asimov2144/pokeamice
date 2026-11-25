@@ -46,7 +46,7 @@ parallel_items:
   alt: 增田顺一（Junichi Masuda，制作总监 / Director）
 - speaker: 增田顺一
   original: 'Junichi Masuda, Director : Because of the hardware, our game design has changed dramatically. Really, I didn’t think of the Internet ten years ago! ( laughs ) Also, the quality of both picture and sound have dramatically advanced in that time—the number of colors and three-dimensional graphics, for instance, has greatly expanded. Of course, that made things harder! ( laughs ) One thing which hasn’t changed is our desire to create a game that is approachable for everyone.'
-  translation: 增田顺一（制作总监）：由于硬件的进步，我们的游戏设计发生了翻天覆地的变化。说实话，十年前我根本没想过互联网会如此普及！（笑）同时，画面和音效的质量在这段时间里也有了飞跃性的提升——比如色彩数量和三维图形技术都大大拓展了。当然，这也让开发变得更加困难了！（笑）但有一点始终未变，那就是我们想要打造一款人人都能轻松上手的游戏的初衷。
+  translation: "增田顺一（制作总监）：由于硬件的缘故，我们的游戏设计发生了巨大变化。真的，十年前我根本没考虑过互联网！（笑）而且这段时间里画面和音质都有了巨大进步——比如颜色数量和三维图形大大增加了。当然，这也让事情变得更难了！（笑）没有改变的一点，是我们想做出人人都能轻松上手的游戏的愿望。"
   role: answer
 - type: image
   caption: 森本茂树（Shigeki Morimoto，游戏总监 / Game Director）
