@@ -1,13 +1,13 @@
 ---
 archive_type: interview_translation
 layout: interview-editorial
-title: Pokemon.com 官方独家专访：大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道
+title: "Pokemon.com 专访大森滋与岩尾和昌：《宝可梦 究极之日·究极之月》开发者谈“核心”与彩虹火箭队"
 tags:
 - '访谈'
 - '大森滋'
 - '岩尾和昌'
 - '宝可梦 究极之日·究极之月'
-subtitle: 从少年时代的初代玩家到制作人与总监：彩虹火箭队平行宇宙集结、究极异兽反常规设计与3DS终章哲学
+subtitle: "岩尾和昌与大森滋谈“核心”主题、彩虹火箭队的平行世界与究极异兽的设计"
 date: '2017-11-09'
 categories: [访谈翻译, 翻译, 访谈整理]
 permalink: /interview-pokemon-com-usum-ohmori-iwao/
@@ -16,7 +16,7 @@ original_lang: en
 source_name: Pokemon.com / PocketMonsters.net
 source_url: https://www.pocketmonsters.net/content/Interview_GAME_FREAK_USUM
 original_link: https://www.pokemon.com/us/pokemon-news/an-exclusive-interview-with-the-makers-of-pokemon-ultra-sun-and-pokemon-ultra-moon/
-summary: 由宝可梦美版官网（Pokemon.com）在《究极之日·究极之月》发售前夕推出的独家重磅长文专访！由游戏制作人大森滋与初度掌舵总监的岩尾和昌联袂受访：1. 主创回忆童年时代因《红·绿》震撼走上游戏开发之路，以及初入 GAME FREAK 参与《红蓝宝石》《黑·白》对战与UI设计的职业起点；2. 阐述为何打破《黄版》《绿宝石》单版本惯例，以双版本深度刻画索尔迦雷欧、露奈雅拉与奈克洛兹玛的‘核心’（Core）羁绊；3. 首次详述彩虹火箭队反派首领的平行宇宙设定——在各自原版宇宙中实现野心并穿梭而来的究极形态；4. 揭秘杉森建为究极异兽定下的‘打破生命体常理、运用玻璃与纸质等异质素材’的反向设计哲学；5. 复盘巨翅飞鱼冲浪对初代冲浪皮卡丘的现代致敬，以及对战设施与竞技平衡调优。
+summary: "2017年11月Pokemon.com刊登的《宝可梦 究极之日·究极之月》开发者访谈（PocketMonsters.net转载）。总监岩尾和昌与制作人大森滋谈各自接触宝可梦、进入GAME FREAK的经历与最初参与的作品；以“核心”为开发主题；通关后的彩虹火箭队剧情，以及各头目来自实现了野心的平行世界；总监之间的经验传承；杉森建对究极异兽的设计思路；巨翅飞鱼冲浪的由来、对手角色的平衡、通关后内容和对战环境；以及各自最期待玩家体验的内容。"
 entities:
   people:
   - 大森滋
@@ -34,236 +34,246 @@ entities:
 topics:
 - 海外媒体专访
 parallel_items:
-- type: image
-  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/hero_ohmori_iwao.jpg
-  alt: 大森滋（制作人，左）与岩尾和昌（总监，右）在 GAME FREAK 接受专访
-  caption: 大森滋（制作人，左）与岩尾和昌（总监，右）在 GAME FREAK 接受官方深度专访
-- type: dialogue
-  speaker: Pokemon.com
-  original: With the impending release of Pokémon Ultra Sun and Pokémon Ultra Moon for the Nintendo 3DS family of systems, we had the chance to chat with the game's producer, Shigeru Ohmori, and director, Kazumasa Iwao, about their experiences working on the game. Read on to see what they had to say about the creative process behind these new adventures, the secrets behind the development of the games, and much more.
-  translation: 随着《宝可梦 究极之日·究极之月》即将在Nintendo 3DS系列平台上发售，我们有幸与游戏制作人大森滋和总监岩尾和昌进行了对话，探讨了他们在开发这款游戏过程中的心得体会。请继续阅读，了解他们关于这些新冒险背后的创意过程、游戏开发背后的秘密以及更多精彩内容。
-  role: question
-- type: heading
-  original: First Experiences & Joining GAME FREAK
-  translation: "第1节：最初的接触与加入 GAME FREAK"
-- type: dialogue
-  speaker: Pokemon.com
-  original: What were your first experiences with the Pokémon brand as players? How did you end up working at GAME FREAK?
-  translation: 作为玩家，你们最初接触宝可梦品牌的经历是怎样的？你们又是如何最终进入GAME FREAK工作的？
-  role: question
-- type: dialogue
-  speaker: 岩尾和昌
-  original: I first played the Pokémon Red and Pokémon Green games when I was a kid and enjoyed each entry in the series as a player. When I was in college, I started thinking about what I wanted to do for a career. I played Pokémon Diamond and Pokémon Pearl at the time, and it hit me that the games were really fun and made me realize that games are really great. That was what made me decide I wanted to get into the video game industry. I was looking around at different game companies and found a job posting for GAME FREAK. I applied, was hired, and that's how I got my start.
-  translation: 我小时候第一次玩《宝可梦 赤·绿》，作为玩家享受了系列中的每一款作品。大学时期，我开始思考自己的职业道路。那时我玩了《宝可梦 钻石·珍珠》，深深感受到游戏的乐趣，这让我意识到游戏的伟大之处，也正是这份感动促使我决定投身游戏行业。我在寻找不同的游戏公司时，发现了GAME FREAK的招聘信息，便递交了申请并被录用，这就是我职业生涯的起点。
-  role: answer
-- type: dialogue
-  speaker: 大森滋
-  original: My younger brother was the perfect age for Pokémon Red and Pokémon Green when they came out, and I played them with him. I was really surprised that a game where you communicated and traded with other players had appeared. I was in high school at the time. I knew I wanted to work in video games as a game designer, but there weren't a lot of companies at the time that were recruiting for that position. However, I found a job posting at GAME FREAK to the position and applied.
-  translation: 我的弟弟在《宝可梦 赤·绿》发售时正值完美年龄，我与他一同游玩。当时我还在上高中，对于一款能与他人交流并交换宝可梦的游戏的出现感到十分惊讶。那时我已立志成为游戏设计师，但当时招聘该职位的公司并不多。然而，我发现了GAME FREAK的招聘启事，便申请了该职位。
-  role: answer
-- type: dialogue
-  speaker: Pokemon.com
-  original: What were the first titles you worked on, and what were your roles on those games?
-  translation: 你们最初参与制作的是哪些作品，当时分别担任什么职务？
-  role: question
-- type: dialogue
-  speaker: 岩尾和昌
-  original: I first worked on Pokémon Black and Pokémon White as a game designer. I worked on the battle system and was in charge of the UI design for the battle system. I also worked on the battle facilities in the game, such as the Battle Subway.
-  translation: 我最初以游戏设计师的身份参与了《宝可梦 黑·白》的开发，负责战斗系统，并担任了战斗系统UI设计的工作。同时，我也参与了游戏中的对战设施，如对战地铁的设计。
-  role: answer
-- type: image
-  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/ruby_sapphire.png
-  alt: GBA《宝可梦 红宝石·蓝宝石》
-  caption: 大森滋入职 GAME FREAK 后参与的首款作品：GBA《宝可梦 红宝石·蓝宝石》
-- type: dialogue
-  speaker: 大森滋
-  original: I first worked as a game designer on the Pokémon Ruby and Pokémon Sapphire games. I worked on designing the user interface, working on the communication systems, and pitching ideas for the game mechanics.
-  translation: 我最初在《宝可梦 红宝石·蓝宝石》中担任游戏设计师，负责用户界面设计、通信系统开发，并为游戏机制提出创意方案。
-  role: answer
-- type: heading
-  original: Developing Pokémon Ultra Sun and Pokémon Ultra Moon
-  translation: 第2节：《究极之日·究极之月》的核心主题与集大成定位
-- type: dialogue
-  speaker: Pokemon.com
-  original: 'These games are a bit of a departure from previous follow-up titles like Pokémon Yellow: Special Pikachu Edition, or Pokémon Emerald, which were a single new title. How did you come up with the concept of releasing two new games this time around?'
-  translation: 这两款游戏与之前的后续作品，如《宝可梦 皮卡丘》（黄版）或《宝可梦 绿宝石》有所不同，那些是单一的新作。这次你们是如何构思出同时推出两款新作的概念的呢？
-  role: question
-- type: image
-  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/battle_screen.png
-  alt: 《宝可梦 究极之日·究极之月》全新对战UI与界面
-  caption: 《究极之日·究极之月》在 3DS 硬件极限下全面翻新的对战 UI 与动态演出
-- type: dialogue
-  speaker: 岩尾和昌
-  original: We came up with the theme of “core” for the development of the game. We decided we wanted to focus on the core elements of what makes Pokémon games fun, but also deepen them further than ever before. With Pokémon Sun and Pokémon Moon, the story really focused on the legendary Pokémon of each version—Solgaleo and Lunala—and they were very well received. So we wanted to make sure that the story this time around really explored both of these legendary Pokémon and their connection with Necrozma in depth. If we made a single title, it would be difficult to give equal weight to both Solgaleo and Lunala in the story, so we felt that having two versions was necessary.
-  translation: 我们在游戏开发中确立了“核心”这一主题。我们决定专注于构成宝可梦游戏乐趣的核心要素，并在此基础上进行前所未有的深化。在《宝可梦 太阳》与《宝可梦 月亮》中，故事紧密围绕各自版本的传说宝可梦——索尔迦雷欧和露奈雅拉展开，它们受到了广泛好评。因此，我们希望这次的故事能深入探索这两只传说宝可梦以及它们与奈克洛兹玛之间的关联。若只制作单一版本，很难在故事中给予索尔迦雷欧和露奈雅拉同等的重视，因此我们认为推出两个版本是必要的。
-  role: answer
-- type: heading
-  original: Team Rainbow Rocket & Villain Bosses
-  translation: 第3节：彩虹火箭队诞生与历代反派头目的平行宇宙宿命
-- type: dialogue
-  speaker: Pokemon.com
-  original: Bringing back so many characters from previous games with Team Rainbow Rocket unifies the Pokémon universe. What led to the decision to bring all these legendary villains together?
-  translation: 让如此多前作角色与彩虹火箭队一同回归，将宝可梦宇宙紧密相连。是什么促使你们决定将这些传奇反派齐聚一堂？
-  role: question
-- type: image
-  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/rainbow_rocket.png
-  alt: 彩虹火箭队六大反派历代头目集结：坂木、水梧桐、赤焰松、赤日、魁奇思、弗拉达利
-  caption: 历代反派头目平行宇宙集结：彩虹火箭队（Team Rainbow Rocket）
-- type: dialogue
-  speaker: 岩尾和昌
-  original: Pokémon Ultra Sun and Pokémon Ultra Moon are really kind of a culmination of our efforts with the Pokémon series on the Nintendo 3DS systems. We really wanted to make this the ultimate, most feature-packed game we could, and with it being the 20th anniversary of the Pokémon franchise recently, we also wanted to create an element of the game that would really please all the longtime fans who have been playing for a long time. Giovanni is also an iconic character, and we thought having him gather all these other bosses together to form Team Rainbow Rocket would be a great way to celebrate the history of the series.
-  translation: 《宝可梦 究极之日·究极之月》确实是我们之前在Nintendo 3DS系列上《宝可梦》系列努力的集大成之作。我们真心希望将其打造成为我们所能做到的最极致、功能最丰富的游戏，并且鉴于宝可梦系列近期迎来了20周年，我们也想加入一些能真正取悦所有长期玩家的游戏元素。坂木也是一个标志性角色，我们认为让他集结其他所有头目组成彩虹火箭队，会是庆祝系列历史的一个绝佳方式。
-  role: answer
-- type: dialogue
-  speaker: Pokemon.com
-  original: With the return of Team Rocket and many of these older characters, to what extent did you research how they were depicted in previous games?
-  translation: 随着火箭队及这些老角色的回归，你们在多大程度上研究了他们在以往游戏中的形象描绘？
-  role: question
-- type: dialogue
-  speaker: 岩尾和昌
-  original: The setting for these characters is that they were successful in achieving their goals in their original games and came to the world of Pokémon Ultra Sun and Pokémon Ultra Moon through the Ultra Wormhole. So they were basically in their ultimate state—having achieved what they set out to do. Because of that, their attitudes and personalities may have slightly changed as a result of achieving their goals, but we were very careful to make sure they didn't feel out of character.
-  translation: 这些角色的设定是他们在原作游戏中成功实现了自己的目标，并通过究极之洞来到了《宝可梦 究极之日·究极之月》的世界。因此，他们基本上处于终极状态——已经达成了他们原本的目标。正因为如此，他们的态度和个性可能因实现目标而略有变化，但我们非常小心，确保他们不会让人觉得偏离了原有性格。
-  role: answer
-- type: dialogue
-  speaker: Pokemon.com
-  original: How did you decide which characters to bring back? And were there any challenges in figuring out how to balance so many characters while still giving them enough screen time?
-  translation: 你们是如何决定带回哪些角色的？在平衡众多角色并给予他们足够出场时间方面，是否遇到了挑战？
-  role: question
-- type: image
-  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/guzma.png
-  alt: 骷髅队老大古兹马（Guzma）
-  caption: 深受玩家喜爱的骷髅队老大古兹马：在剧情中与主角并肩抗击彩虹火箭队
-- type: dialogue
-  speaker: 岩尾和昌
-  original: It wasn't a huge challenge to come up with a story so that it all made sense. Guzma is a fan-favorite character, so we wanted to make sure he had a prominent role in the story as well. Having him fight alongside the player against Team Rainbow Rocket was a great way to show how much he has grown as a character since the events of Pokémon Sun and Pokémon Moon.
-  translation: 构思一个让一切合情合理的故事并非巨大挑战。古兹马是深受粉丝喜爱的角色，所以我们希望确保他在故事中也有重要戏份。让他与玩家并肩作战对抗彩虹火箭队，是展现他自《宝可梦 太阳·月亮》事件以来角色成长的好方法。
-  role: answer
-- type: heading
-  original: Directorial Approaches & Mentorship
-  translation: 第4节：总监导师制与游戏设计哲学的代际传承
-- type: dialogue
-  speaker: Pokemon.com
-  original: Mr. Ohmori was the director on Pokémon Omega Ruby and Pokémon Alpha Sapphire, then again on Pokémon Sun and Pokémon Moon, but took a producer role on these games. How did your working relationship function with Mr. Iwao stepping into the director role?
-  translation: 大森先生在《宝可梦 欧米伽红宝石·阿尔法蓝宝石》和《宝可梦 太阳·月亮》中担任总监，但在这些游戏中转为制作人角色。您与接任总监职位的岩尾先生是如何协作的？
-  role: question
-- type: dialogue
-  speaker: 岩尾和昌
-  original: I learned a lot from Ohmori. Most importantly, that it is also vital to have a clear vision for the game and be able to communicate that vision to the entire team. He also taught me that it's important to trust your team and delegate responsibilities to them.
-  translation: 我从大森先生那里学到了很多。最重要的是，对游戏有清晰的愿景并能将这一愿景传达给整个团队至关重要。他还教会我信任团队并将责任委派给他们很重要。
-  role: answer
-- type: dialogue
-  speaker: Pokemon.com
-  original: How did your previous roles in development shape your approaches as directors?
-  translation: 您之前的开发角色如何影响了您作为总监的方法？
-  role: question
-- type: dialogue
-  speaker: 岩尾和昌
-  original: I feel like my experience working on many different aspects of the games has affected my approach. For example, because of my background working on the battle system, I place a lot of emphasis on ensuring the game is fun and engaging from a gameplay perspective.
-  translation: 我觉得我在游戏多个不同方面的工作经验影响了我的方法。例如，由于我有对战系统的工作背景，我非常重视确保游戏在玩法角度上既有趣又引人入胜。
-  role: answer
-- type: dialogue
-  speaker: 大森滋
-  original: As a game designer, I worked directly with a lot of people in different roles, such as programmers and graphic designers. That experience really helped me understand what is required from each role and how to effectively communicate with them.
-  translation: 作为游戏设计师，我与许多不同职位的人直接合作，比如程序员和图形设计师。那段经历确实帮助我理解了每个角色需要什么，以及如何与他们有效沟通。
-  role: answer
-- type: heading
-  original: Ultra Beasts, Mantine Surf & Competitive Balance
-  translation: "第5节：究极异兽、巨翅飞鱼冲浪与对战平衡"
-- type: dialogue
-  speaker: Pokemon.com
-  original: Do you take a different approach when it comes to designing Ultra Beasts than you would with a new Pokémon?
-  translation: 在设计究极异兽时，您是否采取了与设计新宝可梦不同的方法？
-  role: question
-- type: image
-  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/ultra_beast.png
-  alt: 《宝可梦 究极之日·究极之月》登场的全新究极异兽
-  caption: 杉森建亲自定立‘异质感与反常理’概念的新究极异兽群
-- type: dialogue
-  speaker: 大森滋
-  original: With the Ultra Beasts, Ken Sugimori, who oversees the Pokémon designs, came up with the concept of doing things that we wouldn't normally do with standard Pokémon designs. For example, creating a Pokémon with a base shape that doesn't feel like a living creature, or using materials like glass or paper that you wouldn't normally associate with Pokémon. We wanted them to feel fundamentally alien and different from the Pokémon players were used to seeing.
-  translation: 对于究极异兽，负责宝可梦设计的杉森建提出了一个概念，即尝试做一些我们在标准宝可梦设计中通常不会做的事情。例如，创造一个基础形状不似生物，或使用玻璃、纸张等通常不会与宝可梦关联的材料的宝可梦。我们希望它们从根本上感觉与众不同，与玩家习惯看到的宝可梦截然不同。
-  role: answer
-- type: dialogue
-  speaker: Pokemon.com
-  original: 'Is Mantine Surf an homage to the Surfing Pikachu in Pokémon Yellow: Special Pikachu Edition? Pokémon games have included a lot of minigames over the years. What made you decide to develop Mantine Surf for these titles?'
-  translation: 巨翅飞鱼冲浪是否是对《宝可梦 皮卡丘》（黄版）中冲浪皮卡丘的致敬？多年来，宝可梦游戏包含了许多小游戏。是什么促使您决定在这些作品中开发巨翅飞鱼冲浪？
-  role: question
-- type: image
-  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/mantine_surf.jpg
-  alt: 《宝可梦 究极之日·究极之月》巨翅飞鱼冲浪迷你游戏
-  caption: 致敬初代《皮卡丘》冲浪小游戏的阿罗拉特色机制：巨翅飞鱼冲浪（Mantine Surf）
-- type: dialogue
-  speaker: 岩尾和昌
-  original: There were two reasons. One is that we wanted to differentiate the games from Pokémon Sun and Pokémon Moon right from the beginning of the adventure, so we wanted to include a fun minigame that players could experience between the islands. The other reason is that, yes, it was partially an homage to the Surfing Pikachu minigame in Pokémon Yellow. We wanted to take that concept and update it for modern players with more dynamic gameplay and tricks you can pull off.
-  translation: 有两个原因。一是我们希望在冒险一开始就使游戏与《宝可梦 太阳·月亮》区分开来，因此我们想加入一个有趣的迷你游戏，让玩家在岛屿之间旅行时能够体验。另一个原因是，是的，它部分是对《宝可梦 皮卡丘》中冲浪皮卡丘迷你游戏的致敬。我们希望将这一概念进行现代化更新，为现代玩家提供更动态的游戏体验和可完成的技巧动作。
-  role: answer
-- type: dialogue
-  speaker: Pokemon.com
-  original: Considering Necrozma, Team Rainbow Rocket, the new Ultra Beasts, Team Skull, and others, there are a lot of opposing forces in Pokémon Ultra Sun and Pokémon Ultra Moon. Was it difficult to balance all these competing antagonists in the story?
-  translation: 考虑到奈克洛兹玛、彩虹火箭队、新的究极异兽、骷髅队等，在《宝可梦 究极之日·究极之月》中有许多对立势力。在故事中平衡所有这些竞争性反派是否困难？
-  role: question
-- type: image
-  src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/necrozma_art.jpg
-  alt: 光辉大神：奈克洛兹玛究极形态
-  caption: 夺取阿罗拉之光的核心反派与核心传神：奈克洛兹玛（Necrozma）
-- type: dialogue
-  speaker: 岩尾和昌
-  original: Since Team Rainbow Rocket only appears after you complete the main story, I wasn't too worried about them overshadowing the events of the main story. The main narrative focuses squarely on Necrozma, the Ultra Recon Squad, and the mystery surrounding light being stolen from Alola. We made sure to keep that central conflict clear and compelling throughout the main quest.
-  translation: 由于彩虹火箭队只在玩家完成主线故事后出现，我并不太担心他们会盖过主线事件的风头。主线叙事明确聚焦于奈克洛兹玛、究极调查队以及阿罗拉地区光被偷走的谜团。我们确保在主线任务中保持这一核心冲突的清晰和引人入胜。
-  role: answer
-- type: dialogue
-  speaker: Pokemon.com
-  original: Some players voiced a desire for more post-game content in Pokémon Sun and Pokémon Moon. Is that something you aimed to address in Pokémon Ultra Sun and Pokémon Ultra Moon?
-  translation: 一些玩家表达了希望在《宝可梦 太阳·月亮》中有更多一周目通关后内容的愿望。这是否是您在《宝可梦 究极之日·究极之月》中旨在解决的问题？
-  role: question
-- type: dialogue
-  speaker: 岩尾和昌
-  original: The scenario featuring Team Rainbow Rocket is only accessible after the player completes the main story, so that alone provides a lot of post-game content. There are also new legendary Pokémon to catch through the Ultra Wormhole, the Battle Agency facility, and plenty of side quests that become available after you become the Champion.
-  translation: 涉及彩虹火箭队的剧情只有在玩家完成主线故事后才能解锁，因此这本身就提供了大量的一周目通关后内容。此外，还有通过究极之洞捕捉的新传说宝可梦、对战公司设施，以及成为冠军后可用的众多支线任务。
-  role: answer
-- type: heading
-  original: Creative Sparks & Looking Ahead
-  translation: 第6节：创意的源初火花与给全球训练家的话
-- type: dialogue
-  speaker: Pokemon.com
-  original: Where does the original creative spark for a new Pokémon game usually come from? What are the first elements that get decided?
-  translation: 新宝可梦游戏的原创创意火花通常来自哪里？首先决定哪些元素？
-  role: question
-- type: dialogue
-  speaker: 大森滋
-  original: There isn't a predetermined process for it, but I can explain how I approach things when I'm directing a game. I usually start with the core theme I want to explore. For example, with Pokémon Sun and Pokémon Moon, the theme was “life” and exploring the relationship between humans, nature, and Pokémon. From that central theme, we brainstorm what kind of setting would best fit that theme, which led to the creation of the Alola region based on Hawaii. Then we start thinking about what new gameplay mechanics would support that theme, such as Z-Moves and the Island Challenge.
-  translation: 没有预定的流程，但我可以解释我作为导演时如何处理事情。我通常从想要探索的核心主题开始。例如，对于《宝可梦 太阳·月亮》，主题是“生命”，探索人类、自然和宝可梦之间的关系。从这个核心主题出发，我们集思广益，思考什么样的设定最适合这个主题，这导致了基于夏威夷的阿罗拉地区的创造。然后我们开始考虑支持该主题的新游戏机制，如Z招式和岛屿挑战。
-  role: answer
-- type: dialogue
-  speaker: Pokemon.com
-  original: How much do you take into account the current competitive environment when designing a new game?
-  translation: 在设计新游戏时，你们多大程度上考虑当前的竞技环境？
-  role: question
-- type: dialogue
-  speaker: 岩尾和昌
-  original: Of course, we pay attention to the competitive environment and monitor it when making adjustments. We have a battle team dedicated to testing and fine-tuning the balance of moves, abilities, and Pokémon stats. With Pokémon Ultra Sun and Pokémon Ultra Moon, we introduced new move tutors, new Z-Moves, and new Pokémon that we hope will shake up the metagame in interesting ways.
-  translation: 当然，我们会关注竞技环境，并在调整时进行监控。我们有一个专门的战斗团队，负责测试和微调招式、特性及宝可梦的能力值。在《宝可梦 究极之日·究极之月》中，我们引入了新的招式导师、新的Z招式和新的宝可梦，希望能以有趣的方式改变对战格局。
-  role: answer
-- type: dialogue
-  speaker: Pokemon.com
-  original: With these games, what new features are you most excited for Pokémon Sun and Pokémon Moon players to experience?
-  translation: 对于这些游戏，你们最期待《宝可梦 太阳·月亮》的玩家体验哪些新特性？
-  role: question
-- type: dialogue
-  speaker: 岩尾和昌
-  original: I can't speak in too much detail, but I'm most excited for players to see the conclusion of the story involving Necrozma, and to challenge Team Rainbow Rocket. I think players will be really surprised by the scale and depth of the new content.
-  translation: 我不能说得太详细，但我最期待玩家看到涉及奈克洛兹玛的故事结局，并挑战彩虹火箭队。我认为玩家会对新内容的规模和深度感到非常惊讶。
-  role: answer
-- type: dialogue
-  speaker: 大森滋
-  original: I'm most excited for players to get a chance to experience an all-new adventure in the Alola region with so many new additions. Even if you played Pokémon Sun and Pokémon Moon, you'll find plenty of surprises and new things to discover in Pokémon Ultra Sun and Pokémon Ultra Moon.
-  translation: 我最期待玩家有机会在阿罗拉地区体验一次全新的冒险，并加入了许多新元素。即使你玩过《宝可梦 太阳·月亮》，在《宝可梦 究极之日·究极之月》中也会发现许多惊喜和新事物。
-  role: answer
-- type: dialogue
-  speaker: Pokemon.com
-  original: Many thanks to Mr. Iwao and Mr. Ohmori for taking the time to chat with us about their latest game. We hope our readers enjoy exploring Alola in Pokémon Ultra Sun and Pokémon Ultra Moon!
-  translation: 非常感谢岩尾先生和大森先生抽出时间与我们谈论他们的最新游戏。我们希望读者能享受在《宝可梦 究极之日·究极之月》中探索阿罗拉的乐趣！
-  role: question
+- type: "image"
+  src: "/assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/hero_ohmori_iwao.jpg"
+  alt: "大森滋（制作人，左）与岩尾和昌（总监，右）在 GAME FREAK 接受专访"
+  caption: "大森滋（制作人，左）与岩尾和昌（总监，右）在 GAME FREAK 接受官方深度专访"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "With the impending release of Pokémon Ultra Sun and Pokémon Ultra Moon for the Nintendo 3DS family of systems, we are growing more and more excited about making a return trip to the Alola region. To learn more about our upcoming expedition, we turned to GAME FREAK, the developers of the game, for a little extra insight. We were lucky enough to chat with Kazumasa Iwao, the director of Pokémon Ultra Sun and Pokémon Ultra Moon, and Shigeru Ohmori, the director of Pokémon Sun and Pokémon Moon and current producer of Pokémon Ultra Sun and Pokémon Ultra Moon, who both shared their experiences and thought processes about designing the latest journey into the wonderful world of Pokémon."
+  translation: "《宝可梦 究极之日》《宝可梦 究极之月》即将在Nintendo 3DS家族主机上发售，我们越来越期待再次踏上前往阿罗拉地区的旅程。为了多了解一点这次即将展开的远征，我们请教了游戏的开发商GAME FREAK。我们有幸与《究极之日·究极之月》的总监岩尾和昌，以及《太阳·月亮》的总监、《究极之日·究极之月》现任制作人大森滋聊了聊，两位分享了设计这趟进入宝可梦奇妙世界的最新旅程时的经历与思路。"
+  role: "question"
+- type: "heading"
+  level: 2
+  original: "Know Your History"
+  translation: "了解他们的来历"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: What were your first experiences with the Pokémon brand as players? How did you end up working at GAME FREAK?"
+  translation: "Pokemon.com：你们最初是以玩家的身份怎样接触宝可梦的？又是怎样进入GAME FREAK工作的？"
+  role: "question"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Kazumasa Iwao: I first played the Pokémon Red and Pokémon Green games when I was a kid and enjoyed each entry in the series after that. When it became time to look for work, I thought about what I wanted to do, and I knew I wanted create games. So I decided to pursue a career at GAME FREAK, who had created some of the games I really enjoyed."
+  translation: "岩尾和昌：我小时候第一次玩的是《宝可梦 红》和《宝可梦 绿》，此后系列的每一作我都玩得很开心。到了该找工作的时候，我思考自己想做什么，知道自己想做游戏，于是决定去GAME FREAK——他们做出了一些我很喜欢的游戏。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "大森滋"
+  original: "Shigeru Ohmori: My younger brother was the perfect age for Pokémon Red and Pokémon Green when they came out, and I picked up the games to play together with him. We both got really hooked on the games, and we would battle and trade together, along with his friends. I knew I wanted to work in video games as a game designer, but there weren't a lot of companies at the time recruiting for that position. However, I found a job posting at GAME FREAK to the position and applied for it."
+  translation: "大森滋：我弟弟的年纪，刚好适合在《宝可梦 红》和《宝可梦 绿》发售时玩，我就买了游戏和他一起玩。我们两个都玩得入了迷，会和他的朋友们一起对战、交换。我知道自己想作为游戏设计师进入电子游戏行业，但当时招聘这个岗位的公司并不多。不过我发现GAME FREAK有这个职位的招聘信息，就去应聘了。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: What were the first titles you worked on, and what were your roles on those games?"
+  translation: "Pokemon.com：你们最初参与的作品是什么？在那些作品里担任什么工作？"
+  role: "question"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: I first worked on Pokémon Black and Pokémon White as a game designer. I worked on the UI, battle system, and the Pokémon Musical feature. I was a complete beginner and wasn't knowledgeable about game development, but I was lucky to be able to work on so many different aspects of the game."
+  translation: "岩尾先生：我最初是作为游戏设计师参与《宝可梦 黑》和《宝可梦 白》的。我负责UI、对战系统和宝可梦音乐剧功能。我当时完全是个新手，对游戏开发并不熟悉，但很幸运能接触到游戏的这么多不同方面。"
+  role: "answer"
+- type: "image"
+  src: "/assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/ruby_sapphire.png"
+  alt: "GBA《宝可梦 红宝石·蓝宝石》"
+  caption: "大森滋入职 GAME FREAK 后参与的首款作品之一：《宝可梦 红宝石·蓝宝石》"
+- type: "dialogue"
+  speaker: "大森滋"
+  original: "Mr. Ohmori: I first worked as a game designer on the Pokémon Ruby and Pokémon Sapphire games. I worked primarily on the game environments and communication features. For the television connectivity features, I came up with the initial concepts and worked on them to completion."
+  translation: "大森先生：我最初是作为游戏设计师参与《宝可梦 红宝石》和《宝可梦 蓝宝石》的。我主要负责游戏环境和通信功能。电视联动功能的最初构想是我提出的，并且一直做到了完成。"
+  role: "answer"
+- type: "heading"
+  level: 2
+  original: "The Roots of Pokémon Ultra Sun and Pokémon Ultra Moon"
+  translation: "《究极之日》《究极之月》的根基"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: These games are a bit of a departure from previous follow-up titles like Pokémon Yellow: Special Pikachu Edition or even Pokémon Black Version 2 and Pokémon White Version 2. What would you call out as the core concept behind Pokémon Ultra Sun and Pokémon Ultra Moon?"
+  translation: "Pokemon.com：这两款游戏与《宝可梦 黄：特别皮卡丘版》，甚至《宝可梦 黑2》《宝可梦 白2》这类以往的后续作品有些不同。你们会说，《究极之日》《究极之月》背后的核心概念是什么？"
+  role: "question"
+- type: "image"
+  src: "/assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/battle_screen.png"
+  alt: "《宝可梦 究极之日·究极之月》全新对战UI与界面"
+  caption: "《究极之日·究极之月》的对战画面"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: We came up with the theme of “core” for the development of the game. We decided that we wanted to always focus on the core, or what serves as the base of things, and always focus on what is truly important when developing this game, and that's how we landed on the theme. What is the “core” of Pokémon? What is the “core” or an RPG? What is the “core” of what makes a game? We would constantly ask ourselves these kinds of questions to make sure we were on the right track when coming up with new ideas for the game or making development decisions."
+  translation: "岩尾先生：我们为游戏的开发定下了“核心”这个主题。我们决定始终专注于核心，也就是作为事物根基的东西，开发这款游戏时始终专注于真正重要的东西，主题就是这样定下来的。宝可梦的“核心”是什么？RPG的“核心”是什么？让一款游戏成其为游戏的“核心”又是什么？为了确保在想新点子、做开发决定时走在正确的路上，我们会不断这样问自己。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: Bringing back so many characters from previous games with Team Rainbow Rocket unifies the Pokémon universe in a way we haven't quite seen before. What was the impetus for that idea?"
+  translation: "Pokemon.com：让这么多以往作品里的角色随彩虹火箭队回归，以前所未见的方式把宝可梦的宇宙统一了起来。这个想法是怎么来的？"
+  role: "question"
+- type: "image"
+  src: "/assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/rainbow_rocket.png"
+  alt: "彩虹火箭队六大反派历代头目集结：坂木、水梧桐、赤焰松、赤日、魁奇思、弗拉达利"
+  caption: "彩虹火箭队（Team Rainbow Rocket）"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: Pokémon Ultra Sun and Pokémon Ultra Moon are really kind of a culmination of our efforts up until now, and we knew when setting out on development that we wanted to do something that features haracters from the other Pokémon games. At first, we were planning to just have some of the bosses from previous games appear in the Battle Agency, but these characters have so much personality, and our story writer felt like he could come up with a story featuring them that could be possible only in Pokémon Ultra Sun and Pokémon Ultra Moon. That's how the post-game Team Rainbow Rocket scenario got its start. In the game, each of the bosses comes from a world in which they managed to fulfill their dark ambitions. Worlds in which the player character must not have existed. Playing with parallel worlds like this is only possible because of the existence of an Ultra Wormhole in Pokémon Ultra Sun and Pokémon Ultra Moon. Because the player character exists in the Alola region, he or she will have the chance to stop them from achieving their ambitions."
+  translation: "岩尾先生：《究极之日》《究极之月》可以说是我们迄今为止努力的集大成之作，开发之初我们就想做一些让其他宝可梦作品里的角色登场的内容。起初，我们只打算让以往作品中的一些头目出现在Battle Agency里，但这些角色个性十足，我们的剧本作者觉得，可以写出一个只有在《究极之日》《究极之月》里才可能成立的、以他们为主角的故事。通关后的彩虹火箭队剧情就是这样开始的。游戏里，每位头目都来自一个他们成功实现了黑暗野心的世界。那是玩家角色一定不曾存在的世界。能像这样玩平行世界，只因为《究极之日》《究极之月》里有究极之洞。因为玩家角色存在于阿罗拉地区，所以他们有机会阻止这些人实现野心。"
+  role: "answer"
+- type: "heading"
+  level: 2
+  original: "Familiar Characters Return"
+  translation: "熟悉的角色回归"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: With the return of Team Rocket and many of these older characters, to what extent did you research how these characters appeared in previous games? And how closely did you adhere to the legacy of those characters?"
+  translation: "Pokemon.com：随着火箭队和许多老角色回归，你们在多大程度上研究了这些角色在以往作品中的形象？又在多大程度上遵循了这些角色留下的传统？"
+  role: "question"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: The setting for these characters is that they were successful in achieving their ambitions in their universe, so we tried to reflect that in their dialogue. Their personalities are of course what fans of the series will expect, but I think players will also get a chance to see new sides to these characters."
+  translation: "岩尾先生：这些角色的设定是，他们在各自的宇宙里实现了自己的野心，所以我们尽量把这一点体现在他们的台词里。他们的性格当然是系列粉丝所期待的，但我想玩家也会有机会看到这些角色的新一面。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: How did you decide which characters to bring back? And were there any challenges in figuring out how to have these characters work together?"
+  translation: "Pokemon.com：你们是怎么决定让哪些角色回归的？要让这些角色一起登场，有没有遇到什么难题？"
+  role: "question"
+- type: "image"
+  src: "/assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/guzma.png"
+  alt: "骷髅队老大古兹马（Guzma）"
+  caption: "骷髅队老大古兹马（Guzma）"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: It wasn't a huge challenge to come up with a story so that it all made sense. Guzma even helps you as an ally during the episode. With that said, of course it's best for the bosses of villainous organizations to behave like you would expect a boss of a villainous organization to behave, so we approached it with a great amount of respect to the other entries in the series."
+  translation: "岩尾先生：要写出一个说得通的故事，并不算太大的难题。古兹马甚至会在这段剧情里作为同伴帮你。话虽如此，反派组织的头目当然最好表现得像个反派组织头目该有的样子，所以我们是怀着对系列其他作品极大的敬意来处理的。"
+  role: "answer"
+- type: "heading"
+  level: 2
+  original: "The Creative Approach"
+  translation: "创作思路"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: Mr. Ohmori was the director on Pokémon Omega Ruby and Pokémon Alpha Sapphire, then again on Pokémon Sun and Pokémon Moon. What were some of the most important lessons he learned from his predecessors? And what were the lessons that Mr. Iwao learned from Mr. Ohmori?"
+  translation: "Pokemon.com：大森先生担任过《宝可梦 欧米伽红宝石》《宝可梦 阿尔法蓝宝石》的总监，之后又担任《宝可梦 太阳》《宝可梦 月亮》的总监。他从前辈那里学到的最重要的经验有哪些？而岩尾先生又从大森先生那里学到了什么？"
+  role: "question"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: I learned a lot from Ohmori. Most importantly, that it is also vital to have a clear vision when creating something, and to always make your desires and requests clear to the team. Also, that it's crucial to review everything that the team creates. All of this is essential to creating a high-quality game. I also learned that it's necessary to give the team a lot of freedom and to not micromanage too much or get too involved in the day-to-day work, so that you get too busy to review everything as a director."
+  translation: "岩尾先生：我从大森那里学到了很多。最重要的是，创作东西时必须有清晰的愿景，并且始终向团队明确说出自己的想法和要求。还有，检查团队做出的每一样东西至关重要。这些对做出高品质的游戏都不可缺少。我还学到，必须给团队很大的自由，不要管得太细，也不要过多介入日常工作，免得忙到作为总监没法检查所有东西。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: How did your previous roles in development shape your approaches as directors?"
+  translation: "Pokemon.com：你们以往在开发中的职责，对你们作为总监的做法有什么影响？"
+  role: "question"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: I feel like my experience working on many different aspects of the games has afforded me a broader view over the whole project as director."
+  translation: "岩尾先生：我觉得，我做过游戏的许多不同方面的工作，让我作为总监对整个项目有了更广的视野。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "大森滋"
+  original: "Mr. Ohmori: As a game designer, I worked directly with a lot of people in different roles, and as a result, I believe I was able to deepen my understanding of what is important to everyone on the team and what they value. That knowledge really came in handy when I became director."
+  translation: "大森先生：作为游戏设计师，我和许多担任不同职务的人直接合作，因此我想自己能更深入地理解对团队里每个人来说什么是重要的、他们看重什么。当上总监后，这些知识派上了大用场。"
+  role: "answer"
+- type: "heading"
+  level: 2
+  original: "Unleash the Ultra Beasts"
+  translation: "释放究极异兽"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: Do you take a different approach when it comes to designing Ultra Beasts than you would with a new Pokémon?"
+  translation: "Pokemon.com：设计究极异兽时，你们的做法和设计新宝可梦时有什么不同吗？"
+  role: "question"
+- type: "image"
+  src: "/assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/ultra_beast.png"
+  alt: "《宝可梦 究极之日·究极之月》登场的全新究极异兽"
+  caption: "究极异兽"
+- type: "dialogue"
+  speaker: "大森滋"
+  original: "Mr. Ohmori: With the Ultra Beasts, Ken Sugimori, who oversees the Pokémon designs, came up with the concept of doing things we typically avoid when creating new Pokémon. For example, taking the soft texture of a jellyfish and pairing it with glass, or taking something that normally looks small and weak—like a mosquito—and making it super muscular. With these kind of concepts, we were able to create Ultra Beasts that give a very different impression to the Pokémon that have been created thus far."
+  translation: "大森先生：对于究极异兽，负责宝可梦设计的杉森建提出了一个概念：去做那些我们创作新宝可梦时通常会避免的事。比如，把水母的柔软质感和玻璃搭配起来，或者把蚊子这类通常看起来又小又弱的东西做得肌肉发达。借助这样的概念，我们做出了给人的印象与以往的宝可梦大不相同的究极异兽。"
+  role: "answer"
+- type: "heading"
+  level: 2
+  original: "Surfing, Rainbows, and More"
+  translation: "冲浪、彩虹等等"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: Is Mantine Surf an homage to the Surfing Pikachu in Pokémon Yellow: Special Pikachu Edition? Pokémon games don't often have action-oriented minigames, so what prompted the return of this concept?"
+  translation: "Pokemon.com：巨翅飞鱼冲浪是对《宝可梦 黄：特别皮卡丘版》里冲浪皮卡丘的致敬吗？宝可梦游戏里不常有偏动作的小游戏，是什么促使这个概念回归的？"
+  role: "question"
+- type: "image"
+  src: "/assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/mantine_surf.jpg"
+  alt: "《宝可梦 究极之日·究极之月》巨翅飞鱼冲浪迷你游戏"
+  caption: "巨翅飞鱼冲浪（Mantine Surf）"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: There were two reasons. One is that we wanted to differentiate the games from Pokémon Sun and Pokémon Moon, so we wanted to change how the gameplay felt to some extent, and one way we accomplished that was by adding some action-based elements (that won't prevent you from progressing if the gameplay is too difficult, though). We also wanted to feature the allure of the Alola region even more than before, and we knew we could accomplish that using surfing as an action. I think Pikachu's Beach was another good feature to go into a game that served as the culmination of its series."
+  translation: "岩尾先生：有两个原因。一是我们想让这两款游戏与《宝可梦 太阳》《宝可梦 月亮》有所区别，所以想在一定程度上改变玩法的手感，办法之一就是加入一些动作要素（不过不会因为玩法太难而让你无法推进）。另一个原因是，我们想比以前更突出阿罗拉地区的魅力，而我们知道用冲浪这个动作可以做到。我觉得，皮卡丘海滩对于这款作为系列集大成之作的游戏来说，也是一个不错的内容。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: Considering Necrozma, Team Rainbow Rocket, the new Ultra Beasts, Team Skull, and others, there are a lot of challengers for the player in these games. How do you balance the roles of these different adversaries?"
+  translation: "Pokemon.com：有奈克洛兹玛、彩虹火箭队、新的究极异兽、骷髅队等等，这些游戏里玩家要面对的对手很多。你们是怎么平衡这些不同对手的角色的？"
+  role: "question"
+- type: "image"
+  src: "/assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/necrozma_art.jpg"
+  alt: "光辉大神：奈克洛兹玛究极形态"
+  caption: "奈克洛兹玛（Necrozma）"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: Since Team Rainbow Rocket only appears after you complete the main story, I wasn't too concerned with that, but I think we found a good balance with all of the other elements by placing Necrozma at the center of the story. The Legendary Pokémon that are featured on the game packages are also at the center of the story, which is really a “core” tradition of Pokémon games."
+  translation: "岩尾先生：因为彩虹火箭队只在通关主线剧情之后才会出现，我并没有太担心这一点；不过我认为，把奈克洛兹玛放在故事的中心，让其他所有要素达到了不错的平衡。印在游戏包装上的传说宝可梦同样处于故事的中心，这其实是宝可梦游戏“核心”的传统。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: Some players voiced a desire for more post-game content in Pokémon Sun and Pokémon Moon. Is that something you've expanded upon for Pokémon Ultra Sun and Pokémon Ultra Moon?"
+  translation: "Pokemon.com：一些玩家表示希望《宝可梦 太阳》《宝可梦 月亮》有更多通关后的内容。《究极之日》《究极之月》在这方面有扩充吗？"
+  role: "question"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: The scenario featuring Team Rainbow Rocket is only accessible after the player completes the main game. We also have plenty of sub-events for players to enjoy, and there are plenty of rewards to be had for playing Mantine Surf and the Ultra Warp Ride, even after you finish the main story. It's my hope players will continue to spend lots of time enjoying the game after completing the main scenario."
+  translation: "岩尾先生：涉及彩虹火箭队的剧情，只有在玩家通关主线之后才能进入。我们还准备了很多支线事件供玩家享受，而且即使通关之后，玩巨翅飞鱼冲浪和Ultra Warp Ride也有很多奖励可以拿。我希望玩家在通关主线之后，也能继续花很多时间享受这款游戏。"
+  role: "answer"
+- type: "heading"
+  level: 2
+  original: "Closing Thoughts"
+  translation: "结束语"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: Where does the original creative spark for a new Pokémon game usually come from? What are the first things you work on when you get that spark?"
+  translation: "Pokemon.com：一款新宝可梦游戏最初的创意火花通常来自哪里？有了这个火花之后，你们首先着手的是什么？"
+  role: "question"
+- type: "dialogue"
+  speaker: "大森滋"
+  original: "Mr. Ohmori: There isn't a predetermined process for it, but I can explain how I approach things. I start with the setting and thinking about what kind of place the region should be. Are there mountains? Rivers? How much of the region is connected to the ocean? I start by answering these questions and then thinking about how the Pokémon live in that region and what kind of Pokémon we need for the game. Of course, I think about the story at the same time, but in the end, I make adjustments to make sure everything works with the settings."
+  translation: "大森先生：并没有预先定好的流程，但我可以说说我自己是怎么做的。我从设定入手，思考这个地区应该是什么样的地方。有山吗？有河吗？这个地区有多大程度与海洋相连？我先回答这些问题，然后思考宝可梦在这个地区是怎样生活的，游戏需要什么样的宝可梦。当然，我同时也会考虑故事，但最后我会做调整，确保一切都与设定相符。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: How much do you take into account the current competitive environment when designing a new game?"
+  translation: "Pokemon.com：设计新游戏时，你们在多大程度上考虑当前的对战环境？"
+  role: "question"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: Of course, we pay attention to the competitive environment and monitor it when making adjustments to the game, but we don't really directly respond to specific requests from players. We don't want to just put in things that players expect, but instead we want to be always one step ahead and implement things that players aren't anticipating."
+  translation: "岩尾先生：当然，我们会关注对战环境，并在调整游戏时留意它，但并不会直接回应玩家提出的具体要求。我们不想只是加入玩家期待的东西，而是想始终先走一步，加入玩家意想不到的东西。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Pokemon.com: With these games, what new features are you most excited for Pokémon Sun and Pokémon Moon players to experience?"
+  translation: "Pokemon.com：这两款游戏里有哪些新要素，是你们最希望《宝可梦 太阳》《宝可梦 月亮》的玩家去体验的？"
+  role: "question"
+- type: "dialogue"
+  speaker: "岩尾和昌"
+  original: "Mr. Iwao: I can't speak in too much detail, but I'm most excited for players to see the conclusion of Necrozma's story."
+  translation: "岩尾先生：我不能说得太详细，但我最期待玩家看到奈克洛兹玛故事的结局。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "大森滋"
+  original: "Mr. Ohmori: I'm most excited for players to get a chance to experience an all-new adventure in the Alola region with a different story from Pokémon Sun and Pokémon Moon, and, hopefully, fall in love with the Alola region even more."
+  translation: "大森先生：我最期待玩家有机会在阿罗拉地区体验一场与《宝可梦 太阳》《宝可梦 月亮》的故事不同的全新冒险，并且希望他们能更加爱上阿罗拉地区。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "Pokemon.com"
+  original: "Many thanks to Mr. Iwao and Mr. Ohmori for taking the time to chat with us about their latest game."
+  translation: "非常感谢岩尾先生和大森先生抽出时间，与我们聊他们的最新作品。"
+  role: "question"
 interviewee: Pokemon.com, 【章节导览】, 大森滋, 岩尾和昌
 source:
   title: Pokemon.com / PocketMonsters.net

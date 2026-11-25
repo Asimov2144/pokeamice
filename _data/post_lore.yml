@@ -44073,10 +44073,10 @@
   observations:
   - anchor: 5
     seg: 4
-    text: 岩尾和昌因玩《宝可梦 钻石·珍珠》而决定投身游戏行业
+    text: 岩尾和昌小时候从《宝可梦 红·绿》开始玩，之后立志做游戏、选择了 GAME FREAK
   - anchor: 8
     seg: 7
-    text: 岩尾和昌最初以游戏设计师身份参与《宝可梦 黑·白》，负责战斗系统
+    text: 岩尾和昌最初以游戏设计师身份参与《宝可梦 黑·白》，负责 UI、对战系统和宝可梦音乐剧功能
   relations:
   - id: interview-pocketmonsters-usum-iwao-ohmori
     kind: same-occasion
@@ -46101,9 +46101,9 @@
   - anchor: 2
     seg: 1
     text: 放弃收录全部八九百只宝可梦的全国图鉴，引来粉丝强烈抗议。
-  - anchor: 10
-    seg: 9
-    text: 大森滋称葱游兵是全新设计，以骑士概念把大葱作剑、葱叶作盾。
+  - anchor: 11
+    seg: 10
+    text: 大森滋称葱游兵是全新设计：拿着大葱像剑、带着盾牌式的设计，契合以英国为原型的新地区。
   relations:
   - id: interview-vg247-2019-swsh
     kind: same-occasion
