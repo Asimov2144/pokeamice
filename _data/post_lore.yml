@@ -34146,12 +34146,12 @@
       slug: null
   id: interview-niconico-gamefreak-origins-masuda
   observations:
-  - anchor: 11
-    seg: 10
-    text: 增田说约30年前田尻智创办同人志《GAME FREAK》，自己也是忠实读者
-  - anchor: 94
-    seg: 93
-    text: 增田称初代《宝可梦 红／绿》核心开发阵容刚好9人
+  - anchor: 12
+    seg: 11
+    text: 增田说约30年前田尻智办的游戏攻略小册子就叫“GAME FREAK”，自己也在杂志上见过这个名字
+  - anchor: 105
+    seg: 104
+    text: 增田称《红·绿》的基础部分由9个人制作，《クインティ》也差不多
   relations:
   - id: interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto
     kind: background
