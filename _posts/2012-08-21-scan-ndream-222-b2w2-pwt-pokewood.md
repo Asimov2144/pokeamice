@@ -1110,7 +1110,7 @@ translation_segments:
     scan_page: 3
     review_status: "verified"
     original: ←クリア目標を2倍以上上回れば、追加で特別報酬をもらえるミッションもある
-    translation: "取得通关目标两倍或以上的成绩，还会获得特别报酬。参加人数越多，越容易达到目标，因此和更多人一起挑战更划算。"
+    translation: "←如果超过通关目标的2倍以上，有些任务还能额外获得特别报酬"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2397,7 +2397,7 @@ translation_segments:
     scan_page: 5
     review_status: "verified"
     original: Upper screenいちいちニンドリ2012にほんだいひょうにちょうせん
-    translation: "上屏。参赛者名：“いちいち”“ニンドリ”。赛事名：“挑战2012日本代表”。"
+    translation: "上屏 いちいち ニンドリ 2012にほんだいひょうにちょうせん"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2887,7 +2887,7 @@ translation_segments:
     scan_page: 6
     review_status: "verified"
     original: "くじをする 最近 どう? 調子は どう? またね1等は なんと マスターボール! ラッキー★さやこへ ようこそ!"
-    translation: 要抽奖吗 最近怎么样？状态如何？回头见 1等奖竟然是 大师球！ 欢迎来到 幸运★沙耶子！
+    translation: 要抽奖吗 最近怎么样？状态如何？回头见 1等奖竟然是 大师球！ 欢迎来到 幸运★さやこ！
   - speaker: note
     type: paragraph
     kind: text

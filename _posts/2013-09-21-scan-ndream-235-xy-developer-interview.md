@@ -342,7 +342,7 @@ translation_segments:
     scan_page: 2
     review_status: "verified"
     original: ポケモンバトルレボリューションのホエルオーは、設定とおりの大きさで驚いた記憶があります（笑）。
-    translation: 我记得《宝可梦战斗革命》里的吼鲸王，大小和设定一样，让我很惊讶（笑）。
+    translation: 我记得《宝可梦对战革命》里的吼鲸王，大小和设定一样，让我很惊讶（笑）。
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -1192,7 +1192,7 @@ translation_segments:
     scan_page: 3
     review_status: "verified"
     original: "ニンフィアはこの間の「ポケモンゲームショー」でバトルしたときも、かなり活躍していましたね。かわいくて強い！っていうのはインパクトがありますね（笑）。"
-    translation: 仙子伊布在前些天的「宝可梦冠军秀」上对战时，也相当活跃。又可爱又强！这一点很有冲击力（笑）。
+    translation: 仙子伊布在前些天的「宝可梦游戏展」上对战时，也相当活跃。又可爱又强！这一点很有冲击力（笑）。
   - speaker: ──
     type: paragraph
     kind: text

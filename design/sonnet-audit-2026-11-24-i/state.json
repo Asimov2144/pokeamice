@@ -1,0 +1,678 @@
+{
+ "task": "Sonnet self-audit of bilingual posts Qwen never read (ninth (second look at Qwen-read posts))",
+ "created": "2026-11-24",
+ "shards": [
+  {
+   "id": 1,
+   "status": "completed",
+   "chars": 134138,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\shard-1.json",
+   "posts": [
+    {
+     "stem": "2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori",
+     "rows": 411,
+     "chars": 49186,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori.txt"
+    },
+    {
+     "stem": "2013-08-14-interview-famitsu-2013-solitiba",
+     "rows": 103,
+     "chars": 16882,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2013-08-14-interview-famitsu-2013-solitiba.txt"
+    },
+    {
+     "stem": "2011-01-06-scan-davinci-201102-masuda-comment",
+     "rows": 73,
+     "chars": 11669,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2011-01-06-scan-davinci-201102-masuda-comment.txt"
+    },
+    {
+     "stem": "1997-11-27-interview-glitterberri-spaceworld-pokemon2-en",
+     "rows": 19,
+     "chars": 8398,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\1997-11-27-interview-glitterberri-spaceworld-pokemon2-en.txt"
+    },
+    {
+     "stem": "2023-08-12-interview-famitsu-2023-wcs-utsunomiya-brown",
+     "rows": 36,
+     "chars": 7569,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2023-08-12-interview-famitsu-2023-wcs-utsunomiya-brown.txt"
+    },
+    {
+     "stem": "2010-11-20-interview-nintendodream-201-sugimori-bw-characters",
+     "rows": 105,
+     "chars": 6067,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-11-20-interview-nintendodream-201-sugimori-bw-characters.txt"
+    },
+    {
+     "stem": "2016-12-01-interview-lavacut-onm-spain-masuda-ohmori-sun-moon",
+     "rows": 23,
+     "chars": 4923,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2016-12-01-interview-lavacut-onm-spain-masuda-ohmori-sun-moon.txt"
+    },
+    {
+     "stem": "2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports",
+     "rows": 28,
+     "chars": 4041,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports.txt"
+    },
+    {
+     "stem": "2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy",
+     "rows": 27,
+     "chars": 3965,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2026-01-23-corporate-topic-47-pokemon-observatory-naoj-astronomy.txt"
+    },
+    {
+     "stem": "2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book",
+     "rows": 28,
+     "chars": 3648,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-08-12-corporate-topic-41-pokemon-ecology-illustrated-book.txt"
+    },
+    {
+     "stem": "2013-11-06-interview-pokemaster-xy-masuda-barcelona",
+     "rows": 9,
+     "chars": 3548,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2013-11-06-interview-pokemaster-xy-masuda-barcelona.txt"
+    },
+    {
+     "stem": "2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte",
+     "rows": 21,
+     "chars": 3386,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-07-25-corporate-topic-40-seoul-jamsil-pokemon-town-lotte.txt"
+    },
+    {
+     "stem": "2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification",
+     "rows": 22,
+     "chars": 3116,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-05-12-corporate-topic-36-ptcg-official-judge-organizer-certification.txt"
+    },
+    {
+     "stem": "2025-01-31-corporate-topic-31-ana-in-flight-safety-video",
+     "rows": 21,
+     "chars": 3012,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-01-31-corporate-topic-31-ana-in-flight-safety-video.txt"
+    },
+    {
+     "stem": "2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music",
+     "rows": 20,
+     "chars": 2507,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2022-03-30-corporate-topic-08-pokemon-dp-sound-library-music.txt"
+    },
+    {
+     "stem": "2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology",
+     "rows": 16,
+     "chars": 2221,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2020-08-18-corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology.txt"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "status": "completed",
+   "chars": 134340,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\shard-2.json",
+   "posts": [
+    {
+     "stem": "2012-08-21-scan-ndream-222-b2w2-pwt-pokewood",
+     "rows": 389,
+     "chars": 33690,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2012-08-21-scan-ndream-222-b2w2-pwt-pokewood.txt"
+    },
+    {
+     "stem": "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+     "rows": 53,
+     "chars": 18336,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto.txt"
+    },
+    {
+     "stem": "2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa",
+     "rows": 121,
+     "chars": 14227,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa.txt"
+    },
+    {
+     "stem": "2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda",
+     "rows": 15,
+     "chars": 11345,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda.txt"
+    },
+    {
+     "stem": "2019-02-12-interview-jdn-arita-pokemon-card-illustrator",
+     "rows": 42,
+     "chars": 8558,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2019-02-12-interview-jdn-arita-pokemon-card-illustrator.txt"
+    },
+    {
+     "stem": "2009-05-15-interview-nintendoaccion-199-masuda-kawachimaru-platinum",
+     "rows": 20,
+     "chars": 7565,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2009-05-15-interview-nintendoaccion-199-masuda-kawachimaru-platinum.txt"
+    },
+    {
+     "stem": "2012-07-19-scan-famitsu-1233-b2w2-interview",
+     "rows": 44,
+     "chars": 5824,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2012-07-19-scan-famitsu-1233-b2w2-interview.txt"
+    },
+    {
+     "stem": "2005-08-18-scan-continue-vol23-drill-dozer",
+     "rows": 51,
+     "chars": 5057,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2005-08-18-scan-continue-vol23-drill-dozer.txt"
+    },
+    {
+     "stem": "2005-07-15-scan-corocoro-200508-diamond-pearl-scoop",
+     "rows": 53,
+     "chars": 4109,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2005-07-15-scan-corocoro-200508-diamond-pearl-scoop.txt"
+    },
+    {
+     "stem": "2010-10-20-interview-bw-music-collection-liner-notes",
+     "rows": 14,
+     "chars": 3968,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-10-20-interview-bw-music-collection-liner-notes.txt"
+    },
+    {
+     "stem": "2013-06-12-interview-4gamer-e3-2013-xy-developer-discussion",
+     "rows": 26,
+     "chars": 3688,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2013-06-12-interview-4gamer-e3-2013-xy-developer-discussion.txt"
+    },
+    {
+     "stem": "2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream",
+     "rows": 30,
+     "chars": 3488,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream.txt"
+    },
+    {
+     "stem": "2023-03-01-interview-pokemon-center-president-kamigo-yamaoka",
+     "rows": 22,
+     "chars": 3473,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2023-03-01-interview-pokemon-center-president-kamigo-yamaoka.txt"
+    },
+    {
+     "stem": "2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience",
+     "rows": 22,
+     "chars": 3088,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience.txt"
+    },
+    {
+     "stem": "2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab",
+     "rows": 21,
+     "chars": 3008,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab.txt"
+    },
+    {
+     "stem": "2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support",
+     "rows": 19,
+     "chars": 2470,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support.txt"
+    },
+    {
+     "stem": "2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin",
+     "rows": 22,
+     "chars": 2446,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin.txt"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "status": "completed",
+   "chars": 135421,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\shard-3.json",
+   "posts": [
+    {
+     "stem": "2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards",
+     "rows": 276,
+     "chars": 30799,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards.txt"
+    },
+    {
+     "stem": "2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins",
+     "rows": 128,
+     "chars": 18415,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins.txt"
+    },
+    {
+     "stem": "2021-07-17-interview-famitsu-2021-pokemon-wonder",
+     "rows": 91,
+     "chars": 16326,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2021-07-17-interview-famitsu-2021-pokemon-wonder.txt"
+    },
+    {
+     "stem": "2017-06-10-scan-cgworld-2017-07-game-graphics-studio-extra",
+     "rows": 37,
+     "chars": 11774,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2017-06-10-scan-cgworld-2017-07-game-graphics-studio-extra.txt"
+    },
+    {
+     "stem": "2026-03-25-interview-famitsu-2026-champions-hoshino-1",
+     "rows": 86,
+     "chars": 9685,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2026-03-25-interview-famitsu-2026-champions-hoshino-1.txt"
+    },
+    {
+     "stem": "2010-09-23-scan-famitsu-1138-bw-secrets-interview",
+     "rows": 50,
+     "chars": 7297,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-09-23-scan-famitsu-1138-bw-secrets-interview.txt"
+    },
+    {
+     "stem": "2023-09-01-interview-pokemon-center-pop-up-store-project",
+     "rows": 25,
+     "chars": 5110,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2023-09-01-interview-pokemon-center-pop-up-store-project.txt"
+    },
+    {
+     "stem": "2016-06-16-interview-sankei-ishihara-pokemon-go-20th",
+     "rows": 37,
+     "chars": 5061,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2016-06-16-interview-sankei-ishihara-pokemon-go-20th.txt"
+    },
+    {
+     "stem": "2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival",
+     "rows": 30,
+     "chars": 4117,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival.txt"
+    },
+    {
+     "stem": "2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
+     "rows": 27,
+     "chars": 4018,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge.txt"
+    },
+    {
+     "stem": "2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover",
+     "rows": 28,
+     "chars": 3776,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover.txt"
+    },
+    {
+     "stem": "2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports",
+     "rows": 30,
+     "chars": 3482,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports.txt"
+    },
+    {
+     "stem": "2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii",
+     "rows": 26,
+     "chars": 3472,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii.txt"
+    },
+    {
+     "stem": "2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china",
+     "rows": 19,
+     "chars": 3086,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china.txt"
+    },
+    {
+     "stem": "2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music",
+     "rows": 22,
+     "chars": 2928,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music.txt"
+    },
+    {
+     "stem": "2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion",
+     "rows": 21,
+     "chars": 2584,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion.txt"
+    },
+    {
+     "stem": "2016-07-22-interview-sankei-pokemon-go-nintendo-concept",
+     "rows": 9,
+     "chars": 1899,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2016-07-22-interview-sankei-pokemon-go-nintendo-concept.txt"
+    },
+    {
+     "stem": "2020-08-18-corporate-topic-01-pokefuta-manhole-travel",
+     "rows": 16,
+     "chars": 1592,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2020-08-18-corporate-topic-01-pokefuta-manhole-travel.txt"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "status": "completed",
+   "chars": 134196,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\shard-4.json",
+   "posts": [
+    {
+     "stem": "2004-03-21-scan-ndream-108-frlg-developer-interview",
+     "rows": 393,
+     "chars": 30433,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2004-03-21-scan-ndream-108-frlg-developer-interview.txt"
+    },
+    {
+     "stem": "2012-07-21-scan-ndream-221-b2w2-developer-interview",
+     "rows": 143,
+     "chars": 19446,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2012-07-21-scan-ndream-221-b2w2-developer-interview.txt"
+    },
+    {
+     "stem": "2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective",
+     "rows": 259,
+     "chars": 15359,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective.txt"
+    },
+    {
+     "stem": "2010-09-13-interview-weekly-ascii-masuda-bw-secrets",
+     "rows": 75,
+     "chars": 12090,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-09-13-interview-weekly-ascii-masuda-bw-secrets.txt"
+    },
+    {
+     "stem": "2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki",
+     "rows": 55,
+     "chars": 8956,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki.txt"
+    },
+    {
+     "stem": "2010-09-16-scan-famitsu-1137-bw-launch-interview",
+     "rows": 47,
+     "chars": 7302,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-09-16-scan-famitsu-1137-bw-launch-interview.txt"
+    },
+    {
+     "stem": "2009-03-23-interview-gamepro-platinum-masuda-kawachimaru",
+     "rows": 16,
+     "chars": 6116,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2009-03-23-interview-gamepro-platinum-masuda-kawachimaru.txt"
+    },
+    {
+     "stem": "2023-06-01-interview-pokemon-center-shibuya-store-manager",
+     "rows": 21,
+     "chars": 4937,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2023-06-01-interview-pokemon-center-shibuya-store-manager.txt"
+    },
+    {
+     "stem": "2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility",
+     "rows": 30,
+     "chars": 4052,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility.txt"
+    },
+    {
+     "stem": "2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history",
+     "rows": 32,
+     "chars": 3999,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history.txt"
+    },
+    {
+     "stem": "2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support",
+     "rows": 29,
+     "chars": 3655,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support.txt"
+    },
+    {
+     "stem": "2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy",
+     "rows": 22,
+     "chars": 3548,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy.txt"
+    },
+    {
+     "stem": "2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey",
+     "rows": 23,
+     "chars": 3433,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey.txt"
+    },
+    {
+     "stem": "2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience",
+     "rows": 24,
+     "chars": 3114,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience.txt"
+    },
+    {
+     "stem": "2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide",
+     "rows": 18,
+     "chars": 2775,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide.txt"
+    },
+    {
+     "stem": "2011-01-20-interview-famitsu-1155-morimoto-taya-iwao-battle-secrets",
+     "rows": 16,
+     "chars": 2698,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2011-01-20-interview-famitsu-1155-morimoto-taya-iwao-battle-secrets.txt"
+    },
+    {
+     "stem": "2025-06-13-corporate-topic-38-pokemon-parks-community-playground",
+     "rows": 18,
+     "chars": 2283,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-06-13-corporate-topic-38-pokemon-parks-community-playground.txt"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "status": "completed",
+   "chars": 135421,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\shard-5.json",
+   "posts": [
+    {
+     "stem": "2013-09-21-scan-ndream-235-xy-developer-interview",
+     "rows": 247,
+     "chars": 23756,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2013-09-21-scan-ndream-235-xy-developer-interview.txt"
+    },
+    {
+     "stem": "2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw",
+     "rows": 225,
+     "chars": 20061,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw.txt"
+    },
+    {
+     "stem": "2026-08-20-interview-famitsu-2026-champions-hoshino-2",
+     "rows": 104,
+     "chars": 17976,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2026-08-20-interview-famitsu-2026-champions-hoshino-2.txt"
+    },
+    {
+     "stem": "2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics",
+     "rows": 32,
+     "chars": 12483,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics.txt"
+    },
+    {
+     "stem": "2017-08-09-interview-hamarepo-masuda-yokohama-origins",
+     "rows": 111,
+     "chars": 11217,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2017-08-09-interview-hamarepo-masuda-yokohama-origins.txt"
+    },
+    {
+     "stem": "2010-09-03-interview-4gamer-cedec-2010-ishihara-ichimura",
+     "rows": 34,
+     "chars": 7590,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-09-03-interview-4gamer-cedec-2010-ishihara-ichimura.txt"
+    },
+    {
+     "stem": "2010-02-20-scan-ndream-2010-04-pokemon-bw-first-reveal",
+     "rows": 64,
+     "chars": 6833,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-02-20-scan-ndream-2010-04-pokemon-bw-first-reveal.txt"
+    },
+    {
+     "stem": "2011-01-20-scan-otonafamily-201103-masuda-bw-adults",
+     "rows": 40,
+     "chars": 4534,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2011-01-20-scan-otonafamily-201103-masuda-bw-adults.txt"
+    },
+    {
+     "stem": "2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
+     "rows": 30,
+     "chars": 4160,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo.txt"
+    },
+    {
+     "stem": "2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video",
+     "rows": 30,
+     "chars": 4002,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video.txt"
+    },
+    {
+     "stem": "2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty",
+     "rows": 29,
+     "chars": 3731,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty.txt"
+    },
+    {
+     "stem": "2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship",
+     "rows": 28,
+     "chars": 3625,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship.txt"
+    },
+    {
+     "stem": "2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration",
+     "rows": 26,
+     "chars": 3156,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration.txt"
+    },
+    {
+     "stem": "2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge",
+     "rows": 21,
+     "chars": 3133,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge.txt"
+    },
+    {
+     "stem": "2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft",
+     "rows": 28,
+     "chars": 3085,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft.txt"
+    },
+    {
+     "stem": "2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear",
+     "rows": 49,
+     "chars": 2653,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear.txt"
+    },
+    {
+     "stem": "2020-08-18-corporate-topic-03-pokemon-smile-gamification-health",
+     "rows": 17,
+     "chars": 1879,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2020-08-18-corporate-topic-03-pokemon-smile-gamification-health.txt"
+    },
+    {
+     "stem": "2005-08-18-scan-continue-vol23-gamefreak-special",
+     "rows": 16,
+     "chars": 1547,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2005-08-18-scan-continue-vol23-gamefreak-special.txt"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "status": "completed",
+   "chars": 135389,
+   "output": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\shard-6.json",
+   "posts": [
+    {
+     "stem": "2010-02-20-scan-ndream-2010-04-creatures-ranger-interview",
+     "rows": 219,
+     "chars": 22608,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-02-20-scan-ndream-2010-04-creatures-ranger-interview.txt"
+    },
+    {
+     "stem": "2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori",
+     "rows": 66,
+     "chars": 21277,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori.txt"
+    },
+    {
+     "stem": "2023-07-21-interview-famitsu-2023-pokemon-sleep-team",
+     "rows": 126,
+     "chars": 17379,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2023-07-21-interview-famitsu-2023-pokemon-sleep-team.txt"
+    },
+    {
+     "stem": "2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv",
+     "rows": 90,
+     "chars": 13723,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv.txt"
+    },
+    {
+     "stem": "2024-01-15-interview-pokemon-center-overseas-taipei-singapore",
+     "rows": 53,
+     "chars": 10093,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-01-15-interview-pokemon-center-overseas-taipei-singapore.txt"
+    },
+    {
+     "stem": "2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm",
+     "rows": 53,
+     "chars": 7869,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm.txt"
+    },
+    {
+     "stem": "2023-03-24-interview-geeq-creatures-design-leader-watanabe",
+     "rows": 36,
+     "chars": 7046,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2023-03-24-interview-geeq-creatures-design-leader-watanabe.txt"
+    },
+    {
+     "stem": "2016-07-25-interview-sankei-business-pokemon-go-dangerous-game",
+     "rows": 25,
+     "chars": 4203,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2016-07-25-interview-sankei-business-pokemon-go-dangerous-game.txt"
+    },
+    {
+     "stem": "2016-09-09-interview-sankei-pokemon-go-utsunomiya-kawashima",
+     "rows": 21,
+     "chars": 4194,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2016-09-09-interview-sankei-pokemon-go-utsunomiya-kawashima.txt"
+    },
+    {
+     "stem": "2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program",
+     "rows": 27,
+     "chars": 4037,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program.txt"
+    },
+    {
+     "stem": "2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda",
+     "rows": 22,
+     "chars": 3868,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda.txt"
+    },
+    {
+     "stem": "2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history",
+     "rows": 25,
+     "chars": 3627,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history.txt"
+    },
+    {
+     "stem": "2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket",
+     "rows": 22,
+     "chars": 3245,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket.txt"
+    },
+    {
+     "stem": "2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario",
+     "rows": 17,
+     "chars": 3122,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario.txt"
+    },
+    {
+     "stem": "2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment",
+     "rows": 21,
+     "chars": 3012,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment.txt"
+    },
+    {
+     "stem": "2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure",
+     "rows": 22,
+     "chars": 2693,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure.txt"
+    },
+    {
+     "stem": "2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling",
+     "rows": 14,
+     "chars": 1750,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling.txt"
+    },
+    {
+     "stem": "2010-12-20-interview-otonafami-sugimori-starters-victini",
+     "rows": 30,
+     "chars": 1643,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\sonnet-audit-2026-11-24-i\\dump\\2010-12-20-interview-otonafami-sugimori-starters-victini.txt"
+    }
+   ]
+  }
+ ]
+}

@@ -27,7 +27,7 @@ source:
   language: ja
   source_type: official_web
 original_link: https://corporate.pokemon.co.jp/topics/detail/t-7/
-summary: 文章介绍《Pokémon WONDER》：参加者化身宝可梦调查员，在稻城森林中寻找潜藏于自然的宝可梦。企划由宝可梦的津田明子负责，RIDDLER与本山敬一参与制作，反复调整以兼顾宝可梦特色与游玩趣味，希望成为孩子亲近自然的桥梁。
+summary: 文章介绍《Pokémon WONDER》：参加者化身宝可梦调查员，在イナギの森中寻找潜藏于自然的宝可梦。企划由宝可梦的津田明子负责，RIDDLER与本山敬一参与制作，反复调整以兼顾宝可梦特色与游玩趣味，希望成为孩子亲近自然的桥梁。
 entities:
   people: []
   works: []
@@ -52,7 +52,7 @@ parallel_items:
 - original: 作品の「遊び」の原点に立ち戻り、ポケモンを通じて自然に触れてほしい。そんな想いから生まれた企画が『Pokémon WONDER』です。
   translation: 回归作品“游玩”的原点，希望人们通过宝可梦接触自然。基于这样的想法诞生的企划便是《Pokémon WONDER》。
 - original: 参加者はポケモンリサーチャーとなって、冒険の舞台である「イナギの森」に調査に出かけます。約4500平米もの広大な森林の中で、まるでカブトムシや野鳥を探すように、自然に潜むポケモンを探していきます。
-  translation: 参加者成为宝可梦调查员，前往冒险舞台“稻城森林”进行调查。在约4500平方米的广阔森林中，就像寻找甲虫和野鸟一样，去寻找潜藏于自然中的宝可梦。
+  translation: 参加者成为宝可梦调查员，前往冒险舞台“イナギの森”进行调查。在约4500平方米的广阔森林中，就像寻找甲虫和野鸟一样，去寻找潜藏于自然中的宝可梦。
   note: “イナギの森”是《Pokémon WONDER》活动中设定的虚构森林，名称可能取自东京都稻城市。
 - type: heading
   level: 2

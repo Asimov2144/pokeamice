@@ -134,12 +134,12 @@ parallel_items:
 - type: paragraph
   original: 本作の通信機能は最初の企画していたものが全て入ってるそうですね。
   translation: 据说本作的通信功能，最初企划的内容全都收录进去了。
-  speaker: 太田哲司
+  speaker: "──"
   role: answer
 - type: paragraph
   original: 最初に企画したものから実装可能な機能以外を削ぎ落とすのが普通だと思うのですが、
   translation: 通常来说，会从最初企划的内容中剔除无法实现的功能，
-  speaker: 太田哲司
+  speaker: "──"
   role: answer
 - type: paragraph
   original: ほぼ全ての仕様が入りましたね。
@@ -174,7 +174,7 @@ parallel_items:
 - type: paragraph
   original: ずいぶん苦労させられたと思いますが？
   translation: 我想应该相当辛苦吧？
-  speaker: 太田哲司
+  speaker: "──"
   role: answer
 - type: paragraph
   original: 個人的には、ハイリンクですね。
@@ -239,7 +239,7 @@ parallel_items:
 - type: paragraph
   original: ちなみに、本作には、説明書にも書かれていない機能もたくさんありますよね？
   translation: 顺便一提，本作中还有很多连说明书里都没写的功能吧？
-  speaker: 太田哲司
+  speaker: "──"
   role: answer
 - type: paragraph
   original: はい。気付く人がいればいいと思って、あえて書いていない機能が随分あります。
@@ -264,7 +264,7 @@ parallel_items:
 - type: paragraph
   original: それでは、最後に読者にメッセージを。
   translation: 那么，最后请给读者说几句话。
-  speaker: 太田哲司
+  speaker: "──"
   role: answer
 - type: paragraph
   original: すれ違いを始め、  人が集まれば集まるほど面白さが広がる作品 だと思います。

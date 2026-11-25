@@ -136,7 +136,7 @@ parallel_items:
 - original: Mew was a Pokémon that didn’t appear in the game itself but was instead attained illegitimately. There were quite a few instances of people doing the trick for fun and succeeding in catching it, then trying again and messing up their game. We’re afraid of that happening again, so we need to be more systematic this time. The whole Mew fiasco became much more widespread than we’d first imagined. That sort of thing also divides the people who come to the actual events to trade Pokémon, so we’re fine-tuning things with the intention of making a special piece of hardware called the Pokémon Machine. Also, though it has nothing to do with actual gameplay, we’re also thinking up ways to support other types of play.
   role: answer
   speaker: 石原恒和
-  translation: "梦幻是一只没有在游戏中正常出现，而是通过非正规手段获得的宝可梦。有不少人为了好玩尝试这个技巧并成功捕捉到了它，结果再次尝试时却把游戏搞坏了。我们担心这种情况再次发生，所以这次需要更加系统化。整个梦幻风波的扩散范围远超我们最初的想象。这类事情也让那些真正来到线下活动交换宝可梦的人产生了分化，因此我们正在微调相关事项，打算制作一款名为“宝可梦机器”的特殊硬件。此外，虽然这与实际的游戏玩法无关，但我们也在构思支持其他游玩方式的方法。"
+  translation: "梦幻是游戏本身中不会出现、而是通过非正规手段获得的宝可梦。不少人为了好玩尝试那个方法并成功捕获了它，然后又试了一次，结果弄坏了自己的游戏。我们担心这种事再次发生，所以这次需要更有系统地处理。梦幻事件的影响比我们最初想象的大得多。这类事情也让前来参加实际活动交换宝可梦的人产生分歧，所以我们正在调整，打算制作一种名为“宝可梦机器”的特殊硬件。另外，虽然和实际游戏性无关，我们也在构思支持其他玩法的方式。"
   note: >-
     译者注（GlitterBerri）：The problem of people using the Mew glitch was so prevalent, Nintendo made an announcement about it, warning Japanese players that attempting the trick might erase their game, corrupt their data, and corrupt the games of others if they attempted to trade with them.
     中文：使用梦幻漏洞的问题非常普遍，任天堂为此发布了一份公告，警告日本玩家尝试该技巧可能会抹除游戏、损坏数据，并且如果试图与他人交易，还会损坏他人的游戏

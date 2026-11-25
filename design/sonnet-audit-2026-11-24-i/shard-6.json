@@ -1,0 +1,66 @@
+[
+  {
+    "post": "2010-02-20-scan-ndream-2010-04-creatures-ranger-interview",
+    "row": 21,
+    "kind": "mistranslation",
+    "original": "捕まえたポケモンに協力してもらい",
+    "current": "让捕获到的宝可协助自己",
+    "suggested": "让捕获到的宝可梦协助自己",
+    "why": "T drops 梦 so 宝可梦 becomes 宝可, which reads like a stray Poké Assist term; O is simply ポケモン.",
+    "confidence": "high"
+  },
+  {
+    "post": "2023-07-21-interview-famitsu-2023-pokemon-sleep-team",
+    "row": 93,
+    "kind": "name",
+    "original": "うとうとタイプのポケモンと出会いたいからといって",
+    "current": "就算想遇到浅睡类型的宝可梦",
+    "suggested": "就算想遇到打盹类型的宝可梦",
+    "why": "Row 61 of the same post renders うとうと/すやすや/ぐっすり as 打盹/安睡/熟睡, so 浅睡 is an inconsistent name for the same sleep type.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure",
+    "row": 4,
+    "kind": "name",
+    "original": "「イナギの森」",
+    "current": "稻城森林",
+    "suggested": "伊纳吉之森（イナギの森）",
+    "why": "O gives the place name only in kana; T invents kanji 稻城 (and the N then speculates it comes from Tokyo's Inagi city), which O does not state.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling",
+    "row": 15,
+    "kind": "name",
+    "original": "「はらぺこベトベター ～ベトベターの満腹大作戦～」ウェブサイト",
+    "current": "“肚子饿的臭泥 ～臭泥的满腹大作战～”网站",
+    "suggested": "“肚子饿的臭泥 ～臭泥的吃饱大作战～”网站",
+    "why": "The same project subtitle is rendered 吃饱大作战 in row 3 but 满腹大作战 here; pick one rendering.",
+    "confidence": "medium"
+  },
+  {
+    "post": "__summary__",
+    "read": [
+      "2010-02-20-scan-ndream-2010-04-creatures-ranger-interview",
+      "2019-10-24-interview-metro-gamecentral-swsh-masuda-ohmori",
+      "2023-07-21-interview-famitsu-2023-pokemon-sleep-team",
+      "2023-12-22-interview-famitsu-2023-yoasobi-takeda-sv",
+      "2024-01-15-interview-pokemon-center-overseas-taipei-singapore",
+      "2019-08-29-interview-cgworld-mewtwo-evolution-3dcg-olm",
+      "2023-03-24-interview-geeq-creatures-design-leader-watanabe",
+      "2016-07-25-interview-sankei-business-pokemon-go-dangerous-game",
+      "2016-09-09-interview-sankei-pokemon-go-utsunomiya-kawashima",
+      "2026-04-24-corporate-topic-51-boy-scouts-nature-pokemon-trainer-program",
+      "2025-07-22-interview-yomiuri-2025-pokepark-kanto-masuda",
+      "2024-07-03-corporate-topic-20-pokemon-frienda-arcade-history",
+      "2024-11-28-corporate-topic-28-pokemon-trading-card-game-pocket",
+      "2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario",
+      "2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment",
+      "2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure",
+      "2020-11-30-corporate-topic-04-harapeko-betbeter-ai-recycling",
+      "2010-12-20-interview-otonafami-sugimori-starters-victini"
+    ],
+    "unread": []
+  }
+]

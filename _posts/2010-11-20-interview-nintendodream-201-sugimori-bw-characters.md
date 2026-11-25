@@ -353,7 +353,7 @@ parallel_items:
   note: 玉米兄弟指合众地区三曜市道馆的三位馆主，分别使用草、火、水属性。
 - type: heading
   original: "影山が語る増田が作るサウンドについて"
-  translation: "影山谈增田制作的音效"
+  translation: "景山谈增田制作的音效"
   level: 3
 - type: paragraph
   original: 今回のNと勝負する時の曲だと、一つの音や、小節単位に、すべて意味をもたせてある。

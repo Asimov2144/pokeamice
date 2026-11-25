@@ -230,7 +230,7 @@ translation_segments:
     scan_page: 1
     review_status: "verified"
     original: なまえ コズエ
-    translation: 名字 小梢
+    translation: 名字 コズエ
   - speaker: caption
     type: paragraph
     kind: text

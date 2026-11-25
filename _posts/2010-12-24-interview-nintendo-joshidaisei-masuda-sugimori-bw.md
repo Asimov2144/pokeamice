@@ -84,7 +84,7 @@ parallel_items:
   role: question
   speaker: 桐谷美玲
   translation: 这次因缘际会，我们得到了直接向制作《宝可梦》游戏的人提问的机会。于是，热爱宝可梦的我，桐谷美玲，想作为一名《宝可梦 黑·白》的玩家，问各种各样的问题。而且，今天竟然还来到了宝可梦中心TOKYO（※1）。
-  note: 桐谷美玲是日本女演员、模特，当时担任《宝可梦 黑·白》广告代言人。
+  note: 桐谷美玲是日本女演员、模特。
 - original: よろしくおねがいします。 ※1 ポケモンセンタートウキョー＝東京の浜松町にある『ポケモン』のグッズを販売する公式ショップ。ポケモンセンターは、札幌・東京・横浜・名古屋・大阪・福岡の全国6店舗。
   role: answer
   speaker: 全体
@@ -270,7 +270,7 @@ parallel_items:
 - original: ああ、それでラッコだったり、鹿だったりするんですね。
   role: question
   speaker: 桐谷美玲
-  translation: 啊，所以才有水獭、鹿这样的宝可梦啊。
+  translation: "所以才有海獭、鹿这样的宝可梦啊。"
 - original: そう。動物園で見たなかでは、とくにモグラが面白かったです。 あんまり見たことがないですよね？
   role: answer
   speaker: 杉森建
@@ -334,7 +334,7 @@ parallel_items:
 - original: 最初のときは、 が好きでした。
   role: answer
   speaker: 增田顺一
-  translation: 最初的时候，我喜欢妙蛙种子。
+  translation: "最初的时候，我喜欢可达鸭。"
 - original: 意外そう・・・（笑）。
   role: answer
   speaker: 杉森建

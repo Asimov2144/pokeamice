@@ -1,0 +1,76 @@
+[
+  {
+    "post": "2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins",
+    "row": 71,
+    "kind": "speaker",
+    "original": "ドワンゴの自作ゲーム担当者：シオンタウンの音楽が、子供の頃に本当に怖かったんですよ（笑）。",
+    "current": "Dwango的自制游戏负责人：紫苑镇的音乐，我小时候真的觉得很可怕（笑）。",
+    "suggested": "(speaker should be the interviewer side, e.g. ニコニコ自作ゲームフェス / Dwango自制游戏负责人, not 增田顺一; row 72 is Masuda's reply)",
+    "why": "O itself prefixes the line with 'ドワンゴの自作ゲーム担当者：' so it is the interviewer's remark, but the row is tagged <增田顺一>.",
+    "confidence": "high"
+  },
+  {
+    "post": "2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins",
+    "row": 131,
+    "kind": "name",
+    "original": "オガワコウサク「それはもう、祁答院が作るゲームが面白いからですよね」",
+    "current": "小川浩作「那当然是因为祁答院做的游戏有意思啊」",
+    "suggested": "オガワコウサク「那当然是因为祁答院做的游戏有意思啊」",
+    "why": "O gives the name only in katakana; the kanji 小川浩作 is guessed and not supported by O.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins",
+    "row": 108,
+    "kind": "name",
+    "original": "『クインティ』もそのくらいですね",
+    "current": "《转转方块》（クインティ）是GAME FREAK于1989年推出的益智游戏。",
+    "suggested": "《Quinty》（クインティ）是GAME FREAK于1989年开发、南梦宫发行的益智游戏。",
+    "why": "The note names the game 《转转方块》 while every T row in the same post renders it 《Quinty》 (and row 4/5 say Namco acquired the rights), so the title is inconsistent.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival",
+    "row": 31,
+    "kind": "note",
+    "original": "能登ごいた保存会も、これまでにない広がりを実感しているそうです。",
+    "current": "致力于传承和普及当地传统纸牌游戏「ごいた」的团体",
+    "suggested": "致力于传承和普及当地传统游戏「ごいた」的团体",
+    "why": "The note calls ごいた a 纸牌游戏, but O and the other rows describe it as played with 駒 (pieces, 棋子, 8枚持ち駒); 'card game' is not in the source.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii",
+    "row": 27,
+    "kind": "name",
+    "original": "ライセンスプロデュース部は、企画を推進する上で、",
+    "current": "授权商品部在推进企划时",
+    "suggested": "授权制作部在推进企划时",
+    "why": "The same department ライセンスプロデュース部 is rendered 授权制作部门 in row 3 but 授权商品部 in row 27.",
+    "confidence": "medium"
+  },
+  {
+    "post": "__summary__",
+    "read": [
+      "2025-08-04-interview-gamemakers-cedec-2025-ptcg-pocket-cards",
+      "2014-08-22-interview-gameatsumaru-masuda-indie-gamefreak-origins",
+      "2021-07-17-interview-famitsu-2021-pokemon-wonder",
+      "2017-06-10-scan-cgworld-2017-07-game-graphics-studio-extra",
+      "2026-03-25-interview-famitsu-2026-champions-hoshino-1",
+      "2010-09-23-scan-famitsu-1138-bw-secrets-interview",
+      "2023-09-01-interview-pokemon-center-pop-up-store-project",
+      "2016-06-16-interview-sankei-ishihara-pokemon-go-20th",
+      "2026-09-01-corporate-topic-54-noto-goita-traditional-game-revival",
+      "2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
+      "2024-09-25-corporate-topic-25-shima-spain-village-paldea-crossover",
+      "2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports",
+      "2025-11-26-corporate-topic-45-ditto-cup-design-philosophy-yuka-morii",
+      "2025-03-14-corporate-topic-33-pokemon-shanghai-tcg-masters-china",
+      "2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music",
+      "2024-12-27-corporate-topic-30-pokemon-india-cricket-festivals-expansion",
+      "2016-07-22-interview-sankei-pokemon-go-nintendo-concept",
+      "2020-08-18-corporate-topic-01-pokefuta-manhole-travel"
+    ],
+    "unread": []
+  }
+]

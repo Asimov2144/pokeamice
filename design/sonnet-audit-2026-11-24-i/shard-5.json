@@ -1,0 +1,276 @@
+[
+  {
+    "post": "2013-09-21-scan-ndream-235-xy-developer-interview",
+    "row": 112,
+    "kind": "name",
+    "original": "「ポケモンゲームショー」",
+    "current": "「宝可梦冠军秀」",
+    "suggested": "「宝可梦游戏展」",
+    "why": "Same event is rendered 宝可梦游戏展 in rows 11, 189, 195 but 宝可梦冠军秀 here.",
+    "confidence": "high"
+  },
+  {
+    "post": "2013-09-21-scan-ndream-235-xy-developer-interview",
+    "row": 27,
+    "kind": "name",
+    "original": "ポケモンバトルレボリューションのホエルオー",
+    "current": "《宝可梦战斗革命》里的吼鲸王",
+    "suggested": "《宝可梦对战革命》里的吼鲸王",
+    "why": "Title is rendered 《宝可梦对战革命》 in rows 25 and 26 but 战斗革命 here.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2013-09-21-scan-ndream-235-xy-developer-interview",
+    "row": 44,
+    "kind": "mistranslation",
+    "original": "「これ以上、メガシンカする派手なデザインってあるんだろうか？」というふうになることも検討しつつ",
+    "current": "也会考虑它进一步超级进化之后，能否设计出更醒目的形态",
+    "suggested": "也考虑过“再往后，还有适合超级进化的华丽设计吗？”这种情况，同时兼顾对战平衡来选择",
+    "why": "O worries that suitable flashy mega-evolution designs might run out; T turns it into 'designing a flashier form after further mega evolution'.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw",
+    "row": 12,
+    "kind": "note",
+    "original": "そこで、ポケモン大好きの私、桐谷美玲が『ポケットモンスターブラック・ホワイト』プレイヤーのひとりとして",
+    "current": "桐谷美玲是日本女演员、模特，当时担任《宝可梦 黑·白》广告代言人。",
+    "suggested": "桐谷美玲是日本女演员、模特，当时为现役女子大学生。",
+    "why": "Nothing in the post says she was a Black/White ad spokesperson; row 4 only says she appeared in a Mario vs. Donkey Kong commercial.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw",
+    "row": 73,
+    "kind": "name",
+    "original": "最初のときは、 が好きでした。",
+    "current": "最初的时候，我喜欢妙蛙种子。",
+    "suggested": "最初的时候，我喜欢可达鸭。",
+    "why": "O's name is blank; the T-guessed 妙蛙种子 is contradicted by rows 75-80, where Masuda explains his Koduck (可达鸭) fondness and the headache joke.",
+    "confidence": "high"
+  },
+  {
+    "post": "2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw",
+    "row": 88,
+    "kind": "name",
+    "original": "描くのが簡単ということをふくめると、 が好きなんですよ。",
+    "current": "我喜欢皮卡丘哦。",
+    "suggested": "我喜欢……（原文此处名称缺失）",
+    "why": "O's name is blank; row 71 has Sugimori saying Pikachu is hard to draw, so the filled-in 皮卡丘 is an unsupported guess.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw",
+    "row": 57,
+    "kind": "mistranslation",
+    "original": "それでラッコだったり、鹿だったりするんですね。",
+    "current": "所以才有水獭、鹿这样的宝可梦啊。",
+    "suggested": "所以才有海獭、鹿这样的宝可梦啊。",
+    "why": "ラッコ is sea otter (海獭), as rows 67 and 138 render it; 水獭 is a different animal.",
+    "confidence": "high"
+  },
+  {
+    "post": "2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw",
+    "row": 50,
+    "kind": "note",
+    "original": "“ポケモンの解放”って結構難しいテーマだったんですけど、なんでですか？",
+    "current": "“宝可梦的解放”是个相当难的主题，这是为什么呢？",
+    "suggested": "(drop or replace with a heading matching rows 51-59, the designer/drawing Q&A)",
+    "why": "O looks inserted: it duplicates the heading of row 34 but sits above the unrelated Q&A about designing Pokémon.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2026-08-20-interview-famitsu-2026-champions-hoshino-2",
+    "row": 110,
+    "kind": "name",
+    "original": "『ポッ拳』のバトルポケモンだけで組んだ",
+    "current": "《宝拳》对战宝可梦",
+    "suggested": "《宝可拳》对战宝可梦",
+    "why": "ポッ拳 is rendered 《宝可拳》 in rows 6, 69 and 70; 宝拳 here is inconsistent.",
+    "confidence": "high"
+  },
+  {
+    "post": "2026-08-20-interview-famitsu-2026-champions-hoshino-2",
+    "row": 51,
+    "kind": "omission",
+    "original": "メガハガネールが海外の公式大会で入賞した",
+    "current": "大钢蛇也曾在海外的官方大赛中获奖",
+    "suggested": "超级大钢蛇也曾在海外的官方大赛中获奖",
+    "why": "O says メガハガネール; T drops メガ, though the rest of the post renders メガ as 超级.",
+    "confidence": "high"
+  },
+  {
+    "post": "2026-08-20-interview-famitsu-2026-champions-hoshino-2",
+    "row": 80,
+    "kind": "name",
+    "original": "ササキユウイチ選手対シブヤアキ選手",
+    "current": "佐佐木雄一选手对涩谷亚纪选手",
+    "suggested": "ササキユウイチ选手对シブヤアキ选手",
+    "why": "O has the players' names only in katakana; T invents kanji.",
+    "confidence": "high"
+  },
+  {
+    "post": "2026-08-20-interview-famitsu-2026-champions-hoshino-2",
+    "row": 83,
+    "kind": "name",
+    "original": "オノリュウセイ選手 / キタザワソウマ選手",
+    "current": "小野龙生选手 / 北泽苍真选手",
+    "suggested": "オノリュウセイ选手 / キタザワソウマ选手",
+    "why": "O has the players' names only in katakana; T invents kanji.",
+    "confidence": "high"
+  },
+  {
+    "post": "2026-08-20-interview-famitsu-2026-champions-hoshino-2",
+    "row": 92,
+    "kind": "name",
+    "original": "田口さん、エルムさん、Refuさん、ハクシュウさん",
+    "current": "田口、Elm、Refu、白秋",
+    "suggested": "田口、エルム、Refu、ハクシュウ",
+    "why": "ハクシュウ is kana in O and 白秋 is a guessed kanji; エルム is also changed to Latin Elm without basis.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2017-08-09-interview-hamarepo-masuda-yokohama-origins",
+    "row": 132,
+    "kind": "name",
+    "original": "東戸塚",
+    "current": "东户塚",
+    "suggested": "东户冢",
+    "why": "The place is 东户冢 in rows 4, 6, 9, 24, 25, 28 but 东户塚 in rows 132, 134 and 137.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
+    "row": 14,
+    "kind": "note",
+    "original": "上生菓子があります。季節や行事に応じたモチーフを抽象的に表現したお菓子",
+    "current": "上生菓子指含水量较高、需冷藏保存的生菓子。",
+    "suggested": "上生菓子指以豆沙等制成、含水量较高的生菓子（见第3、17行）。",
+    "why": "The 'needs refrigeration' claim appears nowhere in the source; row 17 only says it is fresh and changes colour with temperature.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
+    "row": 13,
+    "kind": "note",
+    "original": "七條甘春堂は、京菓子の種類、味や色のバランス、食材など",
+    "current": "七條甘春堂是京都一家创立于1865年的和菓子老店。",
+    "suggested": "七條甘春堂是京都的老字号和菓子店，创业于江户时代。",
+    "why": "The year 1865 is not in the post; row 2 only says the shop has been in Kyoto since the Edo period.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge",
+    "row": 15,
+    "kind": "mistranslation",
+    "original": "「黄色いワッペン」をつけていた",
+    "current": "也曾佩戴“黄色贴纸”",
+    "suggested": "也曾佩戴“黄色徽章”",
+    "why": "ワッペン is rendered 徽章 everywhere else in the post; 贴纸 (sticker) is inconsistent and wrong.",
+    "confidence": "high"
+  },
+  {
+    "post": "2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge",
+    "row": 16,
+    "kind": "mistranslation",
+    "original": "黄色いワッペンに再びスポットライトが当たれば",
+    "current": "让黄色贴纸再次受到关注",
+    "suggested": "让黄色徽章再次受到关注",
+    "why": "ワッペン is rendered 徽章 elsewhere in the post; 贴纸 is inconsistent.",
+    "confidence": "high"
+  },
+  {
+    "post": "2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft",
+    "row": 6,
+    "kind": "name",
+    "original": "新米コンシェルジュの主人公・ハル",
+    "current": "新人礼宾员主角春",
+    "suggested": "新人礼宾员主角小春",
+    "why": "O gives ハル in kana only; T uses 春 in rows 6 and 10 but 小春 in rows 17 and 26, and the kanji is a guess.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft",
+    "row": 26,
+    "kind": "name",
+    "original": "アリサやタイラなど",
+    "current": "有纱、平良",
+    "suggested": "アリサ、タイラ",
+    "why": "O has these character names only in katakana; T invents kanji.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear",
+    "row": 17,
+    "kind": "speaker",
+    "original": "本作の通信機能は最初の企画していたものが全て入ってるそうですね。",
+    "current": "(speaker 太田哲司)",
+    "suggested": "(speaker ──, the interviewer, continuing row 16)",
+    "why": "Row 16 is the interviewer's 'Ishihara said earlier...' and this row completes that question; it is labelled as Ota's reply.",
+    "confidence": "high"
+  },
+  {
+    "post": "2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear",
+    "row": 18,
+    "kind": "speaker",
+    "original": "最初に企画したものから実装可能な機能以外を削ぎ落とすのが普通だと思うのですが、",
+    "current": "(speaker 太田哲司)",
+    "suggested": "(speaker ──, the interviewer)",
+    "why": "This is the interviewer's question; Ota's answer starts in row 19 (ほぼ全ての仕様が入りましたね).",
+    "confidence": "high"
+  },
+  {
+    "post": "2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear",
+    "row": 25,
+    "kind": "speaker",
+    "original": "ずいぶん苦労させられたと思いますが？",
+    "current": "(speaker 太田哲司)",
+    "suggested": "(speaker ──, the interviewer, continuing row 24)",
+    "why": "It is the interviewer's question completing row 24; Ota answers in row 26.",
+    "confidence": "high"
+  },
+  {
+    "post": "2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear",
+    "row": 38,
+    "kind": "speaker",
+    "original": "ちなみに、本作には、説明書にも書かれていない機能もたくさんありますよね？",
+    "current": "(speaker 太田哲司)",
+    "suggested": "(speaker ──, the interviewer)",
+    "why": "It is the interviewer's question; row 39 begins Ota's answer with 'はい。'.",
+    "confidence": "high"
+  },
+  {
+    "post": "2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear",
+    "row": 43,
+    "kind": "speaker",
+    "original": "それでは、最後に読者にメッセージを。",
+    "current": "(speaker 太田哲司)",
+    "suggested": "(speaker ──, the interviewer)",
+    "why": "It is the interviewer asking for a closing message; Ota's message follows in rows 44-48.",
+    "confidence": "high"
+  },
+  {
+    "post": "__summary__",
+    "read": [
+      "2013-09-21-scan-ndream-235-xy-developer-interview",
+      "2010-12-24-interview-nintendo-joshidaisei-masuda-sugimori-bw",
+      "2026-08-20-interview-famitsu-2026-champions-hoshino-2",
+      "2009-05-17-interview-g4tv-masuda-kawachimaru-platinum-particle-physics",
+      "2017-08-09-interview-hamarepo-masuda-yokohama-origins",
+      "2010-09-03-interview-4gamer-cedec-2010-ishihara-ichimura",
+      "2010-02-20-scan-ndream-2010-04-pokemon-bw-first-reveal",
+      "2011-01-20-scan-otonafamily-201103-masuda-bw-adults",
+      "2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
+      "2025-06-02-corporate-topic-37-pediatric-mri-pokemon-preparation-video",
+      "2024-11-27-corporate-topic-27-pokemon-kogei-craft-exhibition-beauty",
+      "2024-08-15-corporate-topic-23-nousaku-tin-casting-craftsmanship",
+      "2026-05-20-corporate-topic-52-naturaglace-organic-cosmetics-collaboration",
+      "2024-07-16-corporate-topic-21-pikachu-yellow-traffic-safety-badge",
+      "2024-02-29-corporate-topic-13-pokemon-concierge-stop-motion-craft",
+      "2011-01-06-interview-famitsu-1153-ota-ohmori-c-gear",
+      "2020-08-18-corporate-topic-03-pokemon-smile-gamification-health",
+      "2005-08-18-scan-continue-vol23-gamefreak-special"
+    ],
+    "unread": []
+  }
+]

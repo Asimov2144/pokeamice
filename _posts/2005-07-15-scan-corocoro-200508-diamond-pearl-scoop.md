@@ -403,7 +403,7 @@ translation_segments:
     scan_page: 1
     review_status: "verified"
     original: コロコロチェック映画との出会いとははちがう、ゲームならではの出会いになりそうだぞ。
-    translation: 与Corocoro Check电影中的相遇不同，这似乎将是游戏独有的相遇。
+    translation: CoroCoro Check：与电影中的相遇不同，这似乎将是游戏独有的相遇。
   - type: heading
     kind: text
     region_type: heading

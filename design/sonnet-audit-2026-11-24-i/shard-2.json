@@ -1,0 +1,115 @@
+[
+  {
+    "post": "2012-08-21-scan-ndream-222-b2w2-pwt-pokewood",
+    "row": 103,
+    "kind": "addition",
+    "original": "←クリア目標を2倍以上上回れば、追加で特別報酬をもらえるミッションもある",
+    "current": "取得通关目标两倍或以上的成绩，还会获得特别报酬。参加人数越多，越容易达到目标，因此和更多人一起挑战更划算。",
+    "suggested": "←如果超过通关目标的2倍以上，有些任务还能额外获得特别报酬",
+    "why": "The second sentence about more participants making it easier and more worthwhile is not in O, and O says only some missions give the bonus.",
+    "confidence": "high"
+  },
+  {
+    "post": "2012-08-21-scan-ndream-222-b2w2-pwt-pokewood",
+    "row": 231,
+    "kind": "addition",
+    "original": "Upper screenいちいちニンドリ2012にほんだいひょうにちょうせん",
+    "current": "上屏。参赛者名：“いちいち”“ニンドリ”。赛事名：“挑战2012日本代表”。",
+    "suggested": "上屏 いちいち ニンドリ 2012にほんだいひょうにちょうせん",
+    "why": "T invents labels (participant names / event name) that O does not state; O is just raw screenshot text.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2012-08-21-scan-ndream-222-b2w2-pwt-pokewood",
+    "row": 280,
+    "kind": "name",
+    "original": "ラッキー★さやこへ ようこそ!",
+    "current": "欢迎来到 幸运★沙耶子！",
+    "suggested": "欢迎来到 幸运★さやこ！",
+    "why": "O gives the shop-owner name only in kana; T guesses the kanji 沙耶子.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+    "row": 11,
+    "kind": "speaker",
+    "original": "Just wanted to know if the Pokemon are still big with young people ... do you think that it's still a big game for young people now?",
+    "current": "<杉森建> 只是想知道宝可梦在年轻人中是否仍然很受欢迎",
+    "suggested": "Speaker should be CVG (this row is the interviewer's question; the answer follows in row 12).",
+    "why": "O is a question put to the developers, not an answer by Sugimori.",
+    "confidence": "high"
+  },
+  {
+    "post": "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+    "row": 18,
+    "kind": "speaker",
+    "original": "For an advanced game, Ruby and Sapphire doesn't have spectacular graphics ... Could you explain why you have chosen these kind of simple graphics?",
+    "current": "<森本茂树> 作为一款进阶游戏，《红宝石》和《蓝宝石》的画面并不惊艳",
+    "suggested": "Speaker should be CVG (the answer is row 19 by Sugimori).",
+    "why": "O is an interviewer question, wrongly attributed to Morimoto.",
+    "confidence": "high"
+  },
+  {
+    "post": "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+    "row": 24,
+    "kind": "speaker",
+    "original": "I would like you to explain to our readers how did you use the Pokemon be featured in Ruby and Sapphire? ... why did you include some and not all of the previous Pokemon?",
+    "current": "<增田顺一> 我想请你向我们的读者解释一下",
+    "suggested": "Speaker should be CVG (the answer is row 25 by Sugimori).",
+    "why": "O is an interviewer question addressed to the developers, wrongly attributed to Masuda.",
+    "confidence": "high"
+  },
+  {
+    "post": "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+    "row": 24,
+    "kind": "note",
+    "original": "With a complete new set of Pokemon, why did you include some and not all of the previous Pokemon?",
+    "current": "同时只能通过交换等方式获得部分旧作宝可梦。",
+    "suggested": "《宝可梦 红宝石／蓝宝石》是2002年发售的Game Boy Advance作品，引入了第三代全新的宝可梦。",
+    "why": "The claim that old Pokemon are obtainable only through trading is not in O and is unsupported background.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2005-07-15-scan-corocoro-200508-diamond-pearl-scoop",
+    "row": 33,
+    "kind": "mistranslation",
+    "original": "コロコロチェック映画との出会いとはちがう、ゲームならではの出会いになりそうだぞ。",
+    "current": "与Corocoro Check电影中的相遇不同，这似乎将是游戏独有的相遇。",
+    "suggested": "CoroCoro Check 与电影中的相遇不同，这似乎将是游戏独有的相遇。",
+    "why": "コロコロチェック is the sidebar label, not part of the sentence; T makes it a modifier of 'movie' (\"Corocoro Check电影中\").",
+    "confidence": "high"
+  },
+  {
+    "post": "2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream",
+    "row": 13,
+    "kind": "note",
+    "original": "睡眠研究の第一人者である株式会社S’UIMIN代表取締役社長の柳沢正史さん",
+    "current": "柳泽正史是日本睡眠研究领域的权威学者，曾任日本睡眠学会理事长。",
+    "suggested": "柳泽正史是睡眠研究领域的权威学者，S’UIMIN株式会社代表董事社长。",
+    "why": "The claim he was president of the Japanese sleep society is not in O (O says only first-rank sleep researcher and S'UIMIN president) and appears invented.",
+    "confidence": "medium"
+  },
+  {
+    "post": "__summary__",
+    "read": [
+      "2012-08-21-scan-ndream-222-b2w2-pwt-pokewood",
+      "2003-05-30-interview-cvg-ruby-sapphire-gamefreak-masuda-sugimori-morimoto",
+      "2018-05-02-interview-pokemon-official-pikachu-tanjou-hiwa",
+      "2009-03-24-interview-1up-why-gamers-still-play-pokemon-masuda",
+      "2019-02-12-interview-jdn-arita-pokemon-card-illustrator",
+      "2009-05-15-interview-nintendoaccion-199-masuda-kawachimaru-platinum",
+      "2012-07-19-scan-famitsu-1233-b2w2-interview",
+      "2005-08-18-scan-continue-vol23-drill-dozer",
+      "2005-07-15-scan-corocoro-200508-diamond-pearl-scoop",
+      "2010-10-20-interview-bw-music-collection-liner-notes",
+      "2013-06-12-interview-4gamer-e3-2013-xy-developer-discussion",
+      "2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream",
+      "2023-03-01-interview-pokemon-center-president-kamigo-yamaoka",
+      "2025-03-28-corporate-topic-34-pokemon-cafe-hospitality-experience",
+      "2026-02-06-corporate-topic-48-pokemon-friends-brain-training-wonderlab",
+      "2025-04-18-corporate-topic-35-pokemon-kodomo-shokudo-community-support",
+      "2025-08-20-corporate-topic-42-taiwan-localized-anime-song-yoga-lin"
+    ],
+    "unread": []
+  }
+]

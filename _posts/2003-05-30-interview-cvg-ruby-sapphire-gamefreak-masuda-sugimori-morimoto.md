@@ -99,7 +99,7 @@ parallel_items:
   translation: 首先我们选一种昆虫，然后给这种昆虫加上一些关键元素，让它更像宝可梦，比如给它加上一些坚硬的形状，让它更像钢铁。
 - original: Just wanted to know if the Pokemon are still big with young people because it was a phenomenon at the end of the nineties, and do you think that it's still a big game for young people now?
   role: answer
-  speaker: 杉森建
+  speaker: "CVG"
   translation: 只是想知道宝可梦在年轻人中是否仍然很受欢迎，因为它在九十年代末是一种现象，你觉得它现在对年轻人来说仍然是一款大作吗？
 - original: 'Many of the Pokemon characters first became loved because they were funny, that''s why many people have supported it. And I''m sure that younger people will still support the Pokemon because it''s funny. And in Japan, before Pokemon Ruby and Pokemon Sapphire was released, many of the mass media began rumours that the Pokemon had already down trended and the software would not become a big seller. But that wasn''t true and we still had support from fans, and I''m sure that we''ll still keep on getting this support. (Note: 4.4 million Pokemon Ruby and Saphire sold in Japan to date)'
   role: answer
@@ -128,7 +128,7 @@ parallel_items:
   translation: 你刚才提到了这款《宝可梦 红宝石》和《宝可梦 蓝宝石》中的全新特色，但没有提到一对一战斗。我们主要关注的是一对一战斗。二对二战斗是我们为这款新游戏加入的新挑战，但主要玩法还是一对一战斗。不过，如果人们说新的二对二特色不错，那我们可能也会在下一款游戏里加入这个元素。
 - original: For an advanced game, Ruby and Sapphire doesn't have spectacular graphics, it's a little basic. Could you explain why you have chosen these kind of simple graphics?
   role: answer
-  speaker: 森本茂树
+  speaker: "CVG"
   translation: "作为一款进阶游戏，《红宝石》和《蓝宝石》的画面并不惊艳，有点基础。你能解释一下为什么选择这种简单的画面吗？"
 - original: Yes actually we had a reason for making these graphics simple this time. The basic graphics may simultaneously limit and enhance gameplay, for example if a map is very realistic, it might become more complicated, and then it would be hard for players to understand where to go next. However, an unrealistic map may not work as a good guide, so some of the realistic graphics may cause some limitations to the games. That's why we have kept these graphics more simple this time, and also in the battle scenes, if we had made the back of the battle scenes more realistic, it might point out where the battle was and so when you draw, you have to be more precise. That's why we didn't make it complicated.
   role: answer
@@ -152,9 +152,9 @@ parallel_items:
   translation: 我制作这些宝可梦游戏时，会想如果我是个孩子，我会喜欢这款游戏；我是个成年人，我也喜欢这款游戏，我相信这个理念。
 - original: I would like you to explain to our readers how did you use the Pokemon be featured in Ruby and Sapphire? With a complete new set of Pokemon, why did you include some and not all of the previous Pokemon?
   role: answer
-  speaker: 增田顺一
+  speaker: "CVG"
   translation: 我想请你向我们的读者解释一下，你们是如何让宝可梦在《红宝石／蓝宝石》中登场的？既然是一整套全新的宝可梦，为什么你们只收录了之前部分宝可梦，而不是全部？
-  note: 《宝可梦 红宝石／蓝宝石》是2002年发售的Game Boy Advance作品，引入了第三代全新的宝可梦，同时只能通过交换等方式获得部分旧作宝可梦。
+  note: 《宝可梦 红宝石／蓝宝石》是2002年发售的Game Boy Advance作品，引入了第三代全新的宝可梦，
 - original: We try to balance on that account. Numbers is the most important aspect in this game and it would be hard for players to collect all Pokemon, but if the players can't really collect lower numbers of Pokemon, that makes the game more simple and not so interesting. So the number is very important. And in this new Pokemon game we wanted to add more new Pokemon, but there are many players who like all Pokemon from the previous games. So we try to balance on that also.
   role: answer
   speaker: 杉森建

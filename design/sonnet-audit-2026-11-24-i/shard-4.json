@@ -1,0 +1,115 @@
+[
+  {
+    "post": "2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective",
+    "row": 17,
+    "kind": "name",
+    "original": "ミライ：",
+    "current": "未来：",
+    "suggested": "ミライ：",
+    "why": "O only has kana; T guesses the kanji 未来, while row 51 of the same post keeps ミライ in kana (inconsistent).",
+    "confidence": "medium"
+  },
+  {
+    "post": "2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective",
+    "row": 92,
+    "kind": "name",
+    "original": "ハジメと ダズルじゃない！？",
+    "current": "不是阿始和达兹尔吗！？",
+    "suggested": "不是ハジメ和达兹尔吗！？",
+    "why": "O gives ハジメ in kana only; 阿始 is an invented kanji rendering.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective",
+    "row": 94,
+    "kind": "name",
+    "original": "イオリ！",
+    "current": "触摸屏伊织！",
+    "suggested": "触摸屏イオリ！",
+    "why": "O has イオリ in kana only; 伊织 (also rows 98) is an invented kanji rendering.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective",
+    "row": 81,
+    "kind": "name",
+    "original": "ササコ議長",
+    "current": "巡护员联盟议长：笹子议长",
+    "suggested": "巡护员联盟议长：ササコ议长",
+    "why": "O writes ササコ in kana only; 笹子 is guessed kanji (same in row 198).",
+    "confidence": "medium"
+  },
+  {
+    "post": "2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective",
+    "row": 160,
+    "kind": "name",
+    "original": "隣町のハシモトさんもなぜか知ってる！",
+    "current": "邻镇的桥本先生不知为何也知道！",
+    "suggested": "邻镇的ハシモト先生不知为何也知道！",
+    "why": "O writes ハシモト in kana only; 桥本 is guessed kanji.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility",
+    "row": 32,
+    "kind": "note",
+    "original": "「わくわくワールド」...豊田市との合同イベント",
+    "current": "わくわくワールド是丰田市举办的面向儿童的体验型活动。",
+    "suggested": "（删除或改为：わくわくワールド是丰田技术会与丰田市合办的联合活动。）",
+    "why": "O only says it is a joint event of Toyota Engineering Society and Toyota City for community contribution; 'held by Toyota City' and 'child-oriented experience event' are not in O.",
+    "confidence": "medium"
+  },
+  {
+    "post": "2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support",
+    "row": 34,
+    "kind": "note",
+    "original": "ポケモン・ウィズ・ユー財団",
+    "current": "宝可梦与你基金会是株式会社宝可梦设立的公益财团法人，开展灾害支援等社会贡献活动。",
+    "suggested": "宝可梦·与你基金会是由宝可梦员工志愿者发起、2021年独立的基金会，开展灾害支援、防灾启发等活动。",
+    "why": "O never says 公益财团法人 or that the company set it up; it says it began as employee-volunteer activity and became an independent foundation in 2021. Name also inconsistent with the other N (宝可梦・与你同在财团) and T (宝可梦·与你基金会).",
+    "confidence": "medium"
+  },
+  {
+    "post": "2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support",
+    "row": 14,
+    "kind": "note",
+    "original": "ポケモン・ウィズ・ユー財団の担当者",
+    "current": "宝可梦・与你同在财团是株式会社宝可梦设立的灾害支援财团。",
+    "suggested": "宝可梦·与你基金会是由宝可梦员工志愿者发起的基金会。",
+    "why": "Name differs from T (宝可梦·与你基金会) within the same post, and 'established by the company as a disaster-support foundation' is not stated in O (rows 5-6 say employee volunteers, later independent, with broader activities).",
+    "confidence": "medium"
+  },
+  {
+    "post": "2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide",
+    "row": 17,
+    "kind": "note",
+    "original": "羽田エアポートガーデンでは海外観光客を意識して",
+    "current": "羽田机场花园是2023年在羽田机场旧址开业的大型复合设施。",
+    "suggested": "（删除该注释，或仅保留O中出现的信息）",
+    "why": "O says nothing about opening year or 'former airport site'; the note adds unsourced background (and 旧址 is doubtful).",
+    "confidence": "medium"
+  },
+  {
+    "post": "__summary__",
+    "read": [
+      "2004-03-21-scan-ndream-108-frlg-developer-interview",
+      "2012-07-21-scan-ndream-221-b2w2-developer-interview",
+      "2010-02-20-scan-ndream-2010-04-pokemon-ranger-retrospective",
+      "2010-09-13-interview-weekly-ascii-masuda-bw-secrets",
+      "2019-07-24-interview-famitsu-2019-pokemon-masters-sasaki",
+      "2010-09-16-scan-famitsu-1137-bw-launch-interview",
+      "2009-03-23-interview-gamepro-platinum-masuda-kawachimaru",
+      "2023-06-01-interview-pokemon-center-shibuya-store-manager",
+      "2024-03-29-corporate-topic-14-toyota-miraidon-project-future-mobility",
+      "2025-11-07-corporate-topic-44-pokemon-daisuki-club-20-years-history",
+      "2024-05-22-corporate-topic-17-noto-earthquake-pikachu-kabuto-children-support",
+      "2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy",
+      "2024-10-16-corporate-topic-26-indonesia-pikachu-jet-garuda-journey",
+      "2024-05-31-corporate-topic-18-kissa-poltchageist-matcha-tea-experience",
+      "2026-02-24-corporate-topic-50-pokemon-center-pop-up-store-nationwide",
+      "2011-01-20-interview-famitsu-1155-morimoto-taya-iwao-battle-secrets",
+      "2025-06-13-corporate-topic-38-pokemon-parks-community-playground"
+    ],
+    "unread": []
+  }
+]

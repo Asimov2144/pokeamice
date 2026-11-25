@@ -1550,7 +1550,7 @@ translation_segments:
     scan_page: 2
     review_status: "verified"
     original: "Touch screenトップレンジャーの あかし ファイン・スタイラーじゃ!ここでさまざまなレンジャー活動の方針が決められるレンジャーユニオンの議長 ササコ議長スタイラーの開発者 シンバラ教授ビエンタウンのリーダーレンジャー バロウ"
-    translation: "触摸屏：这是顶级巡护员的证明——精良捕猎游标！\n这里负责决定各项巡护员活动的方针。\n巡护员联盟议长：笹子议长\n捕猎游标开发者：辛巴拉教授\n比恩塔镇的领队巡护员：巴罗"
+    translation: "触摸屏：这是顶级巡护员的证明——精良捕猎游标！\n这里负责决定各项巡护员活动的方针。\n巡护员联盟议长：ササコ议长\n捕猎游标开发者：辛巴拉教授\n比恩塔镇的领队巡护员：巴罗"
     scan_box:
       - 1113
       - 1294
@@ -1770,7 +1770,7 @@ translation_segments:
     scan_page: 3
     review_status: "verified"
     original: ハジメと ダズルじゃない！？
-    translation: 不是阿始和达兹尔吗！？
+    translation: 不是ハジメ和达兹尔吗！？
     scan_box:
       - 85
       - 705
@@ -1802,7 +1802,7 @@ translation_segments:
     scan_page: 3
     review_status: "verified"
     original: Touch screenイオリ！
-    translation: 触摸屏伊织！
+    translation: 触摸屏イオリ！
     scan_box:
       - 204
       - 868
@@ -1879,7 +1879,7 @@ translation_segments:
     heading_level: 2
     review_status: "verified"
     original: アンヘル社で働く研究者 イオリ しっかり者のオペレーター リズミ ピンチを救ってくれるパートナーたち
-    translation: "在安赫尔公司工作的研究员 伊织 可靠的操作员 莉兹米 在危急时刻拯救你的搭档们"
+    translation: "在安赫尔公司工作的研究员 イオリ 可靠的操作员 莉兹米 在危急时刻拯救你的搭档们"
     scan_box:
       - 375
       - 406
@@ -2960,7 +2960,7 @@ translation_segments:
     scan_page: 4
     review_status: "verified"
     original: 隣町のハシモトさんもなぜか知ってる！
-    translation: 邻镇的桥本先生不知为何也知道！
+    translation: 邻镇的ハシモト先生不知为何也知道！
     scan_box:
       - 1370
       - 711
@@ -3571,7 +3571,7 @@ translation_segments:
     scan_page: 5
     review_status: "verified"
     original: ←レンジャーユニオンのトップは、このササコ議長
-    translation: ←巡护员联盟的最高负责人是笹子议长
+    translation: ←巡护员联盟的最高负责人是ササコ议长
     scan_box:
       - 700
       - 1073
