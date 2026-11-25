@@ -23,7 +23,7 @@ interview_id: PKMN-0066
 parallel_items:
 - type: heading
   level: 2
-  original: プロローグ：ゲームフリークにおけるサウンド制作の現場
+  original: ""
   translation: 序言：走入 GAME FREAK 声音创作的最前线
 - speaker: Steinberg 編集部
   original: 1996年のゲームボーイ版「ポケットモンスター 赤・緑」の発売以降、世界中で爆発的にヒットを続ける「ポケットモンスター」シリーズの開発・制作を手がける 株式会社ゲームフリーク。サウンド開発では現在 Cubase を使用しているという。2010年 ニンテンドーDS 版の最新作「ポケットモンスターブラック・ホワイト」においてサウンドプロジェクトリーダーを務めた 景山将太 氏に、ゲームフリークにおける音楽制作、そして Cubase について話をうかがった。
@@ -35,7 +35,7 @@ parallel_items:
   alt: GAME FREAK声音工作室全景
 - type: heading
   level: 2
-  original: 第1章：4人体制のサウンドチームとCubaseによるワークフロー統一
+  original: ""
   translation: 第1章：四人声音战队与全员 Cubase 工作流的标准化
 - speaker: 景山将太
   original: Creativity First
@@ -82,7 +82,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 第2章：ポケモンの「鳴き声」デザインとDS内蔵音源の限界突破
+  original: ""
   translation: 第2章：从零设计宝可梦“叫声”与突破 DS 内置音源极限
 - type: image
   image: /assets/img/interviews/2015-11-20-interview-steinberg-gamefreak-sound-cubase/studio1.jpg
@@ -146,7 +146,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 第3章：ゲームミュージッククリエイターへの道と未来へのメッセージ
+  original: ""
   translation: 第3章：步入游戏音乐之道的原点与致未来创作者的寄语
 - type: image
   image: /assets/img/interviews/2015-11-20-interview-steinberg-gamefreak-sound-cubase/gamefreak-10.jpg

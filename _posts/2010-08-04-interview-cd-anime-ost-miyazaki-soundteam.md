@@ -24,7 +24,7 @@ interview_id: PKMN-0060
 parallel_items:
 - type: heading
   level: 2
-  original: 'Introduction: Shinji Miyazaki × Game Freak Sound Team “Talk about Pokémon Music”'
+  original: ""
   translation: 序言：宫崎慎二 × GAME FREAK 声音团队“漫谈宝可梦音乐”
 - speaker: Media Factory / PocketMonsters.Net
   original: 'The following interview was translated from the booklet included with the TV Anime Pocket Monsters Original Soundtrack Best 1997-2010 (TVアニメ ポケットモンスター オリジナルサウンドトラック ベスト 1997-2010) CD box set released on September 8th, 2010. Participants: Shinji Miyazaki (Anime Composer/Arranger), Junichi Masuda (Director of game series), Go Ichinose (Sound Leader of game series), Hitomi Sato (Sound Staff Member).'

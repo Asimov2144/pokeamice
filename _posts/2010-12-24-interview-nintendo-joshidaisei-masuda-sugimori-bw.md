@@ -54,7 +54,7 @@ parallel_items:
   translation: 女子大学生询问《宝可梦 黑·白》
 - type: heading
   level: 2
-  original: はじめに
+  original: ""
   translation: 前言
 - original: みなさん、こんにちは。任天堂の岩田です。
   translation: 大家好，我是任天堂的岩田。

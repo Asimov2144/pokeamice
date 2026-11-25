@@ -51,7 +51,7 @@ parallel_items:
   note: 吉田宏信（Hironobu Yoshida）是Game Freak的设计师，曾参与多款宝可梦游戏的图形设计。
 - type: heading
   level: 2
-  original: 'The Starters: Faces of the Generation'
+  original: ""
   translation: 初始宝可梦：世代的代表
 - original: Pikachu may endure, but each game has its own stars -- the trio of 'starters,' the three monsters from which the player selects his or her first companion. Above, you can see the starters from Pokemon X and Y.
   translation: 皮卡丘或许经久不衰，但每款游戏都有自己的明星——即“初始宝可梦”三只，玩家从中选择自己的第一只伙伴。上面，你可以看到《宝可梦 X/Y》中的初始宝可梦。

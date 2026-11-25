@@ -27,7 +27,7 @@ interview_id: PKMN-0059
 parallel_items:
 - type: heading
   level: 2
-  original: プロローグ：『ポッ拳』開発者が語る誕生秘話――90年代格闘ゲームの熱狂をもう一度
+  original: ""
   translation: 序章：《宝可梦 铁拳》开发秘辛——重温90年代格斗游戏的狂热与心跳
 - type: image
   image: /assets/img/interviews/2016-05-12-interview-inside-pokken-tournament-developers/661991.jpg
@@ -43,7 +43,7 @@ parallel_items:
   alt: 《宝可梦 铁拳锦标赛》高清实机画面与对战演练。
 - type: heading
   level: 2
-  original: 第1章：『ポッ拳』のはじまり――石原社長の突然の企画書と「仕事と趣味の逆転」
+  original: ""
   translation: 第1章：《宝可梦 铁拳》的起点——石原社长出人意料的企划案与“工作与爱好的倒错”
 - speaker: Inside Games
   original: 本日はよろしくお願いします。まずは自己紹介をお願いします。
@@ -123,7 +123,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 第2章：競技としての『ポッ拳』――多種多様な骨格、シャンデラの衝撃、そして世界大会WCSへ
+  original: ""
   translation: 第2章：作为电子竞技的《宝可梦 铁拳》——殊异骨骼的平衡艺术、水晶灯火灵的参战与进军WCS世界赛
 - speaker: Inside Games
   original: 星野さんは相当ポケモンがお好きなのでしょうか？
@@ -293,7 +293,7 @@ parallel_items:
   alt: 《宝可梦 铁拳锦标赛》高清实机画面与对战演练。
 - type: heading
   level: 2
-  original: 第3章：対戦アクションとしての革新――フィールドとデュエルの融合、そして敷居の低さと奥深さ
+  original: ""
   translation: 第3章：对战动作体系的革命——场地相位与决斗相位的交替交融、零门槛手感与无穷深度
 - speaker: Inside Games
   original: さきほど見ていて面白くなるよう気をつけたとおっしゃっていましたが、「こういうところに注目して欲しい」というのはありますか？

@@ -56,6 +56,9 @@ def fetch(u):
 
 
 def decode(b):
+    if b[:2] == bytes([31, 139]):
+        import gzip
+        b = gzip.decompress(b)
     head = b[:4000].decode("ascii", "ignore").lower()
     m = re.search(r"charset=[\"']?([a-z0-9_\-]+)", head)
     encs = ([m.group(1)] if m else []) + ["utf-8", "cp932", "euc-jp"]
@@ -183,6 +186,36 @@ if sys.argv[1] == "refetch":
             os.remove(cp)
         r = subprocess.run(["curl", "-sL", "-m", "60", "-A", "Mozilla/5.0", "-o", cp, "-w", "%{http_code}", v], capture_output=True, text=True)
         code = r.stdout.strip()
+        if code != "200" and os.path.exists(cp):
+            os.remove(cp)
+        return u, code
+    with ThreadPoolExecutor(6) as ex:
+        res = list(ex.map(go, todo))
+    from collections import Counter
+    print(Counter(c for _, c in res))
+
+if sys.argv[1] == "wayback":
+    d = json.load(open(os.path.join(OUT, "scores.json"), encoding="utf-8"))
+    todo = []
+    for s, v in d.items():
+        if v["status"] != "nopage" or "-scan-" in s:
+            continue
+        for u in v["urls"]:
+            if "web.archive.org" in u or "archive.org/details" in u:
+                continue
+            todo.append(u)
+    todo = sorted(set(todo))
+    print("wayback todo", len(todo))
+    def go(u):
+        cp = cache_path(u)
+        if os.path.exists(cp):
+            return u, "cached"
+        v = "https://web.archive.org/web/2id_/" + u
+        try:
+            r = subprocess.run(["curl", "-sL", "-m", "50", "-A", "Mozilla/5.0", "-o", cp, "-w", "%{http_code}", v], capture_output=True, text=True, timeout=70)
+            code = r.stdout.strip()
+        except Exception:
+            code = "000"
         if code != "200" and os.path.exists(cp):
             os.remove(cp)
         return u, code

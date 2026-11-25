@@ -39,7 +39,7 @@ interview_id: PKMN-0096
 parallel_items:
 - type: heading
   level: 2
-  original: 'Prologue: Nintendo Power Chats with Pokémon Bigwigs (Issue 134)'
+  original: ""
   translation: "序章：《Nintendo Power》与宝可梦大人物们的对谈（第134期）"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/134-cover-1.jpg
@@ -78,7 +78,7 @@ parallel_items:
   alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_001
 - type: heading
   level: 2
-  original: 'Chapter 1: Evolving Beyond Red & Blue — The 3.5-Year Development of Gold & Silver'
+  original: ""
   translation: "第1章：超越红蓝——《金／银》三年半的开发"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/RBY.jpg
@@ -122,7 +122,7 @@ parallel_items:
   caption: 'North American Gold & Silver: October 2000'
 - type: heading
   level: 2
-  original: 'Chapter 2: Memory Roadblocks & Satoru Iwata’s Compression Miracle'
+  original: ""
   translation: "第2章：内存的障碍与岩田聪的压缩奇迹"
 - speaker: Nintendo Power
   original: Nintendo Power:What was the hardest part of developing Gold and Silver?
@@ -168,7 +168,7 @@ parallel_items:
   caption: Screenshot from my Gen 2 Cut Content video
 - type: heading
   level: 2
-  original: 'Chapter 3: Hundreds of Scrapped Pokemon — Ken Sugimori on Spaceworld 1997 & Hoothoot'
+  original: ""
   translation: "第3章：数百只被废弃的宝可梦——杉森建谈1997年Space World与咕咕"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/SW-Intro.jpg
@@ -210,7 +210,7 @@ parallel_items:
   caption: Beta sprites revealed in 2018 Satoshi manga
 - type: heading
   level: 2
-  original: 'Chapter 4: Favorite Companions & The Secret of Mew — Two Weeks Before Gold Master'
+  original: ""
   translation: "第4章：最爱的宝可梦与梦幻的秘密——母盘完成前两周"
 - speaker: Nintendo Power
   original: Nintendo Power:What is your favorite Pokémon?
@@ -254,7 +254,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 'Chapter 5: Glimpsing the Future — Early Hints of the Third Generation'
+  original: ""
   translation: "第5章：窥见未来——第三世代的早期线索"
 - type: image
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Sap.png

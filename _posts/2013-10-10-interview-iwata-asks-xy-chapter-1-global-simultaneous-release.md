@@ -47,7 +47,7 @@ entities:
 parallel_items:
 - type: header
   level: 3
-  original: はじめに：1. シリーズ初の世界同時発売
+  original: ""
   translation: "前言：1. 系列首次全球同时发售"
 - type: dialogue
   speaker: 岩田聪
