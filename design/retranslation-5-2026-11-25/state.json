@@ -1,0 +1,62 @@
+{
+ "task": "Full faithful re-translation of five still-embellished interview posts",
+ "created": "2026-11-24",
+ "shards": [
+  {
+   "id": 1,
+   "status": "pending",
+   "chars": 11933,
+   "posts": [
+    {
+     "stem": "2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+     "rows": 251,
+     "chars": 11933,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-5-2026-11-25\\dump\\2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-5-2026-11-25\\out\\2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda.json"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "status": "pending",
+   "chars": 11116,
+   "posts": [
+    {
+     "stem": "2015-05-20-interview-pokemon-recruit-business-anatomy",
+     "rows": 32,
+     "chars": 8321,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-5-2026-11-25\\dump\\2015-05-20-interview-pokemon-recruit-business-anatomy.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-5-2026-11-25\\out\\2015-05-20-interview-pokemon-recruit-business-anatomy.json"
+    },
+    {
+     "stem": "2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki",
+     "rows": 14,
+     "chars": 2795,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-5-2026-11-25\\dump\\2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-5-2026-11-25\\out\\2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki.json"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "status": "pending",
+   "chars": 14492,
+   "posts": [
+    {
+     "stem": "2014-08-22-interview-niconico-gamefreak-origins-masuda",
+     "rows": 91,
+     "chars": 7552,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-5-2026-11-25\\dump\\2014-08-22-interview-niconico-gamefreak-origins-masuda.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-5-2026-11-25\\out\\2014-08-22-interview-niconico-gamefreak-origins-masuda.json"
+    },
+    {
+     "stem": "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori",
+     "rows": 77,
+     "chars": 6940,
+     "dump": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-5-2026-11-25\\dump\\2006-10-01-interview-nom-dp-ishihara-masuda-sugimori.txt",
+     "out": "P:\\WEBSITE\\.docs-verify\\translation-review\\design\\retranslation-5-2026-11-25\\out\\2006-10-01-interview-nom-dp-ishihara-masuda-sugimori.json"
+    }
+   ]
+  }
+ ]
+}
