@@ -62,45 +62,41 @@ parallel_items:
   original: With the exciting release of Pokémon HeartGold and SoulSilver this week, we got a chance to interview members of the Game Freak team, who were part of the conception of the the video game series. Director Junichi Masuda, game director Shigeki Morimoto, art director Takao Unno, planner Kenji Matsushima, and programming lead Akito Mori tell us the development process behind creating and naming Pokémon, suprises you'll find in HeartGold and SoulSilver, the idea behind the Pokéwalker, and more.
   translation: "随着本周《宝可梦 心金·魂银》的激动人心发售，我们有幸采访到了GAME FREAK团队的成员，他们是该系列游戏构思的参与者。总监增田顺一、游戏总监森本茂树、艺术总监海野隆雄、策划松岛贤二以及编程负责人森彰人向我们讲述了创造和命名宝可梦的开发过程、在《心金·魂银》中你将发现的惊喜、宝可计步器背后的理念等等。"
   role: question
-- type: dialogue
-  speaker: Game Informer
-  original: 'The Pokémon franchise is no stranger to remakes. Why are remakes so frequent and well-received with this series? And why did you decide to remake Pokémon Gold and Silver specifically? Morimoto: This is the second time we have created a remake. When we create Pokémon games, we always keep in mind the look of the game and its approachability. It has been 10 years since Gold and Silver launched, and we felt it was the best timing to create remakes since there are more people who have not played the original Game Boy titles.'
-  translation: 宝可梦系列对重制并不陌生。为什么这个系列的重制如此频繁且广受好评？为什么你们决定重制《宝可梦 金·银》？森本茂树：这是我们第二次制作重制版。在制作宝可梦游戏时，我们始终注重游戏的外观和易上手性。距离《金·银》发售已经过去了10年，我们觉得这是制作重制版的最佳时机，因为现在有更多人没有玩过最初的Game Boy版本。
-  role: question
-- type: dialogue
-  speaker: Game Informer
-  original: 'The Pokémon brand is obviously still very alive and well in Japan as HeartGold and SoulSilver have sold incredibly well there. What is it that keeps people interested in such a long-running franchise that already has a lengthy list of titles? Morimoto: Because we always add new gameplay so each time the game evolves. I am confident that all the people engaged with the Pokémon brand including The Pokémon Company are making great efforts to ensure it’s a long-running franchise. Ohmori: We challenge ourselves to create new gameplay every time we develop a new Pokémon game. I believe such effort is received very well by the players. I would like to keep challenging ourselves to determine how we can add new elements like wireless and Wi-Fi communication, as well as things like the Pokéwalker for HeartGold and SoulSilver. Matsushima: I believe it is because we keep challenging ourselves without changing the core. The core for Pokémon game is collecting, trading, and battling. For
-    HeartGold and SoulSilver, it was the Pokéathlon and Pokéwalker. Mori: I think it’s because the game is attractive to not only boys and girls, but also adults.'
-  translation: 宝可梦品牌在日本显然依然充满活力，《心金·魂银》在那里销量极佳。是什么让人们对这样一个拥有众多作品的长期系列保持兴趣？森本茂树：因为我们总是添加新的玩法，所以每次游戏都在进化。我相信所有参与宝可梦品牌的人，包括宝可梦公司，都在为使其成为长寿系列而付出巨大努力。大森滋：我们在开发每一款新宝可梦游戏时都挑战自己创造新的玩法。我相信这种努力得到了玩家的好评。我希望继续挑战自己，思考如何添加无线和Wi-Fi通信等新元素，以及像《心金·魂银》中的宝可计步器这样的东西。松岛贤二：我认为这是因为我们在不改变核心的前提下不断挑战自我。宝可梦游戏的核心是收集、交换和对战。对于《心金·魂银》，核心就是宝可全能竞技赛和宝可计步器。森彰人：我认为这是因为游戏不仅对男孩女孩有吸引力，对成年人也是如此。
-  role: question
-- type: dialogue
-  speaker: Game Informer
-  original: 'Where did you get the idea for the pedometer peripheral bundled with HeartGold and SoulSilver? Ohmori: The idea came up when we thought about what we could do to make players’ dream — “I would like to become a Pokémon Trainer!” — possible. Our focus was to enable a player to be with his or her Pokémon all the time, even when he or she is walking. Because you can play anytime, anywhere, it seems there are many players who play with the Pokéwalker as much as the actual games. I am happy to see that. Mori: There were many ideas, but in the end we settled on Director Morimoto’s decision to make a product that would make fans happy. Morimoto: We took some elements from Pokémon Pikachu, which was sold at the same time as Pokémon Gold and Silver. We wanted to provide more nostalgia to the players who played the original Gold and Silver games.'
-  translation: 你们从哪里得到捆绑在《心金·魂银》中的计步器外设的想法？大森滋：当我们思考如何实现玩家“我想成为宝可梦训练家！”的梦想时，这个想法出现了。我们的重点是让玩家能够时刻与他的宝可梦在一起，即使是在走路的时候。因为可以随时随地游玩，似乎有很多玩家像玩正篇游戏一样频繁使用宝可计步器。我很高兴看到这一点。森彰人：有很多想法，但最终我们采纳了森本总监的决定，制作一个能让粉丝开心的产品。森本茂树：我们借鉴了与《宝可梦 金·银》同时发售的“宝可梦皮卡丘”的一些元素。我们想为玩过原版《金·银》的玩家提供更多怀旧感。
-  note: 宝可梦皮卡丘：任天堂的计步器型携带设备（口袋皮卡丘系列），玩家通过走路积累步数、与皮卡丘互动。
-  role: question
-- type: dialogue
-  speaker: Game Informer
-  original: 'For fans who have already played Gold and Silver, what surprises can they expect to discover? Morimoto: As for the scenario, we tried to keep the storyline truthful to the original all while adding something new. As a result, it has good depth. There is a lot of gameplay you didn’t experience in the original Gold and Silver games. Ohmori: Even though it is the same storyline, there is a new experience. For example, players can walk with his or her Pokémon. It is a whole new experience to walk into towns and down the street with your Pokémon. Also, you might want to enjoy competing with your Pokémon at Pokéathlon Dome. Matsushima: We replicate the Gold and Silver storyline, but we added more stages. Now you can meet familiar Pokémon in the Kanto Region. Mori: The Pokémon are now able to show off their movement. Also, those who played using the black and white screen of the Game Boy can finally see what the Johto Region looks like!'
-  translation: 对于已经玩过《金·银》的粉丝，他们可以期待发现哪些惊喜？森本茂树：关于剧情，我们试图在忠实于原作的同时加入新内容。因此，它有了很好的深度。有很多你在原版《金·银》中没有体验过的玩法。大森滋：即使是相同的剧情，也有新的体验。例如，玩家可以带着宝可梦一起行走。带着宝可梦走进城镇、走在街上是一种全新的体验。此外，你可能还想在宝可全能竞技赛巨蛋享受与宝可梦的竞技。松岛贤二：我们重现了《金·银》的剧情，但增加了更多阶段。现在你可以在关都地区遇到熟悉的宝可梦。森彰人：宝可梦现在能够展示它们的动作。而且，那些在Game Boy黑白屏幕上玩过的玩家终于可以看到城都地区的样貌了！
-  role: question
-- type: dialogue
-  speaker: Game Informer
-  original: 'There are tons of Pokémon in existence now. What’s the process internally for creating new Pokémon? How do you come up with concepts and names for each new creature? Unno: When we create new Pokémon, a few graphic designers bring their own ideas to the design meetings lead by Sugimori [art director and board member at Game Freak. -Ed] . Basically, each brings his or her ideas, discuss, brush-up the ideas, and finalize the design. Sometimes, all designers go to a zoo or museum to get some ideas. Also, they work on new Pokémon based on the requests they get from planners who ask things such as “we would like to get this kind of Pokémon” or “we would like to have a Pokémon who appears in this kind of setting.” As for the naming, designers bring their name ideas. If it’s brilliant, we use it. Matsushima: We decide the setting for a particular Pokémon based on the designs that our designers propose. Sometimes we request changes to the Pokémon. As for the new names, first, we find
-    words to describe that Pokémon. We try to rephrase the words or add another word and eventually we come across the final name.'
-  translation: "现在存在的宝可梦数量庞大。内部创造新宝可梦的流程是怎样的？你们如何为每个新生物构思概念和名字？海野隆雄：当我们创造新宝可梦时，几位图形设计师会带着自己的想法参加由杉森建主持的设计会议（杉森建是GAME FREAK的艺术总监和董事会成员）。基本上，每个人提出自己的想法，进行讨论，打磨想法，最终确定设计。有时，所有设计师会去动物园或博物馆获取灵感。此外，他们还会根据策划的要求来设计新宝可梦，比如“我们想要这种宝可梦”或“我们想要一个出现在这种环境中的宝可梦”。至于命名，设计师会带来他们的名字想法。如果很出色，我们就采用。松岛贤二：我们根据设计师提出的设计来决定特定宝可梦的设定。有时我们会要求修改宝可梦。至于新名字，首先，我们找到描述该宝可梦的词语。我们尝试改写这些词语或添加另一个词，最终找到最终的名字。"
-  note: 杉森建是Game Freak的创始人之一，长期担任艺术总监，负责宝可梦角色设计。
-  role: question
-- type: dialogue
-  speaker: Game Informer
-  original: 'Do you think there’s still room for new players to jump into the Pokémon franchise? Do you think with the staggering number of Pok é mon in existence and the number of hardcore players that it would be too difficult to jump in now? Morimoto: There is always room for new players. I hope those who have never played Pokémon will jump in and play these Pokémon games. It is difficult to satisfy both core players and beginners, but that is something I always have on my mind.'
-  translation: 你认为还有空间让新玩家加入宝可梦系列吗？考虑到宝可梦数量惊人且核心玩家众多，现在加入会不会太难？森本茂树：总是有新玩家的空间。我希望那些从未玩过宝可梦的人能加入并玩这些游戏。满足核心玩家和初学者都很困难，但这始终是我思考的问题。
-  role: question
-- type: dialogue
-  speaker: Game Informer
-  original: Still on the fence regarding whether or not you should catch 'em all over again? Check out our reviews for HeartGold and SoulSilver .
-  translation: 还在犹豫是否要再次收服所有宝可梦？请查看我们对《心金》和《魂银》的评测。
-  role: question
+- type: "dialogue"
+  speaker: "Game Informer"
+  original: "The Pokémon franchise is no stranger to remakes. Why are remakes so frequent and well-received with this series? And why did you decide to remake Pokémon Gold and Silver specifically?"
+  translation: "宝可梦系列对重制并不陌生。为什么这个系列的重制如此频繁且广受好评？为什么你们决定重制《宝可梦 金·银》？"
+  role: "question"
+- type: "dialogue"
+  speaker: "森本茂树"
+  original: "This is the second time we have created a remake. When we create Pokémon games, we always keep in mind the look of the game and its approachability. It has been 10 years since Gold and Silver launched, and we felt it was the best timing to create remakes since there are more people who have not played the original Game Boy titles."
+  translation: "这是我们第二次制作重制版。在制作宝可梦游戏时，我们始终注重游戏的外观和易上手性。距离《金·银》发售已经过去了10年，我们觉得这是制作重制版的最佳时机，因为现在有更多人没有玩过最初的Game Boy版本。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "Game Informer"
+  original: "The Pokémon brand is obviously still very alive and well in Japan as HeartGold and SoulSilver have sold incredibly well there. What is it that keeps people interested in such a long-running franchise that already has a lengthy list of titles?"
+  translation: "宝可梦品牌在日本显然依然充满活力，《心金·魂银》在那里销量极佳。是什么让人们对这样一个拥有众多作品的长期系列保持兴趣？"
+  role: "question"
+- type: "dialogue"
+  speaker: "森本茂树"
+  original: "Because we always add new gameplay so each time the game evolves. I am confident that all the people engaged with the Pokémon brand including The Pokémon Company are making great efforts to ensure it’s a long-running franchise."
+  translation: "因为我们总是添加新的玩法，所以每次游戏都在进化。我相信所有参与宝可梦品牌的人，包括宝可梦公司，都在为使其成为长寿系列而付出巨大努力。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "大森滋"
+  original: "We challenge ourselves to create new gameplay every time we develop a new Pokémon game. I believe such effort is received very well by the players. I would like to keep challenging ourselves to determine how we can add new elements like wireless and Wi-Fi communication, as well as things like the Pokéwalker for HeartGold and SoulSilver."
+  translation: "我们在开发每一款新宝可梦游戏时都挑战自己创造新的玩法。我相信这种努力得到了玩家的好评。我希望继续挑战自己，思考如何添加无线和Wi-Fi通信等新元素，以及像《心金·魂银》中的宝可计步器这样的东西。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "松岛贤二"
+  original: "I believe it is because we keep challenging ourselves without changing the core. The core for Pokémon game is collecting, trading, and battling. For HeartGold and SoulSilver, it was the Pokéathlon and Pokéwalker."
+  translation: "我认为这是因为我们在不改变核心的前提下不断挑战自我。宝可梦游戏的核心是收集、交换和对战。对于《心金·魂银》，核心就是宝可全能竞技赛和宝可计步器。"
+  role: "answer"
+- type: "dialogue"
+  speaker: "森彰人"
+  original: "I think it’s because the game is attractive to not only boys and girls, but also adults."
+  translation: "我认为这是因为游戏不仅对男孩女孩有吸引力，对成年人也是如此。"
+  role: "answer"
 - type: dialogue
   speaker: Game Informer
   original: Where did you get the idea for the pedometer peripheral bundled with HeartGold and SoulSilver?
@@ -176,4 +172,9 @@ parallel_items:
   original: There is always room for new players. I hope those who have never played Pokémon will jump in and play these Pokémon games. It is difficult to satisfy both core players and beginners, but that is something I always have on my mind.
   translation: 新玩家总是有空间的。我希望那些从未玩过宝可梦的人能够加入进来，体验这些宝可梦游戏。同时满足核心玩家和初学者确实很难，但这始终是我思考的问题。
   role: answer
+- type: "dialogue"
+  speaker: "Game Informer"
+  original: "Still on the fence regarding whether or not you should catch 'em all over again? Check out our reviews for HeartGold and SoulSilver ."
+  translation: "还在犹豫是否要再次收服所有宝可梦？请查看我们对《心金》和《魂银》的评测。"
+  role: "question"
 ---

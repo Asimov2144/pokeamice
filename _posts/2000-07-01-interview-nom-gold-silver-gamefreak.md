@@ -107,7 +107,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 第2章：100万本の目標と社会現象――ガチャガチャに夢中になった制作者たち
+  original: ""
   translation: 第2章：100万套的初心与社会现象——自掏腰包狂抽扭蛋的开发者们
 - speaker: N.O.M采访者
   original: ポケモンがこれほどのヒットになるとは予想していましたか？
@@ -147,7 +147,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 2
-  original: 第3章：ゲームフリークの開発哲学――「ポケモンを超えるもの」と「交換」の本質
+  original: ""
   translation: 第3章：GAME FREAK 的研发哲学——“超越宝可梦之作”与“联机交换”的本质
 - speaker: N.O.M采访者
   original: 最後に、ゲームフリークの今後の目標を聞かせてください。
@@ -175,7 +175,7 @@ parallel_items:
   alt: GAME FREAK 核心五位主创全员合影（2000年7月）
 - type: heading
   level: 2
-  original: 第4章：クリエイター直伝！ ポケモン開発ウラ話ベスト5
+  original: ""
   translation: 第4章：主创独家亲述！宝可梦开发幕后秘闻档案 TOP 5
 - speaker: N.O.M采访者
   original: それぞれのクリエイターに聞いた貴重なウラ話をまとめてみたよ。友達に自慢できること間違いナシのおもしろエピソードなのだ。
@@ -191,7 +191,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: ウラ話2：ウソッキー誕生秘話――絵から生まれた物語
+  original: ""
   translation: "秘闻2：树才怪诞生秘话——从画中诞生的故事"
 - speaker: 杉森建
   original: ウソッキーを作ったのはアートディレクターの杉森さん。キャラクターの絵をいろいろと描いていて、ふと生まれたポケモンだ。その特性を活かすために、「道をふさいでいるポケモンがいる」というストーリーをシナリオライターに作ってもらったんだって。こんなふうに、キャラクターの絵からお話が生まれてくることもよくあるそうだ。
@@ -207,7 +207,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: ウラ話4：ポケモンの声変わりとは!?
+  original: ""
   translation: 秘闻4：宝可梦也有“变声期”？！
 - speaker: 增田顺一
   original: ポケモンは進化すると鳴き声が変わることに気づいたかな？　人間が声変わりをするように、ポケモンも声変わりをするのだ。進化したポケモンは、子どものときよりはちょっと太い声になっていたり、高くなっているはず。気をつけて聴いてみて。
@@ -215,7 +215,7 @@ parallel_items:
   role: answer
 - type: heading
   level: 3
-  original: ウラ話5：どこが違う？ セーブ音のナゾ
+  original: ""
   translation: "秘闻5：哪里不同？存档音之谜"
 - speaker: 增田顺一
   original: 『赤』『緑』『青』『ピカチュウ』では、それぞれセーブするときの音が微妙に違う。これは、サウンドを担当した増田さんがこっそり仕掛けたものなんだって。ちょっとマニアック!?

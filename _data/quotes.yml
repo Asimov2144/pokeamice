@@ -885,9 +885,9 @@ quotes:
   - type: person
     name: 森本茂树
     slug: morimoto-shigeki
-- id: 2000-07-01-interview-nom-genesis-gamefreak#13
+- id: 2000-07-01-interview-nom-genesis-gamefreak#14
   post: 2000-07-01-interview-nom-genesis-gamefreak
-  segment: 13
+  segment: 14
   speaker: 杉森建
   reported: false
   kind: question
@@ -911,15 +911,15 @@ quotes:
   works:
   - 宝可梦 红·绿
   links: []
-- id: 2000-07-01-interview-nom-genesis-gamefreak#22
+- id: 2000-07-01-interview-nom-genesis-gamefreak#23
   post: 2000-07-01-interview-nom-genesis-gamefreak
-  segment: 22
+  segment: 23
   speaker: 杉森建
   reported: false
   kind: question
   hook: 为什么初代宝可梦放弃了三个存档位？
-  zh: 当时讨论“能存三个存档”和“能给151只宝可梦起名字，哪个更好”时，大家一致认为“能给宝可梦起名字更好”。
-  ja: 「セーブデータを３つ作れるのと、ポケモン151匹に名前がつけられるのはどっちがいい？」という議論になったとき、全員一致で「名前がつけられるほうがいい」ということになりましたから。
+  zh: "讨论“能做三个存档，和能给151只宝可梦全都起名字，哪个更好？”的时候，全员一致认为“能给所有宝可梦起名字更好！”。"
+  ja: "「セーブデータを３つ作れるのと、ポケモン151匹に名前がつけられるのはどっちがいい？」という議論になったとき、全員一致で「ポケモン全部に名前がつけられるほうがいい！」と。"
   lang: ja
   year: 2000
   date: '2000-07-01'
@@ -940,15 +940,15 @@ quotes:
   - type: person
     name: 增田顺一
     slug: masuda-junichi
-- id: 2000-07-01-interview-nom-genesis-gamefreak#33
+- id: 2000-07-01-interview-nom-genesis-gamefreak#35
   post: 2000-07-01-interview-nom-genesis-gamefreak
-  segment: 33
+  segment: 35
   speaker: 杉森建
   reported: false
   kind: quote
   hook: 杉森：拥有稀有宝可梦的人会被朋友羡慕
-  zh: 拥有稀有宝可梦的人，可是会被朋友羡慕的哦。在游戏的世界里，稀有的宝可梦果然还是很受欢迎。游戏里有一句“你的皮卡丘好可爱”的台词，而皮卡丘出现率很低、很难入手。所以，当NPC说出“皮卡丘好可爱”的时候，拥有它的人就能沉浸在一种优越感之中了。
-  ja: 珍しいポケモンを持っている人は友達にうらやましがられますよね。ゲームの中の世界でも、珍しいポケモンはやっぱり人気なんです。「あなたのピカチュウかわいい」というセリフがあるんですが、ピカチュウは出現率が低くて手に入りにくい。だから、NPCが「ピカチュウかわいい」と言うことで、持っている人は優越感にひたれるんです。
+  zh: "拥有稀有宝可梦的人会被朋友羡慕吧。游戏的世界里，稀有的宝可梦也一样受欢迎。游戏里会出现“你的皮卡丘好可爱”这句台词，这和现实中发生的事是一样的。"
+  ja: "珍しいポケモンを持っている人は友達にうらやましがられますよね。ゲームの中の世界でも、珍しいポケモンはやっぱり人気なんです。「あなたのピカチュウかわいい」というセリフが出てきますが、それは実際に現実でおこっていることと同じなんですね。"
   lang: ja
   year: 2000
   date: '2000-07-01'
@@ -12063,28 +12063,6 @@ quotes:
   score: 4
   why: 说明吊桥造型并非来自现实原型，而是从喷火龙剪影出发，是具体且反常识的设计决定。
   more: 可与第9句对照：同一座吊桥的形式还因位于河流下游、需让大型船只通行。
-  people:
-  - 增田顺一
-  works:
-  - 宝可梦 黑·白
-  links: []
-- id: 2011-02-21-interview-nintendodream-bw-bridges-masuda#20
-  post: 2011-02-21-interview-nintendodream-bw-bridges-masuda
-  segment: 20
-  speaker: 增田顺一
-  reported: false
-  kind: quote
-  hook: 增田：连入之桥的构想源自东京皇居，而非纽约中央公园
-  zh: 关于连入之桥，这与合众地区中央部的设计灵感并非取自纽约的“中央公园”，而是源自东京“皇居”这一构想密切相关。其中蕴含了从外缘向中心渡桥、无缝侵入其他玩家世界的结构设计。
-  ja: ハイリンクの橋については、イッシュ地方の中央部がニューヨークの「セントラルパーク」ではなく東京の「皇居」をモデルに着想されていることと密接に関連しています。外縁部から中心に向かって渡り、他プレイヤーの世界へとシームレスに侵入する構造が込められています。
-  lang: ja
-  year: 2011
-  date: '2011-02-21'
-  publication: 「ポケットモンスター ブラック ホワイト」のイッシュ地方の「橋」
-  title: Nintendo Dream 专访增田顺一：《宝可梦 黑／白》合众大桥世界观设定·高迪美学、喷火龙剪影与力学隐喻
-  score: 5
-  why: 直接点明合众地区中央部设计灵感来自皇居，并解释连入之桥从外缘向中心渡桥、无缝侵入其他玩家世界的结构。
-  more: 可与第5句的纽约、东京相加除以二的说法并读，看两处设定来源如何分工。
   people:
   - 增田顺一
   works:

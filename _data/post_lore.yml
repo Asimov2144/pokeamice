@@ -1295,11 +1295,11 @@
       slug: null
   id: interview-nom-genesis-gamefreak
   observations:
-  - anchor: 13
-    seg: 12
+  - anchor: 14
+    seg: 13
     text: 设计出的宝可梦数量约为被采用者的1.5倍
-  - anchor: 22
-    seg: 21
+  - anchor: 23
+    seg: 22
     text: 讨论后认为能给宝可梦起名字比能存三个存档更好
   relations:
   - id: interview-nom-gold-silver-gamefreak
