@@ -1,250 +1,239 @@
 {
- "id": "interview-gamefreak-projectstory-sword-shield",
- "stem": "2019-12-11-interview-gamefreak-projectstory-sword-shield",
- "rev": 1,
- "built": "2026-10-09",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 28
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 剑／盾",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 剑·盾",
-    "slug": "sword-shield",
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 太阳·月亮",
-    "slug": "sun-moon",
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 究极太阳·究极月亮",
-    "slug": null,
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     8
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·",
-    "slug": null,
-    "seg": [
-     11
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     17
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "大森滋",
-    "slug": "ohmori-shigeru",
-    "role": "speaker",
-    "seg": [
-     3
-    ]
-   },
-   {
-    "name": "岩尾和昌",
-    "slug": "iwao-kazumasa",
-    "role": "speaker",
-    "seg": [
-     4
-    ]
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     6
-    ],
-    "as": [
-     "系列最新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     6
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     8
-    ],
-    "as": [
-     "推翻"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     8
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     8
-    ],
-    "as": [
-     "画面表现"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     10,
-     11
-    ],
-    "as": [
-     "世代交替"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     11
-    ],
-    "as": [
-     "团队合作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     11
-    ],
-    "as": [
-     "主题是"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     21
-    ],
-    "as": [
-     "试作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     25
-    ],
-    "as": [
-     "开发环境"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [],
-    "as": [
-     "招聘"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 6,
-   "text": "2016年秋《太阳·月亮》开发结束后，大森等人开始酝酿新作构想",
-   "anchor": 7
+  "id": "interview-gamefreak-projectstory-sword-shield",
+  "stem": "2019-12-11-interview-gamefreak-projectstory-sword-shield",
+  "rev": 1,
+  "built": "2026-10-09",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 28
   },
-  {
-   "seg": 6,
-   "text": "2017年9月项目正式启动，岩尾加入",
-   "anchor": 7
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [
+          1,
+          2,
+          11
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 究极之日·究极之月",
+        "slug": "usum",
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          8,
+          11
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          17
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "大森滋",
+        "slug": "ohmori-shigeru",
+        "role": "speaker",
+        "seg": [
+          3
+        ]
+      },
+      {
+        "name": "岩尾和昌",
+        "slug": "iwao-kazumasa",
+        "role": "speaker",
+        "seg": [
+          4
+        ]
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          6
+        ],
+        "as": [
+          "系列最新作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          6
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          8
+        ],
+        "as": [
+          "推翻"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          8
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          8
+        ],
+        "as": [
+          "画面表现"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          10,
+          11
+        ],
+        "as": [
+          "世代交替"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          11
+        ],
+        "as": [
+          "团队合作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          11
+        ],
+        "as": [
+          "主题是"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          21
+        ],
+        "as": [
+          "试作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          25
+        ],
+        "as": [
+          "开发环境"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [],
+        "as": [
+          "招聘"
+        ],
+        "via": "tag"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 6,
+      "text": "2016年秋《太阳·月亮》开发结束后，大森等人开始酝酿新作构想",
+      "anchor": 7
+    },
+    {
+      "seg": 6,
+      "text": "2017年9月项目正式启动，岩尾加入",
+      "anchor": 7
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

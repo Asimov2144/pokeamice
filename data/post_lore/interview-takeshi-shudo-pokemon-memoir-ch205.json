@@ -1,712 +1,713 @@
 {
- "id": "interview-takeshi-shudo-pokemon-memoir-ch205",
- "stem": "2009-12-09-interview-takeshi-shudo-pokemon-memoir-ch205",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 148
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     25,
-     36,
-     39
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "洛奇亚",
-    "ndex": 249,
-    "seg": [
-     1,
-     29,
-     32,
-     34,
-     36,
-     37
-    ],
-    "as": [
-     "洛奇亚"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "洛奇亚爆诞",
-    "slug": null,
-    "seg": [
-     1,
-     32,
-     52,
-     82,
-     90,
-     102
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "超梦的逆袭",
-    "slug": null,
-    "seg": [
-     102
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "风といっしょに",
-    "slug": null,
-    "seg": [
-     100
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "仁医",
-    "slug": null,
-    "seg": [
-     109,
-     113,
-     117,
-     130,
-     141
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "似曾相识",
-    "slug": null,
-    "seg": [
-     133,
-     142,
-     144
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "回到未来",
-    "slug": null,
-    "seg": [
-     116
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "终结者",
-    "slug": null,
-    "seg": [
-     116
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "千与千寻",
-    "slug": null,
-    "seg": [
-     104
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "白色巨塔",
-    "slug": null,
-    "seg": [
-     124
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "高达",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "三个火枪手",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "首藤刚志",
-    "slug": "shudo-takeshi",
-    "role": "mentioned",
-    "seg": [
-     24,
-     106,
-     144
-    ]
-   },
-   {
-    "name": "武藏",
-    "slug": "wu-cang",
-    "role": "mentioned",
-    "seg": [
-     5
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "小次郎",
-    "slug": "xiao-ci-lang",
-    "role": "mentioned",
-    "seg": [
-     5
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "喵喵",
-    "slug": "miao-miao",
-    "role": "mentioned",
-    "seg": [
-     5,
-     21
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "小智",
-    "slug": "xiao-zhi",
-    "role": "mentioned",
-    "seg": [
-     25,
-     30,
-     33,
-     36,
-     39,
-     43
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "皮卡丘",
-    "slug": "pi-ka-qiu",
-    "role": "mentioned",
-    "seg": [
-     25,
-     36,
-     39
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "洛奇亚",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     1,
-     29,
-     32,
-     34,
-     36,
-     37
-    ]
-   },
-   {
-    "name": "芙卢拉",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     66,
-     67,
-     97
-    ]
-   },
-   {
-    "name": "小林幸子",
-    "slug": "kobayashi-sachiko",
-    "role": "mentioned",
-    "seg": [
-     100
-    ]
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": [
-     105
-    ]
-   },
-   {
-    "name": "南方仁",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     142
-    ]
-   },
-   {
-    "name": "小霞",
-    "slug": "xiao-xia",
-    "role": "mentioned",
-    "seg": [
-     66
-    ],
-    "via": "llm",
-    "kind": "character"
-   },
-   {
-    "name": "花子",
-    "slug": "hua-zi",
-    "role": "mentioned",
-    "seg": [
-     70
-    ],
-    "via": "llm",
-    "kind": "character"
-   },
-   {
-    "name": "坂木",
-    "slug": "ban-mu",
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm",
-    "kind": "character"
-   },
-   {
-    "name": "理查德·马瑟森",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     133
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "吉诺特·兹瓦克",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     133
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "克里斯托弗·里夫",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     133
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "简·西摩",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     133
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "约翰·巴里",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     133
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "坂本龙马",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     122
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "村上纪香",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     132
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "吉拉尔丹",
-    "slug": "ji-la-er-dan",
-    "role": "mentioned",
-    "seg": [
-     95
-    ],
-    "via": "llm",
-    "kind": "figure"
-   }
-  ],
-  "places": [
-   {
-    "name": "江户",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     112
-    ],
-    "what": "《仁医》穿越的幕末时代",
-    "via": "llm"
-   },
-   {
-    "name": "北美",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     104
-    ],
-    "what": "宝可梦电影上映市场",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     7,
-     78
-    ],
-    "as": [
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     9,
-     118
-    ],
-    "as": [
-     "漏洞"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     12,
-     13,
-     95
-    ],
-    "as": [
-     "反派"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     12,
-     24,
-     32,
-     61,
-     62,
-     64
-    ],
-    "as": [
-     "剧本",
-     "编剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     14,
-     81
-    ],
-    "as": [
-     "大自然",
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     14
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     17,
-     28,
-     52,
-     100,
-     102
-    ],
-    "as": [
-     "大银幕",
-     "剧场版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     21,
-     45,
-     58,
-     65,
-     71,
-     77
-    ],
-    "as": [
-     "台词",
-     "对白"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     32
-    ],
-    "as": [
-     "主线剧情"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
-    "seg": [
-     42
-    ],
-    "as": [
-     "死亡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     50
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     60,
-     132
-    ],
-    "as": [
-     "分镜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     66
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     97,
-     101,
-     133
-    ],
-    "as": [
-     "主题曲",
-     "配乐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     97
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     97
-    ],
-    "as": [
-     "版权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     98,
-     99
-    ],
-    "as": [
-     "流水线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     113
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     120
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     132
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 41,
-   "text": "三人组因不甘沦为累赘，主动松开洛奇亚脚爪坠向冰原",
-   "anchor": 42
+  "id": "interview-takeshi-shudo-pokemon-memoir-ch205",
+  "stem": "2009-12-09-interview-takeshi-shudo-pokemon-memoir-ch205",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 148
   },
-  {
-   "seg": 63,
-   "text": "冰面出现融化的冰洞水面，三人组落入冰水捡回性命",
-   "anchor": 64
-  }
- ],
- "relations": [
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch204",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第204回：与火箭队共存？（初期三部曲爆火与后续剧场版平庸化、急冻鸟冰原设定的CG幕后与打破第四面墙的歌舞伎大亮相）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch204/",
-   "why": "同系列手记，204回紧接205回前一篇"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          25,
+          36,
+          39
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "洛奇亚",
+        "ndex": 249,
+        "seg": [
+          1,
+          29,
+          32,
+          34,
+          36,
+          37
+        ],
+        "as": [
+          "洛奇亚"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "洛奇亚爆诞",
+        "slug": null,
+        "seg": [
+          1,
+          32,
+          52,
+          65,
+          82,
+          90,
+          102
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "超梦的逆袭",
+        "slug": null,
+        "seg": [
+          102
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "风といっしょに",
+        "slug": null,
+        "seg": [
+          100
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "仁医",
+        "slug": null,
+        "seg": [
+          109,
+          113,
+          117,
+          130,
+          141
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "似曾相识",
+        "slug": null,
+        "seg": [
+          133,
+          142,
+          144
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "回到未来",
+        "slug": null,
+        "seg": [
+          116
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "终结者",
+        "slug": null,
+        "seg": [
+          116
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "千与千寻",
+        "slug": null,
+        "seg": [
+          104
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "白色巨塔",
+        "slug": null,
+        "seg": [
+          124
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "高达",
+        "slug": null,
+        "seg": [
+          5
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "三个火枪手",
+        "slug": null,
+        "seg": [
+          5
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "首藤刚志",
+        "slug": "shudo-takeshi",
+        "role": "mentioned",
+        "seg": [
+          24,
+          106,
+          144
+        ]
+      },
+      {
+        "name": "武藏",
+        "slug": "wu-cang",
+        "role": "mentioned",
+        "seg": [
+          5
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "小次郎",
+        "slug": "xiao-ci-lang",
+        "role": "mentioned",
+        "seg": [
+          5
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "喵喵",
+        "slug": "miao-miao",
+        "role": "mentioned",
+        "seg": [
+          5,
+          21
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "小智",
+        "slug": "xiao-zhi",
+        "role": "mentioned",
+        "seg": [
+          25,
+          30,
+          33,
+          36,
+          39,
+          43
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "皮卡丘",
+        "slug": "pi-ka-qiu",
+        "role": "mentioned",
+        "seg": [
+          25,
+          36,
+          39
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "洛奇亚",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          1,
+          29,
+          32,
+          34,
+          36,
+          37
+        ]
+      },
+      {
+        "name": "芙卢拉",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          66,
+          67,
+          97
+        ]
+      },
+      {
+        "name": "小林幸子",
+        "slug": "kobayashi-sachiko",
+        "role": "mentioned",
+        "seg": [
+          100
+        ]
+      },
+      {
+        "name": "汤山邦彦",
+        "slug": "yuyama-kunihiko",
+        "role": "mentioned",
+        "seg": [
+          105
+        ]
+      },
+      {
+        "name": "南方仁",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          142
+        ]
+      },
+      {
+        "name": "小霞",
+        "slug": "xiao-xia",
+        "role": "mentioned",
+        "seg": [
+          66
+        ],
+        "via": "llm",
+        "kind": "character"
+      },
+      {
+        "name": "花子",
+        "slug": "hua-zi",
+        "role": "mentioned",
+        "seg": [
+          70
+        ],
+        "via": "llm",
+        "kind": "character"
+      },
+      {
+        "name": "坂木",
+        "slug": "ban-mu",
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm",
+        "kind": "character"
+      },
+      {
+        "name": "理查德·马瑟森",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          133
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "吉诺特·兹瓦克",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          133
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "克里斯托弗·里夫",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          133
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "简·西摩",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          133
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "约翰·巴里",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          133
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "坂本龙马",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          122
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "村上纪香",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          132
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "吉拉尔丹",
+        "slug": "ji-la-er-dan",
+        "role": "mentioned",
+        "seg": [
+          95
+        ],
+        "via": "llm",
+        "kind": "figure"
+      }
+    ],
+    "places": [
+      {
+        "name": "江户",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          112
+        ],
+        "what": "《仁医》穿越的幕末时代",
+        "via": "llm"
+      },
+      {
+        "name": "北美",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          104
+        ],
+        "what": "宝可梦电影上映市场",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          7,
+          78
+        ],
+        "as": [
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          9,
+          118
+        ],
+        "as": [
+          "漏洞"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          12,
+          13,
+          95
+        ],
+        "as": [
+          "反派"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          12,
+          24,
+          32,
+          61,
+          62,
+          64
+        ],
+        "as": [
+          "剧本",
+          "编剧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          14,
+          81
+        ],
+        "as": [
+          "大自然",
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          14
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          17,
+          28,
+          52,
+          100,
+          102
+        ],
+        "as": [
+          "大银幕",
+          "剧场版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          21,
+          45,
+          58,
+          65,
+          71,
+          77
+        ],
+        "as": [
+          "台词",
+          "对白"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          32
+        ],
+        "as": [
+          "主线剧情"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "life-and-death",
+        "name": "生死的表述",
+        "facet": "design",
+        "seg": [
+          42
+        ],
+        "as": [
+          "死亡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          50
+        ],
+        "as": [
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          60,
+          132
+        ],
+        "as": [
+          "分镜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          66
+        ],
+        "as": [
+          "携手"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          97,
+          101,
+          133
+        ],
+        "as": [
+          "主题曲",
+          "配乐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          97
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          97
+        ],
+        "as": [
+          "版权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          98,
+          99
+        ],
+        "as": [
+          "流水线"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          113
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          120
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          132
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch206",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第206回：“宝可梦还要再做十年”（深海狂想、酒馆采风与脑内多重人格、催泪弹大拷问与十年之限死斗）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch206/",
-   "why": "同系列手记，206回紧接205回后一篇"
+  "observations": [
+    {
+      "seg": 41,
+      "text": "三人组因不甘沦为累赘，主动松开洛奇亚脚爪坠向冰原",
+      "anchor": 42
+    },
+    {
+      "seg": 63,
+      "text": "冰面出现融化的冰洞水面，三人组落入冰水捡回性命",
+      "anchor": 64
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch204",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第204回：与火箭队共存？（初期三部曲爆火与后续剧场版平庸化、急冻鸟冰原设定的CG幕后与打破第四面墙的歌舞伎大亮相）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch204/",
+      "why": "同系列手记，204回紧接205回前一篇"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch206",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第206回：“宝可梦还要再做十年”（深海狂想、酒馆采风与脑内多重人格、催泪弹大拷问与十年之限死斗）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch206/",
+      "why": "同系列手记，206回紧接205回后一篇"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch198",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第198回：想让火箭队出尽风头是好事，但是……（消灭自我的伪善共存、全员皆主角的群像剧革命与配角人设深渊）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch198/",
+      "why": "198回谈火箭队出风头，为205回三人组自白铺垫"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch194",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第194回：从复眼视角诠释《洛奇亚爆诞》主题（小田原渔港看海买醉、罗伯特·奥特曼式多线交织与火箭队的意外破茧）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch194/",
+      "why": "194回谈洛奇亚爆诞主题，为205回决战背景"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch198",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第198回：想让火箭队出尽风头是好事，但是……（消灭自我的伪善共存、全员皆主角的群像剧革命与配角人设深渊）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch198/",
-   "why": "198回谈火箭队出风头，为205回三人组自白铺垫"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch194",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第194回：从复眼视角诠释《洛奇亚爆诞》主题（小田原渔港看海买醉、罗伯特·奥特曼式多线交织与火箭队的意外破茧）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch194/",
-   "why": "194回谈洛奇亚爆诞主题，为205回决战背景"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

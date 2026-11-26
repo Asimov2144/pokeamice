@@ -1,602 +1,596 @@
 {
- "id": "interview-nintendo-power-bw-masuda-sugimori",
- "stem": "2011-03-01-interview-nintendo-power-bw-masuda-sugimori",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 72
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "时拉比",
-    "ndex": 251,
-    "seg": [
-     27
-    ],
-    "as": [
-     "时拉比"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "四季鹿",
-    "ndex": 585,
-    "seg": [
-     52,
-     53
-    ],
-    "as": [
-     "四季鹿"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "萌芽鹿",
-    "ndex": 586,
-    "seg": [
-     53
-    ],
-    "as": [
-     "萌芽鹿"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 钻石／珍珠",
-    "slug": null,
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 金／银",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红／绿",
-    "slug": null,
-    "seg": [
-     19
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 蓝／红",
-    "slug": null,
-    "seg": [
-     45
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 剑／盾",
-    "slug": null,
-    "seg": [
-     47
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "钻地小子",
-    "slug": null,
-    "seg": [
-     59
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "钻孔钻机",
-    "slug": null,
-    "seg": [
-     62
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "提问",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     5,
-     8,
-     10,
-     14,
-     18,
-     20
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     6,
-     9,
-     11,
-     15,
-     19,
-     21
-    ]
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     16,
-     30,
-     34,
-     35,
-     59,
-     61
-    ]
-   },
-   {
-    "name": "Steve Thomason",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Dr. Lava",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Megmar",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     64
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "白森林",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     9
-    ],
-    "what": "白版自然区域",
-    "via": "llm"
-   },
-   {
-    "name": "黑色市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     9
-    ],
-    "what": "黑版独占大都市",
-    "via": "llm"
-   },
-   {
-    "name": "曼哈顿",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     50
-    ],
-    "what": "黑／白设定原型",
-    "via": "llm"
-   },
-   {
-    "name": "纽约市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     50
-    ],
-    "what": "增田顺一曾到访",
-    "via": "llm"
-   },
-   {
-    "name": "日本",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     19
-    ],
-    "what": "访谈提及地区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     3
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     4
-    ],
-    "as": [
-     "同人志"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     4,
-     34
-    ],
-    "as": [
-     "手绘",
-     "草图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     9,
-     16
-    ],
-    "as": [
-     "大自然",
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     11,
-     25,
-     55
-    ],
-    "as": [
-     "全球连接",
-     "联网",
-     "服务器"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     13,
-     16,
-     27,
-     28,
-     36,
-     38
-    ],
-    "as": [
-     "第二世代",
-     "第五世代",
-     "第一世代",
-     "第八世代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     15,
-     25
-    ],
-    "as": [
-     "儿童",
-     "小孩子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     15
-    ],
-    "as": [
-     "玩家之间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     15,
-     21,
-     24
-    ],
-    "as": [
-     "新玩家",
-     "老玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     25
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     25
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     25
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     30
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     35
-    ],
-    "as": [
-     "水属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     38
-    ],
-    "as": [
-     "开发期间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     39,
-     41
-    ],
-    "as": [
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     39
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     43
-    ],
-    "as": [
-     "游戏平衡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "competitive",
-    "name": "竞技与官方大赛",
-    "facet": "system",
-    "seg": [
-     43
-    ],
-    "as": [
-     "世界锦标赛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     47
-    ],
-    "as": [
-     "怀旧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     50
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     50
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     52
-    ],
-    "as": [
-     "配色"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     55
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     55
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 6,
-   "text": "增田顺一称标题选黑白是为表达两极对立主题",
-   "anchor": 7
+  "id": "interview-nintendo-power-bw-masuda-sugimori",
+  "stem": "2011-03-01-interview-nintendo-power-bw-masuda-sugimori",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 72
   },
-  {
-   "seg": 9,
-   "text": "增田顺一举例黑版有黑色市、白版有白森林",
-   "anchor": 10
-  }
- ],
- "relations": [
-  {
-   "id": "interview-eurogamer-masuda-sugimori-black-white-brains",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-sugimori-black-white-brains/",
-   "why": "同谈黑·白封印旧宝可梦与156只新设计"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "时拉比",
+        "ndex": 251,
+        "seg": [
+          27
+        ],
+        "as": [
+          "时拉比"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "四季鹿",
+        "ndex": 585,
+        "seg": [
+          52,
+          53
+        ],
+        "as": [
+          "四季鹿"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "萌芽鹿",
+        "ndex": 586,
+        "seg": [
+          53
+        ],
+        "as": [
+          "萌芽鹿"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          4
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          19
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·蓝",
+        "slug": "red-blue",
+        "seg": [
+          45
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [
+          47
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "钻地小子",
+        "slug": null,
+        "seg": [
+          59
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "提问",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          5,
+          8,
+          10,
+          14,
+          18,
+          20
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          6,
+          9,
+          11,
+          15,
+          19,
+          21
+        ]
+      },
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          16,
+          30,
+          34,
+          35,
+          59,
+          61
+        ]
+      },
+      {
+        "name": "Steve Thomason",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          5
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Dr. Lava",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Megmar",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          64
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "白森林",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          9
+        ],
+        "what": "白版自然区域",
+        "via": "llm"
+      },
+      {
+        "name": "黑色市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          9
+        ],
+        "what": "黑版独占大都市",
+        "via": "llm"
+      },
+      {
+        "name": "曼哈顿",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          50
+        ],
+        "what": "黑／白设定原型",
+        "via": "llm"
+      },
+      {
+        "name": "纽约市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          50
+        ],
+        "what": "增田顺一曾到访",
+        "via": "llm"
+      },
+      {
+        "name": "日本",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          19
+        ],
+        "what": "访谈提及地区",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          3
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "fan-works",
+        "name": "二创与同人",
+        "facet": "audience",
+        "seg": [
+          4
+        ],
+        "as": [
+          "同人志"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          4,
+          34
+        ],
+        "as": [
+          "手绘",
+          "草图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          9,
+          16
+        ],
+        "as": [
+          "大自然",
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          11,
+          25,
+          55
+        ],
+        "as": [
+          "全球连接",
+          "联网",
+          "服务器"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          13,
+          16,
+          27,
+          28,
+          36,
+          38
+        ],
+        "as": [
+          "第二世代",
+          "第五世代",
+          "第一世代",
+          "第八世代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          15,
+          25
+        ],
+        "as": [
+          "儿童",
+          "小孩子"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          15
+        ],
+        "as": [
+          "玩家之间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          15,
+          21,
+          24
+        ],
+        "as": [
+          "新玩家",
+          "老玩家"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          25
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          25
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          25
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          30
+        ],
+        "as": [
+          "角色设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          35
+        ],
+        "as": [
+          "水属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          38
+        ],
+        "as": [
+          "开发期间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          39,
+          41
+        ],
+        "as": [
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          39
+        ],
+        "as": [
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          43
+        ],
+        "as": [
+          "游戏平衡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "competitive",
+        "name": "竞技与官方大赛",
+        "facet": "system",
+        "seg": [
+          43
+        ],
+        "as": [
+          "世界锦标赛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          47
+        ],
+        "as": [
+          "怀旧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          50
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          50
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          52
+        ],
+        "as": [
+          "配色"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          55
+        ],
+        "as": [
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          55
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 6,
+      "text": "增田顺一称标题选黑白是为表达两极对立主题",
+      "anchor": 7
+    },
+    {
+      "seg": 9,
+      "text": "增田顺一举例黑版有黑色市、白版有白森林",
+      "anchor": 10
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-eurogamer-masuda-sugimori-black-white-brains",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-sugimori-black-white-brains/",
+      "why": "同谈黑·白封印旧宝可梦与156只新设计"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

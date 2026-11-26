@@ -1,1039 +1,1017 @@
 {
- "id": "continue-vol32-scan-archive",
- "stem": "2026-08-29-continue-vol32-scan-archive",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 169
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     56,
-     109,
-     111,
-     112
-    ],
-    "as": [
-     "妙蛙种子"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "小火龙",
-    "ndex": 4,
-    "seg": [
-     56
-    ],
-    "as": [
-     "小火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "杰尼龟",
-    "ndex": 7,
-    "seg": [
-     56,
-     61,
-     137
-    ],
-    "as": [
-     "杰尼龟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "水箭龟",
-    "ndex": 9,
-    "seg": [
-     55,
-     56,
-     137
-    ],
-    "as": [
-     "水箭龟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "大嘴雀",
-    "ndex": 22,
-    "seg": [
-     53
-    ],
-    "as": [
-     "大嘴雀"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     140,
-     142,
-     143
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "雷丘",
-    "ndex": 26,
-    "seg": [
-     140
-    ],
-    "as": [
-     "雷丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "派拉斯特",
-    "ndex": 47,
-    "seg": [
-     113
-    ],
-    "as": [
-     "派拉斯特"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "喵喵",
-    "ndex": 52,
-    "seg": [
-     86,
-     127
-    ],
-    "as": [
-     "喵喵"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "胡地",
-    "ndex": 65,
-    "seg": [
-     135,
-     136
-    ],
-    "as": [
-     "胡地"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "大葱鸭",
-    "ndex": 83,
-    "seg": [
-     147
-    ],
-    "as": [
-     "大葱鸭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "卡比兽",
-    "ndex": 143,
-    "seg": [
-     158,
-     160,
-     161
-    ],
-    "as": [
-     "卡比兽"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "闪电鸟",
-    "ndex": 145,
-    "seg": [
-     53
-    ],
-    "as": [
-     "闪电鸟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "安瓢虫",
-    "ndex": 166,
-    "seg": [
-     131
-    ],
-    "as": [
-     "安瓢虫"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "波克比",
-    "ndex": 175,
-    "seg": [
-     83,
-     84,
-     86,
-     127
-    ],
-    "as": [
-     "波克比"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "电龙",
-    "ndex": 181,
-    "seg": [
-     127
-    ],
-    "as": [
-     "电龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "熔岩蜗牛",
-    "ndex": 219,
-    "seg": [
-     64
-    ],
-    "as": [
-     "熔岩蜗牛"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "盔甲鸟",
-    "ndex": 227,
-    "seg": [
-     127
-    ],
-    "as": [
-     "盔甲鸟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "凤王",
-    "ndex": 250,
-    "seg": [
-     12,
-     15,
-     18
-    ],
-    "as": [
-     "凤王"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "刺尾虫",
-    "ndex": 265,
-    "seg": [
-     132
-    ],
-    "as": [
-     "刺尾虫"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "脱壳忍者",
-    "ndex": 292,
-    "seg": [
-     127,
-     128,
-     129
-    ],
-    "as": [
-     "脱壳忍者"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "小火焰猴",
-    "ndex": 390,
-    "seg": [
-     158
-    ],
-    "as": [
-     "小火焰猴"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "波加曼",
-    "ndex": 393,
-    "seg": [
-     61,
-     137,
-     141
-    ],
-    "as": [
-     "波加曼"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "大尾狸",
-    "ndex": 400,
-    "seg": [
-     127
-    ],
-    "as": [
-     "大尾狸"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "小猫怪",
-    "ndex": 403,
-    "seg": [
-     158
-    ],
-    "as": [
-     "小猫怪"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "雪妖女",
-    "ndex": 478,
-    "seg": [
-     127
-    ],
-    "as": [
-     "雪妖女"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "帝牙卢卡",
-    "ndex": 483,
-    "seg": [
-     82
-    ],
-    "as": [
-     "帝牙卢卡"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "帕路奇亚",
-    "ndex": 484,
-    "seg": [
-     82
-    ],
-    "as": [
-     "帕路奇亚"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "雷吉奇卡斯",
-    "ndex": 486,
-    "seg": [
-     102
-    ],
-    "as": [
-     "雷吉奇卡斯"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     69
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     74,
-     164
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 绿",
-    "slug": null,
-    "seg": [
-     41
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 珍珠",
-    "slug": null,
-    "seg": [
-     56
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 火红·叶绿",
-    "slug": "firered-leafgreen",
-    "seg": [
-     87
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石·蓝宝石·绿宝石",
-    "slug": null,
-    "seg": [
-     91
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦☆Sunday",
-    "slug": null,
-    "seg": [
-     24
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "马力欧竞技场",
-    "slug": null,
-    "seg": [
-     25
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦竞技场",
-    "slug": "stadium",
-    "seg": [
-     25
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "太空侵略者",
-    "slug": null,
-    "seg": [
-     80
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "CoroCoro Comic",
-    "slug": null,
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "帝牙卢卡VS帕路奇亚",
-    "slug": null,
-    "seg": [
-     82
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "speaker",
-    "seg": [
-     9,
-     11,
-     13,
-     15,
-     18
-    ]
-   },
-   {
-    "name": "中川翔子",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     8,
-     10,
-     12,
-     14,
-     17,
-     19
-    ]
-   },
-   {
-    "name": "全体",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     60,
-     130,
-     144
-    ]
-   },
-   {
-    "name": "宫本茂",
-    "slug": "miyamoto-shigeru",
-    "role": "mentioned",
-    "seg": [
-     57
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "志田英邦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "石原敦志",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "阿弘",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     143
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "下北泽",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     3,
-     48,
-     49,
-     50,
-     107,
-     108
-    ],
-    "via": "extra",
-    "area": "shimokitazawa-gamefreak",
-    "what": "GAME FREAK 最初的开发基地"
-   },
-   {
-    "name": "町田",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     78
-    ],
-    "what": "田尻智少年居所",
-    "via": "llm"
-   },
-   {
-    "name": "伙伴公园",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     164
-    ],
-    "what": "双插槽带入宝可梦处",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     18,
-     145,
-     147
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     25
-    ],
-    "as": [
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     25,
-     100,
-     133,
-     137,
-     139,
-     140
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     33,
-     36,
-     52,
-     68,
-     70
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     34,
-     36
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     36
-    ],
-    "as": [
-     "除错"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "delay",
-    "name": "延期",
-    "facet": "process",
-    "seg": [
-     36,
-     39
-    ],
-    "as": [
-     "延期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     36
-    ],
-    "as": [
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     52
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     52
-    ],
-    "as": [
-     "像素图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     56
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     57
-    ],
-    "as": [
-     "劲敌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     59
-    ],
-    "as": [
-     "取名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     61
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     69,
-     72,
-     73,
-     131,
-     147
-    ],
-    "as": [
-     "回合",
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     71
-    ],
-    "as": [
-     "吃惊"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     76,
-     78
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     77
-    ],
-    "as": [
-     "动画版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     78
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     82
-    ],
-    "as": [
-     "剧场版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     91
-    ],
-    "as": [
-     "收集宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     95,
-     96
-    ],
-    "as": [
-     "通信线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     95,
-     104
-    ],
-    "as": [
-     "交流",
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "link-battle",
-    "name": "通信对战",
-    "facet": "system",
-    "seg": [
-     97
-    ],
-    "as": [
-     "训练家对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     97
-    ],
-    "as": [
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     100,
-     121
-    ],
-    "as": [
-     "火属性",
-     "草属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "localization",
-    "name": "本地化",
-    "facet": "business",
-    "seg": [
-     102
-    ],
-    "as": [
-     "翻译"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     117
-    ],
-    "as": [
-     "沿用"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     136,
-     150,
-     153,
-     162
-    ],
-    "as": [
-     "通信交换",
-     "交换宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     155
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     160,
-     166
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     164
-    ],
-    "as": [
-     "操作方式"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     167
-    ],
-    "as": [
-     "攻略"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "角色设计"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 12,
-   "text": "田尻智名片上画着凤王的插图"
+  "id": "continue-vol32-scan-archive",
+  "stem": "2026-08-29-continue-vol32-scan-archive",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 169
   },
-  {
-   "seg": 18,
-   "text": "凤王持有的道具圣灰使用后可回复所有宝可梦"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          56,
+          109,
+          111,
+          112
+        ],
+        "as": [
+          "妙蛙种子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "小火龙",
+        "ndex": 4,
+        "seg": [
+          56
+        ],
+        "as": [
+          "小火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "杰尼龟",
+        "ndex": 7,
+        "seg": [
+          56,
+          61,
+          137
+        ],
+        "as": [
+          "杰尼龟"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "水箭龟",
+        "ndex": 9,
+        "seg": [
+          55,
+          56,
+          137
+        ],
+        "as": [
+          "水箭龟"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "大嘴雀",
+        "ndex": 22,
+        "seg": [
+          53
+        ],
+        "as": [
+          "大嘴雀"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          140,
+          142,
+          143
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "雷丘",
+        "ndex": 26,
+        "seg": [
+          140
+        ],
+        "as": [
+          "雷丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "派拉斯特",
+        "ndex": 47,
+        "seg": [
+          113
+        ],
+        "as": [
+          "派拉斯特"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "喵喵",
+        "ndex": 52,
+        "seg": [
+          86,
+          127
+        ],
+        "as": [
+          "喵喵"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "胡地",
+        "ndex": 65,
+        "seg": [
+          135,
+          136
+        ],
+        "as": [
+          "胡地"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "大葱鸭",
+        "ndex": 83,
+        "seg": [
+          147
+        ],
+        "as": [
+          "大葱鸭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "卡比兽",
+        "ndex": 143,
+        "seg": [
+          158,
+          160,
+          161
+        ],
+        "as": [
+          "卡比兽"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "闪电鸟",
+        "ndex": 145,
+        "seg": [
+          53
+        ],
+        "as": [
+          "闪电鸟"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "安瓢虫",
+        "ndex": 166,
+        "seg": [
+          131
+        ],
+        "as": [
+          "安瓢虫"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "波克比",
+        "ndex": 175,
+        "seg": [
+          83,
+          84,
+          86,
+          127
+        ],
+        "as": [
+          "波克比"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "电龙",
+        "ndex": 181,
+        "seg": [
+          127
+        ],
+        "as": [
+          "电龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "熔岩蜗牛",
+        "ndex": 219,
+        "seg": [
+          64
+        ],
+        "as": [
+          "熔岩蜗牛"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "盔甲鸟",
+        "ndex": 227,
+        "seg": [
+          127
+        ],
+        "as": [
+          "盔甲鸟"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "凤王",
+        "ndex": 250,
+        "seg": [
+          12,
+          15,
+          18
+        ],
+        "as": [
+          "凤王"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "刺尾虫",
+        "ndex": 265,
+        "seg": [
+          132
+        ],
+        "as": [
+          "刺尾虫"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "脱壳忍者",
+        "ndex": 292,
+        "seg": [
+          127,
+          128,
+          129
+        ],
+        "as": [
+          "脱壳忍者"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "小火焰猴",
+        "ndex": 390,
+        "seg": [
+          158
+        ],
+        "as": [
+          "小火焰猴"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "波加曼",
+        "ndex": 393,
+        "seg": [
+          61,
+          137,
+          141
+        ],
+        "as": [
+          "波加曼"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "大尾狸",
+        "ndex": 400,
+        "seg": [
+          127
+        ],
+        "as": [
+          "大尾狸"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "小猫怪",
+        "ndex": 403,
+        "seg": [
+          158
+        ],
+        "as": [
+          "小猫怪"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "雪妖女",
+        "ndex": 478,
+        "seg": [
+          127
+        ],
+        "as": [
+          "雪妖女"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "帝牙卢卡",
+        "ndex": 483,
+        "seg": [
+          82
+        ],
+        "as": [
+          "帝牙卢卡"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "帕路奇亚",
+        "ndex": 484,
+        "seg": [
+          82
+        ],
+        "as": [
+          "帕路奇亚"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "雷吉奇卡斯",
+        "ndex": 486,
+        "seg": [
+          102
+        ],
+        "as": [
+          "雷吉奇卡斯"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          41,
+          69
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          56,
+          74,
+          164
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 火红·叶绿",
+        "slug": "firered-leafgreen",
+        "seg": [
+          87
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          91
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦☆星期天",
+        "slug": null,
+        "seg": [
+          24
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦竞技场",
+        "slug": "stadium",
+        "seg": [
+          25
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "帝牙卢卡VS帕路奇亚VS达克莱伊",
+        "slug": null,
+        "seg": [
+          82
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "马力欧竞技场",
+        "slug": null,
+        "seg": [
+          25
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "太空侵略者",
+        "slug": null,
+        "seg": [
+          80
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "speaker",
+        "seg": [
+          9,
+          11,
+          13,
+          15,
+          18
+        ]
+      },
+      {
+        "name": "中川翔子",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          8,
+          10,
+          12,
+          14,
+          17,
+          19
+        ]
+      },
+      {
+        "name": "全体",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          60,
+          130,
+          144
+        ]
+      },
+      {
+        "name": "宫本茂",
+        "slug": "miyamoto-shigeru",
+        "role": "mentioned",
+        "seg": [
+          57
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "志田英邦",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          5
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "石原敦志",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          5
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "阿弘",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          143
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "下北泽",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          3,
+          48,
+          49,
+          50,
+          107,
+          108
+        ],
+        "via": "extra",
+        "area": "shimokitazawa-gamefreak",
+        "what": "GAME FREAK 最初的开发基地"
+      },
+      {
+        "name": "町田",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          78
+        ],
+        "what": "田尻智少年居所",
+        "via": "llm"
+      },
+      {
+        "name": "伙伴公园",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          164
+        ],
+        "what": "双插槽带入宝可梦处",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          18,
+          145,
+          147
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          25
+        ],
+        "as": [
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          25,
+          100,
+          133,
+          137,
+          139,
+          140
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          33,
+          36,
+          52,
+          68,
+          70
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          34,
+          36
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          36
+        ],
+        "as": [
+          "除错"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "delay",
+        "name": "延期",
+        "facet": "process",
+        "seg": [
+          36,
+          39
+        ],
+        "as": [
+          "延期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          36
+        ],
+        "as": [
+          "通宵"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          52
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pixel-art",
+        "name": "像素画",
+        "facet": "tech",
+        "seg": [
+          52
+        ],
+        "as": [
+          "像素图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          56
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          57
+        ],
+        "as": [
+          "劲敌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          59
+        ],
+        "as": [
+          "取名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          61
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          69,
+          72,
+          73,
+          131,
+          147
+        ],
+        "as": [
+          "回合",
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          71
+        ],
+        "as": [
+          "吃惊"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          76,
+          78
+        ],
+        "as": [
+          "真实感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          77
+        ],
+        "as": [
+          "动画版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          78
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          82
+        ],
+        "as": [
+          "剧场版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          91
+        ],
+        "as": [
+          "收集宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          95,
+          96
+        ],
+        "as": [
+          "通信线"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          95,
+          104
+        ],
+        "as": [
+          "交流",
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "link-battle",
+        "name": "通信对战",
+        "facet": "system",
+        "seg": [
+          97
+        ],
+        "as": [
+          "训练家对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          97
+        ],
+        "as": [
+          "联网"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          100,
+          121
+        ],
+        "as": [
+          "火属性",
+          "草属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "localization",
+        "name": "本地化",
+        "facet": "business",
+        "seg": [
+          102
+        ],
+        "as": [
+          "翻译"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          117
+        ],
+        "as": [
+          "沿用"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          136,
+          150,
+          153,
+          162
+        ],
+        "as": [
+          "通信交换",
+          "交换宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          155
+        ],
+        "as": [
+          "卡带"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          160,
+          166
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          164
+        ],
+        "as": [
+          "操作方式"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "guides",
+        "name": "攻略文化",
+        "facet": "audience",
+        "seg": [
+          167
+        ],
+        "as": [
+          "攻略"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "角色设计"
+        ],
+        "via": "tag"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 12,
+      "text": "田尻智名片上画着凤王的插图"
+    },
+    {
+      "seg": 18,
+      "text": "凤王持有的道具圣灰使用后可回复所有宝可梦"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
+  },
+  "edited": true
 }

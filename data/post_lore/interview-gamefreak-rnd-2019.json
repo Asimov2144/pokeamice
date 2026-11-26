@@ -1,194 +1,186 @@
 {
- "id": "interview-gamefreak-rnd-2019",
- "stem": "2019-10-19-interview-gamefreak-rnd-2019",
- "rev": 1,
- "built": "2026-10-09",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 23
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 太阳·月亮",
-    "slug": "sun-moon",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "Y.Y.",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     3,
-     7,
-     10,
-     12
-    ]
-   },
-   {
-    "name": "R.T.",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     4,
-     8,
-     11
-    ]
-   },
-   {
-    "name": "S.T.",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     17,
-     20
-    ]
-   },
-   {
-    "name": "K.K.",
-    "slug": "k-k",
-    "role": "speaker",
-    "seg": [
-     18,
-     21
-    ]
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     3,
-     4,
-     8
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     3
-    ],
-    "as": [
-     "建模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     4,
-     8
-    ],
-    "as": [
-     "开发环境"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     8
-    ],
-    "as": [
-     "内存"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     12
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     14,
-     21
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     17
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [],
-    "as": [
-     "招聘"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "Y.Y.原本是角色建模师，在《宝可梦 太阳·月亮》开发结束后加入研究开发部。",
-   "anchor": 4
+  "id": "interview-gamefreak-rnd-2019",
+  "stem": "2019-10-19-interview-gamefreak-rnd-2019",
+  "rev": 1,
+  "built": "2026-10-09",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 23
   },
-  {
-   "seg": 4,
-   "text": "R.T.于2016年入职，从入职起就在研究开发部参与开发环境整备。",
-   "anchor": 5
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "Y.Y.",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          3,
+          7,
+          10,
+          12
+        ]
+      },
+      {
+        "name": "R.T.",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          4,
+          8,
+          11
+        ]
+      },
+      {
+        "name": "S.T.",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          17,
+          20
+        ]
+      },
+      {
+        "name": "K.K.",
+        "slug": "k-k",
+        "role": "speaker",
+        "seg": [
+          18,
+          21
+        ]
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          3,
+          4,
+          8
+        ],
+        "as": [
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          3
+        ],
+        "as": [
+          "建模"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          4,
+          8
+        ],
+        "as": [
+          "开发环境"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          8
+        ],
+        "as": [
+          "内存"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          12
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          14,
+          21
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          17
+        ],
+        "as": [
+          "新硬件"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [],
+        "as": [
+          "招聘"
+        ],
+        "via": "tag"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "Y.Y.原本是角色建模师，在《宝可梦 太阳·月亮》开发结束后加入研究开发部。",
+      "anchor": 4
+    },
+    {
+      "seg": 4,
+      "text": "R.T.于2016年入职，从入职起就在研究开发部参与开发环境整备。",
+      "anchor": 5
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

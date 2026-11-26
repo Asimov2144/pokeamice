@@ -1,234 +1,220 @@
 {
- "id": "interview-gamefreak-gear-gigawrecker",
- "stem": "2017-03-01-interview-gamefreak-gear-gigawrecker",
- "rev": 1,
- "built": "2026-10-09",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 31
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "GIGA WRECKER",
-    "slug": null,
-    "seg": [
-     1,
-     5,
-     20
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "TEMBO THE BADASS ELEPHANT",
-    "slug": null,
-    "seg": [
-     18
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     5
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [
-     8,
-     9
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "Gear Project（齿轮企划）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "Gear Project",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "M.O.",
-    "slug": "m-o",
-    "role": "speaker",
-    "seg": [
-     8,
-     10,
-     17,
-     19,
-     22,
-     25
-    ]
-   },
-   {
-    "name": "H.I.",
-    "slug": "h-i",
-    "role": "speaker",
-    "seg": [
-     9,
-     12,
-     16,
-     18,
-     21,
-     26
-    ]
-   },
-   {
-    "name": "J.T.",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "T.M.",
-    "slug": "t-m",
-    "role": "mentioned",
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     4
-    ],
-    "as": [
-     "グラフィック"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     5,
-     8,
-     10
-    ],
-    "as": [
-     "入职",
-     "学生时代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     5
-    ],
-    "as": [
-     "应届"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     8
-    ],
-    "as": [
-     "一起做"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "完成度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     16,
-     17
-    ],
-    "as": [
-     "主视觉"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     26
-    ],
-    "as": [
-     "编辑器"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     26
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "2016年8月《GIGA WRECKER》在Steam开始发行抢先体验版",
-   "anchor": 2
+  "id": "interview-gamefreak-gear-gigawrecker",
+  "stem": "2017-03-01-interview-gamefreak-gear-gigawrecker",
+  "rev": 1,
+  "built": "2026-10-09",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 31
   },
-  {
-   "seg": 8,
-   "text": "M.O.称入职的2010年正是Gear Project制度开始运行的那一年",
-   "anchor": 9
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          5
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          8,
+          9
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "GIGA WRECKER",
+        "slug": null,
+        "seg": [
+          1,
+          5,
+          20
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "TEMBO THE BADASS ELEPHANT",
+        "slug": null,
+        "seg": [
+          18
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "M.O.",
+        "slug": "m-o",
+        "role": "speaker",
+        "seg": [
+          8,
+          10,
+          17,
+          19,
+          22,
+          25
+        ]
+      },
+      {
+        "name": "H.I.",
+        "slug": "h-i",
+        "role": "speaker",
+        "seg": [
+          9,
+          12,
+          16,
+          18,
+          21,
+          26
+        ]
+      },
+      {
+        "name": "J.T.",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "T.M.",
+        "slug": "t-m",
+        "role": "mentioned",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          4
+        ],
+        "as": [
+          "グラフィック"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          5,
+          8,
+          10
+        ],
+        "as": [
+          "入职",
+          "学生时代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          5
+        ],
+        "as": [
+          "应届"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          8
+        ],
+        "as": [
+          "一起做"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          10
+        ],
+        "as": [
+          "完成度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          16,
+          17
+        ],
+        "as": [
+          "主视觉"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          26
+        ],
+        "as": [
+          "编辑器"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          26
+        ],
+        "as": [
+          "广告"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 1,
+      "text": "2016年8月《GIGA WRECKER》在Steam开始发行抢先体验版",
+      "anchor": 2
+    },
+    {
+      "seg": 8,
+      "text": "M.O.称入职的2010年正是Gear Project制度开始运行的那一年",
+      "anchor": 9
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

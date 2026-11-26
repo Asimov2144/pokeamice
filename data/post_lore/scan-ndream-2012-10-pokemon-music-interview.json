@@ -1,498 +1,476 @@
 {
- "id": "scan-ndream-2012-10-pokemon-music-interview",
- "stem": "2012-08-21-scan-ndream-2012-10-pokemon-music-interview",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 85
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "帝牙卢卡",
-    "ndex": 483,
-    "seg": [
-     38,
-     45,
-     47,
-     53,
-     75,
-     77
-    ],
-    "as": [
-     "帝牙卢卡"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "帕路奇亚",
-    "ndex": 484,
-    "seg": [
-     38,
-     47,
-     53,
-     75,
-     77
-    ],
-    "as": [
-     "帕路奇亚"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 黑2·白2",
-    "slug": "black2-white2",
-    "seg": [
-     3,
-     9,
-     35,
-     79
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     8
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     76
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 白金",
-    "slug": "platinum",
-    "seg": [
-     55
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 绿宝石",
-    "slug": "emerald",
-    "seg": [
-     56
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     39
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "脉冲人",
-    "slug": null,
-    "seg": [
-     48
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦D・P",
-    "slug": null,
-    "seg": [
-     32
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦B2·W2",
-    "slug": null,
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦E·Pt·B·W",
-    "slug": null,
-    "seg": [
-     80
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "佐藤仁美",
-    "slug": "sato-hitomi",
-    "role": "speaker",
-    "seg": [
-     9,
-     11,
-     13,
-     16,
-     32,
-     38
-    ]
-   },
-   {
-    "name": "一之濑刚",
-    "slug": "ichinose-go",
-    "role": "speaker",
-    "seg": [
-     12,
-     15,
-     17,
-     33,
-     39,
-     69
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     68,
-     71,
-     73,
-     75,
-     77,
-     54
-    ]
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "mentioned",
-    "seg": [
-     49
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "海野",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     36
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "小蓟",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     66
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "黑色摩天楼",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     32
-    ],
-    "what": "可前往的设施",
-    "via": "llm"
-   },
-   {
-    "name": "白色树洞",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     32
-    ],
-    "what": "可前往的设施",
-    "via": "llm"
-   },
-   {
-    "name": "陌生人之家",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     32
-    ],
-    "what": "山路镇旁宅邸",
-    "via": "llm"
-   },
-   {
-    "name": "山路镇",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     32
-    ],
-    "what": "陌生人之家所在",
-    "via": "llm"
-   },
-   {
-    "name": "森之洋馆",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     32
-    ],
-    "what": "钻石珍珠的洋馆",
-    "via": "llm"
-   },
-   {
-    "name": "22号道路",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     36
-    ],
-    "what": "佐藤作曲的道路",
-    "via": "llm"
-   },
-   {
-    "name": "双龙市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     13
-    ],
-    "what": "与龙叫声谐音",
-    "via": "llm"
-   },
-   {
-    "name": "紫堇市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     66
-    ],
-    "what": "小蓟所在城市",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     3,
-     19,
-     32,
-     61
-    ],
-    "as": [
-     "音效设计",
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     7,
-     8,
-     15,
-     28,
-     39,
-     52
-    ],
-    "as": [
-     "作曲",
-     "编曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     9,
-     50
-    ],
-    "as": [
-     "主题曲",
-     "BGM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     11
-    ],
-    "as": [
-     "龙属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     13,
-     61
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     20
-    ],
-    "as": [
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     26
-    ],
-    "as": [
-     "存档"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     28
-    ],
-    "as": [
-     "界面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     33,
-     42
-    ],
-    "as": [
-     "劲敌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     49
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     61
-    ],
-    "as": [
-     "整体平衡"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 9,
-   "text": "佐藤仁美称阿克罗玛曲子把大调、小调、无调混杂"
+  "id": "scan-ndream-2012-10-pokemon-music-interview",
+  "stem": "2012-08-21-scan-ndream-2012-10-pokemon-music-interview",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 85
   },
-  {
-   "seg": 13,
-   "text": "佐藤仁美说龙叫声响两次，与双龙市谐音"
-  }
- ],
- "relations": [
-  {
-   "id": "scan-ndream-2012-09-b2w2-developer-interview",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "只有《2》才能做到的冒险",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-09-b2w2-developer-interview/",
-   "why": "同为黑2·白2开发访谈，同一批受访者"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "帝牙卢卡",
+        "ndex": 483,
+        "seg": [
+          38,
+          45,
+          47,
+          53,
+          75,
+          77
+        ],
+        "as": [
+          "帝牙卢卡"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "帕路奇亚",
+        "ndex": 484,
+        "seg": [
+          38,
+          47,
+          53,
+          75,
+          77
+        ],
+        "as": [
+          "帕路奇亚"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 黑2·白2",
+        "slug": "black2-white2",
+        "seg": [
+          3,
+          9,
+          30,
+          35,
+          79
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          8
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          32,
+          76
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 白金",
+        "slug": "platinum",
+        "seg": [
+          55
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 绿宝石",
+        "slug": "emerald",
+        "seg": [
+          56
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          39
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "脉冲超人",
+        "slug": null,
+        "seg": [
+          48
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "佐藤仁美",
+        "slug": "sato-hitomi",
+        "role": "speaker",
+        "seg": [
+          9,
+          11,
+          13,
+          16,
+          32,
+          38
+        ]
+      },
+      {
+        "name": "一之濑刚",
+        "slug": "ichinose-go",
+        "role": "speaker",
+        "seg": [
+          12,
+          15,
+          17,
+          33,
+          39,
+          69
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          68,
+          71,
+          73,
+          75,
+          77,
+          54
+        ]
+      },
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "mentioned",
+        "seg": [
+          49
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "海野",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          36
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "小蓟",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          66
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "黑色摩天楼",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          32
+        ],
+        "what": "可前往的设施",
+        "via": "llm"
+      },
+      {
+        "name": "白色树洞",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          32
+        ],
+        "what": "可前往的设施",
+        "via": "llm"
+      },
+      {
+        "name": "陌生人之家",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          32
+        ],
+        "what": "山路镇旁宅邸",
+        "via": "llm"
+      },
+      {
+        "name": "山路镇",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          32
+        ],
+        "what": "陌生人之家所在",
+        "via": "llm"
+      },
+      {
+        "name": "森之洋馆",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          32
+        ],
+        "what": "钻石珍珠的洋馆",
+        "via": "llm"
+      },
+      {
+        "name": "22号道路",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          36
+        ],
+        "what": "佐藤作曲的道路",
+        "via": "llm"
+      },
+      {
+        "name": "双龙市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          13
+        ],
+        "what": "与龙叫声谐音",
+        "via": "llm"
+      },
+      {
+        "name": "紫堇市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          66
+        ],
+        "what": "小蓟所在城市",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          3,
+          19,
+          32,
+          61
+        ],
+        "as": [
+          "音效设计",
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          7,
+          8,
+          15,
+          28,
+          39,
+          52
+        ],
+        "as": [
+          "作曲",
+          "编曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          9,
+          50
+        ],
+        "as": [
+          "主题曲",
+          "BGM"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          11
+        ],
+        "as": [
+          "龙属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          13,
+          61
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          20
+        ],
+        "as": [
+          "关卡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "data-management",
+        "name": "数据与存档",
+        "facet": "tech",
+        "seg": [
+          26
+        ],
+        "as": [
+          "存档"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          28
+        ],
+        "as": [
+          "界面"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          33,
+          42
+        ],
+        "as": [
+          "劲敌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          49
+        ],
+        "as": [
+          "角色设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          61
+        ],
+        "as": [
+          "整体平衡"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "宝可梦 黑·白 乐曲魂特别篇",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-sound-gakkyoku-damashii/",
-   "why": "同刊声音专题，讲黑·白音乐制作背景"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "observations": [
+    {
+      "seg": 9,
+      "text": "佐藤仁美称阿克罗玛曲子把大调、小调、无调混杂"
+    },
+    {
+      "seg": 13,
+      "text": "佐藤仁美说龙叫声响两次，与双龙市谐音"
+    }
+  ],
+  "relations": [
+    {
+      "id": "scan-ndream-2012-09-b2w2-developer-interview",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "只有《2》才能做到的冒险",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2012-09-b2w2-developer-interview/",
+      "why": "同为黑2·白2开发访谈，同一批受访者"
+    },
+    {
+      "id": "scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "宝可梦 黑·白 乐曲魂特别篇",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-01-bw-sound-gakkyoku-damashii/",
+      "why": "同刊声音专题，讲黑·白音乐制作背景"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
+  },
+  "edited": true
 }

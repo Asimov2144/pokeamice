@@ -1,1080 +1,1066 @@
 {
- "id": "interview-nintendo-joshi-daisei-bw-kiritani-masuda",
- "stem": "2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 261
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     98
-    ],
-    "as": [
-     "妙蛙种子"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "妙蛙花",
-    "ndex": 3,
-    "seg": [
-     88,
-     95,
-     98,
-     103
-    ],
-    "as": [
-     "妙蛙花",
-     "フシギバナ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     13,
-     65,
-     66,
-     79,
-     203
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "可达鸭",
-    "ndex": 54,
-    "seg": [
-     69,
-     70,
-     72,
-     73,
-     78
-    ],
-    "as": [
-     "可达鸭",
-     "コダック"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "ゲンガー",
-    "ndex": 94,
-    "seg": [
-     90,
-     91
-    ],
-    "as": [
-     "ゲンガー"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "ピチュー",
-    "ndex": 172,
-    "seg": [
-     79
-    ],
-    "as": [
-     "ピチュー"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "雷吉洛克",
-    "ndex": 377,
-    "seg": [
-     131
-    ],
-    "as": [
-     "雷吉洛克"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "雷吉奇卡斯",
-    "ndex": 486,
-    "seg": [
-     130,
-     131
-    ],
-    "as": [
-     "雷吉奇卡斯",
-     "レジギガス"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "比克提尼",
-    "ndex": 494,
-    "seg": [
-     79,
-     80,
-     82
-    ],
-    "as": [
-     "比克提尼",
-     "ビクティニ",
-     "Victini"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "藤藤蛇",
-    "ndex": 495,
-    "seg": [
-     134,
-     135,
-     136,
-     138,
-     152,
-     165
-    ],
-    "as": [
-     "藤藤蛇",
-     "ツタージャ",
-     "Snivy"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "青藤蛇",
-    "ndex": 496,
-    "seg": [
-     138
-    ],
-    "as": [
-     "青藤蛇",
-     "ジャノビー"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "君主蛇",
-    "ndex": 497,
-    "seg": [
-     138
-    ],
-    "as": [
-     "君主蛇",
-     "ジャローダ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "暖暖猪",
-    "ndex": 498,
-    "seg": [
-     165,
-     166,
-     167,
-     172
-    ],
-    "as": [
-     "暖暖猪",
-     "ポカブ",
-     "Tepig"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "炎武王",
-    "ndex": 500,
-    "seg": [
-     166
-    ],
-    "as": [
-     "炎武王",
-     "エンブオー"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "水水獭",
-    "ndex": 501,
-    "seg": [
-     50,
-     55,
-     56,
-     58,
-     104,
-     150
-    ],
-    "as": [
-     "水水獭",
-     "ミジュマル",
-     "Oshawott"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "双刃丸",
-    "ndex": 502,
-    "seg": [
-     160
-    ],
-    "as": [
-     "双刃丸",
-     "フタチマル"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "大剑鬼",
-    "ndex": 503,
-    "seg": [
-     157,
-     160
-    ],
-    "as": [
-     "大剑鬼",
-     "ダイケンキ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "莱希拉姆",
-    "ndex": 643,
-    "seg": [
-     128,
-     129
-    ],
-    "as": [
-     "莱希拉姆",
-     "レシラム",
-     "Reshiram"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "捷克罗姆",
-    "ndex": 644,
-    "seg": [
-     128
-    ],
-    "as": [
-     "捷克罗姆",
-     "ゼクロム"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     7,
-     8,
-     10,
-     27,
-     82,
-     171
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "马力欧vs.咚奇刚 突击！迷你大陆",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 白",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 蓝",
-    "slug": "blue-jp",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 皮卡丘",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 魂银",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑",
-    "slug": null,
-    "seg": [
-     115
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     131
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "三国演义",
-    "slug": null,
-    "seg": [
-     166
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "speaker",
-    "seg": [
-     1,
-     2,
-     3,
-     4,
-     5
-    ]
-   },
-   {
-    "name": "桐谷美玲",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     8,
-     13,
-     16,
-     19,
-     21,
-     23
-    ]
-   },
-   {
-    "name": "众人",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     9,
-     75,
-     140,
-     254
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     10,
-     12,
-     15,
-     18,
-     20,
-     22
-    ]
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     11,
-     45,
-     47,
-     49,
-     51,
-     53
-    ]
-   },
-   {
-    "name": "竹兰",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     115
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "东京宝可梦中心",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     8
-    ],
-    "what": "访谈地点",
-    "via": "llm"
-   },
-   {
-    "name": "连入之桥",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     227
-    ],
-    "what": "森林居民增加的设施",
-    "via": "llm"
-   },
-   {
-    "name": "合众地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     107
-    ],
-    "what": "游戏舞台",
-    "via": "llm"
-   },
-   {
-    "name": "雷文市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     122
-    ],
-    "what": "大竞技场所在城市",
-    "via": "llm"
-   },
-   {
-    "name": "飞云市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     125
-    ],
-    "what": "开发代号C3的城市",
-    "via": "llm"
-   },
-   {
-    "name": "黑色城市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     235
-    ],
-    "what": "增田顺一的城市",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     2,
-     5,
-     73
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     3,
-     13,
-     19,
-     20,
-     39,
-     104
-    ],
-    "as": [
-     "通关",
-     "主线剧情"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     3,
-     19
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     4,
-     14,
-     25
-    ],
-    "as": [
-     "童年",
-     "小时候玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     16
-    ],
-    "as": [
-     "重制版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     16,
-     85
-    ],
-    "as": [
-     "完全新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     20
-    ],
-    "as": [
-     "吃惊"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     21,
-     44,
-     162
-    ],
-    "as": [
-     "从零开始",
-     "反复推敲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     25
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     27
-    ],
-    "as": [
-     "路线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     28,
-     39
-    ],
-    "as": [
-     "反派",
-     "劲敌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     33,
-     34
-    ],
-    "as": [
-     "小孩子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     34
-    ],
-    "as": [
-     "平衡性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     46
-    ],
-    "as": [
-     "团队规模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     47,
-     61
-    ],
-    "as": [
-     "手绘",
-     "草图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     56,
-     136,
-     167
-    ],
-    "as": [
-     "水属性",
-     "草属性",
-     "火属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     61
-    ],
-    "as": [
-     "画风"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     61
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     61
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     63,
-     100,
-     156,
-     158,
-     167
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     63,
-     158
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     69
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     73
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     73
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     82,
-     125,
-     143,
-     144
-    ],
-    "as": [
-     "开发时间",
-     "开发期间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "postgame",
-    "name": "通关之后",
-    "facet": "system",
-    "seg": [
-     104,
-     106
-    ],
-    "as": [
-     "通关后"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     105
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     115
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     121
-    ],
-    "as": [
-     "音乐剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multilingual",
-    "name": "多语言与字库",
-    "facet": "tech",
-    "seg": [
-     128
-    ],
-    "as": [
-     "语言版本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     135,
-     162
-    ],
-    "as": [
-     "命名",
-     "取名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     152
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     169
-    ],
-    "as": [
-     "分工"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     213
-    ],
-    "as": [
-     "宝可梦的设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     214,
-     216
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     215
-    ],
-    "as": [
-     "指导"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "wireless",
-    "name": "无线与擦肩",
-    "facet": "tech",
-    "seg": [
-     216,
-     229,
-     234,
-     237,
-     252
-    ],
-    "as": [
-     "无线通信",
-     "擦肩通信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     220,
-     237
-    ],
-    "as": [
-     "界面",
-     "菜单"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "生态"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "桐谷美玲在广告拍摄间歇向工作人员抛出三个关于《宝可梦 白》的疑问。",
-   "anchor": 3
+  "id": "interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+  "stem": "2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 261
   },
-  {
-   "seg": 45,
-   "text": "GAME FREAK内部专门负责宝可梦外观设计的平面设计师有17人。",
-   "anchor": 46
-  }
- ],
- "relations": [
-  {
-   "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
-   "why": "同为2010年任天堂官网黑·白访谈，增田、杉森同席"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          98
+        ],
+        "as": [
+          "妙蛙种子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "妙蛙花",
+        "ndex": 3,
+        "seg": [
+          88,
+          95,
+          98,
+          103
+        ],
+        "as": [
+          "妙蛙花",
+          "フシギバナ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          13,
+          65,
+          66,
+          79,
+          203
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "可达鸭",
+        "ndex": 54,
+        "seg": [
+          69,
+          70,
+          72,
+          73,
+          78
+        ],
+        "as": [
+          "可达鸭",
+          "コダック"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "ゲンガー",
+        "ndex": 94,
+        "seg": [
+          90,
+          91
+        ],
+        "as": [
+          "ゲンガー"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "ピチュー",
+        "ndex": 172,
+        "seg": [
+          79
+        ],
+        "as": [
+          "ピチュー"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "雷吉洛克",
+        "ndex": 377,
+        "seg": [
+          131
+        ],
+        "as": [
+          "雷吉洛克"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "雷吉奇卡斯",
+        "ndex": 486,
+        "seg": [
+          130,
+          131
+        ],
+        "as": [
+          "雷吉奇卡斯",
+          "レジギガス"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "比克提尼",
+        "ndex": 494,
+        "seg": [
+          79,
+          80,
+          82
+        ],
+        "as": [
+          "比克提尼",
+          "ビクティニ",
+          "Victini"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "藤藤蛇",
+        "ndex": 495,
+        "seg": [
+          134,
+          135,
+          136,
+          138,
+          152,
+          165
+        ],
+        "as": [
+          "藤藤蛇",
+          "ツタージャ",
+          "Snivy"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "青藤蛇",
+        "ndex": 496,
+        "seg": [
+          138
+        ],
+        "as": [
+          "青藤蛇",
+          "ジャノビー"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "君主蛇",
+        "ndex": 497,
+        "seg": [
+          138
+        ],
+        "as": [
+          "君主蛇",
+          "ジャローダ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "暖暖猪",
+        "ndex": 498,
+        "seg": [
+          165,
+          166,
+          167,
+          172
+        ],
+        "as": [
+          "暖暖猪",
+          "ポカブ",
+          "Tepig"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "炎武王",
+        "ndex": 500,
+        "seg": [
+          166
+        ],
+        "as": [
+          "炎武王",
+          "エンブオー"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "水水獭",
+        "ndex": 501,
+        "seg": [
+          50,
+          55,
+          56,
+          58,
+          104,
+          150
+        ],
+        "as": [
+          "水水獭",
+          "ミジュマル",
+          "Oshawott"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "双刃丸",
+        "ndex": 502,
+        "seg": [
+          160
+        ],
+        "as": [
+          "双刃丸",
+          "フタチマル"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "大剑鬼",
+        "ndex": 503,
+        "seg": [
+          157,
+          160
+        ],
+        "as": [
+          "大剑鬼",
+          "ダイケンキ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "莱希拉姆",
+        "ndex": 643,
+        "seg": [
+          128,
+          129
+        ],
+        "as": [
+          "莱希拉姆",
+          "レシラム",
+          "Reshiram"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "捷克罗姆",
+        "ndex": 644,
+        "seg": [
+          128
+        ],
+        "as": [
+          "捷克罗姆",
+          "ゼクロム"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          2,
+          7,
+          8,
+          10,
+          27,
+          82,
+          115,
+          171
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 蓝",
+        "slug": "blue-jp",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 皮卡丘版",
+        "slug": "yellow",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 心金·魂银",
+        "slug": "heartgold-soulsilver",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          131
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "马力欧vs.咚奇刚 突击！迷你大陆",
+        "slug": null,
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "三国演义",
+        "slug": null,
+        "seg": [
+          166
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "岩田聪",
+        "slug": "iwata-satoru",
+        "role": "speaker",
+        "seg": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "桐谷美玲",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          8,
+          13,
+          16,
+          19,
+          21,
+          23
+        ]
+      },
+      {
+        "name": "众人",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          9,
+          75,
+          140,
+          254
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          10,
+          12,
+          15,
+          18,
+          20,
+          22
+        ]
+      },
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          11,
+          45,
+          47,
+          49,
+          51,
+          53
+        ]
+      },
+      {
+        "name": "竹兰",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          115
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "东京宝可梦中心",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          8
+        ],
+        "what": "访谈地点",
+        "via": "llm"
+      },
+      {
+        "name": "连入之桥",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          227
+        ],
+        "what": "森林居民增加的设施",
+        "via": "llm"
+      },
+      {
+        "name": "合众地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          107
+        ],
+        "what": "游戏舞台",
+        "via": "llm"
+      },
+      {
+        "name": "雷文市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          122
+        ],
+        "what": "大竞技场所在城市",
+        "via": "llm"
+      },
+      {
+        "name": "飞云市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          125
+        ],
+        "what": "开发代号C3的城市",
+        "via": "llm"
+      },
+      {
+        "name": "黑色城市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          235
+        ],
+        "what": "增田顺一的城市",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          2,
+          5,
+          73
+        ],
+        "as": [
+          "广告"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          3,
+          13,
+          19,
+          20,
+          39,
+          104
+        ],
+        "as": [
+          "通关",
+          "主线剧情"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          3,
+          19
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          4,
+          14,
+          25
+        ],
+        "as": [
+          "童年",
+          "小时候玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          16
+        ],
+        "as": [
+          "重制版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          16,
+          85
+        ],
+        "as": [
+          "完全新作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          20
+        ],
+        "as": [
+          "吃惊"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          21,
+          44,
+          162
+        ],
+        "as": [
+          "从零开始",
+          "反复推敲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          25
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          27
+        ],
+        "as": [
+          "路线"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          28,
+          39
+        ],
+        "as": [
+          "反派",
+          "劲敌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          33,
+          34
+        ],
+        "as": [
+          "小孩子"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          34
+        ],
+        "as": [
+          "平衡性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "team-size",
+        "name": "团队规模",
+        "facet": "process",
+        "seg": [
+          46
+        ],
+        "as": [
+          "团队规模"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          47,
+          61
+        ],
+        "as": [
+          "手绘",
+          "草图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          56,
+          136,
+          167
+        ],
+        "as": [
+          "水属性",
+          "草属性",
+          "火属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          61
+        ],
+        "as": [
+          "画风"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          61
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          61
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          63,
+          100,
+          156,
+          158,
+          167
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          63,
+          158
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          69
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          73
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          73
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          82,
+          125,
+          143,
+          144
+        ],
+        "as": [
+          "开发时间",
+          "开发期间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "postgame",
+        "name": "通关之后",
+        "facet": "system",
+        "seg": [
+          104,
+          106
+        ],
+        "as": [
+          "通关后"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          105
+        ],
+        "as": [
+          "卡带"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          115
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-music",
+        "name": "音乐剧与演出",
+        "facet": "franchise",
+        "seg": [
+          121
+        ],
+        "as": [
+          "音乐剧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multilingual",
+        "name": "多语言与字库",
+        "facet": "tech",
+        "seg": [
+          128
+        ],
+        "as": [
+          "语言版本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          135,
+          162
+        ],
+        "as": [
+          "命名",
+          "取名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          152
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          169
+        ],
+        "as": [
+          "分工"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          213
+        ],
+        "as": [
+          "宝可梦的设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          214,
+          216
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          215
+        ],
+        "as": [
+          "指导"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "wireless",
+        "name": "无线与擦肩",
+        "facet": "tech",
+        "seg": [
+          216,
+          229,
+          234,
+          237,
+          252
+        ],
+        "as": [
+          "无线通信",
+          "擦肩通信"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          220,
+          237
+        ],
+        "as": [
+          "界面",
+          "菜单"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "生态"
+        ],
+        "via": "tag"
+      }
+    ]
   },
-  {
-   "id": "interview-iwata-asks-bw-chapter-2-brand-new-world",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-2-brand-new-world/",
-   "why": "同为任天堂官网黑·白访谈，杉森谈17人设计团队"
+  "observations": [
+    {
+      "seg": 2,
+      "text": "桐谷美玲在广告拍摄间歇向工作人员抛出三个关于《宝可梦 白》的疑问。",
+      "anchor": 3
+    },
+    {
+      "seg": 45,
+      "text": "GAME FREAK内部专门负责宝可梦外观设计的平面设计师有17人。",
+      "anchor": 46
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-iwata-asks-bw-chapter-1-second-game-on-ds",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-1-second-game-on-ds/",
+      "why": "同为2010年任天堂官网黑·白访谈，增田、杉森同席"
+    },
+    {
+      "id": "interview-iwata-asks-bw-chapter-2-brand-new-world",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-bw-chapter-2-brand-new-world/",
+      "why": "同为任天堂官网黑·白访谈，杉森谈17人设计团队"
+    },
+    {
+      "id": "scan-dengeki-games-vol14-bw-gamefreak-interview",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "宝可梦 黑·白 改变与不变",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-dengeki-games-vol14-bw-gamefreak-interview/",
+      "why": "同谈黑·白开发约四年与莱希拉姆捷克罗姆"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "scan-dengeki-games-vol14-bw-gamefreak-interview",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "宝可梦 黑·白 改变与不变",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-dengeki-games-vol14-bw-gamefreak-interview/",
-   "why": "同谈黑·白开发约四年与莱希拉姆捷克罗姆"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

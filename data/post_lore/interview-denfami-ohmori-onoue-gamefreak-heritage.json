@@ -1,965 +1,977 @@
 {
- "id": "interview-denfami-ohmori-onoue-gamefreak-heritage",
- "stem": "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 326
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "卡比兽",
-    "ndex": 143,
-    "seg": [
-     211
-    ],
-    "as": [
-     "卡比兽"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "猫鼬少",
-    "ndex": 734,
-    "seg": [
-     71
-    ],
-    "as": [
-     "猫鼬少"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "弱丁鱼",
-    "ndex": 746,
-    "seg": [
-     96
-    ],
-    "as": [
-     "弱丁鱼"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 太阳·月亮",
-    "slug": "sun-moon",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     18
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [
-     18
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-    "slug": null,
-    "seg": [
-     18
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     50
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦GO",
-    "slug": null,
-    "seg": [
-     59
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "我的世界",
-    "slug": null,
-    "seg": [
-     98
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "奇怪电话",
-    "slug": null,
-    "seg": [
-     101
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "GIGA WRECKER",
-    "slug": null,
-    "seg": [
-     118
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑2／白2",
-    "slug": null,
-    "seg": [
-     32
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "塞尔达传说 旷野之息",
-    "slug": null,
-    "seg": [
-     175
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "烤肉奉行",
-    "slug": null,
-    "seg": [
-     207
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "电玩志",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     11,
-     14,
-     31,
-     35,
-     42,
-     47
-    ]
-   },
-   {
-    "name": "大森滋",
-    "slug": "ohmori-shigeru",
-    "role": "speaker",
-    "seg": [
-     15,
-     24,
-     36,
-     48,
-     50,
-     54
-    ]
-   },
-   {
-    "name": "尾上将之",
-    "slug": "wei-shang-jiang-zhi",
-    "role": "speaker",
-    "seg": [
-     32,
-     37,
-     43,
-     74,
-     101,
-     121
-    ]
-   },
-   {
-    "name": "森本",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     121
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "伊藤",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     161
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "西野弘二",
-    "slug": "nishino-koji",
-    "role": "mentioned",
-    "seg": [
-     210
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "增田",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     191
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "薗部博之",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     124
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     2,
-     5,
-     6,
-     7,
-     122,
-     291
-    ],
-    "as": [
-     "企划书"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     7
-    ],
-    "as": [
-     "同人志"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     14,
-     15,
-     32,
-     118,
-     119,
-     207
-    ],
-    "as": [
-     "入职",
-     "入社",
-     "学生时代",
-     "面试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     14,
-     15,
-     299,
-     305
-    ],
-    "as": [
-     "应届",
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     22
-    ],
-    "as": [
-     "完全新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     22
-    ],
-    "as": [
-     "多边形"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     24,
-     30,
-     89,
-     90,
-     95,
-     110
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     24,
-     107,
-     110,
-     222,
-     223,
-     256
-    ],
-    "as": [
-     "地图设计",
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "wireless",
-    "name": "无线与擦肩",
-    "facet": "tech",
-    "seg": [
-     27
-    ],
-    "as": [
-     "擦肩通信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     30,
-     78,
-     80,
-     84,
-     86,
-     90
-    ],
-    "as": [
-     "在线",
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     31
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     34,
-     52,
-     59,
-     60,
-     72,
-     74
-    ],
-    "as": [
-     "道馆",
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     37
-    ],
-    "as": [
-     "商品化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     37,
-     211,
-     270
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     37,
-     191,
-     195,
-     278,
-     280
-    ],
-    "as": [
-     "公司内部",
-     "社内"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     41,
-     112,
-     241
-    ],
-    "as": [
-     "交流",
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     41
-    ],
-    "as": [
-     "版权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     41,
-     241,
-     244,
-     251,
-     282
-    ],
-    "as": [
-     "多人游戏",
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     48
-    ],
-    "as": [
-     "美术设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     50,
-     160
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     52
-    ],
-    "as": [
-     "劲敌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     52
-    ],
-    "as": [
-     "重新制作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     59,
-     80,
-     192,
-     250,
-     286,
-     288
-    ],
-    "as": [
-     "孩子们",
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     59,
-     86
-    ],
-    "as": [
-     "玩家之间",
-     "论坛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     59,
-     61,
-     62
-    ],
-    "as": [
-     "新玩家",
-     "老玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     60
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     60,
-     268
-    ],
-    "as": [
-     "集齐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     62,
-     85,
-     90,
-     107,
-     215
-    ],
-    "as": [
-     "难度",
-     "难易度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     62
-    ],
-    "as": [
-     "新鲜感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     67
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     75
-    ],
-    "as": [
-     "脚本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     111
-    ],
-    "as": [
-     "主题是"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     112
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     114
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     127,
-     165,
-     216,
-     315
-    ],
-    "as": [
-     "打磨",
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     137,
-     141,
-     167,
-     270,
-     271
-    ],
-    "as": [
-     "手感",
-     "操作方式"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     143,
-     207,
-     209
-    ],
-    "as": [
-     "程序上",
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     150,
-     165,
-     210,
-     212
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "port",
-    "name": "移植",
-    "facet": "process",
-    "seg": [
-     179
-    ],
-    "as": [
-     "移植"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     189
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     210
-    ],
-    "as": [
-     "数据管理"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     212,
-     227,
-     229
-    ],
-    "as": [
-     "强度",
-     "游戏平衡",
-     "平衡调整"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     215
-    ],
-    "as": [
-     "概率"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     227,
-     271,
-     273
-    ],
-    "as": [
-     "宝可梦的设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     230
-    ],
-    "as": [
-     "视觉效果"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "media-mix",
-    "name": "媒体展开",
-    "facet": "business",
-    "seg": [
-     238
-    ],
-    "as": [
-     "多媒体"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     238
-    ],
-    "as": [
-     "日程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     242,
-     305
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     245,
-     258,
-     318
-    ],
-    "as": [
-     "分工",
-     "团队合作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     282
-    ],
-    "as": [
-     "内存"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     290
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 11,
-   "text": "电玩志首先询问两位总监的年龄",
-   "anchor": 12
+  "id": "interview-denfami-ohmori-onoue-gamefreak-heritage",
+  "stem": "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 326
   },
-  {
-   "seg": 14,
-   "text": "电玩志问大森是否应届毕业生入职",
-   "anchor": 15
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "segment_audit": "2026-11-12"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "卡比兽",
+        "ndex": 143,
+        "seg": [
+          211
+        ],
+        "as": [
+          "卡比兽"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "猫鼬少",
+        "ndex": 734,
+        "seg": [
+          71
+        ],
+        "as": [
+          "猫鼬少"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "弱丁鱼",
+        "ndex": 746,
+        "seg": [
+          96
+        ],
+        "as": [
+          "弱丁鱼"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          18,
+          27
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          18,
+          27
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+        "slug": "oras",
+        "seg": [
+          18,
+          27
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          50,
+          54
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          59,
+          63
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 黑2·白2",
+        "slug": "black2-white2",
+        "seg": [
+          32,
+          38
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "我的世界",
+        "slug": null,
+        "seg": [
+          98,
+          101
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "奇怪电话",
+        "slug": null,
+        "seg": [
+          101,
+          104
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "GIGA WRECKER",
+        "slug": null,
+        "seg": [
+          118,
+          120
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "塞尔达传说：旷野之息",
+        "slug": null,
+        "seg": [
+          175
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "烤肉奉行",
+        "slug": null,
+        "seg": [
+          205,
+          207
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "电玩志",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          11,
+          14,
+          31,
+          35,
+          42,
+          47
+        ]
+      },
+      {
+        "name": "大森滋",
+        "slug": "ohmori-shigeru",
+        "role": "speaker",
+        "seg": [
+          15,
+          24,
+          36,
+          48,
+          50,
+          54
+        ]
+      },
+      {
+        "name": "尾上将之",
+        "slug": "wei-shang-jiang-zhi",
+        "role": "speaker",
+        "seg": [
+          32,
+          37,
+          43,
+          74,
+          101,
+          121
+        ]
+      },
+      {
+        "name": "森本",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          121
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "伊藤",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          161
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "西野弘二",
+        "slug": "nishino-koji",
+        "role": "mentioned",
+        "seg": [
+          210
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "增田",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          191
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "薗部博之",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          124
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          2,
+          5,
+          6,
+          7,
+          122,
+          291
+        ],
+        "as": [
+          "企划书"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "fan-works",
+        "name": "二创与同人",
+        "facet": "audience",
+        "seg": [
+          7
+        ],
+        "as": [
+          "同人志"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          14,
+          15,
+          32,
+          118,
+          119,
+          207
+        ],
+        "as": [
+          "入职",
+          "入社",
+          "学生时代",
+          "面试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          14,
+          15,
+          299,
+          305
+        ],
+        "as": [
+          "应届",
+          "新人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          22
+        ],
+        "as": [
+          "完全新作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          22
+        ],
+        "as": [
+          "多边形"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          24,
+          30,
+          89,
+          90,
+          95,
+          110
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          24,
+          107,
+          110,
+          222,
+          223,
+          256
+        ],
+        "as": [
+          "地图设计",
+          "关卡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "wireless",
+        "name": "无线与擦肩",
+        "facet": "tech",
+        "seg": [
+          27
+        ],
+        "as": [
+          "擦肩通信"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          30,
+          78,
+          80,
+          84,
+          86,
+          90
+        ],
+        "as": [
+          "在线",
+          "联网"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          31
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          34,
+          52,
+          59,
+          60,
+          72,
+          74
+        ],
+        "as": [
+          "道馆",
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          37
+        ],
+        "as": [
+          "商品化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          37,
+          211,
+          270
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          37,
+          191,
+          195,
+          278,
+          280
+        ],
+        "as": [
+          "公司内部",
+          "社内"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          41,
+          112,
+          241
+        ],
+        "as": [
+          "交流",
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          41
+        ],
+        "as": [
+          "版权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          41,
+          241,
+          244,
+          251,
+          282
+        ],
+        "as": [
+          "多人游戏",
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          48
+        ],
+        "as": [
+          "美术设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          50,
+          160
+        ],
+        "as": [
+          "从零开始"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          52
+        ],
+        "as": [
+          "劲敌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          52
+        ],
+        "as": [
+          "重新制作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          59,
+          80,
+          192,
+          250,
+          286,
+          288
+        ],
+        "as": [
+          "孩子们",
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          59,
+          86
+        ],
+        "as": [
+          "玩家之间",
+          "论坛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          59,
+          61,
+          62
+        ],
+        "as": [
+          "新玩家",
+          "老玩家"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          60
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          60,
+          268
+        ],
+        "as": [
+          "集齐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          62,
+          85,
+          90,
+          107,
+          215
+        ],
+        "as": [
+          "难度",
+          "难易度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          62
+        ],
+        "as": [
+          "新鲜感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          67
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          75
+        ],
+        "as": [
+          "脚本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          111
+        ],
+        "as": [
+          "主题是"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          112
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          114
+        ],
+        "as": [
+          "免费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          127,
+          165,
+          216,
+          315
+        ],
+        "as": [
+          "打磨",
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          137,
+          141,
+          167,
+          270,
+          271
+        ],
+        "as": [
+          "手感",
+          "操作方式"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          143,
+          207,
+          209
+        ],
+        "as": [
+          "程序上",
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          150,
+          165,
+          210,
+          212
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "port",
+        "name": "移植",
+        "facet": "process",
+        "seg": [
+          179
+        ],
+        "as": [
+          "移植"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          189
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "data-management",
+        "name": "数据与存档",
+        "facet": "tech",
+        "seg": [
+          210
+        ],
+        "as": [
+          "数据管理"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          212,
+          227,
+          229
+        ],
+        "as": [
+          "强度",
+          "游戏平衡",
+          "平衡调整"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          215
+        ],
+        "as": [
+          "概率"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          227,
+          271,
+          273
+        ],
+        "as": [
+          "宝可梦的设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          230
+        ],
+        "as": [
+          "视觉效果"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "media-mix",
+        "name": "媒体展开",
+        "facet": "business",
+        "seg": [
+          238
+        ],
+        "as": [
+          "多媒体"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          238
+        ],
+        "as": [
+          "日程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          242,
+          305
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          245,
+          258,
+          318
+        ],
+        "as": [
+          "分工",
+          "团队合作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          282
+        ],
+        "as": [
+          "内存"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          290
+        ],
+        "as": [
+          "生态"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 11,
+      "text": "电玩志首先询问两位总监的年龄",
+      "anchor": 12
+    },
+    {
+      "seg": 14,
+      "text": "电玩志问大森是否应届毕业生入职",
+      "anchor": 15
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "segment_audit": "2026-11-12"
+  },
+  "edited": false
 }

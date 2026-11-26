@@ -1,218 +1,189 @@
 {
- "id": "interview-onm-xy-sugimori",
- "stem": "2013-10-24-interview-onm-xy-sugimori",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 5
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "仙子伊布",
-    "ndex": 700,
-    "seg": [
-     3
-    ],
-    "as": [
-     "仙子伊布"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "哲尔尼亚斯",
-    "ndex": 716,
-    "seg": [
-     1,
-     2
-    ],
-    "as": [
-     "哲尔尼亚斯"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "伊裴尔塔尔",
-    "ndex": 717,
-    "seg": [
-     1,
-     2
-    ],
-    "as": [
-     "伊裴尔塔尔"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "伊布",
-    "ndex": 133,
-    "seg": [
-     3
-    ],
-    "as": [
-     "伊布"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 X／Y",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 X",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 Y",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Fami通",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     2,
-     3
-    ]
-   },
-   {
-    "name": "Thomas East",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "大村祐介",
-    "slug": "ohmura-yusuke",
-    "role": "mentioned",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "西田敦子",
-    "slug": "nishida-atsuko",
-    "role": "mentioned",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     1
-    ],
-    "as": [
-     "宝可梦设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     2
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     3
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [],
-    "as": [
-     "开发期间"
-    ],
-    "via": "title"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "杉森建称创作哲尔尼亚斯与伊裴尔塔尔时遭遇困难，与另一位艺术家合作完成",
-   "anchor": 2
+  "id": "interview-onm-xy-sugimori",
+  "stem": "2013-10-24-interview-onm-xy-sugimori",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 5
   },
-  {
-   "seg": 2,
-   "text": "杉森建说这是第一次不得不借助他人摆脱创作瓶颈",
-   "anchor": 3
-  }
- ],
- "relations": [
-  {
-   "id": "scan-ndream-2013-12-xy-character-design-interview",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "卡洛斯人物开发秘话",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2013-12-xy-character-design-interview/",
-   "why": "同为杉森建、大村祐介谈《X·Y》设计的同期访谈"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "仙子伊布",
+        "ndex": 700,
+        "seg": [
+          3
+        ],
+        "as": [
+          "仙子伊布"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "哲尔尼亚斯",
+        "ndex": 716,
+        "seg": [
+          1,
+          2
+        ],
+        "as": [
+          "哲尔尼亚斯"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "伊裴尔塔尔",
+        "ndex": 717,
+        "seg": [
+          1,
+          2
+        ],
+        "as": [
+          "伊裴尔塔尔"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "伊布",
+        "ndex": 133,
+        "seg": [
+          3
+        ],
+        "as": [
+          "伊布"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          0,
+          1
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "Thomas East",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          1
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "大村祐介",
+        "slug": "ohmura-yusuke",
+        "role": "mentioned",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "西田敦子",
+        "slug": "nishida-atsuko",
+        "role": "mentioned",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          1
+        ],
+        "as": [
+          "宝可梦设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          2
+        ],
+        "as": [
+          "协作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          3
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [],
+        "as": [
+          "开发期间"
+        ],
+        "via": "title"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 1,
+      "text": "杉森建称创作哲尔尼亚斯与伊裴尔塔尔时遭遇困难，与另一位艺术家合作完成",
+      "anchor": 2
+    },
+    {
+      "seg": 2,
+      "text": "杉森建说这是第一次不得不借助他人摆脱创作瓶颈",
+      "anchor": 3
+    }
+  ],
+  "relations": [
+    {
+      "id": "scan-ndream-2013-12-xy-character-design-interview",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "卡洛斯人物开发秘话",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2013-12-xy-character-design-interview/",
+      "why": "同为杉森建、大村祐介谈《X·Y》设计的同期访谈"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

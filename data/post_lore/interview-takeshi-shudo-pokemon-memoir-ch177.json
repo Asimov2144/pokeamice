@@ -1,452 +1,446 @@
 {
- "id": "interview-takeshi-shudo-pokemon-memoir-ch177",
- "stem": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 122
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     60,
-     103
+  "id": "interview-takeshi-shudo-pokemon-memoir-ch177",
+  "stem": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 122
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          60,
+          103
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "超梦",
+        "ndex": 150,
+        "seg": [
+          2
+        ],
+        "as": [
+          "超梦"
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "梦幻",
+        "ndex": 151,
+        "seg": [
+          0
+        ],
+        "as": [
+          "梦幻"
+        ],
+        "via": "llm"
+      }
     ],
-    "as": [
-     "皮卡丘"
+    "works": [
+      {
+        "name": "超梦的逆袭",
+        "slug": null,
+        "seg": [
+          1,
+          2,
+          82,
+          86,
+          87,
+          91,
+          94,
+          95
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 动画系列",
+        "slug": null,
+        "seg": [],
+        "via": "entities"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "超梦",
-    "ndex": 150,
-    "seg": [
-     2
+    "people": [
+      {
+        "name": "首藤刚志",
+        "slug": "shudo-takeshi",
+        "role": "mentioned",
+        "seg": [
+          117
+        ]
+      },
+      {
+        "name": "小智",
+        "slug": "xiao-zhi",
+        "role": "mentioned",
+        "seg": [
+          96,
+          103
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "超梦",
+        "slug": "chao-meng",
+        "role": "mentioned",
+        "seg": [
+          2,
+          86,
+          91,
+          98,
+          103,
+          104
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "梦幻",
+        "slug": "meng-huan",
+        "role": "mentioned",
+        "seg": [],
+        "kind": "character"
+      },
+      {
+        "name": "汤山邦彦",
+        "slug": "yuyama-kunihiko",
+        "role": "mentioned",
+        "seg": [
+          117
+        ]
+      }
     ],
-    "as": [
-     "超梦"
+    "places": [
+      {
+        "name": "小田原",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          121
+        ],
+        "what": "首藤枯坐沉思的海滩",
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "梦幻",
-    "ndex": 151,
-    "seg": [
-     0
-    ],
-    "as": [
-     "梦幻"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "超梦的逆袭",
-    "slug": null,
-    "seg": [
-     2,
-     86,
-     91,
-     98,
-     103,
-     116
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 动画系列",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     17
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "首藤刚志",
-    "slug": "shudo-takeshi",
-    "role": "mentioned",
-    "seg": [
-     117
+    "concepts": [
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          2,
+          86
+        ],
+        "as": [
+          "动画电影",
+          "大银幕"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          3
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          3,
+          30
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          3,
+          17
+        ],
+        "as": [
+          "为原型",
+          "为蓝本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          27,
+          96
+        ],
+        "as": [
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          30
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          35,
+          36,
+          102,
+          119
+        ],
+        "as": [
+          "编剧",
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          36,
+          43,
+          61
+        ],
+        "as": [
+          "品质",
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          50,
+          70,
+          73
+        ],
+        "as": [
+          "小孩子",
+          "儿童",
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "life-and-death",
+        "name": "生死的表述",
+        "facet": "design",
+        "seg": [
+          58,
+          81,
+          82
+        ],
+        "as": [
+          "死亡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          73
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          73
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "port",
+        "name": "移植",
+        "facet": "process",
+        "seg": [
+          77
+        ],
+        "as": [
+          "移植"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          80,
+          81
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          95
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          100
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          106,
+          109,
+          110,
+          112,
+          113
+        ],
+        "as": [
+          "动画化",
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          106,
+          117
+        ],
+        "as": [
+          "系列构成"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          107
+        ],
+        "as": [
+          "团队内部"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "小智",
-    "slug": "xiao-zhi",
-    "role": "mentioned",
-    "seg": [
-     96,
-     103
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "超梦",
-    "slug": "chao-meng",
-    "role": "mentioned",
-    "seg": [
-     2,
-     86,
-     91,
-     98,
-     103,
-     104
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "梦幻",
-    "slug": "meng-huan",
-    "role": "mentioned",
-    "seg": [],
-    "kind": "character"
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": [
-     117
-    ]
-   }
+  },
+  "observations": [
+    {
+      "seg": 2,
+      "text": "《超梦的逆袭》高潮戏在本物与克隆体之间展开殊死之战",
+      "anchor": 3
+    },
+    {
+      "seg": 103,
+      "text": "最初提交制作委员会的梗概仅寥寥数语，后续情节是首藤刚志即兴铺陈",
+      "anchor": 104
+    }
   ],
-  "places": [
-   {
-    "name": "小田原",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     121
-    ],
-    "what": "首藤枯坐沉思的海滩",
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch175",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第175回：继续讲述《超梦的逆袭》脚本秘辛（野生与驯化的奴役悖论、原定三年完结的终章构想与“战斗否定”的伏笔）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch175/",
+      "why": "同为第175回，前篇讲超梦脚本秘辛"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch179",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第179回：《超梦的逆袭》的高潮戏剧时刻（肉搏战的惨烈现实、小智挺身而出的石化、皮卡丘绝望电击的剧作推导）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch179/",
+      "why": "第179回紧接本篇，推演同一高潮戏"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch180",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第180回：宝可梦的眼泪与超梦的记忆消除（奇迹生命的共鸣、原定终章伏笔回收与全员遗忘的宿命悲剧）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch180/",
+      "why": "第180回续讲超梦高潮后的眼泪与记忆"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch178",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第178回：宝可梦剧场版必须能让自己由衷信服……（从“无印良品”到作者性觉醒、与游戏原作方见解分歧的创作定力）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch178/",
+      "why": "第178回紧接本篇，写小田原海边立誓"
+    }
   ],
-  "concepts": [
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     2,
-     86
-    ],
-    "as": [
-     "动画电影",
-     "大银幕"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     3
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     3,
-     30
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     3,
-     17
-    ],
-    "as": [
-     "为原型",
-     "为蓝本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     27,
-     96
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     30
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     35,
-     36,
-     102,
-     119
-    ],
-    "as": [
-     "编剧",
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     36,
-     43,
-     61
-    ],
-    "as": [
-     "品质",
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     50,
-     70,
-     73
-    ],
-    "as": [
-     "小孩子",
-     "儿童",
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
-    "seg": [
-     58,
-     81,
-     82
-    ],
-    "as": [
-     "死亡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     73
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     73
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "port",
-    "name": "移植",
-    "facet": "process",
-    "seg": [
-     77
-    ],
-    "as": [
-     "移植"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     80,
-     81
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     95
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     100
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     106,
-     109,
-     110,
-     112,
-     113
-    ],
-    "as": [
-     "动画化",
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     106,
-     117
-    ],
-    "as": [
-     "系列构成"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     107
-    ],
-    "as": [
-     "团队内部"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "《超梦的逆袭》高潮戏在本物与克隆体之间展开殊死之战",
-   "anchor": 3
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 103,
-   "text": "最初提交制作委员会的梗概仅寥寥数语，后续情节是首藤刚志即兴铺陈",
-   "anchor": 104
-  }
- ],
- "relations": [
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch175",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第175回：继续讲述《超梦的逆袭》脚本秘辛（野生与驯化的奴役悖论、原定三年完结的终章构想与“战斗否定”的伏笔）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch175/",
-   "why": "同为第175回，前篇讲超梦脚本秘辛"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch179",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第179回：《超梦的逆袭》的高潮戏剧时刻（肉搏战的惨烈现实、小智挺身而出的石化、皮卡丘绝望电击的剧作推导）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch179/",
-   "why": "第179回紧接本篇，推演同一高潮戏"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch180",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第180回：宝可梦的眼泪与超梦的记忆消除（奇迹生命的共鸣、原定终章伏笔回收与全员遗忘的宿命悲剧）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch180/",
-   "why": "第180回续讲超梦高潮后的眼泪与记忆"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch178",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第178回：宝可梦剧场版必须能让自己由衷信服……（从“无印良品”到作者性觉醒、与游戏原作方见解分歧的创作定力）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch178/",
-   "why": "第178回紧接本篇，写小田原海边立誓"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

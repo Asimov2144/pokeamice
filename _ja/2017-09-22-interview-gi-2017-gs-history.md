@@ -31,6 +31,7 @@ people_ja:
 - 杉森建
 - 森本茂樹
 speaker_zh: {}
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - type: image
   image: /assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/004.jpg
@@ -60,30 +61,4 @@ parallel_items:
   translation: 『ポケットモンスター 金・銀』には2つの地方が登場することで有名だ。新しい地方であるジョウトと、『ポケットモンスター 赤・緑』のカントーである。「『赤・緑』のときは、まだ2メガビットのカセットで動いていた頃のデータだったんです」と増田氏は言う。「開発の途中で4メガビットのカセットにアップグレードされて、プログラマーたちは『すごい！容量が倍になった！』って感じでした」。その容量の余裕によって、ゲームの規模は倍に膨らんだ。
 - original: At the time of release, Gold and Silver held the rare achievement of being the fastest-selling games ever.
   translation: 発売当時、『ポケットモンスター 金・銀』は歴代最速で売れたゲームという稀有な記録を打ち立てた。
-- original: For more on the history of Pokémon, you can check out the September '17 issue for a 12-page feature covering the franchise’s history, as well as online features and interviews linked below.
-  translation: ポケモンの歴史については、9月号に掲載された12ページにわたるシリーズの歴史特集や、以下にリンクしたオンライン記事・インタビューもぜひチェックしてほしい。
-- original: Pokémon’s Developers Talk About Their Console RPG Debut On Switch
-  translation: ポケモン開発者が語る、Nintendo Switchでの据え置き機RPGデビューについて
-- original: Game Freak’s Origins And Its Pre-Pokémon Games
-  translation: ゲームフリークの原点と、ポケモン以前のゲーム作品
-- original: Here's How Game Freak Designs Pokemon Creatures
-  translation: ゲームフリークはどのようにポケモンをデザインしているのか
-- original: Game Freak On Player Freedom Vs. Story In Pokémon
-  translation: ゲームフリークが語る、ポケモンにおけるプレイヤーの自由度とストーリーの関係
-- original: Discussing Our In-Depth Tour Of Game Freak
-  translation: ゲームフリーク徹底探訪レポート
-- original: Everything We Know About Pokémon On The Nintendo Switch
-  translation: Nintendo Switch版ポケモンについて現在わかっていることすべて
-- original: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
-  translation: なぜ『ポケットモンスター ルビー・サファイア』は最も開発が難しかったのか
-- original: Game Freak's Director Share Their Favorite Pokémon Spin-Offs
-  translation: ゲームフリークのディレクターたちが語る、お気に入りのポケモンスピンオフ作品
-- original: An Exclusive Look At Pokémon's Early Design Documents
-  translation: ポケモンの初期デザイン資料を独占公開
-- original: 'Pokémon’s Creators On The Anime: ''We Weren''t Really Sure About It'''
-  translation: ポケモンのクリエイターたちがアニメを振り返る「正直、確信は持てませんでした」
-- original: Our Reddit AMA On Our Trip To Visit Game Freak
-  translation: ゲームフリーク訪問レポートに関するReddit AMA（質問スレッド）
-- original: Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon
-  translation: 『ポケットモンスター ウルトラサン・ウルトラムーン』の新モードを独占公開
 ---

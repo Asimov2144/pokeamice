@@ -1,1003 +1,1006 @@
 {
- "id": "interview-denfaminicogamer-pokemon-go-server-miracle",
- "stem": "2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 202
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "比比鸟",
-    "ndex": 17,
-    "seg": [
-     28
-    ],
-    "as": [
-     "比比鸟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     119,
-     177,
-     196,
-     197
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "蚊香蝌蚪",
-    "ndex": 60,
-    "seg": [
-     127
-    ],
-    "as": [
-     "蚊香蝌蚪"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "小磁怪",
-    "ndex": 81,
-    "seg": [
-     14,
-     15
-    ],
-    "as": [
-     "小磁怪"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "クラブ",
-    "ndex": 98,
-    "seg": [
-     43
-    ],
-    "as": [
-     "クラブ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "波波",
-    "ndex": 16,
-    "seg": [
-     14
-    ],
-    "as": [
-     "波波"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "梦幻",
-    "ndex": 151,
-    "seg": [
-     48
-    ],
-    "as": [
-     "梦幻"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     84,
-     98,
-     99,
-     106,
-     132,
-     133
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "Ingress",
-    "slug": null,
-    "seg": [
-     96,
-     126,
-     141,
-     184
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "红·绿",
-    "slug": null,
-    "seg": [
-     24
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "勇者斗恶龙",
-    "slug": null,
-    "seg": [
-     81
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "MOTHER",
-    "slug": null,
-    "seg": [
-     81
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "赛文奥特曼",
-    "slug": null,
-    "seg": [
-     81
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "转转瓦力欧制造",
-    "slug": null,
-    "seg": [
-     108
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦弹珠台",
-    "slug": null,
-    "seg": [
-     108
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "铁板阵",
-    "slug": null,
-    "seg": [
-     62
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "乌戈乌戈鲁加",
-    "slug": null,
-    "seg": [
-     68
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦Let's Go皮卡丘",
-    "slug": null,
-    "seg": [
-     197
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦Let's Go伊布",
-    "slug": null,
-    "seg": [
-     197
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     1,
-     2,
-     3,
-     5,
-     6,
-     8,
-     9,
-     10,
-     12,
-     48,
-     49,
-     57,
-     65,
-     66,
-     74,
-     75,
-     76,
-     78,
-     80,
-     81,
-     82,
-     85,
-     87,
-     89,
-     90,
-     92,
-     93,
-     105,
-     107,
-     108,
-     113,
-     157,
-     158,
-     160,
-     161,
-     168,
-     169,
-     170
-    ]
-   },
-   {
-    "name": "电玩志",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     7,
-     23,
-     24,
-     25,
-     33,
-     56,
-     68,
-     69,
-     79,
-     86,
-     91,
-     100,
-     111,
-     112,
-     114,
-     115,
-     120,
-     125,
-     132,
-     134,
-     137,
-     145,
-     162,
-     167
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     13,
-     14,
-     17,
-     18,
-     27,
-     28,
-     29,
-     30,
-     39,
-     40,
-     41,
-     42,
-     44,
-     45,
-     133,
-     135,
-     136,
-     138,
-     140,
-     141,
-     149,
-     150,
-     154,
-     155,
-     156,
-     176,
-     177,
-     178
-    ]
-   },
-   {
-    "name": "川岛优志",
-    "slug": "kawashima-masashi",
-    "role": "speaker",
-    "seg": [
-     19,
-     20,
-     21,
-     31,
-     32,
-     34,
-     35,
-     36,
-     38,
-     50,
-     52,
-     53,
-     54,
-     67,
-     94,
-     95,
-     96,
-     97,
-     99,
-     101,
-     103,
-     104,
-     116,
-     117,
-     118,
-     119,
-     121,
-     123,
-     124,
-     126,
-     127,
-     128,
-     130,
-     142,
-     143,
-     144,
-     147,
-     148,
-     151,
-     152,
-     153,
-     163,
-     164,
-     165,
-     171,
-     172,
-     173,
-     174,
-     175
-    ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": [
-     127
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "mentioned",
-    "seg": [
-     64
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "水口哲也",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     68
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "森川幸人",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     68
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "浅田彰",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     69
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "川上",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     58,
-     61
-    ],
-    "via": "source_quote"
-   }
-  ],
-  "places": [
-   {
-    "name": "真新镇",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     9
-    ],
-    "what": "旅程出发地",
-    "via": "llm"
-   },
-   {
-    "name": "红莲岛",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     9
-    ],
-    "what": "房总半岛附近岛屿",
-    "via": "llm"
-   },
-   {
-    "name": "关都",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     9
-    ],
-    "what": "最初冒险地区",
-    "via": "llm"
-   },
-   {
-    "name": "城都地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     10
-    ],
-    "what": "意象被继承的地区",
-    "via": "llm"
-   },
-   {
-    "name": "丰缘地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     10
-    ],
-    "what": "意象被继承的地区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "spinoff",
-    "name": "外传作品",
-    "facet": "franchise",
-    "seg": [
-     5
-    ],
-    "as": [
-     "派生作品"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "继承"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     16
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     19
-    ],
-    "as": [
-     "连接起来"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     20
-    ],
-    "as": [
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     21,
-     133,
-     135,
-     136
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     22
-    ],
-    "as": [
-     "初代",
-     "新世代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     27,
-     73,
-     82,
-     144
-    ],
-    "as": [
-     "孩子们",
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     27,
-     143
-    ],
-    "as": [
-     "交换宝可梦",
-     "进行交换"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     31
-    ],
-    "as": [
-     "数据量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     32,
-     33,
-     35,
-     38,
-     39,
-     48
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     33
-    ],
-    "as": [
-     "吃惊"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     38
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     40
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     42
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     44,
-     46,
-     47
-    ],
-    "as": [
-     "程序上",
-     "汇编",
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     48
-    ],
-    "as": [
-     "日程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     50,
-     95,
-     96,
-     152,
-     186
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     62
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "port",
-    "name": "移植",
-    "facet": "process",
-    "seg": [
-     62
-    ],
-    "as": [
-     "移植"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     71
-    ],
-    "as": [
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     82,
-     99
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     82
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     83
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     91,
-     117
-    ],
-    "as": [
-     "演出效果",
-     "画面上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     94
-    ],
-    "as": [
-     "运气"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     95
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     107
-    ],
-    "as": [
-     "掌上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     123
-    ],
-    "as": [
-     "社会现象"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     126
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     147,
-     152
-    ],
-    "as": [
-     "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "motion",
-    "name": "动作设计",
-    "facet": "art",
-    "seg": [
-     148,
-     151
-    ],
-    "as": [
-     "动作表现"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     154,
-     160
-    ],
-    "as": [
-     "一起做"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     158
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     168
-    ],
-    "as": [
-     "完成度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     196
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 6,
-   "text": "石原称在《宝可梦 GO》上第一次打破不让GAME FREAK参与派生作的规矩",
-   "anchor": 7
+  "id": "interview-denfaminicogamer-pokemon-go-server-miracle",
+  "stem": "2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 202
   },
-  {
-   "seg": 32,
-   "text": "川岛称《红·绿》每一份的数据容量是512千字节",
-   "anchor": 33
-  }
- ],
- "relations": [
-  {
-   "id": "interview-denfaminicogamer-pokemon-go-miracle",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-miracle/",
-   "why": "同为2018-06-08电玩志三巨头对谈，本篇为其后篇"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "比比鸟",
+        "ndex": 17,
+        "seg": [
+          28
+        ],
+        "as": [
+          "比比鸟"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          119,
+          177,
+          196,
+          197
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "蚊香蝌蚪",
+        "ndex": 60,
+        "seg": [
+          127
+        ],
+        "as": [
+          "蚊香蝌蚪"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "小磁怪",
+        "ndex": 81,
+        "seg": [
+          14,
+          15
+        ],
+        "as": [
+          "小磁怪"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "クラブ",
+        "ndex": 98,
+        "seg": [
+          43
+        ],
+        "as": [
+          "クラブ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "波波",
+        "ndex": 16,
+        "seg": [
+          14
+        ],
+        "as": [
+          "波波"
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "梦幻",
+        "ndex": 151,
+        "seg": [
+          48
+        ],
+        "as": [
+          "梦幻"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          6,
+          8,
+          12,
+          18,
+          21,
+          84,
+          98,
+          99
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          24
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦弹珠台",
+        "slug": "pinball",
+        "seg": [
+          108
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Ingress",
+        "slug": null,
+        "seg": [
+          95,
+          96,
+          126,
+          141,
+          184
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "勇者斗恶龙",
+        "slug": null,
+        "seg": [
+          81
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "MOTHER",
+        "slug": null,
+        "seg": [
+          81
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "奥特赛文",
+        "slug": null,
+        "seg": [
+          81
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "转转瓦力欧制造",
+        "slug": null,
+        "seg": [
+          108
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "铁板阵",
+        "slug": null,
+        "seg": [
+          62
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "乌戈乌戈鲁加",
+        "slug": null,
+        "seg": [
+          68
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦Let's Go皮卡丘",
+        "slug": null,
+        "seg": [
+          197
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦Let's Go伊布",
+        "slug": null,
+        "seg": [
+          197
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "赛文奥特曼",
+        "slug": null,
+        "seg": [
+          81
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          48,
+          49,
+          57,
+          65,
+          66,
+          74,
+          75,
+          76,
+          78,
+          80,
+          81,
+          82,
+          85,
+          87,
+          89,
+          90,
+          92,
+          93,
+          105,
+          107,
+          108,
+          113,
+          157,
+          158,
+          160,
+          161,
+          168,
+          169,
+          170
+        ]
+      },
+      {
+        "name": "电玩志",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          7,
+          23,
+          24,
+          25,
+          33,
+          56,
+          68,
+          69,
+          79,
+          86,
+          91,
+          100,
+          111,
+          112,
+          114,
+          115,
+          120,
+          125,
+          132,
+          134,
+          137,
+          145,
+          162,
+          167
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          13,
+          14,
+          17,
+          18,
+          27,
+          28,
+          29,
+          30,
+          39,
+          40,
+          41,
+          42,
+          44,
+          45,
+          133,
+          135,
+          136,
+          138,
+          140,
+          141,
+          149,
+          150,
+          154,
+          155,
+          156,
+          176,
+          177,
+          178
+        ]
+      },
+      {
+        "name": "川岛优志",
+        "slug": "kawashima-masashi",
+        "role": "speaker",
+        "seg": [
+          19,
+          20,
+          21,
+          31,
+          32,
+          34,
+          35,
+          36,
+          38,
+          50,
+          52,
+          53,
+          54,
+          67,
+          94,
+          95,
+          96,
+          97,
+          99,
+          101,
+          103,
+          104,
+          116,
+          117,
+          118,
+          119,
+          121,
+          123,
+          124,
+          126,
+          127,
+          128,
+          130,
+          142,
+          143,
+          144,
+          147,
+          148,
+          151,
+          152,
+          153,
+          163,
+          164,
+          165,
+          171,
+          172,
+          173,
+          174,
+          175
+        ]
+      },
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "mentioned",
+        "seg": [
+          127
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "岩田聪",
+        "slug": "iwata-satoru",
+        "role": "mentioned",
+        "seg": [
+          64
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "水口哲也",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          68
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "森川幸人",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          68
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "浅田彰",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          69
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "川上",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          58,
+          61
+        ],
+        "via": "source_quote"
+      }
+    ],
+    "places": [
+      {
+        "name": "真新镇",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          9
+        ],
+        "what": "旅程出发地",
+        "via": "llm"
+      },
+      {
+        "name": "红莲岛",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          9
+        ],
+        "what": "房总半岛附近岛屿",
+        "via": "llm"
+      },
+      {
+        "name": "关都",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          9
+        ],
+        "what": "最初冒险地区",
+        "via": "llm"
+      },
+      {
+        "name": "城都地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          10
+        ],
+        "what": "意象被继承的地区",
+        "via": "llm"
+      },
+      {
+        "name": "丰缘地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          10
+        ],
+        "what": "意象被继承的地区",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "spinoff",
+        "name": "外传作品",
+        "facet": "franchise",
+        "seg": [
+          5
+        ],
+        "as": [
+          "派生作品"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          10
+        ],
+        "as": [
+          "继承"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          16
+        ],
+        "as": [
+          "宝可梦图鉴"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          19
+        ],
+        "as": [
+          "连接起来"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          20
+        ],
+        "as": [
+          "卡牌游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          21,
+          133,
+          135,
+          136
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          22
+        ],
+        "as": [
+          "初代",
+          "新世代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          27,
+          73,
+          82,
+          144
+        ],
+        "as": [
+          "孩子们",
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          27,
+          143
+        ],
+        "as": [
+          "交换宝可梦",
+          "进行交换"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "data-management",
+        "name": "数据与存档",
+        "facet": "tech",
+        "seg": [
+          31
+        ],
+        "as": [
+          "数据量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          32,
+          33,
+          35,
+          38,
+          39,
+          48
+        ],
+        "as": [
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          33
+        ],
+        "as": [
+          "吃惊"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          38
+        ],
+        "as": [
+          "真实感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          40
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          42
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          44,
+          46,
+          47
+        ],
+        "as": [
+          "程序上",
+          "汇编",
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          48
+        ],
+        "as": [
+          "日程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          50,
+          95,
+          96,
+          152,
+          186
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          62
+        ],
+        "as": [
+          "家庭"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "port",
+        "name": "移植",
+        "facet": "process",
+        "seg": [
+          62
+        ],
+        "as": [
+          "移植"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          71
+        ],
+        "as": [
+          "联网"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          82,
+          99
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          82
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          83
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          91,
+          117
+        ],
+        "as": [
+          "演出效果",
+          "画面上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          94
+        ],
+        "as": [
+          "运气"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          95
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          107
+        ],
+        "as": [
+          "掌上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          123
+        ],
+        "as": [
+          "社会现象"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          126
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          147,
+          152
+        ],
+        "as": [
+          "精灵球"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "motion",
+        "name": "动作设计",
+        "facet": "art",
+        "seg": [
+          148,
+          151
+        ],
+        "as": [
+          "动作表现"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          154,
+          160
+        ],
+        "as": [
+          "一起做"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          158
+        ],
+        "as": [
+          "免费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          168
+        ],
+        "as": [
+          "完成度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          196
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-gnn-pokemon-go-tokyo-roundtable",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "巴哈姆特GNN 现场直击：Niantic × 宝可梦东京圆桌会议——《Pokémon GO》完成度仅10%？热潮超预期百倍与未来生态展望",
-   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6go/%E7%AD%96%E5%88%92%E4%B8%8E%E8%BF%90%E8%90%A5/interview-gnn-pokemon-go-tokyo-roundtable/",
-   "why": "同为《Pokémon GO》日方主创谈开发经过与上线热潮"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "segment_audit": "2026-11-12"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 6,
+      "text": "石原称在《宝可梦 GO》上第一次打破不让GAME FREAK参与派生作的规矩",
+      "anchor": 7
+    },
+    {
+      "seg": 32,
+      "text": "川岛称《红·绿》每一份的数据容量是512千字节",
+      "anchor": 33
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-denfaminicogamer-pokemon-go-miracle",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-miracle/",
+      "why": "同为2018-06-08电玩志三巨头对谈，本篇为其后篇"
+    },
+    {
+      "id": "interview-gnn-pokemon-go-tokyo-roundtable",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "巴哈姆特GNN 现场直击：Niantic × 宝可梦东京圆桌会议——《Pokémon GO》完成度仅10%？热潮超预期百倍与未来生态展望",
+      "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6go/%E7%AD%96%E5%88%92%E4%B8%8E%E8%BF%90%E8%90%A5/interview-gnn-pokemon-go-tokyo-roundtable/",
+      "why": "同为《Pokémon GO》日方主创谈开发经过与上线热潮"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "segment_audit": "2026-11-12"
+  },
+  "edited": false
 }

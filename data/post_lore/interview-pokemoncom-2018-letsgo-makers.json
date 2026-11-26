@@ -1,496 +1,488 @@
 {
- "id": "interview-pokemoncom-2018-letsgo-makers",
- "stem": "2018-11-01-interview-pokemoncom-2018-letsgo-makers",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 56
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "小火龙",
-    "ndex": 4,
-    "seg": [
-     54
-    ],
-    "as": [
-     "小火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     0,
-     8,
-     19,
-     22,
-     23,
-     24
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "尼多兰",
-    "ndex": 29,
-    "seg": [
-     16
-    ],
-    "as": [
-     "尼多兰"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "伊布",
-    "ndex": 133,
-    "seg": [
-     19
-    ],
-    "as": [
-     "伊布"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
-    "slug": "lets-go",
-    "seg": [
-     30,
-     31
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 Let's Go！皮卡丘",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 Let's Go！伊布",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 皮卡丘",
-    "slug": null,
-    "seg": [
-     22
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 火红·叶绿",
-    "slug": "firered-leafgreen",
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [
-     31
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [
-     35
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红",
-    "slug": null,
-    "seg": [
-     40
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 绿",
-    "slug": null,
-    "seg": [
-     40
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     4,
-     5,
-     7,
-     8,
-     12,
-     15
-    ]
-   },
-   {
-    "name": "菜花健作",
-    "slug": "nabana-kensaku",
-    "role": "speaker",
-    "seg": [
-     26,
-     27,
-     28,
-     51,
-     52,
-     53
-    ]
-   },
-   {
-    "name": "景山将太",
-    "slug": "kageyama-shota",
-    "role": "mentioned",
-    "seg": [
-     41
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "关都地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     22
-    ],
-    "what": "游戏冒险的舞台",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     0
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     5,
-     39,
-     40,
-     44
-    ],
-    "as": [
-     "创作音乐",
-     "作曲",
-     "编曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     5,
-     37,
-     49
-    ],
-    "as": [
-     "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     6,
-     26
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     7,
-     42
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     8
-    ],
-    "as": [
-     "画面表现"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     12,
-     54
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "motion",
-    "name": "动作设计",
-    "facet": "art",
-    "seg": [
-     14
-    ],
-    "as": [
-     "动作表现"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     22
-    ],
-    "as": [
-     "新鲜感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     23,
-     36
-    ],
-    "as": [
-     "智能手机",
-     "手机游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     23
-    ],
-    "as": [
-     "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "link-battle",
-    "name": "通信对战",
-    "facet": "system",
-    "seg": [
-     24
-    ],
-    "as": [
-     "联机对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     24,
-     51,
-     53
-    ],
-    "as": [
-     "培育宝可梦",
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     24
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     26
-    ],
-    "as": [
-     "怀旧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     27
-    ],
-    "as": [
-     "像素图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     32
-    ],
-    "as": [
-     "动画系列"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     39
-    ],
-    "as": [
-     "配乐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     48,
-     52,
-     53
-    ],
-    "as": [
-     "老玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     52
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 4,
-   "text": "增田称项目起点是解决如何让人们走进房间玩游戏的问题",
-   "anchor": 5
+  "id": "interview-pokemoncom-2018-letsgo-makers",
+  "stem": "2018-11-01-interview-pokemoncom-2018-letsgo-makers",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 56
   },
-  {
-   "seg": 16,
-   "text": "一位程序员制作尼多兰移动时参考了兔子走动的视频",
-   "anchor": 17
-  }
- ],
- "relations": [
-  {
-   "id": "interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Eurogamer 独家专访：增田顺一谈《Let's Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世界愿景",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-lets-go-difficulty-meltan-future/",
-   "why": "同期Eurogamer专访增田与菜花，谈同一作"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "小火龙",
+        "ndex": 4,
+        "seg": [
+          54
+        ],
+        "as": [
+          "小火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          0,
+          8,
+          19,
+          22,
+          23,
+          24
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "尼多兰",
+        "ndex": 29,
+        "seg": [
+          16
+        ],
+        "as": [
+          "尼多兰"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "伊布",
+        "ndex": 133,
+        "seg": [
+          19
+        ],
+        "as": [
+          "伊布"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+        "slug": "lets-go",
+        "seg": [
+          30,
+          31
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          5
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 皮卡丘版",
+        "slug": "yellow",
+        "seg": [
+          22
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 火红·叶绿",
+        "slug": "firered-leafgreen",
+        "seg": [
+          30
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          31
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          35
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          40
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 Let's Go！皮卡丘",
+        "slug": null,
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 Let's Go！伊布",
+        "slug": null,
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          4,
+          5,
+          7,
+          8,
+          12,
+          15
+        ]
+      },
+      {
+        "name": "菜花健作",
+        "slug": "nabana-kensaku",
+        "role": "speaker",
+        "seg": [
+          26,
+          27,
+          28,
+          51,
+          52,
+          53
+        ]
+      },
+      {
+        "name": "景山将太",
+        "slug": "kageyama-shota",
+        "role": "mentioned",
+        "seg": [
+          41
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "关都地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          22
+        ],
+        "what": "游戏冒险的舞台",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          0
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          5,
+          39,
+          40,
+          44
+        ],
+        "as": [
+          "创作音乐",
+          "作曲",
+          "编曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          5,
+          37,
+          49
+        ],
+        "as": [
+          "精灵球"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          6,
+          26
+        ],
+        "as": [
+          "新硬件"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          7,
+          42
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          8
+        ],
+        "as": [
+          "画面表现"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          12,
+          54
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "motion",
+        "name": "动作设计",
+        "facet": "art",
+        "seg": [
+          14
+        ],
+        "as": [
+          "动作表现"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          22
+        ],
+        "as": [
+          "新鲜感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          23,
+          36
+        ],
+        "as": [
+          "智能手机",
+          "手机游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          23
+        ],
+        "as": [
+          "热潮"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "link-battle",
+        "name": "通信对战",
+        "facet": "system",
+        "seg": [
+          24
+        ],
+        "as": [
+          "联机对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          24,
+          51,
+          53
+        ],
+        "as": [
+          "培育宝可梦",
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          24
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          26
+        ],
+        "as": [
+          "怀旧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pixel-art",
+        "name": "像素画",
+        "facet": "tech",
+        "seg": [
+          27
+        ],
+        "as": [
+          "像素图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          32
+        ],
+        "as": [
+          "动画系列"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          39
+        ],
+        "as": [
+          "配乐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          48,
+          52,
+          53
+        ],
+        "as": [
+          "老玩家"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          52
+        ],
+        "as": [
+          "宝可梦图鉴"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-eurogamer-masuda-nabana-lets-go",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Eurogamer 独家专访增田顺一 × 菜花健作：〈宝可梦 Let's Go！皮卡丘／伊布〉——通向大师训练家的漫长之路与新世代设计哲学",
-   "url": "/developer-interviews/official-archives/interview-eurogamer-masuda-nabana-lets-go/",
-   "why": "同期Eurogamer专访增田与菜花，谈同一作"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 4,
+      "text": "增田称项目起点是解决如何让人们走进房间玩游戏的问题",
+      "anchor": 5
+    },
+    {
+      "seg": 16,
+      "text": "一位程序员制作尼多兰移动时参考了兔子走动的视频",
+      "anchor": 17
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Eurogamer 独家专访：增田顺一谈《Let's Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世界愿景",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-lets-go-difficulty-meltan-future/",
+      "why": "同期Eurogamer专访增田与菜花，谈同一作"
+    },
+    {
+      "id": "interview-eurogamer-masuda-nabana-lets-go",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Eurogamer 独家专访增田顺一 × 菜花健作：〈宝可梦 Let's Go！皮卡丘／伊布〉——通向大师训练家的漫长之路与新世代设计哲学",
+      "url": "/developer-interviews/official-archives/interview-eurogamer-masuda-nabana-lets-go/",
+      "why": "同期Eurogamer专访增田与菜花，谈同一作"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

@@ -46,6 +46,7 @@ cast:
   avatar: https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/scarlet-violet-logo.png
 topics:
 - 海外媒体专访
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - type: image
   image: /assets/img/interviews/2017-08-14-interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/rs_dev_01.jpg
@@ -89,6 +90,6 @@ entities:
   people:
   - "增田顺一"
   works:
-  - 宝可梦 黑·白
   - 宝可梦 红宝石·蓝宝石
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
 ---

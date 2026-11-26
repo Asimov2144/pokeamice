@@ -1,0 +1,114 @@
+gi_2017_gamefreak_visit:
+  eyebrow_zh: 原出处专题导航
+  eyebrow_ja: 原典特集インデックス
+  title_zh: "Game Informer 2017 年 9 月刊「探访 Game Freak」系列专题"
+  title_ja: "Game Informer 2017年9月号「ゲームフリーク訪問」特集シリーズ"
+  intro_zh: "原网页文末附有《Game Informer》2017 年 9 月刊（第 293 期）12 页《宝可梦》系列历史专题及同系列线上报道链接（属原刊延伸阅读索引，非本文正文）。"
+  intro_ja: "元ページの末尾に掲載されていた『Game Informer』2017年9月号（第293号）の12ページ特集および同シリーズの関連記事・動画リンク一覧です（編集上の案内であり、本文の一部ではありません）。"
+  issue_url: https://www.gameinformer.com/mag/default.aspx
+  issue_label_zh: Game Informer 杂志页面
+  issue_label_ja: Game Informer 本誌ページ
+  items:
+    - stem: 2017-08-09-interview-gameinformer-2017-masuda-ohmori-pokemon-on-nintendo-switch
+      title_zh: 宝可梦开发者谈他们在 Switch 上的主机 RPG 首秀
+      title_ja: ポケモン開発者が語る、Nintendo Switch での据え置き機 RPG デビュー
+      title_en: "Pokémon’s Developers Talk About Their Console RPG Debut On Switch"
+      kind_zh: 视频访谈
+      kind_ja: 動画インタビュー
+      zh_url: /主创访谈/史料翻译/硬件跃迁/interview-gameinformer-2017-masuda-ohmori-pokemon-on-nintendo-switch/
+      source_url: https://www.gameinformer.com/b/features/archive/2017/08/08/pokemon-s-developers-talk-about-their-console-rpg-debut-on-switch.aspx
+    - stem: 2017-08-09-interview-game-informer-game-freak-origins-pre-pokemon
+      title_zh: GAME FREAK 的起源及其在《宝可梦》之前的游戏
+      title_ja: ゲームフリークの原点と、『ポケモン』以前の作品群
+      title_en: "Game Freak’s Origins And Its Pre-Pokémon Games"
+      kind_zh: 访谈
+      kind_ja: インタビュー
+      zh_url: /采访/开发者访谈/宝可梦红绿/game%20freak/interview-game-informer-game-freak-origins-pre-pokemon/
+      ja_url: /ja/interview-game-informer-game-freak-origins-pre-pokemon/
+      source_url: https://gameinformer.com/b/features/archive/2017/08/09/game-freaks-origins-and-non-pokemon-games.aspx
+    - stem: 2017-08-10-interview-gameinformer-how-game-freak-designs-pokemon-creatures
+      title_zh: GAME FREAK 是这样设计宝可梦生物的
+      title_ja: ゲームフリークはどのようにポケモンをデザインしているのか
+      title_en: "Here's How Game Freak Designs Pokémon Creatures"
+      kind_zh: 访谈
+      kind_ja: インタビュー
+      zh_url: /访谈翻译/角色设计/开发历史/interview-gameinformer-how-game-freak-designs-pokemon-creatures/
+      ja_url: /ja/interview-gameinformer-how-game-freak-designs-pokemon-creatures/
+      source_url: https://www.gameinformer.com/b/features/archive/2017/08/10/heres-how-game-freak-designs-pokemon-creatures.aspx
+    - title_zh: GAME FREAK 谈《宝可梦》中的玩家自由与故事
+      title_ja: ゲームフリークが語る、ポケモンにおけるプレイヤーの自由度とストーリー
+      title_en: "Game Freak On Player Freedom Vs. Story In Pokémon"
+      kind_zh: 原站报道（未收录）
+      kind_ja: 外部記事（未収録）
+      source_url: https://www.gameinformer.com/b/features/archive/2017/08/11/game-freak-on-player-freedom-vs-story-in-pokemon.aspx
+    - title_zh: 讨论我们对 GAME FREAK 的深入探访
+      title_ja: ゲームフリーク徹底探訪レポートの振り返り
+      title_en: "Discussing Our In-Depth Tour Of Game Freak"
+      kind_zh: YouTube 视频
+      kind_ja: YouTube 動画
+      source_url: https://www.youtube.com/watch?v=LATFFz27Hsw
+    - title_zh: 关于 Nintendo Switch 上《宝可梦》的一切已知信息
+      title_ja: Nintendo Switch 版ポケモンについて現在わかっていることすべて
+      title_en: "Everything We Know About Pokémon On The Nintendo Switch"
+      kind_zh: YouTube 视频
+      kind_ja: YouTube 動画
+      source_url: https://www.youtube.com/watch?v=wHpzKvhx3gw
+    - stem: 2017-08-14-interview-gameinformer-why-ruby-and-sapphire-were-most-challenging
+      title_zh: 为什么《红宝石·蓝宝石》是最难制作的宝可梦游戏
+      title_ja: なぜ『ルビー・サファイア』は最も開発が難しかったのか
+      title_en: "Why Ruby And Sapphire Were The Most Challenging Pokémon To Make"
+      kind_zh: 访谈
+      kind_ja: インタビュー
+      zh_url: /访谈翻译/开发历史/总监专访/interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/
+      ja_url: /ja/interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/
+      source_url: https://www.gameinformer.com/b/features/archive/2017/08/14/why-ruby-and-sapphire-were-the-most-challenging-pokemon-to-make.aspx
+    - stem: 2017-08-15-interview-gi-2017-spinoffs
+      title_zh: GAME FREAK 的总监分享他们最喜欢的宝可梦衍生作品
+      title_ja: ゲームフリークのディレクターたちが語る、お気に入りのポケモン派生作品
+      title_en: "Game Freak's Directors Share Their Favorite Pokémon Spin-Offs"
+      kind_zh: 访谈
+      kind_ja: インタビュー
+      zh_url: /访谈翻译/翻译/访谈整理/interview-gi-2017-spinoffs/
+      ja_url: /ja/interview-gi-2017-spinoffs/
+      source_url: https://gameinformer.com/b/features/archive/2017/08/15/game-freaks-directors-share-their-favorite-pokemon-spin-offs
+    - stem: 2017-08-16-interview-gameinformer-2017-pokemon-early-design-documents-masuda-ohmori
+      title_zh: 独家一窥《宝可梦》的早期设计文档
+      title_ja: ポケモンの初期デザイン資料を独占公開
+      title_en: "An Exclusive Look At Pokémon's Early Design Documents"
+      kind_zh: 视频特辑
+      kind_ja: 動画特集
+      zh_url: /档案解密/史料翻译/游戏工程/interview-gameinformer-2017-pokemon-early-design-documents-masuda-ohmori/
+      source_url: https://www.gameinformer.com/b/features/archive/2017/08/16/an-exclusive-look-at-pokemons-early-design-documents.aspx
+    - stem: 2017-08-17-interview-game-informer-creators-on-pokemon-anime
+      title_zh: 《宝可梦》创作者谈动画：“我们当时其实不太确定”
+      title_ja: ポケモンのクリエイターたちがアニメを振り返る「正直、確信は持てませんでした」
+      title_en: "Pokémon’s Creators On The Anime: 'We Weren't Really Sure About It'"
+      kind_zh: 访谈
+      kind_ja: インタビュー
+      zh_url: /访谈翻译/翻译/访谈整理/interview-game-informer-creators-on-pokemon-anime/
+      ja_url: /ja/interview-game-informer-creators-on-pokemon-anime/
+      source_url: https://gameinformer.com/b/features/archive/2017/08/17/pokemons-creators-on-the-anime-we-werent-really-sure-about-it.aspx
+    - title_zh: 我们拜访 GAME FREAK 之旅的 Reddit AMA
+      title_ja: ゲームフリーク訪問レポートに関する Reddit AMA
+      title_en: "Our Reddit AMA On Our Trip To Visit Game Freak"
+      kind_zh: Reddit AMA
+      kind_ja: Reddit AMA
+      source_url: https://www.reddit.com/r/pokemon/comments/6ucln2/ama_with_game_informer_magazine_about_their_trip/
+    - stem: 2017-08-18-interview-gi-2017-usum-mode
+      title_zh: 《宝可梦 究极之日·究极之月》新模式的独家揭晓
+      title_ja: 『ポケットモンスター ウルトラサン・ウルトラムーン』の新モードを独占公開
+      title_en: "Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon"
+      kind_zh: 视频专题
+      kind_ja: 動画特集
+      zh_url: /媒体专题翻译/翻译/interview-gi-2017-usum-mode/
+      ja_url: /ja/interview-gi-2017-usum-mode/
+      source_url: https://www.gameinformer.com/b/features/archive/2017/08/18/exclusive-reveal-of-a-new-mode-in-pokemon-ultra-sun-and-moon.aspx
+    - stem: 2017-09-22-interview-gi-2017-gs-history
+      title_zh: 增田顺一谈《宝可梦 金·银》的开发困境与京都灵感
+      title_ja: 増田順一が語る『ポケットモンスター 金・銀』の開発の苦難と京都からの着想
+      title_en: "The History Of Pokémon Gold And Silver"
+      kind_zh: 杂志长文专题
+      kind_ja: 雑誌特集記事
+      zh_url: /访谈翻译/翻译/访谈整理/interview-gi-2017-gs-history/
+      ja_url: /ja/interview-gi-2017-gs-history/
+      source_url: https://gameinformer.com/b/features/archive/2017/09/22/the-history-of-pokemon-gold-and-silver.aspx

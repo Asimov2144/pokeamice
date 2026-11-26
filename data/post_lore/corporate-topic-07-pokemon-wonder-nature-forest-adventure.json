@@ -1,148 +1,148 @@
 {
- "id": "corporate-topic-07-pokemon-wonder-nature-forest-adventure",
- "stem": "2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 26
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "Pokémon WONDER",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦GO",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "松丸亮吾",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "本山敬一",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "津田明子",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "稻城森林",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     4
-    ],
-    "what": "冒险舞台",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     2,
-     16
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     12
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     13
-    ],
-    "as": [
-     "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     18,
-     20
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 4,
-   "text": "参加者成为宝可梦调查员，在约4500平方米的稻城森林中调查。",
-   "anchor": 5
+  "id": "corporate-topic-07-pokemon-wonder-nature-forest-adventure",
+  "stem": "2021-08-13-corporate-topic-07-pokemon-wonder-nature-forest-adventure",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 26
   },
-  {
-   "seg": 18,
-   "text": "全体相关人员提出的点子超过100个，经反复测试与调整。",
-   "anchor": 19
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "Pokémon WONDER",
+        "slug": null,
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "松丸亮吾",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "本山敬一",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "津田明子",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "稻城森林",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          4
+        ],
+        "what": "冒险舞台",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          2,
+          16
+        ],
+        "as": [
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          12
+        ],
+        "as": [
+          "协作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          13
+        ],
+        "as": [
+          "热潮"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          18,
+          20
+        ],
+        "as": [
+          "测试"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 4,
+      "text": "参加者成为宝可梦调查员，在约4500平方米的稻城森林中调查。",
+      "anchor": 5
+    },
+    {
+      "seg": 18,
+      "text": "全体相关人员提出的点子超过100个，经反复测试与调整。",
+      "anchor": 19
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

@@ -1,157 +1,157 @@
 {
- "id": "corporate-topic-24-pokemon-unite-koshien-high-school-esports",
- "stem": "2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 33
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "Pokémon UNITE",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     28
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [],
-  "places": [],
-  "concepts": [
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     2
-    ],
-    "as": [
-     "手机游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "competitive",
-    "name": "竞技与官方大赛",
-    "facet": "system",
-    "seg": [
-     9,
-     17,
-     27,
-     28
-    ],
-    "as": [
-     "官方大赛",
-     "世界大赛",
-     "世界锦标赛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     11
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     13
-    ],
-    "as": [
-     "社交网络"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     13
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     22
-    ],
-    "as": [
-     "家长"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     28
-    ],
-    "as": [
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     29
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "高中生限定赛事宝可梦大集结甲子园于2022年诞生",
-   "anchor": 3
+  "id": "corporate-topic-24-pokemon-unite-koshien-high-school-esports",
+  "stem": "2024-08-28-corporate-topic-24-pokemon-unite-koshien-high-school-esports",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 33
   },
-  {
-   "seg": 3,
-   "text": "《Pokémon UNITE》全球下载量已突破1亿5000万次",
-   "anchor": 4
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦大集结",
+        "slug": null,
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          28
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [],
+    "places": [],
+    "concepts": [
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          2
+        ],
+        "as": [
+          "手机游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "competitive",
+        "name": "竞技与官方大赛",
+        "facet": "system",
+        "seg": [
+          9,
+          17,
+          27,
+          28
+        ],
+        "as": [
+          "官方大赛",
+          "世界大赛",
+          "世界锦标赛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          11
+        ],
+        "as": [
+          "从零开始"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          13
+        ],
+        "as": [
+          "社交网络"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          13
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          22
+        ],
+        "as": [
+          "家长"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          28
+        ],
+        "as": [
+          "卡牌游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          29
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 2,
+      "text": "高中生限定赛事宝可梦大集结甲子园于2022年诞生",
+      "anchor": 3
+    },
+    {
+      "seg": 3,
+      "text": "《Pokémon UNITE》全球下载量已突破1亿5000万次",
+      "anchor": 4
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

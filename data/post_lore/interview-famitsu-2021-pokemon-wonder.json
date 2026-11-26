@@ -1,495 +1,500 @@
 {
- "id": "interview-famitsu-2021-pokemon-wonder",
- "stem": "2021-07-17-interview-famitsu-2021-pokemon-wonder",
- "rev": 1,
- "built": "2026-10-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 111
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "铁甲蛹",
-    "ndex": 11,
-    "seg": [
-     88
-    ],
-    "as": [
-     "铁甲蛹"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     47
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "走路草",
-    "ndex": 43,
-    "seg": [
-     96
-    ],
-    "as": [
-     "走路草"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "大宇怪",
-    "ndex": 606,
-    "seg": [
-     110
-    ],
-    "as": [
-     "大宇怪"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "Pokémon WONDER",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦GO",
-    "slug": null,
-    "seg": [
-     36
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "FGO",
-    "slug": null,
-    "seg": [
-     36
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "尼尔",
-    "slug": null,
-    "seg": [
-     36
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦不可思议迷宫 救助队DX",
-    "slug": null,
-    "seg": [
-     38
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "惊奇之心",
-    "slug": null,
-    "seg": [
-     58
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "ファミ通",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     44,
-     46,
-     50,
-     53,
-     55,
-     59
-    ]
-   },
-   {
-    "name": "津田明子",
-    "slug": "jin-tian-ming-zi",
-    "role": "speaker",
-    "seg": [
-     45,
-     47,
-     48,
-     51,
-     52,
-     54
-    ]
-   },
-   {
-    "name": "本山敬一",
-    "slug": "motoyama-keiichi",
-    "role": "speaker",
-    "seg": [
-     58,
-     60,
-     61,
-     63,
-     64,
-     65
-    ]
-   },
-   {
-    "name": "藤本海右",
-    "slug": "teng-ben-hai-you",
-    "role": "speaker",
-    "seg": [
-     67,
-     68,
-     69,
-     72,
-     74,
-     75
-    ]
-   },
-   {
-    "name": "松丸亮吾",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     54
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "蕾切尔·卡森",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     58
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "中谷芙二子",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     82
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "读卖乐园",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     0
-    ],
-    "what": "活动实施游乐园",
-    "via": "llm"
-   },
-   {
-    "name": "京王读卖乐园站",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     8
-    ],
-    "what": "记者抵达的车站",
-    "via": "llm"
-   },
-   {
-    "name": "稻城市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     0
-    ],
-    "what": "读卖乐园所在城市",
-    "via": "llm"
-   },
-   {
-    "name": "横滨",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     47
-    ],
-    "what": "往届活动举办城市",
-    "via": "llm"
-   },
-   {
-    "name": "京都",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     82
-    ],
-    "what": "中谷芙二子作品展出地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     0,
-     45,
-     47,
-     59,
-     88,
-     102
-    ],
-    "as": [
-     "大自然",
-     "昆虫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mystery",
-    "name": "神秘感",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "神秘的"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     18
-    ],
-    "as": [
-     "モンスターボール"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     34,
-     36
-    ],
-    "as": [
-     "宣传",
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     36
-    ],
-    "as": [
-     "演唱会"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     38,
-     92
-    ],
-    "as": [
-     "迷宫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     38,
-     92
-    ],
-    "as": [
-     "宝可梦卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     38
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     54,
-     79,
-     97
-    ],
-    "as": [
-     "完成度",
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     61,
-     62
-    ],
-    "as": [
-     "草属性",
-     "火属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     63,
-     102
-    ],
-    "as": [
-     "孩子们",
-     "小学生"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     63,
-     64
-    ],
-    "as": [
-     "试作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     63,
-     85,
-     86,
-     96
-    ],
-    "as": [
-     "试玩",
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     78
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     107
-    ],
-    "as": [
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     107
-    ],
-    "as": [
-     "亲子"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 0,
-   "text": "宝可梦WONDER于2021年7月1日公布，7月17日起在读卖乐园实施。",
-   "anchor": 1
+  "id": "interview-famitsu-2021-pokemon-wonder",
+  "stem": "2021-07-17-interview-famitsu-2021-pokemon-wonder",
+  "rev": 1,
+  "built": "2026-10-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 111
   },
-  {
-   "seg": 10,
-   "text": "一次体验可调查3个区域，共有5个区域，每进入新区域会得到对应地图。",
-   "anchor": 11
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "relations_model": "deepseek-chat",
-  "segment_audit": "2026-11-12"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "铁甲蛹",
+        "ndex": 11,
+        "seg": [
+          88
+        ],
+        "as": [
+          "铁甲蛹"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          47
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "走路草",
+        "ndex": 43,
+        "seg": [
+          96
+        ],
+        "as": [
+          "走路草"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "大宇怪",
+        "ndex": 606,
+        "seg": [
+          110
+        ],
+        "as": [
+          "大宇怪"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "Pokémon WONDER",
+        "slug": null,
+        "seg": [
+          1
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          35,
+          36
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦不可思议迷宫 救助队DX",
+        "slug": "mystery-dungeon-rescue-team-dx",
+        "seg": [
+          37,
+          38
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "FGO",
+        "slug": null,
+        "seg": [
+          35,
+          36
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "尼尔",
+        "slug": null,
+        "seg": [
+          35,
+          36
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "惊奇之心",
+        "slug": null,
+        "seg": [
+          55,
+          58
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "ファミ通",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          44,
+          46,
+          50,
+          53,
+          55,
+          59
+        ]
+      },
+      {
+        "name": "津田明子",
+        "slug": "jin-tian-ming-zi",
+        "role": "speaker",
+        "seg": [
+          45,
+          47,
+          48,
+          51,
+          52,
+          54
+        ]
+      },
+      {
+        "name": "本山敬一",
+        "slug": "motoyama-keiichi",
+        "role": "speaker",
+        "seg": [
+          58,
+          60,
+          61,
+          63,
+          64,
+          65
+        ]
+      },
+      {
+        "name": "藤本海右",
+        "slug": "teng-ben-hai-you",
+        "role": "speaker",
+        "seg": [
+          67,
+          68,
+          69,
+          72,
+          74,
+          75
+        ]
+      },
+      {
+        "name": "松丸亮吾",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          54
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "蕾切尔·卡森",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          58
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "中谷芙二子",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          82
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "读卖乐园",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          0
+        ],
+        "what": "活动实施游乐园",
+        "via": "llm"
+      },
+      {
+        "name": "京王读卖乐园站",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          8
+        ],
+        "what": "记者抵达的车站",
+        "via": "llm"
+      },
+      {
+        "name": "稻城市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          0
+        ],
+        "what": "读卖乐园所在城市",
+        "via": "llm"
+      },
+      {
+        "name": "横滨",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          47
+        ],
+        "what": "往届活动举办城市",
+        "via": "llm"
+      },
+      {
+        "name": "京都",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          82
+        ],
+        "what": "中谷芙二子作品展出地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          0,
+          45,
+          47,
+          59,
+          88,
+          102
+        ],
+        "as": [
+          "大自然",
+          "昆虫"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mystery",
+        "name": "神秘感",
+        "facet": "design",
+        "seg": [
+          12
+        ],
+        "as": [
+          "神秘的"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          18
+        ],
+        "as": [
+          "モンスターボール"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          34,
+          36
+        ],
+        "as": [
+          "宣传",
+          "广告"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-music",
+        "name": "音乐剧与演出",
+        "facet": "franchise",
+        "seg": [
+          36
+        ],
+        "as": [
+          "演唱会"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          38,
+          92
+        ],
+        "as": [
+          "迷宫"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          38,
+          92
+        ],
+        "as": [
+          "宝可梦卡牌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          38
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          54,
+          79,
+          97
+        ],
+        "as": [
+          "完成度",
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          61,
+          62
+        ],
+        "as": [
+          "草属性",
+          "火属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          63,
+          102
+        ],
+        "as": [
+          "孩子们",
+          "小学生"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          63,
+          64
+        ],
+        "as": [
+          "试作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          63,
+          85,
+          86,
+          96
+        ],
+        "as": [
+          "试玩",
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          78
+        ],
+        "as": [
+          "宝可梦图鉴"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          107
+        ],
+        "as": [
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          107
+        ],
+        "as": [
+          "亲子"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 0,
+      "text": "宝可梦WONDER于2021年7月1日公布，7月17日起在读卖乐园实施。",
+      "anchor": 1
+    },
+    {
+      "seg": 10,
+      "text": "一次体验可调查3个区域，共有5个区域，每进入新区域会得到对应地图。",
+      "anchor": 11
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "relations_model": "deepseek-chat",
+    "segment_audit": "2026-11-12"
+  },
+  "edited": false
 }

@@ -1,588 +1,594 @@
 {
- "id": "interview-takeshi-shudo-pokemon-memoir-ch222",
- "stem": "2010-05-19-interview-takeshi-shudo-pokemon-memoir-ch222",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 112
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     43
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "ニャース",
-    "ndex": 52,
-    "seg": [
-     46
-    ],
-    "as": [
-     "ニャース"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "ミュウツー",
-    "ndex": 150,
-    "seg": [
-     51,
-     47
-    ],
-    "as": [
-     "ミュウツー",
-     "Mewtwo"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "超梦的逆袭",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "洛奇亚爆诞",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "结晶塔的帝王",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "超梦重现",
-    "slug": null,
-    "seg": [
-     51
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "喵喵之歌",
-    "slug": null,
-    "seg": [
-     46,
-     48
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "凉宫春日的消失",
-    "slug": null,
-    "seg": [
-     97
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宫本武藏：双剑飞驰之梦",
-    "slug": null,
-    "seg": [
-     96
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "四叠半神话大系",
-    "slug": null,
-    "seg": [
-     108
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "8月的交响曲",
-    "slug": null,
-    "seg": [
-     94
-    ],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "首藤刚志",
-    "slug": "shudo-takeshi",
-    "role": "mentioned",
-    "seg": [
-     68
-    ]
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": [
-     40,
-     85
-    ]
-   },
-   {
-    "name": "林原惠",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     90
-    ]
-   },
-   {
-    "name": "三木真一郎",
-    "slug": "miki-shinichiro",
-    "role": "mentioned",
-    "seg": [
-     90
-    ]
-   },
-   {
-    "name": "犬山犬子",
-    "slug": "inuyama-inuko",
-    "role": "mentioned",
-    "seg": [
-     90
-    ]
-   },
-   {
-    "name": "押井守",
-    "slug": "ya-jing-shou",
-    "role": "mentioned",
-    "seg": [
-     96
-    ],
-    "kind": "figure"
-   },
-   {
-    "name": "汤浅政明",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     108
-    ]
-   },
-   {
-    "name": "森见登美彦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     108
-    ]
-   }
-  ],
-  "places": [
-   {
-    "name": "纽约中央公园",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     1
-    ],
-    "what": "遭遇暴雨之地",
-    "via": "llm"
-   },
-   {
-    "name": "根钏原野",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     30
-    ],
-    "what": "北海道原野",
-    "via": "llm"
-   },
-   {
-    "name": "西伯利亚",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     30
-    ],
-    "what": "荒原比较对象",
-    "via": "llm"
-   },
-   {
-    "name": "北海道",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     30
-    ],
-    "what": "首藤五至九岁居住地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     0,
-     38,
-     54,
-     57,
-     64,
-     65
-    ],
-    "as": [
-     "系列构成",
-     "动画剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     0,
-     42,
-     49,
-     50,
-     51,
-     70
-    ],
-    "as": [
-     "剧场版",
-     "动画电影"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     4,
-     29,
-     30
-    ],
-    "as": [
-     "孩子们",
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     5,
-     8,
-     9,
-     10,
-     11,
-     38
-    ],
-    "as": [
-     "剧本",
-     "编剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     28,
-     30,
-     31
-    ],
-    "as": [
-     "大自然"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     30
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     36
-    ],
-    "as": [
-     "随机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
-    "seg": [
-     40
-    ],
-    "as": [
-     "昏厥"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     43
-    ],
-    "as": [
-     "漏洞"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     54,
-     84,
-     97
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     56,
-     57
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     59
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     66,
-     108
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     69
-    ],
-    "as": [
-     "团队内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     82
-    ],
-    "as": [
-     "强度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     84
-    ],
-    "as": [
-     "工期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "voice",
-    "name": "配音",
-    "facet": "audio",
-    "seg": [
-     90
-    ],
-    "as": [
-     "声优"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     94
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     94
-    ],
-    "as": [
-     "交响"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "accessibility",
-    "name": "无障碍",
-    "facet": "audience",
-    "seg": [
-     97
-    ],
-    "as": [
-     "无障碍"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     99
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     108
-    ],
-    "as": [
-     "效果音"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 40,
-   "text": "汤山邦彦在会议桌下用脚踢醒睡着的首藤刚志",
-   "anchor": 41
+  "id": "interview-takeshi-shudo-pokemon-memoir-ch222",
+  "stem": "2010-05-19-interview-takeshi-shudo-pokemon-memoir-ch222",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 112
   },
-  {
-   "seg": 49,
-   "text": "首藤刚志主动向高层辞退第4部剧场版编剧一职",
-   "anchor": 50
-  }
- ],
- "relations": [
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch218",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第218回：“回过神来身在纽约”（御前会议美版魔改之辩、偶遇基努里维斯与《麦麦新子》普遍童年论）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch218/",
-   "why": "同系列纽约行，御前会议与赴美考察背景"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          43
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "ニャース",
+        "ndex": 52,
+        "seg": [
+          46
+        ],
+        "as": [
+          "ニャース"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "ミュウツー",
+        "ndex": 150,
+        "seg": [
+          51,
+          47
+        ],
+        "as": [
+          "ミュウツー",
+          "Mewtwo"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "超梦的逆袭",
+        "slug": null,
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "洛奇亚爆诞",
+        "slug": null,
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "结晶塔的帝王",
+        "slug": null,
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "超梦重现",
+        "slug": null,
+        "seg": [
+          51
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "喵喵之歌",
+        "slug": null,
+        "seg": [
+          46,
+          48
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "凉宫春日的消失",
+        "slug": null,
+        "seg": [
+          97
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宫本武藏：双剑飞驰之梦",
+        "slug": null,
+        "seg": [
+          96
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "四叠半神话大系",
+        "slug": null,
+        "seg": [
+          108
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "8月的交响曲",
+        "slug": null,
+        "seg": [
+          94
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "首藤刚志",
+        "slug": "shudo-takeshi",
+        "role": "mentioned",
+        "seg": [
+          68
+        ]
+      },
+      {
+        "name": "汤山邦彦",
+        "slug": "yuyama-kunihiko",
+        "role": "mentioned",
+        "seg": [
+          40,
+          85
+        ]
+      },
+      {
+        "name": "林原惠",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          90
+        ]
+      },
+      {
+        "name": "三木真一郎",
+        "slug": "miki-shinichiro",
+        "role": "mentioned",
+        "seg": [
+          90
+        ]
+      },
+      {
+        "name": "犬山犬子",
+        "slug": "inuyama-inuko",
+        "role": "mentioned",
+        "seg": [
+          90
+        ]
+      },
+      {
+        "name": "押井守",
+        "slug": "ya-jing-shou",
+        "role": "mentioned",
+        "seg": [
+          96
+        ],
+        "kind": "figure"
+      },
+      {
+        "name": "汤浅政明",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          108
+        ]
+      },
+      {
+        "name": "森见登美彦",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          108
+        ]
+      }
+    ],
+    "places": [
+      {
+        "name": "纽约中央公园",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          1
+        ],
+        "what": "遭遇暴雨之地",
+        "via": "llm"
+      },
+      {
+        "name": "根钏原野",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          30
+        ],
+        "what": "北海道原野",
+        "via": "llm"
+      },
+      {
+        "name": "西伯利亚",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          30
+        ],
+        "what": "荒原比较对象",
+        "via": "llm"
+      },
+      {
+        "name": "北海道",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          30
+        ],
+        "what": "首藤五至九岁居住地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          0,
+          38,
+          54,
+          57,
+          64,
+          65
+        ],
+        "as": [
+          "系列构成",
+          "动画剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          0,
+          42,
+          49,
+          50,
+          51,
+          70
+        ],
+        "as": [
+          "剧场版",
+          "动画电影"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          4,
+          29,
+          30
+        ],
+        "as": [
+          "孩子们",
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          5,
+          8,
+          9,
+          10,
+          11,
+          38
+        ],
+        "as": [
+          "剧本",
+          "编剧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          28,
+          30,
+          31
+        ],
+        "as": [
+          "大自然"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          30
+        ],
+        "as": [
+          "童年"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          36
+        ],
+        "as": [
+          "随机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "life-and-death",
+        "name": "生死的表述",
+        "facet": "design",
+        "seg": [
+          40
+        ],
+        "as": [
+          "昏厥"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          43
+        ],
+        "as": [
+          "漏洞"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          54,
+          84,
+          97
+        ],
+        "as": [
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          56,
+          57
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          59
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          66,
+          108
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          69
+        ],
+        "as": [
+          "团队内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          82
+        ],
+        "as": [
+          "强度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          84
+        ],
+        "as": [
+          "工期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "voice",
+        "name": "配音",
+        "facet": "audio",
+        "seg": [
+          90
+        ],
+        "as": [
+          "声优"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          94
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-music",
+        "name": "音乐剧与演出",
+        "facet": "franchise",
+        "seg": [
+          94
+        ],
+        "as": [
+          "交响"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍",
+        "facet": "audience",
+        "seg": [
+          97
+        ],
+        "as": [
+          "无障碍"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          99
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          108
+        ],
+        "as": [
+          "效果音"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch211",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第211回：“从幻之第三弹走向《结晶塔的帝王》”（四驱车暴走惨败阴影、未知图腾与炎帝的降临、送给亲生女儿的剧作礼物）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch211/",
-   "why": "幻之第三弹被枪毙，辞退第四作前情"
+  "observations": [
+    {
+      "seg": 40,
+      "text": "汤山邦彦在会议桌下用脚踢醒睡着的首藤刚志",
+      "anchor": 41
+    },
+    {
+      "seg": 49,
+      "text": "首藤刚志主动向高层辞退第4部剧场版编剧一职",
+      "anchor": 50
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch218",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第218回：“回过神来身在纽约”（御前会议美版魔改之辩、偶遇基努里维斯与《麦麦新子》普遍童年论）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch218/",
+      "why": "同系列纽约行，御前会议与赴美考察背景"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch211",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第211回：“从幻之第三弹走向《结晶塔的帝王》”（四驱车暴走惨败阴影、未知图腾与炎帝的降临、送给亲生女儿的剧作礼物）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch211/",
+      "why": "幻之第三弹被枪毙，辞退第四作前情"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+      "why": "病房开剧本会，身心崩溃前情"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch210",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第210回：“幻之宝可梦电影第三弹……化作泡影”（暴龙化石苏醒横扫真新镇、宝可梦世界消失的动物与拟人化戏剧哲学拷问）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch210/",
+      "why": "幻之第三弹大纲，斯巴达克斯式构想前身"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
-   "why": "病房开剧本会，身心崩溃前情"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch210",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第210回：“幻之宝可梦电影第三弹……化作泡影”（暴龙化石苏醒横扫真新镇、宝可梦世界消失的动物与拟人化戏剧哲学拷问）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch210/",
-   "why": "幻之第三弹大纲，斯巴达克斯式构想前身"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

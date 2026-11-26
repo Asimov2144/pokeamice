@@ -1,189 +1,189 @@
 {
- "id": "corporate-topic-11-project-voltage-hatsune-miku-music",
- "stem": "2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 27
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 feat.初音未来 Project VOLTAGE 18 Types/Songs",
-    "slug": null,
-    "seg": [
-     9
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [],
-  "places": [],
-  "concepts": [
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     3,
-     9
-    ],
-    "as": [
-     "主题曲",
-     "BGM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     4
-    ],
-    "as": [
-     "进公司"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     4
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     6,
-     9
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     12,
-     13,
-     14,
-     15,
-     21
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     12,
-     20
-    ],
-    "as": [
-     "和音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     15
-    ],
-    "as": [
-     "音乐创作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     15
-    ],
-    "as": [
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     17,
-     18
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     20
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 7,
-   "text": "初音未来2007年登场，与宝可梦一样原点在于软件",
-   "anchor": 8
+  "id": "corporate-topic-11-project-voltage-hatsune-miku-music",
+  "stem": "2023-12-22-corporate-topic-11-project-voltage-hatsune-miku-music",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 27
   },
-  {
-   "seg": 12,
-   "text": "为展现18种个性，制作18个角色设计和插画、18首乐曲和MV",
-   "anchor": 13
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "Project VOLTAGE",
+        "slug": null,
+        "seg": [
+          9
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [],
+    "places": [],
+    "concepts": [
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          3,
+          9
+        ],
+        "as": [
+          "主题曲",
+          "BGM"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          4
+        ],
+        "as": [
+          "进公司"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          4
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          6,
+          9
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          12
+        ],
+        "as": [
+          "角色设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          12,
+          13,
+          14,
+          15,
+          21
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sound-hardware",
+        "name": "音源与机能",
+        "facet": "audio",
+        "seg": [
+          12,
+          20
+        ],
+        "as": [
+          "和音"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          15
+        ],
+        "as": [
+          "音乐创作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          15
+        ],
+        "as": [
+          "卡牌游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          17,
+          18
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          20
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 7,
+      "text": "初音未来2007年登场，与宝可梦一样原点在于软件",
+      "anchor": 8
+    },
+    {
+      "seg": 12,
+      "text": "为展现18种个性，制作18个角色设计和插画、18首乐曲和MV",
+      "anchor": 13
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

@@ -1,938 +1,941 @@
 {
- "id": "interview-nintendo-power-masuda-gens-1-4",
- "stem": "2009-04-01-interview-nintendo-power-masuda-gens-1-4",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 107
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     89
-    ],
-    "as": [
-     "妙蛙种子"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     80,
-     83,
-     87,
-     91
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "时拉比",
-    "ndex": 251,
-    "seg": [
-     37
-    ],
-    "as": [
-     "时拉比"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "正电拍拍",
-    "ndex": 311,
-    "seg": [
-     87
-    ],
-    "as": [
-     "正电拍拍"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "帕奇利兹",
-    "ndex": 417,
-    "seg": [
-     87
-    ],
-    "as": [
-     "帕奇利兹"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "由克希",
-    "ndex": 480,
-    "seg": [
-     40
-    ],
-    "as": [
-     "由克希"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "艾姆利多",
-    "ndex": 481,
-    "seg": [
-     40
-    ],
-    "as": [
-     "艾姆利多"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "亚克诺姆",
-    "ndex": 482,
-    "seg": [
-     40
-    ],
-    "as": [
-     "亚克诺姆"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "帝牙卢卡",
-    "ndex": 483,
-    "seg": [
-     40,
-     58,
-     70
-    ],
-    "as": [
-     "帝牙卢卡"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "帕路奇亚",
-    "ndex": 484,
-    "seg": [
-     40,
-     58,
-     70
-    ],
-    "as": [
-     "帕路奇亚"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "骑拉帝纳",
-    "ndex": 487,
-    "seg": [
-     70
-    ],
-    "as": [
-     "骑拉帝纳"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "电飞鼠",
-    "ndex": 587,
-    "seg": [
-     87
-    ],
-    "as": [
-     "电飞鼠"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮丘",
-    "ndex": 172,
-    "seg": [
-     83
-    ],
-    "as": [
-     "皮丘"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 白金",
-    "slug": "platinum",
-    "seg": [
-     2,
-     101
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 水晶版",
-    "slug": "crystal",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "孟德尔宫殿",
-    "slug": null,
-    "seg": [
-     8
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Quinty",
-    "slug": null,
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "绿宝石",
-    "slug": null,
-    "seg": [
-     64
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Let's Go 皮卡丘",
-    "slug": null,
-    "seg": [
-     80
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "心金／魂银",
-    "slug": null,
-    "seg": [
-     87
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     8,
-     16,
-     20,
-     23,
-     26,
-     29
-    ]
-   },
-   {
-    "name": "川知丸武",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     10,
-     17,
-     27,
-     45,
-     50,
-     53
-    ]
-   },
-   {
-    "name": "提问",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     90,
-     93,
-     97,
-     101
-    ]
-   },
-   {
-    "name": "河内丸武史",
-    "slug": "kawachimaru-takeshi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "mentioned",
-    "seg": [
-     12,
-     83
-    ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": [
-     8,
-     12,
-     20
-    ]
-   },
-   {
-    "name": "河内丸武志",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "斯特拉文斯基",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "肖斯塔科维奇",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "霍尔斯特",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "拉威尔",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "福冈县",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     10
-    ],
-    "what": "河内丸长大的地方",
-    "via": "llm"
-   },
-   {
-    "name": "长崎县",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     10
-    ],
-    "what": "河内丸长大的地方",
-    "via": "llm"
-   },
-   {
-    "name": "町田",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     13
-    ],
-    "what": "田尻长大的小镇",
-    "via": "llm"
-   },
-   {
-    "name": "横滨",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     10
-    ],
-    "what": "增田长大的城市",
-    "via": "llm"
-   },
-   {
-    "name": "九州",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     10
-    ],
-    "what": "河内丸长大的地方",
-    "via": "llm"
-   },
-   {
-    "name": "东京",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     10
-    ],
-    "what": "河内丸搬去的地方",
-    "via": "llm"
-   },
-   {
-    "name": "关都地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     13
-    ],
-    "what": "宝可梦游戏地区",
-    "via": "llm"
-   },
-   {
-    "name": "丰缘地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     13
-    ],
-    "what": "宝可梦游戏地区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     2,
-     10,
-     48,
-     51,
-     57
-    ],
-    "as": [
-     "在线",
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     8,
-     12,
-     22,
-     23,
-     29,
-     31
-    ],
-    "as": [
-     "作曲",
-     "创作音乐",
-     "音乐创作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     10
-    ],
-    "as": [
-     "招聘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     12,
-     31
-    ],
-    "as": [
-     "第一世代",
-     "第五世代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     12
-    ],
-    "as": [
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     16,
-     46
-    ],
-    "as": [
-     "小学生"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     20,
-     99
-    ],
-    "as": [
-     "玩家之间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     20
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     20,
-     23
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     22,
-     23
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     23
-    ],
-    "as": [
-     "配乐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     27
-    ],
-    "as": [
-     "办公室"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     31
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     31
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     40
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     40
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     40
-    ],
-    "as": [
-     "想表达"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     40,
-     51,
-     99
-    ],
-    "as": [
-     "交换宝可梦",
-     "进行交换"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     42,
-     43,
-     46,
-     76,
-     80
-    ],
-    "as": [
-     "新玩家",
-     "老玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     43
-    ],
-    "as": [
-     "战斗系统"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     43,
-     72
-    ],
-    "as": [
-     "随机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     55
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     55
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     59
-    ],
-    "as": [
-     "开发期间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     61,
-     64,
-     103
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     64
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     76
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     77
-    ],
-    "as": [
-     "配信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     78
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     80
-    ],
-    "as": [
-     "孵蛋"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     84
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     90
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     91
-    ],
-    "as": [
-     "电属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     95
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 8,
-   "text": "增田21岁受田尻智邀请加入《孟德尔宫殿》，成为游戏音乐作曲家。",
-   "anchor": 9
+  "id": "interview-nintendo-power-masuda-gens-1-4",
+  "stem": "2009-04-01-interview-nintendo-power-masuda-gens-1-4",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 107
   },
-  {
-   "seg": 72,
-   "text": "河内丸在开发《白金》时才从增田处得知骑拉帝纳与反世界概念。",
-   "anchor": 73
-  }
- ],
- "relations": [
-  {
-   "id": "scan-ndream-2009-11-hgss-developer-interview",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "心金·魂银开发访谈",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
-   "why": "同为2009年增田顺一谈系列早期开发与重制经过"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          89
+        ],
+        "as": [
+          "妙蛙种子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          80,
+          83,
+          87,
+          91
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "时拉比",
+        "ndex": 251,
+        "seg": [
+          37
+        ],
+        "as": [
+          "时拉比"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "正电拍拍",
+        "ndex": 311,
+        "seg": [
+          87
+        ],
+        "as": [
+          "正电拍拍"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "帕奇利兹",
+        "ndex": 417,
+        "seg": [
+          87
+        ],
+        "as": [
+          "帕奇利兹"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "由克希",
+        "ndex": 480,
+        "seg": [
+          40
+        ],
+        "as": [
+          "由克希"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "艾姆利多",
+        "ndex": 481,
+        "seg": [
+          40
+        ],
+        "as": [
+          "艾姆利多"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "亚克诺姆",
+        "ndex": 482,
+        "seg": [
+          40
+        ],
+        "as": [
+          "亚克诺姆"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "帝牙卢卡",
+        "ndex": 483,
+        "seg": [
+          40,
+          58,
+          70
+        ],
+        "as": [
+          "帝牙卢卡"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "帕路奇亚",
+        "ndex": 484,
+        "seg": [
+          40,
+          58,
+          70
+        ],
+        "as": [
+          "帕路奇亚"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "骑拉帝纳",
+        "ndex": 487,
+        "seg": [
+          70
+        ],
+        "as": [
+          "骑拉帝纳"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "电飞鼠",
+        "ndex": 587,
+        "seg": [
+          87
+        ],
+        "as": [
+          "电飞鼠"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮丘",
+        "ndex": 172,
+        "seg": [
+          83
+        ],
+        "as": [
+          "皮丘"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 白金",
+        "slug": "platinum",
+        "seg": [
+          2,
+          101
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          2
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          23
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          34
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 水晶版",
+        "slug": "crystal",
+        "seg": [
+          34
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          40
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 绿宝石",
+        "slug": "emerald",
+        "seg": [
+          64
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+        "slug": "lets-go",
+        "seg": [
+          80
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 心金·魂银",
+        "slug": "heartgold-soulsilver",
+        "seg": [
+          87
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Quinty",
+        "slug": null,
+        "seg": [
+          8,
+          12
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          8,
+          16,
+          20,
+          23,
+          26,
+          29
+        ]
+      },
+      {
+        "name": "川知丸武",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          10,
+          17,
+          27,
+          45,
+          50,
+          53
+        ]
+      },
+      {
+        "name": "提问",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          90,
+          93,
+          97,
+          101
+        ]
+      },
+      {
+        "name": "河内丸武史",
+        "slug": "kawachimaru-takeshi",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "mentioned",
+        "seg": [
+          12,
+          83
+        ]
+      },
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "mentioned",
+        "seg": [
+          8,
+          12,
+          20
+        ]
+      },
+      {
+        "name": "河内丸武志",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "斯特拉文斯基",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          29
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "肖斯塔科维奇",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          29
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "霍尔斯特",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          29
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "拉威尔",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          29
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "福冈县",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          10
+        ],
+        "what": "河内丸长大的地方",
+        "via": "llm"
+      },
+      {
+        "name": "长崎县",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          10
+        ],
+        "what": "河内丸长大的地方",
+        "via": "llm"
+      },
+      {
+        "name": "町田",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          13
+        ],
+        "what": "田尻长大的小镇",
+        "via": "llm"
+      },
+      {
+        "name": "横滨",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          10
+        ],
+        "what": "增田长大的城市",
+        "via": "llm"
+      },
+      {
+        "name": "九州",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          10
+        ],
+        "what": "河内丸长大的地方",
+        "via": "llm"
+      },
+      {
+        "name": "东京",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          10
+        ],
+        "what": "河内丸搬去的地方",
+        "via": "llm"
+      },
+      {
+        "name": "关都地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          13
+        ],
+        "what": "宝可梦游戏地区",
+        "via": "llm"
+      },
+      {
+        "name": "丰缘地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          13
+        ],
+        "what": "宝可梦游戏地区",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          2,
+          10,
+          48,
+          51,
+          57
+        ],
+        "as": [
+          "在线",
+          "联网"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          8,
+          12,
+          22,
+          23,
+          29,
+          31
+        ],
+        "as": [
+          "作曲",
+          "创作音乐",
+          "音乐创作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          10
+        ],
+        "as": [
+          "招聘"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          12,
+          31
+        ],
+        "as": [
+          "第一世代",
+          "第五世代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          12
+        ],
+        "as": [
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          16,
+          46
+        ],
+        "as": [
+          "小学生"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          20,
+          99
+        ],
+        "as": [
+          "玩家之间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          20
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          20,
+          23
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          22,
+          23
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          23
+        ],
+        "as": [
+          "配乐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          27
+        ],
+        "as": [
+          "办公室"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          31
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          31
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          40
+        ],
+        "as": [
+          "宝可梦图鉴"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          40
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          40
+        ],
+        "as": [
+          "想表达"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          40,
+          51,
+          99
+        ],
+        "as": [
+          "交换宝可梦",
+          "进行交换"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          42,
+          43,
+          46,
+          76,
+          80
+        ],
+        "as": [
+          "新玩家",
+          "老玩家"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          43
+        ],
+        "as": [
+          "战斗系统"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          43,
+          72
+        ],
+        "as": [
+          "随机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          55
+        ],
+        "as": [
+          "免费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          55
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          59
+        ],
+        "as": [
+          "开发期间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          61,
+          64,
+          103
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          64
+        ],
+        "as": [
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          76
+        ],
+        "as": [
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          77
+        ],
+        "as": [
+          "配信"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          78
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          80
+        ],
+        "as": [
+          "孵蛋"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          84
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          90
+        ],
+        "as": [
+          "角色设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          91
+        ],
+        "as": [
+          "电属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          95
+        ],
+        "as": [
+          "卡带"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-2083-gamefreak-sound-team-red-green-to-oras",
-   "kind": "responds",
-   "label": "后来回应了这篇",
-   "title": "2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》",
-   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6oras/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-2083-gamefreak-sound-team-red-green-to-oras/",
-   "why": "增田回顾红绿全部声音与亚洲元素，补充其音乐起点"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 8,
+      "text": "增田21岁受田尻智邀请加入《孟德尔宫殿》，成为游戏音乐作曲家。",
+      "anchor": 9
+    },
+    {
+      "seg": 72,
+      "text": "河内丸在开发《白金》时才从增田处得知骑拉帝纳与反世界概念。",
+      "anchor": 73
+    }
+  ],
+  "relations": [
+    {
+      "id": "scan-ndream-2009-11-hgss-developer-interview",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "心金·魂银开发访谈",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+      "why": "同为2009年增田顺一谈系列早期开发与重制经过"
+    },
+    {
+      "id": "interview-2083-gamefreak-sound-team-red-green-to-oras",
+      "kind": "responds",
+      "label": "后来回应了这篇",
+      "title": "2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》",
+      "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6oras/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-2083-gamefreak-sound-team-red-green-to-oras/",
+      "why": "增田回顾红绿全部声音与亚洲元素，补充其音乐起点"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

@@ -1,221 +1,221 @@
 {
- "id": "interview-nintendoaccion-199-masuda-kawachimaru-platinum",
- "stem": "2009-05-15-interview-nintendoaccion-199-masuda-kawachimaru-platinum",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 20
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "骑拉帝纳",
-    "ndex": 487,
-    "seg": [
-     1
+  "id": "interview-nintendoaccion-199-masuda-kawachimaru-platinum",
+  "stem": "2009-05-15-interview-nintendoaccion-199-masuda-kawachimaru-platinum",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 20
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "骑拉帝纳",
+        "ndex": 487,
+        "seg": [
+          1
+        ],
+        "as": [
+          "骑拉帝纳"
+        ],
+        "via": "tag"
+      }
     ],
-    "as": [
-     "骑拉帝纳"
+    "works": [
+      {
+        "name": "宝可梦 白金",
+        "slug": "platinum",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          1
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 火红·叶绿",
+        "slug": "firered-leafgreen",
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "tag"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 白金",
-    "slug": "platinum",
-    "seg": [
-     0
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          1,
+          5,
+          7,
+          9,
+          11,
+          13
+        ]
+      },
+      {
+        "name": "河内丸武史",
+        "slug": "kawachimaru-takeshi",
+        "role": "speaker",
+        "seg": [
+          3,
+          17,
+          19
+        ]
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "钻石／珍珠",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "火红／叶绿",
-    "slug": null,
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     1,
-     5,
-     7,
-     9,
-     11,
-     13
+    "places": [],
+    "concepts": [
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          2
+        ],
+        "as": [
+          "续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          3
+        ],
+        "as": [
+          "宝可梦的设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          3
+        ],
+        "as": [
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          5
+        ],
+        "as": [
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          9
+        ],
+        "as": [
+          "容易理解"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          13
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          15
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          17
+        ],
+        "as": [
+          "服务器"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "河内丸武史",
-    "slug": "kawachimaru-takeshi",
-    "role": "speaker",
-    "seg": [
-     3,
-     17,
-     19
-    ]
-   }
+  },
+  "observations": [
+    {
+      "seg": 1,
+      "text": "增田顺一称DP讲时间与空间，白金里骑拉帝纳带来与之相对的东西",
+      "anchor": 2
+    },
+    {
+      "seg": 3,
+      "text": "河内丸武史说白金开发花的时间和DP一样长",
+      "anchor": 4
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     2
-    ],
-    "as": [
-     "续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     3
-    ],
-    "as": [
-     "宝可梦的设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     3
-    ],
-    "as": [
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     5
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     9
-    ],
-    "as": [
-     "容易理解"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     15
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     17
-    ],
-    "as": [
-     "服务器"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "增田顺一称DP讲时间与空间，白金里骑拉帝纳带来与之相对的东西",
-   "anchor": 2
+  "relations": [
+    {
+      "id": "interview-g4tv-platinum-masuda-kawachimaru",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳",
+      "url": "//interview-g4tv-platinum-masuda-kawachimaru/",
+      "why": "同为2009年G4TV采访增田与河内谈白金"
+    },
+    {
+      "id": "interview-nintendo-power-masuda-gens-1-4",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/",
+      "why": "同为白金发售前增田与河内专访"
+    },
+    {
+      "id": "interview-g4tv-masuda-kawachimaru-platinum-particle-physics",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "增田顺一谈宝可梦白金",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-g4tv-masuda-kawachimaru-platinum-particle-physics/",
+      "why": "同为G4TV采访增田与河内谈白金"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 3,
-   "text": "河内丸武史说白金开发花的时间和DP一样长",
-   "anchor": 4
-  }
- ],
- "relations": [
-  {
-   "id": "interview-g4tv-platinum-masuda-kawachimaru",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳",
-   "url": "//interview-g4tv-platinum-masuda-kawachimaru/",
-   "why": "同为2009年G4TV采访增田与河内谈白金"
-  },
-  {
-   "id": "interview-nintendo-power-masuda-gens-1-4",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/",
-   "why": "同为白金发售前增田与河内专访"
-  },
-  {
-   "id": "interview-g4tv-masuda-kawachimaru-platinum-particle-physics",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "增田顺一谈宝可梦白金",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-g4tv-masuda-kawachimaru-platinum-particle-physics/",
-   "why": "同为G4TV采访增田与河内谈白金"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

@@ -1,450 +1,444 @@
 {
- "id": "interview-pocketmonsters-usum-iwao-ohmori",
- "stem": "2017-10-19-interview-pocketmonsters-usum-iwao-ohmori",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 55
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     15,
-     38,
-     39
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "巨翅飞鱼",
-    "ndex": 226,
-    "seg": [
-     38,
-     44
-    ],
-    "as": [
-     "巨翅飞鱼"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "奈克洛兹玛",
-    "ndex": 800,
-    "seg": [
-     40,
-     41,
-     52
-    ],
-    "as": [
-     "奈克洛兹玛"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 究极之日·究极之月",
-    "slug": "usum",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 究极之日／究极之月",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 太阳／月亮",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红／绿",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑／白",
-    "slug": null,
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石／蓝宝石",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黄：皮卡丘特别版",
-    "slug": null,
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑2／白2",
-    "slug": null,
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-    "slug": null,
-    "seg": [
-     28
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 皮卡丘",
-    "slug": null,
-    "seg": [
-     38
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "岩尾和昌",
-    "slug": "iwao-kazumasa",
-    "role": "speaker",
-    "seg": [
-     7,
-     12,
-     16,
-     19,
-     23,
-     26
-    ]
-   },
-   {
-    "name": "大森滋",
-    "slug": "ohmori-shigeru",
-    "role": "speaker",
-    "seg": [
-     8,
-     9,
-     13,
-     32,
-     36,
-     47
-    ]
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "mentioned",
-    "seg": [
-     36
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "古兹马",
-    "slug": "gu-zi-ma",
-    "role": "mentioned",
-    "seg": [
-     26
-    ],
-    "via": "llm",
-    "kind": "character"
-   }
-  ],
-  "places": [
-   {
-    "name": "究极之洞",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     20
-    ],
-    "what": "平行世界设定",
-    "via": "llm"
-   },
-   {
-    "name": "究极空间",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     44
-    ],
-    "what": "跳跃骑行场所",
-    "via": "llm"
-   },
-   {
-    "name": "阿罗拉地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     3
-    ],
-    "what": "游戏舞台",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     6
-    ],
-    "as": [
-     "第一次接触"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     8
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     8
-    ],
-    "as": [
-     "交换宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     9
-    ],
-    "as": [
-     "招聘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     12
-    ],
-    "as": [
-     "对战系统"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     12
-    ],
-    "as": [
-     "音乐剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     12
-    ],
-    "as": [
-     "界面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     13
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     15
-    ],
-    "as": [
-     "续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "link-battle",
-    "name": "通信对战",
-    "facet": "system",
-    "seg": [
-     19
-    ],
-    "as": [
-     "人对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     19,
-     41,
-     43,
-     44
-    ],
-    "as": [
-     "通关",
-     "主线剧情"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "postgame",
-    "name": "通关之后",
-    "facet": "system",
-    "seg": [
-     19,
-     43
-    ],
-    "as": [
-     "通关后"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     26
-    ],
-    "as": [
-     "反派"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-freedom",
-    "name": "玩家的自由",
-    "facet": "design",
-    "seg": [
-     29
-    ],
-    "as": [
-     "自由度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     36
-    ],
-    "as": [
-     "宝可梦设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     39
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "岩尾和昌为《究极之日／究极之月》导演，大森滋为制作人",
-   "anchor": 4
+  "id": "interview-pocketmonsters-usum-iwao-ohmori",
+  "stem": "2017-10-19-interview-pocketmonsters-usum-iwao-ohmori",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 55
   },
-  {
-   "seg": 19,
-   "text": "起初只打算让前作关主训练家出现在代理人对战中",
-   "anchor": 20
-  }
- ],
- "relations": [
-  {
-   "id": "interview-famitsu-usum-ohmori-iwao-director",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-usum-ohmori-iwao-director/",
-   "why": "同为2017-10-19 USUM发售前对岩尾和昌、大森滋的专访"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          15,
+          38,
+          39
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "巨翅飞鱼",
+        "ndex": 226,
+        "seg": [
+          38,
+          44
+        ],
+        "as": [
+          "巨翅飞鱼"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "奈克洛兹玛",
+        "ndex": 800,
+        "seg": [
+          40,
+          41,
+          52
+        ],
+        "as": [
+          "奈克洛兹玛"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 究极之日·究极之月",
+        "slug": "usum",
+        "seg": [
+          3
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          12
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 黑2·白2",
+        "slug": "black2-white2",
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+        "slug": "oras",
+        "seg": [
+          28
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 皮卡丘版",
+        "slug": "yellow",
+        "seg": [
+          38
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 黄：皮卡丘特别版",
+        "slug": null,
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "岩尾和昌",
+        "slug": "iwao-kazumasa",
+        "role": "speaker",
+        "seg": [
+          7,
+          12,
+          16,
+          19,
+          23,
+          26
+        ]
+      },
+      {
+        "name": "大森滋",
+        "slug": "ohmori-shigeru",
+        "role": "speaker",
+        "seg": [
+          8,
+          9,
+          13,
+          32,
+          36,
+          47
+        ]
+      },
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "mentioned",
+        "seg": [
+          36
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "古兹马",
+        "slug": "gu-zi-ma",
+        "role": "mentioned",
+        "seg": [
+          26
+        ],
+        "via": "llm",
+        "kind": "character"
+      }
+    ],
+    "places": [
+      {
+        "name": "究极之洞",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          20
+        ],
+        "what": "平行世界设定",
+        "via": "llm"
+      },
+      {
+        "name": "究极空间",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          44
+        ],
+        "what": "跳跃骑行场所",
+        "via": "llm"
+      },
+      {
+        "name": "阿罗拉地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          3
+        ],
+        "what": "游戏舞台",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          6
+        ],
+        "as": [
+          "第一次接触"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          8
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          8
+        ],
+        "as": [
+          "交换宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          9
+        ],
+        "as": [
+          "招聘"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          12
+        ],
+        "as": [
+          "对战系统"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-music",
+        "name": "音乐剧与演出",
+        "facet": "franchise",
+        "seg": [
+          12
+        ],
+        "as": [
+          "音乐剧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          12
+        ],
+        "as": [
+          "界面"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          13
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          15
+        ],
+        "as": [
+          "续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "link-battle",
+        "name": "通信对战",
+        "facet": "system",
+        "seg": [
+          19
+        ],
+        "as": [
+          "人对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          19,
+          41,
+          43,
+          44
+        ],
+        "as": [
+          "通关",
+          "主线剧情"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "postgame",
+        "name": "通关之后",
+        "facet": "system",
+        "seg": [
+          19,
+          43
+        ],
+        "as": [
+          "通关后"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          26
+        ],
+        "as": [
+          "反派"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-freedom",
+        "name": "玩家的自由",
+        "facet": "design",
+        "seg": [
+          29
+        ],
+        "as": [
+          "自由度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          36
+        ],
+        "as": [
+          "宝可梦设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          39
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "岩尾和昌为《究极之日／究极之月》导演，大森滋为制作人",
+      "anchor": 4
+    },
+    {
+      "seg": 19,
+      "text": "起初只打算让前作关主训练家出现在代理人对战中",
+      "anchor": 20
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-famitsu-usum-ohmori-iwao-director",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-usum-ohmori-iwao-director/",
+      "why": "同为2017-10-19 USUM发售前对岩尾和昌、大森滋的专访"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

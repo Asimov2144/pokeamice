@@ -1,482 +1,476 @@
 {
- "id": "interview-eurogamer-masuda-nabana-lets-go",
- "stem": "2018-10-26-interview-eurogamer-masuda-nabana-lets-go",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 27
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     0,
-     2,
-     6,
-     7,
-     11,
-     12
+  "id": "interview-eurogamer-masuda-nabana-lets-go",
+  "stem": "2018-10-26-interview-eurogamer-masuda-nabana-lets-go",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 27
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          0,
+          2,
+          6,
+          7,
+          11,
+          12
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "具甲武者",
+        "ndex": 768,
+        "seg": [
+          23,
+          21
+        ],
+        "as": [
+          "具甲武者",
+          "Golisopod"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "美录坦",
+        "ndex": 808,
+        "seg": [
+          18
+        ],
+        "as": [
+          "美录坦"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "梦幻",
+        "ndex": 151,
+        "seg": [
+          8
+        ],
+        "as": [
+          "梦幻"
+        ],
+        "via": "llm"
+      }
     ],
-    "as": [
-     "皮卡丘"
+    "works": [
+      {
+        "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+        "slug": "lets-go",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 皮卡丘版",
+        "slug": "yellow",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "具甲武者",
-    "ndex": 768,
-    "seg": [
-     23,
-     21
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          1,
+          7,
+          17,
+          18,
+          20,
+          25
+        ]
+      },
+      {
+        "name": "菜花健作",
+        "slug": "nabana-kensaku",
+        "role": "speaker",
+        "seg": [
+          8,
+          11,
+          12,
+          14,
+          23,
+          26
+        ]
+      }
     ],
-    "as": [
-     "具甲武者",
-     "Golisopod"
+    "places": [
+      {
+        "name": "法兰克福",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          4
+        ],
+        "what": "会见采访地点",
+        "via": "llm"
+      },
+      {
+        "name": "任天堂德国总部",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          4
+        ],
+        "what": "采访地点",
+        "via": "llm"
+      },
+      {
+        "name": "关都地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          3
+        ],
+        "what": "游戏舞台",
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "美录坦",
-    "ndex": 808,
-    "seg": [
-     18
-    ],
-    "as": [
-     "美录坦"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "梦幻",
-    "ndex": 151,
-    "seg": [
-     8
-    ],
-    "as": [
-     "梦幻"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
-    "slug": "lets-go",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 Let's Go！皮卡丘／伊布",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 皮卡丘版",
-    "slug": "yellow",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 太阳／月亮",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     1,
-     7,
-     17,
-     18,
-     20,
-     25
+    "concepts": [
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          1,
+          17,
+          18
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "version-pair",
+        "name": "两个版本",
+        "facet": "system",
+        "seg": [
+          2
+        ],
+        "as": [
+          "双版本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          3,
+          18
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          3
+        ],
+        "as": [
+          "第一世代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          4
+        ],
+        "as": [
+          "地图设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          6,
+          7,
+          8,
+          25
+        ],
+        "as": [
+          "精灵球"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          7
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          7
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          10
+        ],
+        "as": [
+          "用色"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          10
+        ],
+        "as": [
+          "动画电影"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          11
+        ],
+        "as": [
+          "童年"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          12
+        ],
+        "as": [
+          "动画系列"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          13,
+          17
+        ],
+        "as": [
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          13
+        ],
+        "as": [
+          "面对面"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          13
+        ],
+        "as": [
+          "交换宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          14
+        ],
+        "as": [
+          "集齐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          14
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          17
+        ],
+        "as": [
+          "家长"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          17
+        ],
+        "as": [
+          "免费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          26
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "postgame",
+        "name": "通关之后",
+        "facet": "system",
+        "seg": [
+          26
+        ],
+        "as": [
+          "通关后"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "菜花健作",
-    "slug": "nabana-kensaku",
-    "role": "speaker",
-    "seg": [
-     8,
-     11,
-     12,
-     14,
-     23,
-     26
-    ]
-   }
+  },
+  "observations": [
+    {
+      "seg": 2,
+      "text": "游戏灵感源自1998年登陆Game Boy的《宝可梦 皮卡丘版》",
+      "anchor": 3
+    },
+    {
+      "seg": 3,
+      "text": "寻找第一世代151只宝可梦及《太阳／月亮》中的阿罗拉形态",
+      "anchor": 4
+    }
   ],
-  "places": [
-   {
-    "name": "法兰克福",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     4
-    ],
-    "what": "会见采访地点",
-    "via": "llm"
-   },
-   {
-    "name": "任天堂德国总部",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     4
-    ],
-    "what": "采访地点",
-    "via": "llm"
-   },
-   {
-    "name": "关都地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     3
-    ],
-    "what": "游戏舞台",
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Eurogamer 独家专访：增田顺一谈《Let's Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世界愿景",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-lets-go-difficulty-meltan-future/",
+      "why": "同为Eurogamer 2018-10-26增田与菜花专访"
+    },
+    {
+      "id": "interview-pokemoncom-2018-letsgo-makers",
+      "kind": "responds",
+      "label": "后来回应了这篇",
+      "title": "宝可梦 Let's Go 开发者访谈",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2018-letsgo-makers/",
+      "why": "同谈Let's Go创作起点与关都重现"
+    },
+    {
+      "id": "interview-gamespot-lgpe-masuda",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "GameSpot 独家深度专访：增田顺一谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》如何为新世代重塑《宝可梦 黄》",
+      "url": "//interview-gamespot-lgpe-masuda/",
+      "why": "同谈Let's Go重塑宝可梦黄与关都151只"
+    }
   ],
-  "concepts": [
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     1,
-     17,
-     18
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "version-pair",
-    "name": "两个版本",
-    "facet": "system",
-    "seg": [
-     2
-    ],
-    "as": [
-     "双版本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     3,
-     18
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     3
-    ],
-    "as": [
-     "第一世代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     4
-    ],
-    "as": [
-     "地图设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     6,
-     7,
-     8,
-     25
-    ],
-    "as": [
-     "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     7
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     7
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     10
-    ],
-    "as": [
-     "用色"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     10
-    ],
-    "as": [
-     "动画电影"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     11
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     12
-    ],
-    "as": [
-     "动画系列"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     13,
-     17
-    ],
-    "as": [
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     13
-    ],
-    "as": [
-     "面对面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "交换宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     14
-    ],
-    "as": [
-     "集齐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     14
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     17
-    ],
-    "as": [
-     "家长"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     17
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     26
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "postgame",
-    "name": "通关之后",
-    "facet": "system",
-    "seg": [
-     26
-    ],
-    "as": [
-     "通关后"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "游戏灵感源自1998年登陆Game Boy的《宝可梦 皮卡丘版》",
-   "anchor": 3
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 3,
-   "text": "寻找第一世代151只宝可梦及《太阳／月亮》中的阿罗拉形态",
-   "anchor": 4
-  }
- ],
- "relations": [
-  {
-   "id": "interview-eurogamer-masuda-lets-go-difficulty-meltan-future",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Eurogamer 独家专访：增田顺一谈《Let's Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世界愿景",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-lets-go-difficulty-meltan-future/",
-   "why": "同为Eurogamer 2018-10-26增田与菜花专访"
-  },
-  {
-   "id": "interview-pokemoncom-2018-letsgo-makers",
-   "kind": "responds",
-   "label": "后来回应了这篇",
-   "title": "宝可梦 Let's Go 开发者访谈",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemoncom-2018-letsgo-makers/",
-   "why": "同谈Let's Go创作起点与关都重现"
-  },
-  {
-   "id": "interview-gamespot-lgpe-masuda",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "GameSpot 独家深度专访：增田顺一谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》如何为新世代重塑《宝可梦 黄》",
-   "url": "//interview-gamespot-lgpe-masuda/",
-   "why": "同谈Let's Go重塑宝可梦黄与关都151只"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

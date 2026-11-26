@@ -1,269 +1,256 @@
 {
- "id": "scan-continue-vol23-drill-dozer",
- "stem": "2005-08-18-scan-continue-vol23-drill-dozer",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 53
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "螺旋破碎机",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "Quinty",
-    "slug": null,
-    "seg": [
-     11
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "脉冲人",
-    "slug": null,
-    "seg": [
-     32
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "钻头乐园",
-    "slug": null,
-    "seg": [
-     41
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "泰姆波坎",
-    "slug": null,
-    "seg": [
-     46
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "螺旋破坏者 轰振钻头乐园",
-    "slug": null,
-    "seg": [
-     48
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     4,
-     7,
-     9,
-     11,
-     14,
-     16
-    ]
-   },
-   {
-    "name": "吉田宏信",
-    "slug": "yoshida-hironobu",
-    "role": "speaker",
-    "seg": [
-     5,
-     13,
-     17,
-     29,
-     34,
-     36
-    ]
-   },
-   {
-    "name": "宫昌太朗",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "岩田社长",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宫本茂",
-    "slug": "miyamoto-shigeru",
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "富野由悠季",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     47
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "京都",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     16
-    ],
-    "what": "任天堂所在地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     6,
-     20
-    ],
-    "as": [
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     18
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     22
-    ],
-    "as": [
-     "企划书"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     23
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     30
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     39
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     40
-    ],
-    "as": [
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     43
-    ],
-    "as": [
-     "像素画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "角色设计"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 4,
-   "text": "杉森建称本作大约两年前开始制作"
+  "id": "scan-continue-vol23-drill-dozer",
+  "stem": "2005-08-18-scan-continue-vol23-drill-dozer",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 53
   },
-  {
-   "seg": 5,
-   "text": "吉田宏信称《红宝石》《蓝宝石》做完后马上开始"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "螺旋破坏者 轰振钻头",
+        "slug": null,
+        "seg": [
+          41,
+          48
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "Quinty",
+        "slug": null,
+        "seg": [
+          11
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "脉冲超人",
+        "slug": null,
+        "seg": [
+          32
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "泰姆波坎",
+        "slug": null,
+        "seg": [
+          46
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          4,
+          7,
+          9,
+          11,
+          14,
+          16
+        ]
+      },
+      {
+        "name": "吉田宏信",
+        "slug": "yoshida-hironobu",
+        "role": "speaker",
+        "seg": [
+          5,
+          13,
+          17,
+          29,
+          34,
+          36
+        ]
+      },
+      {
+        "name": "宫昌太朗",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "岩田社长",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宫本茂",
+        "slug": "miyamoto-shigeru",
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "富野由悠季",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          47
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "京都",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          16
+        ],
+        "what": "任天堂所在地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          6,
+          20
+        ],
+        "as": [
+          "试玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          18
+        ],
+        "as": [
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          22
+        ],
+        "as": [
+          "企划书"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          23
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          30
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          39
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          40
+        ],
+        "as": [
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pixel-art",
+        "name": "像素画",
+        "facet": "tech",
+        "seg": [
+          43
+        ],
+        "as": [
+          "像素画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "角色设计"
+        ],
+        "via": "tag"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 4,
+      "text": "杉森建称本作大约两年前开始制作"
+    },
+    {
+      "seg": 5,
+      "text": "吉田宏信称《红宝石》《蓝宝石》做完后马上开始"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
+  },
+  "edited": true
 }

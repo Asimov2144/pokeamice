@@ -1,762 +1,762 @@
 {
- "id": "scan-ndream-bw-tanjou-hiwa-2011-characters",
- "stem": "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 89
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "君主蛇",
-    "ndex": 497,
-    "seg": [
-     68
+  "id": "scan-ndream-bw-tanjou-hiwa-2011-characters",
+  "stem": "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 89
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "君主蛇",
+        "ndex": 497,
+        "seg": [
+          68
+        ],
+        "as": [
+          "君主蛇"
+        ],
+        "via": "body"
+      }
     ],
-    "as": [
-     "君主蛇"
+    "works": [
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 白金",
+        "slug": "platinum",
+        "seg": [
+          65
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 心金·魂银",
+        "slug": "heartgold-soulsilver",
+        "seg": [
+          65
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "幻影侦探",
+        "slug": null,
+        "seg": [
+          38
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 钻石・珍珠",
-    "slug": null,
-    "seg": [
-     4
+    "people": [
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          3,
+          10,
+          16,
+          31,
+          38,
+          45
+        ]
+      },
+      {
+        "name": "大村祐介",
+        "slug": "ohmura-yusuke",
+        "role": "speaker",
+        "seg": [
+          6,
+          12,
+          17,
+          20,
+          26,
+          28
+        ]
+      },
+      {
+        "name": "海野隆雄",
+        "slug": "unno-takao",
+        "role": "speaker",
+        "seg": [
+          88
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "真菰",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "红豆杉",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          10
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "黑连",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          12
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "白露",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          12
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "N",
+        "slug": "n",
+        "role": "mentioned",
+        "seg": [
+          16
+        ],
+        "via": "llm",
+        "kind": "character"
+      },
+      {
+        "name": "魁奇思",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          16
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "伯特",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "天桐",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "寇恩",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "亚堤",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          21
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "芦荟",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          26
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "菊老大",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          28
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "小菊儿",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          29
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "风露",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          34
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "哈奇库",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          36
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "艾莉丝",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          44
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "夏卡",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          44
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "越橘",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          50
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "婉龙",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          54
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "连武",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          61
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "嘉德丽雅",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          65
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "阿戴克",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          78
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "南厦",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          84
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "北尚",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          84
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "石兰",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          75
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "石田纯一",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          51
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石・蓝宝石",
-    "slug": null,
-    "seg": [
-     4
+    "places": [
+      {
+        "name": "三曜市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          21
+        ],
+        "what": "道馆所在地",
+        "via": "llm"
+      },
+      {
+        "name": "飞云市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          21
+        ],
+        "what": "道馆所在地",
+        "via": "llm"
+      },
+      {
+        "name": "七宝市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          25
+        ],
+        "what": "道馆所在地",
+        "via": "llm"
+      },
+      {
+        "name": "雷文市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          29
+        ],
+        "what": "道馆所在地",
+        "via": "llm"
+      },
+      {
+        "name": "帆巴市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          33
+        ],
+        "what": "道馆所在地",
+        "via": "llm"
+      },
+      {
+        "name": "吹寄市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          33
+        ],
+        "what": "道馆所在地",
+        "via": "llm"
+      },
+      {
+        "name": "雪花市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          41
+        ],
+        "what": "道馆所在地",
+        "via": "llm"
+      },
+      {
+        "name": "双龙市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          42
+        ],
+        "what": "道馆所在地",
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦白金",
-    "slug": null,
-    "seg": [
-     65
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦心金·魂银",
-    "slug": null,
-    "seg": [
-     65
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "幻影侦探",
-    "slug": null,
-    "seg": [
-     38
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     3,
-     10,
-     16,
-     31,
-     38,
-     45
+    "concepts": [
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          2
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          2,
+          12,
+          20,
+          21,
+          25,
+          26
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pixel-art",
+        "name": "像素画",
+        "facet": "tech",
+        "seg": [
+          6
+        ],
+        "as": [
+          "像素图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          10
+        ],
+        "as": [
+          "办公室"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          12
+        ],
+        "as": [
+          "劲敌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          12,
+          32
+        ],
+        "as": [
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          20
+        ],
+        "as": [
+          "第一次接触"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          20
+        ],
+        "as": [
+          "完全新作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          20,
+          32,
+          44,
+          68
+        ],
+        "as": [
+          "属性相性",
+          "电属性",
+          "龙属性",
+          "超能力属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          34,
+          76,
+          80,
+          81,
+          82
+        ],
+        "as": [
+          "精灵球",
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          39,
+          40
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          44,
+          49
+        ],
+        "as": [
+          "色彩",
+          "配色"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          44
+        ],
+        "as": [
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          44
+        ],
+        "as": [
+          "卡带"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          46,
+          69
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          50
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          51
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          62
+        ],
+        "as": [
+          "新鲜感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "角色设计"
+        ],
+        "via": "tag"
+      }
     ]
-   },
-   {
-    "name": "大村祐介",
-    "slug": "ohmura-yusuke",
-    "role": "speaker",
-    "seg": [
-     6,
-     12,
-     17,
-     20,
-     26,
-     28
-    ]
-   },
-   {
-    "name": "海野隆雄",
-    "slug": "unno-takao",
-    "role": "speaker",
-    "seg": [
-     88
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "真菰",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "红豆杉",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "黑连",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "白露",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "N",
-    "slug": "n",
-    "role": "mentioned",
-    "seg": [
-     16
-    ],
-    "via": "llm",
-    "kind": "character"
-   },
-   {
-    "name": "魁奇思",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "伯特",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "天桐",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "寇恩",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "亚堤",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     21
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "芦荟",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     26
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "菊老大",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     28
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "小菊儿",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "风露",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     34
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "哈奇库",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     36
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "艾莉丝",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     44
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "夏卡",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     44
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "越橘",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     50
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "婉龙",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     54
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "连武",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     61
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "嘉德丽雅",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     65
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "阿戴克",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     78
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "南厦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     84
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "北尚",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     84
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "石兰",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     75
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "石田纯一",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     51
-    ],
-    "via": "llm"
-   }
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "增田要求把主人公年龄提高，不再设定成10岁或11岁"
+    },
+    {
+      "seg": 10,
+      "text": "博士到开发中期仍是男性，后由杉森提议改成女性"
+    }
   ],
-  "places": [
-   {
-    "name": "三曜市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     21
-    ],
-    "what": "道馆所在地",
-    "via": "llm"
-   },
-   {
-    "name": "飞云市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     21
-    ],
-    "what": "道馆所在地",
-    "via": "llm"
-   },
-   {
-    "name": "七宝市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     25
-    ],
-    "what": "道馆所在地",
-    "via": "llm"
-   },
-   {
-    "name": "雷文市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     29
-    ],
-    "what": "道馆所在地",
-    "via": "llm"
-   },
-   {
-    "name": "帆巴市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     33
-    ],
-    "what": "道馆所在地",
-    "via": "llm"
-   },
-   {
-    "name": "吹寄市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     33
-    ],
-    "what": "道馆所在地",
-    "via": "llm"
-   },
-   {
-    "name": "雪花市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     41
-    ],
-    "what": "道馆所在地",
-    "via": "llm"
-   },
-   {
-    "name": "双龙市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     42
-    ],
-    "what": "道馆所在地",
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "scan-ndream-bw-tanjou-hiwa-2011-pokemon",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "宝可梦诞生秘话 总集篇",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-pokemon/",
+      "why": "同为2011-05-21附录，总集篇与人物篇"
+    },
+    {
+      "id": "interview-nintendodream-201-sugimori-bw-characters",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "杉森建谈《宝可梦 黑／白》角色设计",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-nintendodream-201-sugimori-bw-characters/",
+      "why": "同述主角年龄上调与博士改女性"
+    },
+    {
+      "id": "scan-ndream-2011-05-bw-design-secrets-ex",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "宝可梦 黑·白 诞生秘话EX",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-bw-design-secrets-ex/",
+      "why": "同系列诞生秘话，前篇讲四天王"
+    },
+    {
+      "id": "scan-ndream-2011-04-bw-design-secrets-part2",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "宝可梦黑·白诞生秘话",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/",
+      "why": "同系列黑·白诞生秘话前篇"
+    }
   ],
-  "concepts": [
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     2
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     2,
-     12,
-     20,
-     21,
-     25,
-     26
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     6
-    ],
-    "as": [
-     "像素图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     10
-    ],
-    "as": [
-     "办公室"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     12
-    ],
-    "as": [
-     "劲敌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     12,
-     32
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     20
-    ],
-    "as": [
-     "第一次接触"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     20
-    ],
-    "as": [
-     "完全新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     20,
-     32,
-     44,
-     68
-    ],
-    "as": [
-     "属性相性",
-     "电属性",
-     "龙属性",
-     "超能力属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     34,
-     76,
-     80,
-     81,
-     82
-    ],
-    "as": [
-     "精灵球",
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     39,
-     40
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     44,
-     49
-    ],
-    "as": [
-     "色彩",
-     "配色"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     44
-    ],
-    "as": [
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     44
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     46,
-     69
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     50
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     51
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     62
-    ],
-    "as": [
-     "新鲜感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "角色设计"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "增田要求把主人公年龄提高，不再设定成10岁或11岁"
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
   },
-  {
-   "seg": 10,
-   "text": "博士到开发中期仍是男性，后由杉森提议改成女性"
-  }
- ],
- "relations": [
-  {
-   "id": "scan-ndream-bw-tanjou-hiwa-2011-pokemon",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "宝可梦诞生秘话 总集篇",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-bw-tanjou-hiwa-2011-pokemon/",
-   "why": "同为2011-05-21附录，总集篇与人物篇"
-  },
-  {
-   "id": "interview-nintendodream-201-sugimori-bw-characters",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "杉森建谈《宝可梦 黑／白》角色设计",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%9D%82%E5%BF%97%E6%91%98%E5%BD%95/interview-nintendodream-201-sugimori-bw-characters/",
-   "why": "同述主角年龄上调与博士改女性"
-  },
-  {
-   "id": "scan-ndream-2011-05-bw-design-secrets-ex",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "宝可梦 黑·白 诞生秘话EX",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-05-bw-design-secrets-ex/",
-   "why": "同系列诞生秘话，前篇讲四天王"
-  },
-  {
-   "id": "scan-ndream-2011-04-bw-design-secrets-part2",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "宝可梦黑·白诞生秘话",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2011-04-bw-design-secrets-part2/",
-   "why": "同系列黑·白诞生秘话前篇"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "edited": true
 }

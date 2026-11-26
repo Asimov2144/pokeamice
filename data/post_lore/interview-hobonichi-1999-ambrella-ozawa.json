@@ -1,497 +1,449 @@
 {
- "id": "interview-hobonichi-1999-ambrella-ozawa",
- "stem": "1999-02-10-interview-hobonichi-1999-ambrella-ozawa",
- "rev": 1,
- "built": "2026-10-02",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 132
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     3,
-     4,
-     5,
-     7,
-     9,
-     10
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "皮卡丘你好",
-    "slug": null,
-    "seg": [
-     3,
-     4,
-     7,
-     9,
-     12,
-     13
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "皮卡丘你好吗",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "吃豆人",
-    "slug": null,
-    "seg": [
-     21
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "塞尔达",
-    "slug": null,
-    "seg": [
-     61
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "生化危机",
-    "slug": null,
-    "seg": [
-     105
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "网络创世纪",
-    "slug": null,
-    "seg": [
-     119
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "信长之野望",
-    "slug": null,
-    "seg": [
-     119
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "小澤宗明",
-    "slug": "ozawa-muneaki",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "小泽宗明",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "绵引胜彦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "石原",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     25
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "内山",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     44
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "桥本",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     89
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "吉祥寺",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     51
-    ],
-    "what": "语音识别举例地名",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     3,
-     6,
-     9,
-     10,
-     11,
-     124
-    ],
-    "as": [
-     "广告",
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     5
-    ],
-    "as": [
-     "吃惊"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     9,
-     10,
-     71,
-     75,
-     76,
-     77
-    ],
-    "as": [
-     "孩子们",
-     "儿童",
-     "小孩子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     16
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     16,
-     23,
-     26,
-     53,
-     127
-    ],
-    "as": [
-     "一起做",
-     "一起商量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     18
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     25
-    ],
-    "as": [
-     "开发周期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     25
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     27
-    ],
-    "as": [
-     "完成度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     35,
-     121
-    ],
-    "as": [
-     "沟通",
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     35
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     40
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     42
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     57
-    ],
-    "as": [
-     "程序上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     58,
-     93
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     69
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     75
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "competitive",
-    "name": "竞技与官方大赛",
-    "facet": "system",
-    "seg": [
-     89
-    ],
-    "as": [
-     "世界大赛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     94,
-     100
-    ],
-    "as": [
-     "手感",
-     "菜单"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     95,
-     96
-    ],
-    "as": [
-     "画面上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     106,
-     108
-    ],
-    "as": [
-     "工作方式"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     112
-    ],
-    "as": [
-     "分发"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     119
-    ],
-    "as": [
-     "在线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     122
-    ],
-    "as": [
-     "想表达"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "小泽宗明是Ambrella代表，开发了号称世界首个搭载语音识别系统的N64游戏。",
-   "anchor": 4
+  "id": "interview-hobonichi-1999-ambrella-ozawa",
+  "stem": "1999-02-10-interview-hobonichi-1999-ambrella-ozawa",
+  "rev": 1,
+  "built": "2026-10-02",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 132
   },
-  {
-   "seg": 10,
-   "text": "电视广告由绵引胜彦饰演大叔与皮卡丘共演，导致售罄，2月1日起再次上架。",
-   "anchor": 11
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          3,
+          4,
+          5,
+          7,
+          9,
+          10
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "大家的声音！皮卡丘",
+        "slug": "hey-you-pikachu",
+        "seg": [
+          3,
+          4,
+          7,
+          9,
+          12,
+          13
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "小澤宗明",
+        "slug": "ozawa-muneaki",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "小泽宗明",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "绵引胜彦",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          10
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "石原",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          25
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "内山",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          44
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "桥本",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          89
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "吉祥寺",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          51
+        ],
+        "what": "语音识别举例地名",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          3,
+          6,
+          9,
+          10,
+          11,
+          124
+        ],
+        "as": [
+          "广告",
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          5
+        ],
+        "as": [
+          "吃惊"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          9,
+          10,
+          71,
+          75,
+          76,
+          77
+        ],
+        "as": [
+          "孩子们",
+          "儿童",
+          "小孩子"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          16
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          16,
+          23,
+          26,
+          53,
+          127
+        ],
+        "as": [
+          "一起做",
+          "一起商量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          18
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          25
+        ],
+        "as": [
+          "开发周期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          25
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          27
+        ],
+        "as": [
+          "完成度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          35,
+          121
+        ],
+        "as": [
+          "沟通",
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          35
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          40
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          42
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          57
+        ],
+        "as": [
+          "程序上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          58,
+          93
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          69
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          75
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "competitive",
+        "name": "竞技与官方大赛",
+        "facet": "system",
+        "seg": [
+          89
+        ],
+        "as": [
+          "世界大赛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          94,
+          100
+        ],
+        "as": [
+          "手感",
+          "菜单"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          95,
+          96
+        ],
+        "as": [
+          "画面上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          106,
+          108
+        ],
+        "as": [
+          "工作方式"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          112
+        ],
+        "as": [
+          "分发"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          119
+        ],
+        "as": [
+          "在线"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          122
+        ],
+        "as": [
+          "想表达"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "小泽宗明是Ambrella代表，开发了号称世界首个搭载语音识别系统的N64游戏。",
+      "anchor": 4
+    },
+    {
+      "seg": 10,
+      "text": "电视广告由绵引胜彦饰演大叔与皮卡丘共演，导致售罄，2月1日起再次上架。",
+      "anchor": 11
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

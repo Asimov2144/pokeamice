@@ -1,143 +1,136 @@
 {
- "id": "gamefreak-director-244",
- "stem": "2015-09-11-gamefreak-director-244",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 55
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     45,
-     52,
-     56
+  "id": "gamefreak-director-244",
+  "stem": "2015-09-11-gamefreak-director-244",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 55
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          0,
+          45,
+          52,
+          56
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "Ingress",
+        "slug": null,
+        "seg": [
+          22
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦GO",
-    "slug": null,
-    "seg": [
-     0
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "Niantic",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "Ingress",
-    "slug": null,
-    "seg": [
-     22
-    ],
-    "via": "llm"
-   }
+    "places": [],
+    "concepts": [
+      {
+        "id": "sound-hardware",
+        "name": "音源与机能",
+        "facet": "audio",
+        "seg": [
+          14
+        ],
+        "as": [
+          "和音"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          14,
+          15
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          27
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 0,
+      "text": "增田顺一在文中宣布《宝可梦GO》终于能够公布"
+    },
+    {
+      "seg": 14,
+      "text": "增田顺一参与《宝可梦GO》世界观构建、游戏设计和音乐"
+    }
   ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "Niantic",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-nikkei-utsunomiya-pokemon-go",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）",
+      "url": "/developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/",
+      "why": "交代与Niantic签约及投资经过"
+    },
+    {
+      "id": "interview-denfaminicogamer-pokemon-go-miracle",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-miracle/",
+      "why": "还原谷歌地图愚人节彩蛋到合作缘起"
+    },
+    {
+      "id": "interview-denfaminicogamer-pokemon-go-server-miracle",
+      "kind": "responds",
+      "label": "后来回应了这篇",
+      "title": "电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-server-miracle/",
+      "why": "石原称首次打破不让Game Freak参与派生作规矩"
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     14
-    ],
-    "as": [
-     "和音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     14,
-     15
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     27
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 0,
-   "text": "增田顺一在文中宣布《宝可梦GO》终于能够公布"
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 14,
-   "text": "增田顺一参与《宝可梦GO》世界观构建、游戏设计和音乐"
-  }
- ],
- "relations": [
-  {
-   "id": "interview-nikkei-utsunomiya-pokemon-go",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）",
-   "url": "/developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/",
-   "why": "交代与Niantic签约及投资经过"
-  },
-  {
-   "id": "interview-denfaminicogamer-pokemon-go-miracle",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-miracle/",
-   "why": "还原谷歌地图愚人节彩蛋到合作缘起"
-  },
-  {
-   "id": "interview-denfaminicogamer-pokemon-go-server-miracle",
-   "kind": "responds",
-   "label": "后来回应了这篇",
-   "title": "电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfaminicogamer-pokemon-go-server-miracle/",
-   "why": "石原称首次打破不让Game Freak参与派生作规矩"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

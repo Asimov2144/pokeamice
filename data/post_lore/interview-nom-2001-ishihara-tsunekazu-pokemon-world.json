@@ -1,298 +1,297 @@
 {
- "id": "interview-nom-2001-ishihara-tsunekazu-pokemon-world",
- "stem": "2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 43
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     8,
-     10
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦集换式卡牌游戏",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 水晶版",
-    "slug": "crystal",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦迷你",
-    "slug": null,
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦卡牌e",
-    "slug": null,
-    "seg": [
-     27
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "N.O.M采访者",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     5,
-     7,
-     9,
-     11,
-     13,
-     15
-    ]
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     6,
-     8,
-     10,
-     12,
-     14,
-     16
-    ]
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     3,
-     4,
-     27,
-     28,
-     30,
-     32
-    ],
-    "as": [
-     "宝可梦卡牌",
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     4
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     6,
-     9,
-     10,
-     14,
-     28
-    ],
-    "as": [
-     "卡带",
-     "ROM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     6
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "wireless",
-    "name": "无线与擦肩",
-    "facet": "tech",
-    "seg": [
-     8,
-     14,
-     16
-    ],
-    "as": [
-     "红外线通信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     12,
-     40
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     14,
-     18
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     14,
-     30,
-     31,
-     32,
-     33,
-     37
-    ],
-    "as": [
-     "儿童",
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     28
-    ],
-    "as": [
-     "数据量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     28
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     30,
-     42
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     42
-    ],
-    "as": [
-     "升级"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 6,
-   "text": "宝可梦迷你画面像素数为96×64，采用1位色图形",
-   "anchor": 7
+  "id": "interview-nom-2001-ishihara-tsunekazu-pokemon-world",
+  "stem": "2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 43
   },
-  {
-   "seg": 26,
-   "text": "软件发售目标为大约每3个月两款",
-   "anchor": 27
-  }
- ],
- "relations": [
-  {
-   "id": "interview-nom-2001-pokemon-card-e-creatures",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "看不见的价值：宝可梦卡牌e",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2001-pokemon-card-e-creatures/",
-   "why": "同为N.O.M No.40 2001年11月号，同谈卡牌e"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          8,
+          10
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦集换式卡牌游戏",
+        "slug": null,
+        "seg": [
+          27,
+          32
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 水晶版",
+        "slug": "crystal",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦迷你",
+        "slug": null,
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "N.O.M采访者",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          5,
+          7,
+          9,
+          11,
+          13,
+          15
+        ]
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          6,
+          8,
+          10,
+          12,
+          14,
+          16
+        ]
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          3,
+          4,
+          27,
+          28,
+          30,
+          32
+        ],
+        "as": [
+          "宝可梦卡牌",
+          "卡牌游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          4
+        ],
+        "as": [
+          "授权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          6,
+          9,
+          10,
+          14,
+          28
+        ],
+        "as": [
+          "卡带",
+          "ROM"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          6
+        ],
+        "as": [
+          "新硬件"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "wireless",
+        "name": "无线与擦肩",
+        "facet": "tech",
+        "seg": [
+          8,
+          14,
+          16
+        ],
+        "as": [
+          "红外线通信"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          12,
+          40
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          14,
+          18
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          14,
+          30,
+          31,
+          32,
+          33,
+          37
+        ],
+        "as": [
+          "儿童",
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "data-management",
+        "name": "数据与存档",
+        "facet": "tech",
+        "seg": [
+          28
+        ],
+        "as": [
+          "数据量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          28
+        ],
+        "as": [
+          "代码"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          30,
+          42
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          42
+        ],
+        "as": [
+          "升级"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-creatures-history-special-ishihara-tanaka",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "Creatures 25周年特别对谈",
-   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E5%85%AC%E5%8F%B8%E4%B8%8E%E6%88%98%E7%95%A5/interview-creatures-history-special-ishihara-tanaka/",
-   "why": "回顾Creatures创立与卡牌e等产品经过"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 6,
+      "text": "宝可梦迷你画面像素数为96×64，采用1位色图形",
+      "anchor": 7
+    },
+    {
+      "seg": 26,
+      "text": "软件发售目标为大约每3个月两款",
+      "anchor": 27
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-nom-2001-pokemon-card-e-creatures",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "看不见的价值：宝可梦卡牌e",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-nom-2001-pokemon-card-e-creatures/",
+      "why": "同为N.O.M No.40 2001年11月号，同谈卡牌e"
+    },
+    {
+      "id": "interview-creatures-history-special-ishihara-tanaka",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "Creatures 25周年特别对谈",
+      "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%89%91%E7%9B%BE/%E5%85%AC%E5%8F%B8%E4%B8%8E%E6%88%98%E7%95%A5/interview-creatures-history-special-ishihara-tanaka/",
+      "why": "回顾Creatures创立与卡牌e等产品经过"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

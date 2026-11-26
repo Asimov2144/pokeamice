@@ -1,133 +1,127 @@
 {
- "id": "gamefreak-staff-233",
- "stem": "2011-09-02-gamefreak-staff-233",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 65
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 特别组曲",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "PRESS START 2011",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "KAGE",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     20,
-     24,
-     54,
-     58
-    ]
-   },
-   {
-    "name": "じだぬ",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "名古屋",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     29
-    ],
-    "what": "公演举办地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     13
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "live-events",
-    "name": "线下活动",
-    "facet": "business",
-    "seg": [
-     39
-    ],
-    "as": [
-     "イベント"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     52
-    ],
-    "as": [
-     "サウンド"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [],
-    "as": [
-     "交响"
-    ],
-    "via": "title"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 6,
-   "text": "PRESS START今年已是第6年举办"
+  "id": "gamefreak-staff-233",
+  "stem": "2011-09-02-gamefreak-staff-233",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 65
   },
-  {
-   "seg": 23,
-   "text": "KAGE花半年时间，在本职工作之余完成乐谱"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 特别组曲",
+        "slug": null,
+        "seg": [
+          19
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "KAGE",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          20,
+          24,
+          54,
+          58
+        ]
+      },
+      {
+        "name": "じだぬ",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "名古屋",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          29
+        ],
+        "what": "公演举办地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          13
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "live-events",
+        "name": "线下活动",
+        "facet": "business",
+        "seg": [
+          39
+        ],
+        "as": [
+          "イベント"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          52
+        ],
+        "as": [
+          "サウンド"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-music",
+        "name": "音乐剧与演出",
+        "facet": "franchise",
+        "seg": [],
+        "as": [
+          "交响"
+        ],
+        "via": "title"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 6,
+      "text": "PRESS START今年已是第6年举办"
+    },
+    {
+      "seg": 23,
+      "text": "KAGE花半年时间，在本职工作之余完成乐谱"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

@@ -1,278 +1,260 @@
 {
- "id": "interview-pokemon-center-pop-up-store-project",
- "stem": "2023-09-01-interview-pokemon-center-pop-up-store-project",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 33
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "小拳石",
-    "ndex": 74,
-    "seg": [
-     22
-    ],
-    "as": [
-     "小拳石"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "呆呆兽",
-    "ndex": 79,
-    "seg": [
-     22
-    ],
-    "as": [
-     "呆呆兽"
-    ],
-    "via": "tag"
-   },
-   {
-    "name": "卡比兽",
-    "ndex": 143,
-    "seg": [
-     22
-    ],
-    "as": [
-     "卡比兽"
-    ],
-    "via": "tag"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦中心 出张所",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "Pokémon Center POP UP STORE",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦中心 线上商城",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "Pokémon Sleep",
-    "slug": null,
-    "seg": [
-     22
-    ],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "采访者",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     2,
-     6,
-     8,
-     12,
-     14,
-     17
-    ]
-   },
-   {
-    "name": "K.K",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     3,
-     7,
-     9,
-     13,
-     15,
-     18
-    ]
-   }
-  ],
-  "places": [
-   {
-    "name": "宝可梦中心东京DX",
-    "id": "pc_tokyo_dx",
-    "entity": null,
-    "category": "pc",
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     7,
-     8
-    ],
-    "via": "gazetteer"
-   },
-   {
-    "name": "香川县",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     22
-    ],
-    "what": "有主推宝可梦的地区",
-    "via": "llm"
-   },
-   {
-    "name": "岩手县",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     22
-    ],
-    "what": "有主推宝可梦的地区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     1,
-     3,
-     31
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     3,
-     6,
-     8
-    ],
-    "as": [
-     "学生时代",
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     3
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     13
-    ],
-    "as": [
-     "第一次接触"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     15
-    ],
-    "as": [
-     "日程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     18
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     18
-    ],
-    "as": [
-     "精细度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     22
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [],
-    "as": [
-     "招聘"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "K.K求职时主要看娱乐企业，因学生时代在宝可梦中心打工而关注它",
-   "anchor": 4
+  "id": "interview-pokemon-center-pop-up-store-project",
+  "stem": "2023-09-01-interview-pokemon-center-pop-up-store-project",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 33
   },
-  {
-   "seg": 7,
-   "text": "K.K入职第1年被分配到宝可梦中心东京DX，第2年调到电商网站运营部门",
-   "anchor": 8
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "小拳石",
+        "ndex": 74,
+        "seg": [
+          22
+        ],
+        "as": [
+          "小拳石"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "呆呆兽",
+        "ndex": 79,
+        "seg": [
+          22
+        ],
+        "as": [
+          "呆呆兽"
+        ],
+        "via": "tag"
+      },
+      {
+        "name": "卡比兽",
+        "ndex": 143,
+        "seg": [
+          22
+        ],
+        "as": [
+          "卡比兽"
+        ],
+        "via": "tag"
+      }
+    ],
+    "works": [
+      {
+        "name": "Pokémon Sleep",
+        "slug": "sleep",
+        "seg": [
+          22
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "采访者",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          2,
+          6,
+          8,
+          12,
+          14,
+          17
+        ]
+      },
+      {
+        "name": "K.K",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          3,
+          7,
+          9,
+          13,
+          15,
+          18
+        ]
+      }
+    ],
+    "places": [
+      {
+        "name": "宝可梦中心东京DX",
+        "id": "pc_tokyo_dx",
+        "entity": null,
+        "category": "pc",
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          7,
+          8
+        ],
+        "via": "gazetteer"
+      },
+      {
+        "name": "香川县",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          22
+        ],
+        "what": "有主推宝可梦的地区",
+        "via": "llm"
+      },
+      {
+        "name": "岩手县",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          22
+        ],
+        "what": "有主推宝可梦的地区",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          1,
+          3,
+          31
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          3,
+          6,
+          8
+        ],
+        "as": [
+          "学生时代",
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          3
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          13
+        ],
+        "as": [
+          "第一次接触"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          15
+        ],
+        "as": [
+          "日程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          18
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          18
+        ],
+        "as": [
+          "精细度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          22
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [],
+        "as": [
+          "招聘"
+        ],
+        "via": "tag"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "K.K求职时主要看娱乐企业，因学生时代在宝可梦中心打工而关注它",
+      "anchor": 4
+    },
+    {
+      "seg": 7,
+      "text": "K.K入职第1年被分配到宝可梦中心东京DX，第2年调到电商网站运营部门",
+      "anchor": 8
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

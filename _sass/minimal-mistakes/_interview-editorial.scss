@@ -512,6 +512,130 @@ $ed-measure: 704px;
     color: $ed-ink-faint;
   }
 
+  .ed-epilogue a {
+    color: $ed-ink;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  /* ---- source series appendix (out-of-body publisher index) ----------- */
+  .ed-appendix {
+    max-width: $ed-measure;
+    margin: 40px auto 0;
+    padding-top: 22px;
+    border-top: 1px solid $ed-rule;
+    font-family: $ed-text;
+    font-size: 15px;
+    line-height: 1.65;
+    color: $ed-ink-soft;
+  }
+
+  .ed-appendix__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 6px 14px;
+    margin-bottom: 6px;
+  }
+
+  .ed-appendix__eyebrow {
+    font-family: $ed-display;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $ed-ink-faint;
+  }
+
+  .ed-appendix__title {
+    margin: 0 0 8px;
+    font-family: $ed-display;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: $ed-ink;
+  }
+
+  .ed-appendix__intro {
+    margin: 0 0 14px;
+    color: $ed-ink-soft;
+  }
+
+  .ed-appendix__intro a,
+  .ed-appendix__source {
+    color: $ed-ink-faint;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .ed-appendix__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid $ed-rule;
+  }
+
+  .ed-appendix__item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 6px 14px;
+    padding: 9px 0;
+    border-bottom: 1px solid $ed-rule;
+  }
+
+  .ed-appendix__item.is-current {
+    font-weight: 600;
+    color: $ed-ink;
+  }
+
+  .ed-appendix__main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 10px;
+    min-width: 0;
+    flex: 1 1 260px;
+  }
+
+  .ed-appendix__link {
+    color: $ed-ink;
+    text-decoration: none;
+  }
+
+  .ed-appendix__link:hover,
+  .ed-appendix__link:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .ed-appendix__meta {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 13px;
+    color: $ed-ink-faint;
+  }
+
+  .ed-appendix__badge {
+    display: inline-block;
+    padding: 1px 7px;
+    border: 1px solid $ed-rule;
+    border-radius: 999px;
+    font-family: $ed-display;
+    font-size: 11px;
+    line-height: 1.5;
+    color: $ed-ink-soft;
+  }
+
+  .ed-appendix__item.is-current .ed-appendix__badge--current {
+    border-color: currentColor;
+    color: $ed-ink;
+  }
+
   .ed-archive {
     max-width: $ed-measure;
     margin: 56px auto 0;
@@ -830,10 +954,10 @@ $ed-measure: 704px;
     .ed-tools__btn.is-active, .ed-tools__btn[aria-pressed="true"] { background: #e6e8ec; color: #15181d; border-color: #e6e8ec; }
     .ed-cover { border-top-color: #e6e8ec; }
     .ed-title, .ed-people, .ed-chapter__title, .ed-pull p, .ed-lead .ed-trans, .ed-turn--question .ed-trans, .ed-archive dd, .ed-turn--answer .ed-turn__who { color: #f2f3f5; }
-    .ed-dek, .ed-epilogue, .parallel-text__cell--original[open] .ed-orig { color: #aeb5bf; }
-    .ed-meta, .ed-chapter__head, .ed-pull, .ed-epilogue, .ed-archive, .ed-contents, .ed-series-nav, .ed-series, .ed-series__item, .ed-related__card { border-color: #2a2f37; }
+    .ed-dek, .ed-epilogue, .ed-appendix, .ed-appendix__intro, .parallel-text__cell--original[open] .ed-orig { color: #aeb5bf; }
+    .ed-meta, .ed-chapter__head, .ed-pull, .ed-epilogue, .ed-appendix, .ed-appendix__list, .ed-appendix__item, .ed-appendix__badge, .ed-archive, .ed-contents, .ed-series-nav, .ed-series, .ed-series__item, .ed-related__card { border-color: #2a2f37; }
     .ed-archive, .ed-related, .ed-series-nav { border-top-color: #e6e8ec; }
-    .ed-contents__summary, .ed-contents__list a, .ed-series-nav__link, .ed-series__link, .ed-related__title, .ed-related__card, .ed-related__name { color: #e6e8ec; }
+    .ed-epilogue a, .ed-appendix__title, .ed-appendix__link, .ed-appendix__item.is-current, .ed-appendix__item.is-current .ed-appendix__badge--current, .ed-contents__summary, .ed-contents__list a, .ed-series-nav__link, .ed-series__link, .ed-related__title, .ed-related__card, .ed-related__name { color: #e6e8ec; }
     .ed-related__card { background: #15181d; border-top-color: #e6e8ec; }
     .parallel-text__block.is-note-open .parallel-text__note-popover { background: #1c1a17; color: #d5cfc7; }
   }

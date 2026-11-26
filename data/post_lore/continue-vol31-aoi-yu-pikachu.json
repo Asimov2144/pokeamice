@@ -1,213 +1,205 @@
 {
- "id": "continue-vol31-aoi-yu-pikachu",
- "stem": "2006-11-01-continue-vol31-aoi-yu-pikachu",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 8
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     5
-    ],
-    "as": [
-     "妙蛙种子"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     2,
-     4,
-     5
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "tag"
-   },
-   {
-    "name": "喵喵",
-    "ndex": 52,
-    "seg": [
-     5
-    ],
-    "as": [
-     "喵喵"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "快龙",
-    "ndex": 149,
-    "seg": [
-     5
-    ],
-    "as": [
-     "快龙"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "能说出宝可梦吗？",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 钻石／珍珠",
-    "slug": null,
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "蜂蜜与四叶草",
-    "slug": null,
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "扶桑花女孩",
-    "slug": null,
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "虫师",
-    "slug": null,
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "苍井优",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "志田英邦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "犬山犬子",
-    "slug": "inuyama-inuko",
-    "role": "mentioned",
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "福冈县",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     6
-    ],
-    "what": "苍井优出生地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     5
-    ],
-    "as": [
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "voice",
-    "name": "配音",
-    "facet": "audio",
-    "seg": [
-     5
-    ],
-    "as": [
-     "配音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     6
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 5,
-   "text": "苍井优说哥哥以前玩得特别投入，还一直唱《能说出宝可梦吗？》"
+  "id": "continue-vol31-aoi-yu-pikachu",
+  "stem": "2006-11-01-continue-vol31-aoi-yu-pikachu",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 8
   },
-  {
-   "seg": 6,
-   "text": "苍井优1985年8月17日出生，福冈县人，出演《宝可梦 钻石／珍珠》电视广告"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          5
+        ],
+        "as": [
+          "妙蛙种子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          2,
+          4,
+          5
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "tag"
+      },
+      {
+        "name": "喵喵",
+        "ndex": 52,
+        "seg": [
+          5
+        ],
+        "as": [
+          "喵喵"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "快龙",
+        "ndex": 149,
+        "seg": [
+          5
+        ],
+        "as": [
+          "快龙"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "能说出宝可梦吗？",
+        "slug": null,
+        "seg": [
+          5
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "蜂蜜与四叶草",
+        "slug": null,
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "扶桑花女孩",
+        "slug": null,
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "虫师",
+        "slug": null,
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "苍井优",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "志田英邦",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "犬山犬子",
+        "slug": "inuyama-inuko",
+        "role": "mentioned",
+        "seg": [
+          5
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "福冈县",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          6
+        ],
+        "what": "苍井优出生地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          5
+        ],
+        "as": [
+          "试玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "voice",
+        "name": "配音",
+        "facet": "audio",
+        "seg": [
+          5
+        ],
+        "as": [
+          "配音"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          6
+        ],
+        "as": [
+          "广告"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 5,
+      "text": "苍井优说哥哥以前玩得特别投入，还一直唱《能说出宝可梦吗？》"
+    },
+    {
+      "seg": 6,
+      "text": "苍井优1985年8月17日出生，福冈县人，出演《宝可梦 钻石／珍珠》电视广告"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
+  },
+  "edited": true
 }

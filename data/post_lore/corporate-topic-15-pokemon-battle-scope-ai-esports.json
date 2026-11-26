@@ -1,142 +1,142 @@
 {
- "id": "corporate-topic-15-pokemon-battle-scope-ai-esports",
- "stem": "2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 36
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "将棋WARS",
-    "slug": null,
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦龙王战2024",
-    "slug": null,
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "ポケモン竜王戦",
-    "slug": null,
-    "seg": [
-     23
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [],
-  "places": [],
-  "concepts": [
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     3,
-     5,
-     7,
-     9,
-     24,
-     29
-    ],
-    "as": [
-     "宝可梦对战",
-     "回合"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     6
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     10
-    ],
-    "as": [
-     "概率"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     28
-    ],
-    "as": [
-     "画面上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     29
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     31
-    ],
-    "as": [
-     "玩家之间"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 4,
-   "text": "株式会社宝可梦与HEROZ共同开发AI工具PBS，用于可视化对战战况",
-   "anchor": 5
+  "id": "corporate-topic-15-pokemon-battle-scope-ai-esports",
+  "stem": "2024-04-30-corporate-topic-15-pokemon-battle-scope-ai-esports",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 36
   },
-  {
-   "seg": 10,
-   "text": "击中要害约4%概率增加伤害，另有麻痹、毒、灼伤、睡眠等状态异常",
-   "anchor": 11
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦龙王战",
+        "slug": null,
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "将棋WARS",
+        "slug": null,
+        "seg": [
+          16
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "ポケモン竜王戦",
+        "slug": null,
+        "seg": [
+          23
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [],
+    "places": [],
+    "concepts": [
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          3,
+          5,
+          7,
+          9,
+          24,
+          29
+        ],
+        "as": [
+          "宝可梦对战",
+          "回合"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          6
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          10
+        ],
+        "as": [
+          "概率"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          28
+        ],
+        "as": [
+          "画面上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          29
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          31
+        ],
+        "as": [
+          "玩家之间"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 4,
+      "text": "株式会社宝可梦与HEROZ共同开发AI工具PBS，用于可视化对战战况",
+      "anchor": 5
+    },
+    {
+      "seg": 10,
+      "text": "击中要害约4%概率增加伤害，另有麻痹、毒、灼伤、睡眠等状态异常",
+      "anchor": 11
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

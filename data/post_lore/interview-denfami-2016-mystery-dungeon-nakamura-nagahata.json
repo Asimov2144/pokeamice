@@ -1,703 +1,690 @@
 {
- "id": "interview-denfami-2016-mystery-dungeon-nakamura-nagahata",
- "stem": "2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata",
- "rev": 1,
- "built": "2026-10-02",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 307
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "不可思议的迷宫",
-    "slug": null,
-    "seg": [
-     0,
-     1,
-     5,
-     11,
-     12,
-     15
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦不可思议的迷宫",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "弟切草",
-    "slug": null,
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Rogue",
-    "slug": null,
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "特鲁内克的大冒险",
-    "slug": null,
-    "seg": [
-     53
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "勇者斗恶龙",
-    "slug": null,
-    "seg": [
-     63
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "NetHack",
-    "slug": null,
-    "seg": [
-     72
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "风来的西林2 鬼袭来！西林城！",
-    "slug": null,
-    "seg": [
-     167
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "火焰之纹章",
-    "slug": null,
-    "seg": [
-     212
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "阿斯卡见参",
-    "slug": null,
-    "seg": [
-     260
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "不可思议的迷宫 风来西林外传 女剑士阿斯卡见参！",
-    "slug": null,
-    "seg": [
-     260
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "電ファミ",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     11,
-     15,
-     23,
-     27,
-     34,
-     37
-    ]
-   },
-   {
-    "name": "中村光一",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     12,
-     14,
-     16,
-     24,
-     28,
-     29
-    ]
-   },
-   {
-    "name": "长畑成一郎",
-    "slug": "nagahata-seiichiro",
-    "role": "speaker",
-    "seg": [
-     13,
-     18,
-     20,
-     21,
-     25,
-     26
-    ]
-   },
-   {
-    "name": "编者注",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     17,
-     19,
-     213,
-     260
-    ]
-   },
-   {
-    "name": "增田雄介",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     8
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "堀井",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     131
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "鸟山",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     147
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "佐久间晃",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     182
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "东银座",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     288
-    ],
-    "what": "长畑说带企划来的地方",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     0,
-     1,
-     5,
-     11,
-     12,
-     15
-    ],
-    "as": [
-     "迷宫",
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     0,
-     40,
-     89,
-     152
-    ],
-    "as": [
-     "企划书",
-     "企划时",
-     "企划阶段"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     1,
-     135
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     20,
-     79,
-     96,
-     112,
-     118
-    ],
-    "as": [
-     "视觉效果",
-     "演出效果",
-     "画面上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     21,
-     41,
-     52,
-     138,
-     281
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     24,
-     26
-    ],
-    "as": [
-     "一起做",
-     "分工"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     31,
-     32,
-     33,
-     50,
-     51,
-     75
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
-    "seg": [
-     35,
-     272
-    ],
-    "as": [
-     "死亡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     47,
-     48,
-     51,
-     211,
-     272
-    ],
-    "as": [
-     "回合"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     57
-    ],
-    "as": [
-     "经验值"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     67,
-     84,
-     85,
-     86
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     71,
-     125,
-     127,
-     128
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     82,
-     104,
-     274,
-     275
-    ],
-    "as": [
-     "内存",
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     84,
-     88,
-     92,
-     97,
-     103,
-     109
-    ],
-    "as": [
-     "手感",
-     "操作性",
-     "操作方式",
-     "界面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     87,
-     222,
-     252
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "postgame",
-    "name": "通关之后",
-    "facet": "system",
-    "seg": [
-     87
-    ],
-    "as": [
-     "通关后"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     106,
-     165,
-     181,
-     182,
-     183,
-     184
-    ],
-    "as": [
-     "随机",
-     "概率",
-     "运气"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     121,
-     153
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     129,
-     130
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     136
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     146,
-     295
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     153,
-     303
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     158,
-     256
-    ],
-    "as": [
-     "吃惊"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     160
-    ],
-    "as": [
-     "截止"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     167,
-     275,
-     276
-    ],
-    "as": [
-     "数据量",
-     "存档"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     168
-    ],
-    "as": [
-     "完成度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     172,
-     244,
-     245,
-     270
-    ],
-    "as": [
-     "难度",
-     "高难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     195,
-     201
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "spinoff",
-    "name": "外传作品",
-    "facet": "franchise",
-    "seg": [
-     260
-    ],
-    "as": [
-     "外传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     267
-    ],
-    "as": [
-     "通信线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     268
-    ],
-    "as": [
-     "联网",
-     "在线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     276
-    ],
-    "as": [
-     "编写程序"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [],
-    "as": [
-     "游戏平衡"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 16,
-   "text": "长畑在经营企划室提出无论如何都想做《Rogue》",
-   "anchor": 17
+  "id": "interview-denfami-2016-mystery-dungeon-nakamura-nagahata",
+  "stem": "2016-03-07-interview-denfami-2016-mystery-dungeon-nakamura-nagahata",
+  "rev": 1,
+  "built": "2026-10-02",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 307
   },
-  {
-   "seg": 53,
-   "text": "首作《特鲁内克》最初由其他工作人员调整数值，进展不顺",
-   "anchor": 54
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "segment_audit": "2026-11-12"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦不可思议迷宫",
+        "slug": "mystery-dungeon-red-rescue-team-and-blue-rescue-team",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "弟切草",
+        "slug": null,
+        "seg": [
+          16
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Rogue",
+        "slug": null,
+        "seg": [
+          16
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "特鲁内克的大冒险",
+        "slug": null,
+        "seg": [
+          53
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "勇者斗恶龙",
+        "slug": null,
+        "seg": [
+          63
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "NetHack",
+        "slug": null,
+        "seg": [
+          72
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "风来的西林2 鬼袭来！西林城！",
+        "slug": null,
+        "seg": [
+          167
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "火焰之纹章",
+        "slug": null,
+        "seg": [
+          212
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "阿斯卡见参",
+        "slug": null,
+        "seg": [
+          260
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "不可思议的迷宫 风来西林外传 女剑士阿斯卡见参！",
+        "slug": null,
+        "seg": [
+          260
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "電ファミ",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          11,
+          15,
+          23,
+          27,
+          34,
+          37
+        ]
+      },
+      {
+        "name": "中村光一",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          12,
+          14,
+          16,
+          24,
+          28,
+          29
+        ]
+      },
+      {
+        "name": "长畑成一郎",
+        "slug": "nagahata-seiichiro",
+        "role": "speaker",
+        "seg": [
+          13,
+          18,
+          20,
+          21,
+          25,
+          26
+        ]
+      },
+      {
+        "name": "编者注",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          17,
+          19,
+          213,
+          260
+        ]
+      },
+      {
+        "name": "增田雄介",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          8
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "堀井",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          131
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "鸟山",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          147
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "佐久间晃",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          182
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "东银座",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          288
+        ],
+        "what": "长畑说带企划来的地方",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          0,
+          1,
+          5,
+          11,
+          12,
+          15
+        ],
+        "as": [
+          "迷宫",
+          "关卡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          0,
+          40,
+          89,
+          152
+        ],
+        "as": [
+          "企划书",
+          "企划时",
+          "企划阶段"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          1,
+          135
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          20,
+          79,
+          96,
+          112,
+          118
+        ],
+        "as": [
+          "视觉效果",
+          "演出效果",
+          "画面上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          21,
+          41,
+          52,
+          138,
+          281
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          24,
+          26
+        ],
+        "as": [
+          "一起做",
+          "分工"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          31,
+          32,
+          33,
+          50,
+          51,
+          75
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "life-and-death",
+        "name": "生死的表述",
+        "facet": "design",
+        "seg": [
+          35,
+          272
+        ],
+        "as": [
+          "死亡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          47,
+          48,
+          51,
+          211,
+          272
+        ],
+        "as": [
+          "回合"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          57
+        ],
+        "as": [
+          "经验值"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          67,
+          84,
+          85,
+          86
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          71,
+          125,
+          127,
+          128
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          82,
+          104,
+          274,
+          275
+        ],
+        "as": [
+          "内存",
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          84,
+          88,
+          92,
+          97,
+          103,
+          109
+        ],
+        "as": [
+          "手感",
+          "操作性",
+          "操作方式",
+          "界面"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          87,
+          222,
+          252
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "postgame",
+        "name": "通关之后",
+        "facet": "system",
+        "seg": [
+          87
+        ],
+        "as": [
+          "通关后"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          106,
+          165,
+          181,
+          182,
+          183,
+          184
+        ],
+        "as": [
+          "随机",
+          "概率",
+          "运气"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          121,
+          153
+        ],
+        "as": [
+          "真实感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          129,
+          130
+        ],
+        "as": [
+          "从零开始"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          136
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          146,
+          295
+        ],
+        "as": [
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          153,
+          303
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          158,
+          256
+        ],
+        "as": [
+          "吃惊"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          160
+        ],
+        "as": [
+          "截止"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "data-management",
+        "name": "数据与存档",
+        "facet": "tech",
+        "seg": [
+          167,
+          275,
+          276
+        ],
+        "as": [
+          "数据量",
+          "存档"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          168
+        ],
+        "as": [
+          "完成度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          172,
+          244,
+          245,
+          270
+        ],
+        "as": [
+          "难度",
+          "高难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          195,
+          201
+        ],
+        "as": [
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "spinoff",
+        "name": "外传作品",
+        "facet": "franchise",
+        "seg": [
+          260
+        ],
+        "as": [
+          "外传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          267
+        ],
+        "as": [
+          "通信线"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          268
+        ],
+        "as": [
+          "联网",
+          "在线"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          276
+        ],
+        "as": [
+          "编写程序"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [],
+        "as": [
+          "游戏平衡"
+        ],
+        "via": "tag"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 16,
+      "text": "长畑在经营企划室提出无论如何都想做《Rogue》",
+      "anchor": 17
+    },
+    {
+      "seg": 53,
+      "text": "首作《特鲁内克》最初由其他工作人员调整数值，进展不顺",
+      "anchor": 54
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "segment_audit": "2026-11-12"
+  },
+  "edited": false
 }

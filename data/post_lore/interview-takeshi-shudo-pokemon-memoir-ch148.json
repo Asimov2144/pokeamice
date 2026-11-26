@@ -1,176 +1,180 @@
 {
- "id": "interview-takeshi-shudo-pokemon-memoir-ch148",
- "stem": "2008-05-14-interview-takeshi-shudo-pokemon-memoir-ch148",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 6
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     5
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 动画系列",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "首藤刚志",
-    "slug": "shudo-takeshi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
-  "places": [
-   {
-    "name": "石英高原联盟",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "保送资格目标",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     1
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     2
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     2
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     4,
-     5
-    ],
-    "as": [
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [],
-    "as": [
-     "教育"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "第9话标题为《宝可梦胜负指南》，由首藤刚志执笔剧本",
-   "anchor": 2
+  "id": "interview-takeshi-shudo-pokemon-memoir-ch148",
+  "stem": "2008-05-14-interview-takeshi-shudo-pokemon-memoir-ch148",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 6
   },
-  {
-   "seg": 2,
-   "text": "前8集紧扣《红/绿》卡带框架，第9话出现游戏未提的补习学校体制",
-   "anchor": 3
-  }
- ],
- "relations": [
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch144",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/",
-   "why": "第144回交代前8话走向与分工，本篇第9话正接其后"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          5
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 动画系列",
+        "slug": null,
+        "seg": [
+          1
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          2
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "首藤刚志",
+        "slug": "shudo-takeshi",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "汤山邦彦",
+        "slug": "yuyama-kunihiko",
+        "role": "mentioned",
+        "seg": []
+      }
+    ],
+    "places": [
+      {
+        "name": "石英高原联盟",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          2
+        ],
+        "what": "保送资格目标",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          1
+        ],
+        "as": [
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          2
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          2
+        ],
+        "as": [
+          "卡带"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          4,
+          5
+        ],
+        "as": [
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "education",
+        "name": "教育与育儿",
+        "facet": "audience",
+        "seg": [],
+        "as": [
+          "教育"
+        ],
+        "via": "tag"
+      }
+    ]
   },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch143",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/",
-   "why": "第143回讲第1、2话开播，本篇前8话依卡带流程的前提"
+  "observations": [
+    {
+      "seg": 1,
+      "text": "第9话标题为《宝可梦胜负指南》，由首藤刚志执笔剧本",
+      "anchor": 2
+    },
+    {
+      "seg": 2,
+      "text": "前8集紧扣《红/绿》卡带框架，第9话出现游戏未提的补习学校体制",
+      "anchor": 3
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch144",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch144/",
+      "why": "第144回交代前8话走向与分工，本篇第9话正接其后"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch143",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch143/",
+      "why": "第143回讲第1、2话开播，本篇前8话依卡带流程的前提"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch142",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/",
+      "why": "第142回提出打破抓怪练级道馆循环，本篇补习学校即此延伸"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch142",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch142/",
-   "why": "第142回提出打破抓怪练级道馆循环，本篇补习学校即此延伸"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

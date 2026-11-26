@@ -1,242 +1,235 @@
 {
- "id": "corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
- "stem": "2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 32
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦卡牌游戏 Classic",
-    "slug": null,
-    "seg": [
-     19
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦卡牌游戏 第1弹 扩充包",
-    "slug": null,
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [],
-  "places": [
-   {
-    "name": "SHIBUYA TSUTAYA",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "卡牌休息室所在",
-    "via": "llm"
-   },
-   {
-    "name": "JR涩谷站",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "通往店铺的起点",
-    "via": "llm"
-   },
-   {
-    "name": "涩谷",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     13
-    ],
-    "what": "店铺所在街区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     2,
-     3,
-     6,
-     7,
-     8,
-     9
-    ],
-    "as": [
-     "宝可梦卡牌",
-     "集换式卡牌",
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     6
-    ],
-    "as": [
-     "手机游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     7,
-     8,
-     24
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "competitive",
-    "name": "竞技与官方大赛",
-    "facet": "system",
-    "seg": [
-     8,
-     30
-    ],
-    "as": [
-     "官方大赛",
-     "世界大赛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     11,
-     13
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     15,
-     19,
-     22
-    ],
-    "as": [
-     "付费",
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     16
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     17
-    ],
-    "as": [
-     "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     19
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     24
-    ],
-    "as": [
-     "周边商品"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     29
-    ],
-    "as": [
-     "年龄层"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "SHIBUYA TSUTAYA 5楼墙面装饰用间接照明浮现草、火、水等标志",
-   "anchor": 3
+  "id": "corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
+  "stem": "2024-06-14-corporate-topic-19-shibuya-tsutaya-pokemon-card-lounge",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 32
   },
-  {
-   "seg": 15,
-   "text": "含个室在内共82席，进入休息区需付费"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦集换式卡牌游戏",
+        "slug": null,
+        "seg": [
+          19,
+          20
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [],
+    "places": [
+      {
+        "name": "SHIBUYA TSUTAYA",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          2
+        ],
+        "what": "卡牌休息室所在",
+        "via": "llm"
+      },
+      {
+        "name": "JR涩谷站",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          2
+        ],
+        "what": "通往店铺的起点",
+        "via": "llm"
+      },
+      {
+        "name": "涩谷",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          13
+        ],
+        "what": "店铺所在街区",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          2,
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        "as": [
+          "宝可梦卡牌",
+          "集换式卡牌",
+          "卡牌游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          6
+        ],
+        "as": [
+          "手机游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          7,
+          8,
+          24
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "competitive",
+        "name": "竞技与官方大赛",
+        "facet": "system",
+        "seg": [
+          8,
+          30
+        ],
+        "as": [
+          "官方大赛",
+          "世界大赛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          11,
+          13
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          15,
+          19,
+          22
+        ],
+        "as": [
+          "付费",
+          "免费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          16
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          17
+        ],
+        "as": [
+          "精灵球"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          19
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          24
+        ],
+        "as": [
+          "周边商品"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          29
+        ],
+        "as": [
+          "年龄层"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 2,
+      "text": "SHIBUYA TSUTAYA 5楼墙面装饰用间接照明浮现草、火、水等标志",
+      "anchor": 3
+    },
+    {
+      "seg": 15,
+      "text": "含个室在内共82席，进入休息区需付费"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

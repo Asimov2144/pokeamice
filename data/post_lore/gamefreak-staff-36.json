@@ -1,171 +1,173 @@
 {
- "id": "gamefreak-staff-36",
- "stem": "2007-10-12-gamefreak-staff-36",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 72
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "エノキ",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "下北泽",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     3,
-     7,
-     39,
-     43
-    ],
-    "via": "extra",
-    "area": "shimokitazawa-gamefreak",
-    "what": "GAME FREAK 最初的开发基地"
-   },
-   {
-    "name": "三轩茶屋",
-    "id": "carrot_tower",
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     12,
-     48
-    ],
-    "via": "extra",
-    "what": "GAME FREAK 胡萝卜塔所在"
-   },
-   {
-    "name": "胡萝卜塔",
-    "id": "carrot_tower",
-    "entity": null,
-    "category": "game_freak",
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     12
-    ],
-    "via": "gazetteer"
-   },
-   {
-    "name": "三轩茶屋胡萝卜塔",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     12
-    ],
-    "what": "新办公室所在楼",
-    "via": "llm"
-   },
-   {
-    "name": "世田谷",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     30
-    ],
-    "what": "新办公室所在区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     3,
-     11,
-     12,
-     13,
-     16,
-     27
-    ],
-    "as": [
-     "办公室",
-     "オフィス"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     6
-    ],
-    "as": [
-     "面对面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     26,
-     28,
-     62,
-     64
-    ],
-    "as": [
-     "入职",
-     "入社"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "GAME FREAK要搬家"
+  "id": "gamefreak-staff-36",
+  "stem": "2007-10-12-gamefreak-staff-36",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 72
   },
-  {
-   "seg": 12,
-   "text": "9月28日在三轩茶屋胡萝卜塔内的新办公室"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          14
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "エノキ",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "下北泽",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          3,
+          7,
+          39,
+          43
+        ],
+        "via": "extra",
+        "area": "shimokitazawa-gamefreak",
+        "what": "GAME FREAK 最初的开发基地"
+      },
+      {
+        "name": "三轩茶屋",
+        "id": "carrot_tower",
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          12,
+          48
+        ],
+        "via": "extra",
+        "what": "GAME FREAK 胡萝卜塔所在"
+      },
+      {
+        "name": "胡萝卜塔",
+        "id": "carrot_tower",
+        "entity": null,
+        "category": "game_freak",
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          12
+        ],
+        "via": "gazetteer"
+      },
+      {
+        "name": "三轩茶屋胡萝卜塔",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          12
+        ],
+        "what": "新办公室所在楼",
+        "via": "llm"
+      },
+      {
+        "name": "世田谷",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          30
+        ],
+        "what": "新办公室所在区",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          3,
+          11,
+          12,
+          13,
+          16,
+          27
+        ],
+        "as": [
+          "办公室",
+          "オフィス"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          6
+        ],
+        "as": [
+          "面对面"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          26,
+          28,
+          62,
+          64
+        ],
+        "as": [
+          "入职",
+          "入社"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 2,
+      "text": "GAME FREAK要搬家"
+    },
+    {
+      "seg": 12,
+      "text": "9月28日在三轩茶屋胡萝卜塔内的新办公室"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

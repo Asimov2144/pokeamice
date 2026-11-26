@@ -1,335 +1,339 @@
 {
- "id": "interview-elpais-oras-masuda-ohmori",
- "stem": "2014-11-01-interview-elpais-oras-masuda-ohmori",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 15
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     1,
-     2
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
-    "slug": "oras",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 钻石／珍珠",
-    "slug": null,
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑／白",
-    "slug": null,
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "大森滋",
-    "slug": "ohmori-shigeru",
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "巴塞罗那",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     1
-    ],
-    "what": "漫展举办地",
-    "via": "llm"
-   },
-   {
-    "name": "莱斯托纳克学校礼堂",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     1
-    ],
-    "what": "专访活动场地",
-    "via": "llm"
-   },
-   {
-    "name": "九州",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     5
-    ],
-    "what": "增田童年度过地",
-    "via": "llm"
-   },
-   {
-    "name": "西班牙",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     3
-    ],
-    "what": "系列销量统计地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     0,
-     1,
-     4,
-     10,
-     14
-    ],
-    "as": [
-     "孩子们",
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     0
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     1,
-     2
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     3
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     4
-    ],
-    "as": [
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     5
-    ],
-    "as": [
-     "昆虫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     5
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     8
-    ],
-    "as": [
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     9
-    ],
-    "as": [
-     "团队合作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     10
-    ],
-    "as": [
-     "配乐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     10
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "重制版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [],
-    "as": [
-     "掌机"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 0,
-   "text": "宝可梦系列销量超过2.6亿份，仅次于超级马力欧",
-   "anchor": 1
+  "id": "interview-elpais-oras-masuda-ohmori",
+  "stem": "2014-11-01-interview-elpais-oras-masuda-ohmori",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 15
   },
-  {
-   "seg": 3,
-   "text": "该系列在西班牙已售出超过700万份",
-   "anchor": 4
-  }
- ],
- "relations": [
-  {
-   "id": "interview-topofarmer-ideame-masuda-ohmori",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录",
-   "url": "/developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/",
-   "why": "同为2014年巴塞罗那漫画沙龙期间增田顺一与大森滋的采访"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          1,
+          2
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+        "slug": "oras",
+        "seg": [
+          13
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          12
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          12
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          12
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "大森滋",
+        "slug": "ohmori-shigeru",
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "巴塞罗那",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          1
+        ],
+        "what": "漫展举办地",
+        "via": "llm"
+      },
+      {
+        "name": "莱斯托纳克学校礼堂",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          1
+        ],
+        "what": "专访活动场地",
+        "via": "llm"
+      },
+      {
+        "name": "九州",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          5
+        ],
+        "what": "增田童年度过地",
+        "via": "llm"
+      },
+      {
+        "name": "西班牙",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          3
+        ],
+        "what": "系列销量统计地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          0,
+          1,
+          4,
+          10,
+          14
+        ],
+        "as": [
+          "孩子们",
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          0
+        ],
+        "as": [
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          1,
+          2
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          3
+        ],
+        "as": [
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          4
+        ],
+        "as": [
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          5
+        ],
+        "as": [
+          "昆虫"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          5
+        ],
+        "as": [
+          "童年"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          8
+        ],
+        "as": [
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          9
+        ],
+        "as": [
+          "团队合作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          10
+        ],
+        "as": [
+          "配乐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          10
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          12
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          13
+        ],
+        "as": [
+          "重制版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [],
+        "as": [
+          "掌机"
+        ],
+        "via": "tag"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 0,
+      "text": "宝可梦系列销量超过2.6亿份，仅次于超级马力欧",
+      "anchor": 1
+    },
+    {
+      "seg": 3,
+      "text": "该系列在西班牙已售出超过700万份",
+      "anchor": 4
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-topofarmer-ideame-masuda-ohmori",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录",
+      "url": "/developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/",
+      "why": "同为2014年巴塞罗那漫画沙龙期间增田顺一与大森滋的采访"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

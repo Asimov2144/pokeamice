@@ -1,248 +1,240 @@
 {
- "id": "corporate-topic-09-pokemon-sleep-science-and-dream",
- "stem": "2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 35
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "卡比兽",
-    "ndex": 143,
-    "seg": [
-     25
-    ],
-    "as": [
-     "卡比兽"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon Smile",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon Sleep",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     9
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "柳泽正史",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": [
-     18
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "富安大贵",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     18
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "景山将太",
-    "slug": "kageyama-shota",
-    "role": "mentioned",
-    "seg": [
-     24
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     8,
-     19
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     8,
-     9
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     9
-    ],
-    "as": [
-     "等级"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     11
-    ],
-    "as": [
-     "收集宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     13
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     17,
-     21,
-     25
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     18,
-     19,
-     20
-    ],
-    "as": [
-     "分镜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     20,
-     22
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     24
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     25
-    ],
-    "as": [
-     "编曲"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "约九成人为了身心疗愈而重视睡眠时间，约半数人对睡眠不满意。",
-   "anchor": 4
+  "id": "corporate-topic-09-pokemon-sleep-science-and-dream",
+  "stem": "2023-09-28-corporate-topic-09-pokemon-sleep-science-and-dream",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 35
   },
-  {
-   "seg": 11,
-   "text": "因视频会导致睡回笼觉，改为拍摄并收集宝可梦睡脸的形式。",
-   "anchor": 12
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "卡比兽",
+        "ndex": 143,
+        "seg": [
+          25
+        ],
+        "as": [
+          "卡比兽"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Pokémon Smile",
+        "slug": "smile",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Pokémon Sleep",
+        "slug": "sleep",
+        "seg": [
+          5
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "柳泽正史",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "汤山邦彦",
+        "slug": "yuyama-kunihiko",
+        "role": "mentioned",
+        "seg": [
+          18
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "富安大贵",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          18
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "景山将太",
+        "slug": "kageyama-shota",
+        "role": "mentioned",
+        "seg": [
+          24
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          8,
+          19
+        ],
+        "as": [
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          8,
+          9
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          9
+        ],
+        "as": [
+          "等级"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          11
+        ],
+        "as": [
+          "收集宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          13
+        ],
+        "as": [
+          "监修"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          17,
+          21,
+          25
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          18,
+          19,
+          20
+        ],
+        "as": [
+          "分镜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          20,
+          22
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          24
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          25
+        ],
+        "as": [
+          "编曲"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "约九成人为了身心疗愈而重视睡眠时间，约半数人对睡眠不满意。",
+      "anchor": 4
+    },
+    {
+      "seg": 11,
+      "text": "因视频会导致睡回笼觉，改为拍摄并收集宝可梦睡脸的形式。",
+      "anchor": 12
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

@@ -2,11 +2,11 @@
  "id": "interview-gi-2017-spinoffs",
  "stem": "2017-08-15-interview-gi-2017-spinoffs",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-26",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 21
+  "n": 8
  },
  "facets": {
   "pokemon": [
@@ -26,22 +26,18 @@
    {
     "name": "Pokémon GO",
     "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 随乐拍",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦GO",
-    "slug": null,
     "seg": [
      4
     ],
-    "via": "llm"
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦随乐拍",
+    "slug": "snap",
+    "seg": [
+     5
+    ],
+    "via": "entities"
    },
    {
     "name": "宝可梦 红宝石·蓝宝石",
@@ -52,24 +48,16 @@
     "via": "llm"
    },
    {
-    "name": "宝可梦随乐拍",
-    "slug": "snap",
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 金／银",
-    "slug": null,
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
     "seg": [
      4
     ],
     "via": "llm"
    },
    {
-    "name": "宝可梦 X／Y",
-    "slug": null,
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
     "seg": [
      6
     ],
@@ -140,30 +128,6 @@
      "热潮"
     ],
     "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     8
-    ],
-    "as": [
-     "在线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     11
-    ],
-    "as": [
-     "设计宝可梦"
-    ],
-    "via": "body"
    }
   ]
  },
@@ -200,8 +164,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

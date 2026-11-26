@@ -598,3 +598,19 @@
   placeholder: other
   icon: /assets/img/works/classic-placeholder.png
   icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦大集结"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦大师"
+  placeholder: other
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦 礼宾部"
+  placeholder: anime
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: "宝可梦 地平线"
+  placeholder: anime
+  icon: /assets/img/works/classic-placeholder.png
+  icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）

@@ -1,337 +1,339 @@
 {
- "id": "interview-cedec-2026-battle-system-deck",
- "stem": "2026-07-22-interview-cedec-2026-battle-system-deck",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 131
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "喷火龙",
-    "ndex": 6,
-    "seg": [
-     15,
-     17,
-     23,
-     25,
-     50,
-     94
-    ],
-    "as": [
-     "喷火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     15,
-     17,
-     23,
-     25,
-     94,
-     96
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "甲贺忍蛙",
-    "ndex": 658,
-    "seg": [
-     6
-    ],
-    "as": [
-     "甲贺忍蛙"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "Pokémon LEGENDS Z-A",
-    "slug": "legends-za",
-    "seg": [
-     112
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 太阳・月亮",
-    "slug": null,
-    "seg": [
-     33
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 剑・盾",
-    "slug": null,
-    "seg": [
-     37
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "宗像快",
-    "slug": "munakata-kai",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "小幡敏宏",
-    "slug": "obata-toshihiro",
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     2,
-     4,
-     6,
-     8,
-     9,
-     11
-    ],
-    "as": [
-     "宝可梦对战",
-     "回合",
-     "对战系统",
-     "战斗系统"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     2
-    ],
-    "as": [
-     "数据量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     2,
-     17,
-     23,
-     25,
-     27,
-     31
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     2,
-     8
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     4
-    ],
-    "as": [
-     "等级"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     6,
-     15,
-     88,
-     116
-    ],
-    "as": [
-     "水属性",
-     "火属性",
-     "属性相性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     15
-    ],
-    "as": [
-     "概率"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     27
-    ],
-    "as": [
-     "续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "evolution-design",
-    "name": "进化的设计",
-    "facet": "design",
-    "seg": [
-     31,
-     90
-    ],
-    "as": [
-     "超级进化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     31
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "link-battle",
-    "name": "通信对战",
-    "facet": "system",
-    "seg": [
-     31
-    ],
-    "as": [
-     "双打对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     42
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     42,
-     70,
-     108,
-     128
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     54,
-     62
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "宝可梦1000种以上，招式特性道具合计超2400种",
-   "anchor": 3
+  "id": "interview-cedec-2026-battle-system-deck",
+  "stem": "2026-07-22-interview-cedec-2026-battle-system-deck",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 131
   },
-  {
-   "seg": 2,
-   "text": "新系列推出时宝可梦与招式等合计追加200种以上",
-   "anchor": 3
-  }
- ],
- "relations": [
-  {
-   "id": "interview-denfami-2026-cedec-battle",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "宝可梦对战系统为何重构",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2026-cedec-battle/",
-   "why": "同为CEDEC2026宗像快、小幡敏宏讲战斗系统重构"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "喷火龙",
+        "ndex": 6,
+        "seg": [
+          15,
+          17,
+          23,
+          25,
+          50,
+          94
+        ],
+        "as": [
+          "喷火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          15,
+          17,
+          23,
+          25,
+          94,
+          96
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "甲贺忍蛙",
+        "ndex": 658,
+        "seg": [
+          6
+        ],
+        "as": [
+          "甲贺忍蛙"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "Pokémon LEGENDS Z-A",
+        "slug": "legends-za",
+        "seg": [
+          112
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 朱·紫",
+        "slug": "scarlet-violet",
+        "seg": [
+          114
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          33
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [
+          37
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "宗像快",
+        "slug": "munakata-kai",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "小幡敏宏",
+        "slug": "obata-toshihiro",
+        "role": "mentioned",
+        "seg": []
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          2,
+          4,
+          6,
+          8,
+          9,
+          11
+        ],
+        "as": [
+          "宝可梦对战",
+          "回合",
+          "对战系统",
+          "战斗系统"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "data-management",
+        "name": "数据与存档",
+        "facet": "tech",
+        "seg": [
+          2
+        ],
+        "as": [
+          "数据量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          2,
+          17,
+          23,
+          25,
+          27,
+          31
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          2,
+          8
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          4
+        ],
+        "as": [
+          "等级"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          6,
+          15,
+          88,
+          116
+        ],
+        "as": [
+          "水属性",
+          "火属性",
+          "属性相性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          15
+        ],
+        "as": [
+          "概率"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          27
+        ],
+        "as": [
+          "续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "evolution-design",
+        "name": "进化的设计",
+        "facet": "design",
+        "seg": [
+          31,
+          90
+        ],
+        "as": [
+          "超级进化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          31
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "link-battle",
+        "name": "通信对战",
+        "facet": "system",
+        "seg": [
+          31
+        ],
+        "as": [
+          "双打对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          42
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          42,
+          70,
+          108,
+          128
+        ],
+        "as": [
+          "代码"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          54,
+          62
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-4gamer-2026-cedec-battle",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "宝可梦战斗系统的共通基础",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-2026-cedec-battle/",
-   "why": "同为CEDEC2026同一讲演，Section与Event/EventHandl"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 2,
+      "text": "宝可梦1000种以上，招式特性道具合计超2400种",
+      "anchor": 3
+    },
+    {
+      "seg": 2,
+      "text": "新系列推出时宝可梦与招式等合计追加200种以上",
+      "anchor": 3
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-denfami-2026-cedec-battle",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "宝可梦对战系统为何重构",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2026-cedec-battle/",
+      "why": "同为CEDEC2026宗像快、小幡敏宏讲战斗系统重构"
+    },
+    {
+      "id": "interview-4gamer-2026-cedec-battle",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "宝可梦战斗系统的共通基础",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-4gamer-2026-cedec-battle/",
+      "why": "同为CEDEC2026同一讲演，Section与Event/EventHandl"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

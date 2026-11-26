@@ -1,774 +1,774 @@
 {
- "id": "scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
- "stem": "2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 192
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     3,
-     18,
-     42,
-     48,
-     51,
-     52
+  "id": "scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
+  "stem": "2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 192
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          3,
+          18,
+          42,
+          48,
+          51,
+          52
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 心金·魂银",
+        "slug": "heartgold-soulsilver",
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          113
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          93
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          74
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "任天堂DS 宝可梦 黑·白 超级音乐收藏",
+        "slug": null,
+        "seg": [
+          52
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "勇者斗恶龙III",
+        "slug": null,
+        "seg": [
+          163
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "时空之轮",
+        "slug": null,
+        "seg": [
+          163
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "贵妇人的骑马",
+        "slug": null,
+        "seg": [
+          167
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 心金·魂银",
-    "slug": "heartgold-soulsilver",
-    "seg": [
-     6
+    "people": [
+      {
+        "name": "景山将太",
+        "slug": "kageyama-shota",
+        "role": "speaker",
+        "seg": [
+          7,
+          9,
+          11,
+          14,
+          16,
+          23
+        ]
+      },
+      {
+        "name": "增田",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "一之濑",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          29
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "佐藤",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          29
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "足立",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          29
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "渡边",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          35
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": [
+          30
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "一之濑刚",
+        "slug": "ichinose-go",
+        "role": "mentioned",
+        "seg": [
+          30
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "佐藤仁美",
+        "slug": "sato-hitomi",
+        "role": "mentioned",
+        "seg": [
+          30
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "足立美奈子",
+        "slug": "adachi-minako",
+        "role": "mentioned",
+        "seg": [
+          30
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "椙山浩一",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          163
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "光田康典",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          163
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "约翰·布格缪勒",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          167
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "魁奇思",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          77
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "阿戴克",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          78
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "黑连",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          115
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "白露",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          23
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "N",
+        "slug": "n",
+        "role": "mentioned",
+        "seg": [
+          145
+        ],
+        "via": "llm",
+        "kind": "character"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     113
+    "places": [
+      {
+        "name": "10号道路",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          173
+        ],
+        "what": "终盘阶段的道路",
+        "via": "llm"
+      },
+      {
+        "name": "合众地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          26
+        ],
+        "what": "多种价值观共存之地",
+        "via": "llm"
+      },
+      {
+        "name": "帆巴市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          66
+        ],
+        "what": "合众地区的门户",
+        "via": "llm"
+      },
+      {
+        "name": "飞云市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          130
+        ],
+        "what": "有GAME FREAK大楼",
+        "via": "llm"
+      },
+      {
+        "name": "雷文市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          137
+        ],
+        "what": "白露与父亲对话处",
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     93
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     74
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "勇者斗恶龙III",
-    "slug": null,
-    "seg": [
-     163
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "时空之轮",
-    "slug": null,
-    "seg": [
-     163
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "贵妇人的骑马",
-    "slug": null,
-    "seg": [
-     167
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑·白 超级音乐收藏集",
-    "slug": null,
-    "seg": [
-     52
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "景山将太",
-    "slug": "kageyama-shota",
-    "role": "speaker",
-    "seg": [
-     7,
-     9,
-     11,
-     14,
-     16,
-     23
+    "concepts": [
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          4,
+          9,
+          10,
+          25,
+          36
+        ],
+        "as": [
+          "完全新作",
+          "系列最新作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          14
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          16,
+          53
+        ],
+        "as": [
+          "协作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          19,
+          51,
+          69,
+          92,
+          106,
+          114
+        ],
+        "as": [
+          "作曲",
+          "编曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          37,
+          38
+        ],
+        "as": [
+          "开发初期",
+          "开发期间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          47,
+          184,
+          191
+        ],
+        "as": [
+          "大主题"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "voice",
+        "name": "配音",
+        "facet": "audio",
+        "seg": [
+          47,
+          108,
+          150
+        ],
+        "as": [
+          "声音演出"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          51,
+          70
+        ],
+        "as": [
+          "品质",
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          57
+        ],
+        "as": [
+          "重新制作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          63,
+          64,
+          75
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          73
+        ],
+        "as": [
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          81,
+          97,
+          122,
+          145,
+          158,
+          160
+        ],
+        "as": [
+          "BGM",
+          "主题曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          86,
+          158,
+          160
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          88,
+          189
+        ],
+        "as": [
+          "容易理解",
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          92,
+          106,
+          108,
+          119,
+          130,
+          140
+        ],
+        "as": [
+          "音效",
+          "音效设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          94,
+          114
+        ],
+        "as": [
+          "反复推敲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          96,
+          97
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          101
+        ],
+        "as": [
+          "洞窟"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sound-hardware",
+        "name": "音源与机能",
+        "facet": "audio",
+        "seg": [
+          114
+        ],
+        "as": [
+          "和音"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          130
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          133
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          133
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          136,
+          138,
+          140,
+          156,
+          178
+        ],
+        "as": [
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          140
+        ],
+        "as": [
+          "亲子"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          140,
+          150,
+          172
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          146
+        ],
+        "as": [
+          "角色设定"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          148
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          150
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          150
+        ],
+        "as": [
+          "培育宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          187
+        ],
+        "as": [
+          "演出效果"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "增田",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "一之濑",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "佐藤",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "足立",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "渡边",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     35
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "一之濑刚",
-    "slug": "ichinose-go",
-    "role": "mentioned",
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "佐藤仁美",
-    "slug": "sato-hitomi",
-    "role": "mentioned",
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "足立美奈子",
-    "slug": "adachi-minako",
-    "role": "mentioned",
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "椙山浩一",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     163
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "光田康典",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     163
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "约翰·布格缪勒",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     167
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "魁奇思",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     77
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "阿戴克",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     78
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "黑连",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     115
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "白露",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     23
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "N",
-    "slug": "n",
-    "role": "mentioned",
-    "seg": [
-     145
-    ],
-    "via": "llm",
-    "kind": "character"
-   }
-  ],
-  "places": [
-   {
-    "name": "10号道路",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     173
-    ],
-    "what": "终盘阶段的道路",
-    "via": "llm"
-   },
-   {
-    "name": "合众地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     26
-    ],
-    "what": "多种价值观共存之地",
-    "via": "llm"
-   },
-   {
-    "name": "帆巴市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     66
-    ],
-    "what": "合众地区的门户",
-    "via": "llm"
-   },
-   {
-    "name": "飞云市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     130
-    ],
-    "what": "有GAME FREAK大楼",
-    "via": "llm"
-   },
-   {
-    "name": "雷文市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     137
-    ],
-    "what": "白露与父亲对话处",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     4,
-     9,
-     10,
-     25,
-     36
-    ],
-    "as": [
-     "完全新作",
-     "系列最新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     14
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     16,
-     53
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     19,
-     51,
-     69,
-     92,
-     106,
-     114
-    ],
-    "as": [
-     "作曲",
-     "编曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     37,
-     38
-    ],
-    "as": [
-     "开发初期",
-     "开发期间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     47,
-     184,
-     191
-    ],
-    "as": [
-     "大主题"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "voice",
-    "name": "配音",
-    "facet": "audio",
-    "seg": [
-     47,
-     108,
-     150
-    ],
-    "as": [
-     "声音演出"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     51,
-     70
-    ],
-    "as": [
-     "品质",
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     57
-    ],
-    "as": [
-     "重新制作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     63,
-     64,
-     75
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     73
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     81,
-     97,
-     122,
-     145,
-     158,
-     160
-    ],
-    "as": [
-     "BGM",
-     "主题曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     86,
-     158,
-     160
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     88,
-     189
-    ],
-    "as": [
-     "容易理解",
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     92,
-     106,
-     108,
-     119,
-     130,
-     140
-    ],
-    "as": [
-     "音效",
-     "音效设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     94,
-     114
-    ],
-    "as": [
-     "反复推敲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     96,
-     97
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     101
-    ],
-    "as": [
-     "洞窟"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     114
-    ],
-    "as": [
-     "和音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     130
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     133
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     133
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     136,
-     138,
-     140,
-     156,
-     178
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     140
-    ],
-    "as": [
-     "亲子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     140,
-     150,
-     172
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     146
-    ],
-    "as": [
-     "角色设定"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     148
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     150
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     150
-    ],
-    "as": [
-     "培育宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     187
-    ],
-    "as": [
-     "演出效果"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 23,
-   "text": "《坚定不移的心意》与《再见》的粗略草稿用YAMAHA S90 ES创作"
   },
-  {
-   "seg": 51,
-   "text": "《再见》与片尾曲等约花半天一口气写出"
-  }
- ],
- "relations": [
-  {
-   "id": "interview-bw-music-collection-liner-notes",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "增田顺一、景山将太等详谈合众动态音效与世界音乐构建",
-   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/",
-   "why": "同为黑·白声音主创访谈，景山谈声音主题"
+  "observations": [
+    {
+      "seg": 23,
+      "text": "《坚定不移的心意》与《再见》的粗略草稿用YAMAHA S90 ES创作"
+    },
+    {
+      "seg": 51,
+      "text": "《再见》与片尾曲等约花半天一口气写出"
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-bw-music-collection-liner-notes",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "增田顺一、景山将太等详谈合众动态音效与世界音乐构建",
+      "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-bw-music-collection-liner-notes/",
+      "why": "同为黑·白声音主创访谈，景山谈声音主题"
+    },
+    {
+      "id": "scan-ndream-2014-01-xy-sound-team-interview",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "宝可梦X·Y声音团队访谈",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2014-01-xy-sound-team-interview/",
+      "why": "同为景山任声音总监的系列声音访谈"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
   },
-  {
-   "id": "scan-ndream-2014-01-xy-sound-team-interview",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "宝可梦X·Y声音团队访谈",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2014-01-xy-sound-team-interview/",
-   "why": "同为景山任声音总监的系列声音访谈"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "edited": true
 }

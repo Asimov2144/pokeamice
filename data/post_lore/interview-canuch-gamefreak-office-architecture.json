@@ -1,194 +1,181 @@
 {
- "id": "interview-canuch-gamefreak-office-architecture",
- "stem": "2020-07-01-interview-canuch-gamefreak-office-architecture",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 53
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     9
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红／绿",
-    "slug": null,
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "Hideki Makiguchi",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     51
-    ],
-    "via": "source"
-   }
-  ],
-  "places": [
-   {
-    "name": "东京",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "city",
-    "seg": [
-     52
-    ],
-    "what": "项目所在地",
-    "via": "source"
-   },
-   {
-    "name": "真新镇",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     12
-    ],
-    "what": "白色会议室设计的例子",
-    "via": "source"
-   },
-   {
-    "name": "常青森林",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     12
-    ],
-    "what": "大堂设计主题",
-    "via": "source"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     4,
-     8,
-     31
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     5
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     5,
-     12,
-     31
-    ],
-    "as": [
-     "办公室"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     12,
-     23
-    ],
-    "as": [
-     "配色",
-     "颜色"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 5,
-   "text": "迁址为满足高安全性、工位扩增与跨项目横向交流",
-   "anchor": 6
+  "id": "interview-canuch-gamefreak-office-architecture",
+  "stem": "2020-07-01-interview-canuch-gamefreak-office-architecture",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 53
   },
-  {
-   "seg": 17,
-   "text": "访客区入内部办公区分为中庭与栖息地两区",
-   "anchor": 18
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "segment_audit": "2026-11-12"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          7,
+          9,
+          10,
+          12
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "Hideki Makiguchi",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          51
+        ],
+        "via": "source"
+      }
+    ],
+    "places": [
+      {
+        "name": "东京",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "city",
+        "seg": [
+          52
+        ],
+        "what": "项目所在地",
+        "via": "source"
+      },
+      {
+        "name": "真新镇",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          12
+        ],
+        "what": "白色会议室设计的例子",
+        "via": "source"
+      },
+      {
+        "name": "常青森林",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          12
+        ],
+        "what": "大堂设计主题",
+        "via": "source"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          4,
+          8,
+          31
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          5
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          5,
+          12,
+          31
+        ],
+        "as": [
+          "办公室"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          12,
+          23
+        ],
+        "as": [
+          "配色",
+          "颜色"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          12
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          12
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 5,
+      "text": "迁址为满足高安全性、工位扩增与跨项目横向交流",
+      "anchor": 6
+    },
+    {
+      "seg": 17,
+      "text": "访客区入内部办公区分为中庭与栖息地两区",
+      "anchor": 18
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "segment_audit": "2026-11-12"
+  },
+  "edited": false
 }

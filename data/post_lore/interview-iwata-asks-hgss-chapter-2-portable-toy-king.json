@@ -1,323 +1,328 @@
 {
- "id": "interview-iwata-asks-hgss-chapter-2-portable-toy-king",
- "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 46
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     35,
-     38,
-     42
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 心金·魂银",
-    "slug": "heartgold-soulsilver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "口袋皮卡丘",
-    "slug": null,
-    "seg": [
-     42
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦集换式卡牌游戏",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 赤·绿",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 青",
-    "slug": null,
-    "seg": [
-     31
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 皮卡丘",
-    "slug": null,
-    "seg": [
-     35
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "speaker",
-    "seg": [
-     0,
-     3,
-     5,
-     7,
-     9,
-     12
-    ]
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     1,
-     4,
-     6,
-     8,
-     11,
-     13
-    ]
-   },
-   {
-    "name": "森本茂树",
-    "slug": "morimoto-shigeki",
-    "role": "speaker",
-    "seg": [
-     2
-    ]
-   },
-   {
-    "name": "众人",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     33,
-     45
-    ]
-   },
-   {
-    "name": "田尻",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     31
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     0,
-     1,
-     3,
-     18
-    ],
-    "as": [
-     "授权",
-     "版权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     0,
-     18
-    ],
-    "as": [
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     1
-    ],
-    "as": [
-     "企划案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     5
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     7,
-     9,
-     13,
-     43
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     11
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     14
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     25,
-     27
-    ],
-    "as": [
-     "动画化",
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [],
-    "as": [
-     "卡带"
-    ],
-    "via": "title"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "生态"
-    ],
-    "via": "title"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "石原说版权会议起初每周收到约10到20个商品企划案",
-   "anchor": 2
+  "id": "interview-iwata-asks-hgss-chapter-2-portable-toy-king",
+  "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 46
   },
-  {
-   "seg": 29,
-   "text": "石原说动画97年4月开始，金·银原计划98年发售",
-   "anchor": 30
-  }
- ],
- "relations": [
-  {
-   "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
-   "why": "同为社长问心金魂银，第1章在前"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          35,
+          38,
+          42
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 心金·魂银",
+        "slug": "heartgold-soulsilver",
+        "seg": [
+          14
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "口袋皮卡丘",
+        "slug": null,
+        "seg": [
+          35,
+          42
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦集换式卡牌游戏",
+        "slug": null,
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 蓝",
+        "slug": "blue-jp",
+        "seg": [
+          31
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 皮卡丘版",
+        "slug": "yellow",
+        "seg": [
+          35
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "岩田聪",
+        "slug": "iwata-satoru",
+        "role": "speaker",
+        "seg": [
+          0,
+          3,
+          5,
+          7,
+          9,
+          12
+        ]
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          1,
+          4,
+          6,
+          8,
+          11,
+          13
+        ]
+      },
+      {
+        "name": "森本茂树",
+        "slug": "morimoto-shigeki",
+        "role": "speaker",
+        "seg": [
+          2
+        ]
+      },
+      {
+        "name": "众人",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          33,
+          45
+        ]
+      },
+      {
+        "name": "田尻",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          31
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          0,
+          1,
+          3,
+          18
+        ],
+        "as": [
+          "授权",
+          "版权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          0,
+          18
+        ],
+        "as": [
+          "卡牌游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          1
+        ],
+        "as": [
+          "企划案"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          5
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          7,
+          9,
+          13,
+          43
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          11
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          13
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          14
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          25,
+          27
+        ],
+        "as": [
+          "动画化",
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [],
+        "as": [
+          "卡带"
+        ],
+        "via": "title"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "生态"
+        ],
+        "via": "title"
+      }
+    ]
   },
-  {
-   "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
-   "why": "同为社长问心金魂银，第3章在后"
+  "observations": [
+    {
+      "seg": 1,
+      "text": "石原说版权会议起初每周收到约10到20个商品企划案",
+      "anchor": 2
+    },
+    {
+      "seg": 29,
+      "text": "石原说动画97年4月开始，金·银原计划98年发售",
+      "anchor": 30
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
+      "why": "同为社长问心金魂银，第1章在前"
+    },
+    {
+      "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
+      "why": "同为社长问心金魂银，第3章在后"
+    },
+    {
+      "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
+      "why": "同为社长问心金魂银，第4章在后"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
-   "why": "同为社长问心金魂银，第4章在后"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

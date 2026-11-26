@@ -1,529 +1,532 @@
 {
- "id": "interview-takeshi-shudo-pokemon-memoir-ch226",
- "stem": "2010-06-30-interview-takeshi-shudo-pokemon-memoir-ch226",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 133
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "轻飘飘",
-    "ndex": 592,
-    "seg": [
-     16,
-     125
-    ],
-    "as": [
-     "轻飘飘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "漫画日本物语",
-    "slug": null,
-    "seg": [
-     20,
-     100,
-     115
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "日本沉没",
-    "slug": null,
-    "seg": [
-     102
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "复活之日",
-    "slug": null,
-    "seg": [
-     102
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "战国魔神豪将军",
-    "slug": null,
-    "seg": [
-     116
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "魔法公主明琪桃子",
-    "slug": null,
-    "seg": [
-     116
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "机动战士高达",
-    "slug": null,
-    "seg": [
-     115
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "漫画世界民间童话",
-    "slug": null,
-    "seg": [
-     106
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "竹林中",
-    "slug": null,
-    "seg": [
-     58
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "机动战士高达0079",
-    "slug": null,
-    "seg": [
-     115
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "首藤刚志",
-    "slug": "shudo-takeshi",
-    "role": "mentioned",
-    "seg": [
-     30,
-     32,
-     33,
-     66,
-     105,
-     109
-    ]
-   },
-   {
-    "name": "小松左京",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0,
-     102,
-     110,
-     111
-    ]
-   },
-   {
-    "name": "富野由悠季",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     115
-    ]
-   },
-   {
-    "name": "小黑祐一郎",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     19
-    ]
-   },
-   {
-    "name": "赤冢不二夫",
-    "slug": "chi-zhong-bu-er-fu",
-    "role": "mentioned",
-    "seg": [
-     16
-    ],
-    "kind": "figure"
-   },
-   {
-    "name": "芥川龙之介",
-    "slug": "jie-chuan-long-zhi-jie",
-    "role": "mentioned",
-    "seg": [
-     58
-    ],
-    "kind": "figure"
-   },
-   {
-    "name": "大宅壮一",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     0,
-     1,
-     4,
-     5,
-     6,
-     8
-    ],
-    "as": [
-     "编剧",
-     "剧本",
-     "脚本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     8,
-     10
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     8,
-     9
-    ],
-    "as": [
-     "大银幕"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     11,
-     13,
-     30,
-     102,
-     111
-    ],
-    "as": [
-     "版权",
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "分发"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "wireless",
-    "name": "无线与擦肩",
-    "facet": "tech",
-    "seg": [
-     14
-    ],
-    "as": [
-     "移动通信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     20,
-     100,
-     106,
-     115
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "accessibility",
-    "name": "无障碍",
-    "facet": "audience",
-    "seg": [
-     38
-    ],
-    "as": [
-     "无障碍"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     53
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     66
-    ],
-    "as": [
-     "反派"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     66
-    ],
-    "as": [
-     "同人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     87,
-     95,
-     117
-    ],
-    "as": [
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     89,
-     116
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     90
-    ],
-    "as": [
-     "精细度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     94
-    ],
-    "as": [
-     "流水线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     97
-    ],
-    "as": [
-     "动画剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     100
-    ],
-    "as": [
-     "企划阶段"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     104
-    ],
-    "as": [
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     104
-    ],
-    "as": [
-     "教育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     115
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     115
-    ],
-    "as": [
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     116
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "voice",
-    "name": "配音",
-    "facet": "audio",
-    "seg": [
-     117
-    ],
-    "as": [
-     "声优"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     126
-    ],
-    "as": [
-     "复刻"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 100,
-   "text": "《漫画日本物语》最初预定播出周期仅半年，档期定在每周六下午五点半。",
-   "anchor": 101
+  "id": "interview-takeshi-shudo-pokemon-memoir-ch226",
+  "stem": "2010-06-30-interview-takeshi-shudo-pokemon-memoir-ch226",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 133
   },
-  {
-   "seg": 115,
-   "text": "《漫画日本物语》系列最终连播了整整十三年。",
-   "anchor": 116
-  }
- ],
- "relations": [
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch207",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第207回：“2010……既喜亦不喜”（银英病榻与自治医大往事、不着一字台词秘传、酒精依赖大拷问与真人版大和号狂想）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch207/",
-   "why": "同为连载手记，前文交代住院与病榻写作背景"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "轻飘飘",
+        "ndex": 592,
+        "seg": [
+          16,
+          125
+        ],
+        "as": [
+          "轻飘飘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "漫画日本物语",
+        "slug": null,
+        "seg": [
+          20,
+          100,
+          115
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "日本沉没",
+        "slug": null,
+        "seg": [
+          102,
+          110
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "复活之日",
+        "slug": null,
+        "seg": [
+          102,
+          110
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "战国魔神豪将军",
+        "slug": null,
+        "seg": [
+          116
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "魔法公主明琪桃子",
+        "slug": null,
+        "seg": [
+          116
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "机动战士高达",
+        "slug": null,
+        "seg": [
+          115
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "漫画世界民间童话",
+        "slug": null,
+        "seg": [
+          105,
+          106
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "竹林中",
+        "slug": null,
+        "seg": [
+          58
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "机动战士高达0079",
+        "slug": null,
+        "seg": [
+          115
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "首藤刚志",
+        "slug": "shudo-takeshi",
+        "role": "mentioned",
+        "seg": [
+          30,
+          32,
+          33,
+          66,
+          105,
+          109
+        ]
+      },
+      {
+        "name": "小松左京",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0,
+          102,
+          110,
+          111
+        ]
+      },
+      {
+        "name": "富野由悠季",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          115
+        ]
+      },
+      {
+        "name": "小黑祐一郎",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          19
+        ]
+      },
+      {
+        "name": "赤冢不二夫",
+        "slug": "chi-zhong-bu-er-fu",
+        "role": "mentioned",
+        "seg": [
+          16
+        ],
+        "kind": "figure"
+      },
+      {
+        "name": "芥川龙之介",
+        "slug": "jie-chuan-long-zhi-jie",
+        "role": "mentioned",
+        "seg": [
+          58
+        ],
+        "kind": "figure"
+      },
+      {
+        "name": "大宅壮一",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          8
+        ],
+        "as": [
+          "编剧",
+          "剧本",
+          "脚本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          8,
+          10
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          8,
+          9
+        ],
+        "as": [
+          "大银幕"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          11,
+          13,
+          30,
+          102,
+          111
+        ],
+        "as": [
+          "版权",
+          "监修"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          13
+        ],
+        "as": [
+          "分发"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "wireless",
+        "name": "无线与擦肩",
+        "facet": "tech",
+        "seg": [
+          14
+        ],
+        "as": [
+          "移动通信"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          20,
+          100,
+          106,
+          115
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍",
+        "facet": "audience",
+        "seg": [
+          38
+        ],
+        "as": [
+          "无障碍"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          53
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          66
+        ],
+        "as": [
+          "反派"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "fan-works",
+        "name": "二创与同人",
+        "facet": "audience",
+        "seg": [
+          66
+        ],
+        "as": [
+          "同人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          87,
+          95,
+          117
+        ],
+        "as": [
+          "原画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          89,
+          116
+        ],
+        "as": [
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          90
+        ],
+        "as": [
+          "精细度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          94
+        ],
+        "as": [
+          "流水线"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          97
+        ],
+        "as": [
+          "动画剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          100
+        ],
+        "as": [
+          "企划阶段"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          104
+        ],
+        "as": [
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "education",
+        "name": "教育与育儿",
+        "facet": "audience",
+        "seg": [
+          104
+        ],
+        "as": [
+          "教育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          115
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          115
+        ],
+        "as": [
+          "新人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          116
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "voice",
+        "name": "配音",
+        "facet": "audio",
+        "seg": [
+          117
+        ],
+        "as": [
+          "声优"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          126
+        ],
+        "as": [
+          "复刻"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch216",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第216回：“凝视着医院的天花板……”（海外大酒鬼档案、左撇子写作论、赠品打火机自嘲与宝可梦三十年永生大结局构想）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch216/",
-   "why": "同为连载手记，交代住院与身体恶化背景"
+  "observations": [
+    {
+      "seg": 100,
+      "text": "《漫画日本物语》最初预定播出周期仅半年，档期定在每周六下午五点半。",
+      "anchor": 101
+    },
+    {
+      "seg": 115,
+      "text": "《漫画日本物语》系列最终连播了整整十三年。",
+      "anchor": 116
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch207",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第207回：“2010……既喜亦不喜”（银英病榻与自治医大往事、不着一字台词秘传、酒精依赖大拷问与真人版大和号狂想）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch207/",
+      "why": "同为连载手记，前文交代住院与病榻写作背景"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch216",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第216回：“凝视着医院的天花板……”（海外大酒鬼档案、左撇子写作论、赠品打火机自嘲与宝可梦三十年永生大结局构想）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch216/",
+      "why": "同为连载手记，交代住院与身体恶化背景"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch223",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "首藤刚志动画创作手记 第223回：“从《宝可梦》中消失的我”（小说第三卷梦碎、小田原深夜跳海获救与诀别系列构成）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch223/",
+      "why": "同为连载手记，交代辞去系列构成背景"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch223",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "首藤刚志动画创作手记 第223回：“从《宝可梦》中消失的我”（小说第三卷梦碎、小田原深夜跳海获救与诀别系列构成）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch223/",
-   "why": "同为连载手记，交代辞去系列构成背景"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

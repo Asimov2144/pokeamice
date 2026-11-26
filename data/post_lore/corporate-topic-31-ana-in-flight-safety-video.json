@@ -1,184 +1,184 @@
 {
- "id": "corporate-topic-31-ana-in-flight-safety-video",
- "stem": "2025-01-31-corporate-topic-31-ana-in-flight-safety-video",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 26
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "铁甲蛹",
-    "ndex": 11,
-    "seg": [
-     12
-    ],
-    "as": [
-     "铁甲蛹"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     3,
-     16,
-     21,
-     23
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "穿山鼠",
-    "ndex": 27,
-    "seg": [
-     12
-    ],
-    "as": [
-     "穿山鼠"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "伊布",
-    "ndex": 133,
-    "seg": [
-     3
-    ],
-    "as": [
-     "伊布"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "怪力",
-    "ndex": 68,
-    "seg": [
-     11
-    ],
-    "as": [
-     "怪力"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "ANA机内安全视频 宝可梦特别版",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [],
-  "places": [],
-  "concepts": [
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     15,
-     19
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     17
-    ],
-    "as": [
-     "团队合作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     23
-    ],
-    "as": [
-     "小学生"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     23
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     25
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "ANA自2023年3月起参与“飞行的皮卡丘计划”",
-   "anchor": 4
+  "id": "corporate-topic-31-ana-in-flight-safety-video",
+  "stem": "2025-01-31-corporate-topic-31-ana-in-flight-safety-video",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 26
   },
-  {
-   "seg": 11,
-   "text": "怪力因体型无法容纳经济舱座位，改在商务舱担任安装肩带",
-   "anchor": 12
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "铁甲蛹",
+        "ndex": 11,
+        "seg": [
+          12
+        ],
+        "as": [
+          "铁甲蛹"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          3,
+          16,
+          21,
+          23
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "穿山鼠",
+        "ndex": 27,
+        "seg": [
+          12
+        ],
+        "as": [
+          "穿山鼠"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "伊布",
+        "ndex": 133,
+        "seg": [
+          3
+        ],
+        "as": [
+          "伊布"
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "怪力",
+        "ndex": 68,
+        "seg": [
+          11
+        ],
+        "as": [
+          "怪力"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 朱·紫",
+        "slug": "scarlet-violet",
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "ANA机内安全视频 宝可梦特别版",
+        "slug": null,
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [],
+    "places": [],
+    "concepts": [
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          15,
+          19
+        ],
+        "as": [
+          "真实感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          17
+        ],
+        "as": [
+          "团队合作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          23
+        ],
+        "as": [
+          "小学生"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          23
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          25
+        ],
+        "as": [
+          "携手"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "ANA自2023年3月起参与“飞行的皮卡丘计划”",
+      "anchor": 4
+    },
+    {
+      "seg": 11,
+      "text": "怪力因体型无法容纳经济舱座位，改在商务舱担任安装肩带",
+      "anchor": 12
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

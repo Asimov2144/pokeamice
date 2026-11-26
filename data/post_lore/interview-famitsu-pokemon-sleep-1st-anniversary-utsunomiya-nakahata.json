@@ -1,674 +1,676 @@
 {
- "id": "interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
- "stem": "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 116
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     30
-    ],
-    "as": [
-     "妙蛙种子"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     30
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "スリープ",
-    "ndex": 96,
-    "seg": [],
-    "as": [
-     "スリープ"
-    ],
-    "via": "title"
-   },
-   {
-    "name": "鲤鱼王",
-    "ndex": 129,
-    "seg": [
-     25,
-     28,
-     32,
-     102
-    ],
-    "as": [
-     "鲤鱼王"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "拉普拉斯",
-    "ndex": 131,
-    "seg": [
-     85
-    ],
-    "as": [
-     "拉普拉斯"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "卡比兽",
-    "ndex": 143,
-    "seg": [
-     8,
-     55,
-     68,
-     70,
-     72,
-     79,
-     7
-    ],
-    "as": [
-     "卡比兽",
-     "カビゴン"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "雷公",
-    "ndex": 243,
-    "seg": [
-     77
-    ],
-    "as": [
-     "雷公"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "炎帝",
-    "ndex": 244,
-    "seg": [
-     77
-    ],
-    "as": [
-     "炎帝"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "水君",
-    "ndex": 245,
-    "seg": [
-     77
-    ],
-    "as": [
-     "水君"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     1,
-     13,
-     17,
-     27,
-     44,
-     61
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "Pokémon Sleep",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Ingress",
-    "slug": null,
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "活下去！翻车鱼！～3亿条伙伴全都死了",
-    "slug": null,
-    "seg": [
-     21
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Hunt Cook -从狩猎开始的野味料理餐厅-",
-    "slug": null,
-    "seg": [
-     23
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "跳跃吧！鲤鱼王",
-    "slug": null,
-    "seg": [
-     25
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "Fami通",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     11,
-     19,
-     28,
-     34,
-     37,
-     40
-    ]
-   },
-   {
-    "name": "宇都宫崇人",
-    "slug": "utsunomiya-takato",
-    "role": "speaker",
-    "seg": [
-     12,
-     13,
-     14,
-     15,
-     16,
-     18
-    ]
-   },
-   {
-    "name": "中畑虎也",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     32,
-     36,
-     38,
-     45,
-     51,
-     54
-    ]
-   },
-   {
-    "name": "宮川佳祐",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     50,
-     53,
-     55,
-     93,
-     107,
-     111
-    ]
-   },
-   {
-    "name": "塚田拓実",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     58,
-     85,
-     112
-    ]
-   },
-   {
-    "name": "小川慧",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "mentioned",
-    "seg": [
-     41
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "ゆーみん17",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "竹内白州",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "天青石湖畔",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     84
-    ],
-    "what": "新增场地",
-    "via": "llm"
-   },
-   {
-    "name": "黄金旧发电厂",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     84
-    ],
-    "what": "新增场地",
-    "via": "llm"
-   },
-   {
-    "name": "拉普拉斯湖畔",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     85
-    ],
-    "what": "场地夜晚时段",
-    "via": "llm"
-   },
-   {
-    "name": "黄金旧港",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     85
-    ],
-    "what": "一周年新营地",
-    "via": "llm"
-   },
-   {
-    "name": "涩谷",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     16
-    ],
-    "what": "Ingress线下活动",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     1,
-     53,
-     61,
-     92
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     1,
-     7,
-     96
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     6,
-     8,
-     12,
-     111
-    ],
-    "as": [
-     "开发初期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "postgame",
-    "name": "通关之后",
-    "facet": "system",
-    "seg": [
-     7
-    ],
-    "as": [
-     "追加要素"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "live-events",
-    "name": "线下活动",
-    "facet": "business",
-    "seg": [
-     16,
-     113
-    ],
-    "as": [
-     "线下活动",
-     "举办活动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     17
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     24,
-     30,
-     50,
-     52,
-     61,
-     93
-    ],
-    "as": [
-     "试玩",
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     29,
-     47,
-     52,
-     95
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     38
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     40
-    ],
-    "as": [
-     "昆虫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     41
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     60,
-     80
-    ],
-    "as": [
-     "界面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     67
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     72
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     75
-    ],
-    "as": [
-     "核心主题"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     76
-    ],
-    "as": [
-     "平衡调整"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     78
-    ],
-    "as": [
-     "概率"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     92
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     94
-    ],
-    "as": [
-     "美术风格"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     111
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     112
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     112
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 7,
-   "text": "2024年6月达成全球累计下载量2000万次",
-   "anchor": 8
+  "id": "interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
+  "stem": "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 116
   },
-  {
-   "seg": 29,
-   "text": "宇都宫称《跳跃吧！鲤鱼王》下载量已超2700万",
-   "anchor": 30
-  }
- ],
- "relations": [
-  {
-   "id": "interview-pokemon-recruit-engineering",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "宝可梦公司官方专访 工程开发特别篇：造物的核心乐趣，或许在于“与谁一同创造”（太田 × 小川）",
-   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-engineering/",
-   "why": "小川2014年因Pokémon GO邀约入职，与本文结识三人组相关"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          30
+        ],
+        "as": [
+          "妙蛙种子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          30
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "スリープ",
+        "ndex": 96,
+        "seg": [],
+        "as": [
+          "スリープ"
+        ],
+        "via": "title"
+      },
+      {
+        "name": "鲤鱼王",
+        "ndex": 129,
+        "seg": [
+          25,
+          28,
+          32,
+          102
+        ],
+        "as": [
+          "鲤鱼王"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "拉普拉斯",
+        "ndex": 131,
+        "seg": [
+          85
+        ],
+        "as": [
+          "拉普拉斯"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "卡比兽",
+        "ndex": 143,
+        "seg": [
+          8,
+          55,
+          68,
+          70,
+          72,
+          79,
+          7
+        ],
+        "as": [
+          "卡比兽",
+          "カビゴン"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "雷公",
+        "ndex": 243,
+        "seg": [
+          77
+        ],
+        "as": [
+          "雷公"
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "炎帝",
+        "ndex": 244,
+        "seg": [
+          77
+        ],
+        "as": [
+          "炎帝"
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "水君",
+        "ndex": 245,
+        "seg": [
+          77
+        ],
+        "as": [
+          "水君"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          1,
+          13,
+          17,
+          27,
+          44,
+          61
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "Pokémon Sleep",
+        "slug": "sleep",
+        "seg": [
+          1
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "跳跃吧！鲤鱼王",
+        "slug": "magikarp-jump",
+        "seg": [
+          25
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Ingress",
+        "slug": null,
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "活下去！翻车鱼！～3亿条伙伴全都死了",
+        "slug": null,
+        "seg": [
+          21
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Hunt Cook -从狩猎开始的野味料理餐厅-",
+        "slug": null,
+        "seg": [
+          23
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "Fami通",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          11,
+          19,
+          28,
+          34,
+          37,
+          40
+        ]
+      },
+      {
+        "name": "宇都宫崇人",
+        "slug": "utsunomiya-takato",
+        "role": "speaker",
+        "seg": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          18
+        ]
+      },
+      {
+        "name": "中畑虎也",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          32,
+          36,
+          38,
+          45,
+          51,
+          54
+        ]
+      },
+      {
+        "name": "宮川佳祐",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          50,
+          53,
+          55,
+          93,
+          107,
+          111
+        ]
+      },
+      {
+        "name": "塚田拓実",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          58,
+          85,
+          112
+        ]
+      },
+      {
+        "name": "小川慧",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          16
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "mentioned",
+        "seg": [
+          41
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "ゆーみん17",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "竹内白州",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "天青石湖畔",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          84
+        ],
+        "what": "新增场地",
+        "via": "llm"
+      },
+      {
+        "name": "黄金旧发电厂",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          84
+        ],
+        "what": "新增场地",
+        "via": "llm"
+      },
+      {
+        "name": "拉普拉斯湖畔",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          85
+        ],
+        "what": "场地夜晚时段",
+        "via": "llm"
+      },
+      {
+        "name": "黄金旧港",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          85
+        ],
+        "what": "一周年新营地",
+        "via": "llm"
+      },
+      {
+        "name": "涩谷",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          16
+        ],
+        "what": "Ingress线下活动",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          1,
+          53,
+          61,
+          92
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          1,
+          7,
+          96
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          6,
+          8,
+          12,
+          111
+        ],
+        "as": [
+          "开发初期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "postgame",
+        "name": "通关之后",
+        "facet": "system",
+        "seg": [
+          7
+        ],
+        "as": [
+          "追加要素"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "live-events",
+        "name": "线下活动",
+        "facet": "business",
+        "seg": [
+          16,
+          113
+        ],
+        "as": [
+          "线下活动",
+          "举办活动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          17
+        ],
+        "as": [
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          24,
+          30,
+          50,
+          52,
+          61,
+          93
+        ],
+        "as": [
+          "试玩",
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          29,
+          47,
+          52,
+          95
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          38
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          40
+        ],
+        "as": [
+          "昆虫"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          41
+        ],
+        "as": [
+          "提案"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          60,
+          80
+        ],
+        "as": [
+          "界面"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          67
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          72
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          75
+        ],
+        "as": [
+          "核心主题"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          76
+        ],
+        "as": [
+          "平衡调整"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          78
+        ],
+        "as": [
+          "概率"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          92
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          94
+        ],
+        "as": [
+          "美术风格"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          111
+        ],
+        "as": [
+          "代码"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          112
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          112
+        ],
+        "as": [
+          "从零开始"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-newspicks-pokemon-utsunomiya-kawamoto",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人",
-   "url": "//interview-newspicks-pokemon-utsunomiya-kawamoto/",
-   "why": "宇都宫崇人任宝可梦COO，本文受访者身份背景"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 7,
+      "text": "2024年6月达成全球累计下载量2000万次",
+      "anchor": 8
+    },
+    {
+      "seg": 29,
+      "text": "宇都宫称《跳跃吧！鲤鱼王》下载量已超2700万",
+      "anchor": 30
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-pokemon-recruit-engineering",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "宝可梦公司官方专访 工程开发特别篇：造物的核心乐趣，或许在于“与谁一同创造”（太田 × 小川）",
+      "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-engineering/",
+      "why": "小川2014年因Pokémon GO邀约入职，与本文结识三人组相关"
+    },
+    {
+      "id": "interview-newspicks-pokemon-utsunomiya-kawamoto",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人",
+      "url": "//interview-newspicks-pokemon-utsunomiya-kawamoto/",
+      "why": "宇都宫崇人任宝可梦COO，本文受访者身份背景"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

@@ -1,352 +1,339 @@
 {
- "id": "interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination",
- "stem": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 37
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦不可思议迷宫",
-    "slug": "mystery-dungeon-red-rescue-team-and-blue-rescue-team",
-    "seg": [
-     0,
-     2,
-     9,
-     13,
-     15
+  "id": "interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination",
+  "stem": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 37
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦不可思议迷宫",
+        "slug": "mystery-dungeon-red-rescue-team-and-blue-rescue-team",
+        "seg": [
+          0,
+          2,
+          9,
+          13,
+          15
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "风来的西林",
+        "slug": null,
+        "seg": [
+          3,
+          7
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦不可思议迷宫 ～极大之门与∞迷宫～",
+        "slug": null,
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "特鲁尼克大冒险 不可思议迷宫",
+        "slug": null,
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "俄罗斯方块2+轰天雷",
+        "slug": null,
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "特鲁尼克大冒险",
+        "slug": null,
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "勇者斗恶龙",
+        "slug": null,
+        "seg": [
+          19
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦+信长之野望",
+        "slug": null,
+        "seg": [
+          24
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "不可思议迷宫",
-    "slug": null,
-    "seg": [
-     0,
-     2,
-     3,
-     9,
-     13,
-     14
+    "people": [
+      {
+        "name": "岩田聪",
+        "slug": "iwata-satoru",
+        "role": "speaker",
+        "seg": [
+          2,
+          3,
+          6,
+          9,
+          12,
+          14
+        ]
+      },
+      {
+        "name": "长畑成一郎",
+        "slug": "nagahata-seiichiro",
+        "role": "speaker",
+        "seg": [
+          4,
+          19,
+          21,
+          23,
+          25,
+          28
+        ]
+      },
+      {
+        "name": "富江慎一郎",
+        "slug": "tomie-shinichiro",
+        "role": "speaker",
+        "seg": [
+          7,
+          30,
+          32
+        ]
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          10,
+          13,
+          15,
+          17,
+          34,
+          36
+        ]
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "风来的西林",
-    "slug": null,
-    "seg": [
-     3,
-     7
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦不可思议迷宫 ～极大之门与∞迷宫～",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "特鲁尼克大冒险 不可思议迷宫",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "俄罗斯方块2+轰天雷",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "特鲁尼克大冒险",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "勇者斗恶龙",
-    "slug": null,
-    "seg": [
-     19
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦+信长之野望",
-    "slug": null,
-    "seg": [
-     24
-    ],
-    "via": "llm"
-   }
+    "places": [],
+    "concepts": [
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          0,
+          2,
+          3,
+          9,
+          13,
+          14
+        ],
+        "as": [
+          "迷宫"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          7
+        ],
+        "as": [
+          "分镜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          7,
+          8,
+          28,
+          29,
+          30,
+          32
+        ],
+        "as": [
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          12
+        ],
+        "as": [
+          "核心主题"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          13
+        ],
+        "as": [
+          "完成度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          14
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          14
+        ],
+        "as": [
+          "随机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          15
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          19
+        ],
+        "as": [
+          "从零开始"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          23
+        ],
+        "as": [
+          "提案"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          29
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          34
+        ],
+        "as": [
+          "玩家之间"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 13,
+      "text": "石原说与Chunsoft的缘分始于红白机时代的《俄罗斯方块2+轰天雷》",
+      "anchor": 14
+    },
+    {
+      "seg": 15,
+      "text": "石原称自己玩《特鲁尼克大冒险》超过1000次",
+      "anchor": 16
+    }
   ],
-  "people": [
-   {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "speaker",
-    "seg": [
-     2,
-     3,
-     6,
-     9,
-     12,
-     14
-    ]
-   },
-   {
-    "name": "长畑成一郎",
-    "slug": "nagahata-seiichiro",
-    "role": "speaker",
-    "seg": [
-     4,
-     19,
-     21,
-     23,
-     25,
-     28
-    ]
-   },
-   {
-    "name": "富江慎一郎",
-    "slug": "tomie-shinichiro",
-    "role": "speaker",
-    "seg": [
-     7,
-     30,
-     32
-    ]
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     10,
-     13,
-     15,
-     17,
-     34,
-     36
-    ]
-   }
+  "relations": [
+    {
+      "id": "interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第3章：“决定版”（单一包装的魄力、Chunsoft自DQ时代传承的亲切感与难度哲学）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition/",
+      "why": "同为社长问极大之门与∞迷宫，本篇第1章后为第3章"
+    },
+    {
+      "id": "interview-iwata-asks-gates-to-infinity-chapter-2-system-drama",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第2章：系统本身成为戏剧（Rogue机制与王道物语的共生、AR圆环与现实连接）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-2-system-drama/",
+      "why": "同为社长问极大之门与∞迷宫，本篇第1章后为第2章"
+    },
+    {
+      "id": "interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第4章：“随机数”的魔法（背叛与期待的一纸之隔、硬派游戏哲学与土龙弟弟的执念）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers/",
+      "why": "同为社长问极大之门与∞迷宫，本篇第1章后为第4章"
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     0,
-     2,
-     3,
-     9,
-     13,
-     14
-    ],
-    "as": [
-     "迷宫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     7
-    ],
-    "as": [
-     "分镜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     7,
-     8,
-     28,
-     29,
-     30,
-     32
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     12
-    ],
-    "as": [
-     "核心主题"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "完成度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     14
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     14
-    ],
-    "as": [
-     "随机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     15
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     19
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     23
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     29
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     34
-    ],
-    "as": [
-     "玩家之间"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 13,
-   "text": "石原说与Chunsoft的缘分始于红白机时代的《俄罗斯方块2+轰天雷》",
-   "anchor": 14
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 15,
-   "text": "石原称自己玩《特鲁尼克大冒险》超过1000次",
-   "anchor": 16
-  }
- ],
- "relations": [
-  {
-   "id": "interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第3章：“决定版”（单一包装的魄力、Chunsoft自DQ时代传承的亲切感与难度哲学）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition/",
-   "why": "同为社长问极大之门与∞迷宫，本篇第1章后为第3章"
-  },
-  {
-   "id": "interview-iwata-asks-gates-to-infinity-chapter-2-system-drama",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第2章：系统本身成为戏剧（Rogue机制与王道物语的共生、AR圆环与现实连接）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-2-system-drama/",
-   "why": "同为社长问极大之门与∞迷宫，本篇第1章后为第2章"
-  },
-  {
-   "id": "interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第4章：“随机数”的魔法（背叛与期待的一纸之隔、硬派游戏哲学与土龙弟弟的执念）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers/",
-   "why": "同为社长问极大之门与∞迷宫，本篇第1章后为第4章"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

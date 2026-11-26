@@ -1,312 +1,314 @@
 {
- "id": "gamefreak-staff-207",
- "stem": "2010-11-12-gamefreak-staff-207",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 147
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "大村",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     3
+  "id": "gamefreak-staff-207",
+  "stem": "2010-11-12-gamefreak-staff-207",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 147
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          1
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "大村",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          3
+        ]
+      },
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "にょろリカ",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "おおむら",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "杉森",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          16
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "风露",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "芦荟",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "白露",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          27
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "阿戴克",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          33
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "婉龙",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          52
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "吹寄市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          13
+        ],
+        "what": "风露任道馆馆主",
+        "via": "llm"
+      },
+      {
+        "name": "七宝市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          14
+        ],
+        "what": "芦荟任道馆馆主",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          3,
+          7,
+          8,
+          31,
+          74,
+          78
+        ],
+        "as": [
+          "角色设计",
+          "キャラクターデザイン"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          7,
+          9,
+          13,
+          14,
+          15,
+          21
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          8
+        ],
+        "as": [
+          "设定资料"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          8,
+          79
+        ],
+        "as": [
+          "剧本",
+          "シナリオ"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          15
+        ],
+        "as": [
+          "整体平衡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          44,
+          120
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          53
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          74,
+          77
+        ],
+        "as": [
+          "グラフィック"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          83,
+          89
+        ],
+        "as": [
+          "提案"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          118
+        ],
+        "as": [
+          "をモデル"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "にょろリカ",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "おおむら",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "杉森",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "风露",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "芦荟",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "白露",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     27
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "阿戴克",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     33
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "婉龙",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     52
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "吹寄市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     13
-    ],
-    "what": "风露任道馆馆主",
-    "via": "llm"
-   },
-   {
-    "name": "七宝市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     14
-    ],
-    "what": "芦荟任道馆馆主",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     3,
-     7,
-     8,
-     31,
-     74,
-     78
-    ],
-    "as": [
-     "角色设计",
-     "キャラクターデザイン"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     7,
-     9,
-     13,
-     14,
-     15,
-     21
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     8
-    ],
-    "as": [
-     "设定资料"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     8,
-     79
-    ],
-    "as": [
-     "剧本",
-     "シナリオ"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     15
-    ],
-    "as": [
-     "整体平衡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     44,
-     120
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     53
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     74,
-     77
-    ],
-    "as": [
-     "グラフィック"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     83,
-     89
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     118
-    ],
-    "as": [
-     "をモデル"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 13,
-   "text": "风露最初接到的要求是“要有点大姐头的感觉”"
   },
-  {
-   "seg": 16,
-   "text": "得到艺术总监杉森同意后，向策划人员提出建议"
-  }
- ],
- "relations": [
-  {
-   "id": "interview-pokemon-peer-sugimori-ohmori-designers",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛",
-   "url": "/developer-interviews/official-archives/interview-pokemon-peer-sugimori-ohmori-designers/",
-   "why": "同为2010年黑白角色设计访谈，大村祐介谈设计"
+  "observations": [
+    {
+      "seg": 13,
+      "text": "风露最初接到的要求是“要有点大姐头的感觉”"
+    },
+    {
+      "seg": 16,
+      "text": "得到艺术总监杉森同意后，向策划人员提出建议"
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-pokemon-peer-sugimori-ohmori-designers",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛",
+      "url": "/developer-interviews/official-archives/interview-pokemon-peer-sugimori-ohmori-designers/",
+      "why": "同为2010年黑白角色设计访谈，大村祐介谈设计"
+    },
+    {
+      "id": "gamefreak-staff-202",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "【工作日志】2010年宝可梦剧本幕后",
+      "url": "/gamefreak-staff/entry-202/",
+      "why": "同为晴れたり時々曇ったり工作日志系列"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "gamefreak-staff-202",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "【工作日志】2010年宝可梦剧本幕后",
-   "url": "/gamefreak-staff/entry-202/",
-   "why": "同为晴れたり時々曇ったり工作日志系列"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

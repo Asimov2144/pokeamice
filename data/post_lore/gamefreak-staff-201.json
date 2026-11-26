@@ -1,283 +1,285 @@
 {
- "id": "gamefreak-staff-201",
- "stem": "2010-10-01-gamefreak-staff-201",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 131
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "友彦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     7
+  "id": "gamefreak-staff-201",
+  "stem": "2010-10-01-gamefreak-staff-201",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 131
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          2
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "友彦",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          7
+        ]
+      },
+      {
+        "name": "にょろリカ",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "ともやん",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "天箭桥",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          19
+        ],
+        "what": "轨道移动的道路",
+        "via": "llm"
+      },
+      {
+        "name": "冠军之路",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          19
+        ],
+        "what": "轨道移动的道路",
+        "via": "llm"
+      },
+      {
+        "name": "天堂之塔",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          22
+        ],
+        "what": "轨道移动的地点",
+        "via": "llm"
+      },
+      {
+        "name": "白森林",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          14
+        ],
+        "what": "ともやん负责的场景",
+        "via": "llm"
+      },
+      {
+        "name": "飞云市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          19
+        ],
+        "what": "轨道移动的道路",
+        "via": "llm"
+      },
+      {
+        "name": "黑色市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          14
+        ],
+        "what": "ともやん负责的场景",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          3
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          8,
+          15,
+          49,
+          81,
+          111,
+          116
+        ],
+        "as": [
+          "编程",
+          "编写程序",
+          "プログラム"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          33
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          36
+        ],
+        "as": [
+          "容易理解"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          50
+        ],
+        "as": [
+          "大自然"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          61
+        ],
+        "as": [
+          "美术设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          88
+        ],
+        "as": [
+          "思い出"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "motion",
+        "name": "动作设计",
+        "facet": "art",
+        "seg": [
+          109
+        ],
+        "as": [
+          "モーション"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          128
+        ],
+        "as": [
+          "グラフィック"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "にょろリカ",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "ともやん",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "天箭桥",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     19
-    ],
-    "what": "轨道移动的道路",
-    "via": "llm"
-   },
-   {
-    "name": "冠军之路",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     19
-    ],
-    "what": "轨道移动的道路",
-    "via": "llm"
-   },
-   {
-    "name": "天堂之塔",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     22
-    ],
-    "what": "轨道移动的地点",
-    "via": "llm"
-   },
-   {
-    "name": "白森林",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     14
-    ],
-    "what": "ともやん负责的场景",
-    "via": "llm"
-   },
-   {
-    "name": "飞云市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     19
-    ],
-    "what": "轨道移动的道路",
-    "via": "llm"
-   },
-   {
-    "name": "黑色市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     14
-    ],
-    "what": "ともやん负责的场景",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     3
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     8,
-     15,
-     49,
-     81,
-     111,
-     116
-    ],
-    "as": [
-     "编程",
-     "编写程序",
-     "プログラム"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     33
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     36
-    ],
-    "as": [
-     "容易理解"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     50
-    ],
-    "as": [
-     "大自然"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     61
-    ],
-    "as": [
-     "美术设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     88
-    ],
-    "as": [
-     "思い出"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "motion",
-    "name": "动作设计",
-    "facet": "art",
-    "seg": [
-     109
-    ],
-    "as": [
-     "モーション"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     128
-    ],
-    "as": [
-     "グラフィック"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "距《宝可梦黑·白》发售已过去12天"
   },
-  {
-   "seg": 4,
-   "text": "にょろリカ上周拿到第8枚徽章并通关"
-  }
- ],
- "relations": [
-  {
-   "id": "gamefreak-director-163",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "第163回",
-   "url": "/gamefreak-director/entry-163/",
-   "why": "黑白发售日2010-09-18，本篇距发售12天"
+  "observations": [
+    {
+      "seg": 2,
+      "text": "距《宝可梦黑·白》发售已过去12天"
+    },
+    {
+      "seg": 4,
+      "text": "にょろリカ上周拿到第8枚徽章并通关"
+    }
+  ],
+  "relations": [
+    {
+      "id": "gamefreak-director-163",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "第163回",
+      "url": "/gamefreak-director/entry-163/",
+      "why": "黑白发售日2010-09-18，本篇距发售12天"
+    },
+    {
+      "id": "gamefreak-director-161",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "第161回",
+      "url": "/gamefreak-director/entry-161/",
+      "why": "黑白2010年9月日本发售，本篇为其后日志"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "gamefreak-director-161",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "第161回",
-   "url": "/gamefreak-director/entry-161/",
-   "why": "黑白2010年9月日本发售，本篇为其后日志"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

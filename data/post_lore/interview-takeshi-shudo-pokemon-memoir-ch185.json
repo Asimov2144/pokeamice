@@ -1,583 +1,585 @@
 {
- "id": "interview-takeshi-shudo-pokemon-memoir-ch185",
- "stem": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 111
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "拉普拉斯",
-    "ndex": 131,
-    "seg": [
-     71
+  "id": "interview-takeshi-shudo-pokemon-memoir-ch185",
+  "stem": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 111
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "拉普拉斯",
+        "ndex": 131,
+        "seg": [
+          71
+        ],
+        "as": [
+          "拉普拉斯"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "洛奇亚",
+        "ndex": 249,
+        "seg": [
+          105
+        ],
+        "as": [
+          "洛奇亚"
+        ],
+        "via": "body"
+      }
     ],
-    "as": [
-     "拉普拉斯"
+    "works": [
+      {
+        "name": "超梦的逆袭",
+        "slug": null,
+        "seg": [
+          1,
+          2,
+          5,
+          6,
+          7,
+          8,
+          16,
+          17
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "洛奇亚爆诞",
+        "slug": null,
+        "seg": [
+          105
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          56
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "永远的菲莱娜",
+        "slug": null,
+        "seg": [
+          58
+        ],
+        "via": "entities"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "洛奇亚",
-    "ndex": 249,
-    "seg": [
-     105
+    "people": [
+      {
+        "name": "首藤刚志",
+        "slug": "shudo-takeshi",
+        "role": "mentioned",
+        "seg": [
+          18,
+          37,
+          50,
+          108
+        ]
+      },
+      {
+        "name": "汤山邦彦",
+        "slug": "yuyama-kunihiko",
+        "role": "mentioned",
+        "seg": [
+          47,
+          71,
+          73
+        ]
+      },
+      {
+        "name": "小智",
+        "slug": "xiao-zhi",
+        "role": "mentioned",
+        "seg": [
+          70,
+          108,
+          109
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "小霞",
+        "slug": "xiao-xia",
+        "role": "mentioned",
+        "seg": [
+          108
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "小刚",
+        "slug": "xiao-gang",
+        "role": "mentioned",
+        "seg": [
+          96,
+          98,
+          99,
+          101,
+          104,
+          105
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "小建",
+        "slug": "xiao-jian",
+        "role": "mentioned",
+        "seg": [],
+        "kind": "character"
+      },
+      {
+        "name": "牛顿",
+        "slug": "niu-dun",
+        "role": "mentioned",
+        "seg": [
+          12
+        ],
+        "kind": "figure"
+      },
+      {
+        "name": "爱因斯坦",
+        "slug": "ai-yin-si-tan",
+        "role": "mentioned",
+        "seg": [
+          10,
+          12
+        ],
+        "kind": "figure"
+      },
+      {
+        "name": "居里夫人",
+        "slug": "ju-li-fu-ren",
+        "role": "mentioned",
+        "seg": [
+          12
+        ],
+        "kind": "figure"
+      }
     ],
-    "as": [
-     "洛奇亚"
+    "places": [
+      {
+        "name": "品川",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          70
+        ],
+        "what": "提议的途经地",
+        "via": "llm"
+      },
+      {
+        "name": "橘子群岛",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          72
+        ],
+        "what": "动画原创篇章",
+        "via": "llm"
+      },
+      {
+        "name": "拉斯维加斯",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          2
+        ],
+        "what": "庆功旅行地",
+        "via": "llm"
+      },
+      {
+        "name": "涉谷",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          70
+        ],
+        "what": "提议的起点",
+        "via": "llm"
+      },
+      {
+        "name": "京都",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          70
+        ],
+        "what": "提议的终点",
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "超梦的逆袭",
-    "slug": null,
-    "seg": [
-     2,
-     6,
-     8,
-     18,
-     19,
-     55
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "洛奇亚爆诞",
-    "slug": null,
-    "seg": [
-     105
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     56
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "永远的菲莱娜",
-    "slug": null,
-    "seg": [
-     58
-    ],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "首藤刚志",
-    "slug": "shudo-takeshi",
-    "role": "mentioned",
-    "seg": [
-     18,
-     37,
-     50,
-     108
+    "concepts": [
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          11,
+          57,
+          61,
+          106
+        ],
+        "as": [
+          "打磨",
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-music",
+        "name": "音乐剧与演出",
+        "facet": "franchise",
+        "seg": [
+          11,
+          12,
+          13,
+          17,
+          18,
+          20
+        ],
+        "as": [
+          "音乐剧",
+          "舞台剧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          12
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          16
+        ],
+        "as": [
+          "配乐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          17,
+          21
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          17,
+          21,
+          47,
+          49,
+          69,
+          89
+        ],
+        "as": [
+          "剧本",
+          "编剧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          25,
+          29,
+          33,
+          35
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          40
+        ],
+        "as": [
+          "卖了"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          47
+        ],
+        "as": [
+          "系列构成"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          50,
+          80
+        ],
+        "as": [
+          "大银幕",
+          "剧场版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "delay",
+        "name": "延期",
+        "facet": "process",
+        "seg": [
+          57,
+          58,
+          60
+        ],
+        "as": [
+          "延期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          59
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          63
+        ],
+        "as": [
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          63,
+          66,
+          98
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          63
+        ],
+        "as": [
+          "主线剧情"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          74,
+          94
+        ],
+        "as": [
+          "高难度",
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          74
+        ],
+        "as": [
+          "手绘"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          77
+        ],
+        "as": [
+          "美术风格"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          91
+        ],
+        "as": [
+          "正统续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          92
+        ],
+        "as": [
+          "回合"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          104
+        ],
+        "as": [
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          106
+        ],
+        "as": [
+          "反复推敲"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": [
-     47,
-     71,
-     73
-    ]
-   },
-   {
-    "name": "小智",
-    "slug": "xiao-zhi",
-    "role": "mentioned",
-    "seg": [
-     70,
-     108,
-     109
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "小霞",
-    "slug": "xiao-xia",
-    "role": "mentioned",
-    "seg": [
-     108
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "小刚",
-    "slug": "xiao-gang",
-    "role": "mentioned",
-    "seg": [
-     96,
-     98,
-     99,
-     101,
-     104,
-     105
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "小建",
-    "slug": "xiao-jian",
-    "role": "mentioned",
-    "seg": [],
-    "kind": "character"
-   },
-   {
-    "name": "牛顿",
-    "slug": "niu-dun",
-    "role": "mentioned",
-    "seg": [
-     12
-    ],
-    "kind": "figure"
-   },
-   {
-    "name": "爱因斯坦",
-    "slug": "ai-yin-si-tan",
-    "role": "mentioned",
-    "seg": [
-     10,
-     12
-    ],
-    "kind": "figure"
-   },
-   {
-    "name": "居里夫人",
-    "slug": "ju-li-fu-ren",
-    "role": "mentioned",
-    "seg": [
-     12
-    ],
-    "kind": "figure"
-   }
+  },
+  "observations": [
+    {
+      "seg": 2,
+      "text": "首藤刚志拒绝了《超梦的逆袭》全美大卖庆功的拉斯维加斯之旅。",
+      "anchor": 3
+    },
+    {
+      "seg": 12,
+      "text": "该音乐剧讲述牛顿、爱迪生、居里夫人与爱因斯坦同台歌唱辩论。",
+      "anchor": 13
+    }
   ],
-  "places": [
-   {
-    "name": "品川",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     70
-    ],
-    "what": "提议的途经地",
-    "via": "llm"
-   },
-   {
-    "name": "橘子群岛",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     72
-    ],
-    "what": "动画原创篇章",
-    "via": "llm"
-   },
-   {
-    "name": "拉斯维加斯",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     2
-    ],
-    "what": "庆功旅行地",
-    "via": "llm"
-   },
-   {
-    "name": "涉谷",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     70
-    ],
-    "what": "提议的起点",
-    "via": "llm"
-   },
-   {
-    "name": "京都",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     70
-    ],
-    "what": "提议的终点",
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch186",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第186回：电影第二作的“深层海流”（从超梦的存在到自我共存、拒绝三大神鸟怪兽摔角与原创宝可梦“X爆诞”解禁）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch186/",
+      "why": "同为手记系列，第186回紧接第185回谈第二部剧场版"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch199",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第199回：《洛奇亚爆诞》登场人物各自鲜明的个性（配角全员皆自我中心、小建的无个性惨败与小智母亲的极端母性）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch199/",
+      "why": "同系列手记，第199回继续谈《洛奇亚爆诞》"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch194",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第194回：从复眼视角诠释《洛奇亚爆诞》主题（小田原渔港看海买醉、罗伯特·奥特曼式多线交织与火箭队的意外破茧）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch194/",
+      "why": "同系列手记，第194回继续谈《洛奇亚爆诞》"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch201",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第201回：对不起，我差点忘了小霞的事（打破智霞恋爱幻想、菜盘香菜的残酷隐喻与被删减的愤怒殴打）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch201/",
+      "why": "同系列手记，第201回继续谈宝可梦动画"
+    }
   ],
-  "concepts": [
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     11,
-     57,
-     61,
-     106
-    ],
-    "as": [
-     "打磨",
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     11,
-     12,
-     13,
-     17,
-     18,
-     20
-    ],
-    "as": [
-     "音乐剧",
-     "舞台剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     12
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     16
-    ],
-    "as": [
-     "配乐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     17,
-     21
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     17,
-     21,
-     47,
-     49,
-     69,
-     89
-    ],
-    "as": [
-     "剧本",
-     "编剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     25,
-     29,
-     33,
-     35
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     40
-    ],
-    "as": [
-     "卖了"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     47
-    ],
-    "as": [
-     "系列构成"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     50,
-     80
-    ],
-    "as": [
-     "大银幕",
-     "剧场版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "delay",
-    "name": "延期",
-    "facet": "process",
-    "seg": [
-     57,
-     58,
-     60
-    ],
-    "as": [
-     "延期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     59
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     63
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     63,
-     66,
-     98
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     63
-    ],
-    "as": [
-     "主线剧情"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     74,
-     94
-    ],
-    "as": [
-     "高难度",
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     74
-    ],
-    "as": [
-     "手绘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     77
-    ],
-    "as": [
-     "美术风格"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     91
-    ],
-    "as": [
-     "正统续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     92
-    ],
-    "as": [
-     "回合"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     104
-    ],
-    "as": [
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     106
-    ],
-    "as": [
-     "反复推敲"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "首藤刚志拒绝了《超梦的逆袭》全美大卖庆功的拉斯维加斯之旅。",
-   "anchor": 3
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 12,
-   "text": "该音乐剧讲述牛顿、爱迪生、居里夫人与爱因斯坦同台歌唱辩论。",
-   "anchor": 13
-  }
- ],
- "relations": [
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch186",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第186回：电影第二作的“深层海流”（从超梦的存在到自我共存、拒绝三大神鸟怪兽摔角与原创宝可梦“X爆诞”解禁）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch186/",
-   "why": "同为手记系列，第186回紧接第185回谈第二部剧场版"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch199",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第199回：《洛奇亚爆诞》登场人物各自鲜明的个性（配角全员皆自我中心、小建的无个性惨败与小智母亲的极端母性）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch199/",
-   "why": "同系列手记，第199回继续谈《洛奇亚爆诞》"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch194",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第194回：从复眼视角诠释《洛奇亚爆诞》主题（小田原渔港看海买醉、罗伯特·奥特曼式多线交织与火箭队的意外破茧）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch194/",
-   "why": "同系列手记，第194回继续谈《洛奇亚爆诞》"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch201",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第201回：对不起，我差点忘了小霞的事（打破智霞恋爱幻想、菜盘香菜的残酷隐喻与被删减的愤怒殴打）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch201/",
-   "why": "同系列手记，第201回继续谈宝可梦动画"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

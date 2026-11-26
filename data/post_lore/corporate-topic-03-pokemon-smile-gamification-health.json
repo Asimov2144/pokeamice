@@ -1,225 +1,217 @@
 {
- "id": "corporate-topic-03-pokemon-smile-gamification-health",
- "stem": "2020-08-18-corporate-topic-03-pokemon-smile-gamification-health",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 21
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦微笑",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "怪物猎人系列",
-    "slug": null,
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "カナヘイ",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "前田高志",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "裏谷玲央",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     2,
-     3,
-     7
-    ],
-    "as": [
-     "儿童",
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     2
-    ],
-    "as": [
-     "家长"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     5
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     5
-    ],
-    "as": [
-     "画面上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     9
-    ],
-    "as": [
-     "教育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     11
-    ],
-    "as": [
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     12,
-     13
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     13
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     14
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "养育未入学儿童的母亲中95.4%认为孩子刷牙很重要，98%回答没能做到完美",
-   "anchor": 3
+  "id": "corporate-topic-03-pokemon-smile-gamification-health",
+  "stem": "2020-08-18-corporate-topic-03-pokemon-smile-gamification-health",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 21
   },
-  {
-   "seg": 11,
-   "text": "LITALICO负责编程，宝可梦负责游戏策划和开发团队的人员配置",
-   "anchor": 12
-  }
- ],
- "relations": [
-  {
-   "id": "corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "千年后的宝可梦",
-   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/",
-   "why": "同为官网Topics系列第02篇，本篇为第03篇"
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "Pokémon Smile",
+        "slug": "smile",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "カナヘイ",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "前田高志",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "裏谷玲央",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          2,
+          3,
+          7
+        ],
+        "as": [
+          "儿童",
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          2
+        ],
+        "as": [
+          "家长"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          5
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          5
+        ],
+        "as": [
+          "画面上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "education",
+        "name": "教育与育儿",
+        "facet": "audience",
+        "seg": [
+          9
+        ],
+        "as": [
+          "教育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          10
+        ],
+        "as": [
+          "协作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          11
+        ],
+        "as": [
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          12,
+          13
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          13
+        ],
+        "as": [
+          "广告"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          14
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "corporate-topic-01-pokefuta-manhole-travel",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "寻找独一无二的宝可梦井盖",
-   "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/",
-   "why": "同为官网Topics系列第01篇，本篇为第03篇"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 2,
+      "text": "养育未入学儿童的母亲中95.4%认为孩子刷牙很重要，98%回答没能做到完美",
+      "anchor": 3
+    },
+    {
+      "seg": 11,
+      "text": "LITALICO负责编程，宝可梦负责游戏策划和开发团队的人员配置",
+      "anchor": 12
+    }
+  ],
+  "relations": [
+    {
+      "id": "corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "千年后的宝可梦",
+      "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-02-daniel-arsham-1000-years-fictional-archaeology/",
+      "why": "同为官网Topics系列第02篇，本篇为第03篇"
+    },
+    {
+      "id": "corporate-topic-01-pokefuta-manhole-travel",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "寻找独一无二的宝可梦井盖",
+      "url": "/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/corporate-topic-01-pokefuta-manhole-travel/",
+      "why": "同为官网Topics系列第01篇，本篇为第03篇"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

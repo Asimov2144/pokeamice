@@ -1,398 +1,391 @@
 {
- "id": "interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
- "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 56
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "喷火龙",
-    "ndex": 6,
-    "seg": [
-     37
-    ],
-    "as": [
-     "喷火龙",
-     "リザードン"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "超级宝可梦乱战",
-    "slug": "rumble-blast",
-    "seg": [
-     0
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦乱战",
-    "slug": "rumble",
-    "seg": [
-     0,
-     2,
-     3,
-     11,
-     16,
-     19
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦冲刺",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     44
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "乱战！宝可梦乱战",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "speaker",
-    "seg": [
-     2,
-     4,
-     8,
-     10,
-     13,
-     15
-    ]
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     3,
-     5,
-     7,
-     20,
-     27,
-     29
-    ]
-   },
-   {
-    "name": "小泽达雄",
-    "slug": "ozawa-tatsuo",
-    "role": "speaker",
-    "seg": [
-     9,
-     11,
-     14,
-     16,
-     52
-    ]
-   },
-   {
-    "name": "松村直树",
-    "slug": "matsumura-naoki",
-    "role": "speaker",
-    "seg": [
-     18,
-     21,
-     23,
-     26,
-     42,
-     44
-    ]
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     2
-    ],
-    "as": [
-     "正统续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     3,
-     8,
-     10,
-     14,
-     17,
-     18
-    ],
-    "as": [
-     "掌上",
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     3
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     10,
-     13
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     11,
-     12,
-     15
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     11
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     15,
-     28,
-     31,
-     34
-    ],
-    "as": [
-     "门槛",
-     "谁都能玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     19
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     20
-    ],
-    "as": [
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     20
-    ],
-    "as": [
-     "新鲜感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     26,
-     46
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     28,
-     34
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     29
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     31,
-     54
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     33
-    ],
-    "as": [
-     "升级"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     37,
-     49
-    ],
-    "as": [
-     "集换式卡牌",
-     "宝可梦卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     52
-    ],
-    "as": [
-     "远程"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 11,
-   "text": "最初在Wii家用机上搭建了先行测试原型",
-   "anchor": 12
+  "id": "interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
+  "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 56
   },
-  {
-   "seg": 44,
-   "text": "物种、数值、技能与称号组合理论上达300亿种",
-   "anchor": 45
-  }
- ],
- "relations": [
-  {
-   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《超级宝可梦乱战》第1章：“连我家太太也着迷”（发条玩具设定、捏气泡纸般的爽快感与周末潜行数值大调整）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife/",
-   "why": "同为2011-08-04《社长问》超级宝可梦乱战第1章"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "喷火龙",
+        "ndex": 6,
+        "seg": [
+          37
+        ],
+        "as": [
+          "喷火龙",
+          "リザードン"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "超级宝可梦乱战",
+        "slug": "rumble-blast",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦乱战",
+        "slug": "rumble",
+        "seg": [
+          0,
+          2,
+          3,
+          10,
+          11,
+          16,
+          19
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦冲刺赛",
+        "slug": "dash",
+        "seg": [
+          7
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          44
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "岩田聪",
+        "slug": "iwata-satoru",
+        "role": "speaker",
+        "seg": [
+          2,
+          4,
+          8,
+          10,
+          13,
+          15
+        ]
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          3,
+          5,
+          7,
+          20,
+          27,
+          29
+        ]
+      },
+      {
+        "name": "小泽达雄",
+        "slug": "ozawa-tatsuo",
+        "role": "speaker",
+        "seg": [
+          9,
+          11,
+          14,
+          16,
+          52
+        ]
+      },
+      {
+        "name": "松村直树",
+        "slug": "matsumura-naoki",
+        "role": "speaker",
+        "seg": [
+          18,
+          21,
+          23,
+          26,
+          42,
+          44
+        ]
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          2
+        ],
+        "as": [
+          "正统续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          3,
+          8,
+          10,
+          14,
+          17,
+          18
+        ],
+        "as": [
+          "掌上",
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          3
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          10,
+          13
+        ],
+        "as": [
+          "新硬件"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          11,
+          12,
+          15
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          11
+        ],
+        "as": [
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          15,
+          28,
+          31,
+          34
+        ],
+        "as": [
+          "门槛",
+          "谁都能玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          19
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          20
+        ],
+        "as": [
+          "关卡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          20
+        ],
+        "as": [
+          "新鲜感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          26,
+          46
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          28,
+          34
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          29
+        ],
+        "as": [
+          "监修"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          31,
+          54
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          33
+        ],
+        "as": [
+          "升级"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          37,
+          49
+        ],
+        "as": [
+          "集换式卡牌",
+          "宝可梦卡牌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          52
+        ],
+        "as": [
+          "远程"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《超级宝可梦乱战》第3章：“想再玩一次”（马力欧俱乐部测试员的盛赞、Mii擦肩通信与发条玩具纸雕特典）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again/",
-   "why": "同为该系列第3章，同场访谈"
+  "observations": [
+    {
+      "seg": 11,
+      "text": "最初在Wii家用机上搭建了先行测试原型",
+      "anchor": 12
+    },
+    {
+      "seg": 44,
+      "text": "物种、数值、技能与称号组合理论上达300亿种",
+      "anchor": 45
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《超级宝可梦乱战》第1章：“连我家太太也着迷”（发条玩具设定、捏气泡纸般的爽快感与周末潜行数值大调整）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife/",
+      "why": "同为2011-08-04《社长问》超级宝可梦乱战第1章"
+    },
+    {
+      "id": "interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《超级宝可梦乱战》第3章：“想再玩一次”（马力欧俱乐部测试员的盛赞、Mii擦肩通信与发条玩具纸雕特典）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again/",
+      "why": "同为该系列第3章，同场访谈"
+    },
+    {
+      "id": "interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《超级宝可梦乱战》第4章：作为3DS首部宝可梦正作（“电车坐过站”沉迷指标、前十分钟黄金律与Super命名哲学）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds/",
+      "why": "同为该系列第4章完结篇"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《超级宝可梦乱战》第4章：作为3DS首部宝可梦正作（“电车坐过站”沉迷指标、前十分钟黄金律与Super命名哲学）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds/",
-   "why": "同为该系列第4章完结篇"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

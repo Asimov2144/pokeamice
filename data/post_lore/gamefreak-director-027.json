@@ -1,88 +1,90 @@
 {
- "id": "gamefreak-director-027",
- "stem": "2004-12-16-gamefreak-director-027",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 71
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 火红·叶绿",
-    "slug": "firered-leafgreen",
-    "seg": [],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     1
-    ],
-    "as": [
-     "漏洞"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     10
-    ],
-    "as": [
-     "音效设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     10
-    ],
-    "as": [
-     "和音"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "剧情梗概功能复杂，使用大量备份，易出漏洞"
+  "id": "gamefreak-director-027",
+  "stem": "2004-12-16-gamefreak-director-027",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 71
   },
-  {
-   "seg": 2,
-   "text": "该功能起初遭程序员反对，增田顺一想过放弃"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 火红·叶绿",
+        "slug": "firered-leafgreen",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": []
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          1
+        ],
+        "as": [
+          "漏洞"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          10
+        ],
+        "as": [
+          "音效设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sound-hardware",
+        "name": "音源与机能",
+        "facet": "audio",
+        "seg": [
+          10
+        ],
+        "as": [
+          "和音"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 1,
+      "text": "剧情梗概功能复杂，使用大量备份，易出漏洞"
+    },
+    {
+      "seg": 2,
+      "text": "该功能起初遭程序员反对，增田顺一想过放弃"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

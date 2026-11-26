@@ -1,0 +1,118 @@
+{% assign appendix = site.data.source_appendices[include.key] %}
+{% if appendix and appendix.items and appendix.items.size > 0 %}
+  {% assign is_ja = false %}
+  {% if page.lang == "ja" or layout.lang == "ja" %}
+    {% assign is_ja = true %}
+  {% endif %}
+  {% assign fallback_stem = "" %}
+  {% if page.path %}
+    {% assign fallback_stem = page.path | split: "/" | last | split: "." | first %}
+  {% endif %}
+  {% assign current_stem = page.zh_stem | default: include.stem | default: post_stem | default: fallback_stem %}
+  {% assign eyebrow = appendix.eyebrow_zh %}
+  {% assign app_title = appendix.title_zh %}
+  {% assign app_intro = appendix.intro_zh %}
+  {% assign issue_label = appendix.issue_label_zh %}
+  {% assign current_label = "本篇" %}
+  {% assign source_label = "原文" %}
+  {% if is_ja %}
+    {% assign eyebrow = appendix.eyebrow_ja | default: eyebrow %}
+    {% assign app_title = appendix.title_ja | default: app_title %}
+    {% assign app_intro = appendix.intro_ja | default: app_intro %}
+    {% assign issue_label = appendix.issue_label_ja | default: issue_label %}
+    {% assign current_label = "本記事" %}
+    {% assign source_label = "原記事" %}
+  {% endif %}
+
+  <aside class="ed-appendix" aria-label="{{ app_title | escape }}">
+    <div class="ed-appendix__head">
+      <span class="ed-appendix__eyebrow">{{ eyebrow }}</span>
+      {% if appendix.issue_url %}
+        <a class="ed-appendix__source" href="{{ appendix.issue_url }}" target="_blank" rel="noopener noreferrer">{{ issue_label }} ↗</a>
+      {% endif %}
+    </div>
+    <h2 class="ed-appendix__title">{{ app_title }}</h2>
+    {% if app_intro %}
+      <p class="ed-appendix__intro">{{ app_intro }}</p>
+    {% endif %}
+    <ul class="ed-appendix__list">
+      {% for item in appendix.items %}
+        {% assign is_current = false %}
+        {% if item.stem and item.stem == current_stem %}
+          {% assign is_current = true %}
+        {% endif %}
+        {% assign item_title = item.title_zh %}
+        {% assign item_kind = item.kind_zh %}
+        {% assign internal_url = nil %}
+        {% assign zh_only_on_ja = false %}
+        {% if item.stem %}
+          {% assign stem_md = item.stem | append: ".md" %}
+          {% assign target_zh = nil %}
+          {% for p in site.posts %}
+            {% if p.path contains stem_md %}
+              {% assign target_zh = p %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+          {% if is_ja %}
+            {% assign target_ja = nil %}
+            {% if site.ja %}
+              {% for jp in site.ja %}
+                {% if jp.zh_stem == item.stem or jp.path contains stem_md %}
+                  {% assign target_ja = jp %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+            {% if target_ja %}
+              {% assign internal_url = target_ja.url %}
+            {% elsif target_zh %}
+              {% assign internal_url = target_zh.url %}
+              {% assign zh_only_on_ja = true %}
+            {% endif %}
+          {% elsif target_zh %}
+            {% assign internal_url = target_zh.url %}
+          {% endif %}
+        {% else %}
+          {% assign internal_url = item.zh_url %}
+          {% if is_ja %}
+            {% if item.ja_url %}
+              {% assign internal_url = item.ja_url %}
+            {% elsif item.zh_url %}
+              {% assign zh_only_on_ja = true %}
+            {% endif %}
+          {% endif %}
+        {% endif %}
+        {% if is_ja %}
+          {% assign item_title = item.title_ja | default: item_title %}
+          {% assign item_kind = item.kind_ja | default: item_kind %}
+        {% endif %}
+        <li class="ed-appendix__item{% if is_current %} is-current{% endif %}">
+          <div class="ed-appendix__main">
+            {% if is_current %}
+              <span class="ed-appendix__badge ed-appendix__badge--current">{{ current_label }}</span>
+              <span class="ed-appendix__current-title">{{ item_title }}</span>
+            {% elsif internal_url %}
+              <a class="ed-appendix__link" href="{{ internal_url | relative_url }}">{{ item_title }}</a>
+            {% elsif item.source_url %}
+              <a class="ed-appendix__link" href="{{ item.source_url }}" target="_blank" rel="noopener noreferrer">{{ item_title }} ↗</a>
+            {% else %}
+              <span>{{ item_title }}</span>
+            {% endif %}
+          </div>
+          <div class="ed-appendix__meta">
+            {% if item_kind %}
+              <span class="ed-appendix__badge">{{ item_kind }}</span>
+            {% endif %}
+            {% if zh_only_on_ja %}
+              <span class="ed-appendix__badge">中国語版</span>
+            {% endif %}
+            {% if internal_url and item.source_url %}
+              <a class="ed-appendix__source" href="{{ item.source_url }}" target="_blank" rel="noopener noreferrer">{{ source_label }} ↗</a>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </aside>
+{% endif %}

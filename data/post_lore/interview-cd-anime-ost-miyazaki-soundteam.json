@@ -1,622 +1,630 @@
 {
- "id": "interview-cd-anime-ost-miyazaki-soundteam",
- "stem": "2010-08-04-interview-cd-anime-ost-miyazaki-soundteam",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 107
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     37
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 动画系列",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "桂河大桥",
-    "slug": null,
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宾虚",
-    "slug": null,
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "电视动画 宝可梦 原声音乐精选集 1997-2010",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "寻找偶像",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "宫崎慎二",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     5,
-     7,
-     9,
-     11,
-     45,
-     47
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     14,
-     16,
-     18,
-     20,
-     33,
-     35
-    ]
-   },
-   {
-    "name": "一之濑刚",
-    "slug": "ichinose-go",
-    "role": "speaker",
-    "seg": [
-     21,
-     23,
-     25,
-     27,
-     31,
-     34
-    ]
-   },
-   {
-    "name": "佐藤仁美",
-    "slug": "sato-hitomi",
-    "role": "speaker",
-    "seg": [
-     26,
-     28,
-     30,
-     66,
-     68,
-     70
-    ]
-   },
-   {
-    "name": "武满彻",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     9
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "船木一夫",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "西尔维·瓦尔坦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "玛丽莲·曼森",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "活结乐队",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "肖邦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     23
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "李斯特",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     27
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "四谷站",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     11
-    ],
-    "what": "宫崎等消息处",
-    "via": "llm"
-   },
-   {
-    "name": "白岱森林",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     98
-    ],
-    "what": "曲目名中的地点",
-    "via": "llm"
-   },
-   {
-    "name": "206号道路",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     98
-    ],
-    "what": "曲目名中的道路",
-    "via": "llm"
-   },
-   {
-    "name": "京都",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     52
-    ],
-    "what": "城都地区原型",
-    "via": "llm"
-   },
-   {
-    "name": "城都地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     52
-    ],
-    "what": "游戏地区",
-    "via": "llm"
-   },
-   {
-    "name": "水脉市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     58
-    ],
-    "what": "曲目名中的城镇",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     1,
-     38,
-     53,
-     96
-    ],
-    "as": [
-     "电视动画",
-     "动画版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     1,
-     2,
-     8,
-     17,
-     38,
-     47
-    ],
-    "as": [
-     "作曲",
-     "编曲",
-     "音乐创作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     1,
-     36,
-     45,
-     96
-    ],
-    "as": [
-     "サウンド",
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     2,
-     36,
-     37
-    ],
-    "as": [
-     "交响"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     9
-    ],
-    "as": [
-     "教育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     18
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     18
-    ],
-    "as": [
-     "一起做"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     23
-    ],
-    "as": [
-     "高难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     23,
-     72
-    ],
-    "as": [
-     "和音",
-     "音源"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     25
-    ],
-    "as": [
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     30
-    ],
-    "as": [
-     "招聘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     37
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     40
-    ],
-    "as": [
-     "菜单"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     42
-    ],
-    "as": [
-     "开发阶段"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     44,
-     57,
-     92
-    ],
-    "as": [
-     "配乐",
-     "主题曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     49,
-     51,
-     52,
-     104
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     52
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     52
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     58
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     63
-    ],
-    "as": [
-     "沿用"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     79
-    ],
-    "as": [
-     "截止"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     83
-    ],
-    "as": [
-     "草图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mystery",
-    "name": "神秘感",
-    "facet": "design",
-    "seg": [
-     98
-    ],
-    "as": [
-     "神秘感"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 46,
-   "text": "增田顺一说《红／绿》时代是3个音加背景噪声",
-   "anchor": 47
+  "id": "interview-cd-anime-ost-miyazaki-soundteam",
+  "stem": "2010-08-04-interview-cd-anime-ost-miyazaki-soundteam",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 107
   },
-  {
-   "seg": 52,
-   "text": "增田顺一提到城都地区城市以京都一带为原型，说过不要做得太和风",
-   "anchor": 53
-  }
- ],
- "relations": [
-  {
-   "id": "interview-2083-gamefreak-sound-team-red-green-to-oras",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》",
-   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6oras/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-2083-gamefreak-sound-team-red-green-to-oras/",
-   "why": "同增田、一之濑、佐藤谈红绿音源与亚洲元素"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          37
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          46
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          39
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          2
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 动画系列",
+        "slug": null,
+        "seg": [
+          1
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "桂河大桥",
+        "slug": null,
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宾虚",
+        "slug": null,
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "电视动画 宝可梦 原声音乐精选集 1997-2010",
+        "slug": null,
+        "seg": [
+          1
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "寻找偶像",
+        "slug": null,
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "宫崎慎二",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          5,
+          7,
+          9,
+          11,
+          45,
+          47
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          14,
+          16,
+          18,
+          20,
+          33,
+          35
+        ]
+      },
+      {
+        "name": "一之濑刚",
+        "slug": "ichinose-go",
+        "role": "speaker",
+        "seg": [
+          21,
+          23,
+          25,
+          27,
+          31,
+          34
+        ]
+      },
+      {
+        "name": "佐藤仁美",
+        "slug": "sato-hitomi",
+        "role": "speaker",
+        "seg": [
+          26,
+          28,
+          30,
+          66,
+          68,
+          70
+        ]
+      },
+      {
+        "name": "武满彻",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          9
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "船木一夫",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "西尔维·瓦尔坦",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "玛丽莲·曼森",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "活结乐队",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "肖邦",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          23
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "李斯特",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          27
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "四谷站",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          11
+        ],
+        "what": "宫崎等消息处",
+        "via": "llm"
+      },
+      {
+        "name": "白岱森林",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          98
+        ],
+        "what": "曲目名中的地点",
+        "via": "llm"
+      },
+      {
+        "name": "206号道路",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          98
+        ],
+        "what": "曲目名中的道路",
+        "via": "llm"
+      },
+      {
+        "name": "京都",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          52
+        ],
+        "what": "城都地区原型",
+        "via": "llm"
+      },
+      {
+        "name": "城都地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          52
+        ],
+        "what": "游戏地区",
+        "via": "llm"
+      },
+      {
+        "name": "水脉市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          58
+        ],
+        "what": "曲目名中的城镇",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          1,
+          38,
+          53,
+          96
+        ],
+        "as": [
+          "电视动画",
+          "动画版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          1,
+          2,
+          8,
+          17,
+          38,
+          47
+        ],
+        "as": [
+          "作曲",
+          "编曲",
+          "音乐创作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          1,
+          36,
+          45,
+          96
+        ],
+        "as": [
+          "サウンド",
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-music",
+        "name": "音乐剧与演出",
+        "facet": "franchise",
+        "seg": [
+          2,
+          36,
+          37
+        ],
+        "as": [
+          "交响"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "education",
+        "name": "教育与育儿",
+        "facet": "audience",
+        "seg": [
+          9
+        ],
+        "as": [
+          "教育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          18
+        ],
+        "as": [
+          "卡带"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          18
+        ],
+        "as": [
+          "一起做"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          23
+        ],
+        "as": [
+          "高难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sound-hardware",
+        "name": "音源与机能",
+        "facet": "audio",
+        "seg": [
+          23,
+          72
+        ],
+        "as": [
+          "和音",
+          "音源"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          25
+        ],
+        "as": [
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          30
+        ],
+        "as": [
+          "招聘"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          37
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          40
+        ],
+        "as": [
+          "菜单"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          42
+        ],
+        "as": [
+          "开发阶段"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          44,
+          57,
+          92
+        ],
+        "as": [
+          "配乐",
+          "主题曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          49,
+          51,
+          52,
+          104
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          52
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          52
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          58
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          63
+        ],
+        "as": [
+          "沿用"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          79
+        ],
+        "as": [
+          "截止"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          83
+        ],
+        "as": [
+          "草图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mystery",
+        "name": "神秘感",
+        "facet": "design",
+        "seg": [
+          98
+        ],
+        "as": [
+          "神秘感"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "scan-ndream-2009-11-hgss-developer-interview",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "心金·魂银开发访谈",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
-   "why": "同增田谈金·银及城都地区开发回忆"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 46,
+      "text": "增田顺一说《红／绿》时代是3个音加背景噪声",
+      "anchor": 47
+    },
+    {
+      "seg": 52,
+      "text": "增田顺一提到城都地区城市以京都一带为原型，说过不要做得太和风",
+      "anchor": 53
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-2083-gamefreak-sound-team-red-green-to-oras",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》",
+      "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6oras/%E9%9F%B3%E4%B9%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/interview-2083-gamefreak-sound-team-red-green-to-oras/",
+      "why": "同增田、一之濑、佐藤谈红绿音源与亚洲元素"
+    },
+    {
+      "id": "scan-ndream-2009-11-hgss-developer-interview",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "心金·魂银开发访谈",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+      "why": "同增田谈金·银及城都地区开发回忆"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

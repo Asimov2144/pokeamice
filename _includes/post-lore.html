@@ -15,7 +15,7 @@
 {%- if lore -%}
 {%- assign lf = lore.facets -%}
 {%- assign lore_people = lf.people | where_exp: "p", "p.role == 'mentioned'" -%}
-{%- if lf.pokemon.size > 0 or lf.places.size > 0 or lore_people.size > 0 or lore.observations.size > 0 or lore.relations.size > 0 -%}
+{%- if lf.pokemon.size > 0 or lf.places.size > 0 or lf.works.size > 0 or lore_people.size > 0 or lore.observations.size > 0 or lore.relations.size > 0 -%}
 <section class="lore" aria-label="本篇提到">
   <h2 class="lore__title"><span class="lore__eyebrow">Index</span> 本篇提到</h2>
 

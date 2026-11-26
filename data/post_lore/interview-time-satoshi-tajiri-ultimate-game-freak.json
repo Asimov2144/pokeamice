@@ -1,632 +1,613 @@
 {
- "id": "interview-time-satoshi-tajiri-ultimate-game-freak",
- "stem": "1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 94
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     42,
-     43,
-     44,
-     51,
-     57,
-     88
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "蚊香蝌蚪",
-    "ndex": 60,
-    "seg": [
-     55
-    ],
-    "as": [
-     "蚊香蝌蚪"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "蚊香君",
-    "ndex": 61,
-    "seg": [
-     55
-    ],
-    "as": [
-     "Poliwhirl"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "伽勒尔喵喵",
-    "ndex": 52,
-    "seg": [
-     57
-    ],
-    "as": [
-     "喵喵"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "梦幻",
-    "ndex": 151,
-    "seg": [
-     60
-    ],
-    "as": [
-     "梦幻"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "脉冲超人",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "旋转方块",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "太空格斗/太空侵略者",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "铁板阵",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "太空侵略者",
-    "slug": null,
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "大金刚",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "扎比乌斯",
-    "slug": null,
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Quinty",
-    "slug": null,
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "俄罗斯方块",
-    "slug": null,
-    "seg": [
-     34
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "超级马里奥兄弟",
-    "slug": null,
-    "seg": [
-     64
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "斗牛士",
-    "slug": null,
-    "seg": [
-     79
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "真人快打",
-    "slug": null,
-    "seg": [
-     79
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "哈利·波特",
-    "slug": null,
-    "seg": [
-     89
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "时代周刊",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     4,
-     6,
-     8,
-     10,
-     12,
-     14
-    ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "speaker",
-    "seg": [
-     5,
-     7,
-     9,
-     11,
-     13,
-     15
-    ]
-   },
-   {
-    "name": "宫本茂",
-    "slug": "miyamoto-shigeru",
-    "role": "mentioned",
-    "seg": [
-     47,
-     64
-    ]
-   },
-   {
-    "name": "蒂姆·拉里默",
-    "slug": "di-mu-la-li-mo",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "横田隆志",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "町田",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     19
-    ],
-    "what": "田尻智成长地",
-    "via": "llm"
-   },
-   {
-    "name": "世田谷区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     1
-    ],
-    "what": "GAME FREAK办公室所在",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     0
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     0,
-     89
-    ],
-    "as": [
-     "风靡",
-     "批评"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     0,
-     46
-    ],
-    "as": [
-     "集换式卡牌",
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     1,
-     83
-    ],
-    "as": [
-     "付费",
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     1
-    ],
-    "as": [
-     "办公室"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     3
-    ],
-    "as": [
-     "同人志"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     3,
-     19,
-     21,
-     22,
-     23,
-     25
-    ],
-    "as": [
-     "昆虫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     5
-    ],
-    "as": [
-     "工作方式"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     7
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     15
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mystery",
-    "name": "神秘感",
-    "facet": "design",
-    "seg": [
-     21
-    ],
-    "as": [
-     "神秘的"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     24,
-     34,
-     36,
-     38,
-     40
-    ],
-    "as": [
-     "通信线",
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     24,
-     38,
-     40
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     25
-    ],
-    "as": [
-     "收集宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     28,
-     51,
-     87,
-     90,
-     92,
-     93
-    ],
-    "as": [
-     "孩子们",
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     30
-    ],
-    "as": [
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     35
-    ],
-    "as": [
-     "玩家之间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     38,
-     40
-    ],
-    "as": [
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
-    "seg": [
-     47,
-     87
-    ],
-    "as": [
-     "昏厥",
-     "濒死"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     51
-    ],
-    "as": [
-     "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     51,
-     52
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     57
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     64,
-     65
-    ],
-    "as": [
-     "劲敌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [],
-    "as": [
-     "初代"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 0,
-   "text": "田尻智1990年萌生宝可梦构想，此后近六年投入初代游戏",
-   "anchor": 1
+  "id": "interview-time-satoshi-tajiri-ultimate-game-freak",
+  "stem": "1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 94
   },
-  {
-   "seg": 2,
-   "text": "新作11月20日在日本发售，田尻智双眼布满血丝、手和嘴唇颤抖",
-   "anchor": 3
-  }
- ],
- "relations": [
-  {
-   "id": "interview-nom-special-dialogue-tajiri-ishihara",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
-   "url": "//interview-nom-special-dialogue-tajiri-ishihara/",
-   "why": "同为田尻智谈昆虫采集与六年开发"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          42,
+          43,
+          44,
+          51,
+          57,
+          88
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "蚊香蝌蚪",
+        "ndex": 60,
+        "seg": [
+          55
+        ],
+        "as": [
+          "蚊香蝌蚪"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "蚊香君",
+        "ndex": 61,
+        "seg": [
+          55
+        ],
+        "as": [
+          "Poliwhirl"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "伽勒尔喵喵",
+        "ndex": 52,
+        "seg": [
+          57
+        ],
+        "as": [
+          "喵喵"
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "梦幻",
+        "ndex": 151,
+        "seg": [
+          60
+        ],
+        "as": [
+          "梦幻"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          2
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "太空侵略者",
+        "slug": null,
+        "seg": [
+          10,
+          11
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "大金刚",
+        "slug": null,
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "扎比乌斯",
+        "slug": null,
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Quinty",
+        "slug": null,
+        "seg": [
+          30
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "俄罗斯方块",
+        "slug": null,
+        "seg": [
+          34
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "超级马里奥兄弟",
+        "slug": null,
+        "seg": [
+          64
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "斗牛士",
+        "slug": null,
+        "seg": [
+          79
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "真人快打",
+        "slug": null,
+        "seg": [
+          79
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "哈利·波特",
+        "slug": null,
+        "seg": [
+          89
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "时代周刊",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ]
+      },
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "speaker",
+        "seg": [
+          5,
+          7,
+          9,
+          11,
+          13,
+          15
+        ]
+      },
+      {
+        "name": "宫本茂",
+        "slug": "miyamoto-shigeru",
+        "role": "mentioned",
+        "seg": [
+          47,
+          64
+        ]
+      },
+      {
+        "name": "蒂姆·拉里默",
+        "slug": "di-mu-la-li-mo",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "横田隆志",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          1
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "町田",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          19
+        ],
+        "what": "田尻智成长地",
+        "via": "llm"
+      },
+      {
+        "name": "世田谷区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          1
+        ],
+        "what": "GAME FREAK办公室所在",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          0
+        ],
+        "as": [
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          0,
+          89
+        ],
+        "as": [
+          "风靡",
+          "批评"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          0,
+          46
+        ],
+        "as": [
+          "集换式卡牌",
+          "卡牌游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          1,
+          83
+        ],
+        "as": [
+          "付费",
+          "免费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          1
+        ],
+        "as": [
+          "办公室"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "fan-works",
+        "name": "二创与同人",
+        "facet": "audience",
+        "seg": [
+          3
+        ],
+        "as": [
+          "同人志"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          3,
+          19,
+          21,
+          22,
+          23,
+          25
+        ],
+        "as": [
+          "昆虫"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          5
+        ],
+        "as": [
+          "工作方式"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          7
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          13
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          15
+        ],
+        "as": [
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mystery",
+        "name": "神秘感",
+        "facet": "design",
+        "seg": [
+          21
+        ],
+        "as": [
+          "神秘的"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          24,
+          34,
+          36,
+          38,
+          40
+        ],
+        "as": [
+          "通信线",
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          24,
+          38,
+          40
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          25
+        ],
+        "as": [
+          "收集宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          28,
+          51,
+          87,
+          90,
+          92,
+          93
+        ],
+        "as": [
+          "孩子们",
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          30
+        ],
+        "as": [
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          35
+        ],
+        "as": [
+          "玩家之间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          38,
+          40
+        ],
+        "as": [
+          "联网"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "life-and-death",
+        "name": "生死的表述",
+        "facet": "design",
+        "seg": [
+          47,
+          87
+        ],
+        "as": [
+          "昏厥",
+          "濒死"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          51
+        ],
+        "as": [
+          "精灵球"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          51,
+          52
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          57
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          64,
+          65
+        ],
+        "as": [
+          "劲敌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [],
+        "as": [
+          "初代"
+        ],
+        "via": "tag"
+      }
+    ]
   },
-  {
-   "id": "interview-niconico-gamefreak-origins-masuda",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学",
-   "url": "//interview-niconico-gamefreak-origins-masuda/",
-   "why": "同为1990年立项、1996年发售的初代"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 0,
+      "text": "田尻智1990年萌生宝可梦构想，此后近六年投入初代游戏",
+      "anchor": 1
+    },
+    {
+      "seg": 2,
+      "text": "新作11月20日在日本发售，田尻智双眼布满血丝、手和嘴唇颤抖",
+      "anchor": 3
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-nom-special-dialogue-tajiri-ishihara",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+      "url": "//interview-nom-special-dialogue-tajiri-ishihara/",
+      "why": "同为田尻智谈昆虫采集与六年开发"
+    },
+    {
+      "id": "interview-niconico-gamefreak-origins-masuda",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学",
+      "url": "//interview-niconico-gamefreak-origins-masuda/",
+      "why": "同为1990年立项、1996年发售的初代"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

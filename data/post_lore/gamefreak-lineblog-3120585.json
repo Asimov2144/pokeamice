@@ -1,141 +1,143 @@
 {
- "id": "gamefreak-lineblog-3120585",
- "stem": "2016-04-30-gamefreak-lineblog-3120585",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 157
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     17
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 太阳·月亮",
-    "slug": "sun-moon",
-    "seg": [],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "增田",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     81
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "宝可梦中心",
-    "id": null,
-    "entity": null,
-    "category": "pc",
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     81
-    ],
-    "what": "影像中讲解设定的场景",
-    "via": "extra",
-    "category_link": "pc"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     0,
-     24,
-     27,
-     39,
-     147
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     0
-    ],
-    "as": [
-     "和音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     84
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     149,
-     153
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 9,
-   "text": "影像在2016年2月27日0:00公开，当天是宝可梦20岁生日"
+  "id": "gamefreak-lineblog-3120585",
+  "stem": "2016-04-30-gamefreak-lineblog-3120585",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 157
   },
-  {
-   "seg": 17,
-   "text": "增田顺一写把很难遇到的皮卡丘拍进影像极其困难"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          17
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "增田",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          81
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "宝可梦中心",
+        "id": null,
+        "entity": null,
+        "category": "pc",
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          81
+        ],
+        "what": "影像中讲解设定的场景",
+        "via": "extra",
+        "category_link": "pc"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          0,
+          24,
+          27,
+          39,
+          147
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sound-hardware",
+        "name": "音源与机能",
+        "facet": "audio",
+        "seg": [
+          0
+        ],
+        "as": [
+          "和音"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          84
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          149,
+          153
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 9,
+      "text": "影像在2016年2月27日0:00公开，当天是宝可梦20岁生日"
+    },
+    {
+      "seg": 17,
+      "text": "增田顺一写把很难遇到的皮卡丘拍进影像极其困难"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

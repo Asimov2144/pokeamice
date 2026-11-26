@@ -1,443 +1,436 @@
 {
- "id": "interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
- "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 60
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "超级宝可梦乱战",
-    "slug": "rumble-blast",
-    "seg": [
-     0,
-     42
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦乱战",
-    "slug": "rumble",
-    "seg": [
-     0,
-     2,
-     31,
-     32,
-     36,
-     40
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "乱战！宝可梦乱战",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "大乱战！宝可梦乱战",
-    "slug": null,
-    "seg": [
-     40
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "speaker",
-    "seg": [
-     2,
-     4,
-     6,
-     9,
-     13,
-     15
-    ]
-   },
-   {
-    "name": "松村直树",
-    "slug": "matsumura-naoki",
-    "role": "speaker",
-    "seg": [
-     3,
-     5,
-     7,
-     11,
-     14,
-     16
-    ]
-   },
-   {
-    "name": "小泽达雄",
-    "slug": "ozawa-tatsuo",
-    "role": "speaker",
-    "seg": [
-     10
-    ]
-   },
-   {
-    "name": "众人",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     12,
-     59
-    ]
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     24,
-     27,
-     29,
-     31,
-     33,
-     35
-    ]
-   }
-  ],
-  "places": [
-   {
-    "name": "新干线",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     10
-    ],
-    "what": "被提及的子弹头列车",
-    "via": "llm"
-   },
-   {
-    "name": "东京",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     9
-    ],
-    "what": "电车班次密集的城市",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     2,
-     15,
-     20,
-     51
-    ],
-    "as": [
-     "新玩家",
-     "老玩家",
-     "玩家群体"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     2
-    ],
-    "as": [
-     "想传达"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     3,
-     24
-    ],
-    "as": [
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     6,
-     7,
-     18,
-     24,
-     25,
-     47
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     7
-    ],
-    "as": [
-     "社交网络"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     16
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     16,
-     17
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     20,
-     21,
-     51
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "postgame",
-    "name": "通关之后",
-    "facet": "system",
-    "seg": [
-     20
-    ],
-    "as": [
-     "通关后"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     22
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     22
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     26
-    ],
-    "as": [
-     "团队内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     27,
-     51
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     27
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     28
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     30,
-     33
-    ],
-    "as": [
-     "前作的"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     47
-    ],
-    "as": [
-     "易上手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     47,
-     49
-    ],
-    "as": [
-     "机能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "wireless",
-    "name": "无线与擦肩",
-    "facet": "tech",
-    "seg": [
-     48
-    ],
-    "as": [
-     "擦肩通信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "命名"
-    ],
-    "via": "title"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 7,
-   "text": "松村直树称掌机作品价值取决于有多少乘客因沉迷而坐过站",
-   "anchor": 8
+  "id": "interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
+  "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 60
   },
-  {
-   "seg": 24,
-   "text": "石原恒和称便携掌机时代决胜窗口压缩到开局前10分钟",
-   "anchor": 25
-  }
- ],
- "relations": [
-  {
-   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《超级宝可梦乱战》第1章：“连我家太太也着迷”（发条玩具设定、捏气泡纸般的爽快感与周末潜行数值大调整）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife/",
-   "why": "同为社长问超级宝可梦乱战第1章，本篇为第4章"
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "超级宝可梦乱战",
+        "slug": "rumble-blast",
+        "seg": [
+          0,
+          42
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦乱战",
+        "slug": "rumble",
+        "seg": [
+          0,
+          2,
+          24,
+          31,
+          32,
+          36,
+          40
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "大乱战！宝可梦乱战",
+        "slug": null,
+        "seg": [
+          40
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "岩田聪",
+        "slug": "iwata-satoru",
+        "role": "speaker",
+        "seg": [
+          2,
+          4,
+          6,
+          9,
+          13,
+          15
+        ]
+      },
+      {
+        "name": "松村直树",
+        "slug": "matsumura-naoki",
+        "role": "speaker",
+        "seg": [
+          3,
+          5,
+          7,
+          11,
+          14,
+          16
+        ]
+      },
+      {
+        "name": "小泽达雄",
+        "slug": "ozawa-tatsuo",
+        "role": "speaker",
+        "seg": [
+          10
+        ]
+      },
+      {
+        "name": "众人",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          12,
+          59
+        ]
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          24,
+          27,
+          29,
+          31,
+          33,
+          35
+        ]
+      }
+    ],
+    "places": [
+      {
+        "name": "新干线",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          10
+        ],
+        "what": "被提及的子弹头列车",
+        "via": "llm"
+      },
+      {
+        "name": "东京",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          9
+        ],
+        "what": "电车班次密集的城市",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          2,
+          15,
+          20,
+          51
+        ],
+        "as": [
+          "新玩家",
+          "老玩家",
+          "玩家群体"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          2
+        ],
+        "as": [
+          "想传达"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          3,
+          24
+        ],
+        "as": [
+          "新人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          6,
+          7,
+          18,
+          24,
+          25,
+          47
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          7
+        ],
+        "as": [
+          "社交网络"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          16
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          16,
+          17
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          20,
+          21,
+          51
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "postgame",
+        "name": "通关之后",
+        "facet": "system",
+        "seg": [
+          20
+        ],
+        "as": [
+          "通关后"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          22
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          22
+        ],
+        "as": [
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          26
+        ],
+        "as": [
+          "团队内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          27,
+          51
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          27
+        ],
+        "as": [
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          28
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          30,
+          33
+        ],
+        "as": [
+          "前作的"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          47
+        ],
+        "as": [
+          "易上手"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          47,
+          49
+        ],
+        "as": [
+          "机能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "wireless",
+        "name": "无线与擦肩",
+        "facet": "tech",
+        "seg": [
+          48
+        ],
+        "as": [
+          "擦肩通信"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "命名"
+        ],
+        "via": "title"
+      }
+    ]
   },
-  {
-   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《超级宝可梦乱战》第2章：300亿种宝可梦的相遇（600只全员集结、称号与一期一会的组队战术）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations/",
-   "why": "同为社长问超级宝可梦乱战第2章，本篇为第4章"
+  "observations": [
+    {
+      "seg": 7,
+      "text": "松村直树称掌机作品价值取决于有多少乘客因沉迷而坐过站",
+      "anchor": 8
+    },
+    {
+      "seg": 24,
+      "text": "石原恒和称便携掌机时代决胜窗口压缩到开局前10分钟",
+      "anchor": 25
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《超级宝可梦乱战》第1章：“连我家太太也着迷”（发条玩具设定、捏气泡纸般的爽快感与周末潜行数值大调整）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife/",
+      "why": "同为社长问超级宝可梦乱战第1章，本篇为第4章"
+    },
+    {
+      "id": "interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《超级宝可梦乱战》第2章：300亿种宝可梦的相遇（600只全员集结、称号与一期一会的组队战术）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations/",
+      "why": "同为社长问超级宝可梦乱战第2章，本篇为第4章"
+    },
+    {
+      "id": "interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《超级宝可梦乱战》第3章：“想再玩一次”（马力欧俱乐部测试员的盛赞、Mii擦肩通信与发条玩具纸雕特典）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again/",
+      "why": "同为社长问超级宝可梦乱战第3章，本篇为第4章"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《超级宝可梦乱战》第3章：“想再玩一次”（马力欧俱乐部测试员的盛赞、Mii擦肩通信与发条玩具纸雕特典）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again/",
-   "why": "同为社长问超级宝可梦乱战第3章，本篇为第4章"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

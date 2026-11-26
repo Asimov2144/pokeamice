@@ -1,670 +1,670 @@
 {
- "id": "scan-ndream-2010-04-creatures-ranger-interview",
- "stem": "2010-02-20-scan-ndream-2010-04-creatures-ranger-interview",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 226
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮丘",
-    "ndex": 172,
-    "seg": [
-     31,
-     106,
-     107,
-     108,
-     110,
-     114
-    ],
-    "as": [
-     "皮丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "代欧奇希斯",
-    "ndex": 386,
-    "seg": [
-     210
-    ],
-    "as": [
-     "代欧奇希斯"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "席多蓝恩",
-    "ndex": 485,
-    "seg": [
-     210
-    ],
-    "as": [
-     "席多蓝恩"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "玛纳霏",
-    "ndex": 490,
-    "seg": [
-     210,
-     211,
-     212
-    ],
-    "as": [
-     "玛纳霏"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "谢米",
-    "ndex": 492,
-    "seg": [
-     100,
-     210,
-     212
-    ],
-    "as": [
-     "谢米"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "轻飘飘",
-    "ndex": 592,
-    "seg": [
-     23
-    ],
-    "as": [
-     "轻飘飘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦巡护员 光之轨迹",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦巡护员",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦巡护员 风涌篇",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "MOTHER2",
-    "slug": null,
-    "seg": [
-     60
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     210
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "入江胜义",
-    "slug": "ru-jiang-sheng-yi",
-    "role": "speaker",
-    "seg": [
-     21,
-     23,
-     25,
-     27,
-     35,
-     37
-    ]
-   },
-   {
-    "name": "五十岚宽",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     40,
-     42,
-     55,
-     57,
-     59,
-     63
-    ]
-   },
-   {
-    "name": "鸟居廉功",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     41,
-     45,
-     61,
-     66,
-     69,
-     83
-    ]
-   },
-   {
-    "name": "渔康智",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     46,
-     93,
-     112,
-     115,
-     126,
-     140
-    ]
-   },
-   {
-    "name": "一同",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     64,
-     178
-    ]
-   }
-  ],
-  "places": [
-   {
-    "name": "奥卜利比亚地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     89
-    ],
-    "what": "本作故事舞台",
-    "via": "llm"
-   },
-   {
-    "name": "奥布利维亚地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     110
-    ],
-    "what": "南方岛屿印象地区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     6,
-     21,
-     54,
-     62
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     11,
-     70,
-     217
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     21,
-     45,
-     215
-    ],
-    "as": [
-     "机能",
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     23
-    ],
-    "as": [
-     "昆虫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     25,
-     140
-    ],
-    "as": [
-     "小孩子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     27
-    ],
-    "as": [
-     "试作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     28,
-     40,
-     72,
-     103,
-     131
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     39
-    ],
-    "as": [
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     45,
-     140,
-     177
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     45
-    ],
-    "as": [
-     "推翻"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     45
-    ],
-    "as": [
-     "重新制作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     60,
-     214
-    ],
-    "as": [
-     "继承",
-     "前作的"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     60,
-     61,
-     69,
-     85
-    ],
-    "as": [
-     "剧本",
-     "编剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     79,
-     80,
-     82,
-     83,
-     92,
-     103
-    ],
-    "as": [
-     "反派"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     84
-    ],
-    "as": [
-     "分工"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     93
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     110
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     126
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     126
-    ],
-    "as": [
-     "3D模型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     138
-    ],
-    "as": [
-     "迷宫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     166,
-     172
-    ],
-    "as": [
-     "画面上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     170,
-     183,
-     194
-    ],
-    "as": [
-     "一起玩",
-     "合作游玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     172
-    ],
-    "as": [
-     "程序上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     179,
-     181,
-     210
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     179
-    ],
-    "as": [
-     "人数增加"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     180,
-     214
-    ],
-    "as": [
-     "易上手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     193
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     195
-    ],
-    "as": [
-     "连接起来"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     208,
-     210
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     210
-    ],
-    "as": [
-     "等级"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     214
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "角色设计"
-    ],
-    "via": "tag"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "地区设定"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 21,
-   "text": "2004年DS发售时Creatures内部提出做拓展宝可梦世界观的作品"
+  "id": "scan-ndream-2010-04-creatures-ranger-interview",
+  "stem": "2010-02-20-scan-ndream-2010-04-creatures-ranger-interview",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 226
   },
-  {
-   "seg": 108,
-   "text": "《风涌篇》有17种搭档宝可梦，可从中选一只同行"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮丘",
+        "ndex": 172,
+        "seg": [
+          31,
+          106,
+          107,
+          108,
+          110,
+          114
+        ],
+        "as": [
+          "皮丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "代欧奇希斯",
+        "ndex": 386,
+        "seg": [
+          210
+        ],
+        "as": [
+          "代欧奇希斯"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "席多蓝恩",
+        "ndex": 485,
+        "seg": [
+          210
+        ],
+        "as": [
+          "席多蓝恩"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "玛纳霏",
+        "ndex": 490,
+        "seg": [
+          210,
+          211,
+          212
+        ],
+        "as": [
+          "玛纳霏"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "谢米",
+        "ndex": 492,
+        "seg": [
+          100,
+          210,
+          212
+        ],
+        "as": [
+          "谢米"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "轻飘飘",
+        "ndex": 592,
+        "seg": [
+          23
+        ],
+        "as": [
+          "轻飘飘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦巡护员 光的轨迹",
+        "slug": "ranger-guardian-signs",
+        "seg": [
+          5
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦巡护员",
+        "slug": "ranger",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦巡护员 风涌篇",
+        "slug": "ranger-shadows-of-almia",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          210
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "MOTHER2",
+        "slug": null,
+        "seg": [
+          60
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "入江胜义",
+        "slug": "ru-jiang-sheng-yi",
+        "role": "speaker",
+        "seg": [
+          21,
+          23,
+          25,
+          27,
+          35,
+          37
+        ]
+      },
+      {
+        "name": "五十岚宽",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          40,
+          42,
+          55,
+          57,
+          59,
+          63
+        ]
+      },
+      {
+        "name": "鸟居廉功",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          41,
+          45,
+          61,
+          66,
+          69,
+          83
+        ]
+      },
+      {
+        "name": "渔康智",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          46,
+          93,
+          112,
+          115,
+          126,
+          140
+        ]
+      },
+      {
+        "name": "一同",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          64,
+          178
+        ]
+      }
+    ],
+    "places": [
+      {
+        "name": "奥卜利比亚地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          89
+        ],
+        "what": "本作故事舞台",
+        "via": "llm"
+      },
+      {
+        "name": "奥布利维亚地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          110
+        ],
+        "what": "南方岛屿印象地区",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          6,
+          21,
+          54,
+          62
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          11,
+          70,
+          217
+        ],
+        "as": [
+          "监修"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          21,
+          45,
+          215
+        ],
+        "as": [
+          "机能",
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          23
+        ],
+        "as": [
+          "昆虫"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          25,
+          140
+        ],
+        "as": [
+          "小孩子"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          27
+        ],
+        "as": [
+          "试作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          28,
+          40,
+          72,
+          103,
+          131
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          39
+        ],
+        "as": [
+          "试玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          45,
+          140,
+          177
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          45
+        ],
+        "as": [
+          "推翻"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          45
+        ],
+        "as": [
+          "重新制作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          60,
+          214
+        ],
+        "as": [
+          "继承",
+          "前作的"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          60,
+          61,
+          69,
+          85
+        ],
+        "as": [
+          "剧本",
+          "编剧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          79,
+          80,
+          82,
+          83,
+          92,
+          103
+        ],
+        "as": [
+          "反派"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          84
+        ],
+        "as": [
+          "分工"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          93
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          110
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          126
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          126
+        ],
+        "as": [
+          "3D模型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          138
+        ],
+        "as": [
+          "迷宫"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          166,
+          172
+        ],
+        "as": [
+          "画面上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          170,
+          183,
+          194
+        ],
+        "as": [
+          "一起玩",
+          "合作游玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          172
+        ],
+        "as": [
+          "程序上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          179,
+          181,
+          210
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "team-size",
+        "name": "团队规模",
+        "facet": "process",
+        "seg": [
+          179
+        ],
+        "as": [
+          "人数增加"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          180,
+          214
+        ],
+        "as": [
+          "易上手"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          193
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          195
+        ],
+        "as": [
+          "连接起来"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          208,
+          210
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          210
+        ],
+        "as": [
+          "等级"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          214
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "角色设计"
+        ],
+        "via": "tag"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "地区设定"
+        ],
+        "via": "tag"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 21,
+      "text": "2004年DS发售时Creatures内部提出做拓展宝可梦世界观的作品"
+    },
+    {
+      "seg": 108,
+      "text": "《风涌篇》有17种搭档宝可梦，可从中选一只同行"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
+  },
+  "edited": true
 }

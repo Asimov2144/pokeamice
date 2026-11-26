@@ -1,161 +1,161 @@
 {
- "id": "gamefreak-staff-18",
- "stem": "2007-08-30-gamefreak-staff-18",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 72
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦卡牌游戏",
-    "slug": null,
-    "seg": [
-     5,
-     7,
-     9
-    ],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "mentioned",
-    "seg": [
-     18,
-     55
-    ]
-   },
-   {
-    "name": "吉田宏信",
-    "slug": "yoshida-hironobu",
-    "role": "mentioned",
-    "seg": [
-     18,
-     55
-    ]
-   },
-   {
-    "name": "よっしー",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "夏威夷岛",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     11
-    ],
-    "what": "赛事举办地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     5,
-     40
-    ],
-    "as": [
-     "插画",
-     "イラスト"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     5,
-     7,
-     9
-    ],
-    "as": [
-     "宝可梦卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     20,
-     22,
-     27
-    ],
-    "as": [
-     "大自然"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     36,
-     37,
-     38,
-     39,
-     55
-    ],
-    "as": [
-     "グラフィック"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "live-events",
-    "name": "线下活动",
-    "facet": "business",
-    "seg": [
-     44
-    ],
-    "as": [
-     "イベント"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 8,
-   "text": "世界冠军赛2007于8月11～12日举办"
+  "id": "gamefreak-staff-18",
+  "stem": "2007-08-30-gamefreak-staff-18",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 72
   },
-  {
-   "seg": 12,
-   "text": "来自世界30多个国家的顶尖玩家齐聚一堂"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦集换式卡牌游戏",
+        "slug": null,
+        "seg": [
+          5,
+          7,
+          9
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "mentioned",
+        "seg": [
+          18,
+          55
+        ]
+      },
+      {
+        "name": "吉田宏信",
+        "slug": "yoshida-hironobu",
+        "role": "mentioned",
+        "seg": [
+          18,
+          55
+        ]
+      },
+      {
+        "name": "よっしー",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "夏威夷岛",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          11
+        ],
+        "what": "赛事举办地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          5,
+          40
+        ],
+        "as": [
+          "插画",
+          "イラスト"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          5,
+          7,
+          9
+        ],
+        "as": [
+          "宝可梦卡牌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          20,
+          22,
+          27
+        ],
+        "as": [
+          "大自然"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          36,
+          37,
+          38,
+          39,
+          55
+        ],
+        "as": [
+          "グラフィック"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "live-events",
+        "name": "线下活动",
+        "facet": "business",
+        "seg": [
+          44
+        ],
+        "as": [
+          "イベント"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 8,
+      "text": "世界冠军赛2007于8月11～12日举办"
+    },
+    {
+      "seg": 12,
+      "text": "来自世界30多个国家的顶尖玩家齐聚一堂"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

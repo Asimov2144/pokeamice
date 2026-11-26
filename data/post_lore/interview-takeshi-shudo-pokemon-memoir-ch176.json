@@ -1,337 +1,340 @@
 {
- "id": "interview-takeshi-shudo-pokemon-memoir-ch176",
- "stem": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 85
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "超梦",
-    "ndex": 150,
-    "seg": [
-     79
+  "id": "interview-takeshi-shudo-pokemon-memoir-ch176",
+  "stem": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 85
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "超梦",
+        "ndex": 150,
+        "seg": [
+          79
+        ],
+        "as": [
+          "超梦"
+        ],
+        "via": "llm"
+      }
     ],
-    "as": [
-     "超梦"
+    "works": [
+      {
+        "name": "超梦的逆袭",
+        "slug": null,
+        "seg": [
+          1,
+          2,
+          74,
+          79
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "魔法小天使",
+        "slug": null,
+        "seg": [
+          51,
+          76
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "战国魔神豪将军",
+        "slug": null,
+        "seg": [
+          76
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "银河英雄传说",
+        "slug": null,
+        "seg": [
+          71,
+          76
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "漫画原来如此物语",
+        "slug": null,
+        "seg": [
+          74
+        ],
+        "via": "entities"
+      }
     ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "超梦的逆袭",
-    "slug": null,
-    "seg": [
-     2,
-     79
+    "people": [
+      {
+        "name": "首藤刚志",
+        "slug": "shudo-takeshi",
+        "role": "mentioned",
+        "seg": [
+          12
+        ]
+      },
+      {
+        "name": "小霞",
+        "slug": "xiao-xia",
+        "role": "mentioned",
+        "seg": [
+          79
+        ],
+        "kind": "character"
+      },
+      {
+        "name": "超梦",
+        "slug": "chao-meng",
+        "role": "mentioned",
+        "seg": [
+          2,
+          79
+        ],
+        "kind": "character"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "魔法小天使 甜甜仙子",
-    "slug": null,
-    "seg": [
-     51,
-     76
+    "places": [
+      {
+        "name": "目黑",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          52
+        ],
+        "what": "就诊卡上的医院所在",
+        "via": "llm"
+      },
+      {
+        "name": "吉卜力工作室",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          71
+        ],
+        "what": "内部试映会地点",
+        "via": "llm"
+      },
+      {
+        "name": "涩谷",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          6
+        ],
+        "what": "看艺术院线电影",
+        "via": "llm"
+      },
+      {
+        "name": "小田原",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          5
+        ],
+        "what": "旧工作室所在地",
+        "via": "llm"
+      },
+      {
+        "name": "新宿",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          51
+        ],
+        "what": "与制片人对饮处",
+        "via": "llm"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "战国魔神豪将军",
-    "slug": null,
-    "seg": [
-     76
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "银河英雄传说",
-    "slug": null,
-    "seg": [
-     76
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "漫画原来如此物语",
-    "slug": null,
-    "seg": [
-     74
-    ],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "首藤刚志",
-    "slug": "shudo-takeshi",
-    "role": "mentioned",
-    "seg": [
-     12
+    "concepts": [
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          2
+        ],
+        "as": [
+          "电影版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          5
+        ],
+        "as": [
+          "通宵"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          12
+        ],
+        "as": [
+          "动画剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          12
+        ],
+        "as": [
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          12,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "as": [
+          "剧本",
+          "编剧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "life-and-death",
+        "name": "生死的表述",
+        "facet": "design",
+        "seg": [
+          46
+        ],
+        "as": [
+          "濒死"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          50,
+          51
+        ],
+        "as": [
+          "携手"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          74
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          74
+        ],
+        "as": [
+          "续作"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "小霞",
-    "slug": "xiao-xia",
-    "role": "mentioned",
-    "seg": [
-     79
-    ],
-    "kind": "character"
-   },
-   {
-    "name": "超梦",
-    "slug": "chao-meng",
-    "role": "mentioned",
-    "seg": [
-     2,
-     79
-    ],
-    "kind": "character"
-   }
+  },
+  "observations": [
+    {
+      "seg": 5,
+      "text": "工作室从小田原搬迁至东京，阳台被100英寸幕布遮蔽",
+      "anchor": 6
+    },
+    {
+      "seg": 39,
+      "text": "第二次送医前在便利店归途，记忆断片后已在救护车上",
+      "anchor": 40
+    }
   ],
-  "places": [
-   {
-    "name": "目黑",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     52
-    ],
-    "what": "就诊卡上的医院所在",
-    "via": "llm"
-   },
-   {
-    "name": "吉卜力工作室",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     71
-    ],
-    "what": "内部试映会地点",
-    "via": "llm"
-   },
-   {
-    "name": "涩谷",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     6
-    ],
-    "what": "看艺术院线电影",
-    "via": "llm"
-   },
-   {
-    "name": "小田原",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     5
-    ],
-    "what": "旧工作室所在地",
-    "via": "llm"
-   },
-   {
-    "name": "新宿",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     51
-    ],
-    "what": "与制片人对饮处",
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch175",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第175回：继续讲述《超梦的逆袭》脚本秘辛（野生与驯化的奴役悖论、原定三年完结的终章构想与“战斗否定”的伏笔）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch175/",
+      "why": "第175回为第176回前一篇，同系列连载"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch177",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第177回：可以否定《宝可梦》的对战吗？（胜负与自我存在的断裂、无风险代理战争批判与小田原海边的孤绝破局）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch177/",
+      "why": "第177回为第176回后一篇，同系列连载"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch178",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第178回：宝可梦剧场版必须能让自己由衷信服……（从“无印良品”到作者性觉醒、与游戏原作方见解分歧的创作定力）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch178/",
+      "why": "第178回紧接第177回，同系列连载"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch179",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第179回：《超梦的逆袭》的高潮戏剧时刻（肉搏战的惨烈现实、小智挺身而出的石化、皮卡丘绝望电击的剧作推导）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch179/",
+      "why": "第179回续谈《超梦的逆袭》高潮戏"
+    }
   ],
-  "concepts": [
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     2
-    ],
-    "as": [
-     "电影版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     5
-    ],
-    "as": [
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     12
-    ],
-    "as": [
-     "动画剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     12,
-     21,
-     22,
-     23,
-     24,
-     25
-    ],
-    "as": [
-     "剧本",
-     "编剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
-    "seg": [
-     46
-    ],
-    "as": [
-     "濒死"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     50,
-     51
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     74
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     74
-    ],
-    "as": [
-     "续作"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 5,
-   "text": "工作室从小田原搬迁至东京，阳台被100英寸幕布遮蔽",
-   "anchor": 6
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 39,
-   "text": "第二次送医前在便利店归途，记忆断片后已在救护车上",
-   "anchor": 40
-  }
- ],
- "relations": [
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch175",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第175回：继续讲述《超梦的逆袭》脚本秘辛（野生与驯化的奴役悖论、原定三年完结的终章构想与“战斗否定”的伏笔）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch175/",
-   "why": "第175回为第176回前一篇，同系列连载"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch177",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第177回：可以否定《宝可梦》的对战吗？（胜负与自我存在的断裂、无风险代理战争批判与小田原海边的孤绝破局）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch177/",
-   "why": "第177回为第176回后一篇，同系列连载"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch178",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第178回：宝可梦剧场版必须能让自己由衷信服……（从“无印良品”到作者性觉醒、与游戏原作方见解分歧的创作定力）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch178/",
-   "why": "第178回紧接第177回，同系列连载"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch179",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第179回：《超梦的逆袭》的高潮戏剧时刻（肉搏战的惨烈现实、小智挺身而出的石化、皮卡丘绝望电击的剧作推导）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch179/",
-   "why": "第179回续谈《超梦的逆袭》高潮戏"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

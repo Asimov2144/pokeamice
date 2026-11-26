@@ -35,6 +35,7 @@ cast:
 - name: 増田順一
   role: GAME FREAK 联合创始人 / 制作人 / 作曲家
   avatar: /assets/img/default-avatar.png
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - speaker: Game Informer
   original: We recently had the opportunity to visit the offices of Game Freak, the creators of Pokémon, to discuss the series, its impact, and its future. The studio is more than Pokémon, however, and we talked to them about its beginnings and its games that don’t explore the world of Pocket Monsters.
@@ -144,10 +145,6 @@ parallel_items:
   original: “Of course, those side projects are always really important for the developer to try different things and we all like to explore new opportunities for Game Freak as a company, not being just stuck in one thing,” Masuda says, “But the reality of the games industry is with other projects, just to get people to notice you, there are so many games out there these days that we definitely feel that tough situation is the reality of the video game market.”
   translation: 增田顺一表示：“当然，这些副项目对于开发者尝试不同事物总是非常重要的，我们也都喜欢为GAME FREAK探索新的机会，不希望公司仅仅局限于单一领域。但游戏行业的现实是，如今市面上的游戏数量繁多，仅靠其他项目来吸引人们的注意已十分困难，我们深切感受到这种严峻形势正是当下游戏市场的真实写照。”
   role: answer
-- speaker: Game Informer
-  original: For more on the history of Pokémon, check out Game Informer’s coverage covering the franchise’s history, as well as our deep-dive interviews with Game Freak.
-  translation: 欲了解更多宝可梦的历史，请查阅Game Informer对该系列历史的报道，以及我们对GAME FREAK的深度专访。
-  role: question
 interviewee: Game Informer, 增田顺一
 source:
   title: Game Freak’s Origins And Its Pre-Pokémon Games

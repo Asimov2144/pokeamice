@@ -1,383 +1,370 @@
 {
- "id": "interview-jv-2013-xy",
- "stem": "2013-09-19-interview-jv-2013-xy",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 41
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     19,
-     20
+  "id": "interview-jv-2013-xy",
+  "stem": "2013-09-19-interview-jv-2013-xy",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 41
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          19,
+          20
+        ],
+        "as": [
+          "妙蛙种子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "小火龙",
+        "ndex": 4,
+        "seg": [
+          19,
+          20
+        ],
+        "as": [
+          "小火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "杰尼龟",
+        "ndex": 7,
+        "seg": [
+          19,
+          20
+        ],
+        "as": [
+          "杰尼龟"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          25,
+          26
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
     ],
-    "as": [
-     "妙蛙种子"
+    "works": [
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          0,
+          2,
+          5,
+          10,
+          12,
+          19,
+          20,
+          31
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          0,
+          11
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "红、蓝",
+        "slug": null,
+        "seg": [
+          19
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "小火龙",
-    "ndex": 4,
-    "seg": [
-     19,
-     20
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          3,
+          5,
+          7,
+          10,
+          12,
+          15
+        ]
+      },
+      {
+        "name": "吉田宏信",
+        "slug": "yoshida-hironobu",
+        "role": "speaker",
+        "seg": [
+          23
+        ]
+      },
+      {
+        "name": "布拉塔诺博士",
+        "slug": "bu-la-ta-nuo-bo-shi",
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm",
+        "kind": "character"
+      }
     ],
-    "as": [
-     "小火龙"
+    "places": [
+      {
+        "name": "宝可梦乐园",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          17
+        ],
+        "via": "extra",
+        "what": "期间限定的主题乐园"
+      },
+      {
+        "name": "法国",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          27
+        ],
+        "what": "卡洛斯地区灵感来源",
+        "via": "llm"
+      },
+      {
+        "name": "卡洛斯地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          27
+        ],
+        "what": "游戏地区",
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "杰尼龟",
-    "ndex": 7,
-    "seg": [
-     19,
-     20
-    ],
-    "as": [
-     "杰尼龟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     25,
-     26
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [
-     2,
-     5,
-     10,
-     12,
-     19,
-     20
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "黑／白",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     11
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "红、蓝",
-    "slug": null,
-    "seg": [
-     19
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "X／Y",
-    "slug": null,
-    "seg": [
-     31
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     3,
-     5,
-     7,
-     10,
-     12,
-     15
+    "concepts": [
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          0
+        ],
+        "as": [
+          "批评"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          0,
+          17
+        ],
+        "as": [
+          "3D化",
+          "3D模型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          5,
+          7
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          10,
+          38
+        ],
+        "as": [
+          "开发周期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          10
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "team-size",
+        "name": "团队规模",
+        "facet": "process",
+        "seg": [
+          10
+        ],
+        "as": [
+          "团队规模"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          14
+        ],
+        "as": [
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          19
+        ],
+        "as": [
+          "老玩家"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "version-pair",
+        "name": "两个版本",
+        "facet": "system",
+        "seg": [
+          19
+        ],
+        "as": [
+          "两个版本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "evolution-design",
+        "name": "进化的设计",
+        "facet": "design",
+        "seg": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "as": [
+          "超级进化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          30
+        ],
+        "as": [
+          "付费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          31
+        ],
+        "as": [
+          "容量"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "吉田宏信",
-    "slug": "yoshida-hironobu",
-    "role": "speaker",
-    "seg": [
-     23
-    ]
-   },
-   {
-    "name": "布拉塔诺博士",
-    "slug": "bu-la-ta-nuo-bo-shi",
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm",
-    "kind": "character"
-   }
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "增田称X和Y代表两种思维轴，找到其相交点是主题之一",
+      "anchor": 4
+    },
+    {
+      "seg": 10,
+      "text": "增田称《黑／白》之后开始做《X·Y》，约花三年，团队扩大",
+      "anchor": 11
+    }
   ],
-  "places": [
-   {
-    "name": "宝可梦乐园",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     17
-    ],
-    "via": "extra",
-    "what": "期间限定的主题乐园"
-   },
-   {
-    "name": "法国",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     27
-    ],
-    "what": "卡洛斯地区灵感来源",
-    "via": "llm"
-   },
-   {
-    "name": "卡洛斯地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     27
-    ],
-    "what": "游戏地区",
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-nintendolife-2013-xy",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "增田顺一与吉田宏信谈《宝可梦 X·Y》",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendolife-2013-xy/",
+      "why": "同为增田与吉田谈X·Y的同期采访"
+    },
+    {
+      "id": "interview-multiplayer-2013-xy",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "增田顺一谈宝可梦 X·Y",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-multiplayer-2013-xy/",
+      "why": "同为增田谈X·Y标题与开发规模"
+    },
+    {
+      "id": "interview-nwr-xy-masuda-yoshida",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Nintendo World Report 独家专访增田顺一与吉田宏信：从3D全面进化到超级超级特训",
+      "url": "//interview-nwr-xy-masuda-yoshida/",
+      "why": "同为增田与吉田谈X·Y同期采访"
+    }
   ],
-  "concepts": [
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     0
-    ],
-    "as": [
-     "批评"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     0,
-     17
-    ],
-    "as": [
-     "3D化",
-     "3D模型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     5,
-     7
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     10,
-     38
-    ],
-    "as": [
-     "开发周期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     10
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "团队规模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     14
-    ],
-    "as": [
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     19
-    ],
-    "as": [
-     "老玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "version-pair",
-    "name": "两个版本",
-    "facet": "system",
-    "seg": [
-     19
-    ],
-    "as": [
-     "两个版本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "evolution-design",
-    "name": "进化的设计",
-    "facet": "design",
-    "seg": [
-     20,
-     21,
-     22,
-     23
-    ],
-    "as": [
-     "超级进化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     30
-    ],
-    "as": [
-     "付费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     31
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "增田称X和Y代表两种思维轴，找到其相交点是主题之一",
-   "anchor": 4
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 10,
-   "text": "增田称《黑／白》之后开始做《X·Y》，约花三年，团队扩大",
-   "anchor": 11
-  }
- ],
- "relations": [
-  {
-   "id": "interview-nintendolife-2013-xy",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "增田顺一与吉田宏信谈《宝可梦 X·Y》",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendolife-2013-xy/",
-   "why": "同为增田与吉田谈X·Y的同期采访"
-  },
-  {
-   "id": "interview-multiplayer-2013-xy",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "增田顺一谈宝可梦 X·Y",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-multiplayer-2013-xy/",
-   "why": "同为增田谈X·Y标题与开发规模"
-  },
-  {
-   "id": "interview-nwr-xy-masuda-yoshida",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Nintendo World Report 独家专访增田顺一与吉田宏信：从3D全面进化到超级超级特训",
-   "url": "//interview-nwr-xy-masuda-yoshida/",
-   "why": "同为增田与吉田谈X·Y同期采访"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

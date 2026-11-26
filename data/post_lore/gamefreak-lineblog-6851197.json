@@ -1,122 +1,122 @@
 {
- "id": "gamefreak-lineblog-6851197",
- "stem": "2016-09-07-gamefreak-lineblog-6851197",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 26
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "属性：空",
-    "ndex": 772,
-    "seg": [
-     9,
-     15
-    ],
-    "as": [
-     "属性：空"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "阿罗拉拉达",
-    "ndex": 20,
-    "seg": [
-     9
-    ],
-    "as": [
-     "拉达"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 太阳·月亮",
-    "slug": "sun-moon",
-    "seg": [
-     0
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "X·Y",
-    "slug": null,
-    "seg": [
-     19
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     0
-    ],
-    "as": [
-     "情报公开"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     14
-    ],
-    "as": [
-     "全球同步发售"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     15
-    ],
-    "as": [
-     "取名"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 9,
-   "text": "游戏介绍映像里有究极异兽、属性：空、阿罗拉形态的拉达登场"
+  "id": "gamefreak-lineblog-6851197",
+  "stem": "2016-09-07-gamefreak-lineblog-6851197",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 26
   },
-  {
-   "seg": 15,
-   "text": "增田顺一没想到会取名为“属性：空”"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "属性：空",
+        "ndex": 772,
+        "seg": [
+          9,
+          15
+        ],
+        "as": [
+          "属性：空"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "阿罗拉拉达",
+        "ndex": 20,
+        "seg": [
+          9
+        ],
+        "as": [
+          "拉达"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          19
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": []
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          0
+        ],
+        "as": [
+          "情报公开"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "overseas",
+        "name": "海外发行",
+        "facet": "business",
+        "seg": [
+          14
+        ],
+        "as": [
+          "全球同步发售"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          15
+        ],
+        "as": [
+          "取名"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 9,
+      "text": "游戏介绍映像里有究极异兽、属性：空、阿罗拉形态的拉达登场"
+    },
+    {
+      "seg": 15,
+      "text": "增田顺一没想到会取名为“属性：空”"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

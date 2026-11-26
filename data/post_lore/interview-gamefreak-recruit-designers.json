@@ -1,307 +1,302 @@
 {
- "id": "interview-gamefreak-recruit-designers",
- "stem": "2015-10-01-interview-gamefreak-recruit-designers",
- "rev": 1,
- "built": "2026-10-09",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 28
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
-    "slug": "oras",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "Left 4 Dead",
-    "slug": null,
-    "seg": [
-     9
+  "id": "interview-gamefreak-recruit-designers",
+  "stem": "2015-10-01-interview-gamefreak-recruit-designers",
+  "rev": 1,
+  "built": "2026-10-09",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 28
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          15,
+          16
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+        "slug": "oras",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "Left 4 Dead",
+        "slug": null,
+        "seg": [
+          9
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 X・Y",
-    "slug": null,
-    "seg": [
-     15
+    "people": [
+      {
+        "name": "T.W.",
+        "slug": "t-w",
+        "role": "speaker",
+        "seg": [
+          3,
+          8,
+          14,
+          22,
+          24
+        ]
+      },
+      {
+        "name": "A.I.",
+        "slug": "a-i",
+        "role": "speaker",
+        "seg": [
+          4,
+          9,
+          15,
+          20,
+          26
+        ]
+      },
+      {
+        "name": "T.A.",
+        "slug": "t-a",
+        "role": "speaker",
+        "seg": [
+          5,
+          11,
+          16,
+          21,
+          25
+        ]
+      }
     ],
-    "via": "llm"
-   }
+    "places": [],
+    "concepts": [
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          3,
+          4,
+          5,
+          9,
+          11,
+          12
+        ],
+        "as": [
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          8,
+          14
+        ],
+        "as": [
+          "手机游戏",
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          9
+        ],
+        "as": [
+          "手绘"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          9,
+          11,
+          22
+        ],
+        "as": [
+          "应届"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          12,
+          16
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          14
+        ],
+        "as": [
+          "企划书"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          15,
+          26
+        ],
+        "as": [
+          "3D化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          16
+        ],
+        "as": [
+          "硬件性能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          22
+        ],
+        "as": [
+          "吃惊"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          25
+        ],
+        "as": [
+          "分镜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          25
+        ],
+        "as": [
+          "宝可梦设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          26
+        ],
+        "as": [
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          26
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "motion",
+        "name": "动作设计",
+        "facet": "art",
+        "seg": [],
+        "as": [
+          "动作设计"
+        ],
+        "via": "tag"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 8,
+      "text": "T.W.在最初12年于大游戏公司做主机游戏开发",
+      "anchor": 9
+    },
+    {
+      "seg": 8,
+      "text": "T.W.在大社交游戏公司工作了约两年半",
+      "anchor": 9
+    }
   ],
-  "people": [
-   {
-    "name": "T.W.",
-    "slug": "t-w",
-    "role": "speaker",
-    "seg": [
-     3,
-     8,
-     14,
-     22,
-     24
-    ]
-   },
-   {
-    "name": "A.I.",
-    "slug": "a-i",
-    "role": "speaker",
-    "seg": [
-     4,
-     9,
-     15,
-     20,
-     26
-    ]
-   },
-   {
-    "name": "T.A.",
-    "slug": "t-a",
-    "role": "speaker",
-    "seg": [
-     5,
-     11,
-     16,
-     21,
-     25
-    ]
-   }
+  "relations": [
+    {
+      "id": "interview-gamefreak-recruit-planners",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/",
+      "why": "同为2015-10-01中途招聘专栏对谈"
+    },
+    {
+      "id": "interview-gamefreak-recruit-programmers",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/",
+      "why": "同为2015-10-01中途招聘专栏对谈"
+    },
+    {
+      "id": "interview-gamefreak-recruit-3d-graphics-to-fk",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/",
+      "why": "前作3D化动作设计背景，A.I.任动作设计师"
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     3,
-     4,
-     5,
-     9,
-     11,
-     12
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     8,
-     14
-    ],
-    "as": [
-     "手机游戏",
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     9
-    ],
-    "as": [
-     "手绘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     9,
-     11,
-     22
-    ],
-    "as": [
-     "应届"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     12,
-     16
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     14
-    ],
-    "as": [
-     "企划书"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     15,
-     26
-    ],
-    "as": [
-     "3D化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     16
-    ],
-    "as": [
-     "硬件性能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     22
-    ],
-    "as": [
-     "吃惊"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     25
-    ],
-    "as": [
-     "分镜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     25
-    ],
-    "as": [
-     "宝可梦设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     26
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     26
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "motion",
-    "name": "动作设计",
-    "facet": "art",
-    "seg": [],
-    "as": [
-     "动作设计"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 8,
-   "text": "T.W.在最初12年于大游戏公司做主机游戏开发",
-   "anchor": 9
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 8,
-   "text": "T.W.在大社交游戏公司工作了约两年半",
-   "anchor": 9
-  }
- ],
- "relations": [
-  {
-   "id": "interview-gamefreak-recruit-planners",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/",
-   "why": "同为2015-10-01中途招聘专栏对谈"
-  },
-  {
-   "id": "interview-gamefreak-recruit-programmers",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmers/",
-   "why": "同为2015-10-01中途招聘专栏对谈"
-  },
-  {
-   "id": "interview-gamefreak-recruit-3d-graphics-to-fk",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/",
-   "why": "前作3D化动作设计背景，A.I.任动作设计师"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

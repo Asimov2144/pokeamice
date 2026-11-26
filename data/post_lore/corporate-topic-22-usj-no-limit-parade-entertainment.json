@@ -1,180 +1,172 @@
 {
- "id": "corporate-topic-22-usj-no-limit-parade-entertainment",
- "stem": "2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 26
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "喷火龙",
-    "ndex": 6,
-    "seg": [
-     12
-    ],
-    "as": [
-     "喷火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     20
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "暴鲤龙",
-    "ndex": 130,
-    "seg": [
-     10,
-     21
-    ],
-    "as": [
-     "暴鲤龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "彩粉蝶",
-    "ndex": 666,
-    "seg": [
-     17,
-     18
-    ],
-    "as": [
-     "彩粉蝶"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     18
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [],
-  "places": [
-   {
-    "name": "日本环球影城",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "合作主题公园",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     2
-    ],
-    "as": [
-     "携手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     2,
-     4
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     5,
-     7
-    ],
-    "as": [
-     "水属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     9,
-     14
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     16
-    ],
-    "as": [
-     "年龄层"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "USJ负责巡游的工作人员回顾了这次尝试的开端",
-   "anchor": 4
+  "id": "corporate-topic-22-usj-no-limit-parade-entertainment",
+  "stem": "2024-08-01-corporate-topic-22-usj-no-limit-parade-entertainment",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 26
   },
-  {
-   "seg": 10,
-   "text": "暴鲤龙首次登场，由3名表演者配合创造动感动作",
-   "anchor": 11
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "喷火龙",
+        "ndex": 6,
+        "seg": [
+          12
+        ],
+        "as": [
+          "喷火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          20
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "暴鲤龙",
+        "ndex": 130,
+        "seg": [
+          10,
+          21
+        ],
+        "as": [
+          "暴鲤龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "彩粉蝶",
+        "ndex": 666,
+        "seg": [
+          17,
+          18
+        ],
+        "as": [
+          "彩粉蝶"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          18
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [],
+    "places": [
+      {
+        "name": "日本环球影城",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          2
+        ],
+        "what": "合作主题公园",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          2
+        ],
+        "as": [
+          "携手"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          2,
+          4
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          5,
+          7
+        ],
+        "as": [
+          "水属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          9,
+          14
+        ],
+        "as": [
+          "真实感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          16
+        ],
+        "as": [
+          "年龄层"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "USJ负责巡游的工作人员回顾了这次尝试的开端",
+      "anchor": 4
+    },
+    {
+      "seg": 10,
+      "text": "暴鲤龙首次登场，由3名表演者配合创造动感动作",
+      "anchor": 11
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

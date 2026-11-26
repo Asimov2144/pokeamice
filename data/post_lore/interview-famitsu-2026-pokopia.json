@@ -1,576 +1,576 @@
 {
- "id": "interview-famitsu-2026-pokopia",
- "stem": "2026-02-16-interview-famitsu-2026-pokopia",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 155
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     47
-    ],
-    "as": [
-     "妙蛙种子"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     25,
-     54,
-     73,
-     77,
-     79,
-     82
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "百变怪",
-    "ndex": 132,
-    "seg": [
-     1,
-     19,
-     48,
-     49,
-     62,
-     95
-    ],
-    "as": [
-     "百变怪"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "巨蔓藤",
-    "ndex": 465,
-    "seg": [
-     73,
-     77
-    ],
-    "as": [
-     "巨蔓藤"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "ぽこ あ ポケモン",
-    "slug": null,
-    "seg": [
-     1,
-     2,
-     3,
-     6,
-     8,
-     10
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [
-     19
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦+信长的野望",
-    "slug": null,
-    "seg": [
-     24
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
-    "slug": "lets-go",
-    "seg": [
-     25
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     27
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [
-     40
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "三国无双",
-    "slug": null,
-    "seg": [
-     57
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "ファミ通",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     15,
-     18,
-     22,
-     24,
-     26,
-     31
-    ]
-   },
-   {
-    "name": "大森滋",
-    "slug": "ohmori-shigeru",
-    "role": "speaker",
-    "seg": [
-     16,
-     19,
-     20,
-     29,
-     37,
-     40
-    ]
-   },
-   {
-    "name": "村田佳奈子",
-    "slug": "murata-kanako",
-    "role": "speaker",
-    "seg": [
-     23,
-     25,
-     61,
-     71,
-     83,
-     146
-    ]
-   },
-   {
-    "name": "绫野万里奈",
-    "slug": "ayano-marina",
-    "role": "speaker",
-    "seg": [
-     27,
-     82,
-     94,
-     99,
-     108,
-     132
-    ]
-   },
-   {
-    "name": "枝川拓人",
-    "slug": "edagawa-takuto",
-    "role": "speaker",
-    "seg": [
-     28,
-     32,
-     35,
-     38,
-     56,
-     59
-    ]
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     19,
-     20,
-     23,
-     34,
-     47
-    ],
-    "as": [
-     "试作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     19,
-     82
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     28,
-     31,
-     47,
-     58
-    ],
-    "as": [
-     "完成度",
-     "品质",
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     32,
-     105
-    ],
-    "as": [
-     "吃惊",
-     "新鲜感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     34,
-     35,
-     94
-    ],
-    "as": [
-     "开发周期",
-     "开发初期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     41,
-     132
-    ],
-    "as": [
-     "编辑器",
-     "开发环境"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     46,
-     59
-    ],
-    "as": [
-     "分工"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     49
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     58
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     59,
-     69
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     61
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     63,
-     64
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "text-volume",
-    "name": "文本量",
-    "facet": "story",
-    "seg": [
-     70
-    ],
-    "as": [
-     "文本量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     74
-    ],
-    "as": [
-     "强度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     74
-    ],
-    "as": [
-     "宝可梦的设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     95
-    ],
-    "as": [
-     "视觉效果"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     95
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     98,
-     99,
-     101
-    ],
-    "as": [
-     "BGM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     100
-    ],
-    "as": [
-     "怀旧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     111,
-     134,
-     146
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     111,
-     127,
-     130,
-     134
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     116
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     116
-    ],
-    "as": [
-     "核心玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     135
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     141
-    ],
-    "as": [
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     144
-    ],
-    "as": [
-     "分发"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     145
-    ],
-    "as": [
-     "企划时"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 19,
-   "text": "《朱·紫》开发结束前后组建3人左右小团队试作",
-   "anchor": 20
+  "id": "interview-famitsu-2026-pokopia",
+  "stem": "2026-02-16-interview-famitsu-2026-pokopia",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 155
   },
-  {
-   "seg": 37,
-   "text": "大森称认识对齐花了3～4个月",
-   "anchor": 38
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "segment_audit": "2026-11-12"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          47
+        ],
+        "as": [
+          "妙蛙种子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          25,
+          54,
+          73,
+          77,
+          79,
+          82
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "百变怪",
+        "ndex": 132,
+        "seg": [
+          1,
+          19,
+          48,
+          49,
+          62,
+          95
+        ],
+        "as": [
+          "百变怪"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "巨蔓藤",
+        "ndex": 465,
+        "seg": [
+          73,
+          77
+        ],
+        "as": [
+          "巨蔓藤"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "Pokémon Pokopia",
+        "slug": "pokopia",
+        "seg": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          10
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 朱·紫",
+        "slug": "scarlet-violet",
+        "seg": [
+          19
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦+信长的野望",
+        "slug": "conquest",
+        "seg": [
+          24
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+        "slug": "lets-go",
+        "seg": [
+          25
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          27
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          40
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "三国无双",
+        "slug": null,
+        "seg": [
+          57
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "ファミ通",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          15,
+          18,
+          22,
+          24,
+          26,
+          31
+        ]
+      },
+      {
+        "name": "大森滋",
+        "slug": "ohmori-shigeru",
+        "role": "speaker",
+        "seg": [
+          16,
+          19,
+          20,
+          29,
+          37,
+          40
+        ]
+      },
+      {
+        "name": "村田佳奈子",
+        "slug": "murata-kanako",
+        "role": "speaker",
+        "seg": [
+          23,
+          25,
+          61,
+          71,
+          83,
+          146
+        ]
+      },
+      {
+        "name": "绫野万里奈",
+        "slug": "ayano-marina",
+        "role": "speaker",
+        "seg": [
+          27,
+          82,
+          94,
+          99,
+          108,
+          132
+        ]
+      },
+      {
+        "name": "枝川拓人",
+        "slug": "edagawa-takuto",
+        "role": "speaker",
+        "seg": [
+          28,
+          32,
+          35,
+          38,
+          56,
+          59
+        ]
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          19,
+          20,
+          23,
+          34,
+          47
+        ],
+        "as": [
+          "试作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          19,
+          82
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          28,
+          31,
+          47,
+          58
+        ],
+        "as": [
+          "完成度",
+          "品质",
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          32,
+          105
+        ],
+        "as": [
+          "吃惊",
+          "新鲜感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          34,
+          35,
+          94
+        ],
+        "as": [
+          "开发周期",
+          "开发初期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          41,
+          132
+        ],
+        "as": [
+          "编辑器",
+          "开发环境"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          46,
+          59
+        ],
+        "as": [
+          "分工"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          49
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          58
+        ],
+        "as": [
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          59,
+          69
+        ],
+        "as": [
+          "监修"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          61
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          63,
+          64
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "text-volume",
+        "name": "文本量",
+        "facet": "story",
+        "seg": [
+          70
+        ],
+        "as": [
+          "文本量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          74
+        ],
+        "as": [
+          "强度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          74
+        ],
+        "as": [
+          "宝可梦的设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          95
+        ],
+        "as": [
+          "视觉效果"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          95
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          98,
+          99,
+          101
+        ],
+        "as": [
+          "BGM"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          100
+        ],
+        "as": [
+          "怀旧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          111,
+          134,
+          146
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          111,
+          127,
+          130,
+          134
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          116
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          116
+        ],
+        "as": [
+          "核心玩家"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          135
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          141
+        ],
+        "as": [
+          "试玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          144
+        ],
+        "as": [
+          "分发"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          145
+        ],
+        "as": [
+          "企划时"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 19,
+      "text": "《朱·紫》开发结束前后组建3人左右小团队试作",
+      "anchor": 20
+    },
+    {
+      "seg": 37,
+      "text": "大森称认识对齐花了3～4个月",
+      "anchor": 38
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "segment_audit": "2026-11-12"
+  },
+  "edited": false
 }

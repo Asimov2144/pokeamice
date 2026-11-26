@@ -1,543 +1,479 @@
 {
- "id": "专栏翻译 与宝可梦同行的30年1996年初代《红·绿》与幻之宝可梦梦幻 前篇",
- "stem": "2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 68
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     41
-    ],
-    "as": [
-     "妙蛙种子"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "妙蛙花",
-    "ndex": 3,
-    "seg": [
-     41,
-     43
-    ],
-    "as": [
-     "妙蛙花"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "火恐龙",
-    "ndex": 5,
-    "seg": [
-     61
-    ],
-    "as": [
-     "火恐龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "喷火龙",
-    "ndex": 6,
-    "seg": [
-     41
-    ],
-    "as": [
-     "喷火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "クラブ",
-    "ndex": 98,
-    "seg": [
-     58,
-     61
-    ],
-    "as": [
-     "クラブ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "ミュウ",
-    "ndex": 151,
-    "seg": [
-     1
-    ],
-    "as": [
-     "ミュウ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "洛奇亚",
-    "ndex": 249,
-    "seg": [
-     0
-    ],
-    "as": [
-     "洛奇亚"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮皮",
-    "ndex": 35,
-    "seg": [
-     49
-    ],
-    "as": [
-     "皮皮"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     4,
-     19,
-     32,
-     38
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "梦幻",
-    "slug": null,
-    "seg": [
-     40,
-     52,
-     55,
-     56,
-     57
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "爆走兄弟Let's & Go!!",
-    "slug": null,
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "名侦探柯南",
-    "slug": null,
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "最终幻想VII",
-    "slug": null,
-    "seg": [
-     21
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "周刊Fami通",
-    "slug": null,
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "神奇宝可梦 皮皮",
-    "slug": null,
-    "seg": [
-     49
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     49
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "超级马力欧64",
-    "slug": null,
-    "seg": [
-     62
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "安室奈美惠",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "木村拓哉",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "关都地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     47
-    ],
-    "what": "游戏中的地区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     2,
-     14,
-     15,
-     49,
-     51,
-     55
-    ],
-    "as": [
-     "小学生",
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     2
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     2,
-     5,
-     14,
-     18,
-     24,
-     55
-    ],
-    "as": [
-     "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     5,
-     9
-    ],
-    "as": [
-     "亲子",
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     6
-    ],
-    "as": [
-     "入社"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     9,
-     27
-    ],
-    "as": [
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     11,
-     26
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     14,
-     47,
-     49
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     15,
-     22,
-     61
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     29,
-     54
-    ],
-    "as": [
-     "概率"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     31,
-     34,
-     36,
-     42,
-     54
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     32
-    ],
-    "as": [
-     "收集宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     32
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     36,
-     42,
-     43,
-     60
-    ],
-    "as": [
-     "通信交换"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "version-pair",
-    "name": "两个版本",
-    "facet": "system",
-    "seg": [
-     39
-    ],
-    "as": [
-     "两个版本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     43
-    ],
-    "as": [
-     "等级"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     51
-    ],
-    "as": [
-     "截止"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     53,
-     55
-    ],
-    "as": [
-     "配信",
-     "赠送活动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     55
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     60
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     60
-    ],
-    "as": [
-     "新鲜感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [],
-    "as": [
-     "初代"
-    ],
-    "via": "title"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 4,
-   "text": "《朱·紫》国内销量830万套，超过《红·绿》的822万套",
-   "anchor": 5
+  "id": "专栏翻译 与宝可梦同行的30年1996年初代《红·绿》与幻之宝可梦梦幻 前篇",
+  "stem": "2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 68
   },
-  {
-   "seg": 32,
-   "text": "《红·绿》交叉评测为8分/7分/7分/7分，没有6分",
-   "anchor": 33
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          41
+        ],
+        "as": [
+          "妙蛙种子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "妙蛙花",
+        "ndex": 3,
+        "seg": [
+          41,
+          43
+        ],
+        "as": [
+          "妙蛙花"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "火恐龙",
+        "ndex": 5,
+        "seg": [
+          61
+        ],
+        "as": [
+          "火恐龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "喷火龙",
+        "ndex": 6,
+        "seg": [
+          41
+        ],
+        "as": [
+          "喷火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "クラブ",
+        "ndex": 98,
+        "seg": [
+          58,
+          61
+        ],
+        "as": [
+          "クラブ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "ミュウ",
+        "ndex": 151,
+        "seg": [
+          1
+        ],
+        "as": [
+          "ミュウ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "洛奇亚",
+        "ndex": 249,
+        "seg": [
+          0
+        ],
+        "as": [
+          "洛奇亚"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮皮",
+        "ndex": 35,
+        "seg": [
+          49
+        ],
+        "as": [
+          "皮皮"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          2,
+          4,
+          17,
+          19,
+          30,
+          32,
+          36,
+          38
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 朱·紫",
+        "slug": "scarlet-violet",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "安室奈美惠",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "木村拓哉",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "关都地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          47
+        ],
+        "what": "游戏中的地区",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          2,
+          14,
+          15,
+          49,
+          51,
+          55
+        ],
+        "as": [
+          "小学生",
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          2
+        ],
+        "as": [
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          2,
+          5,
+          14,
+          18,
+          24,
+          55
+        ],
+        "as": [
+          "热潮"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          5,
+          9
+        ],
+        "as": [
+          "亲子",
+          "家庭"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          6
+        ],
+        "as": [
+          "入社"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          9,
+          27
+        ],
+        "as": [
+          "联网"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          11,
+          26
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          14,
+          47,
+          49
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          15,
+          22,
+          61
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          29,
+          54
+        ],
+        "as": [
+          "概率"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          31,
+          34,
+          36,
+          42,
+          54
+        ],
+        "as": [
+          "卡带"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          32
+        ],
+        "as": [
+          "收集宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          32
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          36,
+          42,
+          43,
+          60
+        ],
+        "as": [
+          "通信交换"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "version-pair",
+        "name": "两个版本",
+        "facet": "system",
+        "seg": [
+          39
+        ],
+        "as": [
+          "两个版本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          43
+        ],
+        "as": [
+          "等级"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          51
+        ],
+        "as": [
+          "截止"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          53,
+          55
+        ],
+        "as": [
+          "配信",
+          "赠送活动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          55
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          60
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          60
+        ],
+        "as": [
+          "新鲜感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [],
+        "as": [
+          "初代"
+        ],
+        "via": "title"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 4,
+      "text": "《朱·紫》国内销量830万套，超过《红·绿》的822万套",
+      "anchor": 5
+    },
+    {
+      "seg": 32,
+      "text": "《红·绿》交叉评测为8分/7分/7分/7分，没有6分",
+      "anchor": 33
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

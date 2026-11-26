@@ -1,786 +1,740 @@
 {
- "id": "interview-2000-05-01-kakeru-pokemon-site-dawn",
- "stem": "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 178
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     140
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "飞天螳螂",
-    "ndex": 123,
-    "seg": [
-     72
-    ],
-    "as": [
-     "飞天螳螂"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "梦幻",
-    "ndex": 151,
-    "seg": [
-     17
-    ],
-    "as": [
-     "梦幻"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     15
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦竞技场",
-    "slug": "stadium",
-    "seg": [
-     113
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦竞技场2",
-    "slug": null,
-    "seg": [
-     164
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦·故事",
-    "slug": null,
-    "seg": [
-     28
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "互联网杂志",
-    "slug": null,
-    "seg": [
-     64
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "教科书上不记载的日本互联网历史教科书",
-    "slug": null,
-    "seg": [
-     68
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Fami-Maga",
-    "slug": null,
-    "seg": [
-     46
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "64马里奥体育场",
-    "slug": null,
-    "seg": [
-     41
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "目标！宝可梦卡牌大师",
-    "slug": null,
-    "seg": [
-     138
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "THE！宝可梦完美攻略",
-    "slug": null,
-    "seg": [
-     88
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "hiwasa",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     17
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "ひめはじめ",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     24
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "斯特拉塔·飞天螳螂",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     72
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "松田纯",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     93
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "ひらちゅー",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     98
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "でめりん",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     101
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "佩科奇",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     121
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "佐藤",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     127
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "盖茨",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     132
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "けろりん",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     135
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "水玉螢之丞",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     135
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "JUN",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     162
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "翔",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     173
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "なにものか",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     138
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "下北泽",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     33
-    ],
-    "via": "extra",
-    "area": "shimokitazawa-gamefreak",
-    "what": "GAME FREAK 最初的开发基地"
-   },
-   {
-    "name": "宝可梦中心下北泽本店",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     33
-    ],
-    "what": "GAME FREAK宝可梦专区",
-    "via": "llm"
-   },
-   {
-    "name": "任天堂太空世界",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     81
-    ],
-    "what": "金银试玩活动",
-    "via": "llm"
-   },
-   {
-    "name": "利姆网",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     60
-    ],
-    "what": "网站迁移地之一",
-    "via": "llm"
-   },
-   {
-    "name": "贝可阿美",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     60
-    ],
-    "what": "网站迁移地之一",
-    "via": "llm"
-   },
-   {
-    "name": "MacCentral",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     60
-    ],
-    "what": "网站迁移地之一",
-    "via": "llm"
-   },
-   {
-    "name": "玉虹市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     84
-    ],
-    "what": "钓梦幻传闻地点",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     0,
-     3,
-     22,
-     43,
-     45,
-     60
-    ],
-    "as": [
-     "联网",
-     "服务器"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     9,
-     28,
-     88,
-     100,
-     117,
-     124
-    ],
-    "as": [
-     "攻略",
-     "秘技"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     11,
-     14,
-     20,
-     35,
-     56,
-     69
-    ],
-    "as": [
-     "存档"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     22,
-     86,
-     87,
-     160,
-     167
-    ],
-    "as": [
-     "论坛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     25,
-     39,
-     94,
-     95
-    ],
-    "as": [
-     "孩子们",
-     "小学生"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     30,
-     78,
-     84
-    ],
-    "as": [
-     "漏洞"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     30,
-     91
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "voice",
-    "name": "配音",
-    "facet": "audio",
-    "seg": [
-     40
-    ],
-    "as": [
-     "声优"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "competitive",
-    "name": "竞技与官方大赛",
-    "facet": "system",
-    "seg": [
-     41,
-     114
-    ],
-    "as": [
-     "官方大赛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     59,
-     85,
-     92
-    ],
-    "as": [
-     "老玩家",
-     "轻度玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     76
-    ],
-    "as": [
-     "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     78
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     78,
-     117
-    ],
-    "as": [
-     "个体值",
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     79,
-     158
-    ],
-    "as": [
-     "汇编"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     81,
-     82,
-     105
-    ],
-    "as": [
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     103,
-     106,
-     107,
-     108,
-     137,
-     141
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "delay",
-    "name": "延期",
-    "facet": "process",
-    "seg": [
-     111
-    ],
-    "as": [
-     "延期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     114
-    ],
-    "as": [
-     "等级"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     116
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     135
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     137,
-     138,
-     139
-    ],
-    "as": [
-     "宝可梦卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     141
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     143,
-     149
-    ],
-    "as": [
-     "同人志"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     159
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     165,
-     166
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     177
-    ],
-    "as": [
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mystery",
-    "name": "神秘感",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "都市传说"
-    ],
-    "via": "title"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 18,
-   "text": "最初发布仅外观的梦幻制造技巧是在1996年5月20日",
-   "anchor": 19
+  "id": "interview-2000-05-01-kakeru-pokemon-site-dawn",
+  "stem": "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 178
   },
-  {
-   "seg": 19,
-   "text": "发展成真正的梦幻制造技巧的发布在同年11月25日",
-   "anchor": 20
-  }
- ],
- "relations": [
-  {
-   "id": "interview-famimaga-tajiri-pokemon2-secret",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
-   "url": "/developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/",
-   "why": "同为1995–2000年杂志报道整理，涉红绿发售前"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          140
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "飞天螳螂",
+        "ndex": 123,
+        "seg": [
+          72
+        ],
+        "as": [
+          "飞天螳螂"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "梦幻",
+        "ndex": 151,
+        "seg": [
+          17
+        ],
+        "as": [
+          "梦幻"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          105
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          15
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦竞技场",
+        "slug": "stadium",
+        "seg": [
+          113
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦竞技场 金银",
+        "slug": "stadium-2",
+        "seg": [
+          164
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "THE！宝可梦完美攻略",
+        "slug": null,
+        "seg": [
+          88
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "hiwasa",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          17
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "ひめはじめ",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          24
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "斯特拉塔·飞天螳螂",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          72
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "松田纯",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          93
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "ひらちゅー",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          98
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "でめりん",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          101
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "佩科奇",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          121
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "佐藤",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          127
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "盖茨",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          132
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "けろりん",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          135
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "水玉螢之丞",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          135
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "JUN",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          162
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "翔",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          173
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "なにものか",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          138
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "下北泽",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          33
+        ],
+        "via": "extra",
+        "area": "shimokitazawa-gamefreak",
+        "what": "GAME FREAK 最初的开发基地"
+      },
+      {
+        "name": "宝可梦中心下北泽本店",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          33
+        ],
+        "what": "GAME FREAK宝可梦专区",
+        "via": "llm"
+      },
+      {
+        "name": "任天堂太空世界",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          81
+        ],
+        "what": "金银试玩活动",
+        "via": "llm"
+      },
+      {
+        "name": "利姆网",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          60
+        ],
+        "what": "网站迁移地之一",
+        "via": "llm"
+      },
+      {
+        "name": "贝可阿美",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          60
+        ],
+        "what": "网站迁移地之一",
+        "via": "llm"
+      },
+      {
+        "name": "MacCentral",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          60
+        ],
+        "what": "网站迁移地之一",
+        "via": "llm"
+      },
+      {
+        "name": "玉虹市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          84
+        ],
+        "what": "钓梦幻传闻地点",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          0,
+          3,
+          22,
+          43,
+          45,
+          60
+        ],
+        "as": [
+          "联网",
+          "服务器"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "guides",
+        "name": "攻略文化",
+        "facet": "audience",
+        "seg": [
+          9,
+          28,
+          88,
+          100,
+          117,
+          124
+        ],
+        "as": [
+          "攻略",
+          "秘技"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "data-management",
+        "name": "数据与存档",
+        "facet": "tech",
+        "seg": [
+          11,
+          14,
+          20,
+          35,
+          56,
+          69
+        ],
+        "as": [
+          "存档"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          22,
+          86,
+          87,
+          160,
+          167
+        ],
+        "as": [
+          "论坛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          25,
+          39,
+          94,
+          95
+        ],
+        "as": [
+          "孩子们",
+          "小学生"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          30,
+          78,
+          84
+        ],
+        "as": [
+          "漏洞"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          30,
+          91
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "voice",
+        "name": "配音",
+        "facet": "audio",
+        "seg": [
+          40
+        ],
+        "as": [
+          "声优"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "competitive",
+        "name": "竞技与官方大赛",
+        "facet": "system",
+        "seg": [
+          41,
+          114
+        ],
+        "as": [
+          "官方大赛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          59,
+          85,
+          92
+        ],
+        "as": [
+          "老玩家",
+          "轻度玩家"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          76
+        ],
+        "as": [
+          "热潮"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          78
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          78,
+          117
+        ],
+        "as": [
+          "个体值",
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          79,
+          158
+        ],
+        "as": [
+          "汇编"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          81,
+          82,
+          105
+        ],
+        "as": [
+          "试玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          103,
+          106,
+          107,
+          108,
+          137,
+          141
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "delay",
+        "name": "延期",
+        "facet": "process",
+        "seg": [
+          111
+        ],
+        "as": [
+          "延期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          114
+        ],
+        "as": [
+          "等级"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          116
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          135
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          137,
+          138,
+          139
+        ],
+        "as": [
+          "宝可梦卡牌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          141
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "fan-works",
+        "name": "二创与同人",
+        "facet": "audience",
+        "seg": [
+          143,
+          149
+        ],
+        "as": [
+          "同人志"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          159
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          165,
+          166
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          177
+        ],
+        "as": [
+          "新人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mystery",
+        "name": "神秘感",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "都市传说"
+        ],
+        "via": "title"
+      }
+    ]
   },
-  {
-   "id": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-01-01-sunanohi-pokemon-game-kaigi/",
-   "why": "同为sunanohi站整理，涉1997年宝可梦报道"
+  "observations": [
+    {
+      "seg": 18,
+      "text": "最初发布仅外观的梦幻制造技巧是在1996年5月20日",
+      "anchor": 19
+    },
+    {
+      "seg": 19,
+      "text": "发展成真正的梦幻制造技巧的发布在同年11月25日",
+      "anchor": 20
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-famimaga-tajiri-pokemon2-secret",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "初代宝可梦黎明期杂志报道整理（1995–2000）：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+      "url": "/developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/",
+      "why": "同为1995–2000年杂志报道整理，涉红绿发售前"
+    },
+    {
+      "id": "interview-2000-01-01-sunanohi-pokemon-game-kaigi",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "《游戏会议》Vol.9（1997年8月）宝可梦特辑纪要：GAME FREAK 座谈会、田尻智访谈与通信专栏",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-2000-01-01-sunanohi-pokemon-game-kaigi/",
+      "why": "同为sunanohi站整理，涉1997年宝可梦报道"
+    },
+    {
+      "id": "interview-gamefreak-official-red-green-staff",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+      "url": "//interview-gamefreak-official-red-green-staff/",
+      "why": "GAME FREAK官网初代访谈，属黎明期网站"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-gamefreak-official-red-green-staff",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
-   "url": "//interview-gamefreak-official-red-green-staff/",
-   "why": "GAME FREAK官网初代访谈，属黎明期网站"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

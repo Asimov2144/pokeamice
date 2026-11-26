@@ -1,563 +1,555 @@
 {
- "id": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
- "stem": "2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 72
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "喷火龙",
-    "ndex": 6,
-    "seg": [
-     46
-    ],
-    "as": [
-     "喷火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     46
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "波加曼",
-    "ndex": 393,
-    "seg": [
-     36
-    ],
-    "as": [
-     "波加曼"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "超梦",
-    "ndex": 150,
-    "seg": [
-     46
-    ],
-    "as": [
-     "超梦"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     0,
-     7,
-     8
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦对战革命",
-    "slug": "battle-revolution",
-    "seg": [
-     58
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "绿宝石",
-    "slug": null,
-    "seg": [
-     17
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "锻炼大脑的成年人的DS训练",
-    "slug": null,
-    "seg": [
-     31
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "马力欧",
-    "slug": null,
-    "seg": [
-     50
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "New超级马力欧兄弟",
-    "slug": null,
-    "seg": [
-     50
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "N.O.M采访者",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     1,
-     6,
-     8,
-     11,
-     13,
-     16
-    ]
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     2,
-     14,
-     20,
-     22,
-     35,
-     38
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     3,
-     5,
-     10,
-     15,
-     18,
-     24
-    ]
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     4,
-     7,
-     9,
-     12,
-     17,
-     31
-    ]
-   },
-   {
-    "name": "岩田",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "田尻",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     52
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     2
-    ],
-    "as": [
-     "画风"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     2
-    ],
-    "as": [
-     "宝可梦的设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     8,
-     35,
-     52
-    ],
-    "as": [
-     "主题是",
-     "大主题"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     10
-    ],
-    "as": [
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     10,
-     68,
-     70
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     20,
-     40
-    ],
-    "as": [
-     "升级"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     22
-    ],
-    "as": [
-     "建模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     26
-    ],
-    "as": [
-     "整体平衡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     27,
-     58
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     29,
-     31
-    ],
-    "as": [
-     "第一次接触"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     35
-    ],
-    "as": [
-     "反复推敲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     36,
-     66
-    ],
-    "as": [
-     "道馆",
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     36
-    ],
-    "as": [
-     "水属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     38,
-     44
-    ],
-    "as": [
-     "命名",
-     "取名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     38
-    ],
-    "as": [
-     "沿用"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     40
-    ],
-    "as": [
-     "服务器"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     40,
-     44
-    ],
-    "as": [
-     "交换宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     41
-    ],
-    "as": [
-     "吃惊"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     43,
-     44
-    ],
-    "as": [
-     "海外版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     56
-    ],
-    "as": [
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     57,
-     66
-    ],
-    "as": [
-     "新主机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     60
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     60
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     63
-    ],
-    "as": [
-     "带出门"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "wireless",
-    "name": "无线与擦肩",
-    "facet": "tech",
-    "seg": [
-     63
-    ],
-    "as": [
-     "无线通信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     68
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     68
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 24,
-   "text": "物理与特殊攻击不再按属性划分，改为按招式分别分类",
-   "anchor": 25
+  "id": "interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+  "stem": "2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 72
   },
-  {
-   "seg": 36,
-   "text": "增田推荐水属性波加曼，因首个道馆馆主是岩石属性",
-   "anchor": 37
-  }
- ],
- "relations": [
-  {
-   "id": "interview-nom-dp-ishihara-masuda-sugimori",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）",
-   "url": "//interview-nom-dp-ishihara-masuda-sugimori/",
-   "why": "同为2006年NOM对钻石珍珠主创的专访"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "喷火龙",
+        "ndex": 6,
+        "seg": [
+          46
+        ],
+        "as": [
+          "喷火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          46
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "波加曼",
+        "ndex": 393,
+        "seg": [
+          36
+        ],
+        "as": [
+          "波加曼"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "超梦",
+        "ndex": 150,
+        "seg": [
+          46
+        ],
+        "as": [
+          "超梦"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          0,
+          7,
+          8
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦对战革命",
+        "slug": "battle-revolution",
+        "seg": [
+          58
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 绿宝石",
+        "slug": "emerald",
+        "seg": [
+          17
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "锻炼大脑的成年人的DS训练",
+        "slug": null,
+        "seg": [
+          31
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "New超级马力欧兄弟",
+        "slug": null,
+        "seg": [
+          50
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "N.O.M采访者",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          1,
+          6,
+          8,
+          11,
+          13,
+          16
+        ]
+      },
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          2,
+          14,
+          20,
+          22,
+          35,
+          38
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          3,
+          5,
+          10,
+          15,
+          18,
+          24
+        ]
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          4,
+          7,
+          9,
+          12,
+          17,
+          31
+        ]
+      },
+      {
+        "name": "岩田",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "田尻",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          52
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          2
+        ],
+        "as": [
+          "画风"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          2
+        ],
+        "as": [
+          "宝可梦的设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          8,
+          35,
+          52
+        ],
+        "as": [
+          "主题是",
+          "大主题"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          10
+        ],
+        "as": [
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          10,
+          68,
+          70
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          20,
+          40
+        ],
+        "as": [
+          "升级"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          22
+        ],
+        "as": [
+          "建模"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          26
+        ],
+        "as": [
+          "整体平衡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          27,
+          58
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          29,
+          31
+        ],
+        "as": [
+          "第一次接触"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          35
+        ],
+        "as": [
+          "反复推敲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          36,
+          66
+        ],
+        "as": [
+          "道馆",
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          36
+        ],
+        "as": [
+          "水属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          38,
+          44
+        ],
+        "as": [
+          "命名",
+          "取名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          38
+        ],
+        "as": [
+          "沿用"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          40
+        ],
+        "as": [
+          "服务器"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          40,
+          44
+        ],
+        "as": [
+          "交换宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          41
+        ],
+        "as": [
+          "吃惊"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "overseas",
+        "name": "海外发行",
+        "facet": "business",
+        "seg": [
+          43,
+          44
+        ],
+        "as": [
+          "海外版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          56
+        ],
+        "as": [
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          57,
+          66
+        ],
+        "as": [
+          "新主机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          60
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          60
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          63
+        ],
+        "as": [
+          "带出门"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "wireless",
+        "name": "无线与擦肩",
+        "facet": "tech",
+        "seg": [
+          63
+        ],
+        "as": [
+          "无线通信"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          68
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          68
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-nintendo-power-masuda-gens-1-4",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/",
-   "why": "增田回顾钻石珍珠以终极为主题及GTS"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 24,
+      "text": "物理与特殊攻击不再按属性划分，改为按招式分别分类",
+      "anchor": 25
+    },
+    {
+      "seg": 36,
+      "text": "增田推荐水属性波加曼，因首个道馆馆主是岩石属性",
+      "anchor": 37
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-nom-dp-ishihara-masuda-sugimori",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）",
+      "url": "//interview-nom-dp-ishihara-masuda-sugimori/",
+      "why": "同为2006年NOM对钻石珍珠主创的专访"
+    },
+    {
+      "id": "interview-nintendo-power-masuda-gens-1-4",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-nintendo-power-masuda-gens-1-4/",
+      "why": "增田回顾钻石珍珠以终极为主题及GTS"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

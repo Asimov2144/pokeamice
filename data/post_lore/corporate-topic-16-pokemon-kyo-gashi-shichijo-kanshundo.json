@@ -1,276 +1,267 @@
 {
- "id": "corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
- "stem": "2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 38
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     27
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "ピッピ",
-    "ndex": 35,
-    "seg": [
-     28,
-     27
-    ],
-    "as": [
-     "ピッピ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "冰鬼护",
-    "ndex": 362,
-    "seg": [
-     29,
-     31
-    ],
-    "as": [
-     "冰鬼护",
-     "オニゴーリ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "オドリドリ",
-    "ndex": 741,
-    "seg": [
-     19
-    ],
-    "as": [
-     "オドリドリ"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [],
-  "places": [
-   {
-    "name": "七条甘春堂",
-    "id": "venue_7b8b1e88a1",
-    "entity": null,
-    "category": "venue",
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2,
-     5,
-     7,
-     8,
-     10,
-     30
-    ],
-    "via": "gazetteer"
-   },
-   {
-    "name": "七条甘春堂总店",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     6
-    ],
-    "what": "和菓子老字号总店",
-    "via": "llm"
-   },
-   {
-    "name": "京都市東山区七条",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     6
-    ],
-    "what": "总店所在地",
-    "via": "llm"
-   },
-   {
-    "name": "京都",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     2
-    ],
-    "what": "京菓子产地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     5
-    ],
-    "as": [
-     "商品化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     7
-    ],
-    "as": [
-     "集齐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     12,
-     18,
-     19
-    ],
-    "as": [
-     "试作",
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     13
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     18
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     19
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     20
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     23
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     33
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     36
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "七条甘春堂是自江户时代起在京都设总店的老字号和菓子店",
-   "anchor": 3
+  "id": "corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
+  "stem": "2024-05-10-corporate-topic-16-pokemon-kyo-gashi-shichijo-kanshundo",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 38
   },
-  {
-   "seg": 3,
-   "text": "京菓子分上生菓子、半生菓子、干菓子等种类",
-   "anchor": 4
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          27
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "ピッピ",
+        "ndex": 35,
+        "seg": [
+          28,
+          27
+        ],
+        "as": [
+          "ピッピ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "冰鬼护",
+        "ndex": 362,
+        "seg": [
+          29,
+          31
+        ],
+        "as": [
+          "冰鬼护",
+          "オニゴーリ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "オドリドリ",
+        "ndex": 741,
+        "seg": [
+          19
+        ],
+        "as": [
+          "オドリドリ"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [],
+    "people": [],
+    "places": [
+      {
+        "name": "七条甘春堂",
+        "id": "venue_7b8b1e88a1",
+        "entity": null,
+        "category": "venue",
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          2,
+          5,
+          7,
+          8,
+          10,
+          30
+        ],
+        "via": "gazetteer"
+      },
+      {
+        "name": "七条甘春堂总店",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          6
+        ],
+        "what": "和菓子老字号总店",
+        "via": "llm"
+      },
+      {
+        "name": "京都市東山区七条",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          6
+        ],
+        "what": "总店所在地",
+        "via": "llm"
+      },
+      {
+        "name": "京都",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          2
+        ],
+        "what": "京菓子产地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          5
+        ],
+        "as": [
+          "商品化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          7
+        ],
+        "as": [
+          "集齐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          12,
+          18,
+          19
+        ],
+        "as": [
+          "试作",
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          13
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          18
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          19
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          20
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          23
+        ],
+        "as": [
+          "协作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          33
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          36
+        ],
+        "as": [
+          "家庭"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 2,
+      "text": "七条甘春堂是自江户时代起在京都设总店的老字号和菓子店",
+      "anchor": 3
+    },
+    {
+      "seg": 3,
+      "text": "京菓子分上生菓子、半生菓子、干菓子等种类",
+      "anchor": 4
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

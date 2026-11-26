@@ -1,250 +1,256 @@
 {
- "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
- "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 47
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦竞技场",
-    "slug": "stadium",
-    "seg": [
-     10,
-     12
+  "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+  "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 47
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦竞技场",
+        "slug": "stadium",
+        "seg": [
+          10,
+          12
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 心金·魂银",
+        "slug": "heartgold-soulsilver",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          2
+        ],
+        "via": "entities"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 心金·魂银",
-    "slug": "heartgold-soulsilver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   }
+    "people": [
+      {
+        "name": "岩田聪",
+        "slug": "iwata-satoru",
+        "role": "speaker",
+        "seg": [
+          0,
+          3,
+          5,
+          7,
+          9,
+          12
+        ]
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          1,
+          6,
+          8,
+          10,
+          21,
+          29
+        ]
+      },
+      {
+        "name": "森本茂树",
+        "slug": "morimoto-shigeki",
+        "role": "speaker",
+        "seg": [
+          2,
+          4,
+          13,
+          15,
+          17,
+          19
+        ]
+      },
+      {
+        "name": "众人",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          16,
+          30
+        ]
+      },
+      {
+        "name": "宫本茂",
+        "slug": "miyamoto-shigeru",
+        "role": "mentioned",
+        "seg": [
+          12
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "田尻",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          32
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "overseas",
+        "name": "海外发行",
+        "facet": "business",
+        "seg": [
+          5,
+          6,
+          9
+        ],
+        "as": [
+          "海外版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "delay",
+        "name": "延期",
+        "facet": "process",
+        "seg": [
+          6
+        ],
+        "as": [
+          "推迟"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "localization",
+        "name": "本地化",
+        "facet": "business",
+        "seg": [
+          9
+        ],
+        "as": [
+          "本地化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          9,
+          19,
+          21
+        ],
+        "as": [
+          "源代码",
+          "代码"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "port",
+        "name": "移植",
+        "facet": "process",
+        "seg": [
+          15
+        ],
+        "as": [
+          "移植"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          34
+        ],
+        "as": [
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          43,
+          45
+        ],
+        "as": [
+          "授权"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 1,
+      "text": "石原恒和说《金·银》发售于1999年11月，花了三年半",
+      "anchor": 2
+    },
+    {
+      "seg": 2,
+      "text": "森本茂树说《金·银》和《赤·绿》时期程序员大约只有4人",
+      "anchor": 3
+    }
   ],
-  "people": [
-   {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "speaker",
-    "seg": [
-     0,
-     3,
-     5,
-     7,
-     9,
-     12
-    ]
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     1,
-     6,
-     8,
-     10,
-     21,
-     29
-    ]
-   },
-   {
-    "name": "森本茂树",
-    "slug": "morimoto-shigeki",
-    "role": "speaker",
-    "seg": [
-     2,
-     4,
-     13,
-     15,
-     17,
-     19
-    ]
-   },
-   {
-    "name": "众人",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     16,
-     30
-    ]
-   },
-   {
-    "name": "宫本茂",
-    "slug": "miyamoto-shigeru",
-    "role": "mentioned",
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "田尻",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     32
-    ],
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
+      "why": "同为社长问心金魂银系列，第1章"
+    },
+    {
+      "id": "interview-iwata-asks-hgss-chapter-2-portable-toy-king",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦 心金·魂银》第2章：岩田聪 × 石原恒和——“便携玩具之王”与跳出卡带的宝可梦生态",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-2-portable-toy-king/",
+      "why": "同为社长问心金魂银系列，第2章"
+    },
+    {
+      "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
+      "why": "同为社长问心金魂银系列，第4章"
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     5,
-     6,
-     9
-    ],
-    "as": [
-     "海外版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "delay",
-    "name": "延期",
-    "facet": "process",
-    "seg": [
-     6
-    ],
-    "as": [
-     "推迟"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "localization",
-    "name": "本地化",
-    "facet": "business",
-    "seg": [
-     9
-    ],
-    "as": [
-     "本地化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     9,
-     19,
-     21
-    ],
-    "as": [
-     "源代码",
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "port",
-    "name": "移植",
-    "facet": "process",
-    "seg": [
-     15
-    ],
-    "as": [
-     "移植"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     34
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     43,
-     45
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "石原恒和说《金·银》发售于1999年11月，花了三年半",
-   "anchor": 2
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 2,
-   "text": "森本茂树说《金·银》和《赤·绿》时期程序员大约只有4人",
-   "anchor": 3
-  }
- ],
- "relations": [
-  {
-   "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
-   "why": "同为社长问心金魂银系列，第1章"
-  },
-  {
-   "id": "interview-iwata-asks-hgss-chapter-2-portable-toy-king",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦 心金·魂银》第2章：岩田聪 × 石原恒和——“便携玩具之王”与跳出卡带的宝可梦生态",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-2-portable-toy-king/",
-   "why": "同为社长问心金魂银系列，第2章"
-  },
-  {
-   "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
-   "why": "同为社长问心金魂银系列，第4章"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

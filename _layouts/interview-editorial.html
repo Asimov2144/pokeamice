@@ -304,6 +304,8 @@ kept on the turns even though the presentation around them is new.
 
     {% if is_technical %}
       {% include interview-body-technical.html %}
+    {% elsif is_scan and page.scan_layout == "field_guide" %}
+      {% include interview-body-field-guide.html %}
     {% elsif is_scan %}
       {% include interview-body-scan.html %}
     {% else %}
@@ -467,6 +469,10 @@ kept on the turns even though the presentation around them is new.
     {% endif %}
     {% if content != "" and items.size > 0 %}
       <aside class="ed-epilogue parallel-translation__note">{{ content }}</aside>
+    {% endif %}
+
+    {% if page.source_appendix %}
+      {% include source-appendix.html key=page.source_appendix %}
     {% endif %}
 
     {%- comment -%} What this piece names, and what it is tied to: the same index the App's dex machine reads. {%- endcomment -%}

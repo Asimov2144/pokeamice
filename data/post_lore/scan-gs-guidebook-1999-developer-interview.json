@@ -1,545 +1,538 @@
 {
- "id": "scan-gs-guidebook-1999-developer-interview",
- "stem": "1999-12-01-scan-gs-guidebook-1999-developer-interview",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 110
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "烈雀",
-    "ndex": 21,
-    "seg": [
-     23
-    ],
-    "as": [
-     "烈雀"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     17,
-     30,
-     31
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮皮",
-    "ndex": 35,
-    "seg": [
-     95,
-     96
-    ],
-    "as": [
-     "皮皮"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "暴鲤龙",
-    "ndex": 130,
-    "seg": [
-     91
-    ],
-    "as": [
-     "暴鲤龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "梦幻",
-    "ndex": 151,
-    "seg": [
-     65,
-     66,
-     67,
-     69,
-     70
-    ],
-    "as": [
-     "梦幻"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "火球鼠",
-    "ndex": 155,
-    "seg": [
-     33
-    ],
-    "as": [
-     "火球鼠"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "未知图腾",
-    "ndex": 201,
-    "seg": [
-     99,
-     101,
-     104,
-     108
-    ],
-    "as": [
-     "未知图腾"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "麒麟奇",
-    "ndex": 203,
-    "seg": [
-     32
-    ],
-    "as": [
-     "麒麟奇"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "巨翅飞鱼",
-    "ndex": 226,
-    "seg": [
-     33
-    ],
-    "as": [
-     "巨翅飞鱼"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "雷公",
-    "ndex": 243,
-    "seg": [
-     82,
-     90
-    ],
-    "as": [
-     "雷公"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "炎帝",
-    "ndex": 244,
-    "seg": [
-     82,
-     84
-    ],
-    "as": [
-     "炎帝"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "水君",
-    "ndex": 245,
-    "seg": [
-     82
-    ],
-    "as": [
-     "水君"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "洛奇亚",
-    "ndex": 249,
-    "seg": [
-     73
-    ],
-    "as": [
-     "洛奇亚"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "凤王",
-    "ndex": 250,
-    "seg": [
-     73
-    ],
-    "as": [
-     "凤王"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     1
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "红·绿·蓝·皮卡丘版",
-    "slug": null,
-    "seg": [
-     17
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "红·绿·蓝版",
-    "slug": null,
-    "seg": [
-     29
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     4,
-     31,
-     33,
-     43,
-     51,
-     57
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     9,
-     11,
-     13,
-     20,
-     26,
-     36
-    ]
-   },
-   {
-    "name": "森本茂树",
-    "slug": "morimoto-shigeki",
-    "role": "speaker",
-    "seg": [
-     10,
-     18,
-     28,
-     37,
-     39,
-     41
-    ]
-   },
-   {
-    "name": "西野弘二",
-    "slug": "nishino-koji",
-    "role": "speaker",
-    "seg": [
-     17,
-     22,
-     29,
-     45,
-     97,
-     106
-    ]
-   },
-   {
-    "name": "大木博士",
-    "slug": "da-mu-bo-shi",
-    "role": "mentioned",
-    "seg": [
-     62
-    ],
-    "via": "llm",
-    "kind": "character"
-   }
-  ],
-  "places": [
-   {
-    "name": "栎树林",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     73
-    ],
-    "what": "有神社的森林",
-    "via": "llm"
-   },
-   {
-    "name": "烧焦塔",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     85
-    ],
-    "what": "三兽逃出处",
-    "via": "llm"
-   },
-   {
-    "name": "月见山",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     97
-    ],
-    "what": "西野找皮皮处",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     4
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     5
-    ],
-    "as": [
-     "数据管理"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "开发期间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     10
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     13,
-     16
-    ],
-    "as": [
-     "神秘礼物"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     17
-    ],
-    "as": [
-     "通信交换"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     20,
-     69
-    ],
-    "as": [
-     "卡带"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "motion",
-    "name": "动作设计",
-    "facet": "art",
-    "seg": [
-     33
-    ],
-    "as": [
-     "动画表现"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     36
-    ],
-    "as": [
-     "编写程序"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     46,
-     59
-    ],
-    "as": [
-     "新鲜感",
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     64,
-     93,
-     100
-    ],
-    "as": [
-     "集齐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     64
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     73
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mystery",
-    "name": "神秘感",
-    "facet": "design",
-    "seg": [
-     78
-    ],
-    "as": [
-     "神秘的"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [],
-    "as": [
-     "通信功能"
-    ],
-    "via": "tag"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [],
-    "as": [
-     "攻略本"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 10,
-   "text": "森本称清除战斗招式bug花了半年多"
+  "id": "scan-gs-guidebook-1999-developer-interview",
+  "stem": "1999-12-01-scan-gs-guidebook-1999-developer-interview",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 110
   },
-  {
-   "seg": 39,
-   "text": "「守住」第1次100%，第2次起成功率逐渐下降"
-  }
- ],
- "relations": [
-  {
-   "id": "interview-nom-gold-silver-gamefreak",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
-   "url": "/developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/",
-   "why": "同为金·银开发访谈，森本茂树等受访"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "烈雀",
+        "ndex": 21,
+        "seg": [
+          23
+        ],
+        "as": [
+          "烈雀"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          17,
+          30,
+          31
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮皮",
+        "ndex": 35,
+        "seg": [
+          95,
+          96
+        ],
+        "as": [
+          "皮皮"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "暴鲤龙",
+        "ndex": 130,
+        "seg": [
+          91
+        ],
+        "as": [
+          "暴鲤龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "梦幻",
+        "ndex": 151,
+        "seg": [
+          65,
+          66,
+          67,
+          69,
+          70
+        ],
+        "as": [
+          "梦幻"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "火球鼠",
+        "ndex": 155,
+        "seg": [
+          33
+        ],
+        "as": [
+          "火球鼠"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "未知图腾",
+        "ndex": 201,
+        "seg": [
+          99,
+          101,
+          104,
+          108
+        ],
+        "as": [
+          "未知图腾"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "麒麟奇",
+        "ndex": 203,
+        "seg": [
+          32
+        ],
+        "as": [
+          "麒麟奇"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "巨翅飞鱼",
+        "ndex": 226,
+        "seg": [
+          33
+        ],
+        "as": [
+          "巨翅飞鱼"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "雷公",
+        "ndex": 243,
+        "seg": [
+          82,
+          90
+        ],
+        "as": [
+          "雷公"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "炎帝",
+        "ndex": 244,
+        "seg": [
+          82,
+          84
+        ],
+        "as": [
+          "炎帝"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "水君",
+        "ndex": 245,
+        "seg": [
+          82
+        ],
+        "as": [
+          "水君"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "洛奇亚",
+        "ndex": 249,
+        "seg": [
+          73
+        ],
+        "as": [
+          "洛奇亚"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "凤王",
+        "ndex": 250,
+        "seg": [
+          73
+        ],
+        "as": [
+          "凤王"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          1
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          17,
+          29
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          4,
+          31,
+          33,
+          43,
+          51,
+          57
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          9,
+          11,
+          13,
+          20,
+          26,
+          36
+        ]
+      },
+      {
+        "name": "森本茂树",
+        "slug": "morimoto-shigeki",
+        "role": "speaker",
+        "seg": [
+          10,
+          18,
+          28,
+          37,
+          39,
+          41
+        ]
+      },
+      {
+        "name": "西野弘二",
+        "slug": "nishino-koji",
+        "role": "speaker",
+        "seg": [
+          17,
+          22,
+          29,
+          45,
+          97,
+          106
+        ]
+      },
+      {
+        "name": "大木博士",
+        "slug": "da-mu-bo-shi",
+        "role": "mentioned",
+        "seg": [
+          62
+        ],
+        "via": "llm",
+        "kind": "character"
+      }
+    ],
+    "places": [
+      {
+        "name": "栎树林",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          73
+        ],
+        "what": "有神社的森林",
+        "via": "llm"
+      },
+      {
+        "name": "烧焦塔",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          85
+        ],
+        "what": "三兽逃出处",
+        "via": "llm"
+      },
+      {
+        "name": "月见山",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          97
+        ],
+        "what": "西野找皮皮处",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          4
+        ],
+        "as": [
+          "角色设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "data-management",
+        "name": "数据与存档",
+        "facet": "tech",
+        "seg": [
+          5
+        ],
+        "as": [
+          "数据管理"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          10
+        ],
+        "as": [
+          "开发期间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          10
+        ],
+        "as": [
+          "新硬件"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          13,
+          16
+        ],
+        "as": [
+          "神秘礼物"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          17
+        ],
+        "as": [
+          "通信交换"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          20,
+          69
+        ],
+        "as": [
+          "卡带"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "motion",
+        "name": "动作设计",
+        "facet": "art",
+        "seg": [
+          33
+        ],
+        "as": [
+          "动画表现"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          36
+        ],
+        "as": [
+          "编写程序"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          46,
+          59
+        ],
+        "as": [
+          "新鲜感",
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          64,
+          93,
+          100
+        ],
+        "as": [
+          "集齐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          64
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          73
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mystery",
+        "name": "神秘感",
+        "facet": "design",
+        "seg": [
+          78
+        ],
+        "as": [
+          "神秘的"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [],
+        "as": [
+          "通信功能"
+        ],
+        "via": "tag"
+      },
+      {
+        "id": "guides",
+        "name": "攻略文化",
+        "facet": "audience",
+        "seg": [],
+        "as": [
+          "攻略本"
+        ],
+        "via": "tag"
+      }
+    ]
   },
-  {
-   "id": "interview-nintendopower-gold-silver-roundtable",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
-   "url": "/developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/",
-   "why": "同为金·银开发访谈，森本茂树受访"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "observations": [
+    {
+      "seg": 10,
+      "text": "森本称清除战斗招式bug花了半年多"
+    },
+    {
+      "seg": 39,
+      "text": "「守住」第1次100%，第2次起成功率逐渐下降"
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-nom-gold-silver-gamefreak",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+      "url": "/developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/",
+      "why": "同为金·银开发访谈，森本茂树等受访"
+    },
+    {
+      "id": "interview-nintendopower-gold-silver-roundtable",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+      "url": "/developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/",
+      "why": "同为金·银开发访谈，森本茂树受访"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
+  },
+  "edited": true
 }

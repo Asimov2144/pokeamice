@@ -1,246 +1,254 @@
 {
- "id": "gamefreak-staff-145",
- "stem": "2009-09-25-gamefreak-staff-145",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 116
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 心金·魂银",
-    "slug": "heartgold-soulsilver",
-    "seg": [
-     2
+  "id": "gamefreak-staff-145",
+  "stem": "2009-09-25-gamefreak-staff-145",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 116
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 心金·魂银",
+        "slug": "heartgold-soulsilver",
+        "seg": [
+          2
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          14,
+          23
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 白金",
+        "slug": "platinum",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          31
+        ],
+        "via": "entities"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠·白金",
-    "slug": null,
-    "seg": [
-     14,
-     23
+    "people": [
+      {
+        "name": "森本",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          1,
+          84,
+          85,
+          93
+        ]
+      },
+      {
+        "name": "森",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          5
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "森本",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     1,
-     84,
-     85,
-     93
+    "places": [],
+    "concepts": [
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          10
+        ],
+        "as": [
+          "美术设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          10,
+          18,
+          68
+        ],
+        "as": [
+          "画面上",
+          "グラフィック"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          11,
+          69
+        ],
+        "as": [
+          "音效设计",
+          "サウンド"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          16,
+          18,
+          21
+        ],
+        "as": [
+          "菜单"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          27,
+          28
+        ],
+        "as": [
+          "怀旧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          27
+        ],
+        "as": [
+          "主题是"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          38
+        ],
+        "as": [
+          "第一次接触"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          64,
+          66,
+          78
+        ],
+        "as": [
+          "プログラム"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          86
+        ],
+        "as": [
+          "リメイク"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "data-management",
+        "name": "数据与存档",
+        "facet": "tech",
+        "seg": [
+          116
+        ],
+        "as": [
+          "存档"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "森",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   }
+  },
+  "observations": [
+    {
+      "seg": 16,
+      "text": "按下X按钮打开的菜单从上屏移到下屏"
+    },
+    {
+      "seg": 27,
+      "text": "总监森本提出的主题是怀旧而又新鲜"
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     10
-    ],
-    "as": [
-     "美术设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     10,
-     18,
-     68
-    ],
-    "as": [
-     "画面上",
-     "グラフィック"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     11,
-     69
-    ],
-    "as": [
-     "音效设计",
-     "サウンド"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     16,
-     18,
-     21
-    ],
-    "as": [
-     "菜单"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     27,
-     28
-    ],
-    "as": [
-     "怀旧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     27
-    ],
-    "as": [
-     "主题是"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     38
-    ],
-    "as": [
-     "第一次接触"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     64,
-     66,
-     78
-    ],
-    "as": [
-     "プログラム"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     86
-    ],
-    "as": [
-     "リメイク"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "data-management",
-    "name": "数据与存档",
-    "facet": "tech",
-    "seg": [
-     116
-    ],
-    "as": [
-     "存档"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 16,
-   "text": "按下X按钮打开的菜单从上屏移到下屏"
+  "relations": [
+    {
+      "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
+      "why": "森本茂树任心金魂银总监，同作访谈"
+    },
+    {
+      "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
+      "why": "同为心金魂银社长问系列，谈同作开发"
+    },
+    {
+      "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
+      "why": "同为心金魂银社长问系列，谈同作开发"
+    },
+    {
+      "id": "interview-dengeki-hgss-shigeki-morimoto",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛",
+      "url": "/developer-interviews/official-archives/interview-dengeki-hgss-shigeki-morimoto/",
+      "why": "同为心金魂银发售期森本谈重制开发"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 27,
-   "text": "总监森本提出的主题是怀旧而又新鲜"
-  }
- ],
- "relations": [
-  {
-   "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
-   "why": "森本茂树任心金魂银总监，同作访谈"
-  },
-  {
-   "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
-   "why": "同为心金魂银社长问系列，谈同作开发"
-  },
-  {
-   "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-4-pokewalker-493-following/",
-   "why": "同为心金魂银社长问系列，谈同作开发"
-  },
-  {
-   "id": "interview-dengeki-hgss-shigeki-morimoto",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛",
-   "url": "/developer-interviews/official-archives/interview-dengeki-hgss-shigeki-morimoto/",
-   "why": "同为心金魂银发售期森本谈重制开发"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

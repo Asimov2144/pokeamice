@@ -1,190 +1,190 @@
 {
- "id": "interview-denfami-2026-cedec-pokerig",
- "stem": "2026-07-23-interview-denfami-2026-cedec-pokerig",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 54
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "Pokémon LEGENDS Z-A",
-    "slug": "legends-za",
-    "seg": [
-     0,
-     2
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 X・Y",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "Alfredo Spadafina",
-    "slug": "alfredo-spadafina",
-    "role": "mentioned",
-    "seg": [
-     2
-    ]
-   },
-   {
-    "name": "前泽圭一",
-    "slug": "maezawa-keiichi",
-    "role": "mentioned",
-    "seg": [
-     2
-    ]
-   },
-   {
-    "name": "赤木达也",
-    "slug": "chi-mu-da-ye-2",
-    "role": "mentioned",
-    "seg": [
-     2
-    ]
-   }
-  ],
-  "places": [
-   {
-    "name": "棱镜塔",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     27
-    ],
-    "what": "覆盖近半面积的建筑",
-    "via": "llm"
-   },
-   {
-    "name": "密阿雷市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     0
-    ],
-    "what": "本作舞台城市",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "evolution-design",
-    "name": "进化的设计",
-    "facet": "design",
-    "seg": [
-     0,
-     2,
-     34,
-     53
-    ],
-    "as": [
-     "超级进化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     1
-    ],
-    "as": [
-     "大自然"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     7
-    ],
-    "as": [
-     "3D模型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     46
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "version-pair",
-    "name": "两个版本",
-    "facet": "system",
-    "seg": [
-     50
-    ],
-    "as": [
-     "两个版本"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 6,
-   "text": "Spadafina称密阿雷市特征是相同设计建筑大量林立且多被遮挡",
-   "anchor": 7
+  "id": "interview-denfami-2026-cedec-pokerig",
+  "stem": "2026-07-23-interview-denfami-2026-cedec-pokerig",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 54
   },
-  {
-   "seg": 8,
-   "text": "据说《Z-A》是运用InstancedDraw最多的作品",
-   "anchor": 9
-  }
- ],
- "relations": [
-  {
-   "id": "interview-cedec-2026-za-lumiose-rendering-deck",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "《Z-A》密阿雷市渲染技术",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2026-za-lumiose-rendering-deck/",
-   "why": "同为CEDEC2026同一讲演，前泽圭一、Spadafina、赤木达也"
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "Pokémon LEGENDS Z-A",
+        "slug": "legends-za",
+        "seg": [
+          0,
+          2
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "Alfredo Spadafina",
+        "slug": "alfredo-spadafina",
+        "role": "mentioned",
+        "seg": [
+          2
+        ]
+      },
+      {
+        "name": "前泽圭一",
+        "slug": "maezawa-keiichi",
+        "role": "mentioned",
+        "seg": [
+          2
+        ]
+      },
+      {
+        "name": "赤木达也",
+        "slug": "chi-mu-da-ye-2",
+        "role": "mentioned",
+        "seg": [
+          2
+        ]
+      }
+    ],
+    "places": [
+      {
+        "name": "棱镜塔",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          27
+        ],
+        "what": "覆盖近半面积的建筑",
+        "via": "llm"
+      },
+      {
+        "name": "密阿雷市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          0
+        ],
+        "what": "本作舞台城市",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "evolution-design",
+        "name": "进化的设计",
+        "facet": "design",
+        "seg": [
+          0,
+          2,
+          34,
+          53
+        ],
+        "as": [
+          "超级进化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          1
+        ],
+        "as": [
+          "大自然"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          7
+        ],
+        "as": [
+          "3D模型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          46
+        ],
+        "as": [
+          "新硬件"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "version-pair",
+        "name": "两个版本",
+        "facet": "system",
+        "seg": [
+          50
+        ],
+        "as": [
+          "两个版本"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-cgworld-2026-cedec-pkmnza",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "密阿雷市如何被画出来",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2026-cedec-pkmnza/",
-   "why": "同为CEDEC2026同一讲演，三人登台讲密阿雷市渲染"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 6,
+      "text": "Spadafina称密阿雷市特征是相同设计建筑大量林立且多被遮挡",
+      "anchor": 7
+    },
+    {
+      "seg": 8,
+      "text": "据说《Z-A》是运用InstancedDraw最多的作品",
+      "anchor": 9
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-cedec-2026-za-lumiose-rendering-deck",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "《Z-A》密阿雷市渲染技术",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2026-za-lumiose-rendering-deck/",
+      "why": "同为CEDEC2026同一讲演，前泽圭一、Spadafina、赤木达也"
+    },
+    {
+      "id": "interview-cgworld-2026-cedec-pkmnza",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "密阿雷市如何被画出来",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2026-cedec-pkmnza/",
+      "why": "同为CEDEC2026同一讲演，三人登台讲密阿雷市渲染"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

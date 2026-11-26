@@ -2,11 +2,11 @@
  "id": "interview-game-informer-creators-on-pokemon-anime",
  "stem": "2017-08-17-interview-game-informer-creators-on-pokemon-anime",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-26",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 18
+  "n": 17
  },
  "facets": {
   "pokemon": [
@@ -27,17 +27,6 @@
     "via": "tag"
    },
    {
-    "name": "超梦",
-    "ndex": 150,
-    "seg": [
-     16
-    ],
-    "as": [
-     "Mewtwo"
-    ],
-    "via": "body"
-   },
-   {
     "name": "伽勒尔喵喵",
     "ndex": 52,
     "seg": [
@@ -53,41 +42,29 @@
    {
     "name": "宝可梦 红·绿",
     "slug": "red-green",
-    "seg": [],
+    "seg": [
+     2
+    ],
     "via": "entities"
    },
    {
     "name": "宝可梦 皮卡丘版",
     "slug": "yellow",
-    "seg": [],
+    "seg": [
+     0
+    ],
     "via": "entities"
    },
    {
-    "name": "宝可梦 红／蓝",
-    "slug": null,
+    "name": "宝可梦 红·蓝",
+    "slug": "red-blue",
     "seg": [
      2
     ],
     "via": "llm"
    },
    {
-    "name": "宝可梦 红／绿",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 剧场版：超梦的逆袭",
-    "slug": null,
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "玩具总动员2",
+    "name": "超梦的逆袭",
     "slug": null,
     "seg": [
      16
@@ -185,19 +162,6 @@
   ],
   "concepts": [
    {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     0,
-     2
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
     "id": "media-mix",
     "name": "媒体展开",
     "facet": "business",
@@ -222,20 +186,6 @@
     "via": "body"
    },
    {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     2,
-     6,
-     13
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
     "id": "children",
     "name": "儿童玩家",
     "facet": "audience",
@@ -248,18 +198,6 @@
     "via": "body"
    },
    {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     8
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
     "id": "voice",
     "name": "配音",
     "facet": "audio",
@@ -268,30 +206,6 @@
     ],
     "as": [
      "声优"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     11
-    ],
-    "as": [
-     "反派"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     11
-    ],
-    "as": [
-     "编剧"
     ],
     "via": "body"
    },
@@ -319,6 +233,16 @@
      "玩具"
     ],
     "via": "body"
+   },
+   {
+    "id": "generations",
+    "name": "世代与代际",
+    "facet": "franchise",
+    "seg": [],
+    "as": [
+     "初代"
+    ],
+    "via": "title"
    }
   ]
  },
@@ -347,8 +271,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

@@ -1,303 +1,287 @@
 {
- "id": "interview-gamefreak-crosstalk-planner",
- "stem": "2021-12-27-interview-gamefreak-crosstalk-planner",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 21
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 剑·盾",
-    "slug": "sword-shield",
-    "seg": [
-     2
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "Pokémon HOME",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 剑·盾 扩展票（铠之孤岛 / 冠之雪原）",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "K.F.",
-    "slug": "k-f",
-    "role": "speaker",
-    "seg": [
-     4,
-     6,
-     8,
-     11,
-     13,
-     15
-    ]
-   },
-   {
-    "name": "谷博行",
-    "slug": "gu-bo-xing",
-    "role": "speaker",
-    "seg": [
-     5,
-     7,
-     10,
-     12,
-     16,
-     18
-    ]
-   },
-   {
-    "name": "H.T.",
-    "slug": "h-t",
-    "role": "mentioned",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Hiroyuki Tani",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     5
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     5,
-     9,
-     12
-    ],
-    "as": [
-     "完成度",
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     6,
-     17,
-     18
-    ],
-    "as": [
-     "入社",
-     "入职",
-     "进公司"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     6
-    ],
-    "as": [
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     6,
-     17
-    ],
-    "as": [
-     "新人",
-     "应届"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     6,
-     13
-    ],
-    "as": [
-     "公司内部",
-     "办公室"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     9
-    ],
-    "as": [
-     "开发环境"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     10
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-freedom",
-    "name": "玩家的自由",
-    "facet": "design",
-    "seg": [
-     10
-    ],
-    "as": [
-     "自由度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     10,
-     17
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     11
-    ],
-    "as": [
-     "面对面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     12
-    ],
-    "as": [
-     "随机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     13
-    ],
-    "as": [
-     "远程"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "K.F.兼任开发一部总监及《Pokémon HOME》总监",
-   "anchor": 4
+  "id": "interview-gamefreak-crosstalk-planner",
+  "stem": "2021-12-27-interview-gamefreak-crosstalk-planner",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 21
   },
-  {
-   "seg": 2,
-   "text": "谷博行担纲《宝可梦 剑·盾 扩展票》总监",
-   "anchor": 6
-  }
- ],
- "relations": [
-  {
-   "id": "interview-gamefreak-recruit-planner-kf",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "颠覆世界的机遇，往往隐匿在意料之外的角落。",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planner-kf/",
-   "why": "同日同系列对谈，K.F.谈《Pokémon HOME》"
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [
+          2
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "Pokémon HOME",
+        "slug": null,
+        "seg": [
+          1
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "K.F.",
+        "slug": "k-f",
+        "role": "speaker",
+        "seg": [
+          4,
+          6,
+          8,
+          11,
+          13,
+          15
+        ]
+      },
+      {
+        "name": "谷博行",
+        "slug": "gu-bo-xing",
+        "role": "speaker",
+        "seg": [
+          5,
+          7,
+          10,
+          12,
+          16,
+          18
+        ]
+      },
+      {
+        "name": "H.T.",
+        "slug": "h-t",
+        "role": "mentioned",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Hiroyuki Tani",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          5
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          5,
+          9,
+          12
+        ],
+        "as": [
+          "完成度",
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          6,
+          17,
+          18
+        ],
+        "as": [
+          "入社",
+          "入职",
+          "进公司"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          6
+        ],
+        "as": [
+          "关卡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          6,
+          17
+        ],
+        "as": [
+          "新人",
+          "应届"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          6,
+          13
+        ],
+        "as": [
+          "公司内部",
+          "办公室"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          9
+        ],
+        "as": [
+          "开发环境"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          10
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-freedom",
+        "name": "玩家的自由",
+        "facet": "design",
+        "seg": [
+          10
+        ],
+        "as": [
+          "自由度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          10,
+          17
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          11
+        ],
+        "as": [
+          "面对面"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          12
+        ],
+        "as": [
+          "随机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          13
+        ],
+        "as": [
+          "远程"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-gamefreak-crosstalk-designer",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
-   "why": "同日同系列对谈，大森滋×H.T.设计师篇"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 1,
+      "text": "K.F.兼任开发一部总监及《Pokémon HOME》总监",
+      "anchor": 4
+    },
+    {
+      "seg": 2,
+      "text": "谷博行担纲《宝可梦 剑·盾 扩展票》总监",
+      "anchor": 6
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-gamefreak-recruit-planner-kf",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "颠覆世界的机遇，往往隐匿在意料之外的角落。",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planner-kf/",
+      "why": "同日同系列对谈，K.F.谈《Pokémon HOME》"
+    },
+    {
+      "id": "interview-gamefreak-crosstalk-designer",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
+      "why": "同日同系列对谈，大森滋×H.T.设计师篇"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

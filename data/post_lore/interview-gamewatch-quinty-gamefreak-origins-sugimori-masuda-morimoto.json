@@ -1,562 +1,562 @@
 {
- "id": "interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
- "stem": "2014-07-02-interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 120
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     117
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "旋转方块",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "超级马力欧兄弟",
-    "slug": null,
-    "seg": [
-     101
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "铁板阵",
-    "slug": null,
-    "seg": [
-     49
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "迷宫塔",
-    "slug": null,
-    "seg": [
-     82
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Mappy",
-    "slug": null,
-    "seg": [
-     82
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     9,
-     12,
-     14,
-     16,
-     21,
-     28
-    ]
-   },
-   {
-    "name": "提问",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     10,
-     17,
-     22,
-     24,
-     27,
-     29
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     11,
-     13,
-     15,
-     18,
-     23,
-     25
-    ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "森本茂树",
-    "slug": "morimoto-shigeki",
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "船津稔",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     119
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "爱媛县",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     58
-    ],
-    "what": "程序员团队所在地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     1
-    ],
-    "as": [
-     "配信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     2,
-     28,
-     55,
-     57,
-     58,
-     82
-    ],
-    "as": [
-     "同人志"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     2
-    ],
-    "as": [
-     "商品化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     3,
-     82,
-     112
-    ],
-    "as": [
-     "关卡",
-     "迷宫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     4
-    ],
-    "as": [
-     "重制版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     10,
-     28,
-     57,
-     86
-    ],
-    "as": [
-     "各自负责",
-     "一起做"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     11,
-     86,
-     87,
-     88,
-     89
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     11
-    ],
-    "as": [
-     "和音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     19
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     19,
-     21
-    ],
-    "as": [
-     "开发工具",
-     "编辑器"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     25,
-     26,
-     45,
-     86,
-     87
-    ],
-    "as": [
-     "编程",
-     "汇编"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     26,
-     85
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     26,
-     57
-    ],
-    "as": [
-     "入职",
-     "学生时代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     28
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     33
-    ],
-    "as": [
-     "推翻"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     33
-    ],
-    "as": [
-     "沿用"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     40,
-     73,
-     101,
-     112
-    ],
-    "as": [
-     "卡带",
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     40,
-     41,
-     74,
-     76,
-     79
-    ],
-    "as": [
-     "测试",
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     42
-    ],
-    "as": [
-     "画面上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-freedom",
-    "name": "玩家的自由",
-    "facet": "design",
-    "seg": [
-     54
-    ],
-    "as": [
-     "自由地"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     57
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     69,
-     71,
-     94
-    ],
-    "as": [
-     "像素图",
-     "像素画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     74
-    ],
-    "as": [
-     "难度调整"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     86
-    ],
-    "as": [
-     "BGM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     105
-    ],
-    "as": [
-     "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     115,
-     117
-    ],
-    "as": [
-     "怀旧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     116
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     117
-    ],
-    "as": [
-     "劲敌"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "《旋转方块》7月2日起在Wii U虚拟主机配信，514日元含税",
-   "anchor": 2
+  "id": "interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
+  "stem": "2014-07-02-interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 120
   },
-  {
-   "seg": 2,
-   "text": "《旋转方块》1989年6月发售，GAME FREAK当时是同人志团体",
-   "anchor": 3
-  }
- ],
- "relations": [
-  {
-   "id": "interview-niconico-gamefreak-origins-masuda",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学",
-   "url": "//interview-niconico-gamefreak-origins-masuda/",
-   "why": "同为2014年增田顺一回顾《旋转方块》与自制FC的专访"
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          117
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "旋转方块",
+        "slug": null,
+        "seg": [
+          1
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "超级马力欧兄弟",
+        "slug": null,
+        "seg": [
+          101
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "铁板阵",
+        "slug": null,
+        "seg": [
+          49
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "迷宫塔",
+        "slug": null,
+        "seg": [
+          82
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "猫捉老鼠",
+        "slug": null,
+        "seg": [
+          82
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          9,
+          12,
+          14,
+          16,
+          21,
+          28
+        ]
+      },
+      {
+        "name": "提问",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          10,
+          17,
+          22,
+          24,
+          27,
+          29
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          11,
+          13,
+          15,
+          18,
+          23,
+          25
+        ]
+      },
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "mentioned",
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "森本茂树",
+        "slug": "morimoto-shigeki",
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "船津稔",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          119
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "爱媛县",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          58
+        ],
+        "what": "程序员团队所在地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          1
+        ],
+        "as": [
+          "配信"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "fan-works",
+        "name": "二创与同人",
+        "facet": "audience",
+        "seg": [
+          2,
+          28,
+          55,
+          57,
+          58,
+          82
+        ],
+        "as": [
+          "同人志"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          2
+        ],
+        "as": [
+          "商品化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          3,
+          82,
+          112
+        ],
+        "as": [
+          "关卡",
+          "迷宫"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          4
+        ],
+        "as": [
+          "重制版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          10,
+          28,
+          57,
+          86
+        ],
+        "as": [
+          "各自负责",
+          "一起做"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          11,
+          86,
+          87,
+          88,
+          89
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sound-hardware",
+        "name": "音源与机能",
+        "facet": "audio",
+        "seg": [
+          11
+        ],
+        "as": [
+          "和音"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          19
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          19,
+          21
+        ],
+        "as": [
+          "开发工具",
+          "编辑器"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          25,
+          26,
+          45,
+          86,
+          87
+        ],
+        "as": [
+          "编程",
+          "汇编"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          26,
+          85
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          26,
+          57
+        ],
+        "as": [
+          "入职",
+          "学生时代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          28
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          33
+        ],
+        "as": [
+          "推翻"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          33
+        ],
+        "as": [
+          "沿用"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          40,
+          73,
+          101,
+          112
+        ],
+        "as": [
+          "卡带",
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          40,
+          41,
+          74,
+          76,
+          79
+        ],
+        "as": [
+          "测试",
+          "试玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          42
+        ],
+        "as": [
+          "画面上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-freedom",
+        "name": "玩家的自由",
+        "facet": "design",
+        "seg": [
+          54
+        ],
+        "as": [
+          "自由地"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          57
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pixel-art",
+        "name": "像素画",
+        "facet": "tech",
+        "seg": [
+          69,
+          71,
+          94
+        ],
+        "as": [
+          "像素图",
+          "像素画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          74
+        ],
+        "as": [
+          "难度调整"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          86
+        ],
+        "as": [
+          "BGM"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          105
+        ],
+        "as": [
+          "热潮"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          115,
+          117
+        ],
+        "as": [
+          "怀旧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          116
+        ],
+        "as": [
+          "广告"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          117
+        ],
+        "as": [
+          "劲敌"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-gameatsumaru-masuda-indie-gamefreak-origins",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "增田顺一谈宝可梦与游戏音乐",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameatsumaru-masuda-indie-gamefreak-origins/",
-   "why": "同为2014年增田顺一谈《Quinty》与自制FC的专访"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 1,
+      "text": "《旋转方块》7月2日起在Wii U虚拟主机配信，514日元含税",
+      "anchor": 2
+    },
+    {
+      "seg": 2,
+      "text": "《旋转方块》1989年6月发售，GAME FREAK当时是同人志团体",
+      "anchor": 3
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-niconico-gamefreak-origins-masuda",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学",
+      "url": "//interview-niconico-gamefreak-origins-masuda/",
+      "why": "同为2014年增田顺一回顾《旋转方块》与自制FC的专访"
+    },
+    {
+      "id": "interview-gameatsumaru-masuda-indie-gamefreak-origins",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "增田顺一谈宝可梦与游戏音乐",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameatsumaru-masuda-indie-gamefreak-origins/",
+      "why": "同为2014年增田顺一谈《Quinty》与自制FC的专访"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

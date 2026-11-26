@@ -1,1027 +1,1020 @@
 {
- "id": "scan-davinci-2011-01-masuda-interview",
- "stem": "2010-12-06-scan-davinci-2011-01-masuda-interview",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 74
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     52
+  "id": "scan-davinci-2011-01-masuda-interview",
+  "stem": "2010-12-06-scan-davinci-2011-01-masuda-interview",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 74
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          52
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "比克提尼",
+        "ndex": 494,
+        "seg": [
+          47,
+          59
+        ],
+        "as": [
+          "比克提尼"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "藤藤蛇",
+        "ndex": 495,
+        "seg": [
+          34,
+          35
+        ],
+        "as": [
+          "藤藤蛇"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "君主蛇",
+        "ndex": 497,
+        "seg": [
+          30
+        ],
+        "as": [
+          "君主蛇"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "暖暖猪",
+        "ndex": 498,
+        "seg": [
+          34,
+          35,
+          59
+        ],
+        "as": [
+          "暖暖猪"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "水水獭",
+        "ndex": 501,
+        "seg": [
+          34,
+          35
+        ],
+        "as": [
+          "水水獭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "索罗亚",
+        "ndex": 570,
+        "seg": [
+          42
+        ],
+        "as": [
+          "索罗亚"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "索罗亚克",
+        "ndex": 571,
+        "seg": [
+          41,
+          42
+        ],
+        "as": [
+          "索罗亚克"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "莱希拉姆",
+        "ndex": 643,
+        "seg": [
+          37
+        ],
+        "as": [
+          "莱希拉姆"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "捷克罗姆",
+        "ndex": 644,
+        "seg": [
+          37
+        ],
+        "as": [
+          "捷克罗姆"
+        ],
+        "via": "body"
+      }
     ],
-    "as": [
-     "皮卡丘"
+    "works": [
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          6,
+          10,
+          11,
+          54,
+          58,
+          59
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          10
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          10
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          10
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          10
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 水晶版",
+        "slug": "crystal",
+        "seg": [
+          59
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "剧场版宝可梦 钻石·珍珠 幻影的霸者 索罗亚克",
+        "slug": null,
+        "seg": [
+          41
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 黑·白 官方完全冒险通关指南",
+        "slug": null,
+        "seg": [
+          44
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 黑·白 官方合众图鉴完成指南",
+        "slug": null,
+        "seg": [
+          46
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "任天堂DS 宝可梦 黑·白 超级音乐收藏",
+        "slug": null,
+        "seg": [
+          61
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "游戏与人",
+        "slug": null,
+        "seg": [
+          65,
+          67
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "基业长青——超越时代的生存原则",
+        "slug": null,
+        "seg": [
+          69
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "动机领导力 引领组织的30条原则",
+        "slug": null,
+        "seg": [
+          70
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "史蒂夫·乔布斯 偶像复活",
+        "slug": null,
+        "seg": [
+          72
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "比克提尼",
-    "ndex": 494,
-    "seg": [
-     47,
-     59
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": [
+          4,
+          54,
+          55,
+          58,
+          59,
+          60
+        ]
+      },
+      {
+        "name": "野本由起",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "森荣喜",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          56
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "小智",
+        "slug": "xiao-zhi",
+        "role": "mentioned",
+        "seg": [
+          42
+        ],
+        "via": "llm",
+        "kind": "character"
+      },
+      {
+        "name": "N",
+        "slug": "n",
+        "role": "mentioned",
+        "seg": [
+          37
+        ],
+        "via": "llm",
+        "kind": "character"
+      },
+      {
+        "name": "魁奇思",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          62
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "赫伊津哈",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          65
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "高桥英夫",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          65
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "罗歇·凯卢瓦",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          67
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "多田道太郎",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          67
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "冢崎干夫",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          67
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "詹姆斯·C·柯林斯",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          69
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "杰里·I·波拉斯",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          69
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "山冈洋一",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          69
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "小笹芳央",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          70
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "杰弗里·S·扬",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          72
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "威廉·L·西蒙",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          72
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "井口耕二",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          72
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "史蒂夫·乔布斯",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          72
+        ],
+        "via": "llm"
+      }
     ],
-    "as": [
-     "比克提尼"
+    "places": [
+      {
+        "name": "鹿子镇",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          45
+        ],
+        "what": "冒险起点",
+        "via": "llm"
+      },
+      {
+        "name": "冠军之路",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          45
+        ],
+        "what": "游戏关卡",
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦联盟",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          45
+        ],
+        "what": "游戏关卡",
+        "via": "llm"
+      },
+      {
+        "name": "连入",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          17
+        ],
+        "what": "合众中心的岛屿",
+        "via": "llm"
+      },
+      {
+        "name": "合众地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          37
+        ],
+        "what": "游戏新舞台",
+        "via": "llm"
+      },
+      {
+        "name": "王冠市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          42
+        ],
+        "what": "剧场版舞台",
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "藤藤蛇",
-    "ndex": 495,
-    "seg": [
-     34,
-     35
-    ],
-    "as": [
-     "藤藤蛇"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "君主蛇",
-    "ndex": 497,
-    "seg": [
-     30
-    ],
-    "as": [
-     "君主蛇"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "暖暖猪",
-    "ndex": 498,
-    "seg": [
-     34,
-     35,
-     59
-    ],
-    "as": [
-     "暖暖猪"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "水水獭",
-    "ndex": 501,
-    "seg": [
-     34,
-     35
-    ],
-    "as": [
-     "水水獭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "索罗亚",
-    "ndex": 570,
-    "seg": [
-     42
-    ],
-    "as": [
-     "索罗亚"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "索罗亚克",
-    "ndex": 571,
-    "seg": [
-     41,
-     42
-    ],
-    "as": [
-     "索罗亚克"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "莱希拉姆",
-    "ndex": 643,
-    "seg": [
-     37
-    ],
-    "as": [
-     "莱希拉姆"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "捷克罗姆",
-    "ndex": 644,
-    "seg": [
-     37
-    ],
-    "as": [
-     "捷克罗姆"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     10,
-     11,
-     6,
-     54,
-     58,
-     59
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 水晶版",
-    "slug": "crystal",
-    "seg": [
-     59
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "剧场版宝可梦 钻石・珍珠 幻影的霸者 索罗亚克",
-    "slug": null,
-    "seg": [
-     41
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑・白 官方完全冒险通关指南",
-    "slug": null,
-    "seg": [
-     44
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑・白 官方合众图鉴完成指南",
-    "slug": null,
-    "seg": [
-     46
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "任天堂DS 宝可梦 黑・白 超级音乐收藏",
-    "slug": null,
-    "seg": [
-     61
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "游戏的人",
-    "slug": null,
-    "seg": [
-     65
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "游戏与人",
-    "slug": null,
-    "seg": [
-     67
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "基业长青——超越时代的生存原则",
-    "slug": null,
-    "seg": [
-     69
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "动机领导力 引领组织的30条原则",
-    "slug": null,
-    "seg": [
-     70
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "史蒂夫·乔布斯 偶像复活",
-    "slug": null,
-    "seg": [
-     72
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": [
-     4,
-     54,
-     55,
-     58,
-     59,
-     60
+    "concepts": [
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          6,
+          13
+        ],
+        "as": [
+          "儿童",
+          "小学生"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          6,
+          47
+        ],
+        "as": [
+          "精灵球",
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          6,
+          15,
+          51
+        ],
+        "as": [
+          "完全新作",
+          "系列最新作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          7,
+          32
+        ],
+        "as": [
+          "战斗系统",
+          "对战系统"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          7,
+          16,
+          28
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          7,
+          16,
+          58,
+          71
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          9
+        ],
+        "as": [
+          "动画化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          9
+        ],
+        "as": [
+          "周边商品"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          9,
+          51
+        ],
+        "as": [
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          12,
+          19,
+          58
+        ],
+        "as": [
+          "交换宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          13
+        ],
+        "as": [
+          "年龄层"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          14,
+          58
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          15,
+          16,
+          33
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          16,
+          58
+        ],
+        "as": [
+          "全球连接",
+          "网络功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "wireless",
+        "name": "无线与擦肩",
+        "facet": "tech",
+        "seg": [
+          16,
+          19
+        ],
+        "as": [
+          "擦肩通信"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "link-battle",
+        "name": "通信对战",
+        "facet": "system",
+        "seg": [
+          32
+        ],
+        "as": [
+          "三打对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          35
+        ],
+        "as": [
+          "草属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          37,
+          46,
+          51
+        ],
+        "as": [
+          "宝可梦图鉴",
+          "图鉴完成"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          37,
+          58
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          37,
+          58
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          41,
+          42
+        ],
+        "as": [
+          "剧场版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          42
+        ],
+        "as": [
+          "草图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          42
+        ],
+        "as": [
+          "设定资料"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          44,
+          45,
+          58
+        ],
+        "as": [
+          "通关",
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "guides",
+        "name": "攻略文化",
+        "facet": "audience",
+        "seg": [
+          45,
+          47
+        ],
+        "as": [
+          "攻略本",
+          "攻略"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "postgame",
+        "name": "通关之后",
+        "facet": "system",
+        "seg": [
+          45
+        ],
+        "as": [
+          "通关后"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-music",
+        "name": "音乐剧与演出",
+        "facet": "franchise",
+        "seg": [
+          47
+        ],
+        "as": [
+          "音乐剧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          58
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          58
+        ],
+        "as": [
+          "从零开始"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          58
+        ],
+        "as": [
+          "培育宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          58
+        ],
+        "as": [
+          "日程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          58
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          60,
+          62
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          68
+        ],
+        "as": [
+          "运气"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          73
+        ],
+        "as": [
+          "授权"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "野本由起",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "森荣喜",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     56
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "小智",
-    "slug": "xiao-zhi",
-    "role": "mentioned",
-    "seg": [
-     42
-    ],
-    "via": "llm",
-    "kind": "character"
-   },
-   {
-    "name": "N",
-    "slug": "n",
-    "role": "mentioned",
-    "seg": [
-     37
-    ],
-    "via": "llm",
-    "kind": "character"
-   },
-   {
-    "name": "魁奇思",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     62
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "赫伊津哈",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     65
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "高桥英夫",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     65
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "罗歇·凯卢瓦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     67
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "多田道太郎",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     67
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "冢崎干夫",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     67
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "詹姆斯·C·柯林斯",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     69
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "杰里·I·波拉斯",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     69
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "山冈洋一",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     69
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "小笹芳央",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     70
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "杰弗里·S·扬",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     72
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "威廉·L·西蒙",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     72
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "井口耕二",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     72
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "史蒂夫·乔布斯",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     72
-    ],
-    "via": "llm"
-   }
+  },
+  "observations": [
+    {
+      "seg": 9,
+      "text": "系列1996年诞生，截至2010年全球累计销量突破1亿5000万套"
+    },
+    {
+      "seg": 14,
+      "text": "开发初期两年由数名成员推敲点子，之后工作人员加入用剩下两年完成"
+    }
   ],
-  "places": [
-   {
-    "name": "鹿子镇",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     45
-    ],
-    "what": "冒险起点",
-    "via": "llm"
-   },
-   {
-    "name": "冠军之路",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     45
-    ],
-    "what": "游戏关卡",
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦联盟",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     45
-    ],
-    "what": "游戏关卡",
-    "via": "llm"
-   },
-   {
-    "name": "连入",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     17
-    ],
-    "what": "合众中心的岛屿",
-    "via": "llm"
-   },
-   {
-    "name": "合众地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     37
-    ],
-    "what": "游戏新舞台",
-    "via": "llm"
-   },
-   {
-    "name": "王冠市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     42
-    ],
-    "what": "剧场版舞台",
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "scan-ndream-2010-04-pokemon-bw-first-reveal",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "《宝可梦》完全新作始动",
+      "url": "/%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/",
+      "why": "同刊Nintendo DREAM报道第五世代新作公布，含系列销量回顾"
+    },
+    {
+      "id": "scan-ndream-2010-11-five-regions-guide",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "宝可梦五大地区观光指南",
+      "url": "/%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-11-five-regions-guide/",
+      "why": "同刊专题介绍合众地区，与黑·白特集同一舞台"
+    },
+    {
+      "id": "interview-nintendo-joshi-daisei-bw-kiritani-masuda",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "任天堂官方特别企划“女大学生问”：《宝可梦 黑·白》——桐谷美玲 专访 增田顺一 × 杉森建",
+      "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nintendo-joshi-daisei-bw-kiritani-masuda/",
+      "why": "同为黑·白发售期增田顺一专访，谈开发4年"
+    },
+    {
+      "id": "gamefreak-staff-202",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "【工作日志】2010年宝可梦剧本幕后",
+      "url": "/gamefreak-staff/entry-202/",
+      "why": "同作黑·白剧本策划谈开发，可作背景"
+    }
   ],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     6,
-     13
-    ],
-    "as": [
-     "儿童",
-     "小学生"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     6,
-     47
-    ],
-    "as": [
-     "精灵球",
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     6,
-     15,
-     51
-    ],
-    "as": [
-     "完全新作",
-     "系列最新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     7,
-     32
-    ],
-    "as": [
-     "战斗系统",
-     "对战系统"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     7,
-     16,
-     28
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     7,
-     16,
-     58,
-     71
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     9
-    ],
-    "as": [
-     "动画化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     9
-    ],
-    "as": [
-     "周边商品"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     9,
-     51
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     12,
-     19,
-     58
-    ],
-    "as": [
-     "交换宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     13
-    ],
-    "as": [
-     "年龄层"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     14,
-     58
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     15,
-     16,
-     33
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     16,
-     58
-    ],
-    "as": [
-     "全球连接",
-     "网络功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "wireless",
-    "name": "无线与擦肩",
-    "facet": "tech",
-    "seg": [
-     16,
-     19
-    ],
-    "as": [
-     "擦肩通信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "link-battle",
-    "name": "通信对战",
-    "facet": "system",
-    "seg": [
-     32
-    ],
-    "as": [
-     "三打对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     35
-    ],
-    "as": [
-     "草属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     37,
-     46,
-     51
-    ],
-    "as": [
-     "宝可梦图鉴",
-     "图鉴完成"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     37,
-     58
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     37,
-     58
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     41,
-     42
-    ],
-    "as": [
-     "剧场版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     42
-    ],
-    "as": [
-     "草图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     42
-    ],
-    "as": [
-     "设定资料"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     44,
-     45,
-     58
-    ],
-    "as": [
-     "通关",
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     45,
-     47
-    ],
-    "as": [
-     "攻略本",
-     "攻略"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "postgame",
-    "name": "通关之后",
-    "facet": "system",
-    "seg": [
-     45
-    ],
-    "as": [
-     "通关后"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     47
-    ],
-    "as": [
-     "音乐剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     58
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     58
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     58
-    ],
-    "as": [
-     "培育宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     58
-    ],
-    "as": [
-     "日程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     58
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     60,
-     62
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     68
-    ],
-    "as": [
-     "运气"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     73
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 9,
-   "text": "系列1996年诞生，截至2010年全球累计销量突破1亿5000万套"
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
   },
-  {
-   "seg": 14,
-   "text": "开发初期两年由数名成员推敲点子，之后工作人员加入用剩下两年完成"
-  }
- ],
- "relations": [
-  {
-   "id": "scan-ndream-2010-04-pokemon-bw-first-reveal",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "《宝可梦》完全新作始动",
-   "url": "/%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-04-pokemon-bw-first-reveal/",
-   "why": "同刊Nintendo DREAM报道第五世代新作公布，含系列销量回顾"
-  },
-  {
-   "id": "scan-ndream-2010-11-five-regions-guide",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "宝可梦五大地区观光指南",
-   "url": "/%E6%9D%82%E5%BF%97%E7%89%B9%E8%BE%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2010-11-five-regions-guide/",
-   "why": "同刊专题介绍合众地区，与黑·白特集同一舞台"
-  },
-  {
-   "id": "interview-nintendo-joshi-daisei-bw-kiritani-masuda",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "任天堂官方特别企划“女大学生问”：《宝可梦 黑·白》——桐谷美玲 专访 增田顺一 × 杉森建",
-   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/interview-nintendo-joshi-daisei-bw-kiritani-masuda/",
-   "why": "同为黑·白发售期增田顺一专访，谈开发4年"
-  },
-  {
-   "id": "gamefreak-staff-202",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "【工作日志】2010年宝可梦剧本幕后",
-   "url": "/gamefreak-staff/entry-202/",
-   "why": "同作黑·白剧本策划谈开发，可作背景"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "edited": true
 }

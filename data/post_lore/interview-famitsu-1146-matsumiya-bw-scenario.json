@@ -1,209 +1,201 @@
 {
- "id": "interview-famitsu-1146-matsumiya-bw-scenario",
- "stem": "2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 17
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     6,
-     15
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "松宫稔展",
-    "slug": "song-gong-ren-zhan",
-    "role": "speaker",
-    "seg": [
-     2,
-     4,
-     6,
-     8,
-     10,
-     12
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": [
-     4
-    ]
-   },
-   {
-    "name": "N",
-    "slug": "n",
-    "role": "mentioned",
-    "seg": [
-     3,
-     4,
-     5,
-     13,
-     14
-    ],
-    "via": "llm",
-    "kind": "character"
-   },
-   {
-    "name": "黑连",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "白露",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     1
-    ],
-    "as": [
-     "吃惊"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     8
-    ],
-    "as": [
-     "小孩子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     10
-    ],
-    "as": [
-     "玩家群体"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     12
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     15
-    ],
-    "as": [
-     "人物设定"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [],
-    "as": [
-     "剧本"
-    ],
-    "via": "tag"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "世界观"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "松宫稔展说系列从第一部作品问世到现在已过14年",
-   "anchor": 3
+  "id": "interview-famitsu-1146-matsumiya-bw-scenario",
+  "stem": "2010-12-02-interview-famitsu-1146-matsumiya-bw-scenario",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 17
   },
-  {
-   "seg": 4,
-   "text": "关于N，是增田顺一先于主题提出的建议",
-   "anchor": 5
-  }
- ],
- "relations": [
-  {
-   "id": "scan-famitsu-1138-bw-secrets-interview",
-   "kind": "background",
-   "label": "相关资料",
-   "title": "週刊ファミ通 2010：增田顺一谈《宝可梦 黑·白》开发秘话（前篇）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-famitsu-1138-bw-secrets-interview/",
-   "why": "《Fami通》1138号增田顺一访谈，提供《黑·白》开发背景。"
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          6,
+          15
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "松宫稔展",
+        "slug": "song-gong-ren-zhan",
+        "role": "speaker",
+        "seg": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": [
+          4
+        ]
+      },
+      {
+        "name": "N",
+        "slug": "n",
+        "role": "mentioned",
+        "seg": [
+          3,
+          4,
+          5,
+          13,
+          14
+        ],
+        "via": "llm",
+        "kind": "character"
+      },
+      {
+        "name": "黑连",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "白露",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          1
+        ],
+        "as": [
+          "吃惊"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          8
+        ],
+        "as": [
+          "小孩子"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          10
+        ],
+        "as": [
+          "玩家群体"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          12
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          15
+        ],
+        "as": [
+          "人物设定"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [],
+        "as": [
+          "剧本"
+        ],
+        "via": "tag"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "世界观"
+        ],
+        "via": "tag"
+      }
+    ]
   },
-  {
-   "id": "scan-famitsu-1137-bw-launch-interview",
-   "kind": "background",
-   "label": "相关资料",
-   "title": "週刊ファミ通 2010：石原恒和谈《宝可梦 黑·白》",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-famitsu-1137-bw-launch-interview/",
-   "why": "《Fami通》1137号石原恒和访谈，提供《黑·白》发售背景。"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
- },
- "edited": true
+  "observations": [
+    {
+      "seg": 2,
+      "text": "松宫稔展说系列从第一部作品问世到现在已过14年",
+      "anchor": 3
+    },
+    {
+      "seg": 4,
+      "text": "关于N，是增田顺一先于主题提出的建议",
+      "anchor": 5
+    }
+  ],
+  "relations": [
+    {
+      "id": "scan-famitsu-1138-bw-secrets-interview",
+      "kind": "background",
+      "label": "相关资料",
+      "title": "週刊ファミ通 2010：增田顺一谈《宝可梦 黑·白》开发秘话（前篇）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-famitsu-1138-bw-secrets-interview/",
+      "why": "《Fami通》1138号增田顺一访谈，提供《黑·白》开发背景。"
+    },
+    {
+      "id": "scan-famitsu-1137-bw-launch-interview",
+      "kind": "background",
+      "label": "相关资料",
+      "title": "週刊ファミ通 2010：石原恒和谈《宝可梦 黑·白》",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-famitsu-1137-bw-launch-interview/",
+      "why": "《Fami通》1137号石原恒和访谈，提供《黑·白》发售背景。"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "review": "2026-11-12 repair-package audit; source-scoped people and segment references checked"
+  },
+  "edited": true
 }

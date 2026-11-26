@@ -1,252 +1,243 @@
 {
- "id": "interview-gamefreak-crosstalk-new-graduate",
- "stem": "2021-12-27-interview-gamefreak-crosstalk-new-graduate",
- "rev": 1,
- "built": "2026-10-09",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 30
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [
-     17
+  "id": "interview-gamefreak-crosstalk-new-graduate",
+  "stem": "2021-12-27-interview-gamefreak-crosstalk-new-graduate",
+  "rev": 1,
+  "built": "2026-10-09",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 30
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 朱·紫",
+        "slug": "scarlet-violet",
+        "seg": [
+          17
+        ],
+        "via": "entities"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "Gear Project",
-    "slug": null,
-    "seg": [
-     7,
-     10
+    "people": [
+      {
+        "name": "I.F.",
+        "slug": "i-f",
+        "role": "speaker",
+        "seg": [
+          1
+        ]
+      },
+      {
+        "name": "T.M.",
+        "slug": "t-m",
+        "role": "speaker",
+        "seg": [
+          2
+        ]
+      },
+      {
+        "name": "A.T.",
+        "slug": "a-t",
+        "role": "speaker",
+        "seg": [
+          3
+        ]
+      },
+      {
+        "name": "R.N.",
+        "slug": "r-n",
+        "role": "speaker",
+        "seg": [
+          4
+        ]
+      },
+      {
+        "name": "R.S.",
+        "slug": "r-s",
+        "role": "speaker",
+        "seg": [
+          5
+        ]
+      },
+      {
+        "name": "K.K.",
+        "slug": "k-k",
+        "role": "speaker",
+        "seg": [
+          6
+        ]
+      }
     ],
-    "via": "entities"
-   }
+    "places": [],
+    "concepts": [
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          4,
+          25
+        ],
+        "as": [
+          "角色设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          4
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          6,
+          13,
+          15,
+          19,
+          28
+        ],
+        "as": [
+          "招聘",
+          "新人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          7,
+          8,
+          9,
+          10,
+          14,
+          19
+        ],
+        "as": [
+          "入职",
+          "面试",
+          "学生时代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          8
+        ],
+        "as": [
+          "企划书"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          14
+        ],
+        "as": [
+          "宝可梦设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          17
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          25
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          26
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 16,
+      "text": "程序员3个月培训，最后约3周做一个小游戏。",
+      "anchor": 17
+    },
+    {
+      "seg": 17,
+      "text": "培训后参加《宝可梦 朱·紫》，负责动画、玩法与系统部分调试。",
+      "anchor": 18
+    }
   ],
-  "people": [
-   {
-    "name": "I.F.",
-    "slug": "i-f",
-    "role": "speaker",
-    "seg": [
-     1
-    ]
-   },
-   {
-    "name": "T.M.",
-    "slug": "t-m",
-    "role": "speaker",
-    "seg": [
-     2
-    ]
-   },
-   {
-    "name": "A.T.",
-    "slug": "a-t",
-    "role": "speaker",
-    "seg": [
-     3
-    ]
-   },
-   {
-    "name": "R.N.",
-    "slug": "r-n",
-    "role": "speaker",
-    "seg": [
-     4
-    ]
-   },
-   {
-    "name": "R.S.",
-    "slug": "r-s",
-    "role": "speaker",
-    "seg": [
-     5
-    ]
-   },
-   {
-    "name": "K.K.",
-    "slug": "k-k",
-    "role": "speaker",
-    "seg": [
-     6
-    ]
-   }
+  "relations": [
+    {
+      "id": "interview-gamefreak-crosstalk-designer",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
+      "why": "同日GAME FREAK官方招聘特辑对谈系列"
+    },
+    {
+      "id": "interview-gamefreak-crosstalk-programmer",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/",
+      "why": "同日GAME FREAK官方招聘特辑对谈系列"
+    },
+    {
+      "id": "interview-gamefreak-crosstalk-system-programmer",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK。",
+      "url": "/interviews/interview-gamefreak-crosstalk-system-programmer/",
+      "why": "同日GAME FREAK官方招聘特辑对谈系列"
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     4,
-     25
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     4
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     6,
-     13,
-     15,
-     19,
-     28
-    ],
-    "as": [
-     "招聘",
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     7,
-     8,
-     9,
-     10,
-     14,
-     19
-    ],
-    "as": [
-     "入职",
-     "面试",
-     "学生时代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     8
-    ],
-    "as": [
-     "企划书"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     14
-    ],
-    "as": [
-     "宝可梦设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     17
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     25
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     26
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 16,
-   "text": "程序员3个月培训，最后约3周做一个小游戏。",
-   "anchor": 17
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 17,
-   "text": "培训后参加《宝可梦 朱·紫》，负责动画、玩法与系统部分调试。",
-   "anchor": 18
-  }
- ],
- "relations": [
-  {
-   "id": "interview-gamefreak-crosstalk-designer",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/",
-   "why": "同日GAME FREAK官方招聘特辑对谈系列"
-  },
-  {
-   "id": "interview-gamefreak-crosstalk-programmer",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/",
-   "why": "同日GAME FREAK官方招聘特辑对谈系列"
-  },
-  {
-   "id": "interview-gamefreak-crosstalk-system-programmer",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK。",
-   "url": "/interviews/interview-gamefreak-crosstalk-system-programmer/",
-   "why": "同日GAME FREAK官方招聘特辑对谈系列"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

@@ -1,211 +1,204 @@
 {
- "id": "corporate-topic-46-pokemon-center-original-goods-philosophy",
- "stem": "2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy",
- "rev": 1,
- "built": "2026-09-29",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 27
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "肯泰罗",
-    "ndex": 128,
-    "seg": [
-     15,
-     16
-    ],
-    "as": [
-     "肯泰罗"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "ポケットモンスター 赤・緑",
-    "slug": null,
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [],
-  "places": [
-   {
-    "name": "宝可梦中心",
-    "id": null,
-    "entity": null,
-    "category": "pc",
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "直营店",
-    "via": "extra",
-    "category_link": "pc"
-   },
-   {
-    "name": "宝可梦商店",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     3
-    ],
-    "what": "直营店",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     3,
-     4
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     3,
-     15,
-     25
-    ],
-    "as": [
-     "商品化",
-     "周边商品"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     11,
-     14
-    ],
-    "as": [
-     "视觉效果"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     14
-    ],
-    "as": [
-     "怀旧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     15,
-     20
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     15
-    ],
-    "as": [
-     "攻略"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     15
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     17
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     22
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "原创周边由株式会社宝可梦的商品部推进开发",
-   "anchor": 3
+  "id": "corporate-topic-46-pokemon-center-original-goods-philosophy",
+  "stem": "2025-12-24-corporate-topic-46-pokemon-center-original-goods-philosophy",
+  "rev": 1,
+  "built": "2026-09-29",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 27
   },
-  {
-   "seg": 3,
-   "text": "原创周边在宝可梦中心、宝可梦商店等直营店销售",
-   "anchor": 4
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "肯泰罗",
+        "ndex": 128,
+        "seg": [
+          15,
+          16
+        ],
+        "as": [
+          "肯泰罗"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          10,
+          12
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [],
+    "places": [
+      {
+        "name": "宝可梦中心",
+        "id": null,
+        "entity": null,
+        "category": "pc",
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          2
+        ],
+        "what": "直营店",
+        "via": "extra",
+        "category_link": "pc"
+      },
+      {
+        "name": "宝可梦商店",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          3
+        ],
+        "what": "直营店",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          3,
+          4
+        ],
+        "as": [
+          "授权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          3,
+          15,
+          25
+        ],
+        "as": [
+          "商品化",
+          "周边商品"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          11,
+          14
+        ],
+        "as": [
+          "视觉效果"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          14
+        ],
+        "as": [
+          "怀旧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          15,
+          20
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "guides",
+        "name": "攻略文化",
+        "facet": "audience",
+        "seg": [
+          15
+        ],
+        "as": [
+          "攻略"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          15
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          17
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          22
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 2,
+      "text": "原创周边由株式会社宝可梦的商品部推进开发",
+      "anchor": 3
+    },
+    {
+      "seg": 3,
+      "text": "原创周边在宝可梦中心、宝可梦商店等直营店销售",
+      "anchor": 4
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

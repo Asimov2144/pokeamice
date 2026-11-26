@@ -1,572 +1,567 @@
 {
- "id": "interview-nintendopower-gold-silver-roundtable",
- "stem": "2000-07-01-interview-nintendopower-gold-silver-roundtable",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 62
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "小火龙",
-    "ndex": 4,
-    "seg": [
-     51
-    ],
-    "as": [
-     "小火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     16,
-     24,
-     58
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "可达鸭",
-    "ndex": 54,
-    "seg": [
-     48
-    ],
-    "as": [
-     "可达鸭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "椰蛋树",
-    "ndex": 103,
-    "seg": [
-     47
-    ],
-    "as": [
-     "椰蛋树"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "梦幻",
-    "ndex": 151,
-    "seg": [
-     52
-    ],
-    "as": [
-     "梦幻"
-    ],
-    "via": "tag"
-   },
-   {
-    "name": "火球鼠",
-    "ndex": 155,
-    "seg": [
-     51
-    ],
-    "as": [
-     "火球鼠"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "咕咕",
-    "ndex": 163,
-    "seg": [
-     50,
-     49
-    ],
-    "as": [
-     "咕咕",
-     "Hoothoot"
-    ],
-    "via": "tag"
-   },
-   {
-    "name": "凤王",
-    "ndex": 250,
-    "seg": [
-     19
-    ],
-    "as": [
-     "凤王"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [
-     35
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 金／银",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "绿宝石",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "心金／魂银",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石／蓝宝石",
-    "slug": null,
-    "seg": [
-     57
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦方块",
-    "slug": null,
-    "seg": [
-     58
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "嘿，皮卡丘",
-    "slug": null,
-    "seg": [
-     58
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "星际迷航",
-    "slug": null,
-    "seg": [
-     59
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     4,
-     16,
-     18,
-     25,
-     48
-    ]
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     5,
-     14,
-     24,
-     47,
-     55,
-     59
-    ]
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     6,
-     26,
-     37,
-     39,
-     49
-    ]
-   },
-   {
-    "name": "森本茂树",
-    "slug": "morimoto-shigeki",
-    "role": "speaker",
-    "seg": [
-     7,
-     27,
-     52,
-     54
-    ]
-   },
-   {
-    "name": "太田健程",
-    "slug": "ota-takenori",
-    "role": "speaker",
-    "seg": [
-     8,
-     29,
-     51
-    ]
-   },
-   {
-    "name": "一之濑刚",
-    "slug": "ichinose-go",
-    "role": "speaker",
-    "seg": [
-     9,
-     28
-    ]
-   },
-   {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "mentioned",
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     3,
-     8,
-     9,
-     10,
-     13,
-     14
-    ],
-    "as": [
-     "第五世代",
-     "第一世代",
-     "第三世代",
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "localization",
-    "name": "本地化",
-    "facet": "business",
-    "seg": [
-     3
-    ],
-    "as": [
-     "翻译"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     3
-    ],
-    "as": [
-     "付费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     6,
-     11
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     8,
-     9
-    ],
-    "as": [
-     "怪物设计",
-     "宝可梦设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     20
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     24,
-     32,
-     55,
-     56,
-     57
-    ],
-    "as": [
-     "内存",
-     "容量",
-     "卡带",
-     "ROM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     26,
-     55,
-     56,
-     57
-    ],
-    "as": [
-     "除错"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     28
-    ],
-    "as": [
-     "新鲜感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     31,
-     34
-    ],
-    "as": [
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     31
-    ],
-    "as": [
-     "日程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     36,
-     52
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     36
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     41
-    ],
-    "as": [
-     "超能力属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     42
-    ],
-    "as": [
-     "点阵图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     42
-    ],
-    "as": [
-     "企划案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     43
-    ],
-    "as": [
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     61
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multilingual",
-    "name": "多语言与字库",
-    "facet": "tech",
-    "seg": [
-     61,
-     62
-    ],
-    "as": [
-     "语言版本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     61
-    ],
-    "as": [
-     "正统续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     62
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     62
-    ],
-    "as": [
-     "进行交换"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 16,
-   "text": "增田称《金／银》团队约20人，三年前红绿完成后启动",
-   "anchor": 17
+  "id": "interview-nintendopower-gold-silver-roundtable",
+  "stem": "2000-07-01-interview-nintendopower-gold-silver-roundtable",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 62
   },
-  {
-   "seg": 39,
-   "text": "杉森称构思了数百只新宝可梦，大部分开发中被删减",
-   "anchor": 40
-  }
- ],
- "relations": [
-  {
-   "id": "interview-nom-gold-silver-gamefreak",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
-   "url": "/developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/",
-   "why": "同为2000年GAME FREAK金/银开发访谈"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "小火龙",
+        "ndex": 4,
+        "seg": [
+          51
+        ],
+        "as": [
+          "小火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          16,
+          24,
+          58
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "可达鸭",
+        "ndex": 54,
+        "seg": [
+          48
+        ],
+        "as": [
+          "可达鸭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "椰蛋树",
+        "ndex": 103,
+        "seg": [
+          47
+        ],
+        "as": [
+          "椰蛋树"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "梦幻",
+        "ndex": 151,
+        "seg": [
+          52
+        ],
+        "as": [
+          "梦幻"
+        ],
+        "via": "tag"
+      },
+      {
+        "name": "火球鼠",
+        "ndex": 155,
+        "seg": [
+          51
+        ],
+        "as": [
+          "火球鼠"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "咕咕",
+        "ndex": 163,
+        "seg": [
+          50,
+          49
+        ],
+        "as": [
+          "咕咕",
+          "Hoothoot"
+        ],
+        "via": "tag"
+      },
+      {
+        "name": "凤王",
+        "ndex": 250,
+        "seg": [
+          19
+        ],
+        "as": [
+          "凤王"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          0,
+          4,
+          35,
+          37
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 绿宝石",
+        "slug": "emerald",
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 心金·魂银",
+        "slug": "heartgold-soulsilver",
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          57
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦益智方块",
+        "slug": "trozei",
+        "seg": [
+          58
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "大家的声音！皮卡丘",
+        "slug": "hey-you-pikachu",
+        "seg": [
+          58
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "星际迷航",
+        "slug": null,
+        "seg": [
+          59
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          4,
+          16,
+          18,
+          25,
+          48
+        ]
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          5,
+          14,
+          24,
+          47,
+          55,
+          59
+        ]
+      },
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          6,
+          26,
+          37,
+          39,
+          49
+        ]
+      },
+      {
+        "name": "森本茂树",
+        "slug": "morimoto-shigeki",
+        "role": "speaker",
+        "seg": [
+          7,
+          27,
+          52,
+          54
+        ]
+      },
+      {
+        "name": "太田健程",
+        "slug": "ota-takenori",
+        "role": "speaker",
+        "seg": [
+          8,
+          29,
+          51
+        ]
+      },
+      {
+        "name": "一之濑刚",
+        "slug": "ichinose-go",
+        "role": "speaker",
+        "seg": [
+          9,
+          28
+        ]
+      },
+      {
+        "name": "岩田聪",
+        "slug": "iwata-satoru",
+        "role": "mentioned",
+        "seg": [
+          30
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          3,
+          8,
+          9,
+          10,
+          13,
+          14
+        ],
+        "as": [
+          "第五世代",
+          "第一世代",
+          "第三世代",
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "localization",
+        "name": "本地化",
+        "facet": "business",
+        "seg": [
+          3
+        ],
+        "as": [
+          "翻译"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          3
+        ],
+        "as": [
+          "付费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          6,
+          11
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          8,
+          9
+        ],
+        "as": [
+          "怪物设计",
+          "宝可梦设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          20
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          24,
+          32,
+          55,
+          56,
+          57
+        ],
+        "as": [
+          "内存",
+          "容量",
+          "卡带",
+          "ROM"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          26,
+          55,
+          56,
+          57
+        ],
+        "as": [
+          "除错"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          28
+        ],
+        "as": [
+          "新鲜感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          31,
+          34
+        ],
+        "as": [
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          31
+        ],
+        "as": [
+          "日程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          36,
+          52
+        ],
+        "as": [
+          "童年"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          36
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          41
+        ],
+        "as": [
+          "超能力属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pixel-art",
+        "name": "像素画",
+        "facet": "tech",
+        "seg": [
+          42
+        ],
+        "as": [
+          "点阵图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          42
+        ],
+        "as": [
+          "企划案"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          43
+        ],
+        "as": [
+          "试玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          61
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multilingual",
+        "name": "多语言与字库",
+        "facet": "tech",
+        "seg": [
+          61,
+          62
+        ],
+        "as": [
+          "语言版本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          61
+        ],
+        "as": [
+          "正统续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          62
+        ],
+        "as": [
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          62
+        ],
+        "as": [
+          "进行交换"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 16,
+      "text": "增田称《金／银》团队约20人，三年前红绿完成后启动",
+      "anchor": 17
+    },
+    {
+      "seg": 39,
+      "text": "杉森称构思了数百只新宝可梦，大部分开发中被删减",
+      "anchor": 40
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-nom-gold-silver-gamefreak",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+      "url": "/developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/",
+      "why": "同为2000年GAME FREAK金/银开发访谈"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

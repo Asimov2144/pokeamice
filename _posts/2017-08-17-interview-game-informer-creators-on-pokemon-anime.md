@@ -46,6 +46,7 @@ entities:
   - 宝可梦 皮卡丘版
 topics:
 - 海外媒体专访
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - type: heading
   level: 2
@@ -114,9 +115,5 @@ parallel_items:
 - speaker: Game Informer
   original: 'The anime made its way to North America in 1998, and quickly found an audience. The first Pokémon movie, appropriately titled Pokémon: The First Movie - Mewtwo Strikes Back, actually held the record for highest grossing opening for an animated film until it was beaten by Toy Story 2 two weeks later. The anime is still going strong today with adaptations of every mainline game and a new movie, recounting the events of the beginning of the anime, coming to American theatres in November.'
   translation: "1998年，动画登陆北美，很快拥有了观众。首部剧场版《宝可梦 剧场版：超梦的逆袭》曾保持动画电影首映票房最高纪录，两周后被《玩具总动员2》超越。如今动画依然强劲，每一部正传游戏都有对应的改编，讲述动画开端故事的新电影也将于11月在美国上映。"
-  role: question
-- speaker: Game Informer
-  original: For more on the history of Pokémon, you can check out the latest issue for a 12-page feature covering the franchise’s history, as well as online features and interviews linked below.
-  translation: "欲了解更多宝可梦的历史，可以查看最新一期杂志中12页的系列历史专题，以及下方链接的线上专题和访谈。"
   role: question
 ---

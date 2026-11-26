@@ -53,7 +53,7 @@ ARCHIVE_LINES = {
     "转载者补充：人物简介（资料截至2019年）": "転載者による補足：人物紹介（2019年時点の情報）",
 }
 # fields of the Chinese post that carry over unchanged
-KEEP = ("date", "era_skin", "era", "source_kind", "archive_type", "original_link", "source_url", "interview_id")
+KEEP = ("date", "era_skin", "era", "source_kind", "archive_type", "original_link", "source_url", "interview_id", "source_appendix")
 
 
 def front_matter(path: Path) -> dict:

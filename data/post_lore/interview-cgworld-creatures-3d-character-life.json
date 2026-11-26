@@ -1,357 +1,341 @@
 {
- "id": "interview-cgworld-creatures-3d-character-life",
- "stem": "2017-07-15-interview-cgworld-creatures-3d-character-life",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 14
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     4,
-     10
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦集换式卡牌游戏",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 太阳·月亮",
-    "slug": "sun-moon",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 究极之日·究极之月",
-    "slug": "usum",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦竞技场",
-    "slug": "stadium",
-    "seg": [
-     7
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦巡护员",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "名侦探皮卡丘",
-    "slug": "detective-pikachu",
-    "seg": [
-     4
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦乐园",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "名侦探皮卡丘～新组合诞生～",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "氏家淳子",
-    "slug": "shi-jia-chun-zi",
-    "role": "mentioned",
-    "seg": [
-     6
-    ]
-   },
-   {
-    "name": "中广健吾",
-    "slug": "zhong-guang-jian-wu",
-    "role": "mentioned",
-    "seg": [
-     6
-    ]
-   },
-   {
-    "name": "畠祐贵",
-    "slug": "tian-you-gui",
-    "role": "mentioned",
-    "seg": [
-     6
-    ]
-   }
-  ],
-  "places": [
-   {
-    "name": "宝可梦乐园",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     4
-    ],
-    "via": "extra",
-    "what": "期间限定的主题乐园"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     1,
-     10
-    ],
-    "as": [
-     "设定图",
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     2,
-     7
-    ],
-    "as": [
-     "工作方式",
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     4
-    ],
-    "as": [
-     "版权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     4
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     4
-    ],
-    "as": [
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "outsourcing",
-    "name": "外包与协力",
-    "facet": "process",
-    "seg": [
-     6
-    ],
-    "as": [
-     "外包"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     6
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     7
-    ],
-    "as": [
-     "育儿"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     7
-    ],
-    "as": [
-     "职业生涯"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     8
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     8,
-     10,
-     13
-    ],
-    "as": [
-     "3D化",
-     "建模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     10
-    ],
-    "as": [
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     10
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     13
-    ],
-    "as": [
-     "应届"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 6,
-   "text": "工作室所属3DCG美术师22名，希望未来几年翻倍",
-   "anchor": 7
+  "id": "interview-cgworld-creatures-3d-character-life",
+  "stem": "2017-07-15-interview-cgworld-creatures-3d-character-life",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 14
   },
-  {
-   "seg": 7,
-   "text": "规定时间10点30分至19点30分，已15年没通宵工作",
-   "anchor": 8
-  }
- ],
- "relations": [
-  {
-   "id": "interview-cgworld-pokemon-sun-moon-3d-pipeline",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新",
-   "url": "/developer-interviews/official-archives/interview-cgworld-pokemon-sun-moon-3d-pipeline/",
-   "why": "同为2017年CGWORLD专访Creatures，氏家淳子受访"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          4,
+          10
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦集换式卡牌游戏",
+        "slug": null,
+        "seg": [
+          4
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 究极之日·究极之月",
+        "slug": "usum",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦竞技场",
+        "slug": "stadium",
+        "seg": [
+          7
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦巡护员",
+        "slug": "ranger",
+        "seg": [
+          4
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "名侦探皮卡丘",
+        "slug": "detective-pikachu",
+        "seg": [
+          4
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "名侦探皮卡丘 ～新组合诞生～",
+        "slug": "detective-pikachu-birth-of-a-new-duo",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "氏家淳子",
+        "slug": "shi-jia-chun-zi",
+        "role": "mentioned",
+        "seg": [
+          6
+        ]
+      },
+      {
+        "name": "中广健吾",
+        "slug": "zhong-guang-jian-wu",
+        "role": "mentioned",
+        "seg": [
+          6
+        ]
+      },
+      {
+        "name": "畠祐贵",
+        "slug": "tian-you-gui",
+        "role": "mentioned",
+        "seg": [
+          6
+        ]
+      }
+    ],
+    "places": [
+      {
+        "name": "宝可梦乐园",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          4
+        ],
+        "via": "extra",
+        "what": "期间限定的主题乐园"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          1,
+          10
+        ],
+        "as": [
+          "设定图",
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          2,
+          7
+        ],
+        "as": [
+          "工作方式",
+          "通宵"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          4
+        ],
+        "as": [
+          "版权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          4
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          4
+        ],
+        "as": [
+          "卡牌游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "outsourcing",
+        "name": "外包与协力",
+        "facet": "process",
+        "seg": [
+          6
+        ],
+        "as": [
+          "外包"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          6
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "education",
+        "name": "教育与育儿",
+        "facet": "audience",
+        "seg": [
+          7
+        ],
+        "as": [
+          "育儿"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          7
+        ],
+        "as": [
+          "职业生涯"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          8
+        ],
+        "as": [
+          "真实感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          8,
+          10,
+          13
+        ],
+        "as": [
+          "3D化",
+          "建模"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          10
+        ],
+        "as": [
+          "原画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          10
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          13
+        ],
+        "as": [
+          "应届"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          13
+        ],
+        "as": [
+          "协作"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 6,
+      "text": "工作室所属3DCG美术师22名，希望未来几年翻倍",
+      "anchor": 7
+    },
+    {
+      "seg": 7,
+      "text": "规定时间10点30分至19点30分，已15年没通宵工作",
+      "anchor": 8
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-cgworld-pokemon-sun-moon-3d-pipeline",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新",
+      "url": "/developer-interviews/official-archives/interview-cgworld-pokemon-sun-moon-3d-pipeline/",
+      "why": "同为2017年CGWORLD专访Creatures，氏家淳子受访"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

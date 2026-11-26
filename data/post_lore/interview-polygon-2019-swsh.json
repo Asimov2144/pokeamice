@@ -1,408 +1,392 @@
 {
- "id": "interview-polygon-2019-swsh",
- "stem": "2019-10-24-interview-polygon-2019-swsh",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 51
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "大葱鸭",
-    "ndex": 83,
-    "seg": [
-     42,
-     43
+  "id": "interview-polygon-2019-swsh",
+  "stem": "2019-10-24-interview-polygon-2019-swsh",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 51
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "大葱鸭",
+        "ndex": 83,
+        "seg": [
+          42,
+          43
+        ],
+        "as": [
+          "大葱鸭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "球球海狮",
+        "ndex": 728,
+        "seg": [
+          48,
+          49
+        ],
+        "as": [
+          "球球海狮"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "敲音猴",
+        "ndex": 810,
+        "seg": [
+          49
+        ],
+        "as": [
+          "敲音猴"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "炎兔儿",
+        "ndex": 813,
+        "seg": [
+          49
+        ],
+        "as": [
+          "炎兔儿"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "泪眼蜥",
+        "ndex": 816,
+        "seg": [
+          48,
+          49
+        ],
+        "as": [
+          "泪眼蜥"
+        ],
+        "via": "body"
+      }
     ],
-    "as": [
-     "大葱鸭"
+    "works": [
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [
+          0,
+          45
+        ],
+        "via": "entities"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "球球海狮",
-    "ndex": 728,
-    "seg": [
-     48,
-     49
+    "people": [
+      {
+        "name": "Polygon",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          4,
+          9,
+          11,
+          15,
+          19,
+          21
+        ]
+      },
+      {
+        "name": "大森滋",
+        "slug": "ohmori-shigeru",
+        "role": "speaker",
+        "seg": [
+          5,
+          6,
+          7,
+          16,
+          17,
+          20
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          8,
+          10,
+          12,
+          18,
+          24,
+          33
+        ]
+      },
+      {
+        "name": "岩田",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          12
+        ],
+        "via": "llm"
+      }
     ],
-    "as": [
-     "球球海狮"
+    "places": [
+      {
+        "name": "伽勒尔地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          43
+        ],
+        "what": "游戏舞台",
+        "via": "llm"
+      },
+      {
+        "name": "英国",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          43
+        ],
+        "what": "地区灵感来源",
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "敲音猴",
-    "ndex": 810,
-    "seg": [
-     49
-    ],
-    "as": [
-     "敲音猴"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "炎兔儿",
-    "ndex": 813,
-    "seg": [
-     49
-    ],
-    "as": [
-     "炎兔儿"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "泪眼蜥",
-    "ndex": 816,
-    "seg": [
-     48,
-     49
-    ],
-    "as": [
-     "泪眼蜥"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 剑·盾",
-    "slug": "sword-shield",
-    "seg": [
-     0,
-     45
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "超级马力欧 奥德赛",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "塞尔达传说 旷野之息",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "Polygon",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     4,
-     9,
-     11,
-     15,
-     19,
-     21
+    "concepts": [
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          5
+        ],
+        "as": [
+          "面对面"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          5
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          16,
+          17,
+          18
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          16,
+          17,
+          39
+        ],
+        "as": [
+          "3D模型",
+          "多边形"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          17
+        ],
+        "as": [
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          18
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          18
+        ],
+        "as": [
+          "网络功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          20
+        ],
+        "as": [
+          "广告"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "outsourcing",
+        "name": "外包与协力",
+        "facet": "process",
+        "seg": [
+          22
+        ],
+        "as": [
+          "外包"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          32
+        ],
+        "as": [
+          "批评"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          45,
+          47
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          45,
+          46,
+          47
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          45
+        ],
+        "as": [
+          "主题是"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [],
+        "as": [
+          "全国图鉴"
+        ],
+        "via": "tag"
+      }
     ]
-   },
-   {
-    "name": "大森滋",
-    "slug": "ohmori-shigeru",
-    "role": "speaker",
-    "seg": [
-     5,
-     6,
-     7,
-     16,
-     17,
-     20
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     8,
-     10,
-     12,
-     18,
-     24,
-     33
-    ]
-   },
-   {
-    "name": "岩田",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   }
+  },
+  "observations": [
+    {
+      "seg": 0,
+      "text": "《宝可梦 剑·盾》下月成为首款在主机上首发的主系列RPG",
+      "anchor": 1
+    },
+    {
+      "seg": 1,
+      "text": "采访在两周前进行，受访者为增田顺一和大森滋",
+      "anchor": 2
+    }
   ],
-  "places": [
-   {
-    "name": "伽勒尔地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     43
-    ],
-    "what": "游戏舞台",
-    "via": "llm"
-   },
-   {
-    "name": "英国",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     43
-    ],
-    "what": "地区灵感来源",
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/",
+      "why": "同为2019-10-24发售前采访增田顺一与大森滋"
+    },
+    {
+      "id": "interview-vg247-2019-swsh",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "增田顺一与大森滋谈剑盾",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-vg247-2019-swsh/",
+      "why": "同为2019-10-24采访增田顺一与大森滋谈剑盾"
+    },
+    {
+      "id": "interview-gi-2019-burning",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "宝可梦主创的胡闹问答",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-burning/",
+      "why": "同为2019-10-24增田顺一与大森滋问答"
+    },
+    {
+      "id": "interview-gi-2019-champion",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "大森滋与增田顺一谈《剑／盾》",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-champion/",
+      "why": "同为2019-10-24大森滋与增田顺一访谈"
+    }
   ],
-  "concepts": [
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     5
-    ],
-    "as": [
-     "面对面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     5
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     16,
-     17,
-     18
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     16,
-     17,
-     39
-    ],
-    "as": [
-     "3D模型",
-     "多边形"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     17
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     18
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     18
-    ],
-    "as": [
-     "网络功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     20
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "outsourcing",
-    "name": "外包与协力",
-    "facet": "process",
-    "seg": [
-     22
-    ],
-    "as": [
-     "外包"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     32
-    ],
-    "as": [
-     "批评"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     45,
-     47
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     45,
-     46,
-     47
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     45
-    ],
-    "as": [
-     "主题是"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [],
-    "as": [
-     "全国图鉴"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 0,
-   "text": "《宝可梦 剑·盾》下月成为首款在主机上首发的主系列RPG",
-   "anchor": 1
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 1,
-   "text": "采访在两周前进行，受访者为增田顺一和大森滋",
-   "anchor": 2
-  }
- ],
- "relations": [
-  {
-   "id": "interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/",
-   "why": "同为2019-10-24发售前采访增田顺一与大森滋"
-  },
-  {
-   "id": "interview-vg247-2019-swsh",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "增田顺一与大森滋谈剑盾",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-vg247-2019-swsh/",
-   "why": "同为2019-10-24采访增田顺一与大森滋谈剑盾"
-  },
-  {
-   "id": "interview-gi-2019-burning",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "宝可梦主创的胡闹问答",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-burning/",
-   "why": "同为2019-10-24增田顺一与大森滋问答"
-  },
-  {
-   "id": "interview-gi-2019-champion",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "大森滋与增田顺一谈《剑／盾》",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-champion/",
-   "why": "同为2019-10-24大森滋与增田顺一访谈"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

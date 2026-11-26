@@ -1,385 +1,387 @@
 {
- "id": "interview-gq-spain-sun-moon-masuda-ohmori",
- "stem": "2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 19
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     6
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "可达鸭",
-    "ndex": 54,
-    "seg": [
-     18
-    ],
-    "as": [
-     "可达鸭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "椰蛋树",
-    "ndex": 103,
-    "seg": [
-     18
-    ],
-    "as": [
-     "椰蛋树"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "岩狗狗",
-    "ndex": 744,
-    "seg": [
-     18
-    ],
-    "as": [
-     "岩狗狗"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 太阳·月亮",
-    "slug": "sun-moon",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "GQ",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     4,
-     6,
-     11,
-     14,
-     16
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     5,
-     7,
-     12,
-     15,
-     17
-    ]
-   },
-   {
-    "name": "大森滋",
-    "slug": "ohmori-shigeru",
-    "role": "mentioned",
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "科隆群岛",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     13
-    ],
-    "what": "地点灵感来源",
-    "via": "llm"
-   },
-   {
-    "name": "阿罗拉地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     10
-    ],
-    "what": "游戏舞台",
-    "via": "llm"
-   },
-   {
-    "name": "夏威夷",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     10
-    ],
-    "what": "阿罗拉灵感来源",
-    "via": "llm"
-   },
-   {
-    "name": "马德里",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     2
-    ],
-    "what": "专访地点",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     0,
-     13,
-     14,
-     15
-    ],
-    "as": [
-     "新玩家",
-     "老玩家",
-     "年龄层"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     0
-    ],
-    "as": [
-     "热潮"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     2
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     3,
-     13
-    ],
-    "as": [
-     "第一世代",
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     4
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "link-battle",
-    "name": "通信对战",
-    "facet": "system",
-    "seg": [
-     5
-    ],
-    "as": [
-     "训练家对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     7
-    ],
-    "as": [
-     "动画系列"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     7
-    ],
-    "as": [
-     "周边商品"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     7
-    ],
-    "as": [
-     "团队规模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     9
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     11,
-     15
-    ],
-    "as": [
-     "易上手"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "evolution-design",
-    "name": "进化的设计",
-    "facet": "design",
-    "seg": [
-     13
-    ],
-    "as": [
-     "进化形态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     13
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     14,
-     15
-    ],
-    "as": [
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     17
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 0,
-   "text": "截至11月底，《宝可梦 太阳／月亮》在3DS系列售出近18.5万份",
-   "anchor": 1
+  "id": "interview-gq-spain-sun-moon-masuda-ohmori",
+  "stem": "2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 19
   },
-  {
-   "seg": 15,
-   "text": "增田顺一称起初目标受众是10岁孩子，如今他们已30岁",
-   "anchor": 16
-  }
- ],
- "relations": [
-  {
-   "id": "interview-meristation-sun-moon-switch-masuda-ohmori",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Nintendo Switch 就是未来。",
-   "url": "//interview-meristation-sun-moon-switch-masuda-ohmori/",
-   "why": "同为马德里采访增田顺一与大森滋谈日月"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          6
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "可达鸭",
+        "ndex": 54,
+        "seg": [
+          18
+        ],
+        "as": [
+          "可达鸭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "椰蛋树",
+        "ndex": 103,
+        "seg": [
+          18
+        ],
+        "as": [
+          "椰蛋树"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "岩狗狗",
+        "ndex": 744,
+        "seg": [
+          18
+        ],
+        "as": [
+          "岩狗狗"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "GQ",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          4,
+          6,
+          11,
+          14,
+          16
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          5,
+          7,
+          12,
+          15,
+          17
+        ]
+      },
+      {
+        "name": "大森滋",
+        "slug": "ohmori-shigeru",
+        "role": "mentioned",
+        "seg": [
+          1
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "科隆群岛",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          13
+        ],
+        "what": "地点灵感来源",
+        "via": "llm"
+      },
+      {
+        "name": "阿罗拉地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          10
+        ],
+        "what": "游戏舞台",
+        "via": "llm"
+      },
+      {
+        "name": "夏威夷",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          10
+        ],
+        "what": "阿罗拉灵感来源",
+        "via": "llm"
+      },
+      {
+        "name": "马德里",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          2
+        ],
+        "what": "专访地点",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          0,
+          13,
+          14,
+          15
+        ],
+        "as": [
+          "新玩家",
+          "老玩家",
+          "年龄层"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          0
+        ],
+        "as": [
+          "热潮"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          2
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          3,
+          13
+        ],
+        "as": [
+          "第一世代",
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          4
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "link-battle",
+        "name": "通信对战",
+        "facet": "system",
+        "seg": [
+          5
+        ],
+        "as": [
+          "训练家对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          7
+        ],
+        "as": [
+          "动画系列"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          7
+        ],
+        "as": [
+          "周边商品"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "team-size",
+        "name": "团队规模",
+        "facet": "process",
+        "seg": [
+          7
+        ],
+        "as": [
+          "团队规模"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          9
+        ],
+        "as": [
+          "提案"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          11,
+          15
+        ],
+        "as": [
+          "易上手"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "evolution-design",
+        "name": "进化的设计",
+        "facet": "design",
+        "seg": [
+          13
+        ],
+        "as": [
+          "进化形态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          13
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          14,
+          15
+        ],
+        "as": [
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          17
+        ],
+        "as": [
+          "家庭"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 0,
+      "text": "截至11月底，《宝可梦 太阳／月亮》在3DS系列售出近18.5万份",
+      "anchor": 1
+    },
+    {
+      "seg": 15,
+      "text": "增田顺一称起初目标受众是10岁孩子，如今他们已30岁",
+      "anchor": 16
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-meristation-sun-moon-switch-masuda-ohmori",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Nintendo Switch 就是未来。",
+      "url": "//interview-meristation-sun-moon-switch-masuda-ohmori/",
+      "why": "同为马德里采访增田顺一与大森滋谈日月"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

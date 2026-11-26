@@ -48,6 +48,7 @@ workflow:
   published: draft
 topics:
 - 海外媒体专访
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - type: image
   image: /assets/img/interviews/2017-08-15-interview-gi-2017-spinoffs/001.jpg
@@ -67,31 +68,4 @@ parallel_items:
   translation: 我们还问了增田和大森希望未来看到宝可梦探索哪种尚未涉足的类型。“这算是《X／Y》里的一个彩蛋，但在那个世界里钻角犀兽赛跑是存在的。那里可能有一个信息，就是我真的很想制作钻角犀兽赛跑，”增田说。
 - original: '"I really want to try working on a real action-focused game," Ohmori says. "Of course, we’ve kind of got those already with fighting games as well so it’s hard to say what it would be. Like a 2D side-scrolling action game, maybe."'
   translation: “我真的很想尝试制作一款真正以动作为主的游戏，”大森说。“当然，我们已经通过格斗游戏有了类似的东西，所以很难说会是什么。也许像2D横版动作游戏。”
-- original: For more on the history of Pokémon, you can check out the latest issue for a 12-page feature covering the franchise’s history, as well as online features and interviews linked below.
-  translation: 想了解更多关于宝可梦的历史，你可以查看最新一期，其中有一篇12页的专题报道，涵盖该系列的历史，以及下面链接的在线专题和采访。
-- original: Pokémon’s Developers Talk About Their Console RPG Debut On Switch
-  translation: 宝可梦开发者谈他们在Switch上的主机RPG首秀
-- original: Game Freak’s Origins And Its Pre-Pokémon Games
-  translation: "GAME FREAK的起源及其宝可梦之前的游戏"
-- original: Here's How Game Freak Designs Pokemon Creatures
-  translation: "以下是GAME FREAK设计宝可梦生物的方式"
-- original: Game Freak On Player Freedom Vs. Story In Pokémon
-  translation: "GAME FREAK谈宝可梦中的玩家自由与剧情之争"
-- original: Discussing Our In-Depth Tour Of Game Freak
-  translation: "谈我们对GAME FREAK的深入探访"
-- original: Everything We Know About Pokémon On The Nintendo Switch
-  translation: 关于Nintendo Switch上宝可梦的已知全部信息
-- original: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
-  translation: 为什么《红宝石／蓝宝石》是最难制作的宝可梦作品
-- original: Game Freak's Director Share Their Favorite Pokémon Spin-Offs
-  translation: "GAME FREAK的导演们分享他们最喜欢的宝可梦衍生作品"
-- original: An Exclusive Look At Pokémon's Early Design Documents
-  translation: 独家一览宝可梦早期设计文档
-- original: 'Pokémon’s Creators On The Anime: ''We Weren''t Really Sure About It'''
-  translation: 宝可梦创作者谈动画：“我们当时其实不太确定”
-- original: Our Reddit AMA On Our Trip To Visit Game Freak
-  translation: "我们探访GAME FREAK之行的Reddit AMA"
-  note: AMA即“Ask Me Anything”，Reddit上的问答活动形式。
-- original: Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon
-  translation: 独家揭晓《宝可梦 究极之日·究极之月》中的新模式
 ---

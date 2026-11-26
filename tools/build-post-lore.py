@@ -240,11 +240,839 @@ def people_index() -> tuple[dict, dict]:
     return by_name, kinds
 
 
+_EXCLUDED_NON_WORKS = frozenset({
+    "宝可梦",
+    "精灵宝可梦",
+    "ポケットモンスター",
+    "宝可梦系列",
+    "宝可梦 电影",
+    "宝可梦电影",
+    "宝可梦 银魂",
+    "宝可梦咖啡馆",
+    "无双",
+    "无双系列",
+    "不可思议的迷宫",
+    "不可思议迷宫",
+    "怪物猎人系列",
+    "马力欧",
+    "皮卡丘",
+    "超梦",
+    "梦幻",
+    "基拉祈",
+    "多龙巴鲁托",
+    "美洛耶塔",
+    "大葱鸭",
+    "骑拉帝纳 (Giratina)",
+    "蓝",
+    "初音未来",
+    "特鲁内克",
+    "奈梦子",
+    "小太",
+    "伏特攻击",
+    "宝可骑行",
+    "宝可拍乐乐",
+    "阿罗拉摄影俱乐部",
+    "アローラフォトクラブ (Alola Photo Club)",
+    "破损的世界 (Distortion World)",
+    "宝可梦超级华丽大赛",
+    "玛俐 (Marnie SR)",
+    "阿塞萝拉 (Acerola Extra Battle Day)",
+    "珠贝 (Irida / カイ)",
+    "皮卡丘＆捷克罗姆GX",
+    "耿鬼＆谜拟Q GX",
+    "宝可梦系列生态架构",
+    "宝可梦系列专有引擎研发",
+    "全新企划项目",
+    "开发环境全云端架构",
+    "Houdini管线研发",
+    "动作捕捉系统",
+    "Gear Project",
+    "Gear Project（齿轮企划）",
+    "WCS虚空备战",
+    "PV1",
+    "PV4",
+    "LA",
+    "将棋",
+    "谷歌地图",
+    "宝可梦 灰",
+    "宝可梦 Z",
+    "GAME FREAK",
+    "Game Freak",
+    "任天堂 Switch",
+    "任天堂 Switch (Nintendo Switch)",
+    "Nintendo Switch",
+    "SWITCH",
+    "Game Boy",
+    "Game Boy Color",
+    "Game Boy Advance",
+    "ゲームボーイアドバンス",
+    "ニンテンドーDS",
+    "Nintendo DS",
+    "Nintendo 3DS",
+    "Wii",
+    "Wii U",
+    "vita",
+    "Move",
+    "amiibo",
+    "カードeリーダー",
+    "ファミコンソフト",
+    "周刊Fami通",
+    "週刊Fami通",
+    "Fami通",
+    "Fami-Maga",
+    "Family Computer Magazine",
+    "FamiMaga64",
+    "电击Nintendo64",
+    "The 64 DREAM",
+    "快乐快乐月刊",
+    "CoroCoro Comic",
+    "CoroCoro G",
+    "月刊Corocoro Comic",
+    "月刊コロコロコミック",
+    "月刊 CoroCoro 漫画",
+    "龙漫CORO-CORO",
+    "Nintendo DREAM",
+    "Nintendo Power",
+    "Login",
+    "Da Vinci",
+    "Gamasutra",
+    "IGN.com",
+    "读卖新闻",
+    "月刊《King》",
+    "illustration",
+    "互联网杂志",
+    "EURO2016",
+    "红白歌会",
+    "箱根驿传",
+    "社长问",
+    "社长问问",
+    "Oha Star",
+    "○×家：经营牛肉盖饭店。",
+    "FRISK 的电视广告",
+    "Mr.奥克莱的广告",
+    "宝冢DVD",
+    "琉球红型和服“岛连结”",
+    "宝可梦E·Pt·B·W",
+    "魁奇思的演说",
+})
+
+_EXCLUDED_NON_WORKS_CF = frozenset(s.casefold() for s in _EXCLUDED_NON_WORKS)
+_NON_WORK_RE = re.compile(
+    r"^(?:Game Informer|CONTINUE Vol\.|Nintendo Dream|CGWORLD|CEDEC\b|CEDiL\b|日本ゲーム大賞|PRESS START|Treehouse Live|@DIME|筑波大学|宝可梦中心|Pokemon Center|Pokémon Center)",
+    re.I,
+)
+
+_EXTRA_SLUGS = {
+    "宝可梦 红·蓝": "red-blue",
+    "宝可梦盒子 红宝石·蓝宝石": "box",
+    "宝可梦 朱·紫 零之秘宝": "area-zero",
+    "大家的声音！皮卡丘": "hey-you-pikachu",
+    "宝可梦卡牌GB": "trading-card-game",
+    "宝可梦弹珠台": "pinball",
+    "宝可梦弹珠台 红宝石·蓝宝石": "pinball-ruby-sapphire",
+    "宝可梦竞技场 金银": "stadium-2",
+    "宝可梦益智方块": "trozei",
+    "宝可梦XD 暗之旋风 黑暗洛奇亚": "xd",
+    "宝可梦巡护员 风涌篇": "ranger-shadows-of-almia",
+    "宝可梦不可思议迷宫 炎·岚·光之冒险团": "mystery-dungeon-wiiware",
+    "宝可公园Wii ～皮卡丘的大冒险～": "pokepark-wii",
+    "宝可公园2 ～Beyond the World～": "pokepark-2",
+    "大家的宝可梦大乱战": "rumble-world",
+    "宝可消消乐": "shuffle",
+    "名侦探皮卡丘 ～新组合诞生～": "detective-pikachu-birth-of-a-new-duo",
+    "宝可梦战棋": "duel",
+    "跳跃吧！鲤鱼王": "magikarp-jump",
+    "宝可缤纷趣": "cafe-remix",
+    "宝可梦不可思议迷宫 救助队DX": "mystery-dungeon-rescue-team-dx",
+    "Pokémon Smile": "smile",
+    "名侦探皮卡丘 归来": "detective-pikachu-returns",
+    "Pokémon Friends": "friends",
+    "Pokémon GOITA 教程App": "goita-tutorial-app",
+}
+
+_EXTRA_VALID_WORKS = frozenset({
+    "宝可梦 红·蓝",
+    "宝可梦盒子 红宝石·蓝宝石",
+    "宝可梦 朱·紫 零之秘宝",
+    "大家的声音！皮卡丘",
+    "宝可梦卡牌GB",
+    "宝可梦弹珠台",
+    "宝可梦弹珠台 红宝石·蓝宝石",
+    "宝可梦益智方块",
+    "宝可梦巡护员 风涌篇",
+    "宝可梦不可思议迷宫 炎·岚·光之冒险团",
+    "宝可公园Wii ～皮卡丘的大冒险～",
+    "宝可公园2 ～Beyond the World～",
+    "大家的宝可梦大乱战",
+    "宝可消消乐",
+    "名侦探皮卡丘 ～新组合诞生～",
+    "宝可梦战棋",
+    "跳跃吧！鲤鱼王",
+    "宝可缤纷趣",
+    "宝可梦不可思议迷宫 救助队DX",
+    "Pokémon Smile",
+    "名侦探皮卡丘 归来",
+    "Pokémon Friends",
+    "Pokémon GOITA 教程App",
+    "宝可梦 风与浪",
+    "破晓之翼",
+    "序幕之翼",
+    "POKETOON",
+    "Project VOLTAGE",
+    "GOTCHA!",
+    "宝可梦剧场版：时拉比 穿梭时空的相遇",
+    "帝牙卢卡VS帕路奇亚VS达克莱伊",
+    "波尔凯尼恩与机巧的玛机雅娜",
+    "剧场版宝可梦 就决定是你了！",
+    "剧场版宝可梦 我们的故事",
+    "皮丘与皮卡丘",
+    "皮卡皮卡星空露营",
+    "宝可梦生态图鉴",
+    "宝可梦化石博物馆",
+    "Relics of Kanto Through Time（公元3020年发掘的宝可梦 红·绿的世界）",
+    "宝可梦世界锦标赛",
+    "宝可梦龙王战",
+    "宝可梦Ga-Olé",
+    "宝可梦Frienda",
+    "宝可梦Battrio",
+    "宝可梦Tretta",
+    "宝可梦Mezastar",
+    "精灵球 Plus",
+    "Pokémon WONDER",
+    "Google Maps: Pokémon Challenge",
+    "跳舞？宝可梦乐队",
+    "宝可梦超级华丽大赛",
+    "解谜宝可梦卡牌",
+    "宝可梦SOS挑战",
+    "大家的咕妞妞日记",
+    "宝可梦音乐剧",
+    "宝可梦打印机",
+    "宝可梦特别节目",
+    "飞翔皮卡丘项目",
+    "风といっしょに",
+    "喵喵之歌",
+    "Biri-Biri",
+    "君の居場所（你的归宿 / Have a Good Time Here）",
+    "Reconnect",
+    "任天堂DS 宝可梦 黑2·白2 超级音乐全集",
+    "任天堂DS 宝可梦 黑·白 超级音乐收藏",
+    "Nintendo DS 宝可梦 心金＆魂银 Music Super Complete",
+    "宝可梦 黑·白 官方完全冒险通关指南",
+    "宝可梦 黑·白 官方合众图鉴完成指南",
+    "pokemon GTS",
+    "宝可梦 世代",
+    "皮卡丘与宝可梦乐队",
+    "任天堂3DS 宝可梦 X·Y 超级音乐收藏",
+    "宝可梦 X·Y 官方指南书 完全故事攻略指南",
+})
+
+_WORK_ALIASES = {
+    # Red / Green / Blue / Yellow
+    "红·绿": "宝可梦 红·绿",
+    "红／绿": "宝可梦 红·绿",
+    "宝可梦 红／绿": "宝可梦 红·绿",
+    "宝可梦 红・绿": "宝可梦 红·绿",
+    "宝可梦 红＆绿": "宝可梦 红·绿",
+    "宝可梦红·绿": "宝可梦 红·绿",
+    "宝可梦 红·": "宝可梦 红·绿",
+    "GB红绿": "宝可梦 红·绿",
+    "精灵宝可梦 红／绿": "宝可梦 红·绿",
+    "ポケットモンスター 赤・緑": "宝可梦 红·绿",
+    "ポケットモンスター 赤・緑 (Pokémon Red and Green)": "宝可梦 红·绿",
+    "宝可梦 红": "宝可梦 红·绿",
+    "宝可梦 绿": "宝可梦 红·绿",
+    "宝可梦 红·绿·蓝": "宝可梦 红·绿",
+    "宝可梦 红/绿/蓝": "宝可梦 红·绿",
+    "红·绿·蓝版": "宝可梦 红·绿",
+    "红·绿·蓝·皮卡丘版": "宝可梦 红·绿",
+    "宝可梦 红／蓝": "宝可梦 红·蓝",
+    "红·蓝": "宝可梦 红·蓝",
+    "红·蓝·黄": "宝可梦 红·蓝",
+    "宝可梦 皮卡丘": "宝可梦 皮卡丘版",
+    "宝可梦 皮卡丘（黄版）": "宝可梦 皮卡丘版",
+    "宝可梦 黄": "宝可梦 皮卡丘版",
+    "黄": "宝可梦 皮卡丘版",
+    # Gold / Silver / Crystal
+    "金·银": "宝可梦 金·银",
+    "金／银": "宝可梦 金·银",
+    "宝可梦 金／银": "宝可梦 金·银",
+    "宝可梦 金・银": "宝可梦 金·银",
+    "宝可梦 金": "宝可梦 金·银",
+    "宝可梦 银": "宝可梦 金·银",
+    "金": "宝可梦 金·银",
+    "银": "宝可梦 金·银",
+    "宝可梦2": "宝可梦 金·银",
+    "宝可梦 2": "宝可梦 金·银",
+    "宝可梦 水晶": "宝可梦 水晶版",
+    "水晶": "宝可梦 水晶版",
+    # Ruby / Sapphire / Emerald / FRLG
+    "红宝石·蓝宝石": "宝可梦 红宝石·蓝宝石",
+    "红宝石／蓝宝石": "宝可梦 红宝石·蓝宝石",
+    "红宝石＆蓝宝石": "宝可梦 红宝石·蓝宝石",
+    "宝可梦 红宝石／蓝宝石": "宝可梦 红宝石·蓝宝石",
+    "宝可梦 红宝石・蓝宝石": "宝可梦 红宝石·蓝宝石",
+    "宝可梦 红宝石·蓝宝石·绿宝石": "宝可梦 红宝石·蓝宝石",
+    "宝可梦 红宝石": "宝可梦 红宝石·蓝宝石",
+    "宝可梦 蓝宝石": "宝可梦 红宝石·蓝宝石",
+    "红宝石": "宝可梦 红宝石·蓝宝石",
+    "蓝宝石": "宝可梦 红宝石·蓝宝石",
+    "GBA红蓝宝": "宝可梦 红宝石·蓝宝石",
+    "绿宝石": "宝可梦 绿宝石",
+    "《绿宝石》": "宝可梦 绿宝石",
+    "ポケットモンスター エメラルド": "宝可梦 绿宝石",
+    "火红·叶绿": "宝可梦 火红·叶绿",
+    "火红／叶绿": "宝可梦 火红·叶绿",
+    "火红＆叶绿": "宝可梦 火红·叶绿",
+    "叶绿·火红": "宝可梦 火红·叶绿",
+    "宝可梦 火红／叶绿": "宝可梦 火红·叶绿",
+    "宝可梦FR・LG": "宝可梦 火红·叶绿",
+    "火红": "宝可梦 火红·叶绿",
+    "叶绿": "宝可梦 火红·叶绿",
+    # Diamond / Pearl / Platinum / HGSS
+    "钻石·珍珠": "宝可梦 钻石·珍珠",
+    "钻石／珍珠": "宝可梦 钻石·珍珠",
+    "珍珠·钻石": "宝可梦 钻石·珍珠",
+    "宝可梦 钻石／珍珠": "宝可梦 钻石·珍珠",
+    "宝可梦 钻石・珍珠": "宝可梦 钻石·珍珠",
+    "宝可梦 钻石＆珍珠": "宝可梦 钻石·珍珠",
+    "宝可梦 钻石/珍珠": "宝可梦 钻石·珍珠",
+    "宝可梦 钻石": "宝可梦 钻石·珍珠",
+    "宝可梦 珍珠": "宝可梦 钻石·珍珠",
+    "宝可梦 钻石·珍珠·白金": "宝可梦 钻石·珍珠",
+    "宝可梦 钻石／珍珠／白金": "宝可梦 钻石·珍珠",
+    "钻石·珍珠·白金": "宝可梦 钻石·珍珠",
+    "宝可梦 钻石·珍珠·白金·心金·魂银": "宝可梦 钻石·珍珠",
+    "Poke’mon DIAMOND & PEARL": "宝可梦 钻石·珍珠",
+    "ポケットモンスター ダイヤモンド・パール": "宝可梦 钻石·珍珠",
+    "宝可梦D・P": "宝可梦 钻石·珍珠",
+    "DS钻珍": "宝可梦 钻石·珍珠",
+    "白金": "宝可梦 白金",
+    "宝可梦白金": "宝可梦 白金",
+    "ポケットモンスター プラチナ": "宝可梦 白金",
+    "ポケットモンスター プラチナ (Pokémon Platinum)": "宝可梦 白金",
+    "心金·魂银": "宝可梦 心金·魂银",
+    "心金／魂银": "宝可梦 心金·魂银",
+    "心金/魂银": "宝可梦 心金·魂银",
+    "宝可梦 心金／魂银": "宝可梦 心金·魂银",
+    "宝可梦 心金/魂银": "宝可梦 心金·魂银",
+    "宝可梦心金·魂银": "宝可梦 心金·魂银",
+    "宝可梦 心金": "宝可梦 心金·魂银",
+    "宝可梦 魂银": "宝可梦 心金·魂银",
+    "宝可梦HG・SS": "宝可梦 心金·魂银",
+    "宝可梦 HG·SS": "宝可梦 心金·魂银",
+    "ポケットモンスター ハートゴールド・ソウルシルバー (HGSS)": "宝可梦 心金·魂银",
+    # Black / White / B2W2
+    "黑·白": "宝可梦 黑·白",
+    "黑／白": "宝可梦 黑·白",
+    "宝可梦 黑／白": "宝可梦 黑·白",
+    "宝可梦黑·白": "宝可梦 黑·白",
+    "宝可梦黑／白": "宝可梦 黑·白",
+    "宝可梦 黑": "宝可梦 黑·白",
+    "宝可梦 白": "宝可梦 黑·白",
+    "宝可梦 黑版": "宝可梦 黑·白",
+    "宝可梦 白版": "宝可梦 黑·白",
+    "宝可梦B・W": "宝可梦 黑·白",
+    "ポケットモンスター ブラック・ホワイト": "宝可梦 黑·白",
+    "ポケットモンスター ブラック・ホワイト (BW)": "宝可梦 黑·白",
+    "宝可梦 黑2／白2": "宝可梦 黑2·白2",
+    "宝可梦 黑2&白2": "宝可梦 黑2·白2",
+    "宝可梦 黑2": "宝可梦 黑2·白2",
+    "宝可梦 白2": "宝可梦 黑2·白2",
+    "宝可梦 黑版2": "宝可梦 黑2·白2",
+    "宝可梦 白版2": "宝可梦 黑2·白2",
+    "宝可梦B2·W2": "宝可梦 黑2·白2",
+    "黑2": "宝可梦 黑2·白2",
+    "白2": "宝可梦 黑2·白2",
+    # X / Y / ORAS / Sun / Moon / USUM
+    "X·Y": "宝可梦 X·Y",
+    "X・Y": "宝可梦 X·Y",
+    "X／Y": "宝可梦 X·Y",
+    "宝可梦 X・Y": "宝可梦 X·Y",
+    "宝可梦 Ｘ・Ｙ": "宝可梦 X·Y",
+    "宝可梦X·Y": "宝可梦 X·Y",
+    "宝可梦 XY": "宝可梦 X·Y",
+    "宝可梦 X": "宝可梦 X·Y",
+    "宝可梦 Y": "宝可梦 X·Y",
+    "宝可梦 X and Pokémon Y": "宝可梦 X·Y",
+    "ポケットモンスター X・Y (XY)": "宝可梦 X·Y",
+    "宝可梦 欧米伽红宝石／阿尔法蓝宝石": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "欧米伽红宝石·阿尔法蓝宝石": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "太阳·月亮": "宝可梦 太阳·月亮",
+    "太阳／月亮": "宝可梦 太阳·月亮",
+    "太阳&月亮": "宝可梦 太阳·月亮",
+    "宝可梦 太阳／月亮": "宝可梦 太阳·月亮",
+    "宝可梦 太阳・月亮": "宝可梦 太阳·月亮",
+    "宝可梦 太阳＆月亮": "宝可梦 太阳·月亮",
+    "宝可梦 太阳": "宝可梦 太阳·月亮",
+    "宝可梦 月亮": "宝可梦 太阳·月亮",
+    "宝可梦 日月": "宝可梦 太阳·月亮",
+    "ポケットモンスター サン・ムーン": "宝可梦 太阳·月亮",
+    "宝可梦 究极之日／究极之月": "宝可梦 究极之日·究极之月",
+    "宝可梦 究极太阳·究极月亮": "宝可梦 究极之日·究极之月",
+    "究极日月": "宝可梦 究极之日·究极之月",
+    "ポケットモンスター ウルトラサン・ウルトラムーン (Pokémon Ultra Sun and Ultra Moon)": "宝可梦 究极之日·究极之月",
+    # Let's Go / Sword & Shield / BDSP / Legends / Scarlet & Violet / Gen 10
+    "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 Let's Go! 皮卡丘·Let's Go! 伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 Let's Go！皮卡丘・Let's Go！伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 Let's Go！皮卡丘／伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "Let's Go，皮卡丘／Let's Go，伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "Let's GO!皮卡丘&伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 Let's Go": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "Let's Go 皮卡丘": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "Let's Go 伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 Let's Go! 皮卡丘": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 Let's Go! 伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 Let's Go 皮卡丘": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "剑·盾": "宝可梦 剑·盾",
+    "宝可梦 剑／盾": "宝可梦 剑·盾",
+    "宝可梦 剑・盾": "宝可梦 剑·盾",
+    "宝可梦 剑&盾": "宝可梦 剑·盾",
+    "宝可梦 剑盾": "宝可梦 剑·盾",
+    "宝可梦 盾": "宝可梦 剑·盾",
+    "ポケットモンスター ソード・シールド": "宝可梦 剑·盾",
+    "ポケットモンスター ソード・シールド (Pokémon Sword and Shield)": "宝可梦 剑·盾",
+    "宝可梦 剑／盾 扩充票": "宝可梦 剑·盾",
+    "铠之孤岛": "宝可梦 剑·盾",
+    "晶灿珍珠&明亮钻石": "宝可梦 晶灿钻石·明亮珍珠",
+    "Pokémon LEGENDS 阿尔宙斯": "宝可梦传说 阿尔宙斯",
+    "LA神话设定": "宝可梦传说 阿尔宙斯",
+    "《宝可梦 朱·紫》": "宝可梦 朱·紫",
+    "宝可梦 朱／紫": "宝可梦 朱·紫",
+    "宝可梦 朱・紫": "宝可梦 朱·紫",
+    "宝可梦 朱&紫": "宝可梦 朱·紫",
+    "宝可梦 朱/紫": "宝可梦 朱·紫",
+    "宝可梦 朱": "宝可梦 朱·紫",
+    "ポケットモンスター スカーレット・バイオレット": "宝可梦 朱·紫",
+    "宝可梦 朱 ＋ 零之秘宝": "宝可梦 朱·紫 零之秘宝",
+    "宝可梦 紫 ＋ 零之秘宝": "宝可梦 朱·紫 零之秘宝",
+    "ゼロの秘宝 (The Hidden Treasure of Area Zero)": "宝可梦 朱·紫 零之秘宝",
+    "宝可梦传说 Z-A": "Pokémon LEGENDS Z-A",
+    "宝可梦 LEGENDS Z-A": "Pokémon LEGENDS Z-A",
+    "Pokémon Legends Z-A": "Pokémon LEGENDS Z-A",
+    "ぽこ あ ポケモン": "Pokémon Pokopia",
+    "宝可梦冠军集结": "Pokémon Champions",
+    "Wind·Wave": "宝可梦 风与浪",
+    # Spinoffs, TCG, Apps
+    "宝可梦GO": "Pokémon GO",
+    "宝可梦 GO": "Pokémon GO",
+    "Pokémon Go": "Pokémon GO",
+    "Pokémon GO Plus": "Pokémon GO",
+    "Pokémon GO Plus +": "Pokémon GO",
+    "Pokémon UNITE": "宝可梦大集结",
+    "宝可梦大集结 (Pokémon UNITE)": "宝可梦大集结",
+    "宝可梦卡牌游戏": "宝可梦集换式卡牌游戏",
+    "宝可梦集换式卡牌游戏 (Pokémon TCG)": "宝可梦集换式卡牌游戏",
+    "宝可梦集换式卡牌游戏（PTCG）": "宝可梦集换式卡牌游戏",
+    "宝可梦集换式卡牌": "宝可梦集换式卡牌游戏",
+    "ポケモンカードゲーム": "宝可梦集换式卡牌游戏",
+    "PTCG": "宝可梦集换式卡牌游戏",
+    "ポケモンカードe": "宝可梦集换式卡牌游戏",
+    "ポケモンカード★neo": "宝可梦集换式卡牌游戏",
+    "ポケモンカードゲームADV": "宝可梦集换式卡牌游戏",
+    "宝可梦卡牌游戏BW": "宝可梦集换式卡牌游戏",
+    "宝可梦卡牌游戏 朱&紫": "宝可梦集换式卡牌游戏",
+    "宝可梦卡牌游戏 Classic": "宝可梦集换式卡牌游戏",
+    "宝可梦卡牌游戏 第1弹 扩充包": "宝可梦集换式卡牌游戏",
+    "化石の秘密": "宝可梦集换式卡牌游戏",
+    "超爆インパクト": "宝可梦集换式卡牌游戏",
+    "シャイニースターV": "宝可梦集换式卡牌游戏",
+    "爆炎ウォーカー": "宝可梦集换式卡牌游戏",
+    "仰天のボルテッカー": "宝可梦集换式卡牌游戏",
+    "TAG TEAM GX": "宝可梦集换式卡牌游戏",
+    "TAG TEAM GX (Team Up)": "宝可梦集换式卡牌游戏",
+    "太阳＆月亮系列": "宝可梦集换式卡牌游戏",
+    "25th ANNIVERSARY COLLECTION": "宝可梦集换式卡牌游戏",
+    "25th ANNIVERSARY edition": "宝可梦集换式卡牌游戏",
+    "宝可梦对战卡e+ 绿宝石": "宝可梦集换式卡牌游戏",
+    "Pokémon Trading Card Game Pocket": "宝可梦集换式卡牌游戏 Pocket",
+    "Pokémon TCG Pocket": "宝可梦集换式卡牌游戏 Pocket",
+    "PTCG Pocket": "宝可梦集换式卡牌游戏 Pocket",
+    "宝可梦卡牌Pocket": "宝可梦集换式卡牌游戏 Pocket",
+    "宝可梦快照": "宝可梦随乐拍",
+    "宝可梦随乐拍2": "New 宝可梦随乐拍",
+    "大侦探皮卡丘": "名侦探皮卡丘",
+    "名探侦皮卡丘": "名侦探皮卡丘",
+    "名侦探皮卡丘 ～新组合诞生～": "名侦探皮卡丘 ～新组合诞生～",
+    "名侦探皮卡丘 完全完结篇": "名侦探皮卡丘 归来",
+    "宝可梦＋信长之野望": "宝可梦+信长的野望",
+    "宝可梦＋信长之野望 (Pokémon Conquest)": "宝可梦+信长的野望",
+    "宝可梦+织田信长之野望": "宝可梦+信长的野望",
+    "宝可梦 AR 搜寻器": "宝可梦AR搜寻器",
+    "宝可梦全国图鉴 Pro": "宝可梦全国图鉴专业版",
+    "宝可梦 立体图鉴": "宝可梦立体图鉴BW",
+    "宝可梦不可思议迷宫系列": "宝可梦不可思议迷宫",
+    "宝可梦不可思议的迷宫": "宝可梦不可思议迷宫",
+    "宝可梦不可思议的迷宫 青之救助队·赤之救助队": "宝可梦不可思议迷宫",
+    "宝可梦不可思议的迷宫 时之探险队·暗之探险队": "宝可梦不可思议迷宫 时之探险队·暗之探险队",
+    "宝可梦不可思议的迷宫 暗之探险队": "宝可梦不可思议迷宫 时之探险队·暗之探险队",
+    "宝可梦不可思议的迷宫 空之探险队": "宝可梦不可思议迷宫 空之探险队",
+    "宝可梦不可思议的迷宫 前进！炎之冒险团·出发！风暴冒险团·目标！光之冒险团": "宝可梦不可思议迷宫 炎·岚·光之冒险团",
+    "宝可梦不可思议的迷宫 救助队DX": "宝可梦不可思议迷宫 救助队DX",
+    "宝可拳": "宝可拳 POKKÉN TOURNAMENT",
+    "宝可梦铁拳": "宝可拳 POKKÉN TOURNAMENT",
+    "宝可梦 宝可拳": "宝可拳 POKKÉN TOURNAMENT",
+    "宝可梦竞技场2": "宝可梦竞技场 金银",
+    "ポケモンレンジャー 光の軌跡": "宝可梦巡护员 光的轨迹",
+    "宝可梦巡护员 巴特那吉": "宝可梦巡护员 风涌篇",
+    "宝可梦冲刺": "宝可梦冲刺赛",
+    "战斗与获取！宝可梦打字DS": "宝可梦打字DS",
+    "大家的宝可梦牧场 白金对应版": "大家的宝可梦牧场",
+    "宝可梦大乱战 (Pokémon Rumble)": "宝可梦乱战",
+    "大家的声音！皮卡丘 (ピカチュウげんきでちゅう)": "大家的声音！皮卡丘",
+    "皮卡丘你好吗": "大家的声音！皮卡丘",
+    "皮卡丘你好": "大家的声音！皮卡丘",
+    "皮卡丘你好chu": "大家的声音！皮卡丘",
+    "宝可梦频道 (Pokémon Channel)": "宝可梦频道",
+    "宝可梦频道～和皮卡丘一起！～": "宝可梦频道",
+    "宝可梦 战斗革命": "宝可梦对战革命",
+    "宝可梦战斗革命": "宝可梦对战革命",
+    "Pokémon Duel": "宝可梦战棋",
+    "ポケモンコマスター": "宝可梦战棋",
+    "宝可梦棋盘大师": "宝可梦战棋",
+    "Pokémon Trading Figure Game": "宝可梦战棋",
+    "宝可梦消除": "宝可消消乐",
+    "宝可梦消消乐": "宝可消消乐",
+    "Pokémon Shuffle Mobile": "宝可消消乐",
+    "宝可梦拼图": "宝可梦益智方块",
+    "宝可梦洋彩": "宝可梦益智方块",
+    "宝可梦 探险寻宝 (Pokémon Quest)": "宝可梦探险寻宝",
+    "宝可公园": "宝可公园Wii ～皮卡丘的大冒险～",
+    "宝可乐园 关东": "宝可公园Wii ～皮卡丘的大冒险～",
+    "宝可乐园": "宝可公园Wii ～皮卡丘的大冒险～",
+    "宝可梦微笑": "Pokémon Smile",
+    "宝可梦虚拟银行": "Pokémon Bank",
+    "宝可梦银行": "Pokémon Bank",
+    "口袋皮卡丘彩色 和金·银一起！": "皮卡丘2 GS",
+    "口袋皮卡丘彩色版 与金·银一起！": "皮卡丘2 GS",
+    "Pocket Pikachu Color 和金银在一起！": "皮卡丘2 GS",
+    "宝可梦加傲乐": "宝可梦Ga-Olé",
+    "ポケモンチャレンジ": "Google Maps: Pokémon Challenge",
+    "おどる？ ポケモンおんがくたい": "跳舞？宝可梦乐队",
+    "宝可梦WONDER": "Pokémon WONDER",
+    "寶可夢地平線": "宝可梦 地平线",
+    # Anime, Movies, Music, Events
+    "宝可梦动画": "宝可梦 动画系列",
+    "TV动画《精灵宝可梦》": "宝可梦 动画系列",
+    "剧场版宝可梦 超梦的逆袭": "超梦的逆袭",
+    "剧场版精灵宝可梦 超梦的逆袭": "超梦的逆袭",
+    "剧场版精灵宝可梦 超梦的逆袭 (Mewtwo Strikes Back)": "超梦的逆袭",
+    "宝可梦 剧场版：超梦的逆袭": "超梦的逆袭",
+    "广播剧 超梦的诞生 (The Birth of Mewtwo)": "超梦的诞生",
+    "サウンドピクチャーボックス ミュウツーの誕生": "超梦的诞生",
+    "剧场版宝可梦 钻石·珍珠 阿尔宙斯 超克的时空": "剧场版宝可梦 钻石＆珍珠 阿尔宙斯：超克的时空",
+    "剧场版宝可梦 钻石・珍珠 幻影的霸者 索罗亚克": "剧场版宝可梦 钻石·珍珠 幻影的霸者 索罗亚克",
+    "幻影的霸者 索罗亚克": "剧场版宝可梦 钻石·珍珠 幻影的霸者 索罗亚克",
+    "宝可梦 XY 光环的超魔神 胡帕": "宝可梦 剧场版 光轮的超魔神 胡帕",
+    "剧场版宝可梦 超级愿望 比克提尼与黑英雄 捷克罗姆": "比克提尼与黑英雄捷克罗姆",
+    "超梦的逆袭 EVOLUTION": "宝可梦 剧场版 超梦的逆袭 EVOLUTION",
+    "宝可梦☆Sunday": "宝可梦☆星期天",
+    "宝可梦星期天": "宝可梦☆星期天",
+    "宝可梦Smash": "宝可梦 Smash",
+    "宝可梦SMASH": "宝可梦 Smash",
+    "目标是宝可梦大师 -20th Anniversary-": "目标是宝可梦大师",
+    "帝牙卢卡VS帕路奇亚": "帝牙卢卡VS帕路奇亚VS达克莱伊",
+    "剧场版宝可梦 XY&Z 波尔凯尼恩与机巧的玛机雅娜": "波尔凯尼恩与机巧的玛机雅娜",
+    "宝可梦 XY&Z": "宝可梦 动画系列",
+    "薄明の翼 (Pokémon: Twilight Wings)": "破晓之翼",
+    "宝可梦 feat.初音未来 Project VOLTAGE 18 Types/Songs": "Project VOLTAGE",
+    "宝可梦 feat. 初音未来 Project VOLTAGE 18 Types/Songs": "Project VOLTAGE",
+    "想要温暖的宝可梦": "POKETOON",
+    "变成百变怪的少女": "POKETOON",
+    "英雄皮卡丘与顽皮熊猫": "POKETOON",
+    "呆呆兽的顿悟！小智的顿悟！": "POKETOON",
+    "铁炮鱼的天空": "POKETOON",
+    "和宝可梦一起看看MRI检查吧！": "POKETOON",
+    "和宝可梦一起看看MRI检查的样子吧！": "POKETOON",
+    "宝可梦 黑·白 超级音乐收藏集": "任天堂DS 宝可梦 黑·白 超级音乐收藏",
+    "Nintendo DS 宝可梦 黑／白 Super Music Collection": "任天堂DS 宝可梦 黑·白 超级音乐收藏",
+    "宝可梦世界锦标赛（WCS）": "宝可梦世界锦标赛",
+    "宝可梦世界锦标赛 2023 (WCS 2023 Yokohama)": "宝可梦世界锦标赛",
+    "宝可梦龙王战2024": "宝可梦龙王战",
+    "宝可梦 赤·绿": "宝可梦 红·绿",
+    "宝可梦 赤・緑": "宝可梦 红·绿",
+    "宝可梦 赤 ‧ 綠": "宝可梦 红·绿",
+    "红・绿": "宝可梦 红·绿",
+    "红／绿／蓝／皮卡丘": "宝可梦 红·绿",
+    "红版": "宝可梦 红·绿",
+    "宝可梦 青": "宝可梦 蓝",
+    "宝可梦 蓝／红": "宝可梦 红·蓝",
+    "红/蓝": "宝可梦 红·蓝",
+    "Pokémon Yellow": "宝可梦 皮卡丘版",
+    "金/银": "宝可梦 金·银",
+    "红宝石/蓝宝石": "宝可梦 红宝石·蓝宝石",
+    "钻石/珍珠": "宝可梦 钻石·珍珠",
+    "黑": "宝可梦 黑·白",
+    "白": "宝可梦 黑·白",
+    "宝可梦 Ｘ／Ｙ": "宝可梦 X·Y",
+    "宝可梦 紫": "宝可梦 朱·紫",
+    "究极之日／究极之月": "宝可梦 究极之日·究极之月",
+    "宝可梦 走吧！皮卡丘／走吧！伊布": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "Let's Go！": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "剑／盾": "宝可梦 剑·盾",
+    "宝可梦 剑·盾 扩展票（铠之孤岛 / 冠之雪原）": "宝可梦 剑·盾",
+    "朱／紫": "宝可梦 朱·紫",
+    "宝可梦 HOME": "Pokémon HOME",
+    "宝可梦 Pokopia": "Pokémon Pokopia",
+    "Pokémon Quest": "宝可梦探险寻宝",
+    "宝可梦探险寻宝（Pokémon Quest）": "宝可梦探险寻宝",
+    "宝可梦方块": "宝可梦益智方块",
+    "嘿，皮卡丘": "大家的声音！皮卡丘",
+    "乱战！宝可梦乱战": "宝可梦乱战",
+    "宝可梦 对战革命": "宝可梦对战革命",
+    "宝可梦卡牌e": "宝可梦集换式卡牌游戏",
+    "XD": "宝可梦XD 暗之旋风 黑暗洛奇亚",
+    "名侦探皮卡丘～新组合诞生～": "名侦探皮卡丘 ～新组合诞生～",
+    "美洛耶塔的闪亮独奏会": "美洛耶塔的闪亮音乐会",
+    "宝可梦剧场版 超级愿望「酋雷姆VS圣剑士凯路迪欧」": "剧场版宝可梦 超级愿望：酋雷姆 VS 圣剑士凯路迪欧",
+    "Nintendo 3DS 宝可梦 X·Y 超级音乐合辑": "任天堂3DS 宝可梦 X·Y 超级音乐收藏",
+    "宝可梦竞技场 金・银": "宝可梦竞技场 金银",
+    "宝可梦竞技场 金·银": "宝可梦竞技场 金银",
+    "宝可梦弹珠台 红宝石&蓝宝石": "宝可梦弹珠台 红宝石·蓝宝石",
+    "宝可梦巡护员 巴特那奇": "宝可梦巡护员 风涌篇",
+    "宝可梦巡护员 光之轨迹": "宝可梦巡护员 光的轨迹",
+    "宝可梦 超世代": "宝可梦 动画系列",
+}
+
+_OTHER_WORK_ALIASES = {
+    "昆蒂": "Quinty",
+    "昆迪": "Quinty",
+    "クインティ": "Quinty",
+    "孟德尔宫殿": "Quinty",
+    "Mendel Palace": "Quinty",
+    "Jelly Boy": "Jerry Boy",
+    "Smart Ball": "Jerry Boy",
+    "果冻男孩": "Jerry Boy",
+    "脉冲人": "脉冲超人",
+    "パルスマン": "脉冲超人",
+    "Pulseman": "脉冲超人",
+    "Screw Breaker": "螺旋破坏者 轰振钻头",
+    "スクリューブレイカー": "螺旋破坏者 轰振钻头",
+    "スクリューブレイカー 轟振どりるれろ": "螺旋破坏者 轰振钻头",
+    "螺旋破坏者": "螺旋破坏者 轰振钻头",
+    "螺旋破碎机": "螺旋破坏者 轰振钻头",
+    "螺旋破坏者 轰振钻钻乐乐": "螺旋破坏者 轰振钻头",
+    "轰振钻钻乐乐": "螺旋破坏者 轰振钻头",
+    "螺旋破坏者 轰振钻子": "螺旋破坏者 轰振钻头",
+    "螺丝破坏者 轰振钻头": "螺旋破坏者 轰振钻头",
+    "钻头骑士": "螺旋破坏者 轰振钻头",
+    "钻头乐园": "螺旋破坏者 轰振钻头",
+    "螺旋破坏者 轰振钻头乐园": "螺旋破坏者 轰振钻头",
+    "钻孔钻机": "螺旋破坏者 轰振钻头",
+    "Rhythm Hunter Harmoknight": "节奏猎人 和谐骑士",
+    "リズムハンター ハーモナイト": "节奏猎人 和谐骑士",
+    "节奏猎人 哈莫奈特（リズムハンター ハーモナイト）": "节奏猎人 和谐骑士",
+    "节奏猎人 节奏骑士": "节奏猎人 和谐骑士",
+    "节奏骑士": "节奏猎人 和谐骑士",
+    "和声骑士": "节奏猎人 和谐骑士",
+    "节奏骑兵": "节奏猎人 和谐骑士",
+    "节奏猎人 和谐": "节奏猎人 和谐骑士",
+    "ソリティ馬": "接龙赛马",
+    "Pocket Card Jockey": "接龙赛马",
+    "Pocket Card Jockey: Ride On!": "接龙赛马",
+    "接龙赛马 Ride On!": "接龙赛马",
+    "接龙马": "接龙赛马",
+    "纸牌赛马": "接龙赛马",
+    "口袋卡牌骑师": "接龙赛马",
+    "卡片骑手：骑行": "接龙赛马",
+    "混混大象": "TEMBO THE BADASS ELEPHANT",
+    "坏坏大象坦博": "TEMBO THE BADASS ELEPHANT",
+    "Giga Wrecker": "GIGA WRECKER",
+    "千兆破坏者": "GIGA WRECKER",
+    "Town": "小镇英雄",
+    "town": "小镇英雄",
+    "青龙传～BUSHI～": "BUSHI青龙传",
+    "BUSHI青龙传？二人的勇者？": "BUSHI青龙传",
+    "马里奥与瓦里奥": "马力欧与瓦力欧",
+    "勇者恶龙": "勇者斗恶龙",
+    "勇者斗恶龙Ⅸ": "勇者斗恶龙IX",
+    "勇者斗恶龙IX 星空的守护者": "勇者斗恶龙IX",
+    "塞尔达": "塞尔达传说",
+    "塞尔达传说 旷野之息": "塞尔达传说：旷野之息",
+    "风之杖": "塞尔达传说 风之杖",
+    "Mother": "MOTHER",
+    "地球冒险（MOTHER）": "MOTHER",
+    "地球冒险2 基格的逆袭": "MOTHER2",
+    "风来之西林": "风来的西林",
+    "Tetris": "俄罗斯方块",
+    "太空格斗/太空侵略者": "太空侵略者",
+    "Mappy": "猫捉老鼠",
+    "猫捉老鼠 (Mappy)": "猫捉老鼠",
+    "马力欧绘画": "马力欧绘图",
+    "超级马力欧：奥德赛": "超级马力欧 奥德赛",
+    "大乱闘スマッシュブラザーズ SPECIAL": "任天堂明星大乱斗 特别版",
+    "信长之野望 (Nobunaga's Ambition)": "信长之野望",
+    "魔法小天使（甜甜仙子）": "魔法小天使",
+    "魔法小天使 甜甜仙子": "魔法小天使",
+    "游戏的人": "游戏与人",
+    "《游戏与人类》": "游戏与人",
+    "人，游戏与游玩": "游戏与人",
+    "Les jeux et les hommes": "游戏与人",
+}
+
+_OTHER_REV_ALIASES: dict[str, list[str]] = {}
+for _alias, _canon in _OTHER_WORK_ALIASES.items():
+    _OTHER_REV_ALIASES.setdefault(_canon, []).append(_alias)
+
+_MEDIA_SPEAKER_RE = re.compile(
+    r"informer|\bign\b|famitsu|fami|4gamer|denfami|eurogamer|interviewer|记者|编者|提问|——|"
+    r"nintendo power|gamespot|polygon|kotaku|verge|1up|metro|nikkei|sankei|oricon|"
+    r"automaton|cgworld|gamewatch|gpara|ndream|nindori|davinci|hobonichi|drpez|glitterberri",
+    re.I,
+)
+_QUOTE_CHAR_RE = re.compile(r'[“"「『].+?[”"」』]', re.S)
+_QUOTE_SPAN_RE = re.compile(r"“[^”]*”|「[^」]*」|『[^』]*』|\"[^\"]*\"")
+_NON_PKM_FEATURE_TITLE_RE = re.compile(
+    r"pre-pok[eé]mon|non-pokemon|origins|quinty|クインティ|solitiba|pocket card|harmoknight|"
+    r"gigawrecker|giga wrecker|tembo|pandoland|beast of reincarnation|drill dozer|脉冲|接龙|螺旋|轟振|雨のちハレ女",
+    re.I,
+)
+
+
+def _is_non_work(name: str) -> bool:
+    if not name or "{" in name:
+        return True
+    if name in _EXCLUDED_NON_WORKS or name.casefold() in _EXCLUDED_NON_WORKS_CF:
+        return True
+    if _NON_WORK_RE.match(name):
+        return True
+    return False
+
+
 def works_index() -> dict:
     works = yaml.safe_load(io.open(ROOT / "_data" / "works.yml", encoding="utf-8")) or []
     games = yaml.safe_load(io.open(ROOT / "_data" / "credits_games.yml", encoding="utf-8")) or []
     slug_of = {g.get("work"): g.get("slug") for g in games if g.get("work")}
-    return {w["name"]: {"name": w["name"], "slug": slug_of.get(w["name"])} for w in works if w.get("name")}
+    slug_of.update(_EXTRA_SLUGS)
+    out = {}
+    for w in works:
+        name = w.get("name")
+        if not name or w.get("placeholder") == "store" or _is_non_work(name):
+            continue
+        out[name] = {"name": name, "slug": slug_of.get(name), "pokemon": True}
+    for name in _EXTRA_VALID_WORKS | set(_WORK_ALIASES.values()):
+        if _is_non_work(name):
+            continue
+        out.setdefault(name, {"name": name, "slug": slug_of.get(name), "pokemon": True})
+    return out
+
+
+def _clean_work_raw(raw) -> str:
+    if isinstance(raw, dict):
+        if len(raw) == 1:
+            k, v = next(iter(raw.items()))
+            return f"{k}: {v}".strip()
+        return ""
+    return str(raw or "").strip()
+
+
+def resolve_work(raw, works: dict) -> dict | None:
+    """Resolve raw work name to a canonical Pokémon or grounded non-Pokémon work, or None to drop."""
+    name = _clean_work_raw(raw)
+    if _is_non_work(name):
+        return None
+    if name in works:
+        return works[name]
+    canon = _WORK_ALIASES.get(name)
+    if canon and canon in works:
+        return works[canon]
+    norm = re.sub(r"\s*[／/・‧]\s*", "·", name)
+    if norm in works:
+        return works[norm]
+    canon_norm = _WORK_ALIASES.get(norm)
+    if canon_norm and canon_norm in works:
+        return works[canon_norm]
+    canon_other = _OTHER_WORK_ALIASES.get(name) or _OTHER_WORK_ALIASES.get(norm) or name
+    if _is_non_work(canon_other):
+        return None
+    return {"name": canon_other, "slug": None, "pokemon": False}
+
+
+def _work_search_terms(raw_name: str, resolved: dict) -> list[str]:
+    canon = resolved["name"]
+    terms = []
+    for t in [canon, raw_name, *_OTHER_REV_ALIASES.get(canon, [])]:
+        t = (t or "").strip()
+        if t and t not in terms:
+            terms.append(t)
+    return terms
+
+
+def _allow_non_pokemon_work(raw_name: str, resolved: dict, post: dict | None, segs_hint: list[int], via: str) -> bool:
+    if resolved.get("pokemon") or post is None:
+        return True
+    pid = post["id"]
+    segs = post["segs"]
+    terms = _work_search_terms(raw_name, resolved)
+    if post["kind"] == "blog" or "takeshi-shudo" in pid or pid.startswith("corporate-topic"):
+        return True
+
+    text_hits = [seg["n"] for seg in segs if any(t in seg_text(seg) for t in terms)]
+    title_blob = f"{post.get('title') or ''} {post['fm'].get('source') or ''}"
+    in_title = any(t in title_blob for t in terms)
+
+    if via == "entities":
+        return bool(in_title or text_hits)
+    if in_title or _NON_PKM_FEATURE_TITLE_RE.search(title_blob):
+        return True
+
+    def is_iv_seg(seg: dict) -> bool:
+        role = seg.get("role") or ""
+        spk = str(seg.get("speaker") or "").strip()
+        if role == "answer":
+            return True
+        if spk and not _MEDIA_SPEAKER_RE.search(spk):
+            return True
+        if not spk and _QUOTE_CHAR_RE.search(seg_text(seg)):
+            return True
+        return False
+
+    iv_indices = [i for i, seg in enumerate(segs) if is_iv_seg(seg)]
+    if not iv_indices:
+        return True
+    first_iv, last_iv = iv_indices[0], iv_indices[-1]
+    has_qa_roles = any(seg.get("role") in ("question", "answer") for seg in segs)
+    cand_segs = sorted(set(text_hits) | {s for s in segs_hint if isinstance(s, int) and 0 <= s < len(segs)})
+
+    for s in cand_segs:
+        if has_qa_roles and s == first_iv - 1 and segs[s].get("role") == "question":
+            return True
+        if first_iv <= s <= last_iv:
+            seg = segs[s]
+            if not has_qa_roles and not seg.get("speaker"):
+                qspans = " ".join(_QUOTE_SPAN_RE.findall(seg_text(seg)))
+                if any(t in qspans for t in terms):
+                    return True
+                orig_text = str(seg.get("original") or "")
+                orig_qspans = " ".join(_QUOTE_SPAN_RE.findall(orig_text))
+                if orig_qspans and any(t in orig_qspans for t in terms):
+                    return True
+                continue
+            return True
+    return False
+
+
+def _upsert_work(work_out: list[dict], resolved: dict, segs: list[int], via: str) -> None:
+    name = resolved["name"]
+    existing = next((w for w in work_out if w["name"] == name), None)
+    if existing:
+        merged = sorted(set(existing.get("seg") or []) | set(segs))
+        existing["seg"] = merged[:8] if len(merged) > 8 else merged
+        if existing.get("via") == "llm" and via == "entities":
+            existing["via"] = "entities"
+        return
+    work_out.append({
+        "name": name,
+        "slug": resolved.get("slug"),
+        "seg": sorted(set(segs)),
+        "via": via,
+    })
+
+
+def _sort_works(work_out: list[dict], works: dict) -> None:
+    work_out.sort(key=lambda w: (0 if w["name"] in works else 1))
 
 
 def as_list(value) -> list:
@@ -389,18 +1217,25 @@ def rule_facets(post: dict, tables: dict, matchers: dict, people_by_name: dict, 
         if len([*spelling]) >= 3 and spelling in post["title"]:
             add_poke(spelling, [], "title")
 
-    # --- 作品：前言里的 entities.works 是编者写的，正文里再找出现处
+    # --- 作品：前言里的 entities.works 是编者写的，正文里再找出现处；宝可梦作品排前，受访者提到的其他作品保留
     work_out = []
-    for name in as_list(ents.get("works")):
-        name = str(name).strip()
+    for raw_name in as_list(ents.get("works")):
+        resolved = resolve_work(raw_name, works)
+        if not resolved:
+            continue
+        raw_str = _clean_work_raw(raw_name)
+        terms = _work_search_terms(raw_str, resolved)
         spots = []
         for seg in segs:
-            if name and name in seg_text(seg):
+            txt = seg_text(seg)
+            if any(t in txt for t in terms):
                 spots.append(seg["n"])
             if len(spots) >= 6:
                 break
-        known = works.get(name) or {}
-        work_out.append({"name": name, "slug": known.get("slug"), "seg": spots, "via": "entities"})
+        if not _allow_non_pokemon_work(raw_str, resolved, post, spots, "entities"):
+            continue
+        _upsert_work(work_out, resolved, spots, "entities")
+    _sort_works(work_out, works)
 
     # --- 人：发言人 + entities.people
     # 扫描件的 speaker 字段里混着版面标题与图注小标（「全面解析 ALL ABOUT 宝可梦 黑」「颜色数量少令人恐惧」），
@@ -525,7 +1360,7 @@ def ask_lore(post: dict, facets: dict) -> dict:
               "places：正文点名的具体地点，最多 8 个，挑这篇里真正要紧的。what 写 8 字以内说明它在这篇里是什么"
               "（如「宝可梦公司总部」）；world 写 real（现实地点，如「六本木新城」「宝可梦中心东京」）"
               "或 game（游戏与动画里的地方，如「合众地区」「真新镇」）；泛指的国家与地区（日本、海外、欧美）不写。\n"
-              "works：正文点名的作品；people：正文点名的人。都写出现处的段号。\n"
+              "works：正文点名的《宝可梦》系列作品（标准简称如《宝可梦 红·绿》）、Game Freak 其他游戏作品，以及受访者或作者主动谈论的其他作品；不要填杂志封面宣传（如刊物导语顺带提到的他社新作）、媒体记者开场白里的凑题名、硬件主机、刊物媒体、门店公司或泛称「宝可梦」；people：正文点名的人。都写出现处的段号。\n"
               "拿不准的不写。")
     messages = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]
     got = parse_json(nom.deepseek(messages, max_tokens=1800))
@@ -594,10 +1429,15 @@ def merge_model(facets: dict, got: dict, post: dict, tables: dict, matchers: dic
                                          0 if p.get("seg") else 1))
     del facets["places"][10:]
     for row in got.get("works") or []:
-        name = str(row.get("name") or "").strip()
-        if not name or any(w["name"] == name for w in facets["works"]):
+        raw_str = _clean_work_raw(row.get("name"))
+        resolved = resolve_work(raw_str, works)
+        if not resolved:
             continue
-        facets["works"].append({"name": name, "slug": (works.get(name) or {}).get("slug"), "seg": seg_of(row), "via": "llm"})
+        segs_hint = seg_of(row)
+        if not _allow_non_pokemon_work(raw_str, resolved, post, segs_hint, "llm"):
+            continue
+        _upsert_work(facets["works"], resolved, segs_hint, "llm")
+    _sort_works(facets["works"], works)
     for row in got.get("people") or []:
         name = str(row.get("name") or "").strip()
         if not name or any(p["name"] == name for p in facets["people"]):
@@ -1013,9 +1853,91 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0)
     #  只把已有的记录重新汇成 _data/post_lore.yml，不碰模型也不重跑规则
     ap.add_argument("--collect", action="store_true")
+    #  按最新白名单与别名表清洗所有已生成 post_lore 与 cache_lore 中的 works，并重建 _data/post_lore.yml
+    ap.add_argument("--clean-works", action="store_true")
     #  概念这一轮：照 data/lore_tables/concepts.yml 逐段标注，不花钱、不碰别的字段
     ap.add_argument("--concepts", action="store_true")
     args = ap.parse_args()
+
+    if args.clean_works:
+        works = works_index()
+        by_id = {p["id"]: p for p in load_posts()}
+        cleaned_files = 0
+        for jp in sorted(LORE.glob("*.json")):
+            with io.open(jp, encoding="utf-8") as fh:
+                blob = json.loads(fh.read())
+            is_edited = bool(blob.get("edited"))
+            pid = blob.get("id") or jp.stem
+            post = by_id.get(pid)
+            n_segs = len(post["segs"]) if post else None
+            facets = blob.get("facets") or {}
+            old_works = facets.get("works") or []
+            new_works = []
+
+            def clamp_segs(raw_seg):
+                if isinstance(raw_seg, list):
+                    s_list = [s for s in raw_seg if isinstance(s, int)]
+                elif isinstance(raw_seg, int):
+                    s_list = [raw_seg]
+                else:
+                    s_list = []
+                if n_segs is not None:
+                    s_list = [s for s in s_list if 0 <= s < n_segs]
+                return s_list
+
+            if post and not is_edited:
+                ents = post["fm"].get("entities") or {}
+                for raw_name in as_list(ents.get("works")):
+                    resolved = resolve_work(raw_name, works)
+                    if not resolved:
+                        continue
+                    raw_str = _clean_work_raw(raw_name)
+                    terms = _work_search_terms(raw_str, resolved)
+                    spots = []
+                    for seg in post["segs"]:
+                        txt = seg_text(seg)
+                        if any(t in txt for t in terms):
+                            spots.append(seg["n"])
+                        if len(spots) >= 6:
+                            break
+                    if not _allow_non_pokemon_work(raw_str, resolved, post, spots, "entities"):
+                        continue
+                    _upsert_work(new_works, resolved, spots, "entities")
+
+            cache_path = CACHE / f"{pid}.json"
+            if not is_edited and cache_path.exists():
+                with io.open(cache_path, encoding="utf-8") as cfh:
+                    cached_blob = json.loads(cfh.read())
+                for row in (cached_blob.get("answer") or {}).get("works") or []:
+                    raw_str = _clean_work_raw(row.get("name"))
+                    resolved = resolve_work(raw_str, works)
+                    if not resolved:
+                        continue
+                    seg_list = clamp_segs(row.get("seg"))
+                    if not _allow_non_pokemon_work(raw_str, resolved, post, seg_list, "llm"):
+                        continue
+                    _upsert_work(new_works, resolved, seg_list, "llm")
+
+            for row in old_works:
+                raw_str = _clean_work_raw(row.get("name"))
+                resolved = resolve_work(raw_str, works)
+                if not resolved:
+                    continue
+                seg_list = clamp_segs(row.get("seg"))
+                via = row.get("via") or "llm"
+                if not is_edited and not _allow_non_pokemon_work(raw_str, resolved, post, seg_list, via):
+                    continue
+                _upsert_work(new_works, resolved, seg_list, via)
+
+            _sort_works(new_works, works)
+            if new_works != old_works:
+                facets["works"] = new_works
+                with io.open(jp, "w", encoding="utf-8") as out_fh:
+                    out_fh.write(json.dumps(blob, ensure_ascii=False, indent=2) + "\n")
+                cleaned_files += 1
+        n = collect(load_tables())
+        print(f"cleaned works in {cleaned_files} post_lore files; _data/post_lore.yml has {n} records")
+        return 0
 
     if args.collect:
         n = collect(load_tables())

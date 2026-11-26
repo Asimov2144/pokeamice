@@ -1,539 +1,539 @@
 {
- "id": "scan-cgworld-2017-07-game-graphics-studio-extra",
- "stem": "2017-06-10-scan-cgworld-2017-07-game-graphics-studio-extra",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 43
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     8,
-     10,
-     19
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 太阳·月亮",
-    "slug": "sun-moon",
-    "seg": [
-     30
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [
-     36
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦巡护员",
-    "slug": null,
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可公园",
-    "slug": null,
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "名侦探皮卡丘 ～新组合诞生～",
-    "slug": null,
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "GIGA WRECKER",
-    "slug": null,
-    "seg": [
-     38
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "接龙马",
-    "slug": null,
-    "seg": [
-     38
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "海野隆雄",
-    "slug": "unno-takao",
-    "role": "mentioned",
-    "seg": [
-     30,
-     31
-    ]
-   },
-   {
-    "name": "氏家淳子",
-    "slug": "shi-jia-chun-zi",
-    "role": "mentioned",
-    "seg": [
-     11
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "中广健吾",
-    "slug": "zhong-guang-jian-wu",
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "畠 祐贵",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     23
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "石黑真照",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     31
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "川野健太",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     31
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "山本裕辉",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     31
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "小野宪史",
-    "slug": "xiao-ye-xian-shi",
-    "role": "mentioned",
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "胡萝卜塔",
-    "id": "carrot_tower",
-    "entity": null,
-    "category": "game_freak",
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     40
-    ],
-    "via": "gazetteer"
-   },
-   {
-    "name": "东京都千代田区富士见2-10-2 饭田桥Grand Bloom 23F",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     15
-    ],
-    "what": "Creatures所在地",
-    "via": "llm"
-   },
-   {
-    "name": "东京都世田谷区太子堂4-1-1 胡萝卜塔22F",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     40
-    ],
-    "what": "GAME FREAK所在地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     5,
-     14,
-     16,
-     41
-    ],
-    "as": [
-     "工作方式",
-     "通宵",
-     "加班"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     10,
-     30
-    ],
-    "as": [
-     "授权",
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     10
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     10
-    ],
-    "as": [
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "outsourcing",
-    "name": "外包与协力",
-    "facet": "process",
-    "seg": [
-     11,
-     19
-    ],
-    "as": [
-     "外包"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     14,
-     34
-    ],
-    "as": [
-     "育儿"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     14,
-     19,
-     30,
-     33
-    ],
-    "as": [
-     "职业生涯",
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     16,
-     41
-    ],
-    "as": [
-     "招聘"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     16,
-     19,
-     20,
-     22,
-     33
-    ],
-    "as": [
-     "建模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     18
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     18,
-     19
-    ],
-    "as": [
-     "设定图",
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     30
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     30,
-     36
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     33
-    ],
-    "as": [
-     "分发"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     33
-    ],
-    "as": [
-     "画面表现"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     33,
-     34
-    ],
-    "as": [
-     "分工",
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     34,
-     38
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     34
-    ],
-    "as": [
-     "全公司"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     36
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     36
-    ],
-    "as": [
-     "全球同步发售"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     38
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     38
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     41
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [],
-    "as": [
-     "角色设计"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 11,
-   "text": "工作室所属3DCG美术师22名，希望数年翻倍"
+  "id": "scan-cgworld-2017-07-game-graphics-studio-extra",
+  "stem": "2017-06-10-scan-cgworld-2017-07-game-graphics-studio-extra",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 43
   },
-  {
-   "seg": 36,
-   "text": "《太阳·月亮》全球销量1,544万份"
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          8,
+          10,
+          19
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          30
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          30
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          36
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦巡护员",
+        "slug": "ranger",
+        "seg": [
+          10
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可公园Wii ～皮卡丘的大冒险～",
+        "slug": "pokepark-wii",
+        "seg": [
+          10
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "名侦探皮卡丘 ～新组合诞生～",
+        "slug": "detective-pikachu-birth-of-a-new-duo",
+        "seg": [
+          10
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "GIGA WRECKER",
+        "slug": null,
+        "seg": [
+          38
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "接龙赛马",
+        "slug": null,
+        "seg": [
+          38
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "海野隆雄",
+        "slug": "unno-takao",
+        "role": "mentioned",
+        "seg": [
+          30,
+          31
+        ]
+      },
+      {
+        "name": "氏家淳子",
+        "slug": "shi-jia-chun-zi",
+        "role": "mentioned",
+        "seg": [
+          11
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "中广健吾",
+        "slug": "zhong-guang-jian-wu",
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "畠 祐贵",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          23
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "石黑真照",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          31
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "川野健太",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          31
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "山本裕辉",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          31
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "小野宪史",
+        "slug": "xiao-ye-xian-shi",
+        "role": "mentioned",
+        "seg": [
+          6
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "胡萝卜塔",
+        "id": "carrot_tower",
+        "entity": null,
+        "category": "game_freak",
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          40
+        ],
+        "via": "gazetteer"
+      },
+      {
+        "name": "东京都千代田区富士见2-10-2 饭田桥Grand Bloom 23F",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          15
+        ],
+        "what": "Creatures所在地",
+        "via": "llm"
+      },
+      {
+        "name": "东京都世田谷区太子堂4-1-1 胡萝卜塔22F",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          40
+        ],
+        "what": "GAME FREAK所在地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          5,
+          14,
+          16,
+          41
+        ],
+        "as": [
+          "工作方式",
+          "通宵",
+          "加班"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          10,
+          30
+        ],
+        "as": [
+          "授权",
+          "监修"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          10
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          10
+        ],
+        "as": [
+          "卡牌游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "outsourcing",
+        "name": "外包与协力",
+        "facet": "process",
+        "seg": [
+          11,
+          19
+        ],
+        "as": [
+          "外包"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "education",
+        "name": "教育与育儿",
+        "facet": "audience",
+        "seg": [
+          14,
+          34
+        ],
+        "as": [
+          "育儿"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          14,
+          19,
+          30,
+          33
+        ],
+        "as": [
+          "职业生涯",
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          16,
+          41
+        ],
+        "as": [
+          "招聘"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          16,
+          19,
+          20,
+          22,
+          33
+        ],
+        "as": [
+          "建模"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          18
+        ],
+        "as": [
+          "真实感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          18,
+          19
+        ],
+        "as": [
+          "设定图",
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          30
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          30,
+          36
+        ],
+        "as": [
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          33
+        ],
+        "as": [
+          "分发"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          33
+        ],
+        "as": [
+          "画面表现"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          33,
+          34
+        ],
+        "as": [
+          "分工",
+          "协作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          34,
+          38
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "team-size",
+        "name": "团队规模",
+        "facet": "process",
+        "seg": [
+          34
+        ],
+        "as": [
+          "全公司"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          36
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "overseas",
+        "name": "海外发行",
+        "facet": "business",
+        "seg": [
+          36
+        ],
+        "as": [
+          "全球同步发售"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          38
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          38
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          41
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [],
+        "as": [
+          "角色设计"
+        ],
+        "via": "tag"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 11,
+      "text": "工作室所属3DCG美术师22名，希望数年翻倍"
+    },
+    {
+      "seg": 36,
+      "text": "《太阳·月亮》全球销量1,544万份"
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
+  },
+  "edited": true
 }

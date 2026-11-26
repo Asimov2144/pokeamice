@@ -1,679 +1,679 @@
 {
- "id": "scan-ndream-2014-01-xy-sound-team-interview",
- "stem": "2013-11-21-scan-ndream-2014-01-xy-sound-team-interview",
- "rev": 1,
- "built": "2026-11-12",
- "kind": "scan",
- "body": {
-  "kind": "segments",
-  "n": 259
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     254
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "戴鲁比",
-    "ndex": 228,
-    "seg": [
-     168,
-     169,
-     170,
-     171,
-     172
-    ],
-    "as": [
-     "戴鲁比"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [
-     12,
-     15,
-     16,
-     237,
-     238,
-     252
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 黑2·白2",
-    "slug": "black2-white2",
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "节奏猎人 和谐",
-    "slug": null,
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     24
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 心金·魂银",
-    "slug": "heartgold-soulsilver",
-    "seg": [
-     69
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     155
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "景山将太",
-    "slug": "kageyama-shota",
-    "role": "speaker",
-    "seg": [
-     13,
-     15,
-     17,
-     19,
-     21,
-     24
-    ]
-   },
-   {
-    "name": "佐藤仁美",
-    "slug": "sato-hitomi",
-    "role": "speaker",
-    "seg": [
-     30,
-     43,
-     51,
-     53,
-     55,
-     57
-    ]
-   },
-   {
-    "name": "足立美奈子",
-    "slug": "adachi-minako",
-    "role": "speaker",
-    "seg": [
-     31,
-     64,
-     78,
-     80,
-     90,
-     92
-    ]
-   },
-   {
-    "name": "全体",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     32,
-     143,
-     149,
-     184
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": [
-     17
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "黑田",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     131
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "普罗旺斯",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     34
-    ],
-    "what": "景山喜欢的地区",
-    "via": "llm"
-   },
-   {
-    "name": "马赛",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     34
-    ],
-    "what": "法国南部港城",
-    "via": "llm"
-   },
-   {
-    "name": "卡洛斯地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     28
-    ],
-    "what": "本作舞台",
-    "via": "llm"
-   },
-   {
-    "name": "法国",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     28
-    ],
-    "what": "卡洛斯原型",
-    "via": "llm"
-   },
-   {
-    "name": "巴黎",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     29
-    ],
-    "what": "取材地",
-    "via": "llm"
-   },
-   {
-    "name": "娑罗市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     52
-    ],
-    "what": "加入东方风元素",
-    "via": "llm"
-   },
-   {
-    "name": "百刻市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     60
-    ],
-    "what": "曲子加入时钟声",
-    "via": "llm"
-   },
-   {
-    "name": "祝庆市",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     155
-    ],
-    "what": "佐藤选的曲子",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     10
-    ],
-    "as": [
-     "继承"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     13
-    ],
-    "as": [
-     "开发周期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     17
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     17
-    ],
-    "as": [
-     "完全新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     19,
-     28,
-     35
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     28,
-     35
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     42,
-     68,
-     70,
-     77,
-     79,
-     80
-    ],
-    "as": [
-     "创作音乐",
-     "作曲",
-     "编曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     45,
-     56,
-     88
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     50
-    ],
-    "as": [
-     "吃惊"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     51
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     53,
-     64,
-     80
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "evolution-design",
-    "name": "进化的设计",
-    "facet": "design",
-    "seg": [
-     54,
-     141,
-     235
-    ],
-    "as": [
-     "超级进化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     59
-    ],
-    "as": [
-     "画面表现"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     60
-    ],
-    "as": [
-     "攻略"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     72,
-     104,
-     105,
-     108,
-     110,
-     113
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     79
-    ],
-    "as": [
-     "容易理解"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     81,
-     82,
-     86
-    ],
-    "as": [
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     86,
-     247,
-     248,
-     250
-    ],
-    "as": [
-     "音效",
-     "效果音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     110
-    ],
-    "as": [
-     "分发"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     110,
-     138
-    ],
-    "as": [
-     "音源"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     116,
-     135
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     153
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     163
-    ],
-    "as": [
-     "概率"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     215
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "antagonist",
-    "name": "对手与反派",
-    "facet": "story",
-    "seg": [
-     218,
-     220,
-     224
-    ],
-    "as": [
-     "劲敌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     231
-    ],
-    "as": [
-     "背景音乐"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     252,
-     254
-    ],
-    "as": [
-     "全球同步发售"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     254
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 17,
-   "text": "增田顺一对景山说声音的一切都交给他"
+  "id": "scan-ndream-2014-01-xy-sound-team-interview",
+  "stem": "2013-11-21-scan-ndream-2014-01-xy-sound-team-interview",
+  "rev": 1,
+  "built": "2026-11-12",
+  "kind": "scan",
+  "body": {
+    "kind": "segments",
+    "n": 259
   },
-  {
-   "seg": 19,
-   "text": "约1年反复制作原型并试错摸索表现"
-  }
- ],
- "relations": [
-  {
-   "id": "interview-dengeki-xy-masuda-kageyama-setting-art",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典",
-   "url": "/%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6xy/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-xy-masuda-kageyama-setting-art/",
-   "why": "同为2013年11月增田与景山谈X·Y声音的场合"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          254
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "戴鲁比",
+        "ndex": 228,
+        "seg": [
+          168,
+          169,
+          170,
+          171,
+          172
+        ],
+        "as": [
+          "戴鲁比"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          12,
+          15,
+          16,
+          237,
+          238,
+          252
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 黑2·白2",
+        "slug": "black2-white2",
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          24
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 心金·魂银",
+        "slug": "heartgold-soulsilver",
+        "seg": [
+          69
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          155
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "节奏猎人 和谐骑士",
+        "slug": null,
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "景山将太",
+        "slug": "kageyama-shota",
+        "role": "speaker",
+        "seg": [
+          13,
+          15,
+          17,
+          19,
+          21,
+          24
+        ]
+      },
+      {
+        "name": "佐藤仁美",
+        "slug": "sato-hitomi",
+        "role": "speaker",
+        "seg": [
+          30,
+          43,
+          51,
+          53,
+          55,
+          57
+        ]
+      },
+      {
+        "name": "足立美奈子",
+        "slug": "adachi-minako",
+        "role": "speaker",
+        "seg": [
+          31,
+          64,
+          78,
+          80,
+          90,
+          92
+        ]
+      },
+      {
+        "name": "全体",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          32,
+          143,
+          149,
+          184
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": [
+          17
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "黑田",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          131
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "普罗旺斯",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          34
+        ],
+        "what": "景山喜欢的地区",
+        "via": "llm"
+      },
+      {
+        "name": "马赛",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          34
+        ],
+        "what": "法国南部港城",
+        "via": "llm"
+      },
+      {
+        "name": "卡洛斯地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          28
+        ],
+        "what": "本作舞台",
+        "via": "llm"
+      },
+      {
+        "name": "法国",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          28
+        ],
+        "what": "卡洛斯原型",
+        "via": "llm"
+      },
+      {
+        "name": "巴黎",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          29
+        ],
+        "what": "取材地",
+        "via": "llm"
+      },
+      {
+        "name": "娑罗市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          52
+        ],
+        "what": "加入东方风元素",
+        "via": "llm"
+      },
+      {
+        "name": "百刻市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          60
+        ],
+        "what": "曲子加入时钟声",
+        "via": "llm"
+      },
+      {
+        "name": "祝庆市",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          155
+        ],
+        "what": "佐藤选的曲子",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          10
+        ],
+        "as": [
+          "继承"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          13
+        ],
+        "as": [
+          "开发周期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          17
+        ],
+        "as": [
+          "新硬件"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          17
+        ],
+        "as": [
+          "完全新作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          19,
+          28,
+          35
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          28,
+          35
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          42,
+          68,
+          70,
+          77,
+          79,
+          80
+        ],
+        "as": [
+          "创作音乐",
+          "作曲",
+          "编曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          45,
+          56,
+          88
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          50
+        ],
+        "as": [
+          "吃惊"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          51
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          53,
+          64,
+          80
+        ],
+        "as": [
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "evolution-design",
+        "name": "进化的设计",
+        "facet": "design",
+        "seg": [
+          54,
+          141,
+          235
+        ],
+        "as": [
+          "超级进化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          59
+        ],
+        "as": [
+          "画面表现"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "guides",
+        "name": "攻略文化",
+        "facet": "audience",
+        "seg": [
+          60
+        ],
+        "as": [
+          "攻略"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          72,
+          104,
+          105,
+          108,
+          110,
+          113
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          79
+        ],
+        "as": [
+          "容易理解"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          81,
+          82,
+          86
+        ],
+        "as": [
+          "关卡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          86,
+          247,
+          248,
+          250
+        ],
+        "as": [
+          "音效",
+          "效果音"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          110
+        ],
+        "as": [
+          "分发"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sound-hardware",
+        "name": "音源与机能",
+        "facet": "audio",
+        "seg": [
+          110,
+          138
+        ],
+        "as": [
+          "音源"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          116,
+          135
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          153
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          163
+        ],
+        "as": [
+          "概率"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          215
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "antagonist",
+        "name": "对手与反派",
+        "facet": "story",
+        "seg": [
+          218,
+          220,
+          224
+        ],
+        "as": [
+          "劲敌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          231
+        ],
+        "as": [
+          "背景音乐"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "overseas",
+        "name": "海外发行",
+        "facet": "business",
+        "seg": [
+          252,
+          254
+        ],
+        "as": [
+          "全球同步发售"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          254
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "scan-ndream-2013-12-xy-character-design-interview",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "卡洛斯人物开发秘话",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2013-12-xy-character-design-interview/",
-   "why": "同为X·Y开发访谈，涉法国取材"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "source_review": "2026-11-12 old scan audit"
- },
- "edited": true
+  "observations": [
+    {
+      "seg": 17,
+      "text": "增田顺一对景山说声音的一切都交给他"
+    },
+    {
+      "seg": 19,
+      "text": "约1年反复制作原型并试错摸索表现"
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-dengeki-xy-masuda-kageyama-setting-art",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典",
+      "url": "/%E9%87%87%E8%AE%BF/%E7%8E%B0%E5%9C%BA%E6%B4%BB%E5%8A%A8/%E5%AE%9D%E5%8F%AF%E6%A2%A6xy/%E8%A7%92%E8%89%B2%E4%B8%8E%E5%AF%B9%E6%88%98/interview-dengeki-xy-masuda-kageyama-setting-art/",
+      "why": "同为2013年11月增田与景山谈X·Y声音的场合"
+    },
+    {
+      "id": "scan-ndream-2013-12-xy-character-design-interview",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "卡洛斯人物开发秘话",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2013-12-xy-character-design-interview/",
+      "why": "同为X·Y开发访谈，涉法国取材"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "source_review": "2026-11-12 old scan audit"
+  },
+  "edited": true
 }

@@ -1,203 +1,197 @@
 {
- "id": "interview-gamefreak-recruit-pl-my",
- "stem": "2019-04-01-interview-gamefreak-recruit-pl-my",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 13
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     8,
-     9
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
-    "slug": "lets-go",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 走吧！皮卡丘／走吧！伊布",
-    "slug": null,
-    "seg": [
-     9
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "M.Y.",
-    "slug": "m-y",
-    "role": "speaker",
-    "seg": [
-     2,
-     6,
-     9,
-     12
-    ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": [
-     12
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "武藏野美术大学",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     2
-    ],
-    "what": "M.Y.的毕业院校",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     2,
-     6
-    ],
-    "as": [
-     "入社"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     5,
-     6
-    ],
-    "as": [
-     "重做"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     5,
-     6,
-     9
-    ],
-    "as": [
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     6
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     6
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     9
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     12
-    ],
-    "as": [
-     "企划案"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "M.Y.毕业于武藏野美术大学映像学科，以游戏策划身份入社。",
-   "anchor": 3
+  "id": "interview-gamefreak-recruit-pl-my",
+  "stem": "2019-04-01-interview-gamefreak-recruit-pl-my",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 13
   },
-  {
-   "seg": 9,
-   "text": "M.Y.在《走吧！皮卡丘／走吧！伊布》中主导宝可梦跟随行走系统。",
-   "anchor": 10
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          8,
+          9
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+        "slug": "lets-go",
+        "seg": [
+          9
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "M.Y.",
+        "slug": "m-y",
+        "role": "speaker",
+        "seg": [
+          2,
+          6,
+          9,
+          12
+        ]
+      },
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "mentioned",
+        "seg": [
+          12
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "武藏野美术大学",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          2
+        ],
+        "what": "M.Y.的毕业院校",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          2,
+          6
+        ],
+        "as": [
+          "入社"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          5,
+          6
+        ],
+        "as": [
+          "重做"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          5,
+          6,
+          9
+        ],
+        "as": [
+          "新人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          6
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          6
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          9
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          12
+        ],
+        "as": [
+          "企划案"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          12
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 2,
+      "text": "M.Y.毕业于武藏野美术大学映像学科，以游戏策划身份入社。",
+      "anchor": 3
+    },
+    {
+      "seg": 9,
+      "text": "M.Y.在《走吧！皮卡丘／走吧！伊布》中主导宝可梦跟随行走系统。",
+      "anchor": 10
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

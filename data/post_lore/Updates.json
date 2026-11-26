@@ -1,217 +1,193 @@
 {
- "id": "Updates",
- "stem": "2022-05-31-Updates",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "article",
- "body": {
-  "kind": "markdown",
-  "n": 23
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 朱&紫",
-    "slug": null,
-    "seg": [
-     9
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石·蓝宝石",
-    "slug": "ruby-sapphire",
-    "seg": [
-     21
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦剧场版 美术设定大全",
-    "slug": null,
-    "seg": [
-     22
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "铁板阵",
-    "slug": null,
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Nintendo Dream Vol.84",
-    "slug": null,
-    "seg": [
-     21
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "mentioned",
-    "seg": [
-     20
-    ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": [
-     20
-    ]
-   },
-   {
-    "name": "石原",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "森下的等式",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "水谷惠",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     16
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "田尻",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "远藤雅伸",
-    "slug": "endo-masanobu",
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "yumi",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "仙布",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     22
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     9
-    ],
-    "as": [
-     "菜单"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     14,
-     15
-    ],
-    "as": [
-     "宝可梦卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     22
-    ],
-    "as": [
-     "设定图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     22
-    ],
-    "as": [
-     "剧场版"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 6,
-   "text": "完成全世代OST附录小册子扫描件和盘面照片上传，素材来自musicbrainz.org"
+  "id": "Updates",
+  "stem": "2022-05-31-Updates",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "article",
+  "body": {
+    "kind": "markdown",
+    "n": 23
   },
-  {
-   "seg": 20,
-   "text": "完成一篇田尻16年采访的校对工作，感谢yumi的翻译"
-  }
- ],
- "relations": [
-  {
-   "id": "interview-denfami-xevious-tajiri-sugimori-endo",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈",
-   "url": "//interview-denfami-xevious-tajiri-sugimori-endo/",
-   "why": "田尻智2016年鼎谈，本篇校对的是该采访"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 朱·紫",
+        "slug": "scarlet-violet",
+        "seg": [
+          9
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          21
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "mentioned",
+        "seg": [
+          20
+        ]
+      },
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "mentioned",
+        "seg": [
+          20
+        ]
+      },
+      {
+        "name": "石原",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "森下的等式",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "水谷惠",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          16
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "田尻",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "远藤雅伸",
+        "slug": "endo-masanobu",
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "yumi",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "仙布",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          22
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          9
+        ],
+        "as": [
+          "菜单"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          14,
+          15
+        ],
+        "as": [
+          "宝可梦卡牌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          22
+        ],
+        "as": [
+          "设定图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          22
+        ],
+        "as": [
+          "剧场版"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 6,
+      "text": "完成全世代OST附录小册子扫描件和盘面照片上传，素材来自musicbrainz.org"
+    },
+    {
+      "seg": 20,
+      "text": "完成一篇田尻16年采访的校对工作，感谢yumi的翻译"
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-denfami-xevious-tajiri-sugimori-endo",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈",
+      "url": "//interview-denfami-xevious-tajiri-sugimori-endo/",
+      "why": "田尻智2016年鼎谈，本篇校对的是该采访"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

@@ -41,6 +41,7 @@ workflow:
   published: draft
 topics:
 - 海外媒体专访
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - type: image
   image: /assets/img/interviews/2017-08-18-interview-gi-2017-usum-mode/001.jpg

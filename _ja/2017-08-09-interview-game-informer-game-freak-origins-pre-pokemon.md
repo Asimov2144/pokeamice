@@ -29,6 +29,7 @@ people_ja:
 - 増田順一
 speaker_zh:
   増田順一: 增田顺一
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - speaker: Game Informer
   original: We recently had the opportunity to visit the offices of Game Freak, the creators of Pokémon, to discuss the series, its impact, and its future. The studio is more than Pokémon, however, and we talked to them about its beginnings and its games that don’t explore the world of Pocket Monsters.
@@ -133,8 +134,4 @@ parallel_items:
   original: “Of course, those side projects are always really important for the developer to try different things and we all like to explore new opportunities for Game Freak as a company, not being just stuck in one thing,” Masuda says, “But the reality of the games industry is with other projects, just to get people to notice you, there are so many games out there these days that we definitely feel that tough situation is the reality of the video game market.”
   translation: 「もちろん、そうしたサイドプロジェクトは、開発者がいろいろなことに挑戦するうえでとても大事なんです。ゲームフリークという会社としても、ひとつのことだけに留まらず、新しい可能性を探っていきたいと思っています」と増田氏は語る。「ただ、ゲーム業界の現実として、他のプロジェクトでまず知ってもらうだけでも、今は本当にたくさんのゲームがあるので、その厳しさはビデオゲーム市場の現実としてすごく感じています」
   role: answer
-- speaker: Game Informer
-  original: For more on the history of Pokémon, check out Game Informer’s coverage covering the franchise’s history, as well as our deep-dive interviews with Game Freak.
-  translation: ポケモンの歴史についてもっと知りたい方は、Game Informerによるフランチャイズの歴史をたどる特集や、ゲームフリークへの深掘りインタビューもチェックしてほしい。
-  role: question
 ---

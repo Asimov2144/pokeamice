@@ -1,128 +1,128 @@
 {
- "id": "gamefreak-director-216",
- "stem": "2011-12-13-gamefreak-director-216",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 70
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "Quinty",
-    "slug": null,
-    "seg": [
-     11,
-     14,
-     15,
-     46,
-     51,
-     53
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     25
-    ],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
-  "places": [
-   {
-    "name": "新宿",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     6
-    ],
-    "what": "日本电子专门学校所在地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     9
-    ],
-    "as": [
-     "汇编"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 6,
-   "text": "增田顺一18岁考入新宿的日本电子专门学校CG专业"
+  "id": "gamefreak-director-216",
+  "stem": "2011-12-13-gamefreak-director-216",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 70
   },
-  {
-   "seg": 15,
-   "text": "1989年《Quinty》完成，田尻为发售成立GAME FREAK株式会社"
-  }
- ],
- "relations": [
-  {
-   "id": "interview-gameatsumaru-masuda-indie-gamefreak-origins",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "增田顺一谈宝可梦与游戏音乐",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameatsumaru-masuda-indie-gamefreak-origins/",
-   "why": "同为增田谈Quinty版税成立Game Freak"
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          25
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "Quinty",
+        "slug": null,
+        "seg": [
+          11,
+          14,
+          15,
+          46,
+          51,
+          53
+        ],
+        "via": "entities"
+      }
+    ],
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "mentioned",
+        "seg": []
+      }
+    ],
+    "places": [
+      {
+        "name": "新宿",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          6
+        ],
+        "what": "日本电子专门学校所在地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          9
+        ],
+        "as": [
+          "汇编"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          13
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-game-informer-game-freak-origins-pre-pokemon",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "Game Freak’s Origins And Its Pre-Pokémon Games",
-   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E7%BA%A2%E7%BB%BF/game%20freak/interview-game-informer-game-freak-origins-pre-pokemon/",
-   "why": "同述Quinty由南梦宫发行并成立公司"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 6,
+      "text": "增田顺一18岁考入新宿的日本电子专门学校CG专业"
+    },
+    {
+      "seg": 15,
+      "text": "1989年《Quinty》完成，田尻为发售成立GAME FREAK株式会社"
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-gameatsumaru-masuda-indie-gamefreak-origins",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "增田顺一谈宝可梦与游戏音乐",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gameatsumaru-masuda-indie-gamefreak-origins/",
+      "why": "同为增田谈Quinty版税成立Game Freak"
+    },
+    {
+      "id": "interview-game-informer-game-freak-origins-pre-pokemon",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "Game Freak’s Origins And Its Pre-Pokémon Games",
+      "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E7%BA%A2%E7%BB%BF/game%20freak/interview-game-informer-game-freak-origins-pre-pokemon/",
+      "why": "同述Quinty由南梦宫发行并成立公司"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

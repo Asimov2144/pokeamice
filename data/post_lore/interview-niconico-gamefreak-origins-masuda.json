@@ -1,866 +1,823 @@
 {
- "id": "interview-niconico-gamefreak-origins-masuda",
- "stem": "2014-08-22-interview-niconico-gamefreak-origins-masuda",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 99
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "巴大蝶",
-    "ndex": 12,
-    "seg": [
-     45
+  "id": "interview-niconico-gamefreak-origins-masuda",
+  "stem": "2014-08-22-interview-niconico-gamefreak-origins-masuda",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 99
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "巴大蝶",
+        "ndex": 12,
+        "seg": [
+          45
+        ],
+        "as": [
+          "巴大蝶"
+        ],
+        "via": "body"
+      }
     ],
-    "as": [
-     "巴大蝶"
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          7,
+          45,
+          91
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "旋转方块",
+        "slug": null,
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Quinty",
+        "slug": null,
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "猫捉老鼠",
+        "slug": null,
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Nova 2001",
+        "slug": null,
+        "seg": [
+          20
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "俄罗斯方块",
+        "slug": null,
+        "seg": [
+          30
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "勇者斗恶龙",
+        "slug": null,
+        "seg": [
+          36
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "亲属的基本结构",
+        "slug": null,
+        "seg": [
+          38
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "游戏与人",
+        "slug": null,
+        "seg": [
+          70,
+          76
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Homo Ludens",
+        "slug": null,
+        "seg": [
+          76
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "樱花樱花",
+        "slug": null,
+        "seg": [
+          58
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "旋转方块",
-    "slug": null,
-    "seg": [
-     2
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          10,
+          11,
+          13,
+          14,
+          15,
+          17
+        ]
+      },
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "mentioned",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "河口洋一郎",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          18
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "克洛德·列维-斯特劳斯",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          38
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "系井重里",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          40
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "罗杰·凯约瓦",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          70
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "中村光一",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          69
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "约翰·霍伊津哈",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          76
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "Quinty",
-    "slug": null,
-    "seg": [
-     2
+    "places": [
+      {
+        "name": "关东平原",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          47
+        ],
+        "what": "关都地区原型",
+        "via": "llm"
+      },
+      {
+        "name": "紫苑镇",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          56
+        ],
+        "what": "红绿中的城镇",
+        "via": "llm"
+      },
+      {
+        "name": "横滨",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          0
+        ],
+        "what": "增田出生地",
+        "via": "llm"
+      },
+      {
+        "name": "冲绳",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          48
+        ],
+        "what": "音乐举例地",
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "孟德尔宫殿",
-    "slug": null,
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Game Freak",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "猫捉老鼠",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Mappy",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Nova 2001",
-    "slug": null,
-    "seg": [
-     20
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "俄罗斯方块",
-    "slug": null,
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Tetris",
-    "slug": null,
-    "seg": [
-     30
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "勇者斗恶龙",
-    "slug": null,
-    "seg": [
-     36
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "亲属的基本结构",
-    "slug": null,
-    "seg": [
-     38
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "人，游戏与游玩",
-    "slug": null,
-    "seg": [
-     70
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Les jeux et les hommes",
-    "slug": null,
-    "seg": [
-     70
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "游戏的人",
-    "slug": null,
-    "seg": [
-     76
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Homo Ludens",
-    "slug": null,
-    "seg": [
-     76
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "樱花樱花",
-    "slug": null,
-    "seg": [
-     58
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     10,
-     11,
-     13,
-     14,
-     15,
-     17
+    "concepts": [
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          3,
+          10
+        ],
+        "as": [
+          "玩家之间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "fan-works",
+        "name": "二创与同人",
+        "facet": "audience",
+        "seg": [
+          3,
+          4,
+          10,
+          11,
+          53,
+          82
+        ],
+        "as": [
+          "同人",
+          "同人志"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "guides",
+        "name": "攻略文化",
+        "facet": "audience",
+        "seg": [
+          3,
+          4,
+          10
+        ],
+        "as": [
+          "攻略"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          3
+        ],
+        "as": [
+          "核心玩家"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          7,
+          15,
+          50
+        ],
+        "as": [
+          "音乐创作",
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "bgm",
+        "name": "背景音乐",
+        "facet": "audio",
+        "seg": [
+          14,
+          44,
+          54,
+          55,
+          63
+        ],
+        "as": [
+          "背景音乐",
+          "BGM"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-music",
+        "name": "音乐剧与演出",
+        "facet": "franchise",
+        "seg": [
+          15,
+          60
+        ],
+        "as": [
+          "交响"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          22,
+          44,
+          68,
+          93
+        ],
+        "as": [
+          "卡带",
+          "内存",
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          23,
+          30,
+          44,
+          62,
+          88,
+          91
+        ],
+        "as": [
+          "代码",
+          "汇编"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          24,
+          84
+        ],
+        "as": [
+          "联网"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sales",
+        "name": "销量",
+        "facet": "business",
+        "seg": [
+          24
+        ],
+        "as": [
+          "销量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          26
+        ],
+        "as": [
+          "强度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          26
+        ],
+        "as": [
+          "加班"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          29,
+          85
+        ],
+        "as": [
+          "家庭"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          29,
+          30
+        ],
+        "as": [
+          "入社"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          32
+        ],
+        "as": [
+          "通信电缆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          32
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "outsourcing",
+        "name": "外包与协力",
+        "facet": "process",
+        "seg": [
+          34
+        ],
+        "as": [
+          "外包"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          36
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          36
+        ],
+        "as": [
+          "进行交换"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "version-pair",
+        "name": "两个版本",
+        "facet": "system",
+        "seg": [
+          37
+        ],
+        "as": [
+          "双版本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          39
+        ],
+        "as": [
+          "开发期间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          39,
+          66
+        ],
+        "as": [
+          "指导"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          41,
+          42,
+          43,
+          44,
+          45,
+          49
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          42,
+          81,
+          92
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          44,
+          79
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sound-hardware",
+        "name": "音源与机能",
+        "facet": "audio",
+        "seg": [
+          44
+        ],
+        "as": [
+          "声道"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          47,
+          73
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          50,
+          75
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          53,
+          68
+        ],
+        "as": [
+          "免费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          53,
+          58,
+          61,
+          62,
+          63
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          54,
+          59,
+          87
+        ],
+        "as": [
+          "迷宫",
+          "洞窟",
+          "关卡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "life-and-death",
+        "name": "生死的表述",
+        "facet": "design",
+        "seg": [
+          54
+        ],
+        "as": [
+          "濒死"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          56
+        ],
+        "as": [
+          "小时候玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          62
+        ],
+        "as": [
+          "调试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          66
+        ],
+        "as": [
+          "对战系统"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          67
+        ],
+        "as": [
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          72
+        ],
+        "as": [
+          "属性相克"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          86
+        ],
+        "as": [
+          "协作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pixel-art",
+        "name": "像素画",
+        "facet": "tech",
+        "seg": [
+          93
+        ],
+        "as": [
+          "点阵图"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "河口洋一郎",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     18
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "克洛德·列维-斯特劳斯",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     38
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "系井重里",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     40
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "罗杰·凯约瓦",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     70
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "中村光一",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     69
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "约翰·霍伊津哈",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     76
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "关东平原",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     47
-    ],
-    "what": "关都地区原型",
-    "via": "llm"
-   },
-   {
-    "name": "紫苑镇",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     56
-    ],
-    "what": "红绿中的城镇",
-    "via": "llm"
-   },
-   {
-    "name": "横滨",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     0
-    ],
-    "what": "增田出生地",
-    "via": "llm"
-   },
-   {
-    "name": "冲绳",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     48
-    ],
-    "what": "音乐举例地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     3,
-     10
-    ],
-    "as": [
-     "玩家之间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     3,
-     4,
-     10,
-     11,
-     53,
-     82
-    ],
-    "as": [
-     "同人",
-     "同人志"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     3,
-     4,
-     10
-    ],
-    "as": [
-     "攻略"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     3
-    ],
-    "as": [
-     "核心玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     7,
-     15,
-     50
-    ],
-    "as": [
-     "音乐创作",
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "bgm",
-    "name": "背景音乐",
-    "facet": "audio",
-    "seg": [
-     14,
-     44,
-     54,
-     55,
-     63
-    ],
-    "as": [
-     "背景音乐",
-     "BGM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     15,
-     60
-    ],
-    "as": [
-     "交响"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     22,
-     44,
-     68,
-     93
-    ],
-    "as": [
-     "卡带",
-     "内存",
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     23,
-     30,
-     44,
-     62,
-     88,
-     91
-    ],
-    "as": [
-     "代码",
-     "汇编"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     24,
-     84
-    ],
-    "as": [
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sales",
-    "name": "销量",
-    "facet": "business",
-    "seg": [
-     24
-    ],
-    "as": [
-     "销量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     26
-    ],
-    "as": [
-     "强度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     26
-    ],
-    "as": [
-     "加班"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     29,
-     85
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     29,
-     30
-    ],
-    "as": [
-     "入社"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     32
-    ],
-    "as": [
-     "通信电缆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     32
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "outsourcing",
-    "name": "外包与协力",
-    "facet": "process",
-    "seg": [
-     34
-    ],
-    "as": [
-     "外包"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     36
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     36
-    ],
-    "as": [
-     "进行交换"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "version-pair",
-    "name": "两个版本",
-    "facet": "system",
-    "seg": [
-     37
-    ],
-    "as": [
-     "双版本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     39
-    ],
-    "as": [
-     "开发期间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     39,
-     66
-    ],
-    "as": [
-     "指导"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     41,
-     42,
-     43,
-     44,
-     45,
-     49
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     42,
-     81,
-     92
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     44,
-     79
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sound-hardware",
-    "name": "音源与机能",
-    "facet": "audio",
-    "seg": [
-     44
-    ],
-    "as": [
-     "声道"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     47,
-     73
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     50,
-     75
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     53,
-     68
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     53,
-     58,
-     61,
-     62,
-     63
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     54,
-     59,
-     87
-    ],
-    "as": [
-     "迷宫",
-     "洞窟",
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
-    "seg": [
-     54
-    ],
-    "as": [
-     "濒死"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     56
-    ],
-    "as": [
-     "小时候玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     62
-    ],
-    "as": [
-     "调试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     66
-    ],
-    "as": [
-     "对战系统"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     67
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     72
-    ],
-    "as": [
-     "属性相克"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     86
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     93
-    ],
-    "as": [
-     "点阵图"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 10,
-   "text": "增田说约30年前田尻智创办同人志《GAME FREAK》，自己也是忠实读者",
-   "anchor": 11
   },
-  {
-   "seg": 93,
-   "text": "增田称初代《宝可梦 红／绿》核心开发阵容刚好9人",
-   "anchor": 94
-  }
- ],
- "relations": [
-  {
-   "id": "interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "GAME Watch 独家专访：红白机名作《旋转方块（Quinty）》归来！GAME FREAK 创业元老杉森建×增田顺一×森本茂树回顾黎明期与宝可梦的原点",
-   "url": "/%E8%AE%BF%E8%B0%88/%E5%88%9B%E4%B8%9A%E5%8E%86%E5%8F%B2/interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto/",
-   "why": "同为2014年增田回顾GAME FREAK黎明期与《旋转方块》"
+  "observations": [
+    {
+      "seg": 10,
+      "text": "增田说约30年前田尻智创办同人志《GAME FREAK》，自己也是忠实读者",
+      "anchor": 11
+    },
+    {
+      "seg": 93,
+      "text": "增田称初代《宝可梦 红／绿》核心开发阵容刚好9人",
+      "anchor": 94
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "GAME Watch 独家专访：红白机名作《旋转方块（Quinty）》归来！GAME FREAK 创业元老杉森建×增田顺一×森本茂树回顾黎明期与宝可梦的原点",
+      "url": "/%E8%AE%BF%E8%B0%88/%E5%88%9B%E4%B8%9A%E5%8E%86%E5%8F%B2/interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto/",
+      "why": "同为2014年增田回顾GAME FREAK黎明期与《旋转方块》"
+    },
+    {
+      "id": "interview-game-informer-game-freak-origins-pre-pokemon",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "Game Freak’s Origins And Its Pre-Pokémon Games",
+      "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E7%BA%A2%E7%BB%BF/game%20freak/interview-game-informer-game-freak-origins-pre-pokemon/",
+      "why": "同述GAME FREAK由同人志起步及《Quinty》南梦宫发行"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-game-informer-game-freak-origins-pre-pokemon",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "Game Freak’s Origins And Its Pre-Pokémon Games",
-   "url": "/%E9%87%87%E8%AE%BF/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E7%BA%A2%E7%BB%BF/game%20freak/interview-game-informer-game-freak-origins-pre-pokemon/",
-   "why": "同述GAME FREAK由同人志起步及《Quinty》南梦宫发行"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

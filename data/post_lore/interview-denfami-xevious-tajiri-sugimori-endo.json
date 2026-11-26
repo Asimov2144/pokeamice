@@ -1,1048 +1,1035 @@
 {
- "id": "interview-denfami-xevious-tajiri-sugimori-endo",
- "stem": "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 319
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     6,
-     9
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "铁板阵",
-    "slug": null,
-    "seg": [
-     0,
-     2,
-     13,
-     24,
-     28,
-     41
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "迷宫塔",
-    "slug": null,
-    "seg": [
-     40
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "麦森探险",
-    "slug": null,
-    "seg": [
-     130,
-     137,
-     144,
-     145,
-     219,
-     297
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "俄罗斯方块",
-    "slug": null,
-    "seg": [
-     162,
-     171
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "吃豆人世界",
-    "slug": null,
-    "seg": [
-     2,
-     257,
-     265
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "接龙马",
-    "slug": null,
-    "seg": [
-     166,
-     167,
-     172
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "GAME FREAK",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "勇者斗恶龙",
-    "slug": null,
-    "seg": [
-     189
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "恶魔之魂",
-    "slug": null,
-    "seg": [
-     194
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "数独",
-    "slug": null,
-    "seg": [
-     198
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "寒蝉鸣泣之时",
-    "slug": null,
-    "seg": [
-     41
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "高达",
-    "slug": null,
-    "seg": [
-     86
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "新游戏设计",
-    "slug": null,
-    "seg": [
-     219
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "在Pac-Land捕获",
-    "slug": null,
-    "seg": [
-     26
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "铁板阵1000万分解法",
-    "slug": null,
-    "seg": [
-     120
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Super Soft Magazine",
-    "slug": null,
-    "seg": [
-     45
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "MyCom BASIC Magazine",
-    "slug": null,
-    "seg": [
-     45
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "LOGIN",
-    "slug": null,
-    "seg": [
-     243
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "电玩志",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     5,
-     12,
-     14,
-     19,
-     23,
-     31
-    ]
-   },
-   {
-    "name": "远藤雅伸",
-    "slug": "endo-masanobu",
-    "role": "speaker",
-    "seg": [
-     6,
-     9,
-     13,
-     15,
-     17,
-     25
-    ]
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     7,
-     10,
-     20,
-     24,
-     28,
-     32
-    ]
-   },
-   {
-    "name": "全员",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     8,
-     21,
-     39,
-     50,
-     104,
-     233
-    ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "speaker",
-    "seg": [
-     16,
-     22,
-     27,
-     29,
-     33,
-     35
-    ]
-   },
-   {
-    "name": "一之濑刚",
-    "slug": "ichinose-go",
-    "role": "speaker",
-    "seg": [
-     169,
-     171,
-     173,
-     280,
-     284
-    ]
-   },
-   {
-    "name": "横井军平",
-    "slug": "yokoi-gunpei",
-    "role": "mentioned",
-    "seg": [
-     173,
-     179,
-     188
-    ]
-   },
-   {
-    "name": "うる星あんず",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     41
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "富野由悠季",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     86
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "堀井雄二",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     189
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宫崎英高",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     194
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宫本",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     237
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "森本",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     280
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "中泽新一",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     26
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "大堀",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     55
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "饭野",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     213
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "藤泽",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     192
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "池田",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     272
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "新宿",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     13
-    ],
-    "what": "远藤常去的游戏中心",
-    "via": "llm"
-   },
-   {
-    "name": "千代田区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     16
-    ],
-    "what": "摆世嘉新作的游戏中心",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "community",
-    "name": "玩家社群",
-    "facet": "audience",
-    "seg": [
-     0,
-     2,
-     14,
-     16,
-     35,
-     41
-    ],
-    "as": [
-     "论坛",
-     "社群",
-     "玩家之间",
-     "口耳相传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     0
-    ],
-    "as": [
-     "开发环境"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     0,
-     166,
-     204
-    ],
-    "as": [
-     "智能手机",
-     "手机游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     0,
-     63,
-     69,
-     70,
-     73,
-     75
-    ],
-    "as": [
-     "企划书"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     0
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     2,
-     24,
-     41,
-     44,
-     45,
-     52
-    ],
-    "as": [
-     "秘技",
-     "攻略",
-     "攻略本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     13
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     16,
-     103,
-     222
-    ],
-    "as": [
-     "试作",
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     24,
-     25,
-     27,
-     35,
-     45,
-     132
-    ],
-    "as": [
-     "同人志"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     26
-    ],
-    "as": [
-     "复刻"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     27,
-     271
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     28,
-     32,
-     33,
-     34,
-     84
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     33,
-     135
-    ],
-    "as": [
-     "操作方式",
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     40,
-     195,
-     197,
-     199,
-     202,
-     204
-    ],
-    "as": [
-     "迷宫",
-     "关卡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     45,
-     98,
-     99
-    ],
-    "as": [
-     "广告",
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     47,
-     49,
-     202
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     53
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     71,
-     121,
-     123
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     79,
-     81
-    ],
-    "as": [
-     "像素画",
-     "像素图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     84,
-     189,
-     247
-    ],
-    "as": [
-     "视觉效果",
-     "画面上"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     86,
-     185,
-     280,
-     283
-    ],
-    "as": [
-     "儿童",
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     86
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     88
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mystery",
-    "name": "神秘感",
-    "facet": "design",
-    "seg": [
-     97,
-     244,
-     285
-    ],
-    "as": [
-     "都市传说"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     103,
-     118,
-     125
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     121,
-     122,
-     280
-    ],
-    "as": [
-     "代码"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     142
-    ],
-    "as": [
-     "指导"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "port",
-    "name": "移植",
-    "facet": "process",
-    "seg": [
-     146
-    ],
-    "as": [
-     "移植"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     163
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     165,
-     166
-    ],
-    "as": [
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     168
-    ],
-    "as": [
-     "音效设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     176,
-     216
-    ],
-    "as": [
-     "海外版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     185
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     185,
-     206
-    ],
-    "as": [
-     "热潮",
-     "批评"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     187,
-     195,
-     198,
-     202,
-     204,
-     206
-    ],
-    "as": [
-     "难度",
-     "难度调整",
-     "高难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     198
-    ],
-    "as": [
-     "铅笔"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     204
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     205,
-     228
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     247,
-     252
-    ],
-    "as": [
-     "内存",
-     "ROM"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "life-and-death",
-    "name": "生死的表述",
-    "facet": "design",
-    "seg": [
-     247
-    ],
-    "as": [
-     "死亡"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "randomness",
-    "name": "随机与运气",
-    "facet": "system",
-    "seg": [
-     251
-    ],
-    "as": [
-     "概率"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     253
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     276
-    ],
-    "as": [
-     "继承"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     277
-    ],
-    "as": [
-     "等级"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "「铁板阵星」传闻纯属谣言，远藤因此怒斥采访的青年",
-   "anchor": 3
+  "id": "interview-denfami-xevious-tajiri-sugimori-endo",
+  "stem": "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 319
   },
-  {
-   "seg": 13,
-   "text": "风营法未修订时游戏中心24小时营业，远藤周六在新宿街头转悠",
-   "anchor": 14
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "segment_audit": "2026-11-12"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          6,
+          9
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          237
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "铁板阵",
+        "slug": null,
+        "seg": [
+          0,
+          2,
+          13,
+          24,
+          28,
+          41
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "迷宫塔",
+        "slug": null,
+        "seg": [
+          40
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "麦森探险",
+        "slug": null,
+        "seg": [
+          130,
+          137,
+          144,
+          145,
+          219,
+          297
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "俄罗斯方块",
+        "slug": null,
+        "seg": [
+          162,
+          171
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "吃豆人世界",
+        "slug": null,
+        "seg": [
+          2,
+          257,
+          265
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "接龙赛马",
+        "slug": null,
+        "seg": [
+          166,
+          167,
+          168,
+          172
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "勇者斗恶龙",
+        "slug": null,
+        "seg": [
+          189
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "恶魔之魂",
+        "slug": null,
+        "seg": [
+          194
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "数独",
+        "slug": null,
+        "seg": [
+          198
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "寒蝉鸣泣之时",
+        "slug": null,
+        "seg": [
+          41
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "高达",
+        "slug": null,
+        "seg": [
+          86
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "新游戏设计",
+        "slug": null,
+        "seg": [
+          219
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "在Pac-Land捕获",
+        "slug": null,
+        "seg": [
+          26
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "铁板阵1000万分解法",
+        "slug": null,
+        "seg": [
+          120
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Super Soft Magazine",
+        "slug": null,
+        "seg": [
+          45
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "MyCom BASIC Magazine",
+        "slug": null,
+        "seg": [
+          45
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "电玩志",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          5,
+          12,
+          14,
+          19,
+          23,
+          31
+        ]
+      },
+      {
+        "name": "远藤雅伸",
+        "slug": "endo-masanobu",
+        "role": "speaker",
+        "seg": [
+          6,
+          9,
+          13,
+          15,
+          17,
+          25
+        ]
+      },
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          7,
+          10,
+          20,
+          24,
+          28,
+          32
+        ]
+      },
+      {
+        "name": "全员",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          8,
+          21,
+          39,
+          50,
+          104,
+          233
+        ]
+      },
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "speaker",
+        "seg": [
+          16,
+          22,
+          27,
+          29,
+          33,
+          35
+        ]
+      },
+      {
+        "name": "一之濑刚",
+        "slug": "ichinose-go",
+        "role": "speaker",
+        "seg": [
+          169,
+          171,
+          173,
+          280,
+          284
+        ]
+      },
+      {
+        "name": "横井军平",
+        "slug": "yokoi-gunpei",
+        "role": "mentioned",
+        "seg": [
+          173,
+          179,
+          188
+        ]
+      },
+      {
+        "name": "うる星あんず",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          41
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "富野由悠季",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          86
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "堀井雄二",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          189
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宫崎英高",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          194
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宫本",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          237
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "森本",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          280
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "中泽新一",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          26
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "大堀",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          55
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "饭野",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          213
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "藤泽",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          192
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "池田",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          272
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "新宿",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          13
+        ],
+        "what": "远藤常去的游戏中心",
+        "via": "llm"
+      },
+      {
+        "name": "千代田区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          16
+        ],
+        "what": "摆世嘉新作的游戏中心",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "community",
+        "name": "玩家社群",
+        "facet": "audience",
+        "seg": [
+          0,
+          2,
+          14,
+          16,
+          35,
+          41
+        ],
+        "as": [
+          "论坛",
+          "社群",
+          "玩家之间",
+          "口耳相传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          0
+        ],
+        "as": [
+          "开发环境"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          0,
+          166,
+          204
+        ],
+        "as": [
+          "智能手机",
+          "手机游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          0,
+          63,
+          69,
+          70,
+          73,
+          75
+        ],
+        "as": [
+          "企划书"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          0
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "guides",
+        "name": "攻略文化",
+        "facet": "audience",
+        "seg": [
+          2,
+          24,
+          41,
+          44,
+          45,
+          52
+        ],
+        "as": [
+          "秘技",
+          "攻略",
+          "攻略本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          13
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          16,
+          103,
+          222
+        ],
+        "as": [
+          "试作",
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "fan-works",
+        "name": "二创与同人",
+        "facet": "audience",
+        "seg": [
+          24,
+          25,
+          27,
+          35,
+          45,
+          132
+        ],
+        "as": [
+          "同人志"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          26
+        ],
+        "as": [
+          "复刻"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          27,
+          271
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          28,
+          32,
+          33,
+          34,
+          84
+        ],
+        "as": [
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          33,
+          135
+        ],
+        "as": [
+          "操作方式",
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          40,
+          195,
+          197,
+          199,
+          202,
+          204
+        ],
+        "as": [
+          "迷宫",
+          "关卡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          45,
+          98,
+          99
+        ],
+        "as": [
+          "广告",
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          47,
+          49,
+          202
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          53
+        ],
+        "as": [
+          "授权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          71,
+          121,
+          123
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pixel-art",
+        "name": "像素画",
+        "facet": "tech",
+        "seg": [
+          79,
+          81
+        ],
+        "as": [
+          "像素画",
+          "像素图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          84,
+          189,
+          247
+        ],
+        "as": [
+          "视觉效果",
+          "画面上"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          86,
+          185,
+          280,
+          283
+        ],
+        "as": [
+          "儿童",
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          86
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          88
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mystery",
+        "name": "神秘感",
+        "facet": "design",
+        "seg": [
+          97,
+          244,
+          285
+        ],
+        "as": [
+          "都市传说"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          103,
+          118,
+          125
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          121,
+          122,
+          280
+        ],
+        "as": [
+          "代码"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          142
+        ],
+        "as": [
+          "指导"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "port",
+        "name": "移植",
+        "facet": "process",
+        "seg": [
+          146
+        ],
+        "as": [
+          "移植"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          163
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          165,
+          166
+        ],
+        "as": [
+          "新人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          168
+        ],
+        "as": [
+          "音效设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "overseas",
+        "name": "海外发行",
+        "facet": "business",
+        "seg": [
+          176,
+          216
+        ],
+        "as": [
+          "海外版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          185
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          185,
+          206
+        ],
+        "as": [
+          "热潮",
+          "批评"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          187,
+          195,
+          198,
+          202,
+          204,
+          206
+        ],
+        "as": [
+          "难度",
+          "难度调整",
+          "高难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          198
+        ],
+        "as": [
+          "铅笔"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          204
+        ],
+        "as": [
+          "免费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          205,
+          228
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          247,
+          252
+        ],
+        "as": [
+          "内存",
+          "ROM"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "life-and-death",
+        "name": "生死的表述",
+        "facet": "design",
+        "seg": [
+          247
+        ],
+        "as": [
+          "死亡"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "randomness",
+        "name": "随机与运气",
+        "facet": "system",
+        "seg": [
+          251
+        ],
+        "as": [
+          "概率"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          253
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          276
+        ],
+        "as": [
+          "继承"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          277
+        ],
+        "as": [
+          "等级"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 2,
+      "text": "「铁板阵星」传闻纯属谣言，远藤因此怒斥采访的青年",
+      "anchor": 3
+    },
+    {
+      "seg": 13,
+      "text": "风营法未修订时游戏中心24小时营业，远藤周六在新宿街头转悠",
+      "anchor": 14
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "segment_audit": "2026-11-12"
+  },
+  "edited": false
 }

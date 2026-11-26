@@ -22,6 +22,7 @@ tags:
 publication: Game Informer（2017-09-22）
 source_kind: media_feature
 interviewer: Game Informer
+author: Kyle Hilliard
 interviewee: 增田顺一、大森滋、杉森建、森本茂树
 translator: PokeAmice（DeepSeek 初译）
 original_lang: en
@@ -48,6 +49,7 @@ workflow:
   published: draft
 topics:
 - 海外媒体专访
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - type: image
   image: /assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/004.jpg
@@ -84,31 +86,4 @@ parallel_items:
   translation: 《金/银》以包含两个地区而闻名：新地区城都，以及《宝可梦 红·绿》的关都。“做红绿的时候，这些素材还是在两兆位卡带上运行的时候，”增田说，“开发到一半我们升级到了四兆位卡带，作为程序员我们就像，‘天哪！空间翻倍了！’”这种容量上的自由让游戏的规模翻倍。
 - original: At the time of release, Gold and Silver held the rare achievement of being the fastest-selling games ever.
   translation: 发售时，《金/银》取得了罕见的成就：成为有史以来销售最快的游戏。
-- original: For more on the history of Pokémon, you can check out the September '17 issue for a 12-page feature covering the franchise’s history, as well as online features and interviews linked below.
-  translation: 欲了解更多宝可梦的历史，可查阅2017年9月刊，其中有一篇12页的专题报道，涵盖该系列的历史，以及下方链接的在线专题和访谈。
-- original: Pokémon’s Developers Talk About Their Console RPG Debut On Switch
-  translation: 宝可梦开发者谈他们在Switch上的主机RPG首秀
-- original: Game Freak’s Origins And Its Pre-Pokémon Games
-  translation: "GAME FREAK的起源及其在宝可梦之前的游戏"
-- original: Here's How Game Freak Designs Pokemon Creatures
-  translation: "GAME FREAK是这样设计宝可梦生物的"
-- original: Game Freak On Player Freedom Vs. Story In Pokémon
-  translation: "GAME FREAK谈宝可梦中的玩家自由与故事"
-- original: Discussing Our In-Depth Tour Of Game Freak
-  translation: "讨论我们对GAME FREAK的深入探访"
-- original: Everything We Know About Pokémon On The Nintendo Switch
-  translation: 关于Nintendo Switch上宝可梦的一切已知信息
-- original: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
-  translation: 为什么红宝石和蓝宝石是最难制作的宝可梦游戏
-- original: Game Freak's Director Share Their Favorite Pokémon Spin-Offs
-  translation: "GAME FREAK的总监分享他们最喜欢的宝可梦衍生作品"
-- original: An Exclusive Look At Pokémon's Early Design Documents
-  translation: 独家一窥宝可梦的早期设计文档
-- original: 'Pokémon’s Creators On The Anime: ''We Weren''t Really Sure About It'''
-  translation: 宝可梦创作者谈动画：“我们当时其实不太确定”
-- original: Our Reddit AMA On Our Trip To Visit Game Freak
-  translation: "我们拜访GAME FREAK之旅的Reddit AMA"
-  note: Game Freak是宝可梦系列游戏的开发公司。
-- original: Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon
-  translation: 《宝可梦 究极之日·究极之月》新模式的独家揭晓
 ---

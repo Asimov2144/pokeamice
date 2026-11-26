@@ -49,13 +49,28 @@ pages, proofreading state, the cover and its size (from _data/covers.yml). The s
     {% elsif post.layout == "gamefreak-director" or post.layout == "gamefreak-legacy-blog" %}{% assign card_kind = "blog" %}{% endif %}
     {% if post.categories contains "杂志特辑" %}{% assign card_kind = "feature" %}{% endif %}
     {% assign proof = post.workflow.proofreading | default: "" %}
-    {%- comment -%} work icons from _data/works.yml, parallel to entities.works {%- endcomment -%}
+    {%- comment -%} work icons from _data/works.yml, parallel to filtered works {%- endcomment -%}
     {% assign work_icons = "" | split: "" %}
+    {% assign filtered_works = "" | split: "" %}
+    {% assign rejected_exact_works = "¦宝可梦¦精灵宝可梦¦ポケットモンスター¦宝可梦系列¦宝可梦 电影¦宝可梦电影¦宝可梦 银魂¦宝可梦咖啡馆¦宝可梦系列生态架构¦宝可梦系列专有引擎研发¦超梦¦梦幻¦基拉祈¦GAME FREAK¦Game Freak¦任天堂 Switch¦任天堂 Switch (Nintendo Switch)¦Game Boy Color¦Wii U¦ニンテンドーDS¦ゲームボーイアドバンス¦カードeリーダー¦amiibo¦Gamasutra¦CoroCoro G¦Da Vinci¦骑拉帝纳 (Giratina)¦破损的世界 (Distortion World)¦宝可梦超级华丽大赛¦宝可拍乐乐¦" %}
     {% for w in post.entities.works %}
-      {% assign wi = site.data.works | where: "name", w | first %}
-      {% if wi.icon %}{% assign pair = wi.icon | append: "|" | append: wi.icon2 %}{% assign work_icons = work_icons | push: pair %}
-      {% elsif wi.color %}{% assign c2 = wi.color2 | default: wi.color %}{% assign swatch = "color:" | append: wi.color | append: "|" | append: c2 %}{% if wi.mascot %}{% assign swatch = swatch | append: "|" | append: wi.mascot %}{% endif %}{% assign work_icons = work_icons | push: swatch %}
-      {% else %}{% assign work_icons = work_icons | push: "" %}{% endif %}
+      {% assign w_str = w | strip %}
+      {% assign w_key = "¦" | append: w_str | append: "¦" %}
+      {% assign wi = site.data.works | where: "name", w_str | first %}
+      {% assign keep_work = true %}
+      {% if w_str == "" or w_str contains "{" or rejected_exact_works contains w_key %}
+        {% assign keep_work = false %}
+      {% elsif wi and wi.placeholder == "store" %}
+        {% assign keep_work = false %}
+      {% elsif w_key contains "¦Game Informer" or w_key contains "¦CONTINUE Vol." or w_key contains "¦Nintendo Dream" or w_key contains "¦宝可梦中心" or w_key contains "¦Pokemon Center" or w_key contains "¦Pokémon Center" %}
+        {% assign keep_work = false %}
+      {% endif %}
+      {% if keep_work %}
+        {% assign filtered_works = filtered_works | push: w_str %}
+        {% if wi.icon %}{% assign pair = wi.icon | append: "|" | append: wi.icon2 %}{% assign work_icons = work_icons | push: pair %}
+        {% elsif wi.color %}{% assign c2 = wi.color2 | default: wi.color %}{% assign swatch = "color:" | append: wi.color | append: "|" | append: c2 %}{% if wi.mascot %}{% assign swatch = swatch | append: "|" | append: wi.mascot %}{% endif %}{% assign work_icons = work_icons | push: swatch %}
+        {% else %}{% assign work_icons = work_icons | push: "" %}{% endif %}
+      {% endif %}
     {% endfor %}
     {%- comment -%} portraits from _data/people.yml, one per name - the one taken for this entry when there is one, "" when there is none {%- endcomment -%}
     {% assign avatars = "" | split: "" %}
@@ -90,7 +105,7 @@ pages, proofreading state, the cover and its size (from _data/covers.yml). The s
       "avatars": {{ avatars | jsonify }},
       "slugs": {{ slugs | jsonify }},
       "work_icons": {{ work_icons | jsonify }},
-      "works": {% if post.entities.works %}{{ post.entities.works | jsonify }}{% else %}[]{% endif %},
+      "works": {{ filtered_works | jsonify }},
       "source": {{ source_title | jsonify }},
       "publication": {{ post.publication | default: post.source.publication | default: "" | jsonify }},
       "issue": {{ post.issue | default: "" | jsonify }},

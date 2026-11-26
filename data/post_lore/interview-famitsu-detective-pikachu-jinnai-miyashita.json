@@ -1,581 +1,573 @@
 {
- "id": "interview-famitsu-detective-pikachu-jinnai-miyashita",
- "stem": "2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 97
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "小火龙",
-    "ndex": 4,
-    "seg": [
-     39
-    ],
-    "as": [
-     "小火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "杰尼龟",
-    "ndex": 7,
-    "seg": [
-     39
-    ],
-    "as": [
-     "杰尼龟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     0,
-     1,
-     2,
-     5,
-     6,
-     8
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "长尾怪手",
-    "ndex": 190,
-    "seg": [
-     35
-    ],
-    "as": [
-     "长尾怪手"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "结草儿",
-    "ndex": 412,
-    "seg": [
-     64,
-     66,
-     67,
-     69
-    ],
-    "as": [
-     "结草儿"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "名侦探皮卡丘",
-    "slug": "detective-pikachu",
-    "seg": [
-     0,
-     1,
-     5,
-     6,
-     8,
-     9
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦巡护员",
-    "slug": null,
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦乐园",
-    "slug": null,
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     17
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 究极之日／究极之月",
-    "slug": null,
-    "seg": [
-     39
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     57
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "Fami通编辑部",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     11,
-     14,
-     16,
-     18,
-     20,
-     22
-    ]
-   },
-   {
-    "name": "阵内弘之",
-    "slug": "jinnai-hiroyuki",
-    "role": "speaker",
-    "seg": [
-     12,
-     15,
-     17,
-     19,
-     21,
-     23
-    ]
-   },
-   {
-    "name": "宫下尚生",
-    "slug": "miyashita-naoki",
-    "role": "speaker",
-    "seg": [
-     13,
-     26,
-     28,
-     31,
-     35,
-     37
-    ]
-   },
-   {
-    "name": "大谷育江",
-    "slug": "otani-ikue",
-    "role": "mentioned",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "大川透",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "柳泽康敬",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     23
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "宝可梦乐园",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     15
-    ],
-    "via": "extra",
-    "what": "期间限定的主题乐园"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     2,
-     17,
-     60
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "voice",
-    "name": "配音",
-    "facet": "audio",
-    "seg": [
-     2
-    ],
-    "as": [
-     "配音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     12
-    ],
-    "as": [
-     "指导"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     12,
-     80,
-     82
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     13,
-     79
-    ],
-    "as": [
-     "反复推敲",
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     15
-    ],
-    "as": [
-     "集换式卡牌"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     19
-    ],
-    "as": [
-     "企划时"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     19
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     21
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     21,
-     59
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     33
-    ],
-    "as": [
-     "全球同步发售"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     33,
-     94
-    ],
-    "as": [
-     "年龄层"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     35,
-     37
-    ],
-    "as": [
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     39,
-     72,
-     73
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     39
-    ],
-    "as": [
-     "家长"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     47
-    ],
-    "as": [
-     "开发初期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     59,
-     62,
-     63,
-     64
-    ],
-    "as": [
-     "品质",
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     66
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     67,
-     69
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     70
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     73
-    ],
-    "as": [
-     "监修"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     85
-    ],
-    "as": [
-     "教材"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     86,
-     87
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "localization",
-    "name": "本地化",
-    "facet": "business",
-    "seg": [
-     86
-    ],
-    "as": [
-     "翻译"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     92
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "皮卡丘由大川透配音，不是大谷育江",
-   "anchor": 3
+  "id": "interview-famitsu-detective-pikachu-jinnai-miyashita",
+  "stem": "2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 97
   },
-  {
-   "seg": 49,
-   "text": "皮卡丘动作捕捉请的是中年男性演员",
-   "anchor": 50
-  }
- ],
- "relations": [
-  {
-   "id": "interview-famitsu-detective-pikachu-returns-ishihara-jinnai",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "Famitsu 专访《名侦探皮卡丘 归来》：石原恒和×阵内弘之——大叔皮卡丘是“会说人类语言的宝可梦”的终点，兼谈《赤·绿》诞生秘话与《Pokémon Sleep》",
-   "url": "/%E8%AE%BF%E8%B0%88/%E4%B8%BB%E5%88%9B%E5%AF%B9%E8%AF%9D/interview-famitsu-detective-pikachu-returns-ishihara-jinnai/",
-   "why": "同为Fami通对谈阵内弘之，谈名侦探皮卡丘"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "小火龙",
+        "ndex": 4,
+        "seg": [
+          39
+        ],
+        "as": [
+          "小火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "杰尼龟",
+        "ndex": 7,
+        "seg": [
+          39
+        ],
+        "as": [
+          "杰尼龟"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          8
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "长尾怪手",
+        "ndex": 190,
+        "seg": [
+          35
+        ],
+        "as": [
+          "长尾怪手"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "结草儿",
+        "ndex": 412,
+        "seg": [
+          64,
+          66,
+          67,
+          69
+        ],
+        "as": [
+          "结草儿"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "名侦探皮卡丘",
+        "slug": "detective-pikachu",
+        "seg": [
+          0,
+          1,
+          5,
+          6,
+          8,
+          9
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦巡护员",
+        "slug": "ranger",
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 究极之日·究极之月",
+        "slug": "usum",
+        "seg": [
+          39
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          57
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦乐园",
+        "slug": null,
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "Fami通编辑部",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          11,
+          14,
+          16,
+          18,
+          20,
+          22
+        ]
+      },
+      {
+        "name": "阵内弘之",
+        "slug": "jinnai-hiroyuki",
+        "role": "speaker",
+        "seg": [
+          12,
+          15,
+          17,
+          19,
+          21,
+          23
+        ]
+      },
+      {
+        "name": "宫下尚生",
+        "slug": "miyashita-naoki",
+        "role": "speaker",
+        "seg": [
+          13,
+          26,
+          28,
+          31,
+          35,
+          37
+        ]
+      },
+      {
+        "name": "大谷育江",
+        "slug": "otani-ikue",
+        "role": "mentioned",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "大川透",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "柳泽康敬",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          23
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "宝可梦乐园",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          15
+        ],
+        "via": "extra",
+        "what": "期间限定的主题乐园"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          2,
+          17,
+          60
+        ],
+        "as": [
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "voice",
+        "name": "配音",
+        "facet": "audio",
+        "seg": [
+          2
+        ],
+        "as": [
+          "配音"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          12
+        ],
+        "as": [
+          "指导"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          12,
+          80,
+          82
+        ],
+        "as": [
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          13,
+          79
+        ],
+        "as": [
+          "反复推敲",
+          "从零开始"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          15
+        ],
+        "as": [
+          "集换式卡牌"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          19
+        ],
+        "as": [
+          "企划时"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          19
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          21
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          21,
+          59
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "overseas",
+        "name": "海外发行",
+        "facet": "business",
+        "seg": [
+          33
+        ],
+        "as": [
+          "全球同步发售"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          33,
+          94
+        ],
+        "as": [
+          "年龄层"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          35,
+          37
+        ],
+        "as": [
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          39,
+          72,
+          73
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          39
+        ],
+        "as": [
+          "家长"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          47
+        ],
+        "as": [
+          "开发初期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          59,
+          62,
+          63,
+          64
+        ],
+        "as": [
+          "品质",
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          66
+        ],
+        "as": [
+          "宝可梦图鉴"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          67,
+          69
+        ],
+        "as": [
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          70
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          73
+        ],
+        "as": [
+          "监修"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "education",
+        "name": "教育与育儿",
+        "facet": "audience",
+        "seg": [
+          85
+        ],
+        "as": [
+          "教材"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          86,
+          87
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "localization",
+        "name": "本地化",
+        "facet": "business",
+        "seg": [
+          86
+        ],
+        "as": [
+          "翻译"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          92
+        ],
+        "as": [
+          "免费"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-cgworld-creatures-3d-character-life",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术",
-   "url": "/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/",
-   "why": "Creatures团队与名侦探皮卡丘开发背景"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 2,
+      "text": "皮卡丘由大川透配音，不是大谷育江",
+      "anchor": 3
+    },
+    {
+      "seg": 49,
+      "text": "皮卡丘动作捕捉请的是中年男性演员",
+      "anchor": 50
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-famitsu-detective-pikachu-returns-ishihara-jinnai",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "Famitsu 专访《名侦探皮卡丘 归来》：石原恒和×阵内弘之——大叔皮卡丘是“会说人类语言的宝可梦”的终点，兼谈《赤·绿》诞生秘话与《Pokémon Sleep》",
+      "url": "/%E8%AE%BF%E8%B0%88/%E4%B8%BB%E5%88%9B%E5%AF%B9%E8%AF%9D/interview-famitsu-detective-pikachu-returns-ishihara-jinnai/",
+      "why": "同为Fami通对谈阵内弘之，谈名侦探皮卡丘"
+    },
+    {
+      "id": "interview-cgworld-creatures-3d-character-life",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术",
+      "url": "/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/",
+      "why": "Creatures团队与名侦探皮卡丘开发背景"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

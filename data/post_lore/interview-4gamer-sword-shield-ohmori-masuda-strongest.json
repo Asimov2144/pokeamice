@@ -1,887 +1,889 @@
 {
- "id": "interview-4gamer-sword-shield-ohmori-masuda-strongest",
- "stem": "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 125
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     98
-    ],
-    "as": [
-     "妙蛙种子",
-     "Bulbasaur"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "大葱鸭",
-    "ndex": 83,
-    "seg": [
-     57
-    ],
-    "as": [
-     "大葱鸭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "双弹瓦斯",
-    "ndex": 110,
-    "seg": [
-     43,
-     60
-    ],
-    "as": [
-     "双弹瓦斯"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "直冲熊",
-    "ndex": 264,
-    "seg": [
-     102
-    ],
-    "as": [
-     "直冲熊"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "帝牙卢卡",
-    "ndex": 483,
-    "seg": [
-     54
-    ],
-    "as": [
-     "帝牙卢卡"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "帕路奇亚",
-    "ndex": 484,
-    "seg": [
-     54
-    ],
-    "as": [
-     "帕路奇亚"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "钢铠鸦",
-    "ndex": 823,
-    "seg": [
-     9
-    ],
-    "as": [
-     "钢铠鸦"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "堵拦熊",
-    "ndex": 862,
-    "seg": [
-     102
-    ],
-    "as": [
-     "堵拦熊"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "葱游兵",
-    "ndex": 865,
-    "seg": [
-     57,
-     58
-    ],
-    "as": [
-     "葱游兵"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "藏玛然特",
-    "ndex": 889,
-    "seg": [
-     6,
-     7,
-     8,
-     47
-    ],
-    "as": [
-     "藏玛然特"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "苍响",
-    "ndex": 888,
-    "seg": [
-     6
-    ],
-    "as": [
-     "苍响"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 剑·盾",
-    "slug": "sword-shield",
-    "seg": [
-     0,
-     2,
-     3,
-     4,
-     18,
-     27
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 太阳·月亮",
-    "slug": "sun-moon",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [
-     48
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     50
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     55
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     88
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "4Gamer",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     0,
-     3,
-     5,
-     6,
-     8,
-     12
-    ]
-   },
-   {
-    "name": "大森滋",
-    "slug": "ohmori-shigeru",
-    "role": "speaker",
-    "seg": [
-     7,
-     11,
-     13,
-     15,
-     17,
-     19
-    ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     29,
-     48,
-     50,
-     53,
-     55,
-     68
-    ]
-   },
-   {
-    "name": "Gueed",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "宝可梦中心",
-    "id": null,
-    "entity": null,
-    "category": "pc",
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     87
-    ],
-    "what": "寄存与取出宝可梦处",
-    "via": "extra",
-    "category_link": "pc"
-   },
-   {
-    "name": "旷野地带",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     0
-    ],
-    "what": "广阔自然区域",
-    "via": "llm"
-   },
-   {
-    "name": "八重洲口",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     117
-    ],
-    "what": "曾发放神秘礼物处",
-    "via": "llm"
-   },
-   {
-    "name": "伽勒尔地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     0
-    ],
-    "what": "本作舞台",
-    "via": "llm"
-   },
-   {
-    "name": "英国",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     11
-    ],
-    "what": "伽勒尔地区原型",
-    "via": "llm"
-   },
-   {
-    "name": "法国",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     48
-    ],
-    "what": "卡洛斯地区原型",
-    "via": "llm"
-   },
-   {
-    "name": "卡洛斯地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     48
-    ],
-    "what": "X·Y的舞台",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     0,
-     12,
-     27
-    ],
-    "as": [
-     "系列最新作",
-     "完全新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     3,
-     7,
-     98,
-     99
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "screen-look",
-    "name": "画面表现",
-    "facet": "art",
-    "seg": [
-     5,
-     15,
-     67
-    ],
-    "as": [
-     "画面表现",
-     "视觉效果"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mystery",
-    "name": "神秘感",
-    "facet": "design",
-    "seg": [
-     7
-    ],
-    "as": [
-     "神秘感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     11,
-     40,
-     45,
-     46,
-     48,
-     56
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     11,
-     40,
-     45,
-     46,
-     62
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     13
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     20
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-freedom",
-    "name": "玩家的自由",
-    "facet": "design",
-    "seg": [
-     23
-    ],
-    "as": [
-     "自由度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-exp",
-    "name": "等级与经验",
-    "facet": "system",
-    "seg": [
-     24
-    ],
-    "as": [
-     "等级"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     30
-    ],
-    "as": [
-     "水属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "open-world",
-    "name": "开放世界",
-    "facet": "system",
-    "seg": [
-     31,
-     32
-    ],
-    "as": [
-     "开放世界"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     32
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     33,
-     61,
-     65
-    ],
-    "as": [
-     "道馆"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     37
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     43
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     48,
-     55,
-     71
-    ],
-    "as": [
-     "主题是"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     50
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     53,
-     55,
-     68
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     56
-    ],
-    "as": [
-     "宝可梦的设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     64
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     65,
-     81,
-     85
-    ],
-    "as": [
-     "测试",
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     65
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     70,
-     74,
-     76,
-     78
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     71,
-     82,
-     84
-    ],
-    "as": [
-     "孩子们",
-     "小学生",
-     "小孩子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     76,
-     78
-    ],
-    "as": [
-     "广告"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     78
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     79
-    ],
-    "as": [
-     "重做"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     80,
-     111
-    ],
-    "as": [
-     "精灵球",
-     "道具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     89,
-     108
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     91
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     100,
-     119
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     106,
-     107,
-     108,
-     110,
-     111
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "price-model",
-    "name": "免费与付费",
-    "facet": "business",
-    "seg": [
-     108
-    ],
-    "as": [
-     "免费"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "link-battle",
-    "name": "通信对战",
-    "facet": "system",
-    "seg": [
-     111
-    ],
-    "as": [
-     "通信对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     115
-    ],
-    "as": [
-     "周边商品"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     117
-    ],
-    "as": [
-     "神秘礼物"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     117
-    ],
-    "as": [
-     "网络功能"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 5,
-   "text": "大森滋说在Switch上制作新作时以“最强《宝可梦》”为主题",
-   "anchor": 6
+  "id": "interview-4gamer-sword-shield-ohmori-masuda-strongest",
+  "stem": "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 125
   },
-  {
-   "seg": 11,
-   "text": "大森滋说伽勒尔地区以英国为原型，由“最强《宝可梦》”主题决定",
-   "anchor": 12
-  }
- ],
- "relations": [
-  {
-   "id": "interview-gi-2019-going-big",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "打造终极宝可梦",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-going-big/",
-   "why": "同为剑盾发售期Game Informer东京采访大森滋"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          98
+        ],
+        "as": [
+          "妙蛙种子",
+          "Bulbasaur"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "大葱鸭",
+        "ndex": 83,
+        "seg": [
+          57
+        ],
+        "as": [
+          "大葱鸭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "双弹瓦斯",
+        "ndex": 110,
+        "seg": [
+          43,
+          60
+        ],
+        "as": [
+          "双弹瓦斯"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "直冲熊",
+        "ndex": 264,
+        "seg": [
+          102
+        ],
+        "as": [
+          "直冲熊"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "帝牙卢卡",
+        "ndex": 483,
+        "seg": [
+          54
+        ],
+        "as": [
+          "帝牙卢卡"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "帕路奇亚",
+        "ndex": 484,
+        "seg": [
+          54
+        ],
+        "as": [
+          "帕路奇亚"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "钢铠鸦",
+        "ndex": 823,
+        "seg": [
+          9
+        ],
+        "as": [
+          "钢铠鸦"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "堵拦熊",
+        "ndex": 862,
+        "seg": [
+          102
+        ],
+        "as": [
+          "堵拦熊"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "葱游兵",
+        "ndex": 865,
+        "seg": [
+          57,
+          58
+        ],
+        "as": [
+          "葱游兵"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "藏玛然特",
+        "ndex": 889,
+        "seg": [
+          6,
+          7,
+          8,
+          47
+        ],
+        "as": [
+          "藏玛然特"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "苍响",
+        "ndex": 888,
+        "seg": [
+          6
+        ],
+        "as": [
+          "苍响"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [
+          0,
+          2,
+          3,
+          4,
+          18,
+          27
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          48
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          50
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          55
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          88
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "4Gamer",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          0,
+          3,
+          5,
+          6,
+          8,
+          12
+        ]
+      },
+      {
+        "name": "大森滋",
+        "slug": "ohmori-shigeru",
+        "role": "speaker",
+        "seg": [
+          7,
+          11,
+          13,
+          15,
+          17,
+          19
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          29,
+          48,
+          50,
+          53,
+          55,
+          68
+        ]
+      },
+      {
+        "name": "Gueed",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "宝可梦中心",
+        "id": null,
+        "entity": null,
+        "category": "pc",
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          87
+        ],
+        "what": "寄存与取出宝可梦处",
+        "via": "extra",
+        "category_link": "pc"
+      },
+      {
+        "name": "旷野地带",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          0
+        ],
+        "what": "广阔自然区域",
+        "via": "llm"
+      },
+      {
+        "name": "八重洲口",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          117
+        ],
+        "what": "曾发放神秘礼物处",
+        "via": "llm"
+      },
+      {
+        "name": "伽勒尔地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          0
+        ],
+        "what": "本作舞台",
+        "via": "llm"
+      },
+      {
+        "name": "英国",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          11
+        ],
+        "what": "伽勒尔地区原型",
+        "via": "llm"
+      },
+      {
+        "name": "法国",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          48
+        ],
+        "what": "卡洛斯地区原型",
+        "via": "llm"
+      },
+      {
+        "name": "卡洛斯地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          48
+        ],
+        "what": "X·Y的舞台",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          0,
+          12,
+          27
+        ],
+        "as": [
+          "系列最新作",
+          "完全新作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          3,
+          7,
+          98,
+          99
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "screen-look",
+        "name": "画面表现",
+        "facet": "art",
+        "seg": [
+          5,
+          15,
+          67
+        ],
+        "as": [
+          "画面表现",
+          "视觉效果"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mystery",
+        "name": "神秘感",
+        "facet": "design",
+        "seg": [
+          7
+        ],
+        "as": [
+          "神秘感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          11,
+          40,
+          45,
+          46,
+          48,
+          56
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          11,
+          40,
+          45,
+          46,
+          62
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          13
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          20
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-freedom",
+        "name": "玩家的自由",
+        "facet": "design",
+        "seg": [
+          23
+        ],
+        "as": [
+          "自由度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-exp",
+        "name": "等级与经验",
+        "facet": "system",
+        "seg": [
+          24
+        ],
+        "as": [
+          "等级"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          30
+        ],
+        "as": [
+          "水属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "open-world",
+        "name": "开放世界",
+        "facet": "system",
+        "seg": [
+          31,
+          32
+        ],
+        "as": [
+          "开放世界"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          32
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          33,
+          61,
+          65
+        ],
+        "as": [
+          "道馆"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          37
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          43
+        ],
+        "as": [
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          48,
+          55,
+          71
+        ],
+        "as": [
+          "主题是"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          50
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          53,
+          55,
+          68
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          56
+        ],
+        "as": [
+          "宝可梦的设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          64
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          65,
+          81,
+          85
+        ],
+        "as": [
+          "测试",
+          "试玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          65
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          70,
+          74,
+          76,
+          78
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          71,
+          82,
+          84
+        ],
+        "as": [
+          "孩子们",
+          "小学生",
+          "小孩子"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          76,
+          78
+        ],
+        "as": [
+          "广告"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          78
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          79
+        ],
+        "as": [
+          "重做"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          80,
+          111
+        ],
+        "as": [
+          "精灵球",
+          "道具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          89,
+          108
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          91
+        ],
+        "as": [
+          "童年"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          100,
+          119
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          106,
+          107,
+          108,
+          110,
+          111
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "price-model",
+        "name": "免费与付费",
+        "facet": "business",
+        "seg": [
+          108
+        ],
+        "as": [
+          "免费"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "link-battle",
+        "name": "通信对战",
+        "facet": "system",
+        "seg": [
+          111
+        ],
+        "as": [
+          "通信对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          115
+        ],
+        "as": [
+          "周边商品"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          117
+        ],
+        "as": [
+          "神秘礼物"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          117
+        ],
+        "as": [
+          "网络功能"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-famitsu-2019-swsh-autosave",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "增田顺一与大森滋谈剑盾培育",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2019-swsh-autosave/",
-   "why": "同为剑盾发售前采访增田与大森"
+  "observations": [
+    {
+      "seg": 5,
+      "text": "大森滋说在Switch上制作新作时以“最强《宝可梦》”为主题",
+      "anchor": 6
+    },
+    {
+      "seg": 11,
+      "text": "大森滋说伽勒尔地区以英国为原型，由“最强《宝可梦》”主题决定",
+      "anchor": 12
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-gi-2019-going-big",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "打造终极宝可梦",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-gi-2019-going-big/",
+      "why": "同为剑盾发售期Game Informer东京采访大森滋"
+    },
+    {
+      "id": "interview-famitsu-2019-swsh-autosave",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "增田顺一与大森滋谈剑盾培育",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-famitsu-2019-swsh-autosave/",
+      "why": "同为剑盾发售前采访增田与大森"
+    },
+    {
+      "id": "interview-famitsu-sword-shield-masuda-ohmori",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路",
+      "url": "//interview-famitsu-sword-shield-masuda-ohmori/",
+      "why": "同为剑盾发售前采访增田与大森"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-famitsu-sword-shield-masuda-ohmori",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路",
-   "url": "//interview-famitsu-sword-shield-masuda-ohmori/",
-   "why": "同为剑盾发售前采访增田与大森"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

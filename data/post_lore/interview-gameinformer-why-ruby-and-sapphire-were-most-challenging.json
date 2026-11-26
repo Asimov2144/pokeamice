@@ -2,7 +2,7 @@
  "id": "interview-gameinformer-why-ruby-and-sapphire-were-most-challenging",
  "stem": "2017-08-14-interview-gameinformer-why-ruby-and-sapphire-were-most-challenging",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-26",
  "kind": "interview",
  "body": {
   "kind": "segments",
@@ -35,12 +35,6 @@
   ],
   "works": [
    {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [],
-    "via": "entities"
-   },
-   {
     "name": "宝可梦 红宝石·蓝宝石",
     "slug": "ruby-sapphire",
     "seg": [
@@ -49,40 +43,40 @@
     "via": "entities"
    },
    {
-    "name": "宝可梦 X／Y",
-    "slug": null,
+    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "slug": "oras",
+    "seg": [
+     5
+    ],
+    "via": "entities"
+   },
+   {
+    "name": "宝可梦 X·Y",
+    "slug": "x-y",
     "seg": [
      1
     ],
     "via": "llm"
    },
    {
-    "name": "宝可梦 金／银",
-    "slug": null,
+    "name": "宝可梦 金·银",
+    "slug": "gold-silver",
     "seg": [
      3
     ],
     "via": "llm"
    },
    {
-    "name": "宝可梦 钻石／珍珠",
-    "slug": null,
+    "name": "宝可梦 钻石·珍珠",
+    "slug": "diamond-pearl",
     "seg": [
      3
     ],
     "via": "llm"
    },
    {
-    "name": "宝可梦 太阳／月亮",
-    "slug": null,
-    "seg": [
-     5
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-    "slug": null,
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
     "seg": [
      5
     ],
@@ -261,8 +255,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

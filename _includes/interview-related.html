@@ -29,6 +29,15 @@ group it qualifies for. Manual relations.related_posts come first.
 {%- if page.relations.related_posts -%}
   {%- for related_url in page.relations.related_posts -%}
     {%- assign related_post = site.posts | where: "url", related_url | first -%}
+    {%- unless related_post -%}
+      {%- for candidate in site.posts -%}
+        {%- assign decoded_url = candidate.url | url_decode -%}
+        {%- if decoded_url == related_url -%}
+          {%- assign related_post = candidate -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endunless -%}
     {%- if related_post -%}{%- assign manual = manual | push: related_post -%}{%- endif -%}
   {%- endfor -%}
 {%- endif -%}

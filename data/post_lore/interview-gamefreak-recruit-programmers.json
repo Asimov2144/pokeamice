@@ -1,259 +1,247 @@
 {
- "id": "interview-gamefreak-recruit-programmers",
- "stem": "2015-10-01-interview-gamefreak-recruit-programmers",
- "rev": 1,
- "built": "2026-10-09",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 33
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
-    "slug": "oras",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "风之克罗诺亚",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "女神异闻录3",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "圣剑传说",
-    "slug": null,
-    "seg": [
-     14
+  "id": "interview-gamefreak-recruit-programmers",
+  "stem": "2015-10-01-interview-gamefreak-recruit-programmers",
+  "rev": 1,
+  "built": "2026-10-09",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 33
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+        "slug": "oras",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "风之克罗诺亚",
+        "slug": null,
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "圣剑传说",
+        "slug": null,
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "星之卡比",
+        "slug": null,
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "星之卡比",
-    "slug": null,
-    "seg": [
-     14
+    "people": [
+      {
+        "name": "Y.I.",
+        "slug": "y-i",
+        "role": "speaker",
+        "seg": [
+          3,
+          7,
+          11,
+          13,
+          18,
+          24
+        ]
+      },
+      {
+        "name": "M.K.",
+        "slug": "m-k",
+        "role": "speaker",
+        "seg": [
+          4,
+          8,
+          14,
+          19,
+          21,
+          25
+        ]
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     18
+    "places": [
+      {
+        "name": "名古屋",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          7
+        ],
+        "what": "Y.I.前公司所在地",
+        "via": "llm"
+      },
+      {
+        "name": "东京",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          7
+        ],
+        "what": "Y.I.跳槽后去的地方",
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "Y.I.",
-    "slug": "y-i",
-    "role": "speaker",
-    "seg": [
-     3,
-     7,
-     11,
-     13,
-     18,
-     24
+    "concepts": [
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          1,
+          3,
+          4,
+          6,
+          18,
+          23
+        ],
+        "as": [
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "port",
+        "name": "移植",
+        "facet": "process",
+        "seg": [
+          7
+        ],
+        "as": [
+          "移植"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          8
+        ],
+        "as": [
+          "服务器"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          8
+        ],
+        "as": [
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          8,
+          18,
+          24
+        ],
+        "as": [
+          "应届",
+          "新人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          27
+        ],
+        "as": [
+          "硬件性能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          32
+        ],
+        "as": [
+          "开发环境"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "M.K.",
-    "slug": "m-k",
-    "role": "speaker",
-    "seg": [
-     4,
-     8,
-     14,
-     19,
-     21,
-     25
-    ]
-   }
+  },
+  "observations": [
+    {
+      "seg": 7,
+      "text": "Y.I.在名古屋一家游戏公司做了约两年PS3和Xbox 360开发",
+      "anchor": 8
+    },
+    {
+      "seg": 8,
+      "text": "M.K.在大型社交游戏公司做浏览器游戏的服务器端编程",
+      "anchor": 9
+    }
   ],
-  "places": [
-   {
-    "name": "名古屋",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     7
-    ],
-    "what": "Y.I.前公司所在地",
-    "via": "llm"
-   },
-   {
-    "name": "东京",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     7
-    ],
-    "what": "Y.I.跳槽后去的地方",
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-gamefreak-recruit-planners",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/",
+      "why": "同日同栏目中途招聘对谈，策划篇"
+    },
+    {
+      "id": "interview-gamefreak-recruit-designers",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/",
+      "why": "同日同栏目中途招聘对谈，图形设计师篇"
+    },
+    {
+      "id": "interview-gamefreak-rnd-launch-taya-mi",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "GAME FREAK 官方专访：研究开发部（R&D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）",
+      "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/",
+      "why": "同栏目技术架构篇，R&D与程序员背景"
+    }
   ],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     1,
-     3,
-     4,
-     6,
-     18,
-     23
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "port",
-    "name": "移植",
-    "facet": "process",
-    "seg": [
-     7
-    ],
-    "as": [
-     "移植"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     8
-    ],
-    "as": [
-     "服务器"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     8
-    ],
-    "as": [
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     8,
-     18,
-     24
-    ],
-    "as": [
-     "应届",
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     27
-    ],
-    "as": [
-     "硬件性能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     32
-    ],
-    "as": [
-     "开发环境"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 7,
-   "text": "Y.I.在名古屋一家游戏公司做了约两年PS3和Xbox 360开发",
-   "anchor": 8
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 8,
-   "text": "M.K.在大型社交游戏公司做浏览器游戏的服务器端编程",
-   "anchor": 9
-  }
- ],
- "relations": [
-  {
-   "id": "interview-gamefreak-recruit-planners",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planners/",
-   "why": "同日同栏目中途招聘对谈，策划篇"
-  },
-  {
-   "id": "interview-gamefreak-recruit-designers",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designers/",
-   "why": "同日同栏目中途招聘对谈，图形设计师篇"
-  },
-  {
-   "id": "interview-gamefreak-rnd-launch-taya-mi",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "GAME FREAK 官方专访：研究开发部（R&D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）",
-   "url": "/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/",
-   "why": "同栏目技术架构篇，R&D与程序员背景"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

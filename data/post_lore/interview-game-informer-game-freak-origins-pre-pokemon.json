@@ -2,11 +2,11 @@
  "id": "interview-game-informer-game-freak-origins-pre-pokemon",
  "stem": "2017-08-09-interview-game-informer-game-freak-origins-pre-pokemon",
  "rev": 1,
- "built": "2026-09-25",
+ "built": "2026-11-26",
  "kind": "interview",
  "body": {
   "kind": "segments",
-  "n": 28
+  "n": 27
  },
  "facets": {
   "pokemon": [],
@@ -14,35 +14,30 @@
    {
     "name": "宝可梦 红·绿",
     "slug": "red-green",
-    "seg": [],
+    "seg": [
+     21
+    ],
     "via": "entities"
+   },
+   {
+    "name": "宝可梦 太阳·月亮",
+    "slug": "sun-moon",
+    "seg": [
+     1
+    ],
+    "via": "llm"
    },
    {
     "name": "Quinty",
     "slug": null,
     "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "孟德尔宫殿",
-    "slug": null,
-    "seg": [
+     3,
      4
     ],
     "via": "llm"
    },
    {
     "name": "Jerry Boy",
-    "slug": null,
-    "seg": [
-     9
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Smart Ball",
     "slug": null,
     "seg": [
      9
@@ -74,7 +69,7 @@
     "via": "llm"
    },
    {
-    "name": "混混大象",
+    "name": "TEMBO THE BADASS ELEPHANT",
     "slug": null,
     "seg": [
      15
@@ -94,14 +89,6 @@
     "slug": null,
     "seg": [
      17
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 太阳／月亮",
-    "slug": null,
-    "seg": [
-     1
     ],
     "via": "llm"
    }
@@ -268,8 +255,7 @@
  "sources": {
   "pokemon_names": "2026-09-23",
   "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
+  "model": null,
   "concepts": "2026-09-26"
  },
  "edited": false

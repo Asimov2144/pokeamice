@@ -1,502 +1,490 @@
 {
- "id": "interview-meristation-sun-moon-switch-masuda-ohmori",
- "stem": "2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 17
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "椰蛋树",
-    "ndex": 103,
-    "seg": [
-     8
+  "id": "interview-meristation-sun-moon-switch-masuda-ohmori",
+  "stem": "2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 17
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "椰蛋树",
+        "ndex": 103,
+        "seg": [
+          8
+        ],
+        "as": [
+          "椰蛋树"
+        ],
+        "via": "body"
+      }
     ],
-    "as": [
-     "椰蛋树"
+    "works": [
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          1
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 太阳·月亮",
+        "slug": "sun-moon",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 红宝石·蓝宝石",
+        "slug": "ruby-sapphire",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦巡护员",
+        "slug": "ranger",
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·蓝",
+        "slug": "red-blue",
+        "seg": [
+          8
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦不可思议迷宫",
+        "slug": "mystery-dungeon-red-rescue-team-and-blue-rescue-team",
+        "seg": [
+          9
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦随乐拍",
+        "slug": "snap",
+        "seg": [
+          10
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+        "slug": "oras",
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          15
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "节奏猎人 和谐骑士",
+        "slug": null,
+        "seg": [
+          4
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 太阳·月亮",
-    "slug": "sun-moon",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 太阳／月亮",
-    "slug": null,
-    "seg": [
-     0
+    "people": [
+      {
+        "name": "大森滋",
+        "slug": "ohmori-shigeru",
+        "role": "speaker",
+        "seg": [
+          4,
+          6,
+          8,
+          10
+        ]
+      },
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          12,
+          14,
+          16
+        ]
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 钻石／珍珠",
-    "slug": null,
-    "seg": [
-     1
+    "places": [
+      {
+        "name": "阿罗拉",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          5
+        ],
+        "what": "四座岛屿的群岛地区",
+        "via": "llm"
+      },
+      {
+        "name": "马德里",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          0
+        ],
+        "what": "采访举办城市",
+        "via": "llm"
+      },
+      {
+        "name": "横滨",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          3
+        ],
+        "what": "增田顺一出生地",
+        "via": "llm"
+      },
+      {
+        "name": "夏威夷",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          6
+        ],
+        "what": "阿罗拉灵感来源",
+        "via": "llm"
+      },
+      {
+        "name": "城都地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          7
+        ],
+        "what": "提问提及的地区",
+        "via": "llm"
+      },
+      {
+        "name": "神奥地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          13
+        ],
+        "what": "重制提问所指地区",
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红宝石／蓝宝石",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦巡护员",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "节奏骑士",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红／蓝",
-    "slug": null,
-    "seg": [
-     8
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦不可思议的迷宫",
-    "slug": null,
-    "seg": [
-     9
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦随乐拍",
-    "slug": "snap",
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon GO",
-    "slug": null,
-    "seg": [
-     15
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "大森滋",
-    "slug": "ohmori-shigeru",
-    "role": "speaker",
-    "seg": [
-     4,
-     6,
-     8,
-     10
+    "concepts": [
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          0,
+          2,
+          3
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          0,
+          6,
+          8
+        ],
+        "as": [
+          "惊喜",
+          "新鲜感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          1,
+          13
+        ],
+        "as": [
+          "重制版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          3
+        ],
+        "as": [
+          "职业生涯"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          3
+        ],
+        "as": [
+          "授权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          4
+        ],
+        "as": [
+          "开发期间"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "level-design",
+        "name": "地图与关卡",
+        "facet": "system",
+        "seg": [
+          4,
+          9
+        ],
+        "as": [
+          "地图设计",
+          "迷宫"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "evolution-design",
+        "name": "进化的设计",
+        "facet": "design",
+        "seg": [
+          7,
+          8
+        ],
+        "as": [
+          "地区形态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          7,
+          13
+        ],
+        "as": [
+          "第七世代",
+          "第三世代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          8
+        ],
+        "as": [
+          "老玩家"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "spinoff",
+        "name": "外传作品",
+        "facet": "franchise",
+        "seg": [
+          9,
+          10
+        ],
+        "as": [
+          "外传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          10
+        ],
+        "as": [
+          "机能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          11,
+          12
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          12
+        ],
+        "as": [
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          12
+        ],
+        "as": [
+          "沟通"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          12
+        ],
+        "as": [
+          "新主机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          15
+        ],
+        "as": [
+          "期限"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "social-impact",
+        "name": "社会反响",
+        "facet": "audience",
+        "seg": [
+          15,
+          16
+        ],
+        "as": [
+          "热潮",
+          "社会现象"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     12,
-     14,
-     16
-    ]
-   }
+  },
+  "observations": [
+    {
+      "seg": 6,
+      "text": "大森滋说选夏威夷因人类与自然关系紧密",
+      "anchor": 7
+    },
+    {
+      "seg": 8,
+      "text": "大森滋举例椰蛋树在岛上以脖子极长形态登场",
+      "anchor": 9
+    }
   ],
-  "places": [
-   {
-    "name": "阿罗拉",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     5
-    ],
-    "what": "四座岛屿的群岛地区",
-    "via": "llm"
-   },
-   {
-    "name": "马德里",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     0
-    ],
-    "what": "采访举办城市",
-    "via": "llm"
-   },
-   {
-    "name": "横滨",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     3
-    ],
-    "what": "增田顺一出生地",
-    "via": "llm"
-   },
-   {
-    "name": "夏威夷",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     6
-    ],
-    "what": "阿罗拉灵感来源",
-    "via": "llm"
-   },
-   {
-    "name": "城都地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     7
-    ],
-    "what": "提问提及的地区",
-    "via": "llm"
-   },
-   {
-    "name": "神奥地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     13
-    ],
-    "what": "重制提问所指地区",
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-reportajes",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\"",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-reportajes/",
+      "why": "同在马德里MeriStation采访大森增田"
+    },
+    {
+      "id": "interview-25043",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "2016  Entrevistamos a los responsables de Pokémon: \"No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo\" 20年前我们并不相信会如此成功",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-25043/",
+      "why": "同期GQ西班牙采访大森增田谈日月"
+    },
+    {
+      "id": "interview-gq-spain-sun-moon-masuda-ohmori",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋",
+      "url": "//interview-gq-spain-sun-moon-masuda-ohmori/",
+      "why": "同期GQ西班牙采访大森增田谈日月"
+    }
   ],
-  "concepts": [
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     0,
-     2,
-     3
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     0,
-     6,
-     8
-    ],
-    "as": [
-     "惊喜",
-     "新鲜感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     1,
-     13
-    ],
-    "as": [
-     "重制版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     3
-    ],
-    "as": [
-     "职业生涯"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     3
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     4
-    ],
-    "as": [
-     "开发期间"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "level-design",
-    "name": "地图与关卡",
-    "facet": "system",
-    "seg": [
-     4,
-     9
-    ],
-    "as": [
-     "地图设计",
-     "迷宫"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "evolution-design",
-    "name": "进化的设计",
-    "facet": "design",
-    "seg": [
-     7,
-     8
-    ],
-    "as": [
-     "地区形态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     7,
-     13
-    ],
-    "as": [
-     "第七世代",
-     "第三世代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     8
-    ],
-    "as": [
-     "老玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "spinoff",
-    "name": "外传作品",
-    "facet": "franchise",
-    "seg": [
-     9,
-     10
-    ],
-    "as": [
-     "外传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     10
-    ],
-    "as": [
-     "机能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     11,
-     12
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     12
-    ],
-    "as": [
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     12
-    ],
-    "as": [
-     "沟通"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     12
-    ],
-    "as": [
-     "新主机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     15
-    ],
-    "as": [
-     "期限"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "social-impact",
-    "name": "社会反响",
-    "facet": "audience",
-    "seg": [
-     15,
-     16
-    ],
-    "as": [
-     "热潮",
-     "社会现象"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 6,
-   "text": "大森滋说选夏威夷因人类与自然关系紧密",
-   "anchor": 7
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 8,
-   "text": "大森滋举例椰蛋树在岛上以脖子极长形态登场",
-   "anchor": 9
-  }
- ],
- "relations": [
-  {
-   "id": "interview-reportajes",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\"",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-reportajes/",
-   "why": "同在马德里MeriStation采访大森增田"
-  },
-  {
-   "id": "interview-25043",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "2016  Entrevistamos a los responsables de Pokémon: \"No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo\" 20年前我们并不相信会如此成功",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-25043/",
-   "why": "同期GQ西班牙采访大森增田谈日月"
-  },
-  {
-   "id": "interview-gq-spain-sun-moon-masuda-ohmori",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋",
-   "url": "//interview-gq-spain-sun-moon-masuda-ohmori/",
-   "why": "同期GQ西班牙采访大森增田谈日月"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

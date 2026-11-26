@@ -29,6 +29,7 @@ people_ja:
 - 大谷育江
 speaker_zh:
   増田順一: 增田顺一
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - type: heading
   level: 2
@@ -96,9 +97,5 @@ parallel_items:
 - speaker: Game Informer
   original: 'The anime made its way to North America in 1998, and quickly found an audience. The first Pokémon movie, appropriately titled Pokémon: The First Movie - Mewtwo Strikes Back, actually held the record for highest grossing opening for an animated film until it was beaten by Toy Story 2 two weeks later. The anime is still going strong today with adaptations of every mainline game and a new movie, recounting the events of the beginning of the anime, coming to American theatres in November.'
   translation: 'アニメは1998年に北米へ進出し、すぐに多くの視聴者を獲得した。初のポケモン映画である『ミュウツーの逆襲』（海外タイトル：Pokémon: The First Movie - Mewtwo Strikes Back）は、2週間後に『トイ・ストーリー2』に抜かれるまで、アニメーション映画における歴代最高のオープニング興行収入記録を保持していた。アニメは現在も勢いを保ち続けており、本編ゲームシリーズすべてのアニメ化が進められているほか、アニメ初期の出来事を描いた新作映画が11月にアメリカの劇場で公開される予定だ。'
-  role: question
-- speaker: Game Informer
-  original: For more on the history of Pokémon, you can check out the latest issue for a 12-page feature covering the franchise’s history, as well as online features and interviews linked below.
-  translation: ポケモンの歴史についてさらに詳しく知りたい方は、最新号に掲載された12ページにわたるシリーズの歴史特集や、以下にリンクしたオンライン記事およびインタビューをチェックしてほしい。
   role: question
 ---

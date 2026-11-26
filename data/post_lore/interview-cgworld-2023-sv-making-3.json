@@ -1,520 +1,512 @@
 {
- "id": "interview-cgworld-2023-sv-making-3",
- "stem": "2023-04-21-interview-cgworld-2023-sv-making-3",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 99
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "冰伊布",
-    "ndex": 471,
-    "seg": [
-     56,
-     61,
-     62,
-     63
-    ],
-    "as": [
-     "冰伊布"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "润水鸭",
-    "ndex": 912,
-    "seg": [
-     15,
-     16
-    ],
-    "as": [
-     "润水鸭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "涌跃鸭",
-    "ndex": 913,
-    "seg": [
-     15,
-     16
-    ],
-    "as": [
-     "涌跃鸭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "狂欢浪舞鸭",
-    "ndex": 914,
-    "seg": [
-     15,
-     16
-    ],
-    "as": [
-     "狂欢浪舞鸭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "操陷蛛",
-    "ndex": 918,
-    "seg": [
-     27,
-     28,
-     29,
-     30,
-     31,
-     34
-    ],
-    "as": [
-     "操陷蛛"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "下石鸟",
-    "ndex": 962,
-    "seg": [
-     61,
-     64,
-     65,
-     56
-    ],
-    "as": [
-     "下石鸟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "噗隆隆",
-    "ndex": 965,
-    "seg": [
-     42,
-     48
-    ],
-    "as": [
-     "噗隆隆",
-     "ブロロン"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "铁包袱",
-    "ndex": 991,
-    "seg": [
-     34,
-     36,
-     47
-    ],
-    "as": [
-     "铁包袱",
-     "テツノツツミ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "铁荆棘",
-    "ndex": 995,
-    "seg": [
-     34,
-     36,
-     47
-    ],
-    "as": [
-     "铁荆棘",
-     "テツノイバラ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "パオジアン",
-    "ndex": 1002,
-    "seg": [
-     51
-    ],
-    "as": [
-     "パオジアン"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "古玉鱼",
-    "ndex": 1004,
-    "seg": [
-     22,
-     24,
-     25,
-     26
-    ],
-    "as": [
-     "古玉鱼"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "トドロクツキ",
-    "ndex": 1005,
-    "seg": [
-     50
-    ],
-    "as": [
-     "トドロクツキ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "密勒顿",
-    "ndex": 1008,
-    "seg": [
-     20
-    ],
-    "as": [
-     "密勒顿"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [
-     0,
-     1,
-     10
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 剑·盾",
-    "slug": "sword-shield",
-    "seg": [
-     53
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "CGWORLD + digital video",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "CGWORLD",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     9,
-     11,
-     13,
-     15,
-     17,
-     32
-    ]
-   },
-   {
-    "name": "米谷由贵",
-    "slug": "yonetani-yuki",
-    "role": "speaker",
-    "seg": [
-     10,
-     12,
-     16,
-     27,
-     29,
-     33
-    ]
-   },
-   {
-    "name": "深谷卓",
-    "slug": "fukaya-taku",
-    "role": "speaker",
-    "seg": [
-     14,
-     18,
-     21,
-     23,
-     34,
-     40
-    ]
-   },
-   {
-    "name": "小野寺瞬",
-    "slug": "onodera-shun",
-    "role": "speaker",
-    "seg": [
-     20,
-     22,
-     28,
-     35,
-     42,
-     53
-    ]
-   },
-   {
-    "name": "若杉",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "帕底亚地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     0
-    ],
-    "what": "游戏舞台",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "open-world",
-    "name": "开放世界",
-    "facet": "system",
-    "seg": [
-     0,
-     59
-    ],
-    "as": [
-     "开放世界"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "difficulty",
-    "name": "难易度",
-    "facet": "system",
-    "seg": [
-     16,
-     17,
-     18
-    ],
-    "as": [
-     "难度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     20,
-     35,
-     69,
-     89
-    ],
-    "as": [
-     "设定资料"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     22,
-     41,
-     42,
-     88
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-model",
-    "name": "舞台取材",
-    "facet": "design",
-    "seg": [
-     22
-    ],
-    "as": [
-     "为原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "motion",
-    "name": "动作设计",
-    "facet": "art",
-    "seg": [
-     50,
-     51
-    ],
-    "as": [
-     "モーション"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     67
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     68,
-     69
-    ],
-    "as": [
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "naming",
-    "name": "命名",
-    "facet": "design",
-    "seg": [
-     72
-    ],
-    "as": [
-     "命名"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     75
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     80
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     80
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     80
-    ],
-    "as": [
-     "协作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     82
-    ],
-    "as": [
-     "建模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     84
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 10,
-   "text": "动画师总数包括公司内外共计约80人",
-   "anchor": 11
+  "id": "interview-cgworld-2023-sv-making-3",
+  "stem": "2023-04-21-interview-cgworld-2023-sv-making-3",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 99
   },
-  {
-   "seg": 44,
-   "text": "平均23个动作，最多60个动作；新宝可梦约花1.5到2.5个月",
-   "anchor": 45
-  }
- ],
- "relations": [
-  {
-   "id": "interview-cgworld-2023-sv-making-1",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "宝可梦朱紫的动画制作",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-1/",
-   "why": "同为CGWORLD对Creatures三人访谈的前篇"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "冰伊布",
+        "ndex": 471,
+        "seg": [
+          56,
+          61,
+          62,
+          63
+        ],
+        "as": [
+          "冰伊布"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "润水鸭",
+        "ndex": 912,
+        "seg": [
+          15,
+          16
+        ],
+        "as": [
+          "润水鸭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "涌跃鸭",
+        "ndex": 913,
+        "seg": [
+          15,
+          16
+        ],
+        "as": [
+          "涌跃鸭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "狂欢浪舞鸭",
+        "ndex": 914,
+        "seg": [
+          15,
+          16
+        ],
+        "as": [
+          "狂欢浪舞鸭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "操陷蛛",
+        "ndex": 918,
+        "seg": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          34
+        ],
+        "as": [
+          "操陷蛛"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "下石鸟",
+        "ndex": 962,
+        "seg": [
+          61,
+          64,
+          65,
+          56
+        ],
+        "as": [
+          "下石鸟"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "噗隆隆",
+        "ndex": 965,
+        "seg": [
+          42,
+          48
+        ],
+        "as": [
+          "噗隆隆",
+          "ブロロン"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "铁包袱",
+        "ndex": 991,
+        "seg": [
+          34,
+          36,
+          47
+        ],
+        "as": [
+          "铁包袱",
+          "テツノツツミ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "铁荆棘",
+        "ndex": 995,
+        "seg": [
+          34,
+          36,
+          47
+        ],
+        "as": [
+          "铁荆棘",
+          "テツノイバラ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "パオジアン",
+        "ndex": 1002,
+        "seg": [
+          51
+        ],
+        "as": [
+          "パオジアン"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "古玉鱼",
+        "ndex": 1004,
+        "seg": [
+          22,
+          24,
+          25,
+          26
+        ],
+        "as": [
+          "古玉鱼"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "トドロクツキ",
+        "ndex": 1005,
+        "seg": [
+          50
+        ],
+        "as": [
+          "トドロクツキ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "密勒顿",
+        "ndex": 1008,
+        "seg": [
+          20
+        ],
+        "as": [
+          "密勒顿"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 朱·紫",
+        "slug": "scarlet-violet",
+        "seg": [
+          0,
+          1,
+          10
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [
+          53
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "CGWORLD",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          9,
+          11,
+          13,
+          15,
+          17,
+          32
+        ]
+      },
+      {
+        "name": "米谷由贵",
+        "slug": "yonetani-yuki",
+        "role": "speaker",
+        "seg": [
+          10,
+          12,
+          16,
+          27,
+          29,
+          33
+        ]
+      },
+      {
+        "name": "深谷卓",
+        "slug": "fukaya-taku",
+        "role": "speaker",
+        "seg": [
+          14,
+          18,
+          21,
+          23,
+          34,
+          40
+        ]
+      },
+      {
+        "name": "小野寺瞬",
+        "slug": "onodera-shun",
+        "role": "speaker",
+        "seg": [
+          20,
+          22,
+          28,
+          35,
+          42,
+          53
+        ]
+      },
+      {
+        "name": "若杉",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "帕底亚地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          0
+        ],
+        "what": "游戏舞台",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "open-world",
+        "name": "开放世界",
+        "facet": "system",
+        "seg": [
+          0,
+          59
+        ],
+        "as": [
+          "开放世界"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "difficulty",
+        "name": "难易度",
+        "facet": "system",
+        "seg": [
+          16,
+          17,
+          18
+        ],
+        "as": [
+          "难度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          20,
+          35,
+          69,
+          89
+        ],
+        "as": [
+          "设定资料"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          22,
+          41,
+          42,
+          88
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-model",
+        "name": "舞台取材",
+        "facet": "design",
+        "seg": [
+          22
+        ],
+        "as": [
+          "为原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "motion",
+        "name": "动作设计",
+        "facet": "art",
+        "seg": [
+          50,
+          51
+        ],
+        "as": [
+          "モーション"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          67
+        ],
+        "as": [
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          68,
+          69
+        ],
+        "as": [
+          "新人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "naming",
+        "name": "命名",
+        "facet": "design",
+        "seg": [
+          72
+        ],
+        "as": [
+          "命名"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          75
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          80
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          80
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          80
+        ],
+        "as": [
+          "协作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          82
+        ],
+        "as": [
+          "建模"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          84
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-cgworld-2023-sv-making-2",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "宝可梦朱紫动作制作幕后",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-2/",
-   "why": "同为CGWORLD对Creatures动画师访谈的续篇"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 10,
+      "text": "动画师总数包括公司内外共计约80人",
+      "anchor": 11
+    },
+    {
+      "seg": 44,
+      "text": "平均23个动作，最多60个动作；新宝可梦约花1.5到2.5个月",
+      "anchor": 45
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-cgworld-2023-sv-making-1",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "宝可梦朱紫的动画制作",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-1/",
+      "why": "同为CGWORLD对Creatures三人访谈的前篇"
+    },
+    {
+      "id": "interview-cgworld-2023-sv-making-2",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "宝可梦朱紫动作制作幕后",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-2/",
+      "why": "同为CGWORLD对Creatures动画师访谈的续篇"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

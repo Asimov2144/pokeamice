@@ -29,6 +29,7 @@ people_ja:
 - 増田順一
 - 大森滋
 speaker_zh: {}
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - type: image
   image: /assets/img/interviews/2017-08-15-interview-gi-2017-spinoffs/001.jpg
@@ -46,30 +47,4 @@ parallel_items:
   translation: また、ポケモンがまだ手がけていないジャンルで、今後見てみたいものは何かと両氏に尋ねた。「『ポケットモンスター X・Y』のちょっとしたイースターエッグなんですけど、あの世界にはサイドンレースというのがあったんです。あの中に、僕が本当にサイドンレースを作りたいというメッセージが込められているのかもしれないですね」と増田氏は語る。
 - original: '"I really want to try working on a real action-focused game," Ohmori says. "Of course, we’ve kind of got those already with fighting games as well so it’s hard to say what it would be. Like a 2D side-scrolling action game, maybe."'
   translation: 「僕は本当に、本格的なアクション寄りのゲームを作ってみたいんです」と大森氏は言う。「もちろん、格闘ゲームのような形で似たものはすでにありますし、どういう形になるかはなかなか言いにくいんですけど。たとえば2Dの横スクロールアクションみたいなものかもしれませんね」。
-- original: For more on the history of Pokémon, you can check out the latest issue for a 12-page feature covering the franchise’s history, as well as online features and interviews linked below.
-  translation: ポケモンの歴史についてさらに詳しく知りたい方は、最新号に掲載されたシリーズの歴史を振り返る12ページの特集記事や、以下にリンクしたオンライン上の特集・インタビューもチェックしてみてほしい。
-- original: Pokémon’s Developers Talk About Their Console RPG Debut On Switch
-  translation: ポケモン開発者が語る、Nintendo Switchでの据置機向けRPGデビュー
-- original: Game Freak’s Origins And Its Pre-Pokémon Games
-  translation: ゲームフリークの原点と、ポケモン以前のゲームたち
-- original: Here's How Game Freak Designs Pokemon Creatures
-  translation: ゲームフリークはどのようにポケモンの生き物たちをデザインしているのか
-- original: Game Freak On Player Freedom Vs. Story In Pokémon
-  translation: ゲームフリークが考える、ポケモンにおけるプレイヤーの自由度とストーリーの関係
-- original: Discussing Our In-Depth Tour Of Game Freak
-  translation: ゲームフリーク社内を深く巡ったツアーについて語る
-- original: Everything We Know About Pokémon On The Nintendo Switch
-  translation: Nintendo Switch版ポケモンについて現在わかっていることすべて
-- original: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
-  translation: なぜ『ポケットモンスター ルビー・サファイア』は最も作るのが大変だったポケモンなのか
-- original: Game Freak's Director Share Their Favorite Pokémon Spin-Offs
-  translation: ゲームフリークのディレクターたちが語る、お気に入りのポケモンスピンオフ作品
-- original: An Exclusive Look At Pokémon's Early Design Documents
-  translation: ポケモン初期のデザイン資料を独占公開
-- original: 'Pokémon’s Creators On The Anime: ''We Weren''t Really Sure About It'''
-  translation: アニメについて語るポケモンのクリエイターたち「僕らも本当に大丈夫かなと思っていました」
-- original: Our Reddit AMA On Our Trip To Visit Game Freak
-  translation: ゲームフリーク訪問レポートに関するReddit AMA（質問スレッド）
-- original: Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon
-  translation: 『ポケットモンスター ウルトラサン・ウルトラムーン』の新モードを独占公開
 ---

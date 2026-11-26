@@ -1,299 +1,302 @@
 {
- "id": "interview-famitsu-sv-arceus-cedec2022-shader-pipeline",
- "stem": "2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 75
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "阿柏蛇",
-    "ndex": 23,
-    "seg": [
-     70
-    ],
-    "as": [
-     "阿柏蛇"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     29,
-     34,
-     44
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "tag"
-   },
-   {
-    "name": "伦琴猫",
-    "ndex": 405,
-    "seg": [
-     70
-    ],
-    "as": [
-     "伦琴猫"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "ミツハニー",
-    "ndex": 415,
-    "seg": [
-     37
-    ],
-    "as": [
-     "ミツハニー"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "ミカルゲ",
-    "ndex": 442,
-    "seg": [
-     37
-    ],
-    "as": [
-     "ミカルゲ"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "阿尔宙斯",
-    "ndex": 493,
-    "seg": [
-     0,
-     6,
-     12,
-     25,
-     34,
-     39
-    ],
-    "as": [
-     "阿尔宙斯"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "润水鸭",
-    "ndex": 912,
-    "seg": [
-     44
-    ],
-    "as": [
-     "润水鸭"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "密勒顿",
-    "ndex": 1008,
-    "seg": [
-     44
-    ],
-    "as": [
-     "密勒顿"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦传说 阿尔宙斯",
-    "slug": "legends-arceus",
-    "seg": [
-     6
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [
-     6
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 剑·盾",
-    "slug": "sword-shield",
-    "seg": [
-     8
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     10
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "前泽圭一",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     2,
-     5
-    ],
-    "via": "source"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "open-world",
-    "name": "开放世界",
-    "facet": "system",
-    "seg": [
-     12
-    ],
-    "as": [
-     "开放世界"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     22
-    ],
-    "as": [
-     "建模",
-     "多边形"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     10
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     12,
-     39
-    ],
-    "as": [
-     "画风"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "canon-consistency",
-    "name": "设定统一",
-    "facet": "franchise",
-    "seg": [
-     25
-    ],
-    "as": [
-     "统一设定"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     29
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     30,
-     73,
-     74
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     34,
-     39
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 10,
-   "text": "从初代《红·绿》到《剑·盾》，宝可梦模型总数已超过1000种。",
-   "anchor": 11
+  "id": "interview-famitsu-sv-arceus-cedec2022-shader-pipeline",
+  "stem": "2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 75
   },
-  {
-   "seg": 44,
-   "text": "《朱／紫》后处理阶段，皮卡丘展现了宝可梦史上最蓬松的质感。",
-   "anchor": 45
-  }
- ],
- "relations": [
-  {
-   "id": "interview-cedec-2022-legends-arceus-scarlet-violet-pipeline",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "两款宝可梦同时开发的模型共通化",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/",
-   "why": "同为CEDEC2022前泽圭一讲模型共通化"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "阿柏蛇",
+        "ndex": 23,
+        "seg": [
+          70
+        ],
+        "as": [
+          "阿柏蛇"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          29,
+          34,
+          44
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "tag"
+      },
+      {
+        "name": "伦琴猫",
+        "ndex": 405,
+        "seg": [
+          70
+        ],
+        "as": [
+          "伦琴猫"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "ミツハニー",
+        "ndex": 415,
+        "seg": [
+          37
+        ],
+        "as": [
+          "ミツハニー"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "ミカルゲ",
+        "ndex": 442,
+        "seg": [
+          37
+        ],
+        "as": [
+          "ミカルゲ"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "阿尔宙斯",
+        "ndex": 493,
+        "seg": [
+          0,
+          6,
+          12,
+          25,
+          34,
+          39
+        ],
+        "as": [
+          "阿尔宙斯"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "润水鸭",
+        "ndex": 912,
+        "seg": [
+          44
+        ],
+        "as": [
+          "润水鸭"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "密勒顿",
+        "ndex": 1008,
+        "seg": [
+          44
+        ],
+        "as": [
+          "密勒顿"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦传说 阿尔宙斯",
+        "slug": "legends-arceus",
+        "seg": [
+          6,
+          7
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 朱·紫",
+        "slug": "scarlet-violet",
+        "seg": [
+          0,
+          6
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [
+          8
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          9,
+          10
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "前泽圭一",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          2,
+          5
+        ],
+        "via": "source"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "open-world",
+        "name": "开放世界",
+        "facet": "system",
+        "seg": [
+          12
+        ],
+        "as": [
+          "开放世界"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          22
+        ],
+        "as": [
+          "建模",
+          "多边形"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          10
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          12,
+          39
+        ],
+        "as": [
+          "画风"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "canon-consistency",
+        "name": "设定统一",
+        "facet": "franchise",
+        "seg": [
+          25
+        ],
+        "as": [
+          "统一设定"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          29
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          30,
+          73,
+          74
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          34,
+          39
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-cgworld-2023-sv-making-1",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "宝可梦朱紫的动画制作",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-1/",
-   "why": "同讲朱紫宝可梦3D资产与动作规格"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "segment_audit": "2026-11-12"
- },
- "edited": false
+  "observations": [
+    {
+      "seg": 10,
+      "text": "从初代《红·绿》到《剑·盾》，宝可梦模型总数已超过1000种。",
+      "anchor": 11
+    },
+    {
+      "seg": 44,
+      "text": "《朱／紫》后处理阶段，皮卡丘展现了宝可梦史上最蓬松的质感。",
+      "anchor": 45
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-cedec-2022-legends-arceus-scarlet-violet-pipeline",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "两款宝可梦同时开发的模型共通化",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/",
+      "why": "同为CEDEC2022前泽圭一讲模型共通化"
+    },
+    {
+      "id": "interview-cgworld-2023-sv-making-1",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "宝可梦朱紫的动画制作",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cgworld-2023-sv-making-1/",
+      "why": "同讲朱紫宝可梦3D资产与动作规格"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "segment_audit": "2026-11-12"
+  },
+  "edited": false
 }

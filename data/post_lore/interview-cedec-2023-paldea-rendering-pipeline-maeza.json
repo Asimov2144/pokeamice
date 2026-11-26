@@ -1,132 +1,135 @@
 {
- "id": "interview-cedec-2023-paldea-rendering-pipeline-maeza",
- "stem": "2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 73
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 朱·紫",
-    "slug": "scarlet-violet",
-    "seg": [
-     2,
-     3,
-     32,
-     67
+  "id": "interview-cedec-2023-paldea-rendering-pipeline-maeza",
+  "stem": "2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 73
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 朱·紫",
+        "slug": "scarlet-violet",
+        "seg": [
+          1,
+          2,
+          3,
+          32,
+          67
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 剑·盾",
-    "slug": "sword-shield",
-    "seg": [],
-    "via": "entities"
-   }
-  ],
-  "people": [
-   {
-    "name": "前泽圭一",
-    "slug": "maezawa-keiichi",
-    "role": "mentioned",
-    "seg": [
-     0,
-     2
+    "people": [
+      {
+        "name": "前泽圭一",
+        "slug": "maezawa-keiichi",
+        "role": "mentioned",
+        "seg": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "Igarashi",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          0
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "帕底亚地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          2
+        ],
+        "what": "演讲主题地区",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          49,
+          60
+        ],
+        "as": [
+          "建模"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "open-world",
+        "name": "开放世界",
+        "facet": "system",
+        "seg": [],
+        "as": [
+          "开放世界"
+        ],
+        "via": "tag"
+      }
     ]
-   },
-   {
-    "name": "Igarashi",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "帕底亚地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     2
-    ],
-    "what": "演讲主题地区",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     49,
-     60
-    ],
-    "as": [
-     "建模"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "open-world",
-    "name": "开放世界",
-    "facet": "system",
-    "seg": [],
-    "as": [
-     "开放世界"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "演讲题为“【宝可梦 朱·紫】描绘帕底亚地区——彻底解说视觉外观的机制！”",
-   "anchor": 3
   },
-  {
-   "seg": 6,
-   "text": "宝可梦SV的视觉概念是“真实与变形”，背景质感与形状偏向真实",
-   "anchor": 7
-  }
- ],
- "relations": [
-  {
-   "id": "interview-denfami-2023-cedec-visual",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "宝可梦SV视觉表现全解",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2023-cedec-visual/",
-   "why": "同为CEDEC2023前泽圭一宝可梦SV视觉演讲报道"
+  "observations": [
+    {
+      "seg": 2,
+      "text": "演讲题为“【宝可梦 朱·紫】描绘帕底亚地区——彻底解说视觉外观的机制！”",
+      "anchor": 3
+    },
+    {
+      "seg": 6,
+      "text": "宝可梦SV的视觉概念是“真实与变形”，背景质感与形状偏向真实",
+      "anchor": 7
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-denfami-2023-cedec-visual",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "宝可梦SV视觉表现全解",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-denfami-2023-cedec-visual/",
+      "why": "同为CEDEC2023前泽圭一宝可梦SV视觉演讲报道"
+    },
+    {
+      "id": "interview-cedec-2022-legends-arceus-scarlet-violet-pipeline",
+      "kind": "background",
+      "label": "为这篇提供背景",
+      "title": "两款宝可梦同时开发的模型共通化",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/",
+      "why": "前泽圭一前一年讲SV与阿尔宙斯模型共通化"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "segment_audit": "2026-11-12"
   },
-  {
-   "id": "interview-cedec-2022-legends-arceus-scarlet-violet-pipeline",
-   "kind": "background",
-   "label": "为这篇提供背景",
-   "title": "两款宝可梦同时开发的模型共通化",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/",
-   "why": "前泽圭一前一年讲SV与阿尔宙斯模型共通化"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "segment_audit": "2026-11-12"
- },
- "edited": false
+  "edited": false
 }

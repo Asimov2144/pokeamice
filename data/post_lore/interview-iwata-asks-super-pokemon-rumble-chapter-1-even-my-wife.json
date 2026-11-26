@@ -1,445 +1,437 @@
 {
- "id": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
- "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 65
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     0
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "llm"
-   }
-  ],
-  "works": [
-   {
-    "name": "超级宝可梦乱战",
-    "slug": "rumble-blast",
-    "seg": [
-     0,
-     2,
-     3,
-     5
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦乱战",
-    "slug": "rumble",
-    "seg": [
-     0,
-     2,
-     3,
-     5,
-     6,
-     11
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "皮卡丘你好吗",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦频道",
-    "slug": "channel",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "乱战！宝可梦乱战",
-    "slug": null,
-    "seg": [
-     6
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦立体图鉴BW",
-    "slug": "pokedex-3d",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "超级马力欧",
-    "slug": null,
-    "seg": [
-     37
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "塞尔达传说",
-    "slug": null,
-    "seg": [
-     37
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "speaker",
-    "seg": [
-     2,
-     3,
-     5,
-     8,
-     10,
-     13
-    ]
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     6,
-     33,
-     35,
-     37,
-     41,
-     43
-    ]
-   },
-   {
-    "name": "松村直树",
-    "slug": "matsumura-naoki",
-    "role": "speaker",
-    "seg": [
-     9,
-     11,
-     14,
-     18,
-     20,
-     22
-    ]
-   },
-   {
-    "name": "小泽达雄",
-    "slug": "ozawa-tatsuo",
-    "role": "speaker",
-    "seg": [
-     15,
-     60
-    ]
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "delay",
-    "name": "延期",
-    "facet": "process",
-    "seg": [
-     2
-    ],
-    "as": [
-     "延期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     6,
-     28
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     11,
-     24
-    ],
-    "as": [
-     "前作的",
-     "继承"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     11,
-     54,
-     57
-    ],
-    "as": [
-     "团队内部",
-     "公司内部",
-     "办公室"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "team-size",
-    "name": "团队规模",
-    "facet": "process",
-    "seg": [
-     15,
-     59
-    ],
-    "as": [
-     "全公司"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     18
-    ],
-    "as": [
-     "回合"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     18,
-     26,
-     35
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     23,
-     24,
-     30,
-     42
-    ],
-    "as": [
-     "一目了然",
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     25
-    ],
-    "as": [
-     "机能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "new-hardware",
-    "name": "新硬件",
-    "facet": "tech",
-    "seg": [
-     25
-    ],
-    "as": [
-     "新硬件"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     28
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     29,
-     54,
-     55
-    ],
-    "as": [
-     "平衡性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     34,
-     35
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     36
-    ],
-    "as": [
-     "年龄层"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     46
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     54
-    ],
-    "as": [
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     54,
-     57,
-     59
-    ],
-    "as": [
-     "测试",
-     "试玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     57,
-     58
-    ],
-    "as": [
-     "通宵",
-     "加班"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "main-story",
-    "name": "主线流程",
-    "facet": "system",
-    "seg": [
-     62
-    ],
-    "as": [
-     "通关"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "岩田聪就发售日突发延期致歉，并说明访谈在决定延期前收录",
-   "anchor": 3
+  "id": "interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+  "stem": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 65
   },
-  {
-   "seg": 57,
-   "text": "松村直树称周末独自潜回公司，通宵调整技能前后摇与判定",
-   "anchor": 58
-  }
- ],
- "relations": [
-  {
-   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《超级宝可梦乱战》第2章：300亿种宝可梦的相遇（600只全员集结、称号与一期一会的组队战术）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations/",
-   "why": "同为《超级宝可梦乱战》社长问第2章，接第1章"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          0
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "llm"
+      }
+    ],
+    "works": [
+      {
+        "name": "超级宝可梦乱战",
+        "slug": "rumble-blast",
+        "seg": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦乱战",
+        "slug": "rumble",
+        "seg": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          11
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "大家的声音！皮卡丘",
+        "slug": "hey-you-pikachu",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦频道",
+        "slug": "channel",
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦立体图鉴BW",
+        "slug": "pokedex-3d",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "超级马力欧",
+        "slug": null,
+        "seg": [
+          37
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "塞尔达传说",
+        "slug": null,
+        "seg": [
+          37
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "岩田聪",
+        "slug": "iwata-satoru",
+        "role": "speaker",
+        "seg": [
+          2,
+          3,
+          5,
+          8,
+          10,
+          13
+        ]
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          6,
+          33,
+          35,
+          37,
+          41,
+          43
+        ]
+      },
+      {
+        "name": "松村直树",
+        "slug": "matsumura-naoki",
+        "role": "speaker",
+        "seg": [
+          9,
+          11,
+          14,
+          18,
+          20,
+          22
+        ]
+      },
+      {
+        "name": "小泽达雄",
+        "slug": "ozawa-tatsuo",
+        "role": "speaker",
+        "seg": [
+          15,
+          60
+        ]
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "delay",
+        "name": "延期",
+        "facet": "process",
+        "seg": [
+          2
+        ],
+        "as": [
+          "延期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          6,
+          28
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          11,
+          24
+        ],
+        "as": [
+          "前作的",
+          "继承"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          11,
+          54,
+          57
+        ],
+        "as": [
+          "团队内部",
+          "公司内部",
+          "办公室"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "team-size",
+        "name": "团队规模",
+        "facet": "process",
+        "seg": [
+          15,
+          59
+        ],
+        "as": [
+          "全公司"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          18
+        ],
+        "as": [
+          "回合"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          18,
+          26,
+          35
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          23,
+          24,
+          30,
+          42
+        ],
+        "as": [
+          "一目了然",
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          25
+        ],
+        "as": [
+          "机能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "new-hardware",
+        "name": "新硬件",
+        "facet": "tech",
+        "seg": [
+          25
+        ],
+        "as": [
+          "新硬件"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          28
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          29,
+          54,
+          55
+        ],
+        "as": [
+          "平衡性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          34,
+          35
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          36
+        ],
+        "as": [
+          "年龄层"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          46
+        ],
+        "as": [
+          "家庭"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          54
+        ],
+        "as": [
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          54,
+          57,
+          59
+        ],
+        "as": [
+          "测试",
+          "试玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          57,
+          58
+        ],
+        "as": [
+          "通宵",
+          "加班"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "main-story",
+        "name": "主线流程",
+        "facet": "system",
+        "seg": [
+          62
+        ],
+        "as": [
+          "通关"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《超级宝可梦乱战》第3章：“想再玩一次”（马力欧俱乐部测试员的盛赞、Mii擦肩通信与发条玩具纸雕特典）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again/",
-   "why": "同为《超级宝可梦乱战》社长问第3章，接第1章"
+  "observations": [
+    {
+      "seg": 2,
+      "text": "岩田聪就发售日突发延期致歉，并说明访谈在决定延期前收录",
+      "anchor": 3
+    },
+    {
+      "seg": 57,
+      "text": "松村直树称周末独自潜回公司，通宵调整技能前后摇与判定",
+      "anchor": 58
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《超级宝可梦乱战》第2章：300亿种宝可梦的相遇（600只全员集结、称号与一期一会的组队战术）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations/",
+      "why": "同为《超级宝可梦乱战》社长问第2章，接第1章"
+    },
+    {
+      "id": "interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《超级宝可梦乱战》第3章：“想再玩一次”（马力欧俱乐部测试员的盛赞、Mii擦肩通信与发条玩具纸雕特典）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again/",
+      "why": "同为《超级宝可梦乱战》社长问第3章，接第1章"
+    },
+    {
+      "id": "interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《超级宝可梦乱战》第4章：作为3DS首部宝可梦正作（“电车坐过站”沉迷指标、前十分钟黄金律与Super命名哲学）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds/",
+      "why": "同为《超级宝可梦乱战》社长问第4章，接第1章"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《超级宝可梦乱战》第4章：作为3DS首部宝可梦正作（“电车坐过站”沉迷指标、前十分钟黄金律与Super命名哲学）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds/",
-   "why": "同为《超级宝可梦乱战》社长问第4章，接第1章"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

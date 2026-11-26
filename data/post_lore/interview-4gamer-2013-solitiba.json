@@ -1,726 +1,729 @@
 {
- "id": "interview-4gamer-2013-solitiba",
- "stem": "2013-10-08-interview-4gamer-2013-solitiba",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 275
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "ソリティ馬",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "纸牌赛马",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     0
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Drill Dozer",
-    "slug": null,
-    "seg": [
-     28
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     97
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "龙之皇冠",
-    "slug": null,
-    "seg": [
-     133
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Quinty",
-    "slug": null,
-    "seg": [
-     205
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "新游戏设计",
-    "slug": null,
-    "seg": [
-     137
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "4Gamer",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     12,
-     13,
-     15,
-     17,
-     19,
-     21,
-     25,
-     27,
-     31,
-     33,
-     38,
-     42,
-     45,
-     49,
-     56,
-     60,
-     64,
-     67,
-     71,
-     92,
-     96,
-     104,
-     111,
-     113,
-     115,
-     119,
-     121,
-     126,
-     131,
-     133,
-     137,
-     138,
-     145,
-     147,
-     151,
-     155,
-     158,
-     161,
-     164,
-     166,
-     168,
-     172,
-     174,
-     177,
-     179,
-     183,
-     188,
-     192,
-     194,
-     197,
-     199,
-     202,
-     204,
-     206,
-     211,
-     214,
-     219,
-     225,
-     227,
-     229,
-     234,
-     241,
-     244,
-     247,
-     248,
-     253,
-     255,
-     258,
-     264
-    ]
-   },
-   {
-    "name": "渡边哲也",
-    "slug": "watanabe-tetsuya",
-    "role": "speaker",
-    "seg": [
-     14,
-     16,
-     20,
-     24,
-     26,
-     28,
-     30,
-     32,
-     37,
-     39,
-     41,
-     43,
-     46,
-     47,
-     50,
-     52,
-     55,
-     57,
-     59,
-     61,
-     63,
-     66,
-     69,
-     73,
-     76,
-     78,
-     94,
-     97,
-     102,
-     105,
-     108,
-     110,
-     112,
-     114,
-     123,
-     125,
-     127,
-     130,
-     146,
-     152,
-     167,
-     169,
-     176,
-     178,
-     182,
-     186,
-     193,
-     195,
-     201,
-     203,
-     209,
-     216,
-     218,
-     220,
-     222,
-     224,
-     226,
-     228,
-     230,
-     235,
-     238,
-     240,
-     242,
-     245,
-     254,
-     259,
-     263,
-     266,
-     268
-    ]
-   },
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     18,
-     29,
-     36,
-     40,
-     48,
-     51,
-     53,
-     58,
-     62,
-     65,
-     68,
-     70,
-     72,
-     75,
-     77,
-     95,
-     100,
-     107,
-     109,
-     116,
-     120,
-     122,
-     128,
-     129,
-     132,
-     134,
-     144,
-     149,
-     150,
-     154,
-     156,
-     157,
-     159,
-     160,
-     163,
-     165,
-     173,
-     175,
-     180,
-     184,
-     185,
-     187,
-     189,
-     198,
-     200,
-     205,
-     208,
-     210,
-     212,
-     215,
-     217,
-     221,
-     223,
-     231,
-     236,
-     239,
-     243,
-     246,
-     250,
-     252,
-     256,
-     257,
-     260,
-     261,
-     265,
-     267,
-     269
-    ]
-   },
-   {
-    "name": "田尻智",
-    "slug": "tajiri-satoshi",
-    "role": "mentioned",
-    "seg": [
-     99
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "田谷正夫",
-    "slug": "taya-masao",
-    "role": "mentioned",
-    "seg": [
-     101
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "一之濑",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     97
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "小幡",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     102
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "神谷盛治",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     133
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "fan-works",
-    "name": "二创与同人",
-    "facet": "audience",
-    "seg": [
-     3
-    ],
-    "as": [
-     "同人志"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     3
-    ],
-    "as": [
-     "攻略本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     4,
-     17,
-     125,
-     193,
-     199,
-     201
-    ],
-    "as": [
-     "完成度",
-     "品质",
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     8,
-     24,
-     27,
-     112
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     24
-    ],
-    "as": [
-     "企划书"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     26,
-     109,
-     112
-    ],
-    "as": [
-     "试作",
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     34
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     34,
-     66
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     34
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "iteration",
-    "name": "推翻重做",
-    "facet": "process",
-    "seg": [
-     40
-    ],
-    "as": [
-     "从零开始"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     40
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     47
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     50
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     52,
-     53
-    ],
-    "as": [
-     "通信功能"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     59
-    ],
-    "as": [
-     "期限"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     92,
-     94
-    ],
-    "as": [
-     "教育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     92,
-     145
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "reuse",
-    "name": "沿用与继承",
-    "facet": "process",
-    "seg": [
-     94
-    ],
-    "as": [
-     "继承"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     99
-    ],
-    "as": [
-     "动画版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     107,
-     156,
-     160,
-     163,
-     185
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     123,
-     177,
-     184,
-     185,
-     216,
-     218
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     125
-    ],
-    "as": [
-     "一起做"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     156
-    ],
-    "as": [
-     "商品化"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-tools",
-    "name": "开发工具与环境",
-    "facet": "tech",
-    "seg": [
-     204
-    ],
-    "as": [
-     "开发环境"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     238
-    ],
-    "as": [
-     "工作方式"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     243
-    ],
-    "as": [
-     "家庭"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     273
-    ],
-    "as": [
-     "世代交替"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 112,
-   "text": "正式开发始于2012年4月，企划提出约在半年前即2011年10月",
-   "anchor": 113
+  "id": "interview-4gamer-2013-solitiba",
+  "stem": "2013-10-08-interview-4gamer-2013-solitiba",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 275
   },
-  {
-   "seg": 97,
-   "text": "一之濑从《宝可梦 红·绿》时期就在公司，约20年",
-   "anchor": 98
-  }
- ],
- "relations": [],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26",
-  "segment_audit": "2026-11-12"
- },
- "edited": false
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          96,
+          97
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "接龙赛马",
+        "slug": null,
+        "seg": [
+          4,
+          5,
+          15,
+          16,
+          17,
+          19
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "螺旋破坏者 轰振钻头",
+        "slug": null,
+        "seg": [
+          28
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "龙之皇冠",
+        "slug": null,
+        "seg": [
+          130,
+          133
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Quinty",
+        "slug": null,
+        "seg": [
+          197,
+          205
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "新游戏设计",
+        "slug": null,
+        "seg": [
+          133,
+          137
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "Drill Dozer",
+        "slug": null,
+        "seg": [
+          28
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "4Gamer",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          12,
+          13,
+          15,
+          17,
+          19,
+          21,
+          25,
+          27,
+          31,
+          33,
+          38,
+          42,
+          45,
+          49,
+          56,
+          60,
+          64,
+          67,
+          71,
+          92,
+          96,
+          104,
+          111,
+          113,
+          115,
+          119,
+          121,
+          126,
+          131,
+          133,
+          137,
+          138,
+          145,
+          147,
+          151,
+          155,
+          158,
+          161,
+          164,
+          166,
+          168,
+          172,
+          174,
+          177,
+          179,
+          183,
+          188,
+          192,
+          194,
+          197,
+          199,
+          202,
+          204,
+          206,
+          211,
+          214,
+          219,
+          225,
+          227,
+          229,
+          234,
+          241,
+          244,
+          247,
+          248,
+          253,
+          255,
+          258,
+          264
+        ]
+      },
+      {
+        "name": "渡边哲也",
+        "slug": "watanabe-tetsuya",
+        "role": "speaker",
+        "seg": [
+          14,
+          16,
+          20,
+          24,
+          26,
+          28,
+          30,
+          32,
+          37,
+          39,
+          41,
+          43,
+          46,
+          47,
+          50,
+          52,
+          55,
+          57,
+          59,
+          61,
+          63,
+          66,
+          69,
+          73,
+          76,
+          78,
+          94,
+          97,
+          102,
+          105,
+          108,
+          110,
+          112,
+          114,
+          123,
+          125,
+          127,
+          130,
+          146,
+          152,
+          167,
+          169,
+          176,
+          178,
+          182,
+          186,
+          193,
+          195,
+          201,
+          203,
+          209,
+          216,
+          218,
+          220,
+          222,
+          224,
+          226,
+          228,
+          230,
+          235,
+          238,
+          240,
+          242,
+          245,
+          254,
+          259,
+          263,
+          266,
+          268
+        ]
+      },
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          18,
+          29,
+          36,
+          40,
+          48,
+          51,
+          53,
+          58,
+          62,
+          65,
+          68,
+          70,
+          72,
+          75,
+          77,
+          95,
+          100,
+          107,
+          109,
+          116,
+          120,
+          122,
+          128,
+          129,
+          132,
+          134,
+          144,
+          149,
+          150,
+          154,
+          156,
+          157,
+          159,
+          160,
+          163,
+          165,
+          173,
+          175,
+          180,
+          184,
+          185,
+          187,
+          189,
+          198,
+          200,
+          205,
+          208,
+          210,
+          212,
+          215,
+          217,
+          221,
+          223,
+          231,
+          236,
+          239,
+          243,
+          246,
+          250,
+          252,
+          256,
+          257,
+          260,
+          261,
+          265,
+          267,
+          269
+        ]
+      },
+      {
+        "name": "田尻智",
+        "slug": "tajiri-satoshi",
+        "role": "mentioned",
+        "seg": [
+          99
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "田谷正夫",
+        "slug": "taya-masao",
+        "role": "mentioned",
+        "seg": [
+          101
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "一之濑",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          97
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "小幡",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          102
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "神谷盛治",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          133
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [],
+    "concepts": [
+      {
+        "id": "fan-works",
+        "name": "二创与同人",
+        "facet": "audience",
+        "seg": [
+          3
+        ],
+        "as": [
+          "同人志"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "guides",
+        "name": "攻略文化",
+        "facet": "audience",
+        "seg": [
+          3
+        ],
+        "as": [
+          "攻略本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          4,
+          17,
+          125,
+          193,
+          199,
+          201
+        ],
+        "as": [
+          "完成度",
+          "品质",
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          8,
+          24,
+          27,
+          112
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          24
+        ],
+        "as": [
+          "企划书"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          26,
+          109,
+          112
+        ],
+        "as": [
+          "试作",
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          34
+        ],
+        "as": [
+          "角色设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          34,
+          66
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          34
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "iteration",
+        "name": "推翻重做",
+        "facet": "process",
+        "seg": [
+          40
+        ],
+        "as": [
+          "从零开始"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          40
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          47
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          50
+        ],
+        "as": [
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          52,
+          53
+        ],
+        "as": [
+          "通信功能"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          59
+        ],
+        "as": [
+          "期限"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "education",
+        "name": "教育与育儿",
+        "facet": "audience",
+        "seg": [
+          92,
+          94
+        ],
+        "as": [
+          "教育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          92,
+          145
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "reuse",
+        "name": "沿用与继承",
+        "facet": "process",
+        "seg": [
+          94
+        ],
+        "as": [
+          "继承"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          99
+        ],
+        "as": [
+          "动画版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          107,
+          156,
+          160,
+          163,
+          185
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          123,
+          177,
+          184,
+          185,
+          216,
+          218
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          125
+        ],
+        "as": [
+          "一起做"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          156
+        ],
+        "as": [
+          "商品化"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-tools",
+        "name": "开发工具与环境",
+        "facet": "tech",
+        "seg": [
+          204
+        ],
+        "as": [
+          "开发环境"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          238
+        ],
+        "as": [
+          "工作方式"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          243
+        ],
+        "as": [
+          "家庭"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          273
+        ],
+        "as": [
+          "世代交替"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 112,
+      "text": "正式开发始于2012年4月，企划提出约在半年前即2011年10月",
+      "anchor": 113
+    },
+    {
+      "seg": 97,
+      "text": "一之濑从《宝可梦 红·绿》时期就在公司，约20年",
+      "anchor": 98
+    }
+  ],
+  "relations": [],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26",
+    "segment_audit": "2026-11-12"
+  },
+  "edited": false
 }

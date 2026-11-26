@@ -1,480 +1,482 @@
 {
- "id": "interview-takeshi-shudo-pokemon-memoir-ch225",
- "stem": "2010-06-24-interview-takeshi-shudo-pokemon-memoir-ch225",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 109
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "从河底问好",
-    "slug": null,
-    "seg": [
-     0,
-     81,
-     85
+  "id": "interview-takeshi-shudo-pokemon-memoir-ch225",
+  "stem": "2010-06-24-interview-takeshi-shudo-pokemon-memoir-ch225",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 109
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "从河底问好",
+        "slug": null,
+        "seg": [
+          0,
+          81,
+          85
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "告白",
+        "slug": null,
+        "seg": [
+          0,
+          86,
+          92,
+          101
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "新世纪福音战士",
+        "slug": null,
+        "seg": [
+          0
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "罪与罚",
+        "slug": null,
+        "seg": [
+          94
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "竹林中",
+        "slug": null,
+        "seg": [
+          94
+        ],
+        "via": "entities"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "告白",
-    "slug": null,
-    "seg": [
-     0,
-     86,
-     92,
-     101
+    "people": [
+      {
+        "name": "首藤刚志",
+        "slug": "shudo-takeshi",
+        "role": "mentioned",
+        "seg": [
+          46,
+          48
+        ]
+      },
+      {
+        "name": "石井裕也",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          81
+        ]
+      },
+      {
+        "name": "满岛光",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          81
+        ]
+      },
+      {
+        "name": "中岛哲也",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          86,
+          101
+        ]
+      },
+      {
+        "name": "松隆子",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          92,
+          104
+        ]
+      },
+      {
+        "name": "凑佳苗",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          90
+        ]
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "新世纪福音战士",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "罪与罚",
-    "slug": null,
-    "seg": [
-     94
+    "places": [
+      {
+        "name": "BOOK-OFF",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          23
+        ],
+        "what": "涉谷二手书连锁",
+        "via": "llm"
+      },
+      {
+        "name": "小田原市立图书馆",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          32
+        ],
+        "what": "拜访交流的场所",
+        "via": "extra"
+      },
+      {
+        "name": "小田原",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          27
+        ],
+        "what": "首藤刚志家所在地",
+        "via": "llm"
+      },
+      {
+        "name": "涉谷",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          23
+        ],
+        "what": "有大型二手书连锁",
+        "via": "llm"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "竹林中",
-    "slug": null,
-    "seg": [
-     94
-    ],
-    "via": "entities"
-   }
+    "concepts": [
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          33
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          37,
+          38,
+          39,
+          46,
+          53,
+          55
+        ],
+        "as": [
+          "编剧",
+          "剧本",
+          "脚本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "education",
+        "name": "教育与育儿",
+        "facet": "audience",
+        "seg": [
+          38
+        ],
+        "as": [
+          "教材"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "raising",
+        "name": "培育",
+        "facet": "system",
+        "seg": [
+          41
+        ],
+        "as": [
+          "培育"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          49,
+          56,
+          60
+        ],
+        "as": [
+          "家长"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          51,
+          56,
+          64
+        ],
+        "as": [
+          "孩子们"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          58,
+          83
+        ],
+        "as": [
+          "铅笔",
+          "原画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          64
+        ],
+        "as": [
+          "办公室"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          71,
+          79,
+          82,
+          101
+        ],
+        "as": [
+          "大银幕",
+          "电影版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          72,
+          82
+        ],
+        "as": [
+          "真实感",
+          "画风"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "camera",
+        "name": "视角与镜头",
+        "facet": "system",
+        "seg": [
+          72,
+          83,
+          89
+        ],
+        "as": [
+          "镜头"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "manga",
+        "name": "漫画",
+        "facet": "franchise",
+        "seg": [
+          74,
+          82
+        ],
+        "as": [
+          "漫画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          75,
+          76,
+          79,
+          80,
+          83,
+          84
+        ],
+        "as": [
+          "动画剧本",
+          "系列构成",
+          "分镜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          79
+        ],
+        "as": [
+          "完成度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "voice",
+        "name": "配音",
+        "facet": "audio",
+        "seg": [
+          81
+        ],
+        "as": [
+          "配音"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          82
+        ],
+        "as": [
+          "人物设定"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          87
+        ],
+        "as": [
+          "色彩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "debugging",
+        "name": "调试与除错",
+        "facet": "tech",
+        "seg": [
+          89
+        ],
+        "as": [
+          "漏洞"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          103,
+          104
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 17,
+      "text": "化验诊断结果为各项指标堪称前所未有的健康与正常",
+      "anchor": 18
+    },
+    {
+      "seg": 64,
+      "text": "首藤刚志说上网搜亚马逊二手书一元日币可买到一本，邮费340日元",
+      "anchor": 65
+    }
   ],
-  "people": [
-   {
-    "name": "首藤刚志",
-    "slug": "shudo-takeshi",
-    "role": "mentioned",
-    "seg": [
-     46,
-     48
-    ]
-   },
-   {
-    "name": "石井裕也",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     81
-    ]
-   },
-   {
-    "name": "满岛光",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     81
-    ]
-   },
-   {
-    "name": "中岛哲也",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     86,
-     101
-    ]
-   },
-   {
-    "name": "松隆子",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     92,
-     104
-    ]
-   },
-   {
-    "name": "凑佳苗",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     90
-    ]
-   }
+  "relations": [
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch226",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 最终回：“人人都能成为编剧”（绝笔终章：罗生门式的自我真实、小松左京的托付与最后的告别）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch226/",
+      "why": "同为该手记连载，第225回之后的最终回"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch207",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第207回：“2010……既喜亦不喜”（银英病榻与自治医大往事、不着一字台词秘传、酒精依赖大拷问与真人版大和号狂想）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch207/",
+      "why": "同为该手记连载，第207回在前"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
+      "why": "同为该手记连载，第208回在前"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+      "why": "同为该手记连载，第209回在前"
+    }
   ],
-  "places": [
-   {
-    "name": "BOOK-OFF",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     23
-    ],
-    "what": "涉谷二手书连锁",
-    "via": "llm"
-   },
-   {
-    "name": "小田原市立图书馆",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     32
-    ],
-    "what": "拜访交流的场所",
-    "via": "extra"
-   },
-   {
-    "name": "小田原",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     27
-    ],
-    "what": "首藤刚志家所在地",
-    "via": "llm"
-   },
-   {
-    "name": "涉谷",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     23
-    ],
-    "what": "有大型二手书连锁",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     33
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     37,
-     38,
-     39,
-     46,
-     53,
-     55
-    ],
-    "as": [
-     "编剧",
-     "剧本",
-     "脚本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "education",
-    "name": "教育与育儿",
-    "facet": "audience",
-    "seg": [
-     38
-    ],
-    "as": [
-     "教材"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "raising",
-    "name": "培育",
-    "facet": "system",
-    "seg": [
-     41
-    ],
-    "as": [
-     "培育"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     49,
-     56,
-     60
-    ],
-    "as": [
-     "家长"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     51,
-     56,
-     64
-    ],
-    "as": [
-     "孩子们"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     58,
-     83
-    ],
-    "as": [
-     "铅笔",
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     64
-    ],
-    "as": [
-     "办公室"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     71,
-     79,
-     82,
-     101
-    ],
-    "as": [
-     "大银幕",
-     "电影版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     72,
-     82
-    ],
-    "as": [
-     "真实感",
-     "画风"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "camera",
-    "name": "视角与镜头",
-    "facet": "system",
-    "seg": [
-     72,
-     83,
-     89
-    ],
-    "as": [
-     "镜头"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "manga",
-    "name": "漫画",
-    "facet": "franchise",
-    "seg": [
-     74,
-     82
-    ],
-    "as": [
-     "漫画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     75,
-     76,
-     79,
-     80,
-     83,
-     84
-    ],
-    "as": [
-     "动画剧本",
-     "系列构成",
-     "分镜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     79
-    ],
-    "as": [
-     "完成度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "voice",
-    "name": "配音",
-    "facet": "audio",
-    "seg": [
-     81
-    ],
-    "as": [
-     "配音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     82
-    ],
-    "as": [
-     "人物设定"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     87
-    ],
-    "as": [
-     "色彩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "debugging",
-    "name": "调试与除错",
-    "facet": "tech",
-    "seg": [
-     89
-    ],
-    "as": [
-     "漏洞"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     103,
-     104
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 17,
-   "text": "化验诊断结果为各项指标堪称前所未有的健康与正常",
-   "anchor": 18
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 64,
-   "text": "首藤刚志说上网搜亚马逊二手书一元日币可买到一本，邮费340日元",
-   "anchor": 65
-  }
- ],
- "relations": [
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch226",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 最终回：“人人都能成为编剧”（绝笔终章：罗生门式的自我真实、小松左京的托付与最后的告别）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch226/",
-   "why": "同为该手记连载，第225回之后的最终回"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch207",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第207回：“2010……既喜亦不喜”（银英病榻与自治医大往事、不着一字台词秘传、酒精依赖大拷问与真人版大和号狂想）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch207/",
-   "why": "同为该手记连载，第207回在前"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
-   "why": "同为该手记连载，第208回在前"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
-   "why": "同为该手记连载，第209回在前"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

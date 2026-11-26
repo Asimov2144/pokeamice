@@ -1,572 +1,568 @@
 {
- "id": "interview-creators-of-pikachu",
- "stem": "2018-07-26-interview-creators-of-pikachu",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 126
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     2,
-     40,
-     41,
-     87
-    ],
-    "as": [
-     "妙蛙种子"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "小火龙",
-    "ndex": 4,
-    "seg": [
-     2,
-     40,
-     41,
-     87
-    ],
-    "as": [
-     "小火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "喷火龙",
-    "ndex": 6,
-    "seg": [
-     41,
-     91,
-     104
-    ],
-    "as": [
-     "喷火龙"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "杰尼龟",
-    "ndex": 7,
-    "seg": [
-     2,
-     40,
-     41,
-     87
-    ],
-    "as": [
-     "杰尼龟"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "小拉达",
-    "ndex": 19,
-    "seg": [
-     35
-    ],
-    "as": [
-     "小拉达"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     0,
-     1,
-     2,
-     3,
-     4,
-     5
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "tag"
-   },
-   {
-    "name": "卡比兽",
-    "ndex": 143,
-    "seg": [
-     105
-    ],
-    "as": [
-     "卡比兽"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 皮卡丘版",
-    "slug": "yellow",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦GO",
-    "slug": null,
-    "seg": [
-     108
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     4
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "杉森建",
-    "slug": "sugimori-ken",
-    "role": "speaker",
-    "seg": [
-     9,
-     17,
-     19,
-     22,
-     27,
-     32
-    ]
-   },
-   {
-    "name": "提问",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     16,
-     18,
-     21,
-     24,
-     29,
-     38
-    ]
-   },
-   {
-    "name": "西田敦子",
-    "slug": "nishida-atsuko",
-    "role": "speaker",
-    "seg": [
-     26,
-     28,
-     35,
-     41,
-     48,
-     52
-    ]
-   },
-   {
-    "name": "西野弘二",
-    "slug": "nishino-koji",
-    "role": "speaker",
-    "seg": [
-     31,
-     33,
-     47,
-     54,
-     72,
-     76
-    ]
-   },
-   {
-    "name": "田尻",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     36
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "汤山",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     87
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "大谷育江",
-    "slug": "otani-ikue",
-    "role": "mentioned",
-    "seg": [
-     95
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "常青森林",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "spot",
-    "seg": [
-     79
-    ],
-    "what": "皮卡丘出现地",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "children",
-    "name": "儿童玩家",
-    "facet": "audience",
-    "seg": [
-     1
-    ],
-    "as": [
-     "儿童"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     4
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "character-design",
-    "name": "角色设计",
-    "facet": "design",
-    "seg": [
-     9,
-     13,
-     19
-    ],
-    "as": [
-     "角色设计"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "balance",
-    "name": "平衡调整",
-    "facet": "system",
-    "seg": [
-     11
-    ],
-    "as": [
-     "强度"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     13,
-     74,
-     114
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pokemon-design",
-    "name": "宝可梦设计",
-    "facet": "design",
-    "seg": [
-     17,
-     27
-    ],
-    "as": [
-     "宝可梦的设计",
-     "设计一只"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     22
-    ],
-    "as": [
-     "交换宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "type-matchup",
-    "name": "属性相性",
-    "facet": "design",
-    "seg": [
-     26,
-     27,
-     35,
-     61
-    ],
-    "as": [
-     "电属性"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "evolution-design",
-    "name": "进化的设计",
-    "facet": "design",
-    "seg": [
-     28
-    ],
-    "as": [
-     "进化形态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "art-direction",
-    "name": "美术风格",
-    "facet": "art",
-    "seg": [
-     42
-    ],
-    "as": [
-     "真实感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "programming",
-    "name": "程序实现",
-    "facet": "tech",
-    "seg": [
-     46
-    ],
-    "as": [
-     "编程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     63
-    ],
-    "as": [
-     "宝可梦对战"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "pixel-art",
-    "name": "像素画",
-    "facet": "tech",
-    "seg": [
-     64,
-     65,
-     70
-    ],
-    "as": [
-     "点阵图"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     69
-    ],
-    "as": [
-     "开发阶段"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hardware-limits",
-    "name": "机能与容量",
-    "facet": "tech",
-    "seg": [
-     70
-    ],
-    "as": [
-     "容量"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collection",
-    "name": "收集与图鉴",
-    "facet": "system",
-    "seg": [
-     75
-    ],
-    "as": [
-     "宝可梦图鉴"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "guides",
-    "name": "攻略文化",
-    "facet": "audience",
-    "seg": [
-     81
-    ],
-    "as": [
-     "攻略"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     84,
-     85,
-     86,
-     87,
-     94
-    ],
-    "as": [
-     "动画系列"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     84
-    ],
-    "as": [
-     "周边商品"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     87
-    ],
-    "as": [
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mobile-app",
-    "name": "手机应用",
-    "facet": "franchise",
-    "seg": [
-     111,
-     116
-    ],
-    "as": [
-     "智能手机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "color-work",
-    "name": "配色",
-    "facet": "art",
-    "seg": [
-     115
-    ],
-    "as": [
-     "配色"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [],
-    "as": [
-     "初代"
-    ],
-    "via": "tag"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 2,
-   "text": "皮卡丘在红绿中不是初始搭档，是野生宝可梦之一",
-   "anchor": 3
+  "id": "interview-creators-of-pikachu",
+  "stem": "2018-07-26-interview-creators-of-pikachu",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 126
   },
-  {
-   "seg": 28,
-   "text": "雷丘之后原有一个进化形态，名叫戈洛丘",
-   "anchor": 29
-  }
- ],
- "relations": [
-  {
-   "id": "interview-pokemon-official-pikachu-tanjou-hiwa",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemon-official-pikachu-tanjou-hiwa/",
-   "why": "同为2018年宝可梦官方皮卡丘诞生秘闻专访，同三位受访者"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          2,
+          40,
+          41,
+          87
+        ],
+        "as": [
+          "妙蛙种子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "小火龙",
+        "ndex": 4,
+        "seg": [
+          2,
+          40,
+          41,
+          87
+        ],
+        "as": [
+          "小火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "喷火龙",
+        "ndex": 6,
+        "seg": [
+          41,
+          91,
+          104
+        ],
+        "as": [
+          "喷火龙"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "杰尼龟",
+        "ndex": 7,
+        "seg": [
+          2,
+          40,
+          41,
+          87
+        ],
+        "as": [
+          "杰尼龟"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "小拉达",
+        "ndex": 19,
+        "seg": [
+          35
+        ],
+        "as": [
+          "小拉达"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "tag"
+      },
+      {
+        "name": "卡比兽",
+        "ndex": 143,
+        "seg": [
+          105
+        ],
+        "as": [
+          "卡比兽"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          1
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 皮卡丘版",
+        "slug": "yellow",
+        "seg": [
+          94
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "Pokémon GO",
+        "slug": null,
+        "seg": [
+          108
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "杉森建",
+        "slug": "sugimori-ken",
+        "role": "speaker",
+        "seg": [
+          9,
+          17,
+          19,
+          22,
+          27,
+          32
+        ]
+      },
+      {
+        "name": "提问",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          16,
+          18,
+          21,
+          24,
+          29,
+          38
+        ]
+      },
+      {
+        "name": "西田敦子",
+        "slug": "nishida-atsuko",
+        "role": "speaker",
+        "seg": [
+          26,
+          28,
+          35,
+          41,
+          48,
+          52
+        ]
+      },
+      {
+        "name": "西野弘二",
+        "slug": "nishino-koji",
+        "role": "speaker",
+        "seg": [
+          31,
+          33,
+          47,
+          54,
+          72,
+          76
+        ]
+      },
+      {
+        "name": "田尻",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          36
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "汤山",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          87
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "大谷育江",
+        "slug": "otani-ikue",
+        "role": "mentioned",
+        "seg": [
+          95
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "常青森林",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "spot",
+        "seg": [
+          79
+        ],
+        "what": "皮卡丘出现地",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "children",
+        "name": "儿童玩家",
+        "facet": "audience",
+        "seg": [
+          1
+        ],
+        "as": [
+          "儿童"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          4
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "character-design",
+        "name": "角色设计",
+        "facet": "design",
+        "seg": [
+          9,
+          13,
+          19
+        ],
+        "as": [
+          "角色设计"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "balance",
+        "name": "平衡调整",
+        "facet": "system",
+        "seg": [
+          11
+        ],
+        "as": [
+          "强度"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          13,
+          74,
+          114
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pokemon-design",
+        "name": "宝可梦设计",
+        "facet": "design",
+        "seg": [
+          17,
+          27
+        ],
+        "as": [
+          "宝可梦的设计",
+          "设计一只"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          22
+        ],
+        "as": [
+          "交换宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "type-matchup",
+        "name": "属性相性",
+        "facet": "design",
+        "seg": [
+          26,
+          27,
+          35,
+          61
+        ],
+        "as": [
+          "电属性"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "evolution-design",
+        "name": "进化的设计",
+        "facet": "design",
+        "seg": [
+          28
+        ],
+        "as": [
+          "进化形态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "art-direction",
+        "name": "美术风格",
+        "facet": "art",
+        "seg": [
+          42
+        ],
+        "as": [
+          "真实感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "programming",
+        "name": "程序实现",
+        "facet": "tech",
+        "seg": [
+          46
+        ],
+        "as": [
+          "编程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          63
+        ],
+        "as": [
+          "宝可梦对战"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "pixel-art",
+        "name": "像素画",
+        "facet": "tech",
+        "seg": [
+          64,
+          65,
+          70
+        ],
+        "as": [
+          "点阵图"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          69
+        ],
+        "as": [
+          "开发阶段"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hardware-limits",
+        "name": "机能与容量",
+        "facet": "tech",
+        "seg": [
+          70
+        ],
+        "as": [
+          "容量"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collection",
+        "name": "收集与图鉴",
+        "facet": "system",
+        "seg": [
+          75
+        ],
+        "as": [
+          "宝可梦图鉴"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "guides",
+        "name": "攻略文化",
+        "facet": "audience",
+        "seg": [
+          81
+        ],
+        "as": [
+          "攻略"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          84,
+          85,
+          86,
+          87,
+          94
+        ],
+        "as": [
+          "动画系列"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          84
+        ],
+        "as": [
+          "周边商品"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          87
+        ],
+        "as": [
+          "联网"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mobile-app",
+        "name": "手机应用",
+        "facet": "franchise",
+        "seg": [
+          111,
+          116
+        ],
+        "as": [
+          "智能手机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "color-work",
+        "name": "配色",
+        "facet": "art",
+        "seg": [
+          115
+        ],
+        "as": [
+          "配色"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [],
+        "as": [
+          "初代"
+        ],
+        "via": "tag"
+      }
+    ]
   },
-  {
-   "id": "interview-yomiuri-sugimori-nishino-nishida-pikachu-birth",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "读卖新闻 深层采访 杉森建 × 西野弘二 × 西田敦子：“皮卡丘的原型是大福？首次公开的雷丘后进化型‘高老大（Gorochu）’与初代像素绘制秘闻”",
-   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-yomiuri-sugimori-nishino-nishida-pikachu-birth/",
-   "why": "同场杉森建、西野弘二、西田敦子谈皮卡丘诞生与大福"
+  "observations": [
+    {
+      "seg": 2,
+      "text": "皮卡丘在红绿中不是初始搭档，是野生宝可梦之一",
+      "anchor": 3
+    },
+    {
+      "seg": 28,
+      "text": "雷丘之后原有一个进化形态，名叫戈洛丘",
+      "anchor": 29
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-pokemon-official-pikachu-tanjou-hiwa",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "株式会社宝可梦 官方网站 2018：皮卡丘诞生秘话——杉森建、西野弘二、西田敦子访谈",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%AE%98%E6%96%B9%E6%A1%A3%E6%A1%88/interview-pokemon-official-pikachu-tanjou-hiwa/",
+      "why": "同为2018年宝可梦官方皮卡丘诞生秘闻专访，同三位受访者"
+    },
+    {
+      "id": "interview-yomiuri-sugimori-nishino-nishida-pikachu-birth",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "读卖新闻 深层采访 杉森建 × 西野弘二 × 西田敦子：“皮卡丘的原型是大福？首次公开的雷丘后进化型‘高老大（Gorochu）’与初代像素绘制秘闻”",
+      "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-yomiuri-sugimori-nishino-nishida-pikachu-birth/",
+      "why": "同场杉森建、西野弘二、西田敦子谈皮卡丘诞生与大福"
+    },
+    {
+      "id": "interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design",
+      "kind": "responds",
+      "label": "后来回应了这篇",
+      "title": "FUN'S PROJECT 独家对谈：皮卡丘之母西田敦子 × 中川翔子角色设计特辑——从大福饼、松鼠颊囊到点阵原画与女性创作者心得",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E8%A7%92%E8%89%B2%E8%AE%BE%E8%AE%A1/%E5%AF%B9%E8%B0%88/interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/",
+      "why": "西田敦子补充大福构想与减少部件设计"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design",
-   "kind": "responds",
-   "label": "后来回应了这篇",
-   "title": "FUN'S PROJECT 独家对谈：皮卡丘之母西田敦子 × 中川翔子角色设计特辑——从大福饼、松鼠颊囊到点阵原画与女性创作者心得",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E8%A7%92%E8%89%B2%E8%AE%BE%E8%AE%A1/%E5%AF%B9%E8%B0%88/interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/",
-   "why": "西田敦子补充大福构想与减少部件设计"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

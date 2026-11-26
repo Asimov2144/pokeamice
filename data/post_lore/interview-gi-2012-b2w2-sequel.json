@@ -1,349 +1,318 @@
 {
- "id": "interview-gi-2012-b2w2-sequel",
- "stem": "2012-09-17-interview-gi-2012-b2w2-sequel",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 16
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 黑2·白2",
-    "slug": "black2-white2",
-    "seg": [
-     1
+  "id": "interview-gi-2012-b2w2-sequel",
+  "stem": "2012-09-17-interview-gi-2012-b2w2-sequel",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 16
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 黑2·白2",
+        "slug": "black2-white2",
+        "seg": [
+          1
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 黑·白",
+        "slug": "black-white",
+        "seg": [
+          3,
+          7
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "马力欧RPG",
+        "slug": null,
+        "seg": [
+          13
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "红",
+        "slug": null,
+        "seg": [
+          14
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 灰",
-    "slug": null,
-    "seg": [
-     2
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "speaker",
+        "seg": [
+          3,
+          5,
+          8,
+          10,
+          12,
+          14
+        ]
+      },
+      {
+        "name": "N",
+        "slug": "n",
+        "role": "mentioned",
+        "seg": [
+          3
+        ],
+        "via": "llm",
+        "kind": "character"
+      },
+      {
+        "name": "盖奇斯",
+        "slug": "gai-qi-si",
+        "role": "mentioned",
+        "seg": [
+          3
+        ],
+        "via": "llm",
+        "kind": "character"
+      },
+      {
+        "name": "宇野",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          3
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 白",
-    "slug": null,
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 黑·白",
-    "slug": "black-white",
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "马力欧RPG",
-    "slug": null,
-    "seg": [
-     13
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "红",
-    "slug": null,
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "蓝",
-    "slug": null,
-    "seg": [
-     14
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "speaker",
-    "seg": [
-     3,
-     5,
-     8,
-     10,
-     12,
-     14
+    "places": [],
+    "concepts": [
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "as": [
+          "续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "player-segments",
+        "name": "老玩家与新玩家",
+        "facet": "audience",
+        "seg": [
+          5
+        ],
+        "as": [
+          "新玩家"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "surprise",
+        "name": "惊喜与发现",
+        "facet": "design",
+        "seg": [
+          5
+        ],
+        "as": [
+          "惊喜"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "three-d",
+        "name": "3D 与建模",
+        "facet": "tech",
+        "seg": [
+          7
+        ],
+        "as": [
+          "多边形"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          8
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "ui-operation",
+        "name": "界面与操作",
+        "facet": "system",
+        "seg": [
+          8
+        ],
+        "as": [
+          "手感"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          10
+        ],
+        "as": [
+          "面对面"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          10
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          10
+        ],
+        "as": [
+          "在线"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          10
+        ],
+        "as": [
+          "远程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cry-design",
+        "name": "叫声",
+        "facet": "design",
+        "seg": [
+          11,
+          12
+        ],
+        "as": [
+          "叫声"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          12
+        ],
+        "as": [
+          "动画系列"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          12
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "battle-system",
+        "name": "对战系统",
+        "facet": "system",
+        "seg": [
+          14
+        ],
+        "as": [
+          "战斗系统"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "competitive",
+        "name": "竞技与官方大赛",
+        "facet": "system",
+        "seg": [
+          15
+        ],
+        "as": [
+          "世界锦标赛"
+        ],
+        "via": "body"
+      }
     ]
-   },
-   {
-    "name": "N",
-    "slug": "n",
-    "role": "mentioned",
-    "seg": [
-     3
-    ],
-    "via": "llm",
-    "kind": "character"
-   },
-   {
-    "name": "盖奇斯",
-    "slug": "gai-qi-si",
-    "role": "mentioned",
-    "seg": [
-     3
-    ],
-    "via": "llm",
-    "kind": "character"
-   },
-   {
-    "name": "宇野",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     3
-    ],
-    "via": "llm"
-   }
+  },
+  "observations": [
+    {
+      "seg": 3,
+      "text": "增田称同事对N和盖奇斯结局后的去向感到好奇",
+      "anchor": 4
+    },
+    {
+      "seg": 5,
+      "text": "增田称玩过原作的玩家肯定拥有任天堂DS",
+      "anchor": 6
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     1,
-     2,
-     3,
-     5
-    ],
-    "as": [
-     "续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "player-segments",
-    "name": "老玩家与新玩家",
-    "facet": "audience",
-    "seg": [
-     5
-    ],
-    "as": [
-     "新玩家"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "surprise",
-    "name": "惊喜与发现",
-    "facet": "design",
-    "seg": [
-     5
-    ],
-    "as": [
-     "惊喜"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "three-d",
-    "name": "3D 与建模",
-    "facet": "tech",
-    "seg": [
-     7
-    ],
-    "as": [
-     "多边形"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     8
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "ui-operation",
-    "name": "界面与操作",
-    "facet": "system",
-    "seg": [
-     8
-    ],
-    "as": [
-     "手感"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     10
-    ],
-    "as": [
-     "面对面"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     10
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     10
-    ],
-    "as": [
-     "在线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     10
-    ],
-    "as": [
-     "远程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cry-design",
-    "name": "叫声",
-    "facet": "design",
-    "seg": [
-     11,
-     12
-    ],
-    "as": [
-     "叫声"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     12
-    ],
-    "as": [
-     "动画系列"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     12
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "battle-system",
-    "name": "对战系统",
-    "facet": "system",
-    "seg": [
-     14
-    ],
-    "as": [
-     "战斗系统"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "competitive",
-    "name": "竞技与官方大赛",
-    "facet": "system",
-    "seg": [
-     15
-    ],
-    "as": [
-     "世界锦标赛"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 3,
-   "text": "增田称同事对N和盖奇斯结局后的去向感到好奇",
-   "anchor": 4
+  "relations": [
+    {
+      "id": "interview-nintendodream-221-unno-masuda-b2w2-direction",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Nintendo DREAM Vol.221 独家专访总监海野隆雄 × 制作人增田顺一（前篇）：“从3D美术向总监请缨的两年”——Game Freak不设壁垒的创作文化、N流浪两年后的真实去向与暗黑·焰白酋雷姆",
+      "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-221-unno-masuda-b2w2-direction/",
+      "why": "同为增田谈B2W2续作与N去向的专访"
+    },
+    {
+      "id": "interview-pokemon-com-b2w2-masuda-unno",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "Pokémon.com 官方专访增田顺一与海野隆雄：《宝可梦 黑2／白2》双续篇革新、好莱坞之星与合众两年变迁",
+      "url": "/developer-interviews/official-archives/interview-pokemon-com-b2w2-masuda-unno/",
+      "why": "同为增田海野谈B2W2两年后合众的专访"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 5,
-   "text": "增田称玩过原作的玩家肯定拥有任天堂DS",
-   "anchor": 6
-  }
- ],
- "relations": [
-  {
-   "id": "interview-nintendodream-221-unno-masuda-b2w2-direction",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Nintendo DREAM Vol.221 独家专访总监海野隆雄 × 制作人增田顺一（前篇）：“从3D美术向总监请缨的两年”——Game Freak不设壁垒的创作文化、N流浪两年后的真实去向与暗黑·焰白酋雷姆",
-   "url": "/%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%BF%E8%B0%88/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E4%B8%BB%E7%B3%BB%E5%88%97/%E5%AE%9E%E4%BD%93%E6%9D%82%E5%BF%97%E4%B8%93%E8%AE%BF/interview-nintendodream-221-unno-masuda-b2w2-direction/",
-   "why": "同为增田谈B2W2续作与N去向的专访"
-  },
-  {
-   "id": "interview-pokemon-com-b2w2-masuda-unno",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "Pokémon.com 官方专访增田顺一与海野隆雄：《宝可梦 黑2／白2》双续篇革新、好莱坞之星与合众两年变迁",
-   "url": "/developer-interviews/official-archives/interview-pokemon-com-b2w2-masuda-unno/",
-   "why": "同为增田海野谈B2W2两年后合众的专访"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

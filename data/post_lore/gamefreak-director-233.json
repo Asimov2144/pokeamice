@@ -1,152 +1,124 @@
 {
- "id": "gamefreak-director-233",
- "stem": "2013-01-21-gamefreak-director-233",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "blog",
- "body": {
-  "kind": "markdown",
-  "n": 84
- },
- "facets": {
-  "pokemon": [],
-  "works": [
-   {
-    "name": "宝可梦 X·Y",
-    "slug": "x-y",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 X・Y",
-    "slug": null,
-    "seg": [
-     4
+  "id": "gamefreak-director-233",
+  "stem": "2013-01-21-gamefreak-director-233",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "blog",
+  "body": {
+    "kind": "markdown",
+    "n": 84
+  },
+  "facets": {
+    "pokemon": [],
+    "works": [
+      {
+        "name": "宝可梦 X·Y",
+        "slug": "x-y",
+        "seg": [
+          4,
+          33,
+          82
+        ],
+        "via": "entities"
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 X",
-    "slug": null,
-    "seg": [
-     33
+    "people": [
+      {
+        "name": "增田顺一",
+        "slug": "masuda-junichi",
+        "role": "mentioned",
+        "seg": [
+          42
+        ]
+      }
     ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 Y",
-    "slug": null,
-    "seg": [
-     33
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 X and Pokémon Y",
-    "slug": null,
-    "seg": [
-     82
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "增田顺一",
-    "slug": "masuda-junichi",
-    "role": "mentioned",
-    "seg": [
-     42
+    "places": [],
+    "concepts": [
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          4,
+          12
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          18
+        ],
+        "as": [
+          "分发"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "overseas",
+        "name": "海外发行",
+        "facet": "business",
+        "seg": [
+          31
+        ],
+        "as": [
+          "全球同步发售"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          33
+        ],
+        "as": [
+          "第六世代"
+        ],
+        "via": "body"
+      }
     ]
-   }
+  },
+  "observations": [
+    {
+      "seg": 31,
+      "text": "增田顺一称本作实现了多年以来的梦想——全球同步发售"
+    },
+    {
+      "seg": 44,
+      "text": "增田顺一表示自己现在担任《宝可梦 X・Y》总监"
+    }
   ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     4,
-     12
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     18
-    ],
-    "as": [
-     "分发"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "overseas",
-    "name": "海外发行",
-    "facet": "business",
-    "seg": [
-     31
-    ],
-    "as": [
-     "全球同步发售"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     33
-    ],
-    "as": [
-     "第六世代"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 31,
-   "text": "增田顺一称本作实现了多年以来的梦想——全球同步发售"
+  "relations": [
+    {
+      "id": "gamefreak-director-241",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "第241回",
+      "url": "/gamefreak-director/entry-241/",
+      "why": "同为增田部长专栏，续谈XY全球同步发售"
+    },
+    {
+      "id": "gamefreak-director-237",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "第237回",
+      "url": "/gamefreak-director/entry-237/",
+      "why": "同为增田部长专栏，前篇谈全球同日发售"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 44,
-   "text": "增田顺一表示自己现在担任《宝可梦 X・Y》总监"
-  }
- ],
- "relations": [
-  {
-   "id": "gamefreak-director-241",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "第241回",
-   "url": "/gamefreak-director/entry-241/",
-   "why": "同为增田部长专栏，续谈XY全球同步发售"
-  },
-  {
-   "id": "gamefreak-director-237",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "第237回",
-   "url": "/gamefreak-director/entry-237/",
-   "why": "同为增田部长专栏，前篇谈全球同日发售"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

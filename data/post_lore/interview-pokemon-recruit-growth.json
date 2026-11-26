@@ -1,424 +1,424 @@
 {
- "id": "interview-pokemon-recruit-growth",
- "stem": "2022-04-10-interview-pokemon-recruit-growth",
- "rev": 1,
- "built": "2026-10-02",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 45
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     5,
-     7
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "阿尔宙斯",
-    "ndex": 493,
-    "seg": [
-     11
-    ],
-    "as": [
-     "阿尔宙斯"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "宝可梦 剑·盾",
-    "slug": "sword-shield",
-    "seg": [
-     7,
-     8
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦传说 阿尔宙斯",
-    "slug": "legends-arceus",
-    "seg": [
-     11
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 Let's Go! 皮卡丘·伊布",
-    "slug": null,
-    "seg": [
-     7
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 晶灿钻石·明亮珍珠",
-    "slug": "bdsp",
-    "seg": [
-     11
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "Pokémon UNITE",
-    "slug": null,
-    "seg": [
-     26
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "的场昂树",
-    "slug": "de-chang-ang-shu",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "林祐衣",
-    "slug": "lin-you-yi",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "寺田佑贵",
-    "slug": "si-tian-you-gui",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "小岛彬",
-    "slug": "xiao-dao-bin",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "髙草真生",
-    "slug": "gao-cao-zhen-sheng",
-    "role": "mentioned",
-    "seg": []
-   }
-  ],
-  "places": [
-   {
-    "name": "泰国",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     10
-    ],
-    "what": "举办卡牌25周年展",
-    "via": "llm"
-   },
-   {
-    "name": "伽勒尔地区",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "game",
-    "scale": "area",
-    "seg": [
-     7
-    ],
-    "what": "剑·盾的舞台",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     0,
-     1,
-     2,
-     3,
-     4,
-     5
-    ],
-    "as": [
-     "入职",
-     "职业生涯",
-     "学生时代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     1,
-     2,
-     3,
-     4,
-     5,
-     43
-    ],
-    "as": [
-     "应届"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "marketing",
-    "name": "宣传",
-    "facet": "business",
-    "seg": [
-     2,
-     3,
-     7,
-     11,
-     13
-    ],
-    "as": [
-     "宣传"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "schedule",
-    "name": "日程与期限",
-    "facet": "process",
-    "seg": [
-     7
-    ],
-    "as": [
-     "日程"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     7
-    ],
-    "as": [
-     "完全新作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     8,
-     9,
-     10,
-     17,
-     40
-    ],
-    "as": [
-     "宝可梦卡牌",
-     "卡牌游戏"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     9
-    ],
-    "as": [
-     "插画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     9
-    ],
-    "as": [
-     "品质"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "collaboration",
-    "name": "联动",
-    "facet": "business",
-    "seg": [
-     11
-    ],
-    "as": [
-     "联动"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dev-cycle",
-    "name": "开发周期",
-    "facet": "process",
-    "seg": [
-     11
-    ],
-    "as": [
-     "开发初期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     11
-    ],
-    "as": [
-     "大主题"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     13,
-     18,
-     44
-    ],
-    "as": [
-     "培养"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "teamwork",
-    "name": "分工与协作",
-    "facet": "process",
-    "seg": [
-     16
-    ],
-    "as": [
-     "各自负责"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     16
-    ],
-    "as": [
-     "工作方式"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     22
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     28
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     32
-    ],
-    "as": [
-     "新世代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     40
-    ],
-    "as": [
-     "授权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     41
-    ],
-    "as": [
-     "提案"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 7,
-   "text": "的场昂树称《宝可梦 剑·盾》是Switch上首款完全新作",
-   "anchor": 14
+  "id": "interview-pokemon-recruit-growth",
+  "stem": "2022-04-10-interview-pokemon-recruit-growth",
+  "rev": 1,
+  "built": "2026-10-02",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 45
   },
-  {
-   "seg": 11,
-   "text": "髙草真生称同一财年经手两款正传作品此前没有先例",
-   "anchor": 18
-  }
- ],
- "relations": [
-  {
-   "id": "interview-pokemon-recruit-passion",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "宝可梦公司官方专访 青年员工座谈：凝聚无尽可能，我们将改变未来（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）",
-   "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-passion/",
-   "why": "同一批2016年入职者，2017年前篇"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          5,
+          7
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "阿尔宙斯",
+        "ndex": 493,
+        "seg": [
+          11
+        ],
+        "as": [
+          "阿尔宙斯"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "宝可梦 剑·盾",
+        "slug": "sword-shield",
+        "seg": [
+          7,
+          8
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦传说 阿尔宙斯",
+        "slug": "legends-arceus",
+        "seg": [
+          11
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 晶灿钻石·明亮珍珠",
+        "slug": "bdsp",
+        "seg": [
+          11
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦大集结",
+        "slug": null,
+        "seg": [
+          26
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 Let's Go! 皮卡丘·伊布",
+        "slug": null,
+        "seg": [
+          7
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "的场昂树",
+        "slug": "de-chang-ang-shu",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "林祐衣",
+        "slug": "lin-you-yi",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "寺田佑贵",
+        "slug": "si-tian-you-gui",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "小岛彬",
+        "slug": "xiao-dao-bin",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "髙草真生",
+        "slug": "gao-cao-zhen-sheng",
+        "role": "mentioned",
+        "seg": []
+      }
+    ],
+    "places": [
+      {
+        "name": "泰国",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          10
+        ],
+        "what": "举办卡牌25周年展",
+        "via": "llm"
+      },
+      {
+        "name": "伽勒尔地区",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "game",
+        "scale": "area",
+        "seg": [
+          7
+        ],
+        "what": "剑·盾的舞台",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "as": [
+          "入职",
+          "职业生涯",
+          "学生时代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          43
+        ],
+        "as": [
+          "应届"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "marketing",
+        "name": "宣传",
+        "facet": "business",
+        "seg": [
+          2,
+          3,
+          7,
+          11,
+          13
+        ],
+        "as": [
+          "宣传"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "schedule",
+        "name": "日程与期限",
+        "facet": "process",
+        "seg": [
+          7
+        ],
+        "as": [
+          "日程"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          7
+        ],
+        "as": [
+          "完全新作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          8,
+          9,
+          10,
+          17,
+          40
+        ],
+        "as": [
+          "宝可梦卡牌",
+          "卡牌游戏"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          9
+        ],
+        "as": [
+          "插画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          9
+        ],
+        "as": [
+          "品质"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "collaboration",
+        "name": "联动",
+        "facet": "business",
+        "seg": [
+          11
+        ],
+        "as": [
+          "联动"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dev-cycle",
+        "name": "开发周期",
+        "facet": "process",
+        "seg": [
+          11
+        ],
+        "as": [
+          "开发初期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          11
+        ],
+        "as": [
+          "大主题"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          13,
+          18,
+          44
+        ],
+        "as": [
+          "培养"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "teamwork",
+        "name": "分工与协作",
+        "facet": "process",
+        "seg": [
+          16
+        ],
+        "as": [
+          "各自负责"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          16
+        ],
+        "as": [
+          "工作方式"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          22
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          28
+        ],
+        "as": [
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          32
+        ],
+        "as": [
+          "新世代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          40
+        ],
+        "as": [
+          "授权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          41
+        ],
+        "as": [
+          "提案"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 7,
+      "text": "的场昂树称《宝可梦 剑·盾》是Switch上首款完全新作",
+      "anchor": 14
+    },
+    {
+      "seg": 11,
+      "text": "髙草真生称同一财年经手两款正传作品此前没有先例",
+      "anchor": 18
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-pokemon-recruit-passion",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "宝可梦公司官方专访 青年员工座谈：凝聚无尽可能，我们将改变未来（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）",
+      "url": "/developer-interviews/pokemon-recruit/interview-pokemon-recruit-passion/",
+      "why": "同一批2016年入职者，2017年前篇"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
+  },
+  "edited": false
 }

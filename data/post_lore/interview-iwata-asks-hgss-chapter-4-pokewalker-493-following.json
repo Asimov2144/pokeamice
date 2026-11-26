@@ -1,665 +1,671 @@
 {
- "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
- "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 118
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "妙蛙种子",
-    "ndex": 1,
-    "seg": [
-     102
+  "id": "interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+  "stem": "2009-09-04-interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 118
+  },
+  "facets": {
+    "pokemon": [
+      {
+        "name": "妙蛙种子",
+        "ndex": 1,
+        "seg": [
+          102
+        ],
+        "as": [
+          "妙蛙种子"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "妙蛙草",
+        "ndex": 2,
+        "seg": [
+          102
+        ],
+        "as": [
+          "妙蛙草"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "妙蛙花",
+        "ndex": 3,
+        "seg": [
+          102
+        ],
+        "as": [
+          "妙蛙花"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          33,
+          35,
+          36,
+          40,
+          41,
+          45
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "洛奇亚",
+        "ndex": 249,
+        "seg": [
+          110
+        ],
+        "as": [
+          "洛奇亚"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "凤王",
+        "ndex": 250,
+        "seg": [
+          110
+        ],
+        "as": [
+          "凤王"
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "雷公",
+        "ndex": 243,
+        "seg": [
+          110
+        ],
+        "as": [
+          "雷公"
+        ],
+        "via": "llm"
+      }
     ],
-    "as": [
-     "妙蛙种子"
+    "works": [
+      {
+        "name": "宝可梦 心金·魂银",
+        "slug": "heartgold-soulsilver",
+        "seg": [
+          1
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 金·银",
+        "slug": "gold-silver",
+        "seg": [
+          1
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "宝可梦 火红·叶绿",
+        "slug": "firered-leafgreen",
+        "seg": [
+          2
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 红·绿",
+        "slug": "red-green",
+        "seg": [
+          11
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 钻石·珍珠",
+        "slug": "diamond-pearl",
+        "seg": [
+          69
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "宝可梦 白金",
+        "slug": "platinum",
+        "seg": [
+          69
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "生活节拍器DS",
+        "slug": null,
+        "seg": [
+          23
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "步行记录 生活节奏DS",
+        "slug": null,
+        "seg": [
+          23
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "口袋皮卡丘彩色版 与金·银同行！",
+        "slug": null,
+        "seg": [
+          36
+        ],
+        "via": "llm"
+      }
     ],
-    "via": "body"
-   },
-   {
-    "name": "妙蛙草",
-    "ndex": 2,
-    "seg": [
-     102
+    "people": [
+      {
+        "name": "岩田聪",
+        "slug": "iwata-satoru",
+        "role": "speaker",
+        "seg": [
+          1,
+          4,
+          7,
+          9,
+          11,
+          13
+        ]
+      },
+      {
+        "name": "石原恒和",
+        "slug": "ishihara-tsunekazu",
+        "role": "speaker",
+        "seg": [
+          2,
+          6,
+          8,
+          10,
+          15,
+          17
+        ]
+      },
+      {
+        "name": "森本茂树",
+        "slug": "morimoto-shigeki",
+        "role": "speaker",
+        "seg": [
+          12,
+          18,
+          42,
+          48,
+          56,
+          64
+        ]
+      },
+      {
+        "name": "众人",
+        "slug": null,
+        "role": "speaker",
+        "seg": [
+          53,
+          98,
+          103,
+          117
+        ]
+      },
+      {
+        "name": "汤山导演",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          50
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "石川辽",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          94
+        ],
+        "via": "llm"
+      }
     ],
-    "as": [
-     "妙蛙草"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "妙蛙花",
-    "ndex": 3,
-    "seg": [
-     102
-    ],
-    "as": [
-     "妙蛙花"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     33,
-     35,
-     36,
-     40,
-     41,
-     45
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "洛奇亚",
-    "ndex": 249,
-    "seg": [
-     110
-    ],
-    "as": [
-     "洛奇亚"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "凤王",
-    "ndex": 250,
-    "seg": [
-     110
-    ],
-    "as": [
-     "凤王"
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "雷公",
-    "ndex": 243,
-    "seg": [
-     110
-    ],
-    "as": [
-     "雷公"
-    ],
-    "via": "llm"
-   }
+    "places": [],
+    "concepts": [
+      {
+        "id": "remake",
+        "name": "复刻与重制",
+        "facet": "process",
+        "seg": [
+          1,
+          2,
+          67,
+          106
+        ],
+        "as": [
+          "重制版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "wireless",
+        "name": "无线与擦肩",
+        "facet": "tech",
+        "seg": [
+          4,
+          10,
+          16,
+          17,
+          21,
+          54
+        ],
+        "as": [
+          "无线适配器",
+          "无线通信"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          7,
+          23,
+          54,
+          57
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "trade",
+        "name": "通信交换",
+        "facet": "system",
+        "seg": [
+          10
+        ],
+        "as": [
+          "交换宝可梦"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          11
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "testing",
+        "name": "测试与试玩",
+        "facet": "process",
+        "seg": [
+          12
+        ],
+        "as": [
+          "测试"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "live-events",
+        "name": "线下活动",
+        "facet": "business",
+        "seg": [
+          18
+        ],
+        "as": [
+          "活动会场"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "cable-link",
+        "name": "通信线缆",
+        "facet": "tech",
+        "seg": [
+          19
+        ],
+        "as": [
+          "通信线"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "distribution-gift",
+        "name": "配信与赠送",
+        "facet": "system",
+        "seg": [
+          20
+        ],
+        "as": [
+          "分发"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "planning",
+        "name": "企划",
+        "facet": "process",
+        "seg": [
+          21,
+          41,
+          47
+        ],
+        "as": [
+          "提案",
+          "企划书"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "evolution-design",
+        "name": "进化的设计",
+        "facet": "design",
+        "seg": [
+          33,
+          40,
+          99
+        ],
+        "as": [
+          "进化形态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "delay",
+        "name": "延期",
+        "facet": "process",
+        "seg": [
+          43
+        ],
+        "as": [
+          "延期"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "items",
+        "name": "道具与精灵球",
+        "facet": "system",
+        "seg": [
+          48,
+          50,
+          51,
+          113
+        ],
+        "as": [
+          "道具",
+          "精灵球"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "illustration",
+        "name": "插画与设定图",
+        "facet": "art",
+        "seg": [
+          50
+        ],
+        "as": [
+          "设定资料"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "connection",
+        "name": "人与人的连接",
+        "facet": "design",
+        "seg": [
+          54,
+          113
+        ],
+        "as": [
+          "交流"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "prototype",
+        "name": "原型与试作",
+        "facet": "process",
+        "seg": [
+          57
+        ],
+        "as": [
+          "原型"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          65,
+          99
+        ],
+        "as": [
+          "怀旧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "port",
+        "name": "移植",
+        "facet": "process",
+        "seg": [
+          75
+        ],
+        "as": [
+          "移植"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "joining",
+        "name": "进公司之前",
+        "facet": "team",
+        "seg": [
+          90
+        ],
+        "as": [
+          "入职"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          104
+        ],
+        "as": [
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "theme",
+        "name": "作品主题",
+        "facet": "story",
+        "seg": [
+          104,
+          113
+        ],
+        "as": [
+          "大主题",
+          "想表达"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "world-building",
+        "name": "世界观设定",
+        "facet": "design",
+        "seg": [
+          105
+        ],
+        "as": [
+          "世界观"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "studio-culture",
+        "name": "公司氛围",
+        "facet": "team",
+        "seg": [
+          106
+        ],
+        "as": [
+          "公司内部"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          108
+        ],
+        "as": [
+          "亲子"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "multiplayer",
+        "name": "多人同乐",
+        "facet": "system",
+        "seg": [
+          109
+        ],
+        "as": [
+          "一起玩"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "mentoring",
+        "name": "带人与培养",
+        "facet": "team",
+        "seg": [
+          112
+        ],
+        "as": [
+          "指导"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "recruiting",
+        "name": "招聘与新人",
+        "facet": "team",
+        "seg": [
+          112
+        ],
+        "as": [
+          "新人"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          113
+        ],
+        "as": [
+          "正统续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "tcg",
+        "name": "集换式卡牌",
+        "facet": "franchise",
+        "seg": [
+          114
+        ],
+        "as": [
+          "宝可梦卡牌"
+        ],
+        "via": "body"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "seg": 10,
+      "text": "石原恒和回忆自己曾追问无线适配器能离多远使用",
+      "anchor": 11
+    },
+    {
+      "seg": 51,
+      "text": "宝可计步器直径48毫米、厚度13.9毫米",
+      "anchor": 52
+    }
   ],
-  "works": [
-   {
-    "name": "宝可梦 心金·魂银",
-    "slug": "heartgold-soulsilver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 金·银",
-    "slug": "gold-silver",
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "生活节拍器DS",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦 火红·叶绿",
-    "slug": "firered-leafgreen",
-    "seg": [
-     2
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 红·绿",
-    "slug": "red-green",
-    "seg": [
-     11
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "步行记录 生活节奏DS",
-    "slug": null,
-    "seg": [
-     23
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "口袋皮卡丘彩色版 与金·银同行！",
-    "slug": null,
-    "seg": [
-     36
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 钻石·珍珠",
-    "slug": "diamond-pearl",
-    "seg": [
-     69
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "宝可梦 白金",
-    "slug": "platinum",
-    "seg": [
-     69
-    ],
-    "via": "llm"
-   }
+  "relations": [
+    {
+      "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
+      "why": "同为社长问心金魂银系列，第1章"
+    },
+    {
+      "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
+      "why": "同为社长问心金魂银系列，第3章"
+    },
+    {
+      "id": "interview-iwata-asks-hgss-chapter-2-portable-toy-king",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "社长问《宝可梦 心金·魂银》第2章：岩田聪 × 石原恒和——“便携玩具之王”与跳出卡带的宝可梦生态",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-2-portable-toy-king/",
+      "why": "同为社长问心金魂银系列，第2章"
+    },
+    {
+      "id": "scan-ndream-2009-11-hgss-developer-interview",
+      "kind": "same-occasion",
+      "label": "同一件事的另一种说法",
+      "title": "心金·魂银开发访谈",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
+      "why": "同期心金魂银访谈，也谈宝可梦计步器"
+    }
   ],
-  "people": [
-   {
-    "name": "岩田聪",
-    "slug": "iwata-satoru",
-    "role": "speaker",
-    "seg": [
-     1,
-     4,
-     7,
-     9,
-     11,
-     13
-    ]
-   },
-   {
-    "name": "石原恒和",
-    "slug": "ishihara-tsunekazu",
-    "role": "speaker",
-    "seg": [
-     2,
-     6,
-     8,
-     10,
-     15,
-     17
-    ]
-   },
-   {
-    "name": "森本茂树",
-    "slug": "morimoto-shigeki",
-    "role": "speaker",
-    "seg": [
-     12,
-     18,
-     42,
-     48,
-     56,
-     64
-    ]
-   },
-   {
-    "name": "众人",
-    "slug": null,
-    "role": "speaker",
-    "seg": [
-     53,
-     98,
-     103,
-     117
-    ]
-   },
-   {
-    "name": "汤山导演",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     50
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "石川辽",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     94
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [],
-  "concepts": [
-   {
-    "id": "remake",
-    "name": "复刻与重制",
-    "facet": "process",
-    "seg": [
-     1,
-     2,
-     67,
-     106
-    ],
-    "as": [
-     "重制版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "wireless",
-    "name": "无线与擦肩",
-    "facet": "tech",
-    "seg": [
-     4,
-     10,
-     16,
-     17,
-     21,
-     54
-    ],
-    "as": [
-     "无线适配器",
-     "无线通信"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     7,
-     23,
-     54,
-     57
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "trade",
-    "name": "通信交换",
-    "facet": "system",
-    "seg": [
-     10
-    ],
-    "as": [
-     "交换宝可梦"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     11
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "testing",
-    "name": "测试与试玩",
-    "facet": "process",
-    "seg": [
-     12
-    ],
-    "as": [
-     "测试"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "live-events",
-    "name": "线下活动",
-    "facet": "business",
-    "seg": [
-     18
-    ],
-    "as": [
-     "活动会场"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "cable-link",
-    "name": "通信线缆",
-    "facet": "tech",
-    "seg": [
-     19
-    ],
-    "as": [
-     "通信线"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "distribution-gift",
-    "name": "配信与赠送",
-    "facet": "system",
-    "seg": [
-     20
-    ],
-    "as": [
-     "分发"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "planning",
-    "name": "企划",
-    "facet": "process",
-    "seg": [
-     21,
-     41,
-     47
-    ],
-    "as": [
-     "提案",
-     "企划书"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "evolution-design",
-    "name": "进化的设计",
-    "facet": "design",
-    "seg": [
-     33,
-     40,
-     99
-    ],
-    "as": [
-     "进化形态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "delay",
-    "name": "延期",
-    "facet": "process",
-    "seg": [
-     43
-    ],
-    "as": [
-     "延期"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "items",
-    "name": "道具与精灵球",
-    "facet": "system",
-    "seg": [
-     48,
-     50,
-     51,
-     113
-    ],
-    "as": [
-     "道具",
-     "精灵球"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "illustration",
-    "name": "插画与设定图",
-    "facet": "art",
-    "seg": [
-     50
-    ],
-    "as": [
-     "设定资料"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "connection",
-    "name": "人与人的连接",
-    "facet": "design",
-    "seg": [
-     54,
-     113
-    ],
-    "as": [
-     "交流"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "prototype",
-    "name": "原型与试作",
-    "facet": "process",
-    "seg": [
-     57
-    ],
-    "as": [
-     "原型"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     65,
-     99
-    ],
-    "as": [
-     "怀旧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "port",
-    "name": "移植",
-    "facet": "process",
-    "seg": [
-     75
-    ],
-    "as": [
-     "移植"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "joining",
-    "name": "进公司之前",
-    "facet": "team",
-    "seg": [
-     90
-    ],
-    "as": [
-     "入职"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     104
-    ],
-    "as": [
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "theme",
-    "name": "作品主题",
-    "facet": "story",
-    "seg": [
-     104,
-     113
-    ],
-    "as": [
-     "大主题",
-     "想表达"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "world-building",
-    "name": "世界观设定",
-    "facet": "design",
-    "seg": [
-     105
-    ],
-    "as": [
-     "世界观"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "studio-culture",
-    "name": "公司氛围",
-    "facet": "team",
-    "seg": [
-     106
-    ],
-    "as": [
-     "公司内部"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     108
-    ],
-    "as": [
-     "亲子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "multiplayer",
-    "name": "多人同乐",
-    "facet": "system",
-    "seg": [
-     109
-    ],
-    "as": [
-     "一起玩"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "mentoring",
-    "name": "带人与培养",
-    "facet": "team",
-    "seg": [
-     112
-    ],
-    "as": [
-     "指导"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "recruiting",
-    "name": "招聘与新人",
-    "facet": "team",
-    "seg": [
-     112
-    ],
-    "as": [
-     "新人"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     113
-    ],
-    "as": [
-     "正统续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "tcg",
-    "name": "集换式卡牌",
-    "facet": "franchise",
-    "seg": [
-     114
-    ],
-    "as": [
-     "宝可梦卡牌"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 10,
-   "text": "石原恒和回忆自己曾追问无线适配器能离多远使用",
-   "anchor": 11
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "seg": 51,
-   "text": "宝可计步器直径48毫米、厚度13.9毫米",
-   "anchor": 52
-  }
- ],
- "relations": [
-  {
-   "id": "interview-iwata-asks-hgss-chapter-1-red-green-mew",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
-   "why": "同为社长问心金魂银系列，第1章"
-  },
-  {
-   "id": "interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
-   "why": "同为社长问心金魂银系列，第3章"
-  },
-  {
-   "id": "interview-iwata-asks-hgss-chapter-2-portable-toy-king",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "社长问《宝可梦 心金·魂银》第2章：岩田聪 × 石原恒和——“便携玩具之王”与跳出卡带的宝可梦生态",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-iwata-asks-hgss-chapter-2-portable-toy-king/",
-   "why": "同为社长问心金魂银系列，第2章"
-  },
-  {
-   "id": "scan-ndream-2009-11-hgss-developer-interview",
-   "kind": "same-occasion",
-   "label": "同一件事的另一种说法",
-   "title": "心金·魂银开发访谈",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3/scan-ndream-2009-11-hgss-developer-interview/",
-   "why": "同期心金魂银访谈，也谈宝可梦计步器"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }

@@ -52,6 +52,7 @@ cast:
   avatar: https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/scarlet-violet-logo.png
 topics:
 - 海外媒体专访
+source_appendix: gi_2017_gamefreak_visit
 parallel_items:
 - type: image
   image: /assets/img/interviews/2017-08-10-interview-gameinformer-how-game-freak-designs-pokemon-creatures/design_01.jpg

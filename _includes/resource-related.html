@@ -13,6 +13,15 @@
       {% if page.relations.related_posts %}
         {% for related_url in page.relations.related_posts %}
           {% assign related_post = site.posts | where: "url", related_url | first %}
+          {% unless related_post %}
+            {% for candidate in site.posts %}
+              {% assign decoded_url = candidate.url | url_decode %}
+              {% if decoded_url == related_url %}
+                {% assign related_post = candidate %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% endunless %}
           {% if related_post and related_count < related_limit %}
             {% assign related_count = related_count | plus: 1 %}
             <a href="{{ related_post.url | relative_url }}">

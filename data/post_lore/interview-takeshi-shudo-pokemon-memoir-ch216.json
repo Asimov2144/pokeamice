@@ -1,618 +1,604 @@
 {
- "id": "interview-takeshi-shudo-pokemon-memoir-ch216",
- "stem": "2010-03-17-interview-takeshi-shudo-pokemon-memoir-ch216",
- "rev": 1,
- "built": "2026-09-25",
- "kind": "interview",
- "body": {
-  "kind": "segments",
-  "n": 149
- },
- "facets": {
-  "pokemon": [
-   {
-    "name": "皮卡丘",
-    "ndex": 25,
-    "seg": [
-     111
-    ],
-    "as": [
-     "皮卡丘"
-    ],
-    "via": "body"
-   },
-   {
-    "name": "洛奇亚",
-    "ndex": 249,
-    "seg": [
-     4,
-     109
-    ],
-    "as": [
-     "洛奇亚"
-    ],
-    "via": "body"
-   }
-  ],
-  "works": [
-   {
-    "name": "结晶塔的帝王",
-    "slug": null,
-    "seg": [
-     1,
-     105
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "洛奇亚爆诞",
-    "slug": null,
-    "seg": [
-     4,
-     109
-    ],
-    "via": "entities"
-   },
-   {
-    "name": "战国魔神豪将军",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "魔法小天使（甜甜仙子）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "男人真命苦（寅次郎的故事）",
-    "slug": null,
-    "seg": [],
-    "via": "entities"
-   },
-   {
-    "name": "宝可梦",
-    "slug": null,
-    "seg": [
-     1
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "寅次郎的故事",
-    "slug": null,
-    "seg": [
-     111
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "魔法小天使",
-    "slug": null,
-    "seg": [
-     118
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "明琪桃子",
-    "slug": null,
-    "seg": [
-     118
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "挺好音头",
-    "slug": null,
-    "seg": [
-     144
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "哒吧哒吧坠入爱河",
-    "slug": null,
-    "seg": [
-     144
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "四月之雪",
-    "slug": null,
-    "seg": [
-     145
-    ],
-    "via": "llm"
-   },
-   {
-    "name": "明琪桃子：待雪消融之际",
-    "slug": null,
-    "seg": [
-     145
-    ],
-    "via": "llm"
-   }
-  ],
-  "people": [
-   {
-    "name": "首藤刚志",
-    "slug": "shudo-takeshi",
-    "role": "mentioned",
-    "seg": [
-     68
-    ]
-   },
-   {
-    "name": "林原惠",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     25
-    ]
-   },
-   {
-    "name": "小山茉美",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     25
-    ]
-   },
-   {
-    "name": "汤山邦彦",
-    "slug": "yuyama-kunihiko",
-    "role": "mentioned",
-    "seg": []
-   },
-   {
-    "name": "渥美清",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     111
-    ]
-   },
-   {
-    "name": "冈崎律子",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     145
-    ]
-   },
-   {
-    "name": "宫内妇贵子",
-    "slug": null,
-    "role": "mentioned",
-    "seg": [
-     79
-    ],
-    "via": "llm"
-   }
-  ],
-  "places": [
-   {
-    "name": "小田原文学馆",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     8
-    ],
-    "via": "extra",
-    "what": "展出首藤的剧本手稿"
-   },
-   {
-    "name": "小田原市立图书馆",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "spot",
-    "seg": [
-     9
-    ],
-    "via": "extra",
-    "what": "保管首藤捐赠的资料"
-   },
-   {
-    "name": "小田原",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     10
-    ],
-    "what": "首藤移居之地",
-    "via": "llm"
-   },
-   {
-    "name": "东京",
-    "id": null,
-    "entity": null,
-    "category": null,
-    "world": "real",
-    "scale": "area",
-    "seg": [
-     8
-    ],
-    "what": "首藤家中储藏室所在",
-    "via": "llm"
-   }
-  ],
-  "concepts": [
-   {
-    "id": "movie",
-    "name": "剧场版",
-    "facet": "franchise",
-    "seg": [
-     1,
-     5,
-     106,
-     107,
-     109
-    ],
-    "as": [
-     "剧场版"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "scenario",
-    "name": "剧本",
-    "facet": "story",
-    "seg": [
-     1,
-     8,
-     9,
-     27,
-     38,
-     74
-    ],
-    "as": [
-     "编剧",
-     "剧本"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "work-style",
-    "name": "工作方式",
-    "facet": "team",
-    "seg": [
-     7
-    ],
-    "as": [
-     "通宵"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "online-service",
-    "name": "联网服务",
-    "facet": "tech",
-    "seg": [
-     9,
-     126
-    ],
-    "as": [
-     "联网"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime-writing",
-    "name": "动画的写法",
-    "facet": "story",
-    "seg": [
-     10,
-     27,
-     30,
-     93
-    ],
-    "as": [
-     "系列构成"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "voice",
-    "name": "配音",
-    "facet": "audio",
-    "seg": [
-     10,
-     22,
-     25,
-     92
-    ],
-    "as": [
-     "声优",
-     "配音"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nature-and-bugs",
-    "name": "自然与昆虫采集",
-    "facet": "design",
-    "seg": [
-     22
-    ],
-    "as": [
-     "生态"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "dialogue",
-    "name": "台词",
-    "facet": "story",
-    "seg": [
-     26
-    ],
-    "as": [
-     "台词"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "easy-to-grasp",
-    "name": "易懂与门槛",
-    "facet": "design",
-    "seg": [
-     74
-    ],
-    "as": [
-     "门槛"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "nostalgia",
-    "name": "怀旧",
-    "facet": "audience",
-    "seg": [
-     77
-    ],
-    "as": [
-     "童年"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "licensing",
-    "name": "版权与监修",
-    "facet": "business",
-    "seg": [
-     88,
-     121,
-     144
-    ],
-    "as": [
-     "授权",
-     "版权"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "hand-drawn",
-    "name": "手绘与画材",
-    "facet": "art",
-    "seg": [
-     92
-    ],
-    "as": [
-     "原画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "stage-music",
-    "name": "音乐剧与演出",
-    "facet": "franchise",
-    "seg": [
-     92,
-     117,
-     118,
-     119,
-     120,
-     131
-    ],
-    "as": [
-     "音乐剧",
-     "舞台剧"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "anime",
-    "name": "电视动画",
-    "facet": "franchise",
-    "seg": [
-     108
-    ],
-    "as": [
-     "电视动画"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "handheld",
-    "name": "掌机这件事",
-    "facet": "tech",
-    "seg": [
-     108
-    ],
-    "as": [
-     "掌机"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "generations",
-    "name": "世代与代际",
-    "facet": "franchise",
-    "seg": [
-     112,
-     118,
-     120,
-     127,
-     130,
-     133
-    ],
-    "as": [
-     "初代"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sfx",
-    "name": "音效",
-    "facet": "audio",
-    "seg": [
-     123
-    ],
-    "as": [
-     "音效"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "quality",
-    "name": "完成度与打磨",
-    "facet": "process",
-    "seg": [
-     125,
-     127,
-     145
-    ],
-    "as": [
-     "品质",
-     "打磨"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "family",
-    "name": "家庭与亲子",
-    "facet": "audience",
-    "seg": [
-     131
-    ],
-    "as": [
-     "亲子"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "merchandise",
-    "name": "周边商品",
-    "facet": "business",
-    "seg": [
-     131
-    ],
-    "as": [
-     "玩具"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "sequel",
-    "name": "续作",
-    "facet": "process",
-    "seg": [
-     132
-    ],
-    "as": [
-     "续作"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "outsourcing",
-    "name": "外包与协力",
-    "facet": "process",
-    "seg": [
-     139
-    ],
-    "as": [
-     "外包"
-    ],
-    "via": "body"
-   },
-   {
-    "id": "composing",
-    "name": "作曲",
-    "facet": "audio",
-    "seg": [
-     145
-    ],
-    "as": [
-     "作曲"
-    ],
-    "via": "body"
-   }
-  ]
- },
- "observations": [
-  {
-   "seg": 1,
-   "text": "首藤刚志将《结晶塔的帝王》第一稿改稿托付给其他编剧后住院",
-   "anchor": 2
+  "id": "interview-takeshi-shudo-pokemon-memoir-ch216",
+  "stem": "2010-03-17-interview-takeshi-shudo-pokemon-memoir-ch216",
+  "rev": 1,
+  "built": "2026-09-25",
+  "kind": "interview",
+  "body": {
+    "kind": "segments",
+    "n": 149
   },
-  {
-   "seg": 2,
-   "text": "为排查其他病变，他在病房里住满整整一个月",
-   "anchor": 3
-  }
- ],
- "relations": [
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch215",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第215回：“小田原的剧本展”（结晶塔后辞去系列构成、坠海消波块自杀未遂惨案与小田原手稿文献展）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch215/",
-   "why": "第215回，前一篇手记，交代住院出院后辞去系列构成"
+  "facets": {
+    "pokemon": [
+      {
+        "name": "皮卡丘",
+        "ndex": 25,
+        "seg": [
+          111
+        ],
+        "as": [
+          "皮卡丘"
+        ],
+        "via": "body"
+      },
+      {
+        "name": "洛奇亚",
+        "ndex": 249,
+        "seg": [
+          4,
+          109
+        ],
+        "as": [
+          "洛奇亚"
+        ],
+        "via": "body"
+      }
+    ],
+    "works": [
+      {
+        "name": "结晶塔的帝王",
+        "slug": null,
+        "seg": [
+          1,
+          105
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "洛奇亚爆诞",
+        "slug": null,
+        "seg": [
+          4,
+          109
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "战国魔神豪将军",
+        "slug": null,
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "魔法小天使",
+        "slug": null,
+        "seg": [
+          118
+        ],
+        "via": "entities"
+      },
+      {
+        "name": "男人真命苦（寅次郎的故事）",
+        "slug": null,
+        "seg": [],
+        "via": "entities"
+      },
+      {
+        "name": "寅次郎的故事",
+        "slug": null,
+        "seg": [
+          111
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "明琪桃子",
+        "slug": null,
+        "seg": [
+          118
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "挺好音头",
+        "slug": null,
+        "seg": [
+          144
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "哒吧哒吧坠入爱河",
+        "slug": null,
+        "seg": [
+          144
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "四月之雪",
+        "slug": null,
+        "seg": [
+          145
+        ],
+        "via": "llm"
+      },
+      {
+        "name": "明琪桃子：待雪消融之际",
+        "slug": null,
+        "seg": [
+          145
+        ],
+        "via": "llm"
+      }
+    ],
+    "people": [
+      {
+        "name": "首藤刚志",
+        "slug": "shudo-takeshi",
+        "role": "mentioned",
+        "seg": [
+          68
+        ]
+      },
+      {
+        "name": "林原惠",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          25
+        ]
+      },
+      {
+        "name": "小山茉美",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          25
+        ]
+      },
+      {
+        "name": "汤山邦彦",
+        "slug": "yuyama-kunihiko",
+        "role": "mentioned",
+        "seg": []
+      },
+      {
+        "name": "渥美清",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          111
+        ]
+      },
+      {
+        "name": "冈崎律子",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          145
+        ]
+      },
+      {
+        "name": "宫内妇贵子",
+        "slug": null,
+        "role": "mentioned",
+        "seg": [
+          79
+        ],
+        "via": "llm"
+      }
+    ],
+    "places": [
+      {
+        "name": "小田原文学馆",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          8
+        ],
+        "via": "extra",
+        "what": "展出首藤的剧本手稿"
+      },
+      {
+        "name": "小田原市立图书馆",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "spot",
+        "seg": [
+          9
+        ],
+        "via": "extra",
+        "what": "保管首藤捐赠的资料"
+      },
+      {
+        "name": "小田原",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          10
+        ],
+        "what": "首藤移居之地",
+        "via": "llm"
+      },
+      {
+        "name": "东京",
+        "id": null,
+        "entity": null,
+        "category": null,
+        "world": "real",
+        "scale": "area",
+        "seg": [
+          8
+        ],
+        "what": "首藤家中储藏室所在",
+        "via": "llm"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "movie",
+        "name": "剧场版",
+        "facet": "franchise",
+        "seg": [
+          1,
+          5,
+          106,
+          107,
+          109
+        ],
+        "as": [
+          "剧场版"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "scenario",
+        "name": "剧本",
+        "facet": "story",
+        "seg": [
+          1,
+          8,
+          9,
+          27,
+          38,
+          74
+        ],
+        "as": [
+          "编剧",
+          "剧本"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "work-style",
+        "name": "工作方式",
+        "facet": "team",
+        "seg": [
+          7
+        ],
+        "as": [
+          "通宵"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "online-service",
+        "name": "联网服务",
+        "facet": "tech",
+        "seg": [
+          9,
+          126
+        ],
+        "as": [
+          "联网"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime-writing",
+        "name": "动画的写法",
+        "facet": "story",
+        "seg": [
+          10,
+          27,
+          30,
+          93
+        ],
+        "as": [
+          "系列构成"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "voice",
+        "name": "配音",
+        "facet": "audio",
+        "seg": [
+          10,
+          22,
+          25,
+          92
+        ],
+        "as": [
+          "声优",
+          "配音"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nature-and-bugs",
+        "name": "自然与昆虫采集",
+        "facet": "design",
+        "seg": [
+          22
+        ],
+        "as": [
+          "生态"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "dialogue",
+        "name": "台词",
+        "facet": "story",
+        "seg": [
+          26
+        ],
+        "as": [
+          "台词"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "easy-to-grasp",
+        "name": "易懂与门槛",
+        "facet": "design",
+        "seg": [
+          74
+        ],
+        "as": [
+          "门槛"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "nostalgia",
+        "name": "怀旧",
+        "facet": "audience",
+        "seg": [
+          77
+        ],
+        "as": [
+          "童年"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "licensing",
+        "name": "版权与监修",
+        "facet": "business",
+        "seg": [
+          88,
+          121,
+          144
+        ],
+        "as": [
+          "授权",
+          "版权"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "hand-drawn",
+        "name": "手绘与画材",
+        "facet": "art",
+        "seg": [
+          92
+        ],
+        "as": [
+          "原画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "stage-music",
+        "name": "音乐剧与演出",
+        "facet": "franchise",
+        "seg": [
+          92,
+          117,
+          118,
+          119,
+          120,
+          131
+        ],
+        "as": [
+          "音乐剧",
+          "舞台剧"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "anime",
+        "name": "电视动画",
+        "facet": "franchise",
+        "seg": [
+          108
+        ],
+        "as": [
+          "电视动画"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "handheld",
+        "name": "掌机这件事",
+        "facet": "tech",
+        "seg": [
+          108
+        ],
+        "as": [
+          "掌机"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "generations",
+        "name": "世代与代际",
+        "facet": "franchise",
+        "seg": [
+          112,
+          118,
+          120,
+          127,
+          130,
+          133
+        ],
+        "as": [
+          "初代"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sfx",
+        "name": "音效",
+        "facet": "audio",
+        "seg": [
+          123
+        ],
+        "as": [
+          "音效"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "quality",
+        "name": "完成度与打磨",
+        "facet": "process",
+        "seg": [
+          125,
+          127,
+          145
+        ],
+        "as": [
+          "品质",
+          "打磨"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "family",
+        "name": "家庭与亲子",
+        "facet": "audience",
+        "seg": [
+          131
+        ],
+        "as": [
+          "亲子"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "merchandise",
+        "name": "周边商品",
+        "facet": "business",
+        "seg": [
+          131
+        ],
+        "as": [
+          "玩具"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "sequel",
+        "name": "续作",
+        "facet": "process",
+        "seg": [
+          132
+        ],
+        "as": [
+          "续作"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "outsourcing",
+        "name": "外包与协力",
+        "facet": "process",
+        "seg": [
+          139
+        ],
+        "as": [
+          "外包"
+        ],
+        "via": "body"
+      },
+      {
+        "id": "composing",
+        "name": "作曲",
+        "facet": "audio",
+        "seg": [
+          145
+        ],
+        "as": [
+          "作曲"
+        ],
+        "via": "body"
+      }
+    ]
   },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch217",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第217回：“病房里的妄想症恶化？在《宝可梦》的世界里所谓的‘第一’究竟是什么？”（巴黎公社梦碎、暴发户刻板印象、世界第一的伪善虚相与小田原圣地巡礼）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch217/",
-   "why": "第217回，后一篇手记，同在病房中的手记"
+  "observations": [
+    {
+      "seg": 1,
+      "text": "首藤刚志将《结晶塔的帝王》第一稿改稿托付给其他编剧后住院",
+      "anchor": 2
+    },
+    {
+      "seg": 2,
+      "text": "为排查其他病变，他在病房里住满整整一个月",
+      "anchor": 3
+    }
+  ],
+  "relations": [
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch215",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第215回：“小田原的剧本展”（结晶塔后辞去系列构成、坠海消波块自杀未遂惨案与小田原手稿文献展）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch215/",
+      "why": "第215回，前一篇手记，交代住院出院后辞去系列构成"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch217",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第217回：“病房里的妄想症恶化？在《宝可梦》的世界里所谓的‘第一’究竟是什么？”（巴黎公社梦碎、暴发户刻板印象、世界第一的伪善虚相与小田原圣地巡礼）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch217/",
+      "why": "第217回，后一篇手记，同在病房中的手记"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
+      "why": "第209回，同系列前篇，同在小田原住院"
+    },
+    {
+      "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
+      "kind": "continues",
+      "label": "同一系列的前后篇",
+      "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
+      "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
+      "why": "第208回，同系列前篇，病房笔记本上的企划"
+    }
+  ],
+  "sources": {
+    "pokemon_names": "2026-09-23",
+    "tour_places": "2026-09-23",
+    "model": "deepseek-chat",
+    "relations_model": "deepseek-chat",
+    "concepts": "2026-09-26"
   },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch209",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第209回：“病房里的宝可梦电影第三弹”（点滴针头进京开会、皮卡丘主角宿命、霸王龙化石复活与幻之第三部电影开端）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch209/",
-   "why": "第209回，同系列前篇，同在小田原住院"
-  },
-  {
-   "id": "interview-takeshi-shudo-pokemon-memoir-ch208",
-   "kind": "continues",
-   "label": "同一系列的前后篇",
-   "title": "首藤刚志动画创作手记 第208回：“宝可梦电影第二弹之后、第三弹之前”（奴隶论哲学拷问、狂灌20罐啤酒的绝望深渊与病榻笔记本上的幻之企划）",
-   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E5%8A%A8%E7%94%BB%E7%A7%98%E8%BE%9B/%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97%E6%89%8B%E8%AE%B0/interview-takeshi-shudo-pokemon-memoir-ch208/",
-   "why": "第208回，同系列前篇，病房笔记本上的企划"
-  }
- ],
- "sources": {
-  "pokemon_names": "2026-09-23",
-  "tour_places": "2026-09-23",
-  "model": "deepseek-chat",
-  "relations_model": "deepseek-chat",
-  "concepts": "2026-09-26"
- },
- "edited": false
+  "edited": false
 }
