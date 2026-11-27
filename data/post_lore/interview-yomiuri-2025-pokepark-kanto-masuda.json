@@ -12,8 +12,8 @@
     "pokemon": [],
     "works": [
       {
-        "name": "宝可公园Wii ～皮卡丘的大冒险～",
-        "slug": "pokepark-wii",
+        "name": "宝可乐园 关东",
+        "slug": null,
         "seg": [
           0,
           2,
@@ -38,6 +38,18 @@
           15
         ],
         "via": "llm"
+      },
+      {
+        "name": "宝可公园Wii ～皮卡丘的大冒险～",
+        "slug": "pokepark-wii",
+        "seg": [
+          0,
+          2,
+          7,
+          20,
+          28
+        ],
+        "via": "entities"
       }
     ],
     "people": [

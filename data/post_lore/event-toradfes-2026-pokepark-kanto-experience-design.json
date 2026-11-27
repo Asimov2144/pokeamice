@@ -1,0 +1,202 @@
+{
+ "id": "event-toradfes-2026-pokepark-kanto-experience-design",
+ "stem": "2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design",
+ "rev": 1,
+ "built": "2026-11-27",
+ "kind": "article",
+ "body": {
+  "kind": "segments",
+  "n": 27
+ },
+ "facets": {
+  "pokemon": [],
+  "works": [
+   {
+    "name": "宝可乐园 关东",
+    "slug": null,
+    "seg": [
+     6,
+     13,
+     17,
+     26
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "鹿瀬島英介",
+    "slug": "lu-lai-dao-ying-jie",
+    "role": "speaker",
+    "seg": [
+     12,
+     13
+    ]
+   },
+   {
+    "name": "大野達也",
+    "slug": "ono-tatsuya",
+    "role": "speaker",
+    "seg": [
+     16,
+     17
+    ]
+   },
+   {
+    "name": "小暮菜月",
+    "slug": "kogure-natsuki",
+    "role": "speaker",
+    "seg": [
+     20,
+     21
+    ]
+   },
+   {
+    "name": "本山敬一",
+    "slug": "motoyama-keiichi",
+    "role": "speaker",
+    "seg": [
+     24,
+     25
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可乐园 关东",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6
+    ],
+    "what": "宝可梦首个户外常设设施",
+    "via": "llm"
+   },
+   {
+    "name": "仓敷",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "本山敬一出生地",
+    "via": "llm"
+   },
+   {
+    "name": "调布",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     25
+    ],
+    "what": "本山敬一现居地",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "illustration",
+    "name": "插画与设定图",
+    "facet": "art",
+    "seg": [
+     0
+    ],
+    "as": [
+     "主视觉"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     3,
+     4,
+     13,
+     21,
+     25
+    ],
+    "as": [
+     "广告",
+     "宣传"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "licensing",
+    "name": "版权与监修",
+    "facet": "business",
+    "seg": [
+     13
+    ],
+    "as": [
+     "授权"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "merchandise",
+    "name": "周边商品",
+    "facet": "business",
+    "seg": [
+     13
+    ],
+    "as": [
+     "商品化"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "tcg",
+    "name": "集换式卡牌",
+    "facet": "franchise",
+    "seg": [
+     13
+    ],
+    "as": [
+     "集换式卡牌"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 7,
+   "text": "体验以与超过600只宝可梦相遇、穿过森林走进街镇为形式",
+   "anchor": 8
+  },
+  {
+   "seg": 8,
+   "text": "宝可梦与SIX的四个人拆解四年间的判断、犹豫与推倒重来",
+   "anchor": 9
+  }
+ ],
+ "relations": [
+  {
+   "id": "interview-markezine-2026-pokepark-kanto-experience-design",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "从《宝可乐园 关东》体验设计学价值打造",
+   "url": "/%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-markezine-2026-pokepark-kanto-experience-design/",
+   "why": "同一场虎之门广告祭 2026 座谈的 MarkeZine 现场报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-11-13",
+  "tour_places": "2026-11-13",
+  "model": null,
+  "concepts": "2026-09-26"
+ },
+ "edited": false
+}

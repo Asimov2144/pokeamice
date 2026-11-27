@@ -614,3 +614,7 @@
   placeholder: anime
   icon: /assets/img/works/classic-placeholder.png
   icon_credit: 占位：灰色精灵球（tools/build-work-icons.py 绘制）
+- name: 宝可乐园 关东
+  placeholder: facility
+  color: "#2e7d32"
+  color2: "#fbc02d"

@@ -48,7 +48,7 @@
  ],
  "metrics": {
   "total": {
-   "value": 1248,
+   "value": 1249,
    "label": "条目",
    "label_en": "records",
    "group": "total",
@@ -88,7 +88,7 @@
    "definition_en": "Video and media features (archive_type media_feature)."
   },
   "kind_interview": {
-   "value": 452,
+   "value": 453,
    "label": "访谈翻译",
    "label_en": "Interviews",
    "group": "kind",
@@ -128,7 +128,7 @@
    "definition_en": "Everything not in the classes above."
   },
   "interview_shelf": {
-   "value": 505,
+   "value": 506,
    "label": "访谈与杂志扫描",
    "label_en": "interviews and scans",
    "group": "kind",
@@ -160,7 +160,7 @@
    "definition_en": "Scans without a source_kind; scan types add up to all scans."
   },
   "lang_zh": {
-   "value": 1248,
+   "value": 1249,
    "label": "中文版",
    "label_en": "Chinese pages",
    "group": "lang",
@@ -216,7 +216,7 @@
    "definition_en": "Public records by source language; languages add up to all records."
   },
   "source_lang_ja": {
-   "value": 437,
+   "value": 438,
    "label": "原文日语",
    "label_en": "Japanese sources",
    "group": "source_lang",
@@ -240,7 +240,7 @@
    "definition_en": "Public records by source language; languages add up to all records."
   },
   "indexed": {
-   "value": 1245,
+   "value": 1246,
    "label": "提交收录",
    "label_en": "submitted to search engines",
    "group": "public",
@@ -288,7 +288,7 @@
    "definition_en": "The home page /."
   },
   "sitemap_posts": {
-   "value": 1245,
+   "value": 1246,
    "label": "sitemap · 帖子",
    "label_en": "sitemap · posts",
    "group": "sitemap",
@@ -328,7 +328,7 @@
    "definition_en": "Japanese editions plus /ja/."
   },
   "sitemap_total": {
-   "value": 2179,
+   "value": 2180,
    "label": "sitemap 网址",
    "label_en": "sitemap URLs",
    "group": "sitemap",
@@ -1584,6 +1584,7 @@
   "_posts/2026-09-17-interview-cgworld-2026-cedec-pkmnza.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2026},
   "_posts/2026-09-21-interview-drpez-tsukasa-tawada-pokemon-colosseum-genius-sonority.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "en", "year": 2026},
   "_posts/2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2026},
-  "_posts/2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2026}
+  "_posts/2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2026},
+  "_posts/2026-11-27-interview-markezine-2026-pokepark-kanto-experience-design.md": {"kind": "interview", "type_label": "访谈翻译", "listed": true, "indexed": true, "source_lang": "ja", "year": 2026}
  }
 }

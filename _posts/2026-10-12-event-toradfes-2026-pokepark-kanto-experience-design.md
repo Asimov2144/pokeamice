@@ -31,7 +31,7 @@ source:
   language: ja
   source_type: event_listing
 original_link: https://toradfes.com/s26/session-3099/
-review_scope: 官方网站的节目介绍与登台者简介（取自站点公开的 sessions.json / creators.json），不是座谈的文字记录；座谈本身的报道或录像尚未找到。
+review_scope: 官方网站的节目介绍与登台者简介（取自站点公开的 sessions.json / creators.json），不是座谈的文字记录；座谈本身的现场报道见 MarkeZine 2026-11-27 专题。
 summary: 虎之门广告祭 2026 于 10 月 12 日举办座谈《实录〈宝可乐园 关东〉的体验设计》：株式会社宝可梦执行役员、合同会社宝可乐园·关东副社长兼 COO 鹿濑岛英介，宝可乐园·关东 GM 大野达也，与创意公司 SIX 的本山敬一、小暮菜月一起，回顾开业不到一年的《宝可乐园 关东》从提问到取舍的四年筹建。官方简介写明：鹿濑岛 2007 年加入宝可梦公司，2014 年任执行役员，历任卡牌、宣传、商品化授权、宝可梦中心商品开发等负责人，2025 年起负责《宝可乐园 关东》的开业与运营。
 entities:
   people:
@@ -39,7 +39,11 @@ entities:
   - 大野達也
   - 小暮菜月
   - 本山敬一
-  works: []
+  works:
+  - 宝可乐园 关东
+relations:
+  related_posts:
+  - /访谈翻译/翻译/访谈整理/interview-markezine-2026-pokepark-kanto-experience-design/
 workflow:
   fetch: live
   translation: claude

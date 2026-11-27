@@ -1,0 +1,348 @@
+{
+ "id": "interview-markezine-2026-pokepark-kanto-experience-design",
+ "stem": "2026-11-27-interview-markezine-2026-pokepark-kanto-experience-design",
+ "rev": 1,
+ "built": "2026-11-27",
+ "kind": "interview",
+ "body": {
+  "kind": "segments",
+  "n": 42
+ },
+ "facets": {
+  "pokemon": [
+   {
+    "name": "大牙狸",
+    "ndex": 399,
+    "seg": [
+     23
+    ],
+    "as": [
+     "大牙狸"
+    ],
+    "via": "body"
+   }
+  ],
+  "works": [
+   {
+    "name": "宝可乐园 关东",
+    "slug": null,
+    "seg": [
+     0,
+     2,
+     6,
+     7,
+     10,
+     39
+    ],
+    "via": "entities"
+   }
+  ],
+  "people": [
+   {
+    "name": "鹿瀬島英介",
+    "slug": "lu-lai-dao-ying-jie",
+    "role": "mentioned",
+    "seg": [
+     4,
+     11,
+     13,
+     22
+    ]
+   },
+   {
+    "name": "大野達也",
+    "slug": "ono-tatsuya",
+    "role": "mentioned",
+    "seg": [
+     4,
+     10,
+     23,
+     24
+    ]
+   },
+   {
+    "name": "本山敬一",
+    "slug": "motoyama-keiichi",
+    "role": "mentioned",
+    "seg": [
+     4,
+     16,
+     17,
+     25,
+     38,
+     39
+    ]
+   },
+   {
+    "name": "小暮菜月",
+    "slug": "kogure-natsuki",
+    "role": "mentioned",
+    "seg": [
+     4,
+     18,
+     23,
+     35,
+     36
+    ]
+   }
+  ],
+  "places": [
+   {
+    "name": "宝可梦中心",
+    "id": null,
+    "entity": null,
+    "category": "pc",
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     15,
+     34
+    ],
+    "what": "园区设施",
+    "via": "extra",
+    "category_link": "pc"
+   },
+   {
+    "name": "宝可乐园 关东",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     6,
+     7,
+     10,
+     39
+    ],
+    "what": "宝可梦首个户外常设设施",
+    "via": "llm"
+   },
+   {
+    "name": "读卖乐园",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     8
+    ],
+    "what": "设施所在游乐园",
+    "via": "llm"
+   },
+   {
+    "name": "卡雅茨利镇",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     18,
+     34
+    ],
+    "what": "园区城镇区域",
+    "via": "llm"
+   },
+   {
+    "name": "宝可梦森林",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "spot",
+    "seg": [
+     18,
+     26
+    ],
+    "what": "园区森林区域",
+    "via": "llm"
+   },
+   {
+    "name": "巴黎",
+    "id": null,
+    "entity": null,
+    "category": null,
+    "world": "real",
+    "scale": "area",
+    "seg": [
+     19
+    ],
+    "what": "圣诞市集考察地",
+    "via": "llm"
+   }
+  ],
+  "concepts": [
+   {
+    "id": "marketing",
+    "name": "宣传",
+    "facet": "business",
+    "seg": [
+     0,
+     2
+    ],
+    "as": [
+     "广告"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "quality",
+    "name": "完成度与打磨",
+    "facet": "process",
+    "seg": [
+     11,
+     40
+    ],
+    "as": [
+     "品质",
+     "打磨"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "raising",
+    "name": "培育",
+    "facet": "system",
+    "seg": [
+     21
+    ],
+    "as": [
+     "培育"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "naming",
+    "name": "命名",
+    "facet": "design",
+    "seg": [
+     22
+    ],
+    "as": [
+     "命名"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "nature-and-bugs",
+    "name": "自然与昆虫采集",
+    "facet": "design",
+    "seg": [
+     26,
+     37
+    ],
+    "as": [
+     "生态"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "world-building",
+    "name": "世界观设定",
+    "facet": "design",
+    "seg": [
+     28,
+     30,
+     36
+    ],
+    "as": [
+     "世界观"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "items",
+    "name": "道具与精灵球",
+    "facet": "system",
+    "seg": [
+     30,
+     31
+    ],
+    "as": [
+     "道具",
+     "精灵球"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "connection",
+    "name": "人与人的连接",
+    "facet": "design",
+    "seg": [
+     31
+    ],
+    "as": [
+     "交流"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "hardware-limits",
+    "name": "机能与容量",
+    "facet": "tech",
+    "seg": [
+     32
+    ],
+    "as": [
+     "机能"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "dev-cycle",
+    "name": "开发周期",
+    "facet": "process",
+    "seg": [
+     37
+    ],
+    "as": [
+     "工期"
+    ],
+    "via": "body"
+   },
+   {
+    "id": "social-impact",
+    "name": "社会反响",
+    "facet": "audience",
+    "seg": [
+     40
+    ],
+    "as": [
+     "热潮"
+    ],
+    "via": "body"
+   }
+  ]
+ },
+ "observations": [
+  {
+   "seg": 8,
+   "text": "占地约2.6公顷（主流设施二十分之一），部分票价高1.6倍仍几近售罄，大批游客待足全天。",
+   "anchor": 9
+  },
+  {
+   "seg": 22,
+   "text": "园内逾600只宝可梦不叫FRP摆件而命名为“活体模型”，凭瞬间生态唤醒粉丝脑内补完。",
+   "anchor": 23
+  }
+ ],
+ "relations": [
+  {
+   "id": "event-toradfes-2026-pokepark-kanto-experience-design",
+   "kind": "same-occasion",
+   "label": "同一件事的另一种说法",
+   "title": "实录《宝可乐园 关东》的体验设计",
+   "url": "/%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/event-toradfes-2026-pokepark-kanto-experience-design/",
+   "why": "同一场虎之门广告祭 2026 座谈的官方节目介绍与现场报道"
+  }
+ ],
+ "sources": {
+  "pokemon_names": "2026-11-13",
+  "tour_places": "2026-11-13",
+  "model": null,
+  "concepts": "2026-09-26"
+ },
+ "edited": false
+}

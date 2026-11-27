@@ -50493,12 +50493,14 @@
       world: real
     pokemon: []
     works:
-    - name: 宝可公园Wii ～皮卡丘的大冒险～
-      slug: pokepark-wii
+    - name: 宝可乐园 关东
+      slug: null
     - name: 宝可梦 红·绿
       slug: red-green
     - name: Pokémon GO
       slug: null
+    - name: 宝可公园Wii ～皮卡丘的大冒险～
+      slug: pokepark-wii
   id: interview-yomiuri-2025-pokepark-kanto-masuda
   observations:
   - anchor: 1
@@ -52134,6 +52136,50 @@
   - anchor: 7
     seg: 6
     text: 《圆形竞技场》世界被描述为犯罪横行、阴暗破败
+2026-10-12-event-toradfes-2026-pokepark-kanto-experience-design:
+  facets:
+    people:
+    - name: 鹿瀬島英介
+      role: speaker
+      slug: lu-lai-dao-ying-jie
+    - name: 大野達也
+      role: speaker
+      slug: ono-tatsuya
+    - name: 小暮菜月
+      role: speaker
+      slug: kogure-natsuki
+    - name: 本山敬一
+      role: speaker
+      slug: motoyama-keiichi
+    places:
+    - name: 宝可乐园 关东
+      what: 宝可梦首个户外常设设施
+      world: real
+    - name: 仓敷
+      what: 本山敬一出生地
+      world: real
+    - name: 调布
+      what: 本山敬一现居地
+      world: real
+    pokemon: []
+    works:
+    - name: 宝可乐园 关东
+      slug: null
+  id: event-toradfes-2026-pokepark-kanto-experience-design
+  observations:
+  - anchor: 8
+    seg: 7
+    text: 体验以与超过600只宝可梦相遇、穿过森林走进街镇为形式
+  - anchor: 9
+    seg: 8
+    text: 宝可梦与SIX的四个人拆解四年间的判断、犹豫与推倒重来
+  relations:
+  - id: interview-markezine-2026-pokepark-kanto-experience-design
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 从《宝可乐园 关东》体验设计学价值打造
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-markezine-2026-pokepark-kanto-experience-design/
+    why: 同一场虎之门广告祭 2026 座谈的 MarkeZine 现场报道
 2026-10-12-interview-denfami-2026-ame-nochi-hareonna-ohmori:
   facets:
     people:
@@ -52190,3 +52236,58 @@
   - anchor: 150
     seg: 149
     text: 大森滋称把魔法少女称为“晴女”时，企划成形，一切统合起来
+2026-11-27-interview-markezine-2026-pokepark-kanto-experience-design:
+  facets:
+    people:
+    - name: 鹿瀬島英介
+      role: mentioned
+      slug: lu-lai-dao-ying-jie
+    - name: 大野達也
+      role: mentioned
+      slug: ono-tatsuya
+    - name: 本山敬一
+      role: mentioned
+      slug: motoyama-keiichi
+    - name: 小暮菜月
+      role: mentioned
+      slug: kogure-natsuki
+    places:
+    - name: 宝可梦中心
+      what: 园区设施
+      world: real
+    - name: 宝可乐园 关东
+      what: 宝可梦首个户外常设设施
+      world: real
+    - name: 读卖乐园
+      what: 设施所在游乐园
+      world: real
+    - name: 卡雅茨利镇
+      what: 园区城镇区域
+      world: real
+    - name: 宝可梦森林
+      what: 园区森林区域
+      world: real
+    - name: 巴黎
+      what: 圣诞市集考察地
+      world: real
+    pokemon:
+    - name: 大牙狸
+      ndex: 399
+    works:
+    - name: 宝可乐园 关东
+      slug: null
+  id: interview-markezine-2026-pokepark-kanto-experience-design
+  observations:
+  - anchor: 9
+    seg: 8
+    text: 占地约2.6公顷（主流设施二十分之一），部分票价高1.6倍仍几近售罄，大批游客待足全天。
+  - anchor: 23
+    seg: 22
+    text: 园内逾600只宝可梦不叫FRP摆件而命名为“活体模型”，凭瞬间生态唤醒粉丝脑内补完。
+  relations:
+  - id: event-toradfes-2026-pokepark-kanto-experience-design
+    kind: same-occasion
+    label: 同一件事的另一种说法
+    title: 实录《宝可乐园 关东》的体验设计
+    url: /%E4%B8%93%E9%A2%98%E6%8A%A5%E9%81%93/event-toradfes-2026-pokepark-kanto-experience-design/
+    why: 同一场虎之门广告祭 2026 座谈的官方节目介绍与现场报道
