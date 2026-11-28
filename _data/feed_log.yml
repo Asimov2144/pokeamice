@@ -1,4 +1,26 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-11-28'
+  count: 58
+  types:
+    访谈翻译: 54
+    文章: 2
+    开发者自述: 1
+    署名寄语: 1
+  posts:
+  - 2026-10-09-interview-famitsu-2026-project-voltage-live-retrospective
+  - 2026-07-23-interview-tanseisha-2026-pokepark-kanto-yamashita-ohno
+  - 2026-06-17-interview-waseda-massken-pokepark-kanto-masuda
+  - 2026-05-13-interview-famitsu-2026-champions-hoshino-may
+  - 2026-02-26-interview-1242-2026-pokepark-kanto-forest-staff
+  - 2026-02-15-interview-creatures-recruit-management-crosstalk
+  - 2026-02-15-interview-creatures-recruit-digital-newgrad-crosstalk
+  - 2026-02-15-interview-creatures-recruit-card-project-planner-mm
+- date: '2026-11-27'
+  count: 1
+  types:
+    访谈翻译: 1
+  posts:
+  - 2026-11-27-interview-markezine-2026-pokepark-kanto-experience-design
 - date: '2026-11-10'
   count: 4
   types:
