@@ -28291,15 +28291,41 @@
   },
   {
     "id": "PKMN-1124",
-    "title": "週刊Fami通 No.1355 附录特刊专访大森滋 × 增田顺一：“时隔12年飞越丰缘大陆天空的感动”——《宝可梦 终极红宝石／始源蓝宝石》无限之笛与全3D化再构想",
-    "original_title": "週刊ファミ通 2014年12月4日号付録 No.1355『ポケットモンスター オメガルビー・アルファサファイア』発売記念インタビュー 大森滋氏×増田順一氏",
+    "title": "周刊Fami通 2014年12月4日号（No.1355）别册附录 冒险导航BOOK：开发关键人物访谈——系列最新作的秘密",
+    "original_title": "TOPIC 11 スペシャルインタビュー企画：開発キーパーソンに聞く、シリーズ最新作のヒミツ。",
     "date": "2014-11-20",
     "outlet": "週刊ファミ通 (Weekly Famitsu)",
     "source_type": "magazine_interview",
     "source_url": "https://archive.org/details/weeklyfamitsu1355_20141204_supp_orasinterview",
-    "post_file": "",
-    "status": "cataloged",
-    "description": "《週刊Fami通》No.1355附录手册专访ORAS总监大森滋与制作人增田顺一，深度解构‘无限之笛’全景自由飞行的技术突破与丰缘重制的世界观升华。"
+    "post_file": "_posts/2014-11-20-scan-famitsu-1355-supp-oras-masuda-ohmori.md",
+    "status": "imported",
+    "description": "《週刊Fami通》No.1355附录手册专访ORAS总监大森滋与制作人增田顺一，深度解构‘无限之笛’全景自由飞行的技术突破与丰缘重制的世界观升华。",
+    "url": "https://archive.org/details/weeklyfamitsu1355_20141204_supp_orasinterview",
+    "archive_url": "https://archive.org/details/weeklyfamitsu1355_20141204_supp_orasinterview",
+    "people": [
+      "增田顺一",
+      "大森滋"
+    ],
+    "interviewees": [
+      "增田顺一",
+      "大森滋"
+    ],
+    "generation": "第六世代",
+    "language": "JA",
+    "type": "Magazine Interview",
+    "tags": [
+      "开发访谈",
+      "制作人",
+      "总监",
+      "天空主题",
+      "重制"
+    ],
+    "summary": "增田顺一作为制作人、大森滋作为总监，在开发结束后接受采访。大森透露自己在2012年11月21日《宝可梦 红宝石·蓝宝石》十周年当天被增田告知将担任总监，开发周期约一年。",
+    "imported_post_path": "_posts/2014-11-20-scan-famitsu-1355-supp-oras-masuda-ohmori.md",
+    "file_path": "_posts/2014-11-20-scan-famitsu-1355-supp-oras-masuda-ohmori.md",
+    "imported_post_slug": "2014-11-20-scan-famitsu-1355-supp-oras-masuda-ohmori",
+    "era_skin": "2014",
+    "content_tier": "verbatim_bilingual"
   },
   {
     "id": "PKMN-1125",
@@ -28315,15 +28341,45 @@
   },
   {
     "id": "PKMN-1126",
-    "title": "Nintendo DREAM Vol.254 独家专访总监大森滋：“解开所有MEGA进化与平行世界的谜团”——《宝可梦 终极红宝石／始源蓝宝石》开发秘闻全记录",
-    "original_title": "Nintendo DREAM 2015年6月号 Vol.254『ポケットモンスター オメガルビー・アルファサファイア』大森滋ディレクター単独ロングインタビュー",
+    "title": "Nintendo DREAM：开发者访谈《宝可梦 欧米伽红宝石·阿尔法蓝宝石》——连续两期剧透企划",
+    "original_title": "2号連続ネタバレ企画！ 今だから言える真実も明かされた 開発者インタビュー『ポケットモンスター オメガルビー・アルファサファイア』",
     "date": "2015-04-21",
     "outlet": "Nintendo DREAM",
     "source_type": "magazine_interview",
     "source_url": "https://archive.org/details/nindori254_201506_orasinterview",
-    "post_file": "",
-    "status": "cataloged",
-    "description": "《Nintendo DREAM》Vol.254专访ORAS总监大森滋，详述本作所有新增MEGA进化的设计考量、丰缘古老神话中的平行世界假说与密林基地社交体验。"
+    "post_file": "_posts/2015-04-21-scan-ndream-254-oras-ohmori-sugimori-morimoto-iwao.md",
+    "status": "imported",
+    "description": "《Nintendo DREAM》Vol.254专访ORAS总监大森滋，详述本作所有新增MEGA进化的设计考量、丰缘古老神话中的平行世界假说与密林基地社交体验。",
+    "url": "https://archive.org/details/nindori254_201506_orasinterview",
+    "archive_url": "https://archive.org/details/nindori254_201506_orasinterview",
+    "people": [
+      "大森滋",
+      "杉森建",
+      "森本茂树",
+      "岩尾和昌"
+    ],
+    "interviewees": [
+      "大森滋",
+      "杉森建",
+      "森本茂树",
+      "岩尾和昌"
+    ],
+    "generation": "第六世代",
+    "language": "JA",
+    "type": "Magazine Interview",
+    "tags": [
+      "超级进化",
+      "开发者访谈",
+      "宝可梦设计",
+      "对战设计",
+      "角色秘闻"
+    ],
+    "summary": "本文为《宝可梦 欧米伽红宝石·阿尔法蓝宝石》开发者访谈，围绕超级进化宝可梦的选拔标准、设计与能力的先后关系等展开，四位开发者还谈及了角色秘闻与对战平衡等话题。",
+    "imported_post_path": "_posts/2015-04-21-scan-ndream-254-oras-ohmori-sugimori-morimoto-iwao.md",
+    "file_path": "_posts/2015-04-21-scan-ndream-254-oras-ohmori-sugimori-morimoto-iwao.md",
+    "imported_post_slug": "2015-04-21-scan-ndream-254-oras-ohmori-sugimori-morimoto-iwao",
+    "era_skin": "2015",
+    "content_tier": "verbatim_bilingual"
   },
   {
     "id": "PKMN-1127",
@@ -32277,6 +32333,40 @@
     "imported_post_slug": "2005-10-14-interview-famitsu-880-2005-ishihara-nakamura-miyamoto-pmd",
     "status": "imported",
     "era_skin": "2003",
+    "content_tier": "verbatim_bilingual"
+  },
+  {
+    "id": "PKMN-1414",
+    "title": "Kotaku 专访增田顺一：Game Freak 怎么看待《宝可梦》同人游戏开发者？“请来投简历吧”",
+    "original_title": "Here's What The Creators of Pokémon Sun and Moon Think About Fan Games",
+    "url": "https://kotaku.com/heres-what-the-creators-of-pokemon-sun-and-moon-think-a-1787969002",
+    "source_url": "https://kotaku.com/heres-what-the-creators-of-pokemon-sun-and-moon-think-a-1787969002",
+    "archive_url": "https://kotaku.com/heres-what-the-creators-of-pokemon-sun-and-moon-think-a-1787969002",
+    "date": "2016-10-19",
+    "people": [
+      "增田顺一"
+    ],
+    "interviewees": [
+      "增田顺一"
+    ],
+    "generation": "第七世代",
+    "language": "EN",
+    "outlet": "Kotaku",
+    "type": "Media Interview",
+    "tags": [
+      "Kotaku",
+      "增田顺一",
+      "Game Freak",
+      "同人游戏",
+      "宝可梦 太阳·月亮"
+    ],
+    "summary": "2016年10月 Kotaku 专访增田顺一，针对当年《Pokémon Uranium》等粉丝同人游戏遭 DMCA 下架风波询问 Game Freak 的看法；增田表示理解并欣赏创作者的乐趣，甚至笑邀有才华的同人开发者前来 Game Freak 应聘。",
+    "post_file": "_posts/2016-10-19-interview-kotaku-masuda-pokemon-fan-games.md",
+    "imported_post_path": "_posts/2016-10-19-interview-kotaku-masuda-pokemon-fan-games.md",
+    "file_path": "_posts/2016-10-19-interview-kotaku-masuda-pokemon-fan-games.md",
+    "imported_post_slug": "2016-10-19-interview-kotaku-masuda-pokemon-fan-games",
+    "status": "imported",
+    "era_skin": "2016",
     "content_tier": "verbatim_bilingual"
   }
 ]
