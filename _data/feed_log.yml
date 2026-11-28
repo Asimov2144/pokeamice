@@ -1,4 +1,19 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-11-29'
+  count: 8
+  types:
+    文章: 5
+    扫描翻译: 2
+    访谈翻译: 1
+  posts:
+  - 2026-06-11-source-pen-online-2026-kanda-shinji-ptcg
+  - 2026-06-11-source-pen-online-2026-ito-asako-ptcg
+  - 2026-06-09-source-pen-online-2026-sasaki-kei-kanto-tower
+  - 2026-06-09-source-pen-online-2026-pokopia-three-companies
+  - 2021-11-01-source-coton-2021-hamano-pokemon-wonder-soundtope
+  - 2016-10-19-interview-kotaku-masuda-pokemon-fan-games
+  - 2015-04-21-scan-ndream-254-oras-ohmori-sugimori-morimoto-iwao
+  - 2014-11-20-scan-famitsu-1355-supp-oras-masuda-ohmori
 - date: '2026-11-28'
   count: 58
   types:
