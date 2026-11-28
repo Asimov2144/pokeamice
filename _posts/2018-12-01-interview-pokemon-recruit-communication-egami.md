@@ -28,7 +28,7 @@ author: The Pokémon Company 採用チーム
 interviewee: 江上周作
 original_lang: ja
 translation_lang: zh-CN
-summary: 2018年末 The Pokémon Company 官方特辑招聘专访：Pokémon GO推进室室长江上周作深度揭秘《Pokémon GO》在上线两年后的破圈生态与进化哲学。从月度“社群日”与全球线下狂欢的“玩家可视化”、到以秋叶原与荷兰好友为例的“友情礼物”人际纽带；从GAME FREAK增田顺一深度参与的“美录坦”零预告闪电空降Switch联动，再到秉承初代《红／绿》联机初心的休闲轻度“训练家对战”，全面展现宝可梦以现实世界为舞台、连接全球人际关系的沟通哲学。
+summary: 2018年末 The Pokémon Company 官方特辑招聘专访：Pokémon GO推进室室长江上周作回顾《Pokémon GO》在上线两年后的大众生态与运营演进。从月度“社群日”与全球线下狂欢的“玩家可视化”、到以秋叶原与荷兰好友为例的“友情礼物”人际纽带；从GAME FREAK增田顺一深度参与的“美录坦”零预告闪电空降Switch联动，再到秉承初代《红／绿》联机初心的休闲轻度“训练家对战”，全面展现宝可梦以现实世界为舞台、连接全球人际关系的沟通哲学。
 entities:
   people:
   - 江上周作
