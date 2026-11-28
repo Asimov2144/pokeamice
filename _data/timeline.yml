@@ -3,12 +3,12 @@ span:
 - 1996
 - 2026
 totals:
-  interview: 463
+  interview: 470
   scan: 51
   topic: 47
   article: 37
   stream: 709
-  docs: 598
+  docs: 605
   max_docs: 56
   max_stream: 213
 eras:
@@ -53,17 +53,17 @@ eras:
     icon: /assets/img/works/bulba-crystal-vc-jp-icon.png
     color: '#6bb3d9'
   people:
-  - name: 田尻智
-    slug: tajiri-satoshi
-    n: 9
   - name: 增田顺一
     slug: masuda-junichi
     n: 9
-  - name: 杉森建
-    slug: sugimori-ken
-    n: 8
+  - name: 田尻智
+    slug: tajiri-satoshi
+    n: 9
   - name: 森本茂树
     slug: morimoto-shigeki
+    n: 8
+  - name: 杉森建
+    slug: sugimori-ken
     n: 8
   - name: 石原恒和
     slug: ishihara-tsunekazu
@@ -184,7 +184,7 @@ eras:
 - label: SM–SwSh
   from: 2016
   to: 2020
-  docs: 117
+  docs: 124
   stream: 251
   games:
   - slug: sun-moon
@@ -210,10 +210,10 @@ eras:
   people:
   - name: 增田顺一
     slug: masuda-junichi
-    n: 32
+    n: 38
   - name: 大森滋
     slug: ohmori-shigeru
-    n: 24
+    n: 30
   - name: 石原恒和
     slug: ishihara-tsunekazu
     n: 10
@@ -259,8 +259,8 @@ eras:
   - name: 前泽圭一
     slug: maezawa-keiichi
     n: 3
-  - name: 小野寺瞬
-    slug: onodera-shun
+  - name: 深谷卓
+    slug: fukaya-taku
     n: 3
 - label: Z-A 以后
   from: 2025
@@ -291,11 +291,11 @@ eras:
   - name: 星野正昭
     slug: hoshino-masaaki
     n: 3
-  - name: 宗像快
-    slug: munakata-kai
-    n: 3
   - name: 小幡敏宏
     slug: obata-toshihiro
+    n: 3
+  - name: 宗像快
+    slug: munakata-kai
     n: 3
 years:
 - year: 1996
@@ -321,23 +321,23 @@ years:
     icon: /assets/img/works/bulba-blue-vc-jp-icon.png
     color: '#1f5fb0'
   people:
-  - name: 杉森建
-    slug: sugimori-ken
+  - name: 森本茂树
+    slug: morimoto-shigeki
     n: 1
-  - name: 田尻智
-    slug: tajiri-satoshi
-    n: 1
-  - name: 太田健程
-    slug: ota-takenori
-    n: 1
-  - name: 渡边哲也
-    slug: watanabe-tetsuya
+  - name: 增田顺一
+    slug: masuda-junichi
     n: 1
   - name: 西野弘二
     slug: nishino-koji
     n: 1
-  - name: 增田顺一
-    slug: masuda-junichi
+  - name: 西田敦子
+    slug: nishida-atsuko
+    n: 1
+  - name: 杉森建
+    slug: sugimori-ken
+    n: 1
+  - name: 渡边哲也
+    slug: watanabe-tetsuya
     n: 1
   works:
   - name: 宝可梦 红·绿
@@ -383,20 +383,20 @@ years:
   - name: 田尻智
     slug: tajiri-satoshi
     n: 2
-  - name: 杉森建
-    slug: sugimori-ken
-    n: 1
-  - name: 林原惠美
-    slug: hayashibara-megumi
-    n: 1
-  - name: 太田健程
-    slug: ota-takenori
-    n: 1
   - name: 增田顺一
     slug: masuda-junichi
     n: 1
   - name: 森本茂树
     slug: morimoto-shigeki
+    n: 1
+  - name: 杉森建
+    slug: sugimori-ken
+    n: 1
+  - name: 太田健程
+    slug: ota-takenori
+    n: 1
+  - name: 林原惠美
+    slug: hayashibara-megumi
     n: 1
   works:
   - name: 宝可梦 金·银
@@ -405,6 +405,12 @@ years:
     color: '#d4a72c'
     color2: '#a8adb5'
     n: 2
+  - name: 宝可梦 红·绿
+    icon: /assets/img/works/bulba-red-vc-jp-icon.png
+    icon2: /assets/img/works/bulba-green-vc-icon.png
+    color: '#d8262a'
+    color2: '#2f9e44'
+    n: 1
   - name: 宝可梦 皮卡丘版
     icon: /assets/img/works/bulba-yellow-vc-jp-icon.png
     color: '#f2c94c'
@@ -412,12 +418,6 @@ years:
   - name: 宝可梦 蓝
     icon: /assets/img/works/bulba-blue-vc-jp-icon.png
     color: '#1f5fb0'
-    n: 1
-  - name: 宝可梦 红·绿
-    icon: /assets/img/works/bulba-red-vc-jp-icon.png
-    icon2: /assets/img/works/bulba-green-vc-icon.png
-    color: '#d8262a'
-    color2: '#2f9e44'
     n: 1
   picks:
   - title: 1997年《宝可梦2》访谈
@@ -481,26 +481,27 @@ years:
     core: false
     icon: /assets/img/works/bulba-tcg-gb-vc-icon.png
   people:
-  - name: 石原恒和
-    slug: ishihara-tsunekazu
+  - name: 川口孝司
+    slug: kawaguchi-takashi
     n: 1
   - name: 杉森建
     slug: sugimori-ken
     n: 1
-  - name: 松本梨香
-    slug: matsumoto-rica
+  - name: 犬山犬子
+    slug: inuyama-inuko
+    n: 1
+  - name: 石原恒和
+    slug: ishihara-tsunekazu
+    n: 1
+  - name: 西田敦子
+    slug: nishida-atsuko
     n: 1
   - name: 首藤刚志
     slug: shudo-takeshi
     n: 1
-  - name: 大谷育江
-    slug: otani-ikue
-    n: 1
-  - name: 林原惠美
-    slug: hayashibara-megumi
-    n: 1
   works:
-  - name: 宝可梦 动画
+  - name: 皮卡丘的暑假
+    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
     n: 1
   - name: 宝可梦 红·绿
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
@@ -508,8 +509,7 @@ years:
     color: '#d8262a'
     color2: '#2f9e44'
     n: 1
-  - name: 皮卡丘的暑假
-    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+  - name: 宝可梦 动画
     n: 1
   - name: 剧场版 宝可梦 超梦的逆袭
     n: 1
@@ -571,8 +571,8 @@ years:
   - name: 蒂姆·拉里默
     slug: di-mu-la-li-mo
     n: 1
-  - name: 西野弘二
-    slug: nishino-koji
+  - name: 森本茂树
+    slug: morimoto-shigeki
     n: 1
   works:
   - name: 宝可梦 金·银
@@ -587,9 +587,9 @@ years:
     icon: /assets/img/works/bulba-pokemonsnapwiiuvcicone.png
     color: '#ff8f00'
     n: 1
-  - name: 旋转方块
+  - name: 铁板阵
     n: 1
-  - name: 脉冲超人
+  - name: 旋转方块
     n: 1
   picks:
   - title: 究极的 Game Freak
@@ -671,14 +671,14 @@ years:
   - name: 增田顺一
     slug: masuda-junichi
     n: 5
+  - name: 森本茂树
+    slug: morimoto-shigeki
+    n: 4
   - name: 杉森建
     slug: sugimori-ken
     n: 4
   - name: 田尻智
     slug: tajiri-satoshi
-    n: 4
-  - name: 森本茂树
-    slug: morimoto-shigeki
     n: 4
   - name: 石原恒和
     slug: ishihara-tsunekazu
@@ -699,14 +699,14 @@ years:
     color: '#d8262a'
     color2: '#2f9e44'
     n: 4
-  - name: 超梦的逆袭
-    icon: /assets/img/works/bulba-japanese-m01-logo.png
-    color: '#7e57c2'
-    n: 1
   - name: 宝可梦 动画系列
     icon: /assets/img/works/bulba-s01-logo-jp.png
     color: '#ffcc00'
     color2: '#e53935'
+    n: 1
+  - name: 超梦的逆袭
+    icon: /assets/img/works/bulba-japanese-m01-logo.png
+    color: '#7e57c2'
     n: 1
   - name: 宝可梦卡牌
     icon: /assets/img/works/ball-tcg.png
@@ -810,20 +810,20 @@ years:
   - name: 石原恒和
     slug: ishihara-tsunekazu
     n: 1
+  - name: 入江胜义
+    slug: ru-jiang-sheng-yi
+    n: 1
+  - name: 吉野元文
+    slug: ji-ye-yuan-wen
+    n: 1
   - name: 赤羽卓美
     slug: chi-yu-zhuo-mei
     n: 1
   - name: 福田和彦
     slug: fu-tian-he-yan
     n: 1
-  - name: 吉野元文
-    slug: ji-ye-yuan-wen
-    n: 1
-  - name: 入江胜义
-    slug: ru-jiang-sheng-yi
-    n: 1
-  - name: 久須美龍太
-    slug: jiu-xu-mei-long-tai
+  - name: 三浦昌幸
+    slug: miura-masayuki
     n: 1
   works:
   - name: 宝可梦 水晶版
@@ -919,11 +919,11 @@ years:
   - name: 杉森建
     slug: sugimori-ken
     n: 2
-  - name: 石原恒和
-    slug: ishihara-tsunekazu
-    n: 1
   - name: 增田顺一
     slug: masuda-junichi
+    n: 1
+  - name: 石原恒和
+    slug: ishihara-tsunekazu
     n: 1
   works:
   - name: 宝可梦集换式卡牌游戏
@@ -938,12 +938,12 @@ years:
     color: '#c9302c'
     color2: '#2b6cb0'
     n: 2
-  - name: 皮卡皮卡星空露营
-    n: 1
   - name: 水之都的护神 拉帝亚斯与拉帝欧斯
     icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
     n: 1
-  - name: Pokémon Card Trainers
+  - name: 皮卡皮卡星空露营
+    n: 1
+  - name: 宝可梦卡牌e
     n: 1
   picks:
   - title: 宝可梦卡牌e系统机制、e码迷你游戏与卡组解体新书
@@ -1026,23 +1026,23 @@ years:
     core: false
     icon: /assets/img/works/bulba-pinball-ruby-and-sapphire-vc-icon.png
   people:
-  - name: 杉森建
-    slug: sugimori-ken
-    n: 2
   - name: 增田顺一
     slug: masuda-junichi
     n: 2
-  - name: 岩田聪
-    slug: iwata-satoru
-    n: 1
+  - name: 杉森建
+    slug: sugimori-ken
+    n: 2
   - name: 田中宏和
     slug: tanaka-hirokazu
+    n: 1
+  - name: 岩田聪
+    slug: iwata-satoru
     n: 1
   - name: 森本茂树
     slug: morimoto-shigeki
     n: 1
-  - name: 石原恒和
-    slug: ishihara-tsunekazu
+  - name: 小澤宗明
+    slug: ozawa-muneaki
     n: 1
   works:
   - name: 宝可梦 红宝石·蓝宝石
@@ -1132,14 +1132,14 @@ years:
   - name: 增田顺一
     slug: masuda-junichi
     n: 2
-  - name: 渡边哲也
-    slug: watanabe-tetsuya
-    n: 1
   - name: 西野弘二
     slug: nishino-koji
     n: 1
   - name: 海野隆雄
     slug: unno-takao
+    n: 1
+  - name: 渡边哲也
+    slug: watanabe-tetsuya
     n: 1
   - name: 石原恒和
     slug: ishihara-tsunekazu
@@ -1151,25 +1151,24 @@ years:
     color: '#e6522c'
     color2: '#5fa14a'
     n: 3
-  - name: 宝可梦圆形竞技场
-    icon: /assets/img/works/ball-colosseum.png
-    color: '#5c6bc0'
+  - name: 裂空的访问者 代欧奇希斯
+    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
     n: 1
   - name: 宝可梦 绿宝石
     icon: /assets/img/works/ball-emerald.png
     color: '#2e9e6b'
-    n: 1
-  - name: 宝可梦 红宝石·蓝宝石
-    icon: /assets/img/works/ball-ruby-sapphire.png
-    icon2: /assets/img/works/ball-ruby-sapphire-2.png
-    color: '#c9302c'
-    color2: '#2b6cb0'
     n: 1
   - name: 宝可梦 红·绿
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
     icon2: /assets/img/works/bulba-green-vc-icon.png
     color: '#d8262a'
     color2: '#2f9e44'
+    n: 1
+  - name: 宝可梦 红宝石·蓝宝石
+    icon: /assets/img/works/ball-ruby-sapphire.png
+    icon2: /assets/img/works/ball-ruby-sapphire-2.png
+    color: '#c9302c'
+    color2: '#2b6cb0'
     n: 1
   picks:
   - title: 火红·叶绿 开发者访谈
@@ -1237,8 +1236,8 @@ years:
   - name: 吉田宏信
     slug: yoshida-hironobu
     n: 1
-  - name: 田尻智
-    slug: tajiri-satoshi
+  - name: 海野隆雄
+    slug: unno-takao
     n: 1
   - name: 江尾可奈子
     slug: eo-kanako
@@ -1252,16 +1251,16 @@ years:
     color: '#4f7fc9'
     color2: '#c98ab6'
     n: 1
+  - name: 宝可梦 绿宝石
+    icon: /assets/img/works/ball-emerald.png
+    color: '#2e9e6b'
+    n: 1
   - name: 宝可梦XD 暗之旋风 黑暗洛奇亚
     icon: /assets/img/works/classic-placeholder.png
     n: 1
   - name: 宝可梦圆形竞技场
     icon: /assets/img/works/ball-colosseum.png
     color: '#5c6bc0'
-    n: 1
-  - name: 宝可梦 绿宝石
-    icon: /assets/img/works/ball-emerald.png
-    color: '#2e9e6b'
     n: 1
   picks:
   - title: 支撑《宝可梦不可思议迷宫》的三张面孔齐聚——石原恒和 × 中村光一 × 宫本茂对谈
@@ -1347,14 +1346,14 @@ years:
   - name: 吉田宏信
     slug: yoshida-hironobu
     n: 1
-  - name: 杉森建
-    slug: sugimori-ken
+  - name: 增田顺一
+    slug: masuda-junichi
     n: 1
   - name: 石原恒和
     slug: ishihara-tsunekazu
     n: 1
-  - name: 增田顺一
-    slug: masuda-junichi
+  - name: 杉森建
+    slug: sugimori-ken
     n: 1
   works:
   - name: 宝可梦 钻石·珍珠
@@ -1428,28 +1427,28 @@ years:
     icon: /assets/img/works/bulba-pmd-time-icon.png
     icon2: /assets/img/works/bulba-pmd-darkness-icon.png
   people:
-  - name: 田尻智
-    slug: tajiri-satoshi
-    n: 1
   - name: 中川翔子
     slug: nakagawa-shoko
+    n: 1
+  - name: 田尻智
+    slug: tajiri-satoshi
     n: 1
   works:
   - name: 宝可梦不可思议迷宫 时之探险队·暗之探险队
     icon: /assets/img/works/bulba-pmd-time-icon.png
     icon2: /assets/img/works/bulba-pmd-darkness-icon.png
     n: 1
-  - name: 宝可梦 钻石·珍珠
-    icon: /assets/img/works/bulba-diamond-icon.png
-    icon2: /assets/img/works/bulba-pearl-icon.png
-    color: '#4f7fc9'
-    color2: '#c98ab6'
-    n: 1
   - name: 宝可梦 红·绿
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
     icon2: /assets/img/works/bulba-green-vc-icon.png
     color: '#d8262a'
     color2: '#2f9e44'
+    n: 1
+  - name: 宝可梦 钻石·珍珠
+    icon: /assets/img/works/bulba-diamond-icon.png
+    icon2: /assets/img/works/bulba-pearl-icon.png
+    color: '#4f7fc9'
+    color2: '#c98ab6'
     n: 1
   picks:
   - title: 田尻智与中川翔子对谈
@@ -2546,8 +2545,8 @@ years:
   - name: 佐藤仁美
     slug: sato-hitomi
     n: 1
-  - name: 一之濑刚
-    slug: ichinose-go
+  - name: 足立美奈子
+    slug: adachi-minako
     n: 1
   works:
   - name: 宝可梦 X·Y
@@ -2570,11 +2569,8 @@ years:
     icon: /assets/img/works/home-omega-ruby.png
     icon2: /assets/img/works/home-alpha-sapphire.png
     n: 2
-  - name: 宝可梦 黑·白
-    icon: /assets/img/works/bulba-black-icon.png
-    icon2: /assets/img/works/bulba-white-icon.png
-    color: '#222222'
-    color2: '#e6e6e6'
+  - name: Pokémon Bank
+    icon: /assets/img/works/classic-placeholder.png
     n: 1
   picks:
   - title: CINRA 2014：田中宏和 × DE DE MOUSE 谈任天堂音源与大热作品的共通点
@@ -2720,11 +2716,11 @@ years:
   - name: 大森滋
     slug: ohmori-shigeru
     n: 1
-  - name: James Turner
-    slug: james-turner
-    n: 1
   - name: T.M.
     slug: t-m
+    n: 1
+  - name: James Turner
+    slug: james-turner
     n: 1
   - name: M.I.
     slug: m-i
@@ -2741,13 +2737,13 @@ years:
   - name: 宝可拳 POKKÉN TOURNAMENT
     icon: /assets/img/works/bulba-pokken-icon.png
     n: 1
-  - name: 宝可梦 剧场版 光轮的超魔神 胡帕
-    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
-    n: 1
   - name: 宝可梦 动画系列
     icon: /assets/img/works/bulba-s01-logo-jp.png
     color: '#ffcc00'
     color2: '#e53935'
+    n: 1
+  - name: 宝可梦 剧场版 光轮的超魔神 胡帕
+    icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
     n: 1
   picks:
   - title: 研究开发部，始动
@@ -2848,10 +2844,10 @@ years:
     - 950
     - 380
 - year: 2016
-  docs: 24
+  docs: 31
   stream: 213
   kinds:
-    interview: 23
+    interview: 30
     scan: 0
     topic: 0
     article: 1
@@ -2877,15 +2873,15 @@ years:
     core: false
     icon: /assets/img/works/bulba-pokemon-duel-icon-7-0-7.png
   people:
+  - name: 大森滋
+    slug: ohmori-shigeru
+    n: 10
+  - name: 增田顺一
+    slug: masuda-junichi
+    n: 9
   - name: 石原恒和
     slug: ishihara-tsunekazu
     n: 4
-  - name: 大森滋
-    slug: ohmori-shigeru
-    n: 4
-  - name: 增田顺一
-    slug: masuda-junichi
-    n: 3
   - name: 杉森建
     slug: sugimori-ken
     n: 1
@@ -2896,25 +2892,31 @@ years:
     slug: endo-masanobu
     n: 1
   works:
+  - name: 宝可梦 太阳·月亮
+    icon: /assets/img/works/home-sun.png
+    icon2: /assets/img/works/home-moon.png
+    n: 10
   - name: Pokémon GO
     icon: /assets/img/works/bulba-home-go-icon.png
     color: '#1e88e5'
     color2: '#ffd54f'
-    n: 5
+    n: 8
   - name: 宝可梦 红·绿
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
     icon2: /assets/img/works/bulba-green-vc-icon.png
     color: '#d8262a'
     color2: '#2f9e44'
-    n: 3
-  - name: 宝可梦 太阳·月亮
-    icon: /assets/img/works/home-sun.png
-    icon2: /assets/img/works/home-moon.png
-    n: 3
-  - name: 麦森探险
-    n: 1
-  - name: 俄罗斯方块
-    n: 1
+    n: 7
+  - name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+    icon: /assets/img/works/home-omega-ruby.png
+    icon2: /assets/img/works/home-alpha-sapphire.png
+    n: 4
+  - name: 宝可梦 钻石·珍珠
+    icon: /assets/img/works/bulba-diamond-icon.png
+    icon2: /assets/img/works/bulba-pearl-icon.png
+    color: '#4f7fc9'
+    color2: '#c98ab6'
+    n: 4
   picks:
   - title: 能玩1000次的RPG如何诞生
     kind: interview
@@ -2927,17 +2929,13 @@ years:
     cover_size:
     - 724
     - 1280
-  - title: 增田顺一谈《宝可梦Z》与《圆形竞技场》
+  - title: 《宝可梦 太阳·月亮》焦点问答：阿罗拉、Pokémon GO 与开发幕后
     kind: interview
-    pub: Official Nintendo Magazine 西班牙版（2016-12-…
-    date: '2016-12-01'
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-lavacut-onm-spain-masuda-ohmori-sun-moon/
-    series: OfficialNin
-    blurb: 《太阳／月亮》发售后，大森滋与增田顺一接受西班牙版《官方任天堂杂志》采访，谈及新作反响、第三版本与《圆形竞技场》续作的可能性。
-    cover: /assets/img/interviews/2016-12-01-interview-lavacut-onm-spain-masuda-ohmori-sun-moon/001.jpg
-    cover_size:
-    - 645
-    - 900
+    pub: Game Informer（2016-10-19）
+    date: '2016-10-19'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E5%AA%92%E4%BD%93%E4%B8%93%E8%AE%BF/interview-gameinformer-2016-burning-questions-sun-moon/
+    series: GameInforme
+    blurb: 2016 年 10 月《宝可梦 太阳·月亮》发售前夕，Game Informer 与增田顺一、大森滋展开快节奏问答，聊及猫鼬少／猫鼬探长撞脸传闻、夏威夷灵感、关都地区阿罗拉的样…
   - title: 访谈来源：《Pokémon Duel／ポケモンコマスター》的棋盘规则与 AI
     kind: article
     pub: 電撃オンライン
@@ -2946,6 +2944,40 @@ years:
     series: 電撃オンライン
     blurb: 来源记录与阅读导引。电击采访四名开发成员，讨论实体棋盘游戏转为手机应用时的规则整理、平衡调整与 AI 开发。
   pool:
+  - title: 增田顺一与大森滋谈《太阳·月亮》：从阿罗拉诸岛巡礼、Pokémon GO 到皮卡丘的走红起点
+    kind: interview
+    pub: GameSpot（2016-10-19）
+    date: '2016-10-19'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E5%AA%92%E4%BD%93%E4%B8%93%E8%AE%BF/interview-gamespot-2016-sun-moon-masuda-ohmori/
+    series: GameSpot（20
+  - title: 从夏威夷自然到阿罗拉考验：《宝可梦 太阳·月亮》全本开发访谈
+    kind: interview
+    pub: GameXplain（2016-10-19；Wayback 全文实录 + You…
+    date: '2016-10-19'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E5%AA%92%E4%BD%93%E4%B8%93%E8%AE%BF/interview-gamexplain-2016-sun-moon-masuda-ohmori/
+    series: GameXplain（
+  - title: 新作何以定名《宝可梦 太阳·月亮》
+    kind: interview
+    pub: TIME（2016-10-19）
+    date: '2016-10-19'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E5%AA%92%E4%BD%93%E4%B8%93%E8%AE%BF/interview-time-2016-sun-moon-masuda-ohmori/
+    series: TIME（2016-1
+  - title: 首次执掌全新世代的大森滋谈《宝可梦 太阳·月亮》
+    kind: interview
+    pub: USgamer（2016-10-19；现存 VG247 迁移归档）
+    date: '2016-10-19'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E5%AA%92%E4%BD%93%E4%B8%93%E8%AE%BF/interview-usgamer-2016-ohmori-masuda-sun-moon/
+    series: USgamer（201
+  - title: 增田顺一谈《宝可梦Z》与《圆形竞技场》
+    kind: interview
+    pub: Official Nintendo Magazine 西班牙版（2016-12-…
+    date: '2016-12-01'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-lavacut-onm-spain-masuda-ohmori-sun-moon/
+    series: OfficialNin
+    cover: /assets/img/interviews/2016-12-01-interview-lavacut-onm-spain-masuda-ohmori-sun-moon/001.jpg
+    cover_size:
+    - 645
+    - 900
   - title: 电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈
     kind: interview
     pub: ''
@@ -2976,62 +3008,12 @@ years:
     cover_size:
     - 670
     - 402
-  - title: '2016 Entrevistamos a los responsables de Pokémon: "No creíam…'
+  - title: 大森滋谈《宝可梦 太阳·月亮》：Z招式的对战平衡、12 小时昼夜时差与“生命”主题
     kind: interview
-    pub: ''
-    date: '2016-12-05'
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-25043/
-    series: '[访谈翻译]2016E'
-  - title: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Swi…'
-    kind: interview
-    pub: ''
-    date: '2016-12-12'
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-reportajes/
-    series: '[访谈翻译]Entre'
-    cover: /assets/img/interviews/2016-12-12-interview-reportajes/001.jpg
-    cover_size:
-    - 360
-    - 203
-  - title: 宝可梦GO开发谈
-    kind: interview
-    pub: 产经新闻（産経ニュース）（2016-09-09）
-    date: '2016-09-09'
-    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/interview-sankei-pokemon-go-utsunomiya-kawashima/
-    series: 产经新闻（産経ニュース
-    cover: /assets/img/interviews/2016-09-09-interview-sankei-pokemon-go-utsunomiya-kawashima/001.jpg
-    cover_size:
-    - 221
-    - 224
-  - title: Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精…
-    kind: interview
-    pub: ''
-    date: '2016-04-18'
-    url: /developer-interviews/official-archives/interview-denfami-sonobe-gamefreak-morimoto/
-    series: Denfami独家专访
-    cover: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/DMA-DEC-YU50-001-e1458128892934.jpg
-    cover_size:
-    - 483
-    - 349
-  - title: Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详…
-    kind: interview
-    pub: ''
-    date: '2016-05-12'
-    url: /developer-interviews/official-archives/interview-inside-pokken-tournament-developers/
-    series: InsideGames
-    cover: /assets/img/interviews/2016-05-12-interview-inside-pokken-tournament-developers/661991.jpg
-    cover_size:
-    - 640
-    - 426
-  - title: 日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）
-    kind: interview
-    pub: ''
-    date: '2016-08-25'
-    url: /developer-interviews/official-archives/interview-nikkei-utsunomiya-pokemon-go/
-    series: 日经商务独家专访宝可梦
-    cover: /assets/img/interviews/2016-08-25-interview-nikkei-utsunomiya-pokemon-go/nikkei_go_p1_p1.jpg
-    cover_size:
-    - 500
-    - 333
+    pub: GamesRadar+（2016-10-19）
+    date: '2016-10-19'
+    url: /%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91/%E7%BF%BB%E8%AF%91/%E5%AA%92%E4%BD%93%E4%B8%93%E8%AE%BF/interview-gamesradar-2016-ohmori-sun-moon-z-moves/
+    series: GamesRadar+
 - year: 2017
   docs: 25
   stream: 38
@@ -3249,8 +3231,8 @@ years:
   - name: 菜花健作
     slug: nabana-kensaku
     n: 3
-  - name: 田尻智
-    slug: tajiri-satoshi
+  - name: 西野弘二
+    slug: nishino-koji
     n: 2
   works:
   - name: Pokémon GO
@@ -3591,41 +3573,41 @@ years:
     core: false
     icon: /assets/img/works/bulba-pokemon-smile-icon.png
   people:
-  - name: 石原恒和
-    slug: ishihara-tsunekazu
-    n: 1
   - name: 橘庆太
     slug: tachibana-keita
-    n: 1
-  - name: 冈崎体育
-    slug: okazaki-taiiku
     n: 1
   - name: 木村KAELA
     slug: kimura-kaela
     n: 1
-  - name: 小林幸子
-    slug: kobayashi-sachiko
+  - name: 冈崎体育
+    slug: okazaki-taiiku
     n: 1
   - name: 乌龟松本
     slug: wu-gui-song-ben
     n: 1
+  - name: 石原恒和
+    slug: ishihara-tsunekazu
+    n: 1
+  - name: 小林幸子
+    slug: kobayashi-sachiko
+    n: 1
   works:
-  - name: 薄明之翼
-    n: 1
-  - name: 宝可梦 剑／盾
-    n: 1
   - name: 宝可梦 红·绿
     icon: /assets/img/works/bulba-red-vc-jp-icon.png
     icon2: /assets/img/works/bulba-green-vc-icon.png
     color: '#d8262a'
     color2: '#2f9e44'
     n: 1
-  - name: 超梦的逆袭
-    icon: /assets/img/works/bulba-japanese-m01-logo.png
-    color: '#7e57c2'
+  - name: 薄明之翼
+    n: 1
+  - name: 宝可梦 剑／盾
     n: 1
   - name: 剧场版 宝可梦 可可
     icon: /assets/img/works/bulba-pokemon-the-movie-logo.png
+    n: 1
+  - name: 超梦的逆袭
+    icon: /assets/img/works/bulba-japanese-m01-logo.png
+    color: '#7e57c2'
     n: 1
   picks:
   - title: 宝可梦官网 2020：山下清悟、渡边叶谈《薄明之翼》
@@ -3919,11 +3901,11 @@ years:
   - name: 富江慎一郎
     slug: tomie-shinichiro
     n: 1
-  - name: 杉森建
-    slug: sugimori-ken
-    n: 1
   - name: 田尻智
     slug: tajiri-satoshi
+    n: 1
+  - name: 杉森建
+    slug: sugimori-ken
     n: 1
   - name: 前泽圭一
     slug: maezawa-keiichi
@@ -3938,17 +3920,17 @@ years:
   - name: 宝可梦传说 阿尔宙斯
     icon: /assets/img/works/home-legends-arceus.png
     n: 2
+  - name: 宝可梦超级不可思议迷宫
+    icon: /assets/img/works/bulba-super-mystery-dungeon-icon.png
+    n: 1
   - name: 宝可梦不可思议迷宫 空之探险队
     icon: /assets/img/works/bulba-pmd-sky-icon.png
     n: 1
-  - name: 风来之西林
-    n: 1
-  - name: 宝可梦不可思议迷宫 时之探险队·暗之探险队
+  - name: 宝可梦不可思议迷宫
     icon: /assets/img/works/bulba-pmd-time-icon.png
-    icon2: /assets/img/works/bulba-pmd-darkness-icon.png
+    color: '#6d4c41'
     n: 1
-  - name: 宝可梦不可思议迷宫 极大之门与无限迷宫
-    icon: /assets/img/works/bulba-gates-to-infinity-icon.png
+  - name: 弟切草
     n: 1
   picks:
   - title: Seafoam Gaming 2022：Spike Chunsoft 富江慎一郎访谈
@@ -4066,23 +4048,23 @@ years:
     core: false
     icon: /assets/img/works/bulba-pokemon-sleep-icon.png
   people:
-  - name: 小野寺瞬
-    slug: onodera-shun
-    n: 3
   - name: 深谷卓
     slug: fukaya-taku
     n: 3
   - name: 米谷由贵
     slug: yonetani-yuki
     n: 3
+  - name: 小野寺瞬
+    slug: onodera-shun
+    n: 3
   - name: 前泽圭一
     slug: maezawa-keiichi
     n: 2
-  - name: 岩本翔
-    slug: iwamoto-sho
-    n: 2
   - name: 一之濑刚
     slug: ichinose-go
+    n: 2
+  - name: 北村一树
+    slug: kitamura-kazuki
     n: 2
   works:
   - name: 宝可梦 朱·紫
@@ -4232,17 +4214,17 @@ years:
   - name: M.O.
     slug: m-o
     n: 1
-  - name: R.S.
-    slug: r-s
+  - name: A.T.
+    slug: a-t
     n: 1
-  - name: I.F.
-    slug: i-f
+  - name: R.N.
+    slug: r-n
     n: 1
   - name: T.M.
     slug: t-m
     n: 1
-  - name: K.K.
-    slug: k-k
+  - name: I.F.
+    slug: i-f
     n: 1
   works:
   - name: 宝可梦 朱·紫
@@ -4260,7 +4242,7 @@ years:
     n: 3
   - name: Gear Project
     n: 1
-  - name: 宝可梦中心 新加坡
+  - name: 宝可梦中心 台北
     icon: /assets/img/works/bulba-pokemon-center-stores-logo.png
     n: 1
   picks:
@@ -4394,20 +4376,20 @@ years:
   - name: T.K.（程序员特写）
     slug: gf-tk-programmer
     n: 1
+  - name: 大森滋
+    slug: ohmori-shigeru
+    n: 1
   - name: 一之濑刚
     slug: ichinose-go
     n: 1
   - name: James Turner
     slug: james-turner
     n: 1
-  - name: 大森滋
-    slug: ohmori-shigeru
-    n: 1
-  - name: 藤原ヒロシ
-    slug: fujiwara-hiroshi
-    n: 1
   - name: 鹿瀬島英介
     slug: lu-lai-dao-ying-jie
+    n: 1
+  - name: 皆川壮一郎
+    slug: minagawa-soichiro
     n: 1
   works:
   - name: 宝可梦集换式卡牌游戏
@@ -4559,20 +4541,20 @@ years:
   - name: 星野正昭
     slug: hoshino-masaaki
     n: 3
-  - name: 宗像快
-    slug: munakata-kai
-    n: 3
   - name: 小幡敏宏
     slug: obata-toshihiro
     n: 3
-  - name: Alfredo Spadafina
-    slug: alfredo-spadafina
+  - name: 宗像快
+    slug: munakata-kai
+    n: 3
+  - name: 前泽圭一
+    slug: maezawa-keiichi
     n: 3
   - name: 赤木达也
     slug: chi-mu-da-ye-2
     n: 3
-  - name: 前泽圭一
-    slug: maezawa-keiichi
+  - name: Alfredo Spadafina
+    slug: alfredo-spadafina
     n: 3
   works:
   - name: Pokémon LEGENDS Z-A

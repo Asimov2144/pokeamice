@@ -1,4 +1,16 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-11-29'
+  count: 7
+  types:
+    访谈翻译: 7
+  posts:
+  - 2016-10-21-interview-eurogamer-masuda-method-breeding
+  - 2016-10-19-interview-usgamer-2016-ohmori-masuda-sun-moon
+  - 2016-10-19-interview-time-2016-sun-moon-masuda-ohmori
+  - 2016-10-19-interview-gamexplain-2016-sun-moon-masuda-ohmori
+  - 2016-10-19-interview-gamesradar-2016-ohmori-sun-moon-z-moves
+  - 2016-10-19-interview-gamespot-2016-sun-moon-masuda-ohmori
+  - 2016-10-19-interview-gameinformer-2016-burning-questions-sun-moon
 - date: '2026-11-28'
   count: 58
   types:
