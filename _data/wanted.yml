@@ -273,6 +273,17 @@ items:
       - {label: Retromags 目录, url: "https://www.retromags.com/magazines/usa/nintendo-power/nintendo-power-issue-215/"}
       - {label: Bulbapedia 索引, url: "https://bulbapedia.bulbagarden.net/wiki/Nintendo_Power/Generation_IV"}
 
+  - id: famitsu-955
+    era: dp
+    pub: 週刊ファミ通
+    issue: No.955
+    date: "2007"
+    title: 《宝可梦不可思议迷宫》开发者访谈（2007 年）
+    status: known
+    priority: A
+    known: 2007 年《周刊 Fami通》No.955 刊载的《宝可梦不可思议迷宫》开发者访谈，与 2005 年 No.880（pp.38–39 石原恒和 × 中村光一 × 宫本茂三人对谈）为两篇不同访谈，目前尚缺日文原刊页。
+    need: [这一期的封面与目录页, 访谈所在的完整日文原页（带页码）, 正式标题、受访者名单与对应作品范围]
+
   # ---------------------------------------------------------------- Platinum
   - id: dengeki-dswii-3
     era: pt
@@ -325,6 +336,17 @@ items:
       - {label: Retromags 目录, url: "https://www.retromags.com/magazines/usa/nintendo-power/nintendo-power-issue-240/"}
       - {label: Bulbapedia 索引, url: "https://bulbapedia.bulbagarden.net/wiki/Nintendo_Power/Generation_IV"}
 
+  - id: ndream-181
+    era: pt
+    pub: Nintendo DREAM
+    issue: Vol.181（2009年5月号）
+    date: "2009-05"
+    title: 《宝可梦不可思议迷宫 空之探险队》开发者访谈
+    people: [長畑成一郎, 石神宏紀, 冨江慎一郎, 川村久仁美]
+    status: known
+    priority: A
+    known: 《Nintendo DREAM》第 181 期（2009 年春）刊载的《空之探险队》开发者访谈，与同期 Chunsoft《空之探险队 公式パーフェクトガイド》卷末访谈（pp.1036–1042，本站 PKMN-1410 来源记录）为不同来源，尚缺原刊扫描页。
+    need: [这一期的封面与目录页, 《空之探险队》开发者访谈的完整原页（带页码）, 受访者名单、职位与配图说明]
   - id: accion-199
     era: pt
     pub: Nintendo Acción

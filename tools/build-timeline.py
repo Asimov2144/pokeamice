@@ -107,6 +107,8 @@ def kind_of(fm):
         return "scan"
     if "专题报道" in cats:
         return "topic"
+    if at in ("developer_memoir", "developer_message") or "开发者自述" in cats or "署名寄语" in cats:
+        return "article"
     if fm.get("layout") in ("interview-editorial", "parallel-translation") or at.startswith("interview") or at == "media_feature":
         return "interview"
     return "article"

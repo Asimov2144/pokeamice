@@ -52,6 +52,10 @@ def front(path):
     cats = cats.group(1) if cats else field("categories")
     if archive == "scan_translation":
         kind = "扫描翻译"
+    elif archive == "developer_memoir" or "开发者自述" in cats:
+        kind = "开发者自述"
+    elif archive == "developer_message" or "署名寄语" in cats:
+        kind = "署名寄语"
     elif layout in ("interview-editorial", "parallel-translation") or archive == "interview_translation" or "访谈翻译" in cats:
         kind = "访谈翻译"
     elif archive in ("gamefreak_director_column", "gamefreak_masuda_lineblog", "gamefreak_legacy_blog"):

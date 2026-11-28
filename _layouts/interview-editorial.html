@@ -205,7 +205,7 @@ kept on the turns even though the presentation around them is new.
   <article class="ed-article"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
 
     {%- comment -%} Cover: when, where, who, what - before a single control. {%- endcomment -%}
-    <header class="ed-cover" data-era-word="{% if era_skin == "2019" %}{% if page.source_kind == "official_corporate_topic" %}TOPICS{% else %}INTERVIEW{% endif %}{% endif %}">
+    <header class="ed-cover" data-era-word="{% if era_skin == "2019" %}{% if page.source_kind == "official_corporate_topic" %}TOPICS{% elsif page.archive_type == "developer_memoir" %}MEMOIR{% elsif page.archive_type == "developer_message" %}MESSAGE{% else %}INTERVIEW{% endif %}{% endif %}">
       <p class="ed-kicker">
         <span class="ed-format">{{ template_info.name }}</span>
         <span>{{ page.date | date: "%Y" }}</span>

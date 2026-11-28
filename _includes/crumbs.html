@@ -91,6 +91,12 @@ caller needs.
     {%- elsif c_arch == "scan_translation" -%}
       {%- assign c_section = "扫描存档" -%}
       {%- assign c_section_url = "/categories/扫描存档/" -%}
+    {%- elsif c_arch == "developer_memoir" -%}
+      {%- assign c_section = "开发者自述" -%}
+      {%- assign c_section_url = "/categories/开发者自述/" -%}
+    {%- elsif c_arch == "developer_message" -%}
+      {%- assign c_section = "署名寄语" -%}
+      {%- assign c_section_url = "/categories/署名寄语/" -%}
     {%- else -%}
       {%- assign c_section = "访谈翻译" -%}
       {%- if page.categories contains "访谈翻译" -%}
