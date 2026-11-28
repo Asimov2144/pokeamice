@@ -19,9 +19,9 @@ sidebar: false
 
 <section class="key-window gf-gaps">
   <header class="key-window-hero">
-    <p>COVERAGE GAPS · RECRUIT + PRINT</p>
+    <p>COVERAGE GAPS · RECRUIT + PRINT + WEB</p>
     <h2>文档里的条目，站内收到了哪里</h2>
-    <span>这一页按两份档案（招聘版本档案、剑盾之后实体访谈档案）的条目逐一对照站内情况。已经收录的列出对应文章；缺的有链接的按链接占位，只登记状态与来源，不放正文；文档没有链接的只标为缺口。</span>
+    <span>这一页按两份档案（招聘版本档案、剑盾之后实体访谈档案）以及 2026-11 的网页/媒体访谈检索逐一对照站内情况。已经收录的列出对应文章；缺的有链接的按链接占位，只登记状态与来源，不放正文；文档没有链接的只标为缺口。</span>
     <div class="key-window-actions">
       <a href="{{ '/keys/gamefreak-recruit-archive/' | relative_url }}">招聘版本档案</a>
       <a href="{{ '/keys/pokemon-post-swsh-print-interviews/' | relative_url }}">实体访谈档案</a>
@@ -41,7 +41,7 @@ sidebar: false
     <ul class="gap-list">
       {% for e in placeholder %}
       <li class="gap-item" id="{{ e.id }}">
-        <p><strong>{{ e.title }}</strong> <span class="gap-tag">{% if e.doc == "recruit" %}招聘{% else %}实体{% endif %}</span>{% if e.priority and e.priority != "" %} <span class="gap-tag">优先级 {{ e.priority }}</span>{% endif %}</p>
+        <p><strong>{{ e.title }}</strong> <span class="gap-tag">{% if e.doc == "recruit" %}招聘{% elsif e.doc == "web" %}网页{% else %}实体{% endif %}</span>{% if e.priority and e.priority != "" %} <span class="gap-tag">优先级 {{ e.priority }}</span>{% endif %}</p>
         <p class="gap-meta">{{ e.period }}{% if e.people.size > 0 %} · {{ e.people | join: "、" }}{% endif %}</p>
         {% if e.posts.size > 0 %}
         <p class="gap-related">相关站内文章：{% for pf in e.posts %}{% assign p = site.posts | where_exp: "x", "x.path contains pf" | first %}{% if p %}<a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% endif %}{% endfor %}</p>
@@ -63,7 +63,7 @@ sidebar: false
     <ul class="gap-list">
       {% for e in partial %}
       <li class="gap-item" id="{{ e.id }}">
-        <p><strong>{{ e.title }}</strong> <span class="gap-tag">{% if e.doc == "recruit" %}招聘{% else %}实体{% endif %}</span>{% if e.priority and e.priority != "" %} <span class="gap-tag">优先级 {{ e.priority }}</span>{% endif %}</p>
+        <p><strong>{{ e.title }}</strong> <span class="gap-tag">{% if e.doc == "recruit" %}招聘{% elsif e.doc == "web" %}网页{% else %}实体{% endif %}</span>{% if e.priority and e.priority != "" %} <span class="gap-tag">优先级 {{ e.priority }}</span>{% endif %}</p>
         <p class="gap-meta">{{ e.period }}{% if e.people.size > 0 %} · {{ e.people | join: "、" }}{% endif %}</p>
         {% if e.posts.size > 0 %}
         <p class="gap-related">站内已有：{% for pf in e.posts %}{% assign p = site.posts | where_exp: "x", "x.path contains pf" | first %}{% if p %}<a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% endif %}{% endfor %}</p>
@@ -85,7 +85,7 @@ sidebar: false
     <ul class="gap-list">
       {% for e in gap %}
       <li class="gap-item" id="{{ e.id }}">
-        <p><strong>{{ e.title }}</strong> <span class="gap-tag">{% if e.doc == "recruit" %}招聘{% else %}实体{% endif %}</span>{% if e.priority and e.priority != "" %} <span class="gap-tag">优先级 {{ e.priority }}</span>{% endif %}</p>
+        <p><strong>{{ e.title }}</strong> <span class="gap-tag">{% if e.doc == "recruit" %}招聘{% elsif e.doc == "web" %}网页{% else %}实体{% endif %}</span>{% if e.priority and e.priority != "" %} <span class="gap-tag">优先级 {{ e.priority }}</span>{% endif %}</p>
         <p class="gap-meta">{{ e.period }}{% if e.people.size > 0 %} · {{ e.people | join: "、" }}{% endif %}</p>
         {% if e.posts.size > 0 %}
         <p class="gap-related">相关站内文章：{% for pf in e.posts %}{% assign p = site.posts | where_exp: "x", "x.path contains pf" | first %}{% if p %}<a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% endif %}{% endfor %}</p>
@@ -102,7 +102,7 @@ sidebar: false
     <ul class="gap-list">
       {% for e in in_site %}
       <li class="gap-item" id="{{ e.id }}">
-        <p><strong>{{ e.title }}</strong> <span class="gap-tag">{% if e.doc == "recruit" %}招聘{% else %}实体{% endif %}</span></p>
+        <p><strong>{{ e.title }}</strong> <span class="gap-tag">{% if e.doc == "recruit" %}招聘{% elsif e.doc == "web" %}网页{% else %}实体{% endif %}</span></p>
         <p class="gap-meta">{{ e.period }}</p>
         {% if e.posts.size > 0 %}
         <p class="gap-related">{% for pf in e.posts %}{% assign p = site.posts | where_exp: "x", "x.path contains pf" | first %}{% if p %}<a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% endif %}{% endfor %}</p>

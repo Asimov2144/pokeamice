@@ -3,7 +3,7 @@
 #
 # 每条：
 #   id        锚点，也是之后补入时的编号
-#   doc       recruit（招聘版本档案） | print（实体访谈档案）
+#   doc       recruit（招聘版本档案） | print（实体访谈档案） | web（网页/媒体访谈）
 #   group     interview 访谈 | book 攻略本 | people 人物 | roster 名单
 #   title     条目名（不确定就写文档里的说法）
 #   period    时期 / 刊期
@@ -20,10 +20,11 @@
 #   priority  S / A / B（沿用文档的征集优先级）
 
 meta:
-  updated: "2026-10-16"
+  updated: "2026-11-28"
   sources:
     - "GAME FREAK 招聘版本档案 v0.1"
     - "剑盾之后实体访谈档案 v0.3"
+    - "网页/媒体访谈检索 2026-11-28（正统、旁支、动画、剧场版）"
   note: "placeholder 条目只登记链接与状态，不含正文。占位稿放在 _drafts/gap-<id>.md（未发布）；补入正文时把占位稿移到 _posts 并加日期，把 site 改为 in_site 并填 posts。"
 
 entries:
@@ -549,6 +550,2806 @@ entries:
     note: "与 gap-bdsp 配套。"
     posts: []
     priority: ""
+
+  # ───────────────────────── 网页/媒体访谈缺口（2026-11-28 检索，待收录）─────────────────────────
+  # 只登记出处与状态，不含正文。doc: web 为网页原文，print 为纸本（链接是书目或转录）。
+
+  - id: web-200307-nintendo-acci-n-no-1-784965
+    doc: print
+    group: interview
+    category: mainline
+    work: 宝可梦 红宝石·蓝宝石
+    title: Nintendo Acción No.128（西班牙）：Hablamos con los creadores de Pokémon（英译 We talk with the creators of Pokemon）
+    period: 2003-07
+    people:
+    - 增田顺一
+    - 杉森建
+    site: placeholder
+    links:
+    - label: 出处/转录
+      url: https://lewtwo.neocities.org/Interviews/rs-NintendoAccion128
+    - label: 存档
+      url: https://archive.org/details/Nintendo_Accion_128/page/n37/mode/2up
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 红宝石·蓝宝石 · es · 纸本，链接为书目或转录。红蓝宝石时期西班牙纸媒对增田、杉森的问答，谈灵感来源、GBA 新要素与新宝可梦数量；archive.org 有扫描，lewtwo 有英译。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-200403-web-d4eb02
+    doc: print
+    group: interview
+    category: mainline
+    work: 宝可梦 红·绿（田尻智传记/访谈书）
+    title: 太田出版（2009-04 KADOKAWA MF文庫ダ・ヴィンチ 再版）：田尻智 ポケモンを創った男
+    period: 2004-03
+    people:
+    - 田尻智
+    - 杉森建（书内对谈）
+    site: placeholder
+    links:
+    - label: 出处/转录
+      url: https://www.inside-games.jp/article/2004/03/06/13121.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 红·绿（田尻智传记/访谈书） · ja · 纸本，链接为书目或转录。宫昌太朗根据《CONTINUE》连载对田尻智的长篇访谈成书，覆盖 GF 同人志时代到初代诞生，并附杉森建对谈与早期开发资料，是田尻本人口述最完整的一手来源；2009 文库版另加羽海野千花对谈。
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-200706-gamespot-uk-a22e0f
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 钻石·珍珠
+    title: 'GameSpot UK：Q&A: Head Pokétrainer Tsunekazu Ishihara'
+    period: 2007-06
+    people:
+    - 石原恒和
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.gamespot.com/articles/qanda-head-pokytrainer-tsunekazu-ishihara/1100-6172003/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 钻石·珍珠 · en · 原文在线。同一次英国宣传行程中的石原问答，谈系列长寿、触屏与 Wi-Fi 设计，以及“哪台主机有宝可梦哪台就赢”的平台观。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-200706-spong-60c179
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 钻石·珍珠
+    title: 'SPOnG：Tsunekazu Ishihara: The Pokémon Interview'
+    period: '2007-06-14'
+    people:
+    - 石原恒和
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://cdn0.spong.com/feature/10109598/Interview-Tsunekazu-Ishihara-The-Pokemon-Interview/3
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 钻石·珍珠 · en · 原文在线。钻石珍珠欧版发售前石原恒和三页专访，谈全球交换与 Wi-Fi、好友码、平面化 3D 地图的取舍和 DS 联动《对战革命》，第四世代石原的英文一手发言很少见。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-200903-game-freak-hidden-po-0f48ed
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 钻石·珍珠～黑·白（GF 英文博客）
+    title: GAME FREAK 官方博客「HIDDEN POWER of masuda」（英文版）：HIDDEN POWER of masuda（No.141–145 等）
+    period: 2009-03
+    people:
+    - 增田顺一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.gamefreak.co.jp/blog/dir_english/2009/03/index.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 钻石·珍珠～黑·白（GF 英文博客） · en · 原文在线。增田亲笔连载的博客（2006–2013 年前后），记录白金北美宣传、游戏规则和系统设计思路等，是与访谈互补的一手材料。
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-200903-gamesradar-6a73cd
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 白金
+    title: GamesRadar：How Pokemon are born
+    period: '2009-03-20'
+    people:
+    - 增田顺一
+    - 河内丸武史
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gamesradar.com/how-pokemon-are-born
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 白金 · en · 原文在线。北美白金发售前的自家访谈（文字 3 页加视频），涉及个体值和努力值、宝可雷达、设计一只新宝可梦要多久等系统细节。
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-200904-gamasutra-50241e
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 白金
+    title: 'Gamasutra（现 Game Developer）：The Art of Balance: Pokémon''s Masuda on Complexity and Simplicity'
+    period: '2009-04-03'
+    people:
+    - 增田顺一
+    - 河内丸武史
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.gamedeveloper.com/design/the-art-of-balance-pok-mon-s-masuda-on-complexity-and-simplicity
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 白金 · en · 原文在线。Christian Nutt 的开发者向长访谈，从红绿谈到钻珍和白金，讲复杂度和易上手的平衡、坚持 2D 的理由，也提到 Quinty 等 GF 早期作品，专业深度高于同期媒体。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201003-kidzworld-67df99
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 心金·魂银
+    title: 'Kidzworld：Exclusive GameFreak Interview: Pokémon HeartGold and Pokémon SoulSilver'
+    period: '2010-03-24'
+    people:
+    - GAME FREAK（未署名）
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://kidzworld.com/article/22358-exclusive-gamefreak-interview-pokmon-heartgold-and-pokmon-soulsilver
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 心金·魂银 · en · 原文在线。北美心金魂银发售期面向儿童媒体的书面问答，谈十年后重制、触屏操作、宝可梦跟随和宝可计步器，可作为补充材料。
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201005-wedge-infinity-c50376
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦系列（公司史）
+    title: WEDGE Infinity：ポケモンを育てた仕かけ人たち 石原恒和社長が語る「ポケモンが愛され続ける理由」(2)
+    period: '2010-05-12'
+    people:
+    - 石原恒和
+    - 浜野保树
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://wedge.ismedia.jp/articles/-/893
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦系列（公司史） · ja · 原文在线。东大浜野保树对谈系列第 2 回，石原谈与小学馆（CoroCoro）、东宝（剧场版）的合作和宝可梦中心实体店的由来。
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201102-bisafans-de-c0c0d9
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 黑·白
+    title: Bisafans.de（德国）：Interview mit Game Freak in London am 10.02.2011
+    period: '2011-02-10'
+    people:
+    - 增田顺一
+    - 井部真那（在场）
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.bisafans.de/spiele/editionen/schwarz-weiss/gamefreak.php
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 黑·白 · de · 原文在线。德国大型粉丝站收集玩家提问后在伦敦当面采访增田，谈黑白四年开发、团队规模、最先做出的宝可梦，以及莱希拉姆和捷克罗姆的设计。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201102-gamasutra-b7b51c
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 黑·白
+    title: 'Gamasutra（现 Game Developer）：Interview: Building A Brand New Pokémon Universe With Black and White'
+    period: '2011-02-24'
+    people:
+    - 增田顺一
+    - 井部真那
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gamedeveloper.com/game-platforms/interview-building-a-brand-new-pokemon-universe-with-i-black-and-white-i-
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 黑·白 · en · 原文在线。Leigh Alexander 采访增田与角色设计师井部真那，谈如何在保留核心的同时演进系列、音乐和新宝可梦设计，井部的英文发言很少见。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201102-gameblog-fr-ad6609
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 黑·白
+    title: 'Gameblog.fr（法国）：Pokémon Version Noire / Blanche : l''interview de Junichi Masuda'
+    period: '2011-02-28'
+    people:
+    - 增田顺一
+    - 井部真那
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.gameblog.fr/news_21007_pokemon-version-noire-blanche-l-interview-de-junichi-masuda
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 黑·白 · fr · 原文在线。伦敦行程中的法语独家视频访谈，增田谈黑白对系列的“新一步”，井部讲一只宝可梦如何被设计。
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201206-web-a29dd2
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 黑2·白2
+    title: 任天堂官网「社長が訊く」：社長が訊く『ポケットモンスターブラック2・ホワイト2』 第5章
+    period: '2012-06-15'
+    people:
+    - 岩田聪
+    - 石原恒和
+    - 增田顺一
+    - 海野隆雄
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.nintendo.co.jp/ds/interview/irej/vol1/index5.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 黑2·白2 · ja · 原文在线。站内只收到第4章，任天堂官网同一回还有第5、6章（网址已确认存在，章节标题待核）
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201206-web-1075a3
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 黑2·白2
+    title: 任天堂官网「社長が訊く」：社長が訊く『ポケットモンスターブラック2・ホワイト2』 第6章
+    period: '2012-06-15'
+    people:
+    - 岩田聪
+    - 石原恒和
+    - 增田顺一
+    - 海野隆雄
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.nintendo.co.jp/ds/interview/irej/vol1/index6.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 黑2·白2 · ja · 原文在线。站内只收到第4章，任天堂官网同一回还有第5、6章（网址已确认存在，章节标题待核）
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201209-gameblog-fr-88559e
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 黑2·白2
+    title: 'Gameblog.fr（法国）：Pokémon Black / White 2 : interview exclusive des créateurs'
+    period: '2012-09-18'
+    people:
+    - 增田顺一
+    - 海野隆雄
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.gameblog.fr/dossier_497_pokemon-black-white-2-interview-exclusive-des-createurs
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 黑2·白2 · fr · 原文在线。伦敦酒店的法语文字专访（共 3 页），谈“2”代表首部正统续作、收录黑白删减内容、时空连接，以及坚持 DS 平台的原因。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201209-joystiq-479113
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 黑2·白2
+    title: Joystiq（AOL 存档）：How Pokemon Black and White 2 is a truly social game [Interview]
+    period: '2012-09-18'
+    people:
+    - 增田顺一
+    - 海野隆雄
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.aol.com/2012/09/18/pokemon-black-2-white-2-interview/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 黑2·白2 · en · 原文在线。首部直系续作的设计取向、新老玩家平衡和社交与通信观，可与同期 GI、Gamasutra 互证。
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201210-gamasutra-523379
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 黑2·白2
+    title: Gamasutra（现 Game Developer）：Pokémon's Secret Ingredient
+    period: '2012-10-01'
+    people:
+    - 增田顺一
+    - 海野隆雄
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.gamedeveloper.com/design/-i-pokemon-i-s-secret-ingredient
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 黑2·白2 · en · 原文在线。Christian Nutt 电话专访增田和海野，讲交换与通信作为系列设计原点、黑2白2 的续作思路，以及为什么不做纯网游宝可梦。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201305-com-ef2b96
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon X·Y
+    title: ファミ通.com（ファミキャリ！会社探訪）：【ファミキャリ！会社探訪】『ポケットモンスター Ｘ・Ｙ』を開発中のゲームフリークを訪問！
+    period: '2013-05-30'
+    people:
+    - 増田順一
+    - 海野隆雄
+    - 大久保智彦
+    - 梶田太
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/news/201305/30033691.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon X·Y · ja · 原文在线。XY开发期间走访GF本社，3D模型/动作组负责人罕见露面，含公司规模与招聘文化
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-201309-gamesbeat-e3af11
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon X·Y
+    title: GamesBeat（VentureBeat）：Pokémon developer on going 3D, what's holding up an MMO, and exploring more mature themes (interview)
+    period: 2013-09
+    people:
+    - 吉田宏信
+    - 増田顺一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gamesbeat.com/pokemon-x-y-interview/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon X·Y · en · 原文在线。谈首部全3D正作、人形宝可梦设计、MMO为何未做及面向成人玩家的深度
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201309-gamasutra-b2bcf2
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon X·Y
+    title: Gamasutra（现 Game Developer）：A New Pokémon for a New Era
+    period: '2013-09-19'
+    people:
+    - 増田順一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gamedeveloper.com/design/a-new-i-pok-mon-i-for-a-new-era
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon X·Y · en · 原文在线。Gamasutra长篇开发者向访谈：3DS硬件、易上手性与智能手机竞争
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201309-gamesradar-c8e919
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon X·Y
+    title: 'GamesRadar+：Pokemon X/Y: WHY?! Director Masuda himself answers!'
+    period: '2013-09-19'
+    people:
+    - 増田順一
+    - 吉田宏信
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gamesradar.com/pokemon-xy-why-director-masuda-himself-answers
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon X·Y · en · 原文在线。试玩后问答：作品命名、卡洛斯原型法国、新战斗形式与宝可梦乐
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201309-pocket-gamer-ef6a83
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon X·Y
+    title: Pocket Gamer：Pokemon X&Y creators talks 3DS, new battle systems, and the importance of chance
+    period: '2013-09-19'
+    people:
+    - 増田顺一
+    - 吉田宏信
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.pocketgamer.com/pokemon-x-pokemon-y/pokemon-x-y-creators-talks-3ds-new-battle-systems-and-the-importance-of-chance/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon X·Y · en · 原文在线。谈天空/群战、超级进化仅限战斗、无付费DLC与手机版的理由
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201309-polygon-856b7d
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon X·Y
+    title: Polygon（PocketMonsters.net 全文转载）：Pokémon X and Y switches up the classic story formula to focus on...（Polygon 原题，转载题：Pokémon X and Y director discusses the game's strategic depth and Mega Evolutions）
+    period: '2013-09-19'
+    people:
+    - 増田顺一
+    site: placeholder
+    links:
+    - label: 原文
+      url: http://www.polygon.com/2013/9/19/4744438/pokemon-x-and-y-switches-up-the-classic-story-formula-to-focus-on
+    - label: 存档
+      url: https://www.pocketmonsters.net/content/Interview_Polygon_Pokemon_X_and_Y_director_discusses_the_games_strategic_depth_and_Mega_Evolutions
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon X·Y · en · 原文在线。谈XY以'羁绊'改写故事结构、超级进化平衡设计与不做Wii U版
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201309-mashable-1a9843
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon X·Y
+    title: Mashable（PocketMonsters.net 全文转载）：10 Questions With the Director of Pokemon X and Y
+    period: '2013-09-20'
+    people:
+    - 増田顺一
+    - 吉田宏信
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://mashable.com/2013/09/20/pokemon-x-y-director/
+    - label: 存档
+      url: https://www.pocketmonsters.net/content/Interview_Mashable_10_Questions_With_the_Director_of_Pokemon_X_and_Y
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon X·Y · en · 原文在线。十问：2D转3D保留柔和手感、超级进化与超级石设计、宝可梦乐等后期加入功能
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201310-pok-mon-com-c8b9d4
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon X·Y
+    title: Pokémon.com（英国官网，PocketMonsters.net 转载）：Inside the Minds behind Pokémon
+    period: '2013-10-04'
+    people:
+    - 増田顺一
+    - 吉田宏信
+    site: placeholder
+    links:
+    - label: 原文
+      url: http://www.pokemon.com/uk/pokemon-news/vg_pokemonxy_gf_interview-2013-10-04/
+    - label: 存档
+      url: https://pocketmonsters.net/content/Interview_Inside_the_Minds_behind_Pokemon
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon X·Y · en · 仅存档可读。官方问答：'杉森着色器'保留2D画风、妖精属性为制衡龙属性而设、设计修改5–10轮
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201410-game-informer-39bea9
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 欧米伽红宝石·阿尔法蓝宝石
+    title: Game Informer：Pokémon's Developers On Virtual Console Absences, Twitch, And Super Smash Bros.
+    period: '2014-10-14'
+    people:
+    - 増田順一
+    - 大森滋
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gameinformer.com/b/features/archive/2014/10/14/pok-233-mon-s-developers-on-virtual-console-absences-twitch-and-super-smash-bros
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 欧米伽红宝石·阿尔法蓝宝石 · en · 原文在线。ORAS期GI长访：为何重制不做VC、超级进化选择、没有'灰/Z'版
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201410-gamesradar-7be18a
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 欧米伽红宝石·阿尔法蓝宝石
+    title: GamesRadar+：Pokemon Omega Ruby and Alpha Sapphire creators tell us how they keep series fresh
+    period: '2014-10-14'
+    people:
+    - 増田顺一
+    - 大森滋
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gamesradar.com/pokemon-omega-ruby-and-alpha-sapphire-creators-tell-us-how-they-keep-series-fresh
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 欧米伽红宝石·阿尔法蓝宝石 · en · 原文在线。多页问答：重制的画面/3D/音乐取舍、全球同步发售与未来重制
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201410-gamespot-9e0ce0
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 欧米伽红宝石·阿尔法蓝宝石
+    title: GameSpot（Yahoo News 转载）：Pokemon Director Explains Why Series is Becoming Easier
+    period: '2014-10-14'
+    people:
+    - 増田顺一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.yahoo.com/news/pokemon-director-explains-why-series-150000284.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 欧米伽红宝石·阿尔法蓝宝石 · en · 原文在线。增田谈系列变简单的原因（玩家更忙、手机免费游戏竞争）及不会重启系列
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201412-pocket-gamer-6baff1
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 欧米伽红宝石·阿尔法蓝宝石
+    title: 'Pocket Gamer：Game Freak on Pokémon: "We''ll make the games we want to make, then choose the hardware!"'
+    period: '2014-12-10'
+    people:
+    - 増田顺一
+    - 大森滋
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.pocketgamer.com/articles/062915/game-freak-on-pok-mon-well-make-the-games-we-want-to-make-then-choose-the-hardware/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 欧米伽红宝石·阿尔法蓝宝石 · en · 原文在线。发售后问答：新增内容、跨作传输限制，及'先定游戏再选硬件'的理念
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201412-wired-uk-1472e7
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 红宝石·蓝宝石／ORAS（回顾）
+    title: 'WIRED UK：Pokemon''s Junichi Masuda: ''We weren''t explicitly targeting children'''
+    period: '2014-12-11'
+    people:
+    - 增田顺一
+    - 大森滋
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://wirednews.pages.dev/story/pokemon-interview
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 红宝石·蓝宝石／ORAS（回顾） · en · 原文在线。ORAS 宣传访谈，但大量回顾红绿、金银、红蓝宝石，以及无限船票和 GTS 的设计初衷。
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201501-kotaku-uk-fa0cb9
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 欧米伽红宝石·阿尔法蓝宝石
+    title: Kotaku UK（Kotaku 转载）：The Hidden Meaning Behind The Name Of One Pokémon Region
+    period: '2015-01-29'
+    people:
+    - 増田顺一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://kotaku.com/the-hidden-meaning-behind-the-name-of-one-pokemon-regio-1682548704
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 欧米伽红宝石·阿尔法蓝宝石 · en · 原文在线。Keza MacDonald 采访：增田解释'丰缘'得名于探望祖父母的回忆
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201606-com-643434
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 太阳·月亮
+    title: ファミ通.com：「増田ァ！」で大盛り上がり! 増田順一氏も出演したE3 2016のポケモン新情報まとめ番組の模様をお届け【E3 2016】
+    period: '2016-06-17'
+    people:
+    - 増田顺一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/news/201606/17108626.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 太阳·月亮 · ja · 原文在线。E3 2016特别节目：林克彦主编当面问增田SM与GO，第二页为访谈
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201610-time-0c5c24
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 太阳·月亮
+    title: TIME：Why the New Pokémon Are Called 'Sun and Moon'
+    period: '2016-10-19'
+    people:
+    - 増田顺一
+    - 大森滋
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://time.com/4536438/pokemon-sun-moon-interview
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 太阳·月亮 · en · 原文在线。TIME问答：GO对正作的影响、阿罗拉取材夏威夷、道馆改为试炼与作品命名
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-201610-game-informer-488b25
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 太阳·月亮
+    title: Game Informer：Burning Questions For Pokémon Sun & Moon
+    period: '2016-10-19'
+    people:
+    - 増田顺一
+    - 大森滋
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gameinformer.com/b/features/archive/2016/10/19/burning-questions-for-pokemon-sun-and-moon.aspx
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 太阳·月亮 · en · 原文在线。GI经典'Burning Questions'系列SM篇，含粉丝提问（如猫鼬少设计）
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201610-nintendo-of-europe-cdb173
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 太阳·月亮
+    title: Nintendo of Europe（任天堂英国官网）：Is there anything taller than an Alolan Exeggutor? Find out in our exclusive Pokémon Sun and Pokémon Moon interview!
+    period: '2016-10-19'
+    people:
+    - 大森滋
+    - 増田顺一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://nintendo.com/en-gb/News/2016/October/Is-there-anything-taller-than-an-Alolan-Exeggutor-Find-out-in-our-exclusive-Pokemon-Sun-and-Pokemon-Moon-interview--1148574.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 太阳·月亮 · en · 原文在线。任天堂欧洲独家快问快答（上篇）：最爱地区/属性、御三家与Z招式
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201610-nintendo-of-europe-fd2637
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 太阳·月亮
+    title: Nintendo of Europe（任天堂英国官网）：Learn all about Pokémon Sun and Pokémon Moon in our in-depth interview
+    period: '2016-10-26'
+    people:
+    - 大森滋
+    - 増田顺一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.nintendo.com/en-gb/News/2016/October/Learn-all-about-Pokemon-Sun-and-Pokemon-Moon-in-our-in-depth-interview-1149779.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 太阳·月亮 · en · 原文在线。任天堂欧洲深度访谈（下篇）：地区形态设计、夏威夷取材、试炼与Z招式
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201611-rolling-stone-1dcda0
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 太阳·月亮
+    title: Rolling Stone：Pokemon Creators Talk 'Pokémon Go,' What's New for 'Sun' and 'Moon'
+    period: 2016-11
+    people:
+    - 増田顺一
+    - 大森滋
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.rollingstone.com/culture/culture-features/pokemon-creators-talk-pokemon-go-whats-new-for-sun-and-moon-103801
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 太阳·月亮 · en · 原文在线。非游戏媒体视角：GO与正作的区别、系列首次真正3D移动
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201611-kai-you-c7a936
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 太阳·月亮
+    title: KAI-YOU：増田P「赤／緑 世代が作り手になった」 『ポケモン サン・ムーン』イベントレポ
+    period: '2016-11-18'
+    people:
+    - 増田顺一
+    - 大森滋
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://kai-you.net/article/35584
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 太阳·月亮 · ja · 付费墙。SM发售活动上增田谈'红绿世代成为制作者'，后半为付费会员内容
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201708-game-informer-adeea2
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦系列（红·绿 早期企划资料）
+    title: Game Informer：An Exclusive Look At Pokémon's Early Design Documents
+    period: '2017-08-16'
+    people:
+    - 增田顺一
+    - 大森滋
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gameinformer.com/b/features/archive/2017/08/16/an-exclusive-look-at-pokemons-early-design-documents.aspx
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦系列（红·绿 早期企划资料） · en · 原文在线。GI 2017 封面专题中的视频篇，增田和大森展示红绿以来最早的企划书和草图并讲解开发流程，是本站 GI 2017 系列唯一缺的一篇第一世代回顾。
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201811-game-watch-7b24a5
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon Let's Go！皮卡丘·伊布
+    title: GAME Watch：ゲームフリーク増田氏も登場！家族も友達もリビングでわいわい楽しめる「ポケモン ピカ・ブイ」が完成
+    period: '2018-11-16'
+    people:
+    - 増田顺一
+    - 大森滋
+    - 斉藤優史
+    - 海野隆雄
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://game.watch.impress.co.jp/docs/news/1153745.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon Let's Go！皮卡丘·伊布 · ja · 原文在线。发售活动上四位GF主创谈'客厅同乐'设计、精灵球Plus与GO联动
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201905-2019-5-23-8147f8
+    doc: print
+    group: interview
+    category: mainline
+    work: 宝可梦 红·绿（GAME FREAK 30 周年回顾）
+    title: 週刊ファミ通 2019年5月23日号：ゲームフリーク会社設立30周年記念特集（42ページ）— 増田順一インタビュー／大森滋・岩尾和昌・尾上将之・斉藤優史 座談会
+    period: '2019-05-09'
+    people:
+    - 增田顺一
+    - 大森滋
+    - 岩尾和昌
+    - 尾上将之
+    - 斉藤優史
+    site: placeholder
+    links:
+    - label: 出处/转录
+      url: https://www.famitsu.com/news/201905/08175863.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 红·绿（GAME FREAK 30 周年回顾） · ja · 纸本，链接为书目或转录。增田单独访谈系统回顾 1989 年建社、红绿六年开发与 Gear 计划，另含 22 页原始企划/设定资料；已有英译（Lava Cut Content https://lavacutcontent.com/masuda-game-freak-history/）可对照。
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-201910-game-informer-3e9db7
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 剑·盾
+    title: Game Informer（视频）：101 Rapid-Fire Questions About Pokémon Sword And Shield
+    period: '2019-10-02'
+    people:
+    - 大森滋
+    - 増田顺一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gameinformer.com/exclusive-video/2019/10/01/101-rapid-fire-questions-about-pokemon-sword-and-shield
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 剑·盾 · en · 原文在线。GI封面取材的101问快答视频，覆盖新功能、新宝可梦与系列历史 对应已登记的 pr-gi-319-splits 缺口。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201910-game-informer-6daa43
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 剑·盾
+    title: Game Informer（视频系列）：Game Freak Explains Everything About Grookey From Pokémon Sword And Shield（另有 Scorbunny／Sobble 两集）
+    period: '2019-10-07'
+    people:
+    - 大森滋
+    - 増田顺一
+    - James Turner
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.gameinformer.com/exclusive-video/2019/10/04/game-freak-explains-everything-about-grookey-from-pokemon-sword-and
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 剑·盾 · en · 原文在线。御三家逐只设计解说视频（三集），属GI剑盾封面取材拆稿 对应已登记的 pr-gi-319-splits 缺口。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201910-game-informer-2b658b
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 剑·盾
+    title: 'Game Informer（视频）：Exclusive: Behind the Inspiration of Pokémon Sword And Shield''s Galar Region'
+    period: '2019-10-11'
+    people:
+    - James Turner
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gameinformer.com/exclusive-video/2019/10/11/exclusive-behind-the-inspiration-of-pokemon-sword-and-shields-galar
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 剑·盾 · en · 原文在线。英国籍美术总监谈在英国成长的经历如何塑造伽勒尔地区 对应已登记的 pr-gi-319-splits 缺口。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201910-game-informer-a201b8
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 剑·盾
+    title: Game Informer（视频）：How Pokémon Sword And Shield's Art Director James Turner Draws Pokémon
+    period: '2019-10-14'
+    people:
+    - James Turner
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.gameinformer.com/exclusive-video/2019/10/14/how-pokemon-sword-and-shields-art-director-james-turner-draws-pokemon
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 剑·盾 · en · 原文在线。在GF现场边画多多冰边谈入职经历，对应登记里的'James Turner 设计过程' 对应已登记的 pr-gi-319-splits 缺口。
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201910-nintendo-life-21070a
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 剑·盾
+    title: Nintendo Life：Pokémon Sword & Shield Producer Junichi Masuda Explains Why We Don't Have A Fish & Chips Pokémon Yet
+    period: '2019-10-25'
+    people:
+    - 増田顺一
+    - 大森滋
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.nintendolife.com/news/2019/10/feature_pokemon_sword_and_shield_producer_junichi_masuda_explains_why_we_dont_have_a_fish_and_chips_pokemon_yet
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 剑·盾 · en · 原文在线。伦敦TPCi现场+远程连线问答（有视频与文字版）：英国原型、极巨化、图鉴取舍
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201911-pok-mon-com-5982be
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 剑·盾
+    title: Pokémon.com（英国官网）：Interview with GAME FREAK's Ohmori and Masuda on Pokémon Sword and Pokémon Shield
+    period: '2019-11-12'
+    people:
+    - 大森滋
+    - 増田顺一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.pokemon.com/uk/pokemon-news/interview-with-game-freaks-ohmori-and-masuda-on-pokemon-sword-and-pokemon-shield
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 剑·盾 · en · 原文在线。官方长篇问答：伽勒尔故事、对战系统与地区宝可梦设计
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202011-gamesradar-e9383b
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 剑·盾 扩展票
+    title: GamesRadar+：Pokemon Sword and Shield Expansion Pass wouldn't have been possible before the Switch
+    period: '2020-11-04'
+    people:
+    - The Pokémon Company International 发言人（未具名）
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gamesradar.com/pokemon-sword-and-shield-expansion-pass-wouldnt-have-been-possible-before-the-switch
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 剑·盾 扩展票 · en · 原文在线。官方解释Switch性能让大型DLC区域首次成为可能
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202011-game-informer-268c38
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 剑·盾 扩展票
+    title: Game Informer：Why Pokémon Sword & Shield Expansions Replaced A Third Game
+    period: '2020-11-11'
+    people:
+    - The Pokémon Company（书面回答，未具名）
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gameinformer.com/2020/11/11/why-pokemon-sword-shield-expansions-replaced-a-third-game
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 剑·盾 扩展票 · en · 原文在线。官方书面答复：为何用扩展票取代传统'第三版本'
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202201-shmuplations-8aca2f
+    doc: web
+    group: interview
+    category: mainline
+    work: 宝可梦 红·绿／金·银（杉森建 2000 访谈英译）
+    title: shmuplations（英译）：Pokémon – 2000 Developer Interview
+    period: '2022-01-04'
+    people:
+    - 杉森建
+    - 宫本茂（2018 寄稿）
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://shmuplations.com/pokemon/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · 宝可梦 红·绿／金·银（杉森建 2000 访谈英译） · en · 原文在线。shmuplations 英译杉森建 2000 年谈宝可梦设计的访谈，附宫本茂为 2018 年田尻传记漫画写的回忆田尻文章。
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202210-cgworld-jp-7a2487
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon LEGENDS 阿尔宙斯 / 朱·紫
+    title: CGWORLD.jp（CEDEC2022 报道③）：『Pokémon LEGENDS アルセウス』＆『ポケットモンスター スカーレット・バイオレット』ゲーム性もルックの方向性も異なる2つのタイトルを同時に開発するためのワークフロー～CEDEC2022（3）
+    period: '2022-10-26'
+    people:
+    - 前泽圭一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://cgworld.jp/article/202210-pokemon.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon LEGENDS 阿尔宙斯 / 朱·紫 · ja · 原文在线。CGWORLD版CEDEC2022报道，对双作并行模型管线、后处理分化与动画重定向写得最细
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202308-gamespot-7cf8c2
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 朱·紫
+    title: GameSpot：The Pokemon Company Sees Plenty Of Room For Many More Pokemon Designs
+    period: 2023-08
+    people:
+    - 宇都宫崇人
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gamespot.com/articles/the-pokemon-company-sees-plenty-of-room-for-many-more-pokemon-designs/1100-6516855/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 朱·紫 · en · 原文在线。同一世锦赛群访的GameSpot稿：新宝可梦设计还有很大空间
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202308-comicbook-com-25f718
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 朱·紫
+    title: ComicBook.com：The Pokemon Company's COO Addresses Possibility of Slowing Down Game Releases
+    period: '2023-08-13'
+    people:
+    - 宇都宫崇人
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://comicbook.com/gaming/news/pokemon-company-game-releases-takato-utsunomiya-interview/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 朱·紫 · en · 原文在线。朱紫品质争议后，TPC COO 首次回应发售节奏与品质的内部讨论（横滨世锦赛群访）
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202308-ladbible-402d04
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 朱·紫
+    title: 'LADbible：Interview: Pokémon franchise to last for hundreds of years according to COO'
+    period: '2023-08-16'
+    people:
+    - 宇都宫崇人
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.ladbible.com/entertainment/gaming/pokmon-world-championships-yokohama-takato-utsunomiya-772686-20230816
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 朱·紫 · en · 原文在线。欧洲媒体圆桌：IP延续数百年的长期规划与回应玩家批评
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202309-2023-de575a
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 朱·紫
+    title: 日本ゲーム大賞2023 颁奖（YouTube；Lewtwo 英译）：Japan Game Awards 2023 - Award Speeches
+    period: 2023-09
+    people:
+    - 大森滋
+    - 伊集院光
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://lewtwo.neocities.org/Interviews/sv-JapanGameAwards2023
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 朱·紫 · ja/en · 原文在线。朱紫获销量奖和优秀奖时伊集院光对大森滋的台上采访，朱紫时期GF主创公开发言极少
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202402-pok-mon-scarlet-viol-9b5487
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 朱·紫
+    title: Pokémon Scarlet & Violet Super Music Collection 附册（Lewtwo 英译）：Super Music Collection - Pokemon Scarlet and Violet
+    period: 2024-02
+    people:
+    - 一之濑刚
+    - 足立美奈子
+    - 谷口晃央
+    - Toby Fox
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://lewtwo.neocities.org/Interviews/sv-SuperMusicCollection
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 朱·紫 · ja/en · 原文在线。朱紫原声附册访谈：Toby Fox 写的旋律如何变成野外主题，零区音乐编曲分工
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-202603-apple-app-store-meet-ec164d
+    doc: web
+    group: interview
+    category: mainline
+    work: Pokémon 30周年（含《风·浪》发表期）
+    title: Apple App Store 'Meet the Creative' 专题：What's Next for Pokémon?
+    period: 2026-03
+    people:
+    - 石原恒和
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://apps.apple.com/story/id1861698108
+    posts: []
+    need: 正文翻译与原文对照
+    note: 正统作品 · Pokémon 30周年（含《风·浪》发表期） · en（另有多语版） · 原文在线。30周年石原社长问答：动画对游戏的反哺、GO删减设计书、空间识别与AR的未来
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-200510-web-47270d
+    doc: print
+    group: interview
+    category: spinoff
+    work: ポケモン不思議のダンジョン 青の救助隊・赤の救助隊
+    title: 週刊ファミ通（英译：Mystery Dungeon Franchise Wiki）：The Three Key Figures Behind Pokémon Mystery Dungeon
+    period: '2005-10-28'
+    people:
+    - 石原恒和
+    - 中村光一
+    - 宮本茂
+    site: placeholder
+    links:
+    - label: 出处/转录
+      url: https://mobile.mysterydungeonwiki.com/wiki/Meta:The_Three_Key_Figures_Behind_Pok%C3%A9mon_Mystery_Dungeon
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · ポケモン不思議のダンジョン 青の救助隊・赤の救助隊 · ja（原刊）/en（译） · 纸本，链接为书目或转录。系列诞生时石原×中村光一×宫本三巨头对谈，2025 年有专业英译
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-201201-4gamer-net-b5bcf9
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Conquest（ポケモン＋ノブナガの野望）
+    title: 4Gamer.net：南 明奈さんが“オイチ”のコスプレで登場。NDS「ポケモン＋（プラス）ノブナガの野望」完成披露会をレポート
+    period: '2012-01-20'
+    people:
+    - 石原恒和
+    - 襟川陽一
+    - 鯉沼久史
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.4gamer.net/games/145/G014507/20120119087/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Conquest（ポケモン＋ノブナガの野望） · ja · 原文在线。同一完成发布会的另一家报道，可补 GAME Watch 篇未记录的问答
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201206-joystiq-0ca54f
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Conquest（ポケモン＋ノブナガの野望）
+    title: Joystiq（现托管于 Engadget）：Pokemon Conquest strategically designed to bring in new players
+    period: '2012-06-10'
+    people:
+    - 鯉沼久史
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.engadget.com/2012-06-10-pokemon-conquest-strategically-designed-to-bring-in-new-players.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Conquest（ポケモン＋ノブナガの野望） · en · 原文在线。光荣特库摩导演鲤沼久史的英文访谈，站内该作只有发布会报道
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201502-com-a85db2
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokkén Tournament
+    title: ファミ通.com：原田“ピカチュウ”勝弘氏らが語った『ポッ拳』秘話とゲームシステム概要が紹介！【JAEPO 2015】
+    period: '2015-02-14'
+    people:
+    - 原田勝弘
+    - 星野正昭
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/news/201502/14071705.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokkén Tournament · ja · 原文在线。JAEPO 舞台讲座的开发秘话，配合已收录的 4Gamer 2015 访谈
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201602-web-7e8efa
+    doc: web
+    group: interview
+    category: spinoff
+    work: 名探偵ピカチュウ ～新コンビ誕生～
+    title: 電撃オンライン：『名探偵ピカチュウ ～新コンビ誕生～』インタビュー。オッサンみたいなピカチュウが誕生した理由とは？
+    period: '2016-02-26'
+    people:
+    - 宮下尚生
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://dengekionline.com/elem/000/001/222/1222384/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · 名探偵ピカチュウ ～新コンビ誕生～ · ja · 原文在线。3DS 下载版首作的导演访谈，早于站内已收录的 2018 Fami通 篇
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201605-inside-770405
+    doc: web
+    group: interview
+    category: spinoff
+    work: ポケモンコマスター
+    title: インサイド (Inside)：【インタビュー】『ポケモンコマスター』開発陣が語る“楽しみ方”が深すぎる！全ポケモンが活躍できるシステムの真髄とは
+    period: '2016-05-07'
+    people:
+    - 伊藤
+    - 鈴木
+    - 大山
+    - 三浦
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.inside-games.jp/article/2016/05/07/98417.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · ポケモンコマスター · ja · 原文在线。HEROZ 开发团队四人访谈（共4页），与已收录电击篇为不同媒体
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201607-game-informer-bd45f2
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon GO
+    title: Game Informer：Pokémon Go Team Discusses Successes, Challenges, And The Future
+    period: '2016-07-11'
+    people:
+    - John Hanke
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gameinformer.com/b/features/archive/2016/07/11/pokemon-go-team-discusses-successes-challenges-and-the-future-niantic.aspx
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon GO · en · 原文在线。上线一周内的 Niantic 创始人问答，记录爆红初期的一手说法
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201707-president-woman-onli-56941f
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon GO
+    title: PRESIDENT WOMAN Online：7.5億ダウンロードの社会現象 ポケGO開発者「思いついたら即、形に」
+    period: '2017-07-20'
+    people:
+    - 野村達雄
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://president.jp/articles/-/22559
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon GO · ja · 原文在线。野村达雄第一人称讲述 GO 的诞生（杂志 2017年8月号）
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201806-4gamer-net-02b19a
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Quest
+    title: 4Gamer.net：“かわいい”の裏に隠された職人技とは。「ポケモンクエスト」開発者インタビュー
+    period: '2018-06-29'
+    people:
+    - 渡辺哲也
+    - 松崎翼
+    - 斉田和生
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.4gamer.net/games/420/G042084/20180620143/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Quest · ja · 原文在线。GF 内部小团队开发《宝可梦探险寻宝》的完整访谈，方块画风与 F2P 设计思路，站内该作零收录
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-201806-com-55d05d
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Quest
+    title: ファミ通.com：スマホ版もついに配信！ 『ポケモンクエスト』開発者インタビュー 四角いポケモンができるマデ
+    period: '2018-06-29'
+    people:
+    - 渡辺哲也
+    - 松崎翼
+    - 斉田和生
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/news/201806/29158873.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Quest · ja · 原文在线。同一开发三人组的另一篇访谈，侧重料理/战斗系统与方块宝可梦成形过程，可与 4Gamer 篇互补
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201808-business-insider-jap-3a055e
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon GO
+    title: Business Insider Japan：「ポケモンGO」開発企業が“ARゲームの任天堂”を目指す理由 ── キーマン川島氏に聞く未来予想図
+    period: '2018-08-01'
+    people:
+    - 川島優志
+    - 野村達雄
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.businessinsider.jp/article/172376/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon GO · ja · 原文在线。西田宗千佳采写的 Niantic 战略长文，含川岛访谈
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201808-itmedia-pc-user-7a2342
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon GO
+    title: ITmedia PC USER：ポケモンGOのNiantic野村氏に聞く 東京でゲームを開発することに決めた理由
+    period: '2018-08-13'
+    people:
+    - 野村達雄
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.itmedia.co.jp/pcuser/spv/1808/13/news058.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon GO · ja · 原文在线。GO 导演野村达雄谈东京工作室成立与开发，共3页问答
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201903-com-5fa92c
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Trading Card Game
+    title: ファミ通.com：数千枚のカードを完璧に覚えているデバッグチームがある!? 再びアツい“ポケモンカードゲーム”制作の裏側を開発陣に聞く。“マーシャドー＆カイリキーGX”の初公開ラフ画も！
+    period: '2019-03-14'
+    people:
+    - 岡本康太
+    - 長島敦
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/news/201903/14173198.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Trading Card Game · ja · 原文在线。Creatures 卡牌开发流程访谈（调试团队、规则设计），实体卡牌线的重要一手资料
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201904-inside-d759fb
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Trading Card Game
+    title: インサイド (Inside)：『ポケモンカード』の盛り上がりと「名探偵ピカチュウ」カード化の経緯、自由（すぎる）公式チャンネルに込められた情熱に迫る【インタビュー】
+    period: '2019-04-25'
+    people:
+    - 長島敦
+    - 塚本啓太
+    - 岡本康太
+    - ポニータ石井
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.inside-games.jp/article/2019/04/25/121986.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Trading Card Game · ja · 原文在线。约90分钟长访谈，含电影《大侦探皮卡丘》卡包与官方频道运营
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201907-4gamer-net-7d7151
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Masters
+    title: 4Gamer.net：「ポケモンマスターズ」先行体験会をレポート。ゲームの中身だけでなく質疑応答集も
+    period: '2019-07-25'
+    people:
+    - 佐々木悠
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.4gamer.net/games/462/G046206/20190725001/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Masters · ja · 原文在线。试玩会报道附媒体问答集
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201908-pokemon-com-adb044
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Masters
+    title: Pokemon.com：We Interview DeNA's Yu Sasaki About Pokémon Masters
+    period: 2019-08
+    people:
+    - 佐々木悠
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.pokemon.com/us/pokemon-news/we-interview-denas-yu-sasaki-about-pokemon-masters
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Masters · en · 原文在线。官方英文问答，上线前后的制作人访谈，可补 Fami通 2019-07 篇
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201909-automaton-9c205a
+    doc: web
+    group: interview
+    category: spinoff
+    work: 名探偵ピカチュウ
+    title: AUTOMATON：『名探偵ピカチュウ』はポケモンシリーズ20年目の挑戦から生まれた ー株式会社クリーチャーズが語る挑戦的なコンセプトメイキングとは
+    period: '2019-09-27'
+    people:
+    - 伊藤康博
+    - 杉山央
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://automaton-media.com/articles/interviewsjp/20190927-102667/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · 名探偵ピカチュウ · ja · 原文在线。Creatures 游戏设计/程序视角的立项访谈（招聘赞助稿）
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202007-dime-13e8de
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon UNITE
+    title: '@DIME：最新ゲーム「ポケモンユナイト」のキーマンに聞く、オンラインによるチーム戦略バトルになった理由'
+    period: '2020-07-12'
+    people:
+    - 星野正昭
+    - 末永康典
+    - 伊藤憲二郎
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://dime.jp/genre/948130/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon UNITE · ja · 原文在线。《宝可梦大集结》公布直后的立项访谈（前篇），解释为何做成线上团队对战，站内该作仅有官方专题
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-202007-dime-a82495
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon UNITE
+    title: '@DIME：ポケモンがチーム戦略バトルゲーム「ポケモンユナイト」で中国市場に挑む理由'
+    period: '2020-07-13'
+    people:
+    - 星野正昭
+    - 末永康典
+    - 伊藤憲二郎
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://dime.jp/genre/948145/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon UNITE · ja · 原文在线。同访谈后篇，谈与腾讯合作及中国市场战略，对中文读者尤其有价值
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-202008-com-a7d328
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Smile
+    title: ファミ通.com：『ポケモンスマイル』億劫な歯磨きに楽しみを！ 開発スタッフに聞く、“楽しく歯磨き習慣化”をかなえる注目アプリの秘密
+    period: '2020-08-07'
+    people:
+    - 押野洋介
+    - 比護賢之
+    - 横山賢吾
+    - 裏谷玲央
+    - カナヘイ
+    - 前田高志
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/news/202008/07203358.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Smile · ja · 原文在线。《宝可梦 Smile》唯一成体系的开发访谈（含カナヘイ等书面访谈），站内仅有官方专题
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-202009-web-dcc29f
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon GO
+    title: 構想日本（YouTube 直播对谈）：【対談】ポケモンと考える『現実世界と仮想世界をより豊かにする方法』｜宇都宮崇人×伊藤伸
+    period: '2020-09-01'
+    people:
+    - 宇都宮崇人
+    - 伊藤伸
+    site: placeholder
+    links:
+    - label: 原文
+      url: http://www.kosonippon.org/news/2020/taidan0901/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon GO · ja · 原文在线。Notion 计划条目；宇都宫谈 GO 与现实世界，页面为预告，内容在 YouTube 录像
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202104-game-informer-977966
+    doc: web
+    group: interview
+    category: spinoff
+    work: New Pokémon Snap
+    title: Game Informer：New Pokémon Snap Preview – Back Behind The Lens
+    period: '2021-04-13'
+    people:
+    - 須崎春樹
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://gameinformer.com/preview/2021/04/13/new-pokemon-snap-preview-back-behind-the-lens
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · New Pokémon Snap · en · 原文在线。含导演须崎访谈的前瞻，谈宝可梦选择与设计目标
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202110-kotaku-5c37ac
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon UNITE
+    title: Kotaku：Pokémon Unite Hides Score To Stop Players From Rage Quitting, Devs Say
+    period: '2021-10-25'
+    people:
+    - 星野正昭
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://kotaku.com/pokemon-unite-hides-score-to-stop-players-from-rage-qui-1847931206
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon UNITE · en · 原文在线。邮件访谈，解释隐藏比分的设计理由（被 AUTOMATON 等日媒转引）
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202209-inverse-804124
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon UNITE
+    title: Inverse：'Pokémon Unite' producer says he's 'surprised' so many people are playing the MOBA
+    period: '2022-09-09'
+    people:
+    - 星野正昭
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.inverse.com/gaming/pokemon-unite-masaaki-hoshino-interview
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon UNITE · en · 原文在线。伦敦世锦赛现场访谈，回顾星野从南梦宫《灵魂能力》到《宝可拳》《大集结》的经历
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202307-com-0e50a4
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Sleep
+    title: ファミ通.com：『ポケモン スリープ』先行体験会リポート。新潟のキャンプ場でポケモンたちとなかよく1泊して睡眠データを計測！
+    period: '2023-07-13'
+    people:
+    - 开发方（未具名）
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/news/202307/13309542.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Sleep · ja · 原文在线。体验会报道附“开发问答”一节
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202307-itmedia-news-902445
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Sleep
+    title: ITmedia NEWS：20日配信の「ポケモンスリープ」、リリースはなぜ3年遅れた？ ポケモン社の担当者に聞いた
+    period: '2023-07-19'
+    people:
+    - 首藤まり江
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.itmedia.co.jp/news/article/2307/19/1230719150/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Sleep · ja · 原文在线。上线前一天的项目负责人访谈，解释延期三年的原因（海外广泛转引）
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202407-inside-2f8d3d
+    doc: web
+    group: interview
+    category: spinoff
+    work: ポケモンフレンダ
+    title: インサイド (Inside)：『ポケモンフレンダ』のタッチパネルにはワンダーが詰まっている―開発陣が語る後継機種への想い、『ポケモンメザスタ』からの進化とは【インタビュー】
+    period: '2024-07-20'
+    people:
+    - 大林武尊
+    - 杉山拓朗
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.inside-games.jp/article/2024/07/20/157594.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · ポケモンフレンダ · ja · 原文在线。街机线（Mezastar→Frienda）的开发访谈，站内街机作品零收录
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202412-com-3d9380
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Trading Card Game
+    title: ファミ通.com：【ポケカ】“テラスタルフェスex”収録のイーブイexにケーキが登場!? どうしてケーキがポケモンカードになったのか、株式会社ポケモン・石原社長とパティシエの庄司夏子さんに訊いてみた
+    period: '2024-12-06'
+    people:
+    - 石原恒和
+    - 庄司夏子
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/article/202412/26451
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Trading Card Game · ja · 原文在线。石原社长谈跨界插画卡企划，小众但有趣
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202412-com-e7f825
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Trading Card Game Pocket
+    title: ファミ通.com：『ポケポケ』バトルはスマホにあわせてシンプルな戦略性に。日常がちょっとだけ楽しくなるアプリとして、長期的な運営を目指す。ポケモン開発者にインタビュー
+    period: '2024-12-14'
+    people:
+    - 塙諒介
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/article/202412/27581
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Trading Card Game Pocket · ja · 原文在线。《宝可梦卡牌 Pocket》TPC 方总监的上线后访谈，站内仅有 CEDEC 讲座与官方专题
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-202510-dime-f6aa8a
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Trading Card Game Pocket
+    title: '@DIME：「ポケポケ」を生んだ株式会社ポケモン、株式会社クリーチャーズ、株式会社DeNA、その役割と開発の舞台裏'
+    period: '2025-10-27'
+    people:
+    - 株式会社ポケモン プロデューサー（未署名）
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://dime.jp/genre/2034894/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Trading Card Game Pocket · ja · 原文在线。梳理三社分工的杂志特稿（2025年11月号转载），仅一位未具名制作人发言
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202511-com-4cc3a3
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Sleep
+    title: ファミ通.com：【ポケスリ】『ポケモンスリープ』2周年とちょっとインタビュー！
+    period: '2025-11-13'
+    people:
+    - 高草真生
+    - 小澤菜朋
+    - 藤井亜未
+    - 宮原佑輔
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/article/202511/56559
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Sleep · ja · 原文在线。开发移交 Pokémon Works 京都工作室后的首篇团队访谈（兼招聘）
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202603-nintendo-life-9ea2f8
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Champions
+    title: 'Nintendo Life：Interview: How An Italian Lunch Led To The New Standard For Competitive Pokémon Battling'
+    period: '2026-03-25'
+    people:
+    - 星野正昭
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.nintendolife.com/features/interview-how-an-italian-lunch-led-to-the-new-standard-for-competitive-pokemon-battling
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Champions · en · 原文在线。英文问答式长访谈，讲述《Champions》立项缘起，与日媒报道视角不同
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202603-hypebeast-3b8967
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Champions
+    title: 'Hypebeast：Inside ‘Pokémon Champions’: Masaaki Hoshino on the Future of Pokémon Battles'
+    period: '2026-03-25'
+    people:
+    - 星野正昭
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://hypebeast.com/2026/3/pokemon-champions-demo-masaaki-hoshino-interview-info
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Champions · en · 原文在线。TPCi 总部试玩会上的圆桌问答，含中文版页面，便于对照翻译
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202603-gamesradar-b7cd21
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Champions
+    title: GamesRadar+：Pokemon Champions producer 'really enjoyed' the Pokemon Stadium games, and used them as a 'reference' to help more players get into PvP
+    period: '2026-03-25'
+    people:
+    - 星野正昭
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.gamesradar.com/games/pokemon/pokemon-champions-producer-really-enjoyed-the-pokemon-stadium-games-and-used-them-as-a-reference-to-help-more-players-get-into-pvp/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Champions · en · 原文在线。群访报道，谈《竞技场》系列对本作的参考；同一群访还拆出“与 GF 老牌战斗设计师争论删除机制”一文
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202605-com-45f6bd
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Champions
+    title: ファミ通.com：『ポケモンチャンピオンズ』プロデューサー・星野正昭氏インタビュー。ポケモン&持ち物の追加タイミングやシングルバトル公式大会の開催など新情報公開! 時間切れ時の引き分けについても言及
+    period: '2026-05-13'
+    people:
+    - 星野正昭
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.famitsu.com/article/202605/74600
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Champions · ja · 原文在线。站内已收 Fami通 星野访谈第1篇(03/69795)与第2篇(08/83825)，缺中间这篇5月访谈，补齐系列
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-202609-serebii-net-931d12
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Champions
+    title: Serebii.net：Pokémon Champions - Interview with Masaaki Hoshino
+    period: '2026-09-07'
+    people:
+    - 星野正昭
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://serebii.net/interviews/pokemonchampions-hoshino-september2026.shtml
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Champions · en · 原文在线。2026 世锦赛媒体圆桌纪要，涵盖上线后运营、新手引导与单人内容
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202609-vgc-video-games-chro-454272
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon Champions
+    title: VGC (Video Games Chronicle)：Pokémon Champions' director vows to keep turn-based battles as single-player is ruled out
+    period: '2026-09-07'
+    people:
+    - 星野正昭
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.videogameschronicle.com/features/pokemon-champions-director-vows-to-keep-turn-based-battles-as-single-player-is-ruled-out/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon Champions · en · 原文在线。世锦赛期间 VGC 访谈，明确回合制与不做单人模式的方针
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-约 2017-vice-waypoint-5449bc
+    doc: web
+    group: interview
+    category: spinoff
+    work: Pokémon GO
+    title: 'VICE Waypoint：Success and Server Distress: Discussing ''Pokémon Go'' with Niantic''s John Hanke'
+    period: 约 2017-02
+    people:
+    - John Hanke
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://waypoint.vice.com/en_us/article/day-one-success-and-server-distress-discussing-pokemon-go-with-niantics-john-hanke
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · Pokémon GO · en · 原文在线。回顾首发服务器危机与半年运营
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-约1998（无-n64-d57d3c
+    doc: web
+    group: interview
+    category: spinoff
+    work: ピカチュウげんきでちゅう
+    title: 任天堂官网 N64 商品页：ピカチュウげんきでちゅう／プロデューサーからのコメント
+    period: 约1998（无日期）
+    people:
+    - 石原恒和
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.nintendo.co.jp/n01/n64/software/nus_p_npgj/produ/index.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · ピカチュウげんきでちゅう · ja · 原文在线。任天堂官网仍在线的石原问答（基础篇/应用篇），讲解语音识别玩法，站内该作零收录
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-约1998（无-n64-fcd0a4
+    doc: web
+    group: interview
+    category: spinoff
+    work: ピカチュウげんきでちゅう
+    title: 任天堂官网 N64 商品页：ピカチュウげんきでちゅう／開発者からのコメント
+    period: 约1998（无日期）
+    people:
+    - アンブレラ開発スタッフ（未具名）
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.nintendo.co.jp/n01/n64/software/nus_p_npgj/kaihatsu/index.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 旁支作品 · ピカチュウげんきでちゅう · ja · 原文在线。开发商 Umbrella 自述用秋叶原零件做原型、皮卡丘入选主角的经过
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201503-2015-3-175-5fd31d
+    doc: print
+    group: interview
+    category: anime
+    work: ポケットモンスター XY（TV）
+    title: 'アニメージュ 2015年3月号「この人に話を聞きたい」第175回（Dogasu英訳）：Animage Interview: Masaaki Iwane'
+    period: 2015-03
+    people:
+    - 岩根雅明
+    site: placeholder
+    links:
+    - label: 出处/转录
+      url: https://dogasu.bulbagarden.net/features/translations/animage_masaaki_iwane.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター XY（TV） · en (translation of ja print) · 纸本，链接为书目或转录。传奇作画监督谈单人包揽原画、超级进化特别篇及作画张数分配
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201601-cgworld-jp-0eb1f9
+    doc: web
+    group: interview
+    category: anime
+    work: ポケットモンスター XY&Z（TV）
+    title: CGWORLD.jp：先を見据えて挑む デジタル作画プロジェクト（事例『ポケットモンスターXY＆Z』：オー・エル・エム）
+    period: '2016-01-27'
+    people:
+    - オジング
+    - 室岡辰一
+    - 加藤浩幸
+    - 小川智樹
+    - 四倉達夫
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://cgworld.jp/feature/cgw209t1-olm.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター XY&Z（TV） · ja · 原文在线。日文版OLM数字作画转型案例（「パフォーマー通信」等），与Animationweek互补
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201608-animationweek-10f0ff
+    doc: web
+    group: interview
+    category: anime
+    work: ポケットモンスター XY&Z（TV, OLM制作体制）
+    title: 'Animationweek：Behind the story of Pokémon: 2D digital production in Japan [Part 1]'
+    period: '2016-08-29'
+    people:
+    - 加藤浩幸
+    - 四倉達夫
+    - 室岡辰一
+    - 小川智樹
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://animation-week.com/pokemon-2d-digital-1/
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター XY&Z（TV, OLM制作体制） · en · 原文在线。OLM宝可梦组谈2015年导入Toon Boom Harmony、自制日文手册与保留手绘感
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-201609-animationweek-4a1bd4
+    doc: web
+    group: interview
+    category: anime
+    work: ポケットモンスター XY&Z（TV, OLM制作体制）
+    title: 'Animationweek：Behind the story of Pokémon: Meeting the Challenge of 2D digital production... <Part 2>'
+    period: '2016-09-26'
+    people:
+    - 加藤浩幸
+    - 四倉達夫
+    - 室岡辰一
+    - 小川智樹
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://animation-week.com/pokemon-2d-digital-2/
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター XY&Z（TV, OLM制作体制） · en · 原文在线。续篇：数字化的效率、成本、远程协作与纸张的去留
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-201705-2017-5-5846dd
+    doc: print
+    group: interview
+    category: anime
+    work: ポケットモンスター サン&ムーン（TV）
+    title: 'アニメージュ 2017年5月号（Dogasu英訳）：Animage Feature: Satoshi Nakano'
+    period: 2017-05
+    people:
+    - 中野悟史
+    site: placeholder
+    links:
+    - label: 出处/转录
+      url: https://dogasu.bulbagarden.net/features/translations/animage_satoshi_nakano.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター サン&ムーン（TV） · en (translation of ja print) · 纸本，链接为书目或转录。日月角色设计中野谈画风大改：为可变形、易简化而设计
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-202005-2020-6-cc533f
+    doc: print
+    group: interview
+    category: anime
+    work: ポケットモンスター（2019, 新無印）
+    title: アニメディア 2020年6月号（Dogasu's Backpack 英訳）：Animedia June 2020 Daiki Tomiyasu Interview
+    period: '2020-05-09'
+    people:
+    - 冨安大貴
+    site: placeholder
+    links:
+    - label: 出处/转录
+      url: https://dogasu.bulbagarden.net/features/translations/animedia_june2020_daiki_tomiyasu.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター（2019, 新無印） · en (translation of ja print) · 纸本，链接为书目或转录。新无印总导演谈小智与小豪的成长、丹帝与奇巴纳的设计与选角
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202006-spoon-2di-vol-63-5482c5
+    doc: print
+    group: interview
+    category: anime
+    work: ポケットモンスター（2019, 新無印）
+    title: spoon.2Di vol.63（Dogasu's Backpack 英訳）：Interview with Tomoya Negishi
+    period: '2020-06-30'
+    people:
+    - 根岸智也
+    site: placeholder
+    links:
+    - label: 出处/转录
+      url: https://dogasu.bulbagarden.net/features/translations/spoon_2di_issue-063.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター（2019, 新無印） · en (translation of ja print) · 纸本，链接为书目或转录。疫情停播复播后制片人谈23–26话、后续劲敌与传说剧情及制作方式调整
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202308-full-frontal-fullfro-676d2a
+    doc: web
+    group: interview
+    category: anime
+    work: ポケットモンスター サン&ムーン（TV）
+    title: Full Frontal (fullfrontal.moe)："I was happy to just work with Yuasa" – Satoshi Nakano interview
+    period: '2023-08-27'
+    people:
+    - 中野悟史
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://fullfrontal.moe/nakano
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター サン&ムーン（TV） · en · 原文在线。约三分之一篇幅谈OLM时代宝可梦工作与日月角色设计
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202403-variety-fb882e
+    doc: web
+    group: interview
+    category: anime
+    work: ポケットモンスター（2023, リコとロイ／Horizons）
+    title: Variety：'Pokémon Horizons' Team Talks Netflix Debut, First Female Protagonist and Saying Farewell to Ash Ketchum
+    period: '2024-03-07'
+    people:
+    - Andy Gose
+    - Taito Okiura
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://variety.com/2024/tv/news/pokemon-horizons-netflix-ash-ketchum-1235927798/
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター（2023, リコとロイ／Horizons） · en · 原文在线。TPCi谈为何换上莉可与罗伊、首位女主角、小智故事「暂停」
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202405-tv-movie-tvmovie-de-038479
+    doc: web
+    group: interview
+    category: anime
+    work: ポケットモンスター（2023, リコとロイ／Horizons）
+    title: 'TV Movie (tvmovie.de)：„Pokémon Horizonte: Die Serie“: Das sollen die Hauptfiguren nach Ash schaffen | Interview'
+    period: '2024-05-14'
+    people:
+    - Andy Gose
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.tvmovie.de/news/pokemon-horizonte-die-serie-das-sollen-die-hauptfiguren-nach-ash-schaffen-interview-141258
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター（2023, リコとロイ／Horizons） · de · 原文在线。德语专访：新主角定位、动画与叙事革新、粉丝反应
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202601-cgworld-jp-caecf0
+    doc: web
+    group: interview
+    category: anime
+    work: ポケットモンスター（2023, リコとロイ）
+    title: CGWORLD.jp：テレビアニメ『ポケットモンスター』主人公たちの飛行船「ブレイブアサギ号」のCGメイキングを解説！ 〜No.1／デザイン＆モデリング篇
+    period: '2026-01-27'
+    people:
+    - 川崎崇由
+    - 高橋峻
+    - 矢伏勇貴
+    - 谷﨑咲織
+    - 芦田徳之
+    - 髙尾克己
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://cgworld.jp/article/animecg136-pokemon01.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター（2023, リコとロイ） · ja · 原文在线。新系列飞行船勇气浅葱号3DCG制作（OLM Digital），全3回之1
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202601-cgworld-jp-60f351
+    doc: web
+    group: interview
+    category: anime
+    work: ポケットモンスター（2023, リコとロイ）
+    title: CGWORLD.jp：〜No.2／ギミック篇（ブレイブアサギ号CGメイキング）
+    period: '2026-01-28'
+    people:
+    - 川崎崇由
+    - 高橋峻
+    - 矢伏勇貴
+    - 谷﨑咲織
+    - 芦田徳之
+    - 髙尾克己
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://cgworld.jp/article/animecg136-pokemon02.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター（2023, リコとロイ） · ja · 原文在线。全3回之2：机关与可动结构
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202601-cgworld-jp-9b088c
+    doc: web
+    group: interview
+    category: anime
+    work: ポケットモンスター（2023, リコとロイ）
+    title: CGWORLD.jp：〜No.3／カット制作篇（ブレイブアサギ号CGメイキング）
+    period: '2026-01-29'
+    people:
+    - 川崎崇由
+    - 高橋峻
+    - 矢伏勇貴
+    - 谷﨑咲織
+    - 芦田徳之
+    - 髙尾克己
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://cgworld.jp/article/animecg136-pokemon03.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター（2023, リコとロイ） · ja · 原文在线。全3回之3：镜头制作
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-c.2001-web-3543f3
+    doc: print
+    group: interview
+    category: anime
+    work: ポケットモンスター（オレンジ諸島編）
+    title: 『ジス・イズ・アニメーション ポケットモンスター オレンジ諸島編 スーパーアニメガイド』（Dogasu英訳）：A Special Interview with the Associate Producer of the Pocket Monsters animated series, Mr. Chouji Yoshikawa
+    period: c.2001
+    people:
+    - 吉川兆二
+    site: placeholder
+    links:
+    - label: 出处/转录
+      url: https://dogasu.bulbagarden.net/features/memorial_book_orange_islands_chouji_yoshikawa.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: TV 动画 · ポケットモンスター（オレンジ諸島編） · en (translation of ja print) · 纸本，链接为书目或转录。早期动画副制片人谈橘子群岛篇意图与金银篇预告，初代动画制作层面稀有一手资料
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201207-oricon-news-2ed5f0
+    doc: web
+    group: interview
+    category: movie
+    work: 劇場版ポケットモンスター（15周年）
+    title: ORICON NEWS：ギネス記録も! 数字で振り返る『ポケモン映画』の15年
+    period: '2012-07-13'
+    people:
+    - 湯山邦彦
+    - 山寺宏一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.oricon.co.jp/news/2014270/full/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 劇場版ポケットモンスター（15周年） · ja · 原文在线。剧场版15周年对谈，汤山与全勤出演的山寺宏一回顾系列观众数、票房等里程碑
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201707-oricon-news-7608c9
+    doc: web
+    group: interview
+    category: movie
+    work: 劇場版ポケットモンスター キミにきめた！(M20)
+    title: ORICON NEWS：ポケモン映画20周年記念作をより楽しむ7つのトリビア
+    period: '2017-07-22'
+    people:
+    - 湯山邦彦
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.oricon.co.jp/news/2094540/full/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 劇場版ポケットモンスター キミにきめた！(M20) · ja · 原文在线。汤山邦彦讲解M20平行世界设定等幕后细节（访谈整理成趣闻形式）
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201707-web-ff55ed
+    doc: web
+    group: interview
+    category: movie
+    work: 劇場版ポケットモンスター キミにきめた！(M20)
+    title: シネマトゥデイ：『ポケモン』映画、なぜ20作目で“原点”描いた？監督の答え
+    period: '2017-07-23'
+    people:
+    - 湯山邦彦
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.cinematoday.jp/news/N0093031
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 劇場版ポケットモンスター キミにきめた！(M20) · ja · 原文在线。汤山邦彦亲述20周年剧场版为何回到第一集原点、重塑小智形象
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201807-web-11c9f6
+    doc: web
+    group: interview
+    category: movie
+    work: 劇場版ポケットモンスター みんなの物語(M21)
+    title: ねとらぼ（ITmedia）：新たな一歩を踏み出すポケモン映画――史上初、監督のバトンを渡された矢嶋哲生は何を受け継ぎ変えていくのか
+    period: '2018-07-12'
+    people:
+    - 矢嶋哲生
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://nlab.itmedia.co.jp/cont/articles/3280629/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 劇場版ポケットモンスター みんなの物語(M21) · ja · 原文在线。剧场版首次更换导演，矢嶋哲生谈从汤山手中接棒后继承与改变什么
+    priority: S
+    checked: '2026-11-28'
+
+  - id: web-201812-movie-walker-press-5144da
+    doc: web
+    group: interview
+    category: movie
+    work: 名探偵ピカチュウ（実写, 2019）
+    title: MOVIE WALKER PRESS：ハリウッド実写版『名探偵ピカチュウ』はオッサン!? 監督＆主演が語るポケモン世界の秘密
+    period: '2018-12-20'
+    people:
+    - Rob Letterman
+    - Justice Smith
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://press.moviewalker.jp/news/article/172501/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 名探偵ピカチュウ（実写, 2019） · ja · 原文在线。东京Comic Con期间导演与主演谈剧本如何调整蒂姆与皮卡丘的搭档关系
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201903-anime-news-network-696c64
+    doc: web
+    group: interview
+    category: movie
+    work: 劇場版ポケットモンスター みんなの物語(M21)
+    title: 'Anime News Network：Interview: Pokémon the Movie: The Power of Us Character Designer Shizue Kaneko'
+    period: '2019-03-15'
+    people:
+    - 金子志津枝
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.animenewsnetwork.com/interview/2019-03-15/pokemon-the-movie-the-power-of-us-character-designer-shizue-kaneko/.144267
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 劇場版ポケットモンスター みんなの物語(M21) · en · 原文在线。M21角色设计金子志津枝谈设计思路、与导演及色彩设计的协作
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201904-web-cdcde9
+    doc: web
+    group: interview
+    category: movie
+    work: 名探偵ピカチュウ（実写, 2019）
+    title: シネマトゥデイ：実写版ピカチュウはこうして生まれた！表情までライアン・レイノルズ
+    period: '2019-04-27'
+    people:
+    - Rob Letterman
+    - Justice Smith
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.cinematoday.jp/news/N0108373
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 名探偵ピカチュウ（実写, 2019） · ja · 原文在线。导演说明与宝可梦公司、Game Freak、杉森建花一年打磨实写皮卡丘设计
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201905-the-beat-comics-beat-d60fd4
+    doc: web
+    group: interview
+    category: movie
+    work: 名探偵ピカチュウ（実写, 2019）
+    title: 'The Beat (Comics Beat)：INTERVIEW: POKÉMON: DETECTIVE PIKACHU Director Rob Letterman on turning Ryan Reynolds into a Pokémon'
+    period: '2019-05-08'
+    people:
+    - Rob Letterman
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.comicsbeat.com/pokemon-director-rob-letterman-interview
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 名探偵ピカチュウ（実写, 2019） · en · 原文在线。游戏改编、面部捕捉录音流程与杉森建参与的设计过程
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201905-cbr-b8f239
+    doc: web
+    group: interview
+    category: movie
+    work: 名探偵ピカチュウ（実写, 2019）
+    title: CBR：Detective Pikachu Director Promises, His Movie is for Pokémon Fans
+    period: '2019-05-08'
+    people:
+    - Rob Letterman
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.cbr.com/interview-detective-pikachu-director-rob-letterman-pokemon/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 名探偵ピカチュウ（実写, 2019） · en · 原文在线。宝可梦造型开发、实拍与CG融合、陪伴主题
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201905-web-738e07
+    doc: web
+    group: interview
+    category: movie
+    work: 名探偵ピカチュウ（実写, 2019）
+    title: マイナビニュース：『名探偵ピカチュウ』監督が太鼓判! 竹内涼真は「ハリウッドスターの素質ある」
+    period: '2019-05-09'
+    people:
+    - Rob Letterman
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://news.mynavi.jp/article/20190509-820510/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 名探偵ピカチュウ（実写, 2019） · ja · 原文在线。日媒单独专访，导演谈宝可梦情结与写实CG制作
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201905-film-slashfilm-cc6c3f
+    doc: web
+    group: interview
+    category: movie
+    work: 名探偵ピカチュウ（実写, 2019）
+    title: /Film (SlashFilm)：'Detective Pikachu' Director Rob Letterman On How To Catch All Of The Pokemon Appearances And Easter Eggs [Interview]
+    period: '2019-05-09'
+    people:
+    - Rob Letterman
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.slashfilm.com/566279/rob-letterman-interview-detective-pikachu/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 名探偵ピカチュウ（実写, 2019） · en · 原文在线。导演谈东京风黑色电影美术与片中彩蛋（含致敬初代剧场版）
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201905-web-a50ed9
+    doc: web
+    group: interview
+    category: movie
+    work: 名探偵ピカチュウ（実写, 2019）
+    title: ニューズウィーク日本版：フィルムノワールから生まれた、実写版ポケモンの古くて新しい世界
+    period: '2019-05-23'
+    people:
+    - Rob Letterman
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.newsweekjapan.jp/articles/-/33653
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 名探偵ピカチュウ（実写, 2019） · ja · 原文在线。以黑色电影为切入点谈实写宝可梦世界观及瑞安·雷诺兹选角
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201905-cartoon-brew-513655
+    doc: web
+    group: interview
+    category: movie
+    work: 名探偵ピカチュウ（実写, 2019）
+    title: Cartoon Brew：'Detective Pikachu' VFX Supervisor Erik Nordby On The Huge Challenge Of Translating Pokémon Into CG
+    period: '2019-05-30'
+    people:
+    - Erik Nordby
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.cartoonbrew.com/interviews/detective-pikachu-vfx-supervisor-erik-nordby-on-the-huge-challenge-of-translating-pokemon-into-cg-174100.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 名探偵ピカチュウ（実写, 2019） · en · 原文在线。VFX总监详解60余只宝可梦CG化：保持剪影、与宝可梦公司多阶段审批、真实材质参考
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-201906-toho-kingdom-142661
+    doc: web
+    group: interview
+    category: movie
+    work: 名探偵ピカチュウ（実写, 2019）
+    title: Toho Kingdom：Rob Letterman Interview
+    period: '2019-06-23'
+    people:
+    - Rob Letterman
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.tohokingdom.com/blog/rob-letterman-interview/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 名探偵ピカチュウ（実写, 2019） · en · 原文在线。电话专访：皮卡丘一年设计期、与雷诺兹的剧本工作坊
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-201907-game-informer-ba482c
+    doc: web
+    group: interview
+    category: movie
+    work: 名探偵ピカチュウ（実写, 2019）
+    title: Game Informer：Pokémon Goes Hollywood
+    period: '2019-07-23'
+    people:
+    - Rob Letterman
+    - Cale Boyter
+    - Ben Collins
+    - Greg Baxter
+    - Justice Smith
+    - Kathryn Newton
+    - 増田順一
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.gameinformer.com/feature/2019/07/23/pokemon-goes-hollywood
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 名探偵ピカチュウ（実写, 2019） · en · 原文在线。2018年伦敦片场探班长篇，美术、制片、VFX与增田顺一多方受访
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202011-movie-walker-press-f02ffb
+    doc: web
+    group: interview
+    category: movie
+    work: ミュウツーの逆襲 / 劇場版シリーズ
+    title: MOVIE WALKER PRESS：「ポケモン」サトシ役の松本梨香「死ぬまで“ゲットだぜ！”と言っていきたい」23年間、忘れない初心
+    period: '2020-11-01'
+    people:
+    - 湯山邦彦
+    - 久保雅一
+    - 松本梨香
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://press.moviewalker.jp/news/article/1009351/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · ミュウツーの逆襲 / 劇場版シリーズ · ja · 原文在线。第33届东京国际电影节宝可梦特集上映会，汤山与久保雅一回顾初代剧场版（活动报道，非完整访谈）
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202012-web-67c16a
+    doc: web
+    group: interview
+    category: movie
+    work: 劇場版ポケットモンスター ココ(M23)
+    title: シネマトゥデイ：なぜポケモンを父親に設定？ポケモン映画『ココ』矢嶋哲生監督が明かす制作裏話
+    period: '2020-12-23'
+    people:
+    - 矢嶋哲生
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.cinematoday.jp/news/N0120678
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 劇場版ポケットモンスター ココ(M23) · ja · 原文在线。矢嶋谈萨戮德设定为父亲的原因、选角与丛林取材
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202012-oricon-news-f46c2e
+    doc: web
+    group: interview
+    category: movie
+    work: 劇場版ポケットモンスター ココ(M23)
+    title: ORICON NEWS：（矢嶋哲生監督インタビュー／劇場版ポケットモンスター ココ）
+    period: '2020-12-24'
+    people:
+    - 矢嶋哲生
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.oricon.co.jp/news/2179930/full/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 剧场版 · 劇場版ポケットモンスター ココ(M23) · ja · 原文在线。问答式访谈：导演以自身育儿经验构思「宝可梦×人类」亲子主题，并首次提及小智父亲
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-2020-pok-mon-com-8d2f41
+    doc: web
+    group: interview
+    category: other_video
+    work: 薄明の翼
+    title: 'Pokémon.com（日本語原文は公式サイト、2020-09-26にSakuga Blogが英訳）：Meet the Director and Assistant Director behind Pokémon: Twilight Wings'
+    period: '2020'
+    people:
+    - 山下清悟
+    - 渡辺葉
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.pokemon.com/uk/pokemon-news/meet-the-director-and-assistant-director-behind-pokemon-twilight-wings
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · 薄明の翼 · en · 原文在线。导演山下清悟（后执导POKÉTOON新篇）谈原画主导的制作、各话串联结构
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202011-pok-mon-com-e15066
+    doc: web
+    group: interview
+    category: other_video
+    work: 薄明の翼
+    title: 'Pokémon.com：Meet Mizutamari Higashi, the Illustrator behind Pokémon: Twilight Wings'
+    period: '2020-11-17'
+    people:
+    - みずたまりひがし
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.pokemon.com/uk/pokemon-news/meet-mizutamari-higashi-the-illustrator-behind-pokemon-twilight-wings
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · 薄明の翼 · en · 原文在线。《薄明之翼》四篇主创访谈之一：概念美术/色彩脚本
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202011-pok-mon-com-550ae3
+    doc: web
+    group: interview
+    category: other_video
+    work: 薄明の翼
+    title: 'Pokémon.com：Meet Sou Kinoshita, the Screenwriter behind Pokémon: Twilight Wings'
+    period: '2020-11-18'
+    people:
+    - 木下草
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.pokemon.com/us/pokemon-news/meet-sou-kinoshita-the-screenwriter-behind-pokemon-twilight-wings/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · 薄明の翼 · en · 原文在线。编剧谈把大纲扩写成全7话剧本、约翰等原创角色
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202011-pok-mon-com-1e0d0b
+    doc: web
+    group: interview
+    category: other_video
+    work: 薄明の翼
+    title: 'Pokémon.com：Meet Conisch, the Composer behind Pokémon: Twilight Wings'
+    period: '2020-11-19'
+    people:
+    - conisch
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.pokemon.com/uk/pokemon-news/meet-conisch-the-composer-behind-pokemon-twilight-wings
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · 薄明の翼 · en · 原文在线。作曲谈角色动机（如露璃娜）与古典风片尾曲
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202201-pok-mon-com-e7f54f
+    doc: web
+    group: interview
+    category: other_video
+    work: ポケモンエボリューションズ
+    title: Pokémon.com（PocketMonsters.net転載）：An Interview with the Producer of Pokémon Evolutions
+    period: '2022-01-07'
+    people:
+    - Andy Gose
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.pocketmonsters.net/index.php/content/Interview_Pokemon_Evolutions
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · ポケモンエボリューションズ · en · 原文在线。25周年短篇的选题、视觉风格与配乐
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202310-web-bf60ce
+    doc: web
+    group: interview
+    category: other_video
+    work: ポケットに冒険をつめこんで（テレビ東京ドラマ）
+    title: シネマトゥデイ：『ポケモン』原案ドラマ、制作陣が込めたポケモン愛 「ポケットに冒険をつめこんで」目指すは“夜の朝ドラ”
+    period: '2023-10-19'
+    people:
+    - 畑中翔太
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.cinematoday.jp/news/N0139429
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · ポケットに冒険をつめこんで（テレビ東京ドラマ） · ja · 原文在线。宝可梦原案深夜真人剧企划/编剧/制片谈创作与游戏梗融入
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202312-animation-magazine-f9331b
+    doc: web
+    group: interview
+    category: other_video
+    work: ポケモンコンシェルジュ（Netflix）
+    title: Animation Magazine：Gotta Host 'Em All! 'Pokémon Concierge' Offers a Softer, Stop-Motion View of the Pocket Monster World
+    period: '2023-12-26'
+    people:
+    - 小川育
+    - のん
+    - Minyoung Kim（Netflix）
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://animationmagazine.net/2023/12/gotta-host-em-all-pokemon-concierge-offers-a-softer-stop-motion-view-of-the-pocket-monster-world
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · ポケモンコンシェルジュ（Netflix） · en · 原文在线。含导演、主演及Netflix高层引语的制作特稿
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202312-kakuchopurei-19ab9d
+    doc: web
+    group: interview
+    category: other_video
+    work: ポケモンコンシェルジュ（Netflix）
+    title: Kakuchopurei：Pokémon Concierge Director On His Favourite Pokémon In Stop-Motion Animation
+    period: '2023-12-29'
+    people:
+    - 小川育
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://www.kakuchopurei.com/2023/12/pokemon-concierge-director-iku-ogawa-interview/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · ポケモンコンシェルジュ（Netflix） · en · 原文在线。导演谈无对战日常题材的构想
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202312-web-ab951e
+    doc: web
+    group: interview
+    category: other_video
+    work: ポケモンコンシェルジュ（Netflix）
+    title: アニメ！アニメ！：「ポケモンコンシェルジュ」Netflixで配信開始！ コダックの魅力を引き出す工夫とは… 制作裏に迫るメイキング動画公開
+    period: '2023-12-29'
+    people:
+    - 小川育
+    - 上杉忠弘
+    - 原田脩平（dwarf）
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://animeanime.jp/article/2023/12/29/82080.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · ポケモンコンシェルジュ（Netflix） · ja · 原文在线。导演、概念设计上杉忠弘与dwarf人偶制作者谈可达鸭造型（新闻稿式引语）
+    priority: B
+    checked: '2026-11-28'
+
+  - id: web-202401-variety-96abfd
+    doc: web
+    group: interview
+    category: other_video
+    work: ポケモンコンシェルジュ（Netflix）
+    title: Variety（Yahoo転載）：'Pokémon Concierge' Team Talks Crafting Netflix's Most Adorable Show and Which Pokémon Was the Hardest to Make
+    period: '2024-01-25'
+    people:
+    - 小川育
+    - 片上秀長
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://ca.news.yahoo.com/pok-mon-concierge-team-talks-164500225.html
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · ポケモンコンシェルジュ（Netflix） · en · 原文在线。导演与宝可梦公司片上秀长谈定格动画选择、宝可梦选角、皮卡丘最难做
+    priority: A
+    checked: '2026-11-28'
+
+  - id: web-202509-otocoto-c10709
+    doc: web
+    group: interview
+    category: other_video
+    work: ポケモンコンシェルジュ（Netflix）
+    title: otocoto（池ノ辺直子の「映画は愛よ！」）：小川育 監督が語る ストップモーション最新作の舞台裏 Netflixシリーズ「ポケモンコンシェルジュ」
+    period: '2025-09-29'
+    people:
+    - 小川育
+    site: placeholder
+    links:
+    - label: 原文
+      url: https://otocoto.jp/interview/ikenobe273/
+    posts: []
+    need: 正文翻译与原文对照
+    note: 其他影像 · ポケモンコンシェルジュ（Netflix） · ja · 原文在线。日文长篇导演访谈：为何用定格动画、如何兼顾新鲜感与既有宝可梦形象
+    priority: S
+    checked: '2026-11-28'
 
 # 文档中不占位的内容（按文档 §0 的收录原则）：
 excluded:
